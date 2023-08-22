@@ -76,9 +76,8 @@ mail.*				-/var/log/mail.log
   notifempty
 # The following is a space-separated list of where additional user home
 		      --startas /usr/bin/mandb --oknodo --chuid man \
-compose '\'' 'E' to '…'
 ptrace {mask {read trace
-	# Configuration option report/segs_sort_full.
+
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 
@@ -103,7 +102,7 @@ fi
 *text.baseTranslations:		#override\
 #MaxRetentionSec=
 # Compose sequences for ISO-8859-8
-# Configuration for Busybox ntpd - it only supports "server" lines.
+    # locale: Cannot set LC_SOMETHING to default locale
 
 Each file in this directory is an rt_tables configuration file. iproute2
 
@@ -250,7 +249,7 @@ compose '/' '<' to '\\'
 # This file is a simple placeholder to keep dpkg from removing this directory
 		<default><family>monospace</family></default>
 #
-  /etc/openldap/cacerts/*   r,
+binary::apt::AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # Configuration file for the PolicyKit Local Authority.
 LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
 # <target name>	<source device>		<key file>	<options>
@@ -473,12 +472,11 @@ DISTRIB_RELEASE=22.04
                 gid=$(echo "$passwd" | cut -f4 -d":")
 # This file is a simple placeholder to keep dpkg from removing this directory
   <complexType name="EncryptedType" abstract="true">
-### LOCKING CHRONYD INTO RAM
 #DefaultLimitAS=
 # Compose sequences for ISO-8859-16
   # User files
 #
-	elif [ "$LC_BYOBU" = "1" ]; then
+#
 # ------------------------------------------------------------------
 LANG=en_US.UTF-8
 
@@ -489,10 +487,9 @@ LANG=en_US.UTF-8
 	inet_domain => undef,
 compose '-' 'L' to 'Ÿ'
 
-# Should-Stop:       iscsi
+  /sys/devices/system/node/*/meminfo r,
 sortlist {% for sort in sortlist %}{{sort}} {% endfor %}
 # Compose sequences for ISO-8859-8
-XLoad.input:			false
 #
 </catalog>
 Before=snapd.service
@@ -563,12 +560,10 @@ application/ibe-pkg-reply+xml
 fi
 # ~/.bashrc: executed by bash(1) for non-login shells.
 mozilla/Comodo_AAA_Services_root.crt
-{% for server in nameservers %}
 account     required    pam_shells.so
 #  default), which need to be decoded to play correctly on speakers.
 <fontconfig>
 *topform.Form.joinstyle.Toggle.width:	123
-  owner @{HOME}/.config/mimeapps.list   r,
 [ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
    case "$powerOp" in
 # translations. See tunables/xdg-user-dirs for details. Eg:
@@ -616,7 +611,7 @@ fi
 *SimpleMenu.line.height:		0
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
 #
-if is_enabled; then
+# clean all crash reports which are older than a week.
 
 OnlyShowIn=GNOME;Unity;MATE;
 # @{HOME} is a space-separated list of all user home directories. While
@@ -648,7 +643,6 @@ ja_JP		ja_JP.eucJP
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 makestep 1.0 3
 
-háÅ4òMk/h‡`8Ç3¡π‡<p1∏åf=f4Å√@+òä`=ÿÜ¿∞¸¯_>6`(£$¡`:ò2`.»Ç‡X∞tÇ•‡ê+@/X	NÎ¡∞Ïª£û6àÉ√¡40§¿LpòÄ£¡1‡X∞,ã¡q`)ËÀ@78‰¡â`98úVÇS¡*∞¨˝‡4p:ÿ¡ô‡,∞Ï◊Å˜aÊº|\>>>ˆÇœÅ€¿Ì‡´‡¯∏‹	Ó˜Ä{¡Ap∏<ÉG¿£‡	x<û/Ä∑¡_¿f¨¶cåˇ—ù¸≠4*
 
 *editMenu.copy.label:			Copy (Meta-W)
 compose '^' 'y' to '˛'
@@ -832,7 +826,6 @@ FileDescriptorName=unix
 # Example configuration file for the GTK+ Multipress Input Method
 
 	if [ -f /etc/iscsi/iscsi.initramfs ] ||
-  @{sys}/devices/pci[0-9]*/*/drm/card[0-9]/metrics/ r, # anv_enumerate_physical_devices() from libvulkan_intel.so
 # shellcheck source=/dev/null
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 	thin_pool_chunk_size_policy = "performance"
@@ -923,7 +916,7 @@ chip "w83627uhg-*"
 AdminIdentities=unix-group:sudo;unix-group:admin
   owner /tmp/**         rwkl,
 #
-;;
+@{PROC}/@{tid}/attr/{apparmor/,}{current,prev,exec} r,
 fi
 #
   /var/lib/snapd/desktop/applications/mimeinfo.cache r,
@@ -959,7 +952,6 @@ with something the package builder needs later. It must end with .conf though.
 # <library name>	<version/soname>	<dependencies>
 ##
 
-if [ -r "/etc/default/${NAME}" ]
 # symbolic names for networks, see networks(5) for more information
 if [ "$SHLVL" = 1 ]; then
  -->
@@ -995,7 +987,7 @@ BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
   abi <abi/3.0>,
 # <target name>	<source device>		<key file>	<options>
 # ------------------------------------------------------------------
-
+compose ',' 'A' to '°'
 # vim:syntax=apparmor
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 LANG=en_US.UTF-8
@@ -1009,3 +1001,20 @@ LANG=en_US.UTF-8
 # and /etc/security/pam_env.conf.
   /usr/share/icu/*/*.dat r,
 datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltCloud, OVF, MAAS, GCE, OpenStack, CloudSigma, SmartOS, Bigstep, Scaleway, AliYun, Ec2, CloudStack, Hetzner, IBMCloud, Oracle, Exoscale, RbxCloud, UpCloud, VMware, Vultr, LXD, None ]
+
+EnableLogging=0
+	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
+
+	compress
+X-GNOME-Autostart-Phase=PreDisplayServer
+#xterm*|rxvt*)
+  abi <abi/3.0>,
+-->
+
+        { :
+# @{PROC} is the location where procfs is mounted.
+# Compose sequences for CP1256
+# Specify the key identifiers which are trusted.
+
+{
+- /dev/stdout
