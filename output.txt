@@ -28,7 +28,7 @@ net.ipv6.conf.all.use_tempaddr = 0
 	command_log_selection="!(log_type=status && message=success)"
 # Compose sequences for ISO-8859-6
 # automatically mounted on systems running sysvinit. This setting is
-  # special attention to (potentially) executable files
+
 AdminIdentities=unix-group:sudo;unix-group:admin
 
 
@@ -109,7 +109,7 @@ fi
 *text.baseTranslations:		#override\
 
 # Compose sequences for ISO-8859-8
-.  \" Debian: Map \(oq to ' rather than ` in nroff mode for devices other
+# Configuration for Busybox ntpd - it only supports "server" lines.
 
 Each file in this directory is an rt_tables configuration file. iproute2
 
@@ -175,8 +175,6 @@ server {{server}} iburst
 #ifdef COLOR
 			<family>Artsounk</family> <!-- armenian -->
 # Note that /etc/iscsi/iscsi.initramfs must exist for this option to
-post-start script
-
 fi
   DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
 # dpkg configuration file
@@ -221,7 +219,7 @@ include <abstractions/apparmor_api/introspect>
 
 
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
-*Toggle.displayList:			foreground rgb:4/6/4;draw-rect 1,1,-2,-2;foreground rgb:8/a/8;draw-rect 0,0,-1,-1
+#   # Only allow to handle http[s]: and mailto: links
 commands scan this directory processing all files that end in '.conf'.
 
 # it under the terms of the GNU Lesser General Public License as published by
@@ -272,7 +270,6 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 {% for server in servers -%}
         child is required
 /var/log/boot.log
-  /usr/bin/ r,
 application/vnd.nokia.landmark+xml
             Location: http://docs.oasis-open.org/security/saml/v2.0/
 tty:x:5:
@@ -313,7 +310,6 @@ Ubuntu 22.04.2 LTS
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
     owner @{HOME}/.cache/pocl/kcache/tempfile*.so rw,
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
-		log_progress_msg "(not running)" || true
 # (Replaces /etc/login.access file)
   exit 0
 # PTRACE only to direct child processes (e.g. "gdb name-of-program" and
@@ -328,7 +324,6 @@ session    required   pam_env.so readenv=1 user_readenv=0
 @{run}=/run/ /var/run/
 
 
-# in the toplevel profile. Eg:
    <xs:documentation>
 # Compose sequences for ISO-8859-11
 driftfile /var/lib/chrony/drift
@@ -424,7 +419,6 @@ set -e
 
   # I think this is adaptive memory management
 
-# Compose sequences for ISO-8859-5
 driftfile /var/lib/chrony/chrony.drift
 # ------------------------------------------------------------------
 fi
@@ -470,7 +464,7 @@ DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
 À«∆Lõ6õ∞∏ö∏£ˆ¢£“¢££\ƒFƒkæUæôæÉæ¸ƒÊƒ˘≈„≈Rû<û]∂G∂π∏%ææñáÄáñá^áΩeßeùwáw∫|¶|l]V]Ô{Ÿ{ˇTÈTt}^}b¯aäyty~˘}fÔe¿ÆüÆ¿ÆwÆ¿ÆQÆ¿ÆπÆÆfèfÆfifÆfßfö¨Ñ¨ﬂ≠…≠»i»õ¿Ö¿õ¿d¿≈`Ø`˘h„hPz:zΩ≈ß≈Ω≈É≈≈}Ø}⁄ÜƒÜYoCo[`V`{Ëz{√z{†z{ˇzJj4jÆÖòÖÆÖxÖâ≥s≥:_$_,ÅÅ\FÃå∂åÇÒÅ®“í“@ * IÜ3ÜMá7árö\ö3ªªÖoœ“π“WÇAÇÖtot`©J©`©&©˜ò·ò¥jûjXïBïÍû‘ûΩΩwíaíÔäŸä∂Ü†Ü:ñ$ñÙ“ﬁ“†ëäëz_d_B|,|Íí‘íòôÇôòô^ô"UU'ÃÃ∑è°èOó9ó}√g√Jî4î⁄°ƒ°vú\úvú;úvúúvúoú∞óöóÕ…∑… ä¨ä äáä ädä ä√ähVLVhV)VhVaV}rgrˇbÈbíò|òÄÚN¡.¡N¡¡N¡G¡T~>~d∏N∏%‘‘Õl∑lÓ√ÿ√Ó√∂√—ƒªƒ—ƒíƒ‡∆¡∆‡∆õ∆‡∆w∆‡∆Ÿ∆/}}*qq+{{∑∑NÃ8Ã˙À‰ÀtÉ^ÉhuRuhu/uèhyhÕ{∑{h|R|ó}Å}|˛{YiCiùiái¢ÃåÃ¢ÃgÃ®líl©ˇ®≤ ú øÄ©Äø~©~€à≈à®kíkàÍá±hõh±ÀõÀÀkµkX…B…‘hæh2……2…¯»khUhÌÉ◊ÉçUwU≈ÉØÉ≈ÉâÉgUQU;Ω%ΩØ\ô\ìÜ}ÜìÜ\Üπb£bwcXcwc2cwccwcpcóπÅπ'ÜÜÙsﬁsùîáîN√8√õœÖœ[nEn“¯—“œ—˘n„nv–`–v–5–Ñnnn…–≥–…–ç–Ønôn¸uÊuVV¥xûx`Ò_S«=«,««ø˚æ±põpOπ9πOππ=∑'∑Ãt∂tï””ü¶â¶œ^π^Q};}Ë¬“¬Ë¬≤¬òÅÇÅuÅ_ÅAU0U°	°Ÿö»ön•]•ê™™[˝Zu´d´“ØºØ•oèo)jjkjUjsî]î¢åéåÆçöçŸì∑ìŸìéìŸìgìŸì“ìËd»dËd°dËd·dvéUévé-évéévéoécçDçcççcç˙åcç\ç{åYå{å0å{å	å{åtåÕZ≠ZÕZÜZÕZ∆Z{iei~ëhë~ëHëË§Õ§Ë§´§Ë§ã§Ë§·§Z_D_-WW„¿Õ¿§¯£¢µåµxµbµ¯~Hò2ò^üHüUø?ønâXâ§rérP‘:‘–Ö∫Ö±uõuw¯vA∞+∞n≠f≠n≠C≠8f0f8ffı¿¿Ù`Ô`}øgøÇƒlƒç w 4ww‹á∆áHâ2â∫á§áù∂ò∂Y	Y“≈Õ≈˛d˘d%ùù%ùÌú∂Y†Y3øøù«á«»±≤±æô®ôG°1°çuwuµUüU!vvsX]XndPdnd+dnddndgdD∆.∆D∆∆æÅ®ÅÊ«–«≠˛¨qxXxqx8xqxxqxjx__¶±u±¶±U±¶±ó±9i*i,óóú~Ü~ú~e~>g(gÔÇŸÇ˙ó‰ó©tìt)``Hæ2æ√«≠«9“#“¶…ê…óÚñ…i…ÜÏÖÖÖÖﬂÑ<s&s∂⁄∂∂≤∂Fà0àFààZìDì7ü!ü7ü¸ûí—|—/~~ï°°ZrDrÌa◊a/ûû•¬è¬Ãa∂aPÄ:Äº	ºä∏t∏¢øåø®£ç£®£k£®£°£øπ©π}ÇgÇlWVWÔWŸWØWôW°{ã{≠VóV¬î¨îÊî–îåãvãEß/ßÂâœâf P gÀQÀgÀ0Àm¥W¥õeÖe’≥ø≥ãVuV˙≥‰≥7Y!YF¥0¥F^0^!¥¥J]4]í¥|¥ggdyNy·pÀp€T≈Tƒ∫Æ∫Ïµ÷µÏµ±µvT`TÉ∂m∂îX~X◊∏¡∏#ZZu©p©ïiïv«`«∏˚∑sœ]œÿ ¬ ˙j‰jœ	œnım]ŒGŒ]ŒŒæm®mÔœŸœ∆œ∞œ––——B—,—éñxñéñPñÏ£÷£≥àùà≥àwàÇklk<ë&ëmòWò˜ª·ª˜ªªª&¢
   </match>
 networkd_dispatcher_args="--run-startup-triggers"
-else
+/lib/i386-linux-gnu
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
 bookworm/sid
        notifempty
@@ -478,7 +472,6 @@ bookworm/sid
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # no packages own wtmp -- we'll rotate it here
-# See above.
 title=Secure shell server, an rshd replacement
 Name=Certificate and Key Storage
 
@@ -523,7 +516,6 @@ XLoad.input:			false
 Before=snapd.service
 APT::Periodic::Update-Package-Lists "1";
 if [ -f /bin/setupcon ]; then
-#  level = "info"
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
 systemd=false
 DISTRIB_CODENAME=jammy
@@ -531,7 +523,7 @@ DISTRIB_CODENAME=jammy
 label=magenta,
 [Install]
   unix (connect, receive, send)
-    exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
+modify any previously set config option.
 /lib32
 log_level: debug
 	<!-- Add language for math, to match other math fonts. -->
@@ -539,21 +531,20 @@ log_level: debug
 
 # Defaults can be restored by simply deleting this file and all drop-ins.
 <?xml version="1.0"?>
-# vim:syntax=apparmor
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 #
 ApprovalRequired=false
 # The following lines are desirable for IPv6 capable hosts
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
   @{PROC}/modules r,
-      This configuration is available on the major desktop environments.
+   "URL": "https://launchpad.net/~%s/+sshkeys"
 # Local users may interrogate the ntp server more closely.
 /lib32
 # be specified in a specific application's profile.
 America/Los_Angeles
 LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
 Wants=network.target
-
+# ------------------------------------------------------------------
 
 [Time]
 # Magic local data for file(1) command.
@@ -562,7 +553,6 @@ fi
 	<alias binding="same">
 # wildcards if desired.
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-#timeout_signal=SIGKILL
   /usr/bin/vlc Cxr -> sanitized_helper,
   #/{,var/}run/mysqld/mysqld.sock rw,
 #& stop
@@ -662,14 +652,12 @@ byte-compile = standard
 X-GNOME-Autostart-Phase=PreDisplayServer
 # deb-src {{security}} {{codename}}-security multiverse
     import apport_python_hook
-
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 }
 # DO NOT EDIT OR REMOVE
 #    This program is free software; you can redistribute it and/or
 # [automount]
 # Entries in this file show the compile time defaults. Local configuration
-@include common-auth
 
 ja_JP		ja_JP.eucJP
       member={Hello,AddMatch,RemoveMatch,GetNameOwner,NameHasOwner,StartServiceByName}
@@ -739,7 +727,6 @@ America/Los_Angeles
 #    This program is free software; you can redistribute it and/or
   rotate 6
 #
-  something reasonable
 # Kernel Image management overrides
 
 	rotate 12
@@ -813,7 +800,7 @@ NAME=binfmt-support
 
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 *Indicator.width:		15
-127.0.0.1 localhost
+Vendor-URL: https://www.debian.org/
 XKBMODEL="pc105"
 
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
@@ -861,7 +848,6 @@ FileDescriptorName=unix
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
     try:
 # do not try to refresh this more than once per day
-
 # Skip if systemd is running.
   abi <abi/3.0>,
 
@@ -949,7 +935,7 @@ session		required	pam_unix.so
 
 }
 #    it. This is confirmed to work with:
-#@{HOMEDIRS}+=
+
 
   # privacy violations (don't audit files under $HOME otherwise get a
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
@@ -971,7 +957,6 @@ fi
 #
   /var/lib/snapd/desktop/applications/mimeinfo.cache r,
 
-Title=Vendor (Automatic)
 Delegate=true
 #    This program is free software; you can redistribute it and/or
         %fixedAttr;
@@ -991,7 +976,7 @@ l7ljKjFi06XLJxOjLLpIFBH/yAJ5YbsYZt+XuT3WgORfHPDU3xepWGfQj4QFcsny
 # Make sure the locale variables are set to valid values.
 
 # License for more details.
-APT::Periodic::Update-Package-Lists "1";
+loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null' 
 # and should contain a list of modules that define tasks to be performed
 *Indicator.foreground:		rgb:9b/cd/9b
 #    The CPUs list which allows you to indicate which CPUs should
@@ -1005,3 +990,13 @@ with something the package builder needs later. It must end with .conf though.
 ##
 
 if [ -r "/etc/default/${NAME}" ]
+# symbolic names for networks, see networks(5) for more information
+if [ "$SHLVL" = 1 ]; then
+ -->
+
+
+bookworm/sid
+
+
+
+  /usr/bin/shotwell Cxr -> sanitized_helper,
