@@ -51,7 +51,6 @@ test -x /usr/bin/plymouth || exit 0
 RESTART_CHK="NetworkManager.service"
 #   # needed for ubuntu-* abstractions
 ## Sourced, not exec'ed, but helps syntax highlighting
-<fontconfig>
 # <target name>	<source device>		<key file>	<options>
      Define aliasing and other fontconfig settings for
 #    modify it under the terms of version 2 of the GNU General Public
@@ -64,7 +63,7 @@ fi
 							return 1
 # Compose sequences for CP1251
 mail.*				-/var/log/mail.log
-    set in2_max  3.3 * 1.10
+
 -#}
   notifempty
 # The following is a space-separated list of where additional user home
@@ -117,7 +116,6 @@ APT::Archives::MinAge "2";
 X-GNOME-Bugzilla-Version=40.0
 # EDAC driver for amd76x clashes with the agp driver preventing the aperture
 
-#used.  If you really want nothing to happen then use pam_permit.so or
   @{etc_ro}/libnl-*/classid r,
 #
 WantedBy=multi-user.target
@@ -195,7 +193,7 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 #   # Only allow to handle http[s]: and mailto: links
 commands scan this directory processing all files that end in '.conf'.
 password	include		su
-# needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
+#DUIDType=vendor
 [msr]
 # Your system has been configured with 'manage-resolv-conf' set to true.
 # As a result, cloud-init has written this file with configuration data
@@ -205,7 +203,6 @@ password	include		su
 PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 # should contain commands that should be executed only
 #!/bin/sh
-
   abi <abi/3.0>,
 #
 # shellcheck disable=SC2086
@@ -265,7 +262,6 @@ Ubuntu 22.04.2 LTS
 # and users home directories will reside within the directories that
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.$
 /var/log/unattended-upgrades/unattended-upgrades-shutdown.log
-{% endfor %}
     owner @{HOME}/.cache/pocl/kcache/tempfile*.so rw,
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 # (Replaces /etc/login.access file)
@@ -341,7 +337,6 @@ www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
   eval $($DBUSLAUNCH --exit-with-session --sh-syntax)
 XClock.input: false
   #
-fi
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 #
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
@@ -381,7 +376,6 @@ set -e
     /etc/modprobe.d/{,*.conf} r,
 }
 #net.ipv4.tcp_syncookies=1
-    # TODO: remove this rule when we stop supporting executing other snaps from
 QUIET=0
     case "$1:$2" in
     fi
@@ -422,11 +416,11 @@ DISTRIB_RELEASE=22.04
 	inet_domain => undef,
 compose '-' 'L' to 'Ù'
 
-	exit 1
+# Scripts in this directory are executed as root when a user log out from
 # Compose sequences for ISO-8859-8
 #
 </catalog>
-Before=snapd.service
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
 if [ -f /bin/setupcon ]; then
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
 systemd=false
@@ -434,7 +428,7 @@ DISTRIB_CODENAME=jammy
 label=magenta,
   unix (connect, receive, send)
 modify any previously set config option.
-/lib32
+  <policy context="default">
 log_level: debug
 	€
 
@@ -509,13 +503,11 @@ bookworm/sid
   <match target="pattern">
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
 QT_ACCESSIBILITY=1
-commands scan this directory processing all files that end in '.conf'.
 " This happens after /etc/vim/vimrc(.local) are loaded, so it will override
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 	vgs_cols_full="vg_name,vg_uuid,vg_fmt,vg_size,vg_free,vg_sysid,vg_extent_size,vg_extent_count,vg_free_count,vg_profile,max_lv,max_pv,pv_count,lv_count,snap_count,vg_seqno,vg_mda_count,vg_mda_free,vg_mda_size,vg_mda_used_count,vg_attr,vg_tags"
 fi
 
-! $Id$
 
   /var/log/**                   rw,
 # ctrll shiftr alt keycode 36 = Incr_Console
@@ -652,14 +644,14 @@ XKBOPTIONS=""
 ## Add external Servers using
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 contract_url: https://contracts.canonical.com
-# ctrll alt keycode 36 = Incr_Console
+#
 
 #  terms of the GNU Lesser General Public License as published by the Free
 NAME=binfmt-support
 #PermitTunnel no
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 *Indicator.width:		15
-@{run}=/run/ /var/run/
+a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
   # System files
 #allow 192.168/16
@@ -717,8 +709,6 @@ XClock.input: false
 #   1:			top		# top -> 1:0
 	<alias>
 # If you enable logging, you may want to add an entry to a log rotation
-	<!-- PostScript -->
-. /usr/lib/needrestart/notify.d.sh
 
 # @{securityfs} is the location where securityfs is mounted.
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
@@ -762,7 +752,6 @@ KP_5 = j;k;l;5;Â£
 #%PAM-1.0
 
 if [ "$INITRD" = 'No' ]; then
-
 
 # needrestart - Restart daemons after library updates.
 
@@ -845,7 +834,7 @@ compose ',' 'A' to '¡'
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 LANG=en_US.UTF-8
 #
-# symbolic names for networks, see networks(5) for more information
+			done
     delaycompress
 
 
@@ -871,7 +860,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 - /dev/stdout
 # since the modules above will each just jump around
 # no packages own btmp -- we'll rotate it here
-  </alias>
 #    Handle linux distributions that use systemd to replace the legacy
 eval $(/usr/bin/locale-check C.UTF-8)
 
@@ -922,7 +910,7 @@ compose '~' 'A' to 'Ã'
   # readd default if was empty
 	vdo_use_sparse_index=0
 # ------------------------------------------------------------------
-# NIS (man nsswitch) as well as normal /etc/passwd and
+# Allow the system clock to be stepped in the first three updates
 ## use non # comment characters will be interpreted by the helper scripts (
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 *fileDialog.accept.bottom:		ChainBottom
@@ -955,7 +943,7 @@ DNS={% for server in nameservers %}{{server}} {% endfor %}
 X-GNOME-Autostart-Phase=Initialization
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
 # needrestart - Restart daemons after library updates.
-  /opt/novell/lib64/libpthread_ext*.so* mr,
+       bus=session
 # failure_action can be: log, ignore, terminate
 Exec=/usr/bin/gnome-keyring-daemon --start --components=ssh
 #BindPasswd: secret
@@ -966,7 +954,6 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=ssh
 if enabled in cloud-config.  Specifically, in order to enable it
 #        directory before $MAIL_FILE
   /usr/bin/file-roller Cxr -> sanitized_helper,
-  #    peer=(addr="@@{HOME}/.cache/ibus/dbus-*"),
 
 # /etc/apport/blacklist.d/, apport will not generate a crash report
   </its:rules>
@@ -975,7 +962,7 @@ if enabled in cloud-config.  Specifically, in order to enable it
 }
 directory are parsed by needrestart's default configuration file.
 
-
+use-ssh-agent
 # Global Order: zshenv, zprofile, zshrc, zlogin
 # Compose sequences for GEORGIAN-PS
 compose 'v' 'Z' to '´'
@@ -1025,3 +1012,14 @@ fi
 #    exitCode may be incremented.
 # Default-Stop:      0 6
 
+#
+# Skip if systemd is running.
+  # User files
+DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
+       path=/org/freedesktop/DBus
+  </match>
+	:<Key>&:and()\n\
+	exit 0
+#
+alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIBPATH == "") then; unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWKLIBPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKLIBPATH "\!*"":$AWKLIBPATH"'
+        rc=0
