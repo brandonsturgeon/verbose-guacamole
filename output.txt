@@ -34,7 +34,7 @@ AdminIdentities=unix-group:sudo;unix-group:admin
 driftfile /var/lib/chrony/chrony.drift
 # for it. Matches are exact only at the moment (no globbing etc.).
 # at bash-completion startup for now, to ease the transition to a
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
+  #
 
 # to update this file, run dpkg-reconfigure cloud-init
 *text.scrollHorizontal:		Never
@@ -170,7 +170,7 @@ XCalc*hp.button19.label:	6
 	</alias>
 rtcsync
 # that will become kernel vars at some point
-    exit 0
+
     exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
 CQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQCm3O9rRvPb/wsQf7BGEkgT08Bx1v
    fi
@@ -240,7 +240,7 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 tty:x:5:
 # and user name in $4.
 # Compose sequences for ISIRI-3342
-	[ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`
+# have any effect at all.
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
 *form.invert.label:			Invert
@@ -343,7 +343,6 @@ XClock.input: false
   #
 fi
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-  <alias binding="same">
 #
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
@@ -574,7 +573,7 @@ version="$1"
   @{HOME}/ r,
 	</alias>
 
-<!ENTITY % totalDigits "%p;totalDigits">
+#
 # Example (generic):
 
 #
@@ -587,7 +586,6 @@ version="$1"
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 [DEFAULT]
 
-compose '\'' '\'' to '´'
 *showGrip:			FALSE
 fi
   @{run}/samba/winbindd_privileged/pipe rw,
@@ -639,7 +637,6 @@ brandon:100000:65536
 [ -z "$(find "$stamp" -newermt 'now-1 days' 2> /dev/null)" ] && exit 0
   set -e
 QT_ACCESSIBILITY=1
-[Settings]
     s/^[^=]*=//; s/^'\(.*\)'/\1/;  # get value
   /usr/bin/python2.[4567] ix,
 blacklist sbp2
@@ -659,10 +656,9 @@ contract_url: https://contracts.canonical.com
 
 #  terms of the GNU Lesser General Public License as published by the Free
 NAME=binfmt-support
-
+#PermitTunnel no
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 *Indicator.width:		15
-XKBMODEL="pc105"
 @{run}=/run/ /var/run/
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
   # System files
@@ -680,7 +676,6 @@ AutomaticSecurityReports=false
 . /usr/share/bash-completion/bash_completion
 <fontconfig>
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-  /usr/lib{,32,64}/krb5/plugins/preauth/* mr,
 
 # default location for the meta-release file
 ## extensively as that contained in the main release, although it includes
@@ -727,9 +722,8 @@ XClock.input: false
 
 # @{securityfs} is the location where securityfs is mounted.
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-# udevd is also started in the initrd.  When this file is modified you might
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   jammy stable
-compose '+' '+' to '#'
+  owner @{HOME}/mbox          rw,
   include if exists <abstractions/consoles.d>
 #    This program is free software; you can redistribute it and/or
 if [ -d /run/systemd/system ]; then
@@ -812,7 +806,7 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
 
 with something the package builder needs later. It must end with .conf though.
 #    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-  # services' environments
+# set start_ro=1 to make newly assembled arrays read-only initially,
 [PStore]
 # admin_group = <admin_group_name>
 ##
@@ -821,7 +815,6 @@ with something the package builder needs later. It must end with .conf though.
 if [ "$SHLVL" = 1 ]; then
 Ubuntu 22.04.2 LTS
 
-# vim:syntax=apparmor
 bookworm/sid
 
 
@@ -910,7 +903,7 @@ auth		include		runuser
 
   </alias>
 
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPgz4pnxGhnRPbzreFbZerylDneftGZKsHIMpC8KatK7pqmHPjs4EKWjSn8XoIk/uA5NccoESmo/ao5YVw= root@LAPTOP-5TIN5O4V
+
 # well. (This option allows users to use the allow_other option.) You need
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 
@@ -932,7 +925,7 @@ compose '~' 'A' to 'Ã'
 # NIS (man nsswitch) as well as normal /etc/passwd and
 ## use non # comment characters will be interpreted by the helper scripts (
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
-#
+*fileDialog.accept.bottom:		ChainBottom
 
 XClock.input: false
 #! /bin/sh
@@ -964,7 +957,7 @@ X-GNOME-Autostart-Phase=Initialization
 # needrestart - Restart daemons after library updates.
   /opt/novell/lib64/libpthread_ext*.so* mr,
 # failure_action can be: log, ignore, terminate
-
+Exec=/usr/bin/gnome-keyring-daemon --start --components=ssh
 #BindPasswd: secret
 <Key>q: quit() \n\
 </match>
@@ -993,7 +986,7 @@ fi
 fi
 for svc in $RESTART_CHK; do
   abi <abi/3.0>,
-  /etc/OpenCL/** r,
+	<alias>
 # The PAM configuration file for the Shadow `passwd' service
 # DO NOT EDIT OR REMOVE
 #dateext
@@ -1014,4 +1007,21 @@ fi
 
 	thin_pool_chunk_size_policy = "generic"
 
+
+
+  # System devices
+0	default
+Chef::Log::Formatter.show_time = true
+  /usr/bin/gxmms Cxr -> sanitized_helper,
+alias net-pf-36 off
+# local
+# DO NOT EDIT OR REMOVE
+fi
+
+    while(<$plist>) {
+[ -n "$version" ] || exit 0
+       for the PackageKit to work. -->
+# out of the iSCSI session.
+#    exitCode may be incremented.
+# Default-Stop:      0 6
 
