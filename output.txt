@@ -25,13 +25,12 @@ net.ipv6.conf.all.use_tempaddr = 0
 		read dev <  $1/dev
 #DefaultLimitNPROC=
   /{,var/}run/sendsigs.omit.d/network-manager.dhclient*.pid lrw,
-LEtZE03PKSnY2XYnf+3Kc6tmIZBB67yRg/79p3OpFd95wqyu+2c1cVkjCA1Q8XpO
+  owner @{HOME}/.config/ rw,
 	command_log_selection="!(log_type=status && message=success)"
 # Compose sequences for ISO-8859-6
 # automatically mounted on systems running sysvinit. This setting is
   # special attention to (potentially) executable files
 AdminIdentities=unix-group:sudo;unix-group:admin
-
 
 	didn't include the right instructions in the 'prep' table.
 
@@ -70,7 +69,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 #allow 192.168.0.0/16
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 LAPTOP-5TIN5O4V
-# Compose sequences for ISO-8859-11
 names. If the host uses systemd the service names have '.service' as a
 #	franc,ais	fr_FR.ISO-8859-1
 fi
@@ -140,7 +138,6 @@ APT::Archives::MinAge "2";
 .    char \- \N'45'
   # shared python paths
 		</test>
-*JumpScroll:			1
 
 #
 
@@ -231,7 +228,7 @@ include <abstractions/apparmor_api/introspect>
 
   @{run}/nslcd/socket  rw,
 *Toggle.displayList:			foreground rgb:4/6/4;draw-rect 1,1,-2,-2;foreground rgb:8/a/8;draw-rect 0,0,-1,-1
-
+commands scan this directory processing all files that end in '.conf'.
 
   # client should be able to talk the local cupsd
 # it under the terms of the GNU Lesser General Public License as published by
@@ -295,7 +292,6 @@ alias.url += ("/javascript" => "/usr/share/javascript")
  			<family>LKLUG</family>
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
-application/vnd.hal+xml				hal
 # filesystem type
 	"kfreebsd-.*";
 ;; -*-emacs-lisp-*-
@@ -313,7 +309,6 @@ XClock.input: false
 LAPTOP-5TIN5O4V
 ONLY_IF_EMPTY = 0
 NAME="plymouth-log"
-+
 10	mrt
 search updates ubuntu built-in
 #    Copyright (C) 2002-2006 Novell/SUSE
@@ -333,7 +328,6 @@ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 # PTRACE only to direct child processes (e.g. "gdb name-of-program" and
 compose 's' 'o' to '§'
 /usr/bin/rbash
-  /usr/lib{,32,64}/krb5/plugins/libkrb5/ r,
 <!--  Use the Antialiasing -->
 /usr/lib/x86_64-linux-gnu/libfakeroot
 session    required   pam_env.so readenv=1 user_readenv=0
@@ -404,7 +398,6 @@ Title=Vendor
 # This file should not contain commands that produce
 # This file is sourced by Xsession(5), not executed.
 # This file is a simple placeholder to keep dpkg from removing this directory
-1,56,181,199,111,38,181,204,128,0,255,255,0,0,255,255
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 
 
@@ -419,7 +412,7 @@ www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 # Compose sequences for KOI8-U
 
 </fontconfig>
-# clean all crash reports which are older than a week.
+
   eval $($DBUSLAUNCH --exit-with-session --sh-syntax)
 . /usr/share/bash-completion/bash_completion
 XClock.input: false
@@ -497,7 +490,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 # no packages own wtmp -- we'll rotate it here
 # See above.
 title=Secure shell server, an rshd replacement
-# scopev4  <mask>  <value>
+Name=Certificate and Key Storage
 
 # Compose sequences for IBM1133
 LAPTOP-5TIN5O4V
@@ -566,13 +559,13 @@ Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-se
       This configuration is available on the major desktop environments.
 # Local users may interrogate the ntp server more closely.
 /lib32
-#  License along with this library; if not, write to the Free Software
+# be specified in a specific application's profile.
 America/Los_Angeles
 LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
 Wants=network.target
 
 
-## Serial Port: /dev/refclock-u
+[Time]
 # Magic local data for file(1) command.
 
 fi
@@ -596,7 +589,7 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
     if [ -f "$HOME/.bashrc" ]; then
 auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
   <xs:annotation>
-; a comment
+XLogo*iconPixmap:    xlogo32
 
 # Compose sequences for ISIRI-3342
 # Provides:		open-vm-tools
@@ -615,7 +608,7 @@ account     required    pam_shells.so
 *topform.Form.joinstyle.Toggle.width:	123
   owner @{HOME}/.config/mimeapps.list   r,
 
-}
+   case "$powerOp" in
 # translations. See tunables/xdg-user-dirs for details. Eg:
 [defaults]
 
@@ -638,7 +631,6 @@ APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-
 # x25
 # This file is a simple placeholder to keep dpkg from removing this directory
 #
-	monthly
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
 QT_ACCESSIBILITY=1
 commands scan this directory processing all files that end in '.conf'.
@@ -738,7 +730,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 #NR_NOTIFYD_DISABLE_NOTIFY_SEND='1'
 
 compose '\'' '\'' to '´'
-logfile   /var/log/ntp		# alternate log file
+*showGrip:			FALSE
 APT::Periodic::Download-Upgradeable-Packages "0";
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 restrict ::1
@@ -801,14 +793,12 @@ brandon:100000:65536
   set -e
 # Default-Stop:
 QT_ACCESSIBILITY=1
-# This file contains a list of port numbers between 600 and 1024,
 [Settings]
     s/^[^=]*=//; s/^'\(.*\)'/\1/;  # get value
 
 blacklist sbp2
   # System files
     label in1 "Vcore"
- 00 through 09		Font directories
 
 XKBOPTIONS=""
 		$PYTHON $SHUTDOWN_HELPER
@@ -880,7 +870,7 @@ I(c,Yõ_WQ
 
   owner /media/** w,
 
-[Unit]
+compose ')' '-' to '}'
 FileDescriptorName=unix
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
     try:
@@ -990,7 +980,7 @@ set -- $IF_ETHERNET_WOL
 chip "w83627uhg-*"
 
   abi <abi/3.0>,
-  # directory will also use filename encryption by default, so the files are
+AdminIdentities=unix-group:sudo;unix-group:admin
   owner /tmp/**         rwkl,
 #
 #    modify it under the terms of version 2 of the GNU General Public
@@ -998,3 +988,17 @@ fi
 #
   /var/lib/snapd/desktop/applications/mimeinfo.cache r,
 
+Title=Vendor (Automatic)
+Delegate=true
+#    This program is free software; you can redistribute it and/or
+        %fixedAttr;
+# Compose sequences for VISCII
+alias gawkpath_default 'unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`'
+URLS="https://motd.ubuntu.com"
+#
+# Compose sequences for IBM1133
+{% endif %}
+
+*customization: -color
+// If you don't like it, comment it out.
+l7ljKjFi06XLJxOjLLpIFBH/yAJ5YbsYZt+XuT3WgORfHPDU3xepWGfQj4QFcsny
