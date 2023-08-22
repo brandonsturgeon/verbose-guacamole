@@ -38,7 +38,6 @@ driftfile /var/lib/chrony/chrony.drift
 *text.scrollHorizontal:		Never
 			log_warning_msg "Docker already stopped - file $DOCKER_SSD_PIDFILE not found."
 	si_unit_consistency=1
-#!/bin/sh
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 @include common-session
 test -x /usr/bin/plymouth || exit 0
@@ -135,7 +134,6 @@ server {{server}} iburst
 #
 
   </match>
-<!-- Delicious 'heavy' variant says its Medium weight -->
     # laptop check, on_ac_power returns:
 Ÿ‡Ìõ¼¢/4¢ğ´-ŸL0Ë+/øäÂÜ
 # Default is no
@@ -196,7 +194,6 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
   abi <abi/3.0>,
 #
 # shellcheck disable=SC2086
-
 #    License published by the Free Software Foundation.
 # Compose sequences for IBM1133
 #!/bin/sh
@@ -238,7 +235,6 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 # so please ensure that:
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '''s/^s*[0-9]+s*//;s/[;&|]s*alert$//''')"'
 sonames=libbd_lvm.so.2
-# NOTE
 	# only logout if daemon is running, iscsiadm hangs otherwise
 fi
 ONLY_IF_EMPTY = 0
@@ -323,12 +319,10 @@ www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 XClock.input: false
   #
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-  </acceptfont>
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
 
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-#
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
   <acceptfont>
   # I think this is adaptive memory management
@@ -397,7 +391,6 @@ DISTRIB_RELEASE=22.04
 # This directive specifies the file into which chronyd will store the rate
 }
 # want to track accesses to individual keys on the LDAP server side.
-  owner @{HOME}/man/**                        r,
 	inet_domain => undef,
 compose '-' 'L' to 'Ù'
 
@@ -414,7 +407,6 @@ label=magenta,
   unix (connect, receive, send)
 modify any previously set config option.
   <policy context="default">
-log_level: debug
 	€
 
 # Defaults can be restored by simply deleting this file and all drop-ins.
@@ -505,19 +497,17 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS
 #
 # clean all crash reports which are older than a week.
 
-
 # @{HOME} is a space-separated list of all user home directories. While
 }
 Each file in this directory is an rt_protos configuration file. iproute2
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 brandon:100000:65536
 
-
+*planemask*ShapeStyle: rectangle
 byte-compile = standard
 # deb-src {{security}} {{codename}}-security multiverse
     import apport_python_hook
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-# DO NOT EDIT OR REMOVE
 #    This program is free software; you can redistribute it and/or
 # [automount]
 
@@ -556,7 +546,7 @@ version="$1"
 # Compose sequences for ISO-8859-11
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 [DEFAULT]
-
+#
 *showGrip:			FALSE
 fi
   @{run}/samba/winbindd_privileged/pipe rw,
@@ -604,7 +594,7 @@ brandon:100000:65536
   # Executables
 # @{securityfs} is the location where securityfs is mounted.
   set -e
-QT_ACCESSIBILITY=1
+#
     s/^[^=]*=//; s/^'\(.*\)'/\1/;  # get value
 blacklist sbp2
   # System files
@@ -660,7 +650,6 @@ link-local 169.254.0.0
 ## template:jinja
 #    Copyright (C) 2006-2009 Novell/SUSE
 #DefaultLimitMSGQUEUE=
-
 # Compose sequences for TIS-620
 compose ')' '-' to '}'
 FileDescriptorName=unix
@@ -674,7 +663,6 @@ suffix (dbus vs. dbus.service). Needrestart uses the systemctl/service
 # shellcheck source=/dev/null
 	thin_pool_chunk_size_policy = "performance"
 	cache_pool_chunk_size = 64
-##########################################################
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+(\[[0-9]+\])?: DIGEST-MD5 common mech free
 XClock.input: false
 # Required-Start:    $remote_fs
@@ -737,12 +725,11 @@ set -- $IF_ETHERNET_WOL
 13  ip6fw
   audit deny @{HOME}/.local/share/thumbnailers/{,**} wl,
 chip "w83627uhg-*"
-    <allow send_destination="org.freedesktop.ModemManager1"
 #
 @{PROC}/@{tid}/attr/{apparmor/,}{current,prev,exec} r,
 fi
 #
-  /var/lib/snapd/desktop/applications/mimeinfo.cache r,
+# linux-image-* postinst calls postinst.d with DEB_MAINT_PARAMS set
   abi <abi/3.0>,
 Delegate=true
 if [ -z "$DISTRIB_DESCRIPTION" ] && command -v lsb_release > /dev/null; then
@@ -885,7 +872,7 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 esac
 iLeGMSzZBGE0ioJ82PZzsHelrrObDP1mMre1jQ6zxLlnYUlLvtJpydAfeBxU+6yL
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
-	elif [ "$LC_TERMTYPE" = "byobu-screen" ]; then
+  dbus-update-activation-environment --verbose --systemd 
 # OpenCL access requirements for Intel implementation
 DNS={% for server in nameservers %}{{server}} {% endfor %}
 # ctrll alt keycode 36 = Incr_Console
@@ -894,7 +881,6 @@ DNS={% for server in nameservers %}{{server}} {% endfor %}
 }
 		<rejectfont>
 # Record the rate at which the system clock gains/losses time.
-[Install]
     start-stop-daemon --start --pidfile /dev/null \
 networkd_dispatcher_args="--run-startup-triggers"
 
@@ -925,7 +911,6 @@ use-ssh-agent
 # Global Order: zshenv, zprofile, zshrc, zlogin
 # Compose sequences for GEORGIAN-PS
 compose 'v' 'Z' to '´'
-
 
 #tls_cert = /etc/ssl/sudo/certs/logsrvd_cert.pem
 fi
@@ -996,7 +981,6 @@ Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-se
 ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
 
 		https://*)
-if [ "$NR_VERBOSE" = '1' ]; then
 GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
   # User files
 #    License published by the Free Software Foundation.
@@ -1023,3 +1007,17 @@ mozilla/AC_RAIZ_FNMT-RCM.crt
 0	unspec
 [fwupd]
 #NTP=
+¨‰ 9©`ÙlÕ >D¶°!£j[~=àgá%1ø_‡üT0T+ĞÄfŸŞ´‚e³RáCdÿ´!£j[~=àgá%1ø_‡üT0,W Mf‚ä¬‚ú¨Í5Ï~°¡G~püzÀÏÂKbğ¿ù©`X~ƒg"ßúø|ÆdEÈrŸPØÿg?ÙĞÃš­x=!^>ƒxÁK³ò:¹ÛËUËÂuƒT¸Ù2ª¶…à×~^ƒøuÈOCõ@*X6‹¤Â‡ÈÎmÈ¨Ú‚_øYxI~à×!?çbo€ßÂ`ä€øL²	ƒ$Jb5ñdğ?ğ¿ø•ÁĞˆ`èNyæ€øîm’Ñ»½Ï?í’œ,¯¢µà¾à¾O„¯
+do_bootloader = no
+	# lvmdbusd relies on command log report to inspect LVM command's execution status
+## Add external Servers using
+
+
+  /usr/{local/,}share/glib-[0-9]*/schemas/** r,
+# abstraction for allowing access to graphical browsers in Ubuntu
+	notifempty
+            bindkey -M "$i" "$sequence" "$widget"
+# one second, but only in the first three clock updates.
+
+#
+# device group names
