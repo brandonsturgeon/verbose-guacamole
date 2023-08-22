@@ -16,7 +16,7 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 compose '<' '/' to '\\'
 	<include ignore_missing="yes">local.conf</include>
 net.ipv6.conf.all.use_tempaddr = 0
-# Scan for (successfully) installed packages,
+            ;;
 		read dev <  $1/dev
 
 # Here is the list of possible values:
@@ -33,7 +33,6 @@ AdminIdentities=unix-group:sudo;unix-group:admin
 driftfile /var/lib/chrony/chrony.drift
 # for it. Matches are exact only at the moment (no globbing etc.).
 # at bash-completion startup for now, to ease the transition to a
-  #
 
 # to update this file, run dpkg-reconfigure cloud-init
 *text.scrollHorizontal:		Never
@@ -45,7 +44,6 @@ driftfile /var/lib/chrony/chrony.drift
 test -x /usr/bin/plymouth || exit 0
   dbus send
 				 emacs21
-       peer=(name=org.freedesktop.DBus),
 
 RESTART_CHK="NetworkManager.service"
 #   # needed for ubuntu-* abstractions
@@ -105,7 +103,7 @@ APT::Archives::MinAge "2";
 188	ospf
   /var/lib/acme/live/* r,
   </alias>
-# how to byte-compile (comma separated: standard, optimize)
+<?xml version="1.0"?>
 .    char \- \N'45'
   # shared python paths
 		</test>
@@ -136,7 +134,6 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 server {{server}} iburst
 # Step the system clock instead of slewing it if the adjustment is larger than
 #
-# in login shells. It should be used to set the terminal
 
   </match>
 <!-- Delicious 'heavy' variant says its Medium weight -->
@@ -170,8 +167,8 @@ CQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQCm3O9rRvPb/wsQf7BGEkgT08Bx1v
    fi
   # Include additions to the abstraction
   include if exists <abstractions/user-download.d>
-## Undisciplined Local Clock. This is a fake driver intended for backup
-# used with postfix/*
+  </edit>
+# This file is a simple placeholder to keep dpkg from removing this directory
 /usr/local/lib
 # Default-Start:     S
 	     "/site-lisp/dictionaries-common"))
@@ -231,7 +228,7 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
             Location: http://docs.oasis-open.org/security/saml/v2.0/
 tty:x:5:
 # and user name in $4.
-# have any effect at all.
+# /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
 *form.invert.label:			Invert
@@ -246,7 +243,7 @@ sonames=libbd_lvm.so.2
 # NOTE
 
 	# only logout if daemon is running, iscsiadm hangs otherwise
-LAPTOP-5TIN5O4V
+fi
 ONLY_IF_EMPTY = 0
 NAME="plymouth-log"
 10	mrt
@@ -493,7 +490,7 @@ bookworm/sid
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
 QT_ACCESSIBILITY=1
 " This happens after /etc/vim/vimrc(.local) are loaded, so it will override
-    } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
+#
 	vgs_cols_full="vg_name,vg_uuid,vg_fmt,vg_size,vg_free,vg_sysid,vg_extent_size,vg_extent_count,vg_free_count,vg_profile,max_lv,max_pv,pv_count,lv_count,snap_count,vg_seqno,vg_mda_count,vg_mda_free,vg_mda_size,vg_mda_used_count,vg_attr,vg_tags"
 fi
 
@@ -643,7 +640,7 @@ a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 #allow 192.168/16
 #keyfile /etc/chrony.keys
 of the format.
-	unset AWKPATH
+
 KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 Acquire::Changelogs::AlwaysOnline "true";
 . /usr/share/bash-completion/bash_completion
@@ -680,10 +677,9 @@ FileDescriptorName=unix
   abi <abi/3.0>,
 
 # Example configuration file for the GTK+ Multipress Input Method
-
+suffix (dbus vs. dbus.service). Needrestart uses the systemctl/service
 	if [ -f /etc/iscsi/iscsi.initramfs ] ||
 # shellcheck source=/dev/null
-# Defaults can be restored by simply deleting this file and all drop-ins.
 	thin_pool_chunk_size_policy = "performance"
 	cache_pool_chunk_size = 64
 ##########################################################
@@ -696,11 +692,11 @@ XClock.input: false
 # If you enable logging, you may want to add an entry to a log rotation
 
 # @{securityfs} is the location where securityfs is mounted.
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
+Znd1cGQub3JnMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA8GA1UdDwEB/wQFAwMHBgAw
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   jammy stable
   owner @{HOME}/mbox          rw,
   include if exists <abstractions/consoles.d>
-#    This program is free software; you can redistribute it and/or
+# This file is a simple placeholder to keep dpkg from removing this directory
 if [ -d /run/systemd/system ]; then
 # It is sourced, not executed.  For more information see dhclient-script(8).
 	notifempty
@@ -730,7 +726,7 @@ data {yes
 
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 }
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+</fontconfig>
 KP_5 = j;k;l;5;Â£
     monthly
 #%PAM-1.0
@@ -743,7 +739,7 @@ description=OpenSSH is a free implementation of the Secure Shell protocol.
 #    it. This is confirmed to work with:
 
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ý^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTÝê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòÝ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùÞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòý äûIÉ÷‹’ï·Ê›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|¶¿¿„¤ù>©
-#event_timeout=180
+
 # then an administrator can adjust /etc/apparmor.d/local/usr.sbin.smbd to
 set -- $IF_ETHERNET_WOL
 #    modify it under the terms of version 2 of the GNU General Public
@@ -769,7 +765,6 @@ include if exists <tunables/etc.d>
 *customization: -color
 // If you don't like it, comment it out.
 #
-
 # Make sure the locale variables are set to valid values.
 
 # License for more details.
@@ -780,7 +775,7 @@ with something the package builder needs later. It must end with .conf though.
 #    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 # set start_ro=1 to make newly assembled arrays read-only initially,
 [PStore]
-# admin_group = <admin_group_name>
+}
 ##
 
 # symbolic names for networks, see networks(5) for more information
@@ -813,7 +808,6 @@ BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
 #   settings.
       without rebooting a machine which drastically limits the need for
 compose ',' 'A' to '¡'
-PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 #
 			done
     delaycompress
@@ -888,7 +882,7 @@ mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt
   # readd default if was empty
 	vdo_use_sparse_index=0
 # ------------------------------------------------------------------
-# Allow the system clock to be stepped in the first three updates
+*ispell*options.horizDistance:		2
 /var/log/dpkg.log {
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 *fileDialog.accept.bottom:		ChainBottom
@@ -912,7 +906,7 @@ DNS={% for server in nameservers %}{{server}} {% endfor %}
 # Record the rate at which the system clock gains/losses time.
 [Install]
     start-stop-daemon --start --pidfile /dev/null \
-0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
+networkd_dispatcher_args="--run-startup-triggers"
 
 	        # check because c-n-f could've been removed in the meantime
 # This file is sourced by Xsession(5), not executed.
@@ -950,7 +944,7 @@ for svc in $RESTART_CHK; do
   abi <abi/3.0>,
 	<alias>
 # The PAM configuration file for the Shadow `passwd' service
-# DO NOT EDIT OR REMOVE
+  include <abstractions/consoles>
 #dateext
 brandon:100000:65536
 # DO NOT EDIT OR REMOVE
@@ -987,9 +981,8 @@ fi
 
 #
 # Skip if systemd is running.
-  # User files
+tcp.flag.psh	u8		tcp+13		0x08		3
 DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
-       path=/org/freedesktop/DBus
   </match>
 	exit 0
 #
@@ -1005,7 +998,7 @@ APT::Archives::MaxSize "500";
 
 
 
-#    the Free Software Foundation, version 3 of the License.
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
 
 # white space is ignored and lines maybe extended with '\\n' (escaped
 compose '^' '/' to '|'
@@ -1020,3 +1013,11 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 	vdo_write_policy="auto"
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ý^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTÝê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòÝ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùÞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòý äûIÉ÷‹’ï·Ê›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|¶¿¿„¤ù>©
+mozilla/AC_RAIZ_FNMT-RCM.crt
+# @{PROC} is the location where procfs is mounted.
+# It's important that all backports from this kernel have been
+×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ý^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTÝê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòÝ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùÞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòý äûIÉ÷‹’ï·Ê›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|¶¿¿„¤ù>©
+	€
+# Shut down the daemon after this many seconds idle. 0 means don't shutdown.
+  # firefox-notify
+
