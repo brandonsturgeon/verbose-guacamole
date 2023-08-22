@@ -66,7 +66,6 @@ names. If the host uses systemd the service names have '.service' as a
 #	franc,ais	fr_FR.ISO-8859-1
 fi
 							return 1
-# up blocking replies from your own upstream servers.
 # Compose sequences for CP1251
 mail.*				-/var/log/mail.log
     set in2_max  3.3 * 1.10
@@ -143,7 +142,7 @@ compose '<' 'Z' to '®'
 @include common-session-noninteractive
 
 Vendor-URL: https://www.debian.org/
-0	default
+session		required	pam_unix.so
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 OrderBefore=lvfs,fwupd
 # Compose sequences for ISO-8859-16
@@ -162,7 +161,7 @@ server {{server}} iburst
 #ifdef COLOR
 			<family>Artsounk</family> <!-- armenian -->
 # Note that /etc/iscsi/iscsi.initramfs must exist for this option to
-fi
+
   DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
 # dpkg configuration file
  10 through 19		system rendering defaults (AA, etc)
@@ -220,7 +219,6 @@ password	include		su
 PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 # should contain commands that should be executed only
 #!/bin/sh
-
 
 # See comments in /etc/login.defs
 #
@@ -341,7 +339,7 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 #
 export QT_ACCESSIBILITY
 
-[boot]
+# resolution. For example, if '/usr' is on removable media:
 # Compose sequences for ISO-8859-5
 restrict -6 default kod nomodify notrap nopeer noquery
   . "$USERXSESSIONRC"
@@ -448,7 +446,6 @@ DISTRIB_RELEASE=22.04
 # prevents the sshd-keygen units from running *if* cloud-init is going to run.
 # vim:syntax=apparmor
 # This file is a simple placeholder to keep dpkg from removing this directory
-  <complexType name="EncryptedType" abstract="true">
 #DefaultLimitAS=
 # Compose sequences for ISO-8859-16
   # User files
@@ -469,7 +466,6 @@ compose '-' 'L' to 'Ù'
 #
 </catalog>
 Before=snapd.service
-# Compose sequences for KOI8-R
 if [ -f /bin/setupcon ]; then
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
 systemd=false
@@ -508,7 +504,7 @@ fi
   #/{,var/}run/mysqld/mysqld.sock rw,
 #& stop
 ## Suppress Warnings
-	. /lib/cryptsetup/cryptdisks-functions
+  log_action_end_msg $?
 0xCD 'Ã'
 #
 # for it. Matches are exact only at the moment (no globbing etc.).
@@ -548,7 +544,7 @@ account     required    pam_shells.so
 9   audit
  -->
 Parent: Debian
-
+@include common-session
     DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
 <Directory "/usr/share/javascript/">
 APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
@@ -617,7 +613,6 @@ compose '^' 'y' to 'þ'
   /opt/novell/lib/libpthread_ext*.so* mr,
 
 
-	</match>
 
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
   /tmp/.X11-unix/* rw,
@@ -654,7 +649,6 @@ APT::Periodic::Download-Upgradeable-Packages "0";
 	</alias>
   # Include additions to the abstraction
 America/Los_Angeles
-# ------------------------------------------------------------------
         Ctrl<Key>B:     previous-page()
 
 #    This program is free software; you can redistribute it and/or
@@ -813,7 +807,6 @@ compose ',' 'a' to '±'
 if [ "${PS1-}" ]; then
 
 # needrestart - Restart daemons after library updates.
-abi <abi/3.0>,
 # * Be careful about changing the environment since this is sourced
         ;;
 Mode: 644
@@ -839,7 +832,7 @@ data {yes
 }
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 KP_5 = j;k;l;5;Â£
-# Default-Start:     2 3 4 5
+    monthly
 #%PAM-1.0
 
 if [ "$INITRD" = 'No' ]; then
@@ -881,14 +874,12 @@ include if exists <tunables/etc.d>
 
 *customization: -color
 // If you don't like it, comment it out.
-l7ljKjFi06XLJxOjLLpIFBH/yAJ5YbsYZt+XuT3WgORfHPDU3xepWGfQj4QFcsny
 #
 
 # Make sure the locale variables are set to valid values.
 
 # License for more details.
 loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null' 
-# and should contain a list of modules that define tasks to be performed
 #    The CPUs list which allows you to indicate which CPUs should
 # Turn on Source Address Verification in all interfaces to
 
@@ -909,13 +900,12 @@ bookworm/sid
 
 
   /usr/bin/shotwell Cxr -> sanitized_helper,
-}
+compose ''' 'e' to 'é'
 #
 fi
 # ------------------------------------------------------------------
   # Iceweasel
 #  * there is no space around the "="
-MetadataURI=file:///usr/share/fwupd/remotes.d/vendor/vendor.xml.gz
 # semanage will set the policy version to POLICYDB_VERSION_MAX, as
 	cache_mode = "writethrough"
 631	# cups
@@ -969,7 +959,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 #    Handle linux distributions that use systemd to replace the legacy
 eval $(/usr/bin/locale-check C.UTF-8)
 
-ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0002", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_ZTE_PORT_TYPE_MODEM}="1"
 #    Copyright (C) 2002-2009 Novell/SUSE
 X-Ubuntu-Gettext-Domain=xdg-user-dirs
   <match target="pattern">
@@ -989,7 +978,7 @@ APT::Archives::MinAge "2";
 # Allow any user to opt into auto-launching byobu by setting LC_BYOBU=1
   # owns on removable media and filesystems.
 
-  include <abstractions/dbus-session-strict>
+
   /usr/lib/@{multiarch}/libexec/kf5/kioslave{,5} ix,
   @{etc_ro}/default/passwd         r,
 # Doing so means you'll also get CLOUDINIT messages in /var/log/syslog
@@ -1004,7 +993,7 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPg
 # well. (This option allows users to use the allow_other option.) You need
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 
-	# This is displayed when the device for a PV is not known.
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPgz4pnxGhnRPbzreFbZerylDneftGZKsHIMpC8KatK7pqmHPjs4EKWjSn8XoIk/uA5NccoESmo/ao5YVw= root@LAPTOP-5TIN5O4V
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
     done
 {% for server in servers -%}
@@ -1021,3 +1010,15 @@ compose '~' 'A' to 'Ã'
   # readd default if was empty
 
 	vdo_use_sparse_index=0
+# ------------------------------------------------------------------
+  audit deny @{HOME}/.gnupg/{,**} mrwkl,
+	missingok
+# NIS (man nsswitch) as well as normal /etc/passwd and
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
+# <library name>	<version/soname>	<dependencies>
+
+XClock.input: false
+#! /bin/sh
+# vim:syntax=apparmor
+Parent: Debian
