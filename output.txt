@@ -9,7 +9,6 @@ auth		sufficient	pam_rootok.so
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 
 9mBZutKynYmphD0Mi4XjXn7JNXyuJa8Qutz98/Iyhsjq4LeiL9ayaKMXT+3pKlTm
-
 143 188 143		DarkSeaGreen
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 #    modify it under the terms of version 2 of the GNU General Public
@@ -71,7 +70,6 @@ fi
 							return 1
 # up blocking replies from your own upstream servers.
 # Compose sequences for CP1251
-#
 mail.*				-/var/log/mail.log
     set in2_max  3.3 * 1.10
 -#}
@@ -93,7 +91,6 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 compose '"' 'o' to 'ˆ'
 
 CRYPTDISKS_MOUNT=""
-0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
 overlayroot_cfgdisk=LABEL=OROOTCFG
 #keyfile /etc/chrony.keys
 <!-- /etc/fonts/conf.d/58-dejavu-lgc-sans.conf
@@ -157,7 +154,7 @@ Vendor-URL: https://www.debian.org/
 OrderBefore=lvfs,fwupd
 # Compose sequences for ISO-8859-16
   capability dac_override,
-X-GNOME-Bugzilla-Bugzilla=GNOME
+overlayroot_cfgdisk=LABEL=OROOTCFG
 server {{server}} iburst
 # Step the system clock instead of slewing it if the adjustment is larger than
 #
@@ -271,7 +268,6 @@ application/vnd.nokia.landmark+xml
 tty:x:5:
 # and user name in $4.
 # Compose sequences for ISIRI-3342
-  # per-user tmp directories
 	[ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`
 alias.url += ("/javascript" => "/usr/share/javascript")
  			<family>LKLUG</family>
@@ -359,15 +355,14 @@ Acquire::Changelogs::AlwaysOnline "true";
 #bind ^G findnext all
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 # console I usually leave idle.
-	"multiverse/oldlibs";
 #
 # Idle time in seconds to shut down the daemon -- note some plugins might
 export QT_ACCESSIBILITY
 
 [boot]
-
+# Compose sequences for ISO-8859-5
 restrict -6 default kod nomodify notrap nopeer noquery
-
+  . "$USERXSESSIONRC"
 /dev/mpu401data rw,
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 yﬁÒ#≤.¸ÖSkÈô¡Úo€oãcåP+ ∏\*pF˙õÛS÷[∑ú6Y].¿Ï;œ”‰@y(R£X<¯|)>+Øò¥jhºbûê`[éƒ•)º¯*Ù#Ku Ù7NëAÀ5}FÄ@KsË1≤Á9Ö)&g˘—DO≥›1
@@ -406,7 +401,7 @@ XClock.input: false
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
 set -e
 # Default-Start:     S
-#
+# or FITNESS FOR A PARTICULAR PURPOSE.  See the Lesser GNU General Public
 
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 #
@@ -506,7 +501,6 @@ sortlist {% for sort in sortlist %}{{sort}} {% endfor %}
 XLoad.input:			false
 #
 </catalog>
-*Command.highlightThickness:	2
 Before=snapd.service
 APT::Periodic::Update-Package-Lists "1";
 if [ -f /bin/setupcon ]; then
@@ -547,7 +541,7 @@ fi
 	<alias binding="same">
 # wildcards if desired.
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-  /usr/bin/vlc Cxr -> sanitized_helper,
+<!-- Delicious 'heavy' variant says its Medium weight -->
   #/{,var/}run/mysqld/mysqld.sock rw,
 #& stop
 ## Suppress Warnings
@@ -581,7 +575,7 @@ account     required    pam_shells.so
 <fontconfig>
 *topform.Form.joinstyle.Toggle.width:	123
   owner @{HOME}/.config/mimeapps.list   r,
-
+[ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
    case "$powerOp" in
 # translations. See tunables/xdg-user-dirs for details. Eg:
 [defaults]
@@ -621,7 +615,6 @@ fi
 # Default settings for openssh-server. This file is sourced by /bin/sh from
 #  lts    - Check to see if a new LTS release is available.  The upgrader
 
-The programs included with the Ubuntu system are free software;
 logdir /var/log/chrony
   </its:rules>
 fi
@@ -651,7 +644,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 # DO NOT EDIT OR REMOVE
 #    This program is free software; you can redistribute it and/or
 # [automount]
-# Entries in this file show the compile time defaults. Local configuration
 
 ja_JP		ja_JP.eucJP
       member={Hello,AddMatch,RemoveMatch,GetNameOwner,NameHasOwner,StartServiceByName}
@@ -811,7 +803,7 @@ AutomaticSecurityReports=false
 #label ::/96         3
 . /usr/share/bash-completion/bash_completion
 <fontconfig>
-#
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
   /usr/lib{,32,64}/krb5/plugins/preauth/* mr,
 
 # default location for the meta-release file
@@ -831,7 +823,7 @@ IdleTimeout=7200
 #    License published by the Free Software Foundation.
 #
 
-I(c,Yı_WQ
+Each file in this directory is an rt_protos configuration file. iproute2
 #    Copyright (C) 2006-2009 Novell/SUSE
 #DefaultLimitMSGQUEUE=
 
@@ -854,7 +846,7 @@ FileDescriptorName=unix
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 	thin_pool_chunk_size_policy = "performance"
 	cache_pool_chunk_size = 64
-@{pids}=@{pid}
+##########################################################
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+(\[[0-9]+\])?: DIGEST-MD5 common mech free
 XClock.input: false
 # Required-Start:    $remote_fs
@@ -911,7 +903,7 @@ data {yes
 
 	<alias>
 # ~/.bash_logout: executed by bash(1) when login shell exits.
-# b.) change or remove the value of 'manage_etc_hosts' in
+}
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 KP_5 = j;k;l;5;¬£
 # Default-Start:     2 3 4 5
@@ -922,7 +914,6 @@ if [ "$INITRD" = 'No' ]; then
 
 # needrestart - Restart daemons after library updates.
 	if [ -n "$DOCKER_SOCKET" ]; then
-session		required	pam_unix.so
 
 description=OpenSSH is a free implementation of the Secure Shell protocol.
 #    it. This is confirmed to work with:
@@ -999,8 +990,20 @@ fi
 MetadataURI=file:///usr/share/fwupd/remotes.d/vendor/vendor.xml.gz
 # semanage will set the policy version to POLICYDB_VERSION_MAX, as
 
-
 	cache_mode = "writethrough"
 631	# cups
 ## Commands metadata files.
 	notifempty
+
+háÅ?Ç'˘4æéØÁ¯˘»Ÿ¬gÈ¸Hæëü¡¯.Ñ,·'næåwÒ•ºìœœ·€˘{~4?é/Êãxé/‰«Úc¯Væçè <ÕÁÚo„.ü√[˘l~ﬂÃáŒxØÒQ~øîÔ·sõO‚ü¬WÚS˘ƒÁ˘)ºèWyÖüÃ{˘
+## Suppress Warnings
+#    This program is free software; you can redistribute it and/or
+
+APT::Periodic::Update-Package-Lists "1";
+session		optional	pam_keyinit.so force revoke
+# /usr/bin/gvfs-open rPx -> foo//gvfs-open,
+BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
+  abi <abi/3.0>,
+###############################################################################
+# ------------------------------------------------------------------
+
