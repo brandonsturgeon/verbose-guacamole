@@ -129,7 +129,6 @@ WantedBy=multi-user.target
  -->
 # Compose sequences for ISO-8859-11
  			<family>Lohit Gujarati</family>
-compose '<' 'Z' to '®'
                 chown -R "$user":"$gid" "$homedir"
 
 @include common-session-noninteractive
@@ -137,7 +136,6 @@ compose '<' 'Z' to '®'
 Vendor-URL: https://www.debian.org/
 session		required	pam_unix.so
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-OrderBefore=lvfs,fwupd
 # Compose sequences for ISO-8859-16
 {
 overlayroot_cfgdisk=LABEL=OROOTCFG
@@ -183,7 +181,7 @@ CQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQCm3O9rRvPb/wsQf7BGEkgT08Bx1v
 /usr/local/lib
 # Default-Start:     S
 	     "/site-lisp/dictionaries-common"))
-        ;;
+
 # Reserved protocols.
 America/Los_Angeles
 	}
@@ -197,7 +195,6 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 #   # Only allow to handle http[s]: and mailto: links
 commands scan this directory processing all files that end in '.conf'.
 password	include		su
-# it under the terms of the GNU Lesser General Public License as published by
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
 [msr]
 # Your system has been configured with 'manage-resolv-conf' set to true.
@@ -218,7 +215,6 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 #!/bin/sh
 # @{PROC} is the location where procfs is mounted.
 
-/var/log/syslog
 *scrollMenu.vertical.label:		Vertical
         'bug_pattern_url': '/tmp/bugpatterns.xml',
 systemd=false
@@ -252,13 +248,12 @@ XL3IlFx/6OUpBA==
 ;; -*-emacs-lisp-*-
 #   ForwardX11 no
       <string>DejaVu LGC Sans</string>
-	daytime_hosts => [ qw {} ],
+deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main
 # so please ensure that:
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '''s/^s*[0-9]+s*//;s/[;&|]s*alert$//''')"'
 sonames=libbd_lvm.so.2
 # NOTE
 
-XClock.input: false
 	# only logout if daemon is running, iscsiadm hangs otherwise
 LAPTOP-5TIN5O4V
 ONLY_IF_EMPTY = 0
@@ -348,7 +343,6 @@ XClock.input: false
   #
 fi
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-        'project': get_oem_project(),
   <alias binding="same">
 #
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
@@ -421,13 +415,11 @@ DISTRIB_RELEASE=22.04
 # Compose sequences for ISO-8859-16
   # User files
 #
-#
 # ------------------------------------------------------------------
 # This directive specifies the file into which chronyd will store the rate
 }
 # want to track accesses to individual keys on the LDAP server side.
   owner @{HOME}/man/**                        r,
-# Compose sequences for ISO-8859-5
 	inet_domain => undef,
 compose '-' 'L' to 'Ù'
 
@@ -445,7 +437,6 @@ label=magenta,
 modify any previously set config option.
 /lib32
 log_level: debug
-	<!-- Add language for math, to match other math fonts. -->
 	€
 
 # Defaults can be restored by simply deleting this file and all drop-ins.
@@ -465,7 +456,6 @@ Wants=network.target
 # ------------------------------------------------------------------
 [Time]
 # Magic local data for file(1) command.
-
 fi
 	<alias binding="same">
 <!-- Delicious 'heavy' variant says its Medium weight -->
@@ -501,7 +491,7 @@ account     required    pam_shells.so
 # translations. See tunables/xdg-user-dirs for details. Eg:
 [defaults]
 #backwards compatibility include, actual abstraction moved from php5 to php
-*text.scrollVertical:		Always
+		<!-- pretend the font is oblique now -->
   /var/tmp/             rw,
 
 		exit 0
@@ -542,12 +532,11 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS
 #
 # clean all crash reports which are older than a week.
 
-OnlyShowIn=GNOME;Unity;MATE;
+
 # @{HOME} is a space-separated list of all user home directories. While
 }
 Each file in this directory is an rt_protos configuration file. iproute2
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-# The "order" line is only used by old versions of the C library.
 brandon:100000:65536
 
 
@@ -613,7 +602,6 @@ Each file in this directory is an rt_tables configuration file. iproute2
   # Include additions to the abstraction
 America/Los_Angeles
 
-#    This program is free software; you can redistribute it and/or
   rotate 6
 #
 # Kernel Image management overrides
@@ -665,7 +653,7 @@ XKBOPTIONS=""
 
 {% endif %}
 ## Add external Servers using
-  <match target="pattern">
+APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 contract_url: https://contracts.canonical.com
 # ctrll alt keycode 36 = Incr_Console
 
@@ -696,7 +684,6 @@ AutomaticSecurityReports=false
 
 # default location for the meta-release file
 ## extensively as that contained in the main release, although it includes
-# vim:syntax=apparmor
 # ------------------------------------------------------------------
 
     user_friendly_names yes
@@ -784,7 +771,6 @@ if [ "$INITRD" = 'No' ]; then
 
 
 # needrestart - Restart daemons after library updates.
-	if [ -n "$DOCKER_SOCKET" ]; then
 
 description=OpenSSH is a free implementation of the Secure Shell protocol.
 #    it. This is confirmed to work with:
@@ -833,7 +819,7 @@ with something the package builder needs later. It must end with .conf though.
 
 # symbolic names for networks, see networks(5) for more information
 if [ "$SHLVL" = 1 ]; then
- -->
+Ubuntu 22.04.2 LTS
 
 # vim:syntax=apparmor
 bookworm/sid
@@ -890,7 +876,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 
 {
 - /dev/stdout
-#MOTD_FILE
 # since the modules above will each just jump around
 # no packages own btmp -- we'll rotate it here
   </alias>
@@ -917,7 +902,7 @@ APT::Archives::MinAge "2";
 
 
   /usr/lib/@{multiarch}/libexec/kf5/kioslave{,5} ix,
-  @{etc_ro}/default/passwd         r,
+.  " Debian: Strictly, "-" is a hyphen while "-" is a minus sign, and the
 
 auth		include		runuser
 # resolution. For example, if '/usr' is on removable media:
@@ -941,7 +926,6 @@ compose '~' 'A' to 'Ã'
         cat /run/motd.d/85-fwupd
 
      </choice>
-	</match>
   # readd default if was empty
 	vdo_use_sparse_index=0
 # ------------------------------------------------------------------
@@ -968,7 +952,6 @@ DNS={% for server in nameservers %}{{server}} {% endfor %}
 }
 		<rejectfont>
 # Record the rate at which the system clock gains/losses time.
-# ...
 [Install]
     start-stop-daemon --start --pidfile /dev/null \
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
@@ -1021,3 +1004,14 @@ CQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQxjYXh6CoSeE3pQf+MlPyQzkVhdRU
 //Unattended-Upgrade::Mail "";
 AutomaticReports=false
        missingok
+    if start-stop-daemon --stop --name $NAME --user root --quiet \
+#Match User anoncvs
+# Specify command line options here. This config file is used
+fi
+  owner @{HOME}/.cache/pocl/kcache/**.so mrw, # dangerous!
+fi
+[fwupd Remote]
+
+	thin_pool_chunk_size_policy = "generic"
+
+
