@@ -1,6 +1,6 @@
 MRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j
 Ubuntu 22.04 LTS (Jammy Jellyfish)
-mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+mQENBFWt/98BCADZ4+lUHSp4OMlzVf4HlJNLJ7Ks5QxGwL/hy2wChoNLuA/j4GNM
 #
 auth		sufficient	pam_rootok.so
 /var/log/auth.log
@@ -73,7 +73,6 @@ mail.*				-/var/log/mail.log
 -#}
   notifempty
 # The following is a space-separated list of where additional user home
-		      --startas /usr/bin/mandb --oknodo --chuid man \
 ptrace {mask {read trace
 
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
@@ -123,7 +122,7 @@ APT::Archives::MinAge "2";
   # shared python paths
 		</test>
 #
-
+X-GNOME-Bugzilla-Version=40.0
 # EDAC driver for amd76x clashes with the agp driver preventing the aperture
 
 #used.  If you really want nothing to happen then use pam_permit.so or
@@ -135,7 +134,7 @@ WantedBy=multi-user.target
 .  \" Debian: Map \(oq to ' rather than ` in nroff mode for devices other
 
   exit 0
-trusted.SGI_DMI_*		skip		# xfs specific
+ -->
 # Compose sequences for ISO-8859-11
  			<family>Lohit Gujarati</family>
 compose '<' 'Z' to '®'
@@ -208,9 +207,8 @@ include <abstractions/apparmor_api/introspect>
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 #   # Only allow to handle http[s]: and mailto: links
 commands scan this directory processing all files that end in '.conf'.
-
+password	include		su
 # it under the terms of the GNU Lesser General Public License as published by
-#
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
   /usr/bin/mailody Cx -> sanitized_helper,
 [msr]
@@ -233,7 +231,7 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 #!/bin/sh
 # @{PROC} is the location where procfs is mounted.
 
-# /etc/zsh/zprofile: system-wide .zprofile file for zsh(1).
+/var/log/syslog
 *scrollMenu.vertical.label:		Vertical
         'bug_pattern_url': '/tmp/bugpatterns.xml',
 systemd=false
@@ -317,7 +315,6 @@ deb {{mirror}} {{codename}} universe
 #This file is DEPRECATED! @{sys} is defined in tunables/kernelvars now.
 # sudo service apport start force_start=1
 # Do note that only the values are preserved; the rest of the file is
-
 # Case-sensitive behavior is defined by the operating system.
 global {
 #
@@ -364,7 +361,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 
 
 
-
 # symbolic names for networks, see networks(5) for more information
 # This file lists certificates that you wish to use or to ignore to be
 swedish         sv_SE.ISO-8859-1
@@ -384,7 +380,6 @@ fi
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
 #
-# Default-Start:     S
 # or FITNESS FOR A PARTICULAR PURPOSE.  See the Lesser GNU General Public
 
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
@@ -402,7 +397,6 @@ sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
     </complexType>
 # License:
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
-. "$TOOLS_CONFDIR"/statechange.subr
 # console and Alt+k switch to the previous console.
 # Allow writing shared settings for Qt-based applications
   /dev/dri/ r, # libGLX_mesa.so calls drmGetDevice2()
@@ -439,7 +433,7 @@ networkd_dispatcher_args="--run-startup-triggers"
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
 bookworm/sid
        notifempty
-{% endfor %}
+            COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # no packages own wtmp -- we'll rotate it here
 title=Secure shell server, an rshd replacement
@@ -456,7 +450,7 @@ SETTINGS="\
 pool {{pool}} iburst
 DISTRIB_RELEASE=22.04
 # prevents the sshd-keygen units from running *if* cloud-init is going to run.
-                gid=$(echo "$passwd" | cut -f4 -d":")
+# vim:syntax=apparmor
 # This file is a simple placeholder to keep dpkg from removing this directory
   <complexType name="EncryptedType" abstract="true">
 #DefaultLimitAS=
@@ -495,7 +489,6 @@ log_level: debug
 	€
 
 # Defaults can be restored by simply deleting this file and all drop-ins.
-<?xml version="1.0"?>
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 #
 ApprovalRequired=false
@@ -563,7 +556,7 @@ account     required    pam_shells.so
  -->
 Parent: Debian
 
-# You can also have per-user config in ~/.config/user-dirs.conf, or specify
+    DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
 <Directory "/usr/share/javascript/">
 APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
 # $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
@@ -637,7 +630,7 @@ compose '^' 'y' to 'þ'
 
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
   /tmp/.X11-unix/* rw,
-compose '(' '-' to '{'
+version="$1"
   @{HOME}/ r,
 	</alias>
 
@@ -766,18 +759,17 @@ AutomaticSecurityReports=false
 # vim:syntax=apparmor
 # ------------------------------------------------------------------
 XL3IlFx/6OUpBA==
-{ :
     user_friendly_names yes
 221 160 221		plum
 if [ -d /run/systemd/system ]; then
 blacklist neofb
     y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/;  # lower-case
     </edit>
-IdleTimeout=7200
+    exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
 
 #    License published by the Free Software Foundation.
 link-local 169.254.0.0
-Each file in this directory is an rt_protos configuration file. iproute2
+## template:jinja
 #    Copyright (C) 2006-2009 Novell/SUSE
 #DefaultLimitMSGQUEUE=
 
@@ -847,7 +839,7 @@ data {yes
 #!/bin/sh
 .  \" than utf8.
 ! this causes problems with some non-Xaw apps, use with care
-  # User files
+# prime the stack with a positive return value if there isn't one already;
 # Call needrestart after package upgrades/installations and check
 #
 
@@ -871,9 +863,8 @@ description=OpenSSH is a free implementation of the Secure Shell protocol.
 
   # privacy violations (don't audit files under $HOME otherwise get a
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ý^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTÝê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòÝ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùÞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòý äûIÉ÷‹’ï·Ê›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|¶¿¿„¤ù>©
-.if n \{\
 #event_timeout=180
-# Compose sequences for ISO-8859-8
+# then an administrator can adjust /etc/apparmor.d/local/usr.sbin.smbd to
 set -- $IF_ETHERNET_WOL
 #    modify it under the terms of version 2 of the GNU General Public
 
@@ -997,7 +988,7 @@ X-Ubuntu-Gettext-Domain=xdg-user-dirs
 
 # example via package removal (e.g. wine, dosemu).  Therefore, this value
 APT::Archives::MinAge "2";
-# Compose sequences for CP1256
+  include if exists <abstractions/dbus-accessibility-strict.d>
 	bootdir=$(dirname "$2")
 #5	russia
 # userspace things.
@@ -1007,7 +998,6 @@ APT::Archives::MinAge "2";
 # use
 # Allow any user to opt into auto-launching byobu by setting LC_BYOBU=1
   # owns on removable media and filesystems.
-# The example configuration below imitates the behavior of a standard mobile
 
   include <abstractions/dbus-session-strict>
   /usr/lib/@{multiarch}/libexec/kf5/kioslave{,5} ix,
@@ -1019,3 +1009,14 @@ APT::Archives::MinAge "2";
   # Include additions to the abstraction
 # ssh_config(5) man page.
   </alias>
+
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPgz4pnxGhnRPbzreFbZerylDneftGZKsHIMpC8KatK7pqmHPjs4EKWjSn8XoIk/uA5NccoESmo/ao5YVw= root@LAPTOP-5TIN5O4V
+# well. (This option allows users to use the allow_other option.) You need
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+
+	# This is displayed when the device for a PV is not known.
+XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
+    done
+{% for server in servers -%}
+# set start_ro=1 to make newly assembled arrays read-only initially,
+deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main
