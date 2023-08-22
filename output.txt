@@ -3,7 +3,6 @@ Ubuntu 22.04 LTS (Jammy Jellyfish)
 mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
 #
 auth		sufficient	pam_rootok.so
-	                echo failed.
 /var/log/auth.log
 #    modify it under the terms of version 2 of the GNU General Public
 	export AWKPATH="$*:$AWKPATH"
@@ -85,7 +84,6 @@ compose '\'' 'E' to 'É'
 ptrace {mask {read trace
 	# Configuration option report/segs_sort_full.
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
-
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 
   # shared snippets for config files
@@ -113,11 +111,9 @@ fi
 # Compose sequences for ISO-8859-8
 .  \" Debian: Map \(oq to ' rather than ` in nroff mode for devices other
 
-
 Each file in this directory is an rt_tables configuration file. iproute2
 
 #3	freenet
-
 
 # -k disable/enable the "keep_settings_over_reset" flag for this drive
 APT::Archives::MinAge "2";
@@ -224,11 +220,10 @@ include <abstractions/apparmor_api/introspect>
 # Compose sequences for TIS-620
 
 
-  @{run}/nslcd/socket  rw,
+deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 *Toggle.displayList:			foreground rgb:4/6/4;draw-rect 1,1,-2,-2;foreground rgb:8/a/8;draw-rect 0,0,-1,-1
 commands scan this directory processing all files that end in '.conf'.
 
-  # client should be able to talk the local cupsd
 # it under the terms of the GNU Lesser General Public License as published by
 #
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
@@ -255,7 +250,7 @@ bookworm/sid
 
 # /etc/zsh/zprofile: system-wide .zprofile file for zsh(1).
 *scrollMenu.vertical.label:		Vertical
-#    modify it under the terms of version 2 of the GNU General Public
+        'bug_pattern_url': '/tmp/bugpatterns.xml',
 systemd=false
 session		include		runuser
   # Include additions to the abstraction
@@ -374,12 +369,12 @@ Acquire::Changelogs::AlwaysOnline "true";
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 # console I usually leave idle.
 	"multiverse/oldlibs";
-# Stop bad estimates upsetting machine clock.
+#
 # Idle time in seconds to shut down the daemon -- note some plugins might
 export QT_ACCESSIBILITY
 
 [boot]
-Zaz+ortKsugmTmzsF4DlRhq0Ok0VWuq0rzWndpFyFvIewwARAQABiQI+BBgBAgAJ
+
 restrict -6 default kod nomodify notrap nopeer noquery
 
 /dev/mpu401data rw,
@@ -413,7 +408,7 @@ www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 XClock.input: false
   #
   /usr/bin/rhythmbox Cxr -> sanitized_helper,
-### END INIT INFO
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
         'project': get_oem_project(),
   <alias binding="same">
 #
@@ -425,7 +420,7 @@ set -e
 
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 #
-/etc/sound/ r,
+  /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
 
   # I think this is adaptive memory management
 
@@ -460,7 +455,7 @@ set -e
     </accept>
 /usr/lib/x86_64-linux-gnu/libfakeroot
     /etc/modprobe.d/{,*.conf} r,
-# /etc/modules: kernel modules to load at boot time.
+}
 #net.ipv4.tcp_syncookies=1
 
 QUIET=0
@@ -639,7 +634,7 @@ fi
 *customization: -color
 # ctrll shiftr alt keycode 36 = Incr_Console
   compress
-individual files in /usr/share/doc/*/copyright.
+# Default settings for openssh-server. This file is sourced by /bin/sh from
 #  lts    - Check to see if a new LTS release is available.  The upgrader
 
 The programs included with the Ubuntu system are free software;
@@ -665,7 +660,7 @@ brandon:100000:65536
 
 byte-compile = standard
 X-GNOME-Autostart-Phase=PreDisplayServer
-    # Recover from deletion, per FHS.
+# deb-src {{security}} {{codename}}-security multiverse
     import apport_python_hook
 
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
@@ -709,7 +704,6 @@ compose '(' '-' to '{'
 
 <!ENTITY % totalDigits "%p;totalDigits">
 #    This program is free software; you can redistribute it and/or
-#
 
 #
 
@@ -721,7 +715,6 @@ compose '(' '-' to '{'
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # $Id: Xsession.options 189 2005-06-11 00:04:27Z branden $
 [DEFAULT]
-*Form*bottom:				ChainTop
 #NR_NOTIFYD_DISABLE_NOTIFY_SEND='1'
 
 compose '\'' '\'' to '´'
@@ -741,13 +734,14 @@ restrict ::1
   # Include additions to the abstraction
 America/Los_Angeles
 # ------------------------------------------------------------------
-# drop-in config adds a condition to sshd-keygen@.service if it exists and
+        Ctrl<Key>B:     previous-page()
+
 #    This program is free software; you can redistribute it and/or
   rotate 6
 #
   something reasonable
 # Kernel Image management overrides
-  else
+
 	rotate 12
 #HostKey /etc/ssh/ssh_host_ecdsa_key
 #endif
@@ -759,7 +753,7 @@ America/Los_Angeles
 #	news.=crit;news.=err;news.=notice;\
 
 XClock.Clock.hourColor:		rgba:7f/00/00/c0
-
+#!/bin/sh
 # DO NOT EDIT OR REMOVE
 These files are normally installed in /usr/share/fontconfig/conf.avail
 #
@@ -862,7 +856,6 @@ I(c,Yõ_WQ
 #DefaultLimitMSGQUEUE=
 
   owner /media/** w,
-
 compose ')' '-' to '}'
 FileDescriptorName=unix
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
@@ -920,7 +913,6 @@ if [ "${PS1-}" ]; then
 # needrestart - Restart daemons after library updates.
 abi <abi/3.0>,
 # * Be careful about changing the environment since this is sourced
-#    License published by the Free Software Foundation.
         ;;
 #
 
@@ -936,7 +928,6 @@ data {yes
 #!/bin/sh
 .  \" than utf8.
 ! this causes problems with some non-Xaw apps, use with care
-
   # User files
 # Call needrestart after package upgrades/installations and check
 #
@@ -960,11 +951,11 @@ session		required	pam_unix.so
 #    it. This is confirmed to work with:
 #@{HOMEDIRS}+=
 
-# Compose sequences for IBM1133
+  # privacy violations (don't audit files under $HOME otherwise get a
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ý^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTÝê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòÝ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùÞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòý äûIÉ÷‹’ï·Ê›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|¶¿¿„¤ù>©
 .if n \{\
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
-#    Copyright (C) 2002-2006 Novell/SUSE
+# Compose sequences for ISO-8859-8
 set -- $IF_ETHERNET_WOL
 #    modify it under the terms of version 2 of the GNU General Public
 
@@ -972,7 +963,6 @@ set -- $IF_ETHERNET_WOL
   audit deny @{HOME}/.local/share/thumbnailers/{,**} wl,
 chip "w83627uhg-*"
 
-  abi <abi/3.0>,
 AdminIdentities=unix-group:sudo;unix-group:admin
   owner /tmp/**         rwkl,
 #
@@ -1004,8 +994,14 @@ l7ljKjFi06XLJxOjLLpIFBH/yAJ5YbsYZt+XuT3WgORfHPDU3xepWGfQj4QFcsny
 APT::Periodic::Update-Package-Lists "1";
 # and should contain a list of modules that define tasks to be performed
 *Indicator.foreground:		rgb:9b/cd/9b
-PROGNAME=Xsession
 #    The CPUs list which allows you to indicate which CPUs should
 # Turn on Source Address Verification in all interfaces to
 
 with something the package builder needs later. It must end with .conf though.
+#    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  # services' environments
+
+# <library name>	<version/soname>	<dependencies>
+##
+
+if [ -r "/etc/default/${NAME}" ]
