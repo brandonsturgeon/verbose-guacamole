@@ -11,7 +11,7 @@ auth		sufficient	pam_rootok.so
 9mBZutKynYmphD0Mi4XjXn7JNXyuJa8Qutz98/Iyhsjq4LeiL9ayaKMXT+3pKlTm
 143 188 143		DarkSeaGreen
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
-#    modify it under the terms of version 2 of the GNU General Public
+# libc default configuration
 ## Wget initialization file can reside in /etc/wgetrc
 XCalc*hp.button39.fromVert:		button30
       <element ref="ds:KeyInfo" minOccurs="0"/>
@@ -21,8 +21,8 @@ net.ipv6.conf.all.use_tempaddr = 0
 # to prevent metadata writes.  This is needed in order to allow
 # Scan for (successfully) installed packages,
 		read dev <  $1/dev
-#DefaultLimitNPROC=
-  /{,var/}run/sendsigs.omit.d/network-manager.dhclient*.pid lrw,
+
+# Here is the list of possible values:
   owner @{HOME}/.config/ rw,
 	command_log_selection="!(log_type=status && message=success)"
 # Compose sequences for ISO-8859-6
@@ -39,7 +39,7 @@ driftfile /var/lib/chrony/chrony.drift
 # for it. Matches are exact only at the moment (no globbing etc.).
 # at bash-completion startup for now, to ease the transition to a
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
-# Compose sequences for CP1256
+
 # to update this file, run dpkg-reconfigure cloud-init
 *text.scrollHorizontal:		Never
 ! this causes problems with some non-Xaw apps, use with care
@@ -248,9 +248,8 @@ session		include		runuser
 
 compose '/' '<' to '\\'
 # This file is a simple placeholder to keep dpkg from removing this directory
-
 		<default><family>monospace</family></default>
-"\e[2~": quoted-insert
+#
   /etc/openldap/cacerts/*   r,
 # Configuration file for the PolicyKit Local Authority.
 LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
@@ -276,7 +275,6 @@ XL3IlFx/6OUpBA==
 # filesystem type
 	"kfreebsd-.*";
 ;; -*-emacs-lisp-*-
-# vi: syntax=sh ts=4 expandtab
 ff02::1 ipv6-allnodes
       <string>DejaVu LGC Sans</string>
 	daytime_hosts => [ qw {} ],
@@ -291,7 +289,7 @@ LAPTOP-5TIN5O4V
 ONLY_IF_EMPTY = 0
 NAME="plymouth-log"
 10	mrt
-search updates ubuntu built-in
+fi
 #    Copyright (C) 2002-2006 Novell/SUSE
 Ubuntu 22.04.2 LTS
 #    modify it under the terms of version 2 of the GNU General Public
@@ -299,7 +297,6 @@ Ubuntu 22.04.2 LTS
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.$
 #
 {% endfor %}
-    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
     owner @{HOME}/.cache/pocl/kcache/tempfile*.so rw,
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 # (Replaces /etc/login.access file)
@@ -367,7 +364,6 @@ restrict -6 default kod nomodify notrap nopeer noquery
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 yﬁÒ#≤.¸ÖSkÈô¡Úo€oãcåP+ ∏\*pF˙õÛS÷[∑ú6Y].¿Ï;œ”‰@y(R£X<¯|)>+Øò¥jhºbûê`[éƒ•)º¯*Ù#Ku Ù7NëAÀ5}FÄ@KsË1≤Á9Ö)&g˘—DO≥›1
 # $ sudo dpkg-reconfigure apparmor
-    fi
 # directories are stored, each must have a trailing '/'. Directories added
 
 Title=Vendor
@@ -380,7 +376,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 
 
 # symbolic names for networks, see networks(5) for more information
-    update-binfmts --disable || CODE=$?
 # This file lists certificates that you wish to use or to ignore to be
 swedish         sv_SE.ISO-8859-1
 default = 'ubuntu'
@@ -494,7 +489,6 @@ LANG=en_US.UTF-8
 	inet_domain => undef,
 compose '-' 'L' to 'Ÿ'
 
-  # User files
 # Should-Stop:       iscsi
 sortlist {% for sort in sortlist %}{{sort}} {% endfor %}
 # Compose sequences for ISO-8859-8
@@ -502,7 +496,7 @@ XLoad.input:			false
 #
 </catalog>
 Before=snapd.service
-APT::Periodic::Update-Package-Lists "1";
+# Compose sequences for KOI8-R
 if [ -f /bin/setupcon ]; then
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
 systemd=false
@@ -568,7 +562,7 @@ rexd		100017	rex
 application/ibe-pkg-reply+xml
 fi
 # ~/.bashrc: executed by bash(1) for non-login shells.
-# Do not enable debsig-verify by default; since the distribution is not using
+mozilla/Comodo_AAA_Services_root.crt
 {% for server in nameservers %}
 account     required    pam_shells.so
 #  default), which need to be decoded to play correctly on speakers.
@@ -598,7 +592,7 @@ APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-
 # $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
 # x25
 # This file is a simple placeholder to keep dpkg from removing this directory
-#
+  <match target="pattern">
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
 QT_ACCESSIBILITY=1
 commands scan this directory processing all files that end in '.conf'.
@@ -627,7 +621,6 @@ if is_enabled; then
 OnlyShowIn=GNOME;Unity;MATE;
 # @{HOME} is a space-separated list of all user home directories. While
     PYTHON=python
-200	site
 }
 Each file in this directory is an rt_protos configuration file. iproute2
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
@@ -728,7 +721,6 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
 #!/bin/sh
 # DO NOT EDIT OR REMOVE
 These files are normally installed in /usr/share/fontconfig/conf.avail
-#
 <!ATTLIST %key;
       may simply works to avoid it.
 # /etc/ufw/ufw.conf
@@ -838,7 +830,6 @@ FileDescriptorName=unix
 
 
 # Example configuration file for the GTK+ Multipress Input Method
-  owner @{HOME}/.cache/mesa_shader_cache/ rw,
 
 	if [ -f /etc/iscsi/iscsi.initramfs ] ||
   @{sys}/devices/pci[0-9]*/*/drm/card[0-9]/metrics/ r, # anv_enumerate_physical_devices() from libvulkan_intel.so
@@ -861,7 +852,6 @@ HO	-*-helvetica-medium-o-normal--*-*-*-*-*-*-iso8859-1\n\
 ::1 {{fqdn}} {{hostname}}
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #   include <abstractions/ubuntu-helpers>
-    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   jammy stable
 #    You should have received a copy of the GNU General Public License
 compose '+' '+' to '#'
@@ -930,7 +920,6 @@ set -- $IF_ETHERNET_WOL
 13  ip6fw
   audit deny @{HOME}/.local/share/thumbnailers/{,**} wl,
 chip "w83627uhg-*"
-
 AdminIdentities=unix-group:sudo;unix-group:admin
   owner /tmp/**         rwkl,
 #
@@ -1004,6 +993,19 @@ session		optional	pam_keyinit.so force revoke
 # /usr/bin/gvfs-open rPx -> foo//gvfs-open,
 BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
   abi <abi/3.0>,
-###############################################################################
+# <target name>	<source device>		<key file>	<options>
 # ------------------------------------------------------------------
 
+# vim:syntax=apparmor
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+LANG=en_US.UTF-8
+#
+  owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
+    delaycompress
+
+# Modified for Linux.  --marekm
+# kernel.dmesg_restrict = 0
+# libc default configuration
+# and /etc/security/pam_env.conf.
+  /usr/share/icu/*/*.dat r,
+datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltCloud, OVF, MAAS, GCE, OpenStack, CloudSigma, SmartOS, Bigstep, Scaleway, AliYun, Ec2, CloudStack, Hetzner, IBMCloud, Oracle, Exoscale, RbxCloud, UpCloud, VMware, Vultr, LXD, None ]
