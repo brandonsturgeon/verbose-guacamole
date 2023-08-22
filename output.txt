@@ -32,7 +32,6 @@ net.ipv6.conf.all.use_tempaddr = 0
   # special attention to (potentially) executable files
 AdminIdentities=unix-group:sudo;unix-group:admin
 
-	didn't include the right instructions in the 'prep' table.
 
 # Make sure the locale variables are set to valid values.
         <extension base="saml:ConditionAbstractType">
@@ -60,13 +59,12 @@ RESTART_CHK="NetworkManager.service"
 ## Sourced, not exec'ed, but helps syntax highlighting
        XDG_DATA_DIRS="$DEFAULT_XDG_DATA_DIRS"
 <fontconfig>
-XLogo*iconPixmap:    xlogo32
+# <target name>	<source device>		<key file>	<options>
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   jammy stable
 }
 # ------------------------------------------------------------------
 	output_format=json
   @{run}/nslcd/socket  rw,
-#allow 192.168.0.0/16
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 LAPTOP-5TIN5O4V
 names. If the host uses systemd the service names have '.service' as a
@@ -155,7 +153,7 @@ WantedBy=multi-user.target
   exit 0
 trusted.SGI_DMI_*		skip		# xfs specific
 # Compose sequences for ISO-8859-11
-# /etc/default/bridge-utils
+ 			<family>Lohit Gujarati</family>
 compose '<' 'Z' to 'Æ'
 	The Bistream Vera fonts have GASP entries suggesting that hinting be
 
@@ -182,7 +180,7 @@ server {{server}} iburst
 			<family>Artsounk</family> <!-- armenian -->
 # Note that /etc/iscsi/iscsi.initramfs must exist for this option to
 post-start script
-7	canid
+
 fi
   DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
 # dpkg configuration file
@@ -271,7 +269,6 @@ compose '/' '<' to '\\'
 # Configuration file for the PolicyKit Local Authority.
 LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
 # <target name>	<source device>		<key file>	<options>
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
 #%PAM-1.0
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
        member={Hello,AddMatch,RemoveMatch,GetNameOwner,NameHasOwner,StartServiceByName}
@@ -287,7 +284,7 @@ tty:x:5:
 # and user name in $4.
 # Compose sequences for ISIRI-3342
   # per-user tmp directories
-plugdev:x:46:brandon
+	[ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`
 alias.url += ("/javascript" => "/usr/share/javascript")
  			<family>LKLUG</family>
 XL3IlFx/6OUpBA==
@@ -319,8 +316,7 @@ Ubuntu 22.04.2 LTS
 #
 {% endfor %}
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-	<!-- the following elements will be removed in the future -->
-  fi
+    owner @{HOME}/.cache/pocl/kcache/tempfile*.so rw,
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 		log_progress_msg "(not running)" || true
 # (Replaces /etc/login.access file)
@@ -356,7 +352,6 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPg
 global {
 #
 # restore the kernel default if the value is changed during runtime; for
-mpls-in-ip 137	MPLS-in-IP	# MPLS-in-IP [RFC4023]
 	check_privsep_dir
 # Compose sequences for IBM1133
 # $Id: screenrc,v 1.15 2003/10/08 11:39:03 zal Exp $
@@ -478,7 +473,7 @@ DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
 <?xml version="1.0"?>
 *dashlist*ShapeStyle: rectangle
 À«∆Lõ6õ∞∏ö∏£ˆ¢£“¢££\ƒFƒkæUæôæÉæ¸ƒÊƒ˘≈„≈Rû<û]∂G∂π∏%ææñáÄáñá^áΩeßeùwáw∫|¶|l]V]Ô{Ÿ{ˇTÈTt}^}b¯aäyty~˘}fÔe¿ÆüÆ¿ÆwÆ¿ÆQÆ¿ÆπÆÆfèfÆfifÆfßfö¨Ñ¨ﬂ≠…≠»i»õ¿Ö¿õ¿d¿≈`Ø`˘h„hPz:zΩ≈ß≈Ω≈É≈≈}Ø}⁄ÜƒÜYoCo[`V`{Ëz{√z{†z{ˇzJj4jÆÖòÖÆÖxÖâ≥s≥:_$_,ÅÅ\FÃå∂åÇÒÅ®“í“@ * IÜ3ÜMá7árö\ö3ªªÖoœ“π“WÇAÇÖtot`©J©`©&©˜ò·ò¥jûjXïBïÍû‘ûΩΩwíaíÔäŸä∂Ü†Ü:ñ$ñÙ“ﬁ“†ëäëz_d_B|,|Íí‘íòôÇôòô^ô"UU'ÃÃ∑è°èOó9ó}√g√Jî4î⁄°ƒ°vú\úvú;úvúúvúoú∞óöóÕ…∑… ä¨ä äáä ädä ä√ähVLVhV)VhVaV}rgrˇbÈbíò|òÄÚN¡.¡N¡¡N¡G¡T~>~d∏N∏%‘‘Õl∑lÓ√ÿ√Ó√∂√—ƒªƒ—ƒíƒ‡∆¡∆‡∆õ∆‡∆w∆‡∆Ÿ∆/}}*qq+{{∑∑NÃ8Ã˙À‰ÀtÉ^ÉhuRuhu/uèhyhÕ{∑{h|R|ó}Å}|˛{YiCiùiái¢ÃåÃ¢ÃgÃ®líl©ˇ®≤ ú øÄ©Äø~©~€à≈à®kíkàÍá±hõh±ÀõÀÀkµkX…B…‘hæh2……2…¯»khUhÌÉ◊ÉçUwU≈ÉØÉ≈ÉâÉgUQU;Ω%ΩØ\ô\ìÜ}ÜìÜ\Üπb£bwcXcwc2cwccwcpcóπÅπ'ÜÜÙsﬁsùîáîN√8√õœÖœ[nEn“¯—“œ—˘n„nv–`–v–5–Ñnnn…–≥–…–ç–Ønôn¸uÊuVV¥xûx`Ò_S«=«,««ø˚æ±põpOπ9πOππ=∑'∑Ãt∂tï””ü¶â¶œ^π^Q};}Ë¬“¬Ë¬≤¬òÅÇÅuÅ_ÅAU0U°	°Ÿö»ön•]•ê™™[˝Zu´d´“ØºØ•oèo)jjkjUjsî]î¢åéåÆçöçŸì∑ìŸìéìŸìgìŸì“ìËd»dËd°dËd·dvéUévé-évéévéoécçDçcççcç˙åcç\ç{åYå{å0å{å	å{åtåÕZ≠ZÕZÜZÕZ∆Z{iei~ëhë~ëHëË§Õ§Ë§´§Ë§ã§Ë§·§Z_D_-WW„¿Õ¿§¯£¢µåµxµbµ¯~Hò2ò^üHüUø?ønâXâ§rérP‘:‘–Ö∫Ö±uõuw¯vA∞+∞n≠f≠n≠C≠8f0f8ffı¿¿Ù`Ô`}øgøÇƒlƒç w 4ww‹á∆áHâ2â∫á§áù∂ò∂Y	Y“≈Õ≈˛d˘d%ùù%ùÌú∂Y†Y3øøù«á«»±≤±æô®ôG°1°çuwuµUüU!vvsX]XndPdnd+dnddndgdD∆.∆D∆∆æÅ®ÅÊ«–«≠˛¨qxXxqx8xqxxqxjx__¶±u±¶±U±¶±ó±9i*i,óóú~Ü~ú~e~>g(gÔÇŸÇ˙ó‰ó©tìt)``Hæ2æ√«≠«9“#“¶…ê…óÚñ…i…ÜÏÖÖÖÖﬂÑ<s&s∂⁄∂∂≤∂Fà0àFààZìDì7ü!ü7ü¸ûí—|—/~~ï°°ZrDrÌa◊a/ûû•¬è¬Ãa∂aPÄ:Äº	ºä∏t∏¢øåø®£ç£®£k£®£°£øπ©π}ÇgÇlWVWÔWŸWØWôW°{ã{≠VóV¬î¨îÊî–îåãvãEß/ßÂâœâf P gÀQÀgÀ0Àm¥W¥õeÖe’≥ø≥ãVuV˙≥‰≥7Y!YF¥0¥F^0^!¥¥J]4]í¥|¥ggdyNy·pÀp€T≈Tƒ∫Æ∫Ïµ÷µÏµ±µvT`TÉ∂m∂îX~X◊∏¡∏#ZZu©p©ïiïv«`«∏˚∑sœ]œÿ ¬ ˙j‰jœ	œnım]ŒGŒ]ŒŒæm®mÔœŸœ∆œ∞œ––——B—,—éñxñéñPñÏ£÷£≥àùà≥àwàÇklk<ë&ëmòWò˜ª·ª˜ªªª&¢
-OlSMmor7RTEAJcBK9tiew5LhNHeaqbe3xnOcpWrAaoVdIed7h5YbbetTFMWHCPGJ
+  </match>
 networkd_dispatcher_args="--run-startup-triggers"
 else
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
@@ -555,7 +550,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 ApprovalRequired=false
 # The following lines are desirable for IPv6 capable hosts
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
-}
+  @{PROC}/modules r,
       This configuration is available on the major desktop environments.
 # Local users may interrogate the ntp server more closely.
 /lib32
@@ -637,7 +632,7 @@ commands scan this directory processing all files that end in '.conf'.
 {% if pools %}# pools
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 	vgs_cols_full="vg_name,vg_uuid,vg_fmt,vg_size,vg_free,vg_sysid,vg_extent_size,vg_extent_count,vg_free_count,vg_profile,max_lv,max_pv,pv_count,lv_count,snap_count,vg_seqno,vg_mda_count,vg_mda_free,vg_mda_size,vg_mda_used_count,vg_attr,vg_tags"
-# mdadm Debian configuration
+fi
 
 ! $Id$
 
@@ -657,7 +652,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS
 #
 if is_enabled; then
 
-^Ê'ÒÔ·Eæú¯â|ﬂ…œ%;5ˇd⁄_wÅoÇ«AÉ É-xüfw.¨HÄõ°Ò/Å/É?äœ‚3˘&>»œ‰†¸8ü õ˘·ºüü∆OÁÁ!‰5ˆ,ﬂ7ê„.p/hF-~ÑÁT<·À-xNﬂd@∫16Ôs¡ób¸v–ÊÉ,X:A	|•lC∑Ç2‰^7ÑUºœ*û˜‡ŸáÁ‡Nºﬂ»†VÙMå€kÒ≈èÄ∆Ã«‡Ï_∑∆⁄ˇº}<ûOÉg¿ã‡hÍòÑØ∑ÇY`‰É¯ C‡x<
+OnlyShowIn=GNOME;Unity;MATE;
 # @{HOME} is a space-separated list of all user home directories. While
     PYTHON=python
 200	site
@@ -704,7 +699,7 @@ compose '^' 'y' to '˛'
 
 
 	</match>
-# Compose sequences for GEORGIAN-ACADEMY
+
 	<UnmapNotify>:		Iconified()	\n\
   /tmp/.X11-unix/* rw,
 compose '(' '-' to '{'
@@ -758,7 +753,7 @@ America/Los_Angeles
 #endif
 
 
-	            else
+À«∆Lõ6õ∞∏ö∏£ˆ¢£“¢££FƒkæUæôæÉæ¸ƒÊƒ˘≈„≈Rû<û]∂G∂π∏%ææñáÄáñá^áΩeßeùwáw∫|¶|l]V]Ô{Ÿ{ˇTÈTt}^}b¯aäyty~˘}fÔe¿ÆüÆ¿ÆwÆ¿ÆQÆ¿ÆπÆÆfèfÆfifÆfßfö¨Ñ¨ﬂ≠…≠»i»õ¿Ö¿õ¿d¿≈`Ø`˘h„hPz:zΩ≈ß≈Ω≈É≈≈}Ø}⁄ÜƒÜYoCo[`V`{Ëz{√z{†z{ˇzJj4jÆÖòÖÆÖxÖâ≥s≥:_$_,ÅÅFÃå∂åÇÒÅ®“í“@ * IÜ3ÜMá7árö3ªªÖoœ“π“WÇAÇÖtot`©J©`©&©˜ò·ò¥jûjXïBïÍû‘ûΩΩwíaíÔäŸä∂Ü†Ü:ñ$ñÙ“ﬁ“†ëäëz_d_B|,|Íí‘íòôÇôòô^ô"UU'ÃÃ∑è°èOó9ó}√g√Jî4î⁄°ƒ°vúvú;úvúúvúoú∞óöóÕ…∑… ä¨ä äáä ädä ä√ähVLVhV)VhVaV}rgrˇbÈbíò|òÄÚN¡.¡N¡¡N¡G¡T~>~d∏N∏%‘‘Õl∑lÓ√ÿ√Ó√∂√—ƒªƒ—ƒíƒ‡∆¡∆‡∆õ∆‡∆w∆‡∆Ÿ∆/}}*qq+{{∑∑NÃ8Ã˙À‰ÀtÉ^ÉhuRuhu/uèhyhÕ{∑{h|R|ó}Å}|˛{YiCiùiái¢ÃåÃ¢ÃgÃ®líl©ˇ®≤ ú øÄ©Äø~©~€à≈à®kíkàÍá±hõh±ÀõÀÀkµkX…B…‘hæh2……2…¯»khUhÌÉ◊ÉçUwU≈ÉØÉ≈ÉâÉgUQU;Ω%ΩØìÜ}ÜìÜπb£bwcXcwc2cwccwcpcóπÅπ'ÜÜÙsﬁsùîáîN√8√õœÖœ[nEn“¯—“œ—˘n„nv–`–v–5–Ñnnn…–≥–…–ç–Ønôn¸uÊuVV¥xûx`Ò_S«=«,««ø˚æ±põpOπ9πOππ=∑'∑Ãt∂tï””ü¶â¶œ^π^Q};}Ë¬“¬Ë¬≤¬òÅÇÅuÅ_ÅAU0U°	°Ÿö»ön•]•ê™™[˝Zu´d´“ØºØ•oèo)jjkjUjsî]î¢åéåÆçöçŸì∑ìŸìéìŸìgìŸì“ìËd»dËd°dËd·dvéUévé-évéévéoécçDçcççcç˙åcç{åYå{å0å{å	å{åtåÕZ≠ZÕZÜZÕZ∆Z{iei~ëhë~ëHëË§Õ§Ë§´§Ë§ã§Ë§·§Z_D_-WW„¿Õ¿§¯£¢µåµxµbµ¯~Hò2ò^üHüUø?ønâXâ§rérP‘:‘–Ö∫Ö±uõuw¯vA∞+∞n≠f≠n≠C≠8f0f8ffı¿¿Ù`Ô`}øgøÇƒlƒç w 4ww‹á∆áHâ2â∫á§áù∂ò∂Y	Y“≈Õ≈˛d˘d%ùù%ùÌú∂Y†Y3øøù«á«»±≤±æô®ôG°1°çuwuµUüU!vvsX]XndPdnd+dnddndgdD∆.∆D∆∆æÅ®ÅÊ«–«≠˛¨qxXxqx8xqxxqxjx__¶±u±¶±U±¶±ó±9i*i,óóú~Ü~ú~e~>g(gÔÇŸÇ˙ó‰ó©tìt)``Hæ2æ√«≠«9“#“¶…ê…óÚñ…i…ÜÏÖÖÖÖﬂÑ<s&s∂⁄∂∂≤∂Fà0àFààZìDì7ü!ü7ü¸ûí—|—/~~ï°°ZrDrÌa◊a/ûû•¬è¬Ãa∂aPÄ:Äº	ºä∏t∏¢øåø®£ç£®£k£®£°£øπ©π}ÇgÇlWVWÔWŸWØWôW°{ã{≠VóV¬î¨îÊî–îåãvãEß/ßÂâœâf P gÀQÀgÀ0Àm¥W¥õeÖe’≥ø≥ãVuV˙≥‰≥7Y!YF¥0¥F^0^!¥¥J]4]í¥|¥ggdyNy·pÀp€T≈Tƒ∫Æ∫Ïµ÷µÏµ±µvT`TÉ∂m∂îX~X◊∏¡∏#ZZu©p©ïiïv«`«∏˚∑sœ]œÿ ¬ ˙j‰jœ	œnım]ŒGŒ]ŒŒæm®mÔœŸœ∆œ∞œ––——B—,—éñxñéñPñÏ£÷£≥àùà≥àwàÇklk<ë&ëmòWò˜ª·ª˜ªªª&¢
 	# excluded sessions. We could actually stop it, it's not
 #
 #	news.=crit;news.=err;news.=notice;\
@@ -799,7 +794,6 @@ QT_ACCESSIBILITY=1
 blacklist sbp2
   # System files
     label in1 "Vcore"
-
 XKBOPTIONS=""
 		$PYTHON $SHUTDOWN_HELPER
 FNr0Y/Dq9HHuTofjcan0yVflLl8cebsjqodEV+m9NU1Bu0soo5iyG9kLFwfl9+qd
@@ -850,7 +844,6 @@ AutomaticSecurityReports=false
 ## extensively as that contained in the main release, although it includes
 # vim:syntax=apparmor
 # ------------------------------------------------------------------
-#
 XL3IlFx/6OUpBA==
 { :
     user_friendly_names yes
@@ -925,7 +918,7 @@ compose ',' 'a' to '±'
 if [ "${PS1-}" ]; then
 
 # needrestart - Restart daemons after library updates.
-#    This program is free software; you can redistribute it and/or
+abi <abi/3.0>,
 # * Be careful about changing the environment since this is sourced
 #    License published by the Free Software Foundation.
         ;;
@@ -983,7 +976,7 @@ chip "w83627uhg-*"
 AdminIdentities=unix-group:sudo;unix-group:admin
   owner /tmp/**         rwkl,
 #
-#    modify it under the terms of version 2 of the GNU General Public
+;;
 fi
 #
   /var/lib/snapd/desktop/applications/mimeinfo.cache r,
@@ -996,9 +989,23 @@ Delegate=true
 alias gawkpath_default 'unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`'
 URLS="https://motd.ubuntu.com"
 #
-# Compose sequences for IBM1133
+include if exists <tunables/etc.d>
 {% endif %}
 
 *customization: -color
 // If you don't like it, comment it out.
 l7ljKjFi06XLJxOjLLpIFBH/yAJ5YbsYZt+XuT3WgORfHPDU3xepWGfQj4QFcsny
+  @{run}/{,lock/}samba/ w,
+#
+
+# Make sure the locale variables are set to valid values.
+
+# License for more details.
+APT::Periodic::Update-Package-Lists "1";
+# and should contain a list of modules that define tasks to be performed
+*Indicator.foreground:		rgb:9b/cd/9b
+PROGNAME=Xsession
+#    The CPUs list which allows you to indicate which CPUs should
+# Turn on Source Address Verification in all interfaces to
+
+with something the package builder needs later. It must end with .conf though.
