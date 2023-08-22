@@ -1,4 +1,4 @@
-MRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j
+# Compose sequences for ISO-8859-6
 Ubuntu 22.04 LTS (Jammy Jellyfish)
 mQENBFWt/98BCADZ4+lUHSp4OMlzVf4HlJNLJ7Ks5QxGwL/hy2wChoNLuA/j4GNM
 #
@@ -195,7 +195,7 @@ CQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQCm3O9rRvPb/wsQf7BGEkgT08Bx1v
 	     "/site-lisp/dictionaries-common"))
         ;;
 # Reserved protocols.
-include <abstractions/apparmor_api/introspect>
+America/Los_Angeles
   <xs:attribute ref="xml:lang"/>
 	}
 // Remove unused automatically installed kernel-related packages
@@ -224,7 +224,7 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 
 # See comments in /etc/login.defs
 #
-			<Key>q:set()notify()unset()\n\
+# shellcheck disable=SC2086
 
   owner @{HOME}/tmp/groff*                    rwl,
 # Compose sequences for IBM1133
@@ -245,14 +245,14 @@ compose '/' '<' to '\\'
 binary::apt::AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # Configuration file for the PolicyKit Local Authority.
 LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
-# <target name>	<source device>		<key file>	<options>
+
 #%PAM-1.0
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
-       member={Hello,AddMatch,RemoveMatch,GetNameOwner,NameHasOwner,StartServiceByName}
+    h;                             # hold line
 #
 
 {% for server in servers -%}
-        child is required
+# These extensions should be added when creating a proxy certificate
 /var/log/boot.log
 application/vnd.nokia.landmark+xml
             Location: http://docs.oasis-open.org/security/saml/v2.0/
@@ -264,7 +264,7 @@ alias.url += ("/javascript" => "/usr/share/javascript")
  			<family>LKLUG</family>
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
-# filesystem type
+*form.invert.label:			Invert
 	"kfreebsd-.*";
 ;; -*-emacs-lisp-*-
 ff02::1 ipv6-allnodes
@@ -306,7 +306,7 @@ session    required   pam_env.so readenv=1 user_readenv=0
    <xs:documentation>
 # Compose sequences for ISO-8859-11
 driftfile /var/lib/chrony/drift
-
+if [ -x /usr/lib/update-notifier/update-motd-fsck-at-reboot ]; then
 #
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
 20210529091139 2 6 100 8191 2 D8A2E2F024645B5A3FB339A2EF06A3E46CD2AA808530C320F121CE1EEBEE128D6DB4C49492881B35E5AA8C43CAA07E7F69A5C4ECD0EE62A29FC191B9C0DD6955E23E831A0573135B9931D03A5BBCA961410CA287D08D53C0E8CFEC19534C4FECBAD0F2BE625802AF1B504F59A4A88DAA5F52F221E0E9E0DB1396F07EAF2CA88B79D8CF35EF154A69569C545CA1D04A07ADE3628243039985880B79972FB9F5070951D40C9D21C1729348152724531B270C9DEBB5B2C730C72F4EA3932DB44BD3C746E082856A4109A37BA979164881D5B8007807FF1A7E0C48F99DBBE1709585203E579AE201D295E720CDD45B3A8652A7CE878765E699727641410F840871B4362DC51A3D4D15980876649089CE845B5733497FB8E7B2568EF8627EC1BEE0434A3A72094132A0BA0CA102A440952285823FB09684A1C52468193F6E8A6CC9D935C13FCC661DED5CB84B5D5DF721447531787F78AB31AA1D6342460A8B896518640B7DCF3825B52D46469351EF17E586B661D5C0E792C0AA0B0309B8A4BECB3B267BB459C7452387FF6028EEC1C6DFAE3EE9452EB7A7CFB9CDD361B45FF29E6648BD94712BEF29A1C86C492231F710BC66BF8CF83F8765EF6DBA6857C733789DD71245F17C6FA03DD07FCFFBC450029776FDB4F4B411D4B4A98E090CB79B4CF990398FE1C147CE959C8C11D5DE9A4271EA4CA3D8A50A6F7081A2B0F95AA4AD80081511C357D9F15B7547F0A725EED4EE7FDDAE32A3D00512984928679C51375777E968FE3363DCC495300762C7C6D32F4088DB4D4D4449610D05E87CECADA742827EF2B4EF1D064CEB0EEBB01264306F3E24D6260483829576F88B8346764429722BFD0FE3845F541837ACFFEDA101E0E082F618630B741BE1A9E44C677A947FEC31F08EB338798617A09C38EF3FF31A677E62DCDBA2C56D37B1F16AD2B06F41D3E5CDE9A9B7179B6EC46DF99D857521DF29E8012A1AFE6F2F0658171F56EEA20E531C3B2E02864B130BB0BA476F23024DCCA6411CE1BBD1D5C9F5346DB36334117AAF7A1B4ABE86470CABDF862010F5AE3129CA17F36BA89EE3DB83641804EC2455ED75686342E9F339068A77258BBC292E05AF5C233F5B74CA83080CC5DAE01E977E2F7D1ADC36803398B81DAC22DE391F512912148392371C658C416C96C8C3035928EDBB418CF249C9C02793AE6661AB04B4C6C944F55B23CB5621511DACD8EC5C1ECD463620CAC79C38B6CC95FA8993482EA255246D30DA6EA67C677889F56CDF4466F5D968069E152B0BE30B64E1B18607035D7D15503D364B73BAB5582CDF290FE30D2EB7A4F6F797D80702CC448E1153A3A9D882445C73BA490388588F31FA6C14BA7DBFAD39E1CE6B0E2FAD69015F81FF6DAAC56420A478CF717DD952A0DC51B1E38113CF5EF2AC2EC08B6F6CB427A06AD990213C09DB2CBC6896B3
@@ -321,7 +321,6 @@ global {
 # restore the kernel default if the value is changed during runtime; for
 	check_privsep_dir
 # Compose sequences for IBM1133
-# Compose sequences for VISCII
 
 
 # raid1
@@ -336,7 +335,6 @@ ${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
 fi
 quiet
 Acquire::Changelogs::AlwaysOnline "true";
-if [ -f /run/motd.d/85-fwupd ]; then
 #bind ^G findnext all
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 # console I usually leave idle.
@@ -401,7 +399,6 @@ if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 # Allow writing shared settings for Qt-based applications
   /dev/dri/ r, # libGLX_mesa.so calls drmGetDevice2()
 
-
 #
 trusted.SGI_DMI_*		skip		# xfs specific
 [service]
@@ -444,7 +441,6 @@ LAPTOP-5TIN5O4V
 find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/update-notifier/notify-updates-outdated
 SETTINGS="\
 # dmesg_restrict defaults to 1 via CONFIG_SECURITY_DMESG_RESTRICT, only
-139 126 102		wheat4
 #
 
 pool {{pool}} iburst
@@ -478,7 +474,6 @@ if [ -f /bin/setupcon ]; then
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
 systemd=false
 DISTRIB_CODENAME=jammy
-235 235 235 		gray92
 label=magenta,
 [Install]
   unix (connect, receive, send)
@@ -494,7 +489,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 ApprovalRequired=false
 # The following lines are desirable for IPv6 capable hosts
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
-  @{PROC}/modules r,
+#   permissions - copy when trying to preserve permissions.
    "URL": "https://launchpad.net/~%s/+sshkeys"
 # Local users may interrogate the ntp server more closely.
 /lib32
@@ -509,7 +504,6 @@ Wants=network.target
 fi
 	<alias binding="same">
 # wildcards if desired.
-PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 <!-- Delicious 'heavy' variant says its Medium weight -->
   #/{,var/}run/mysqld/mysqld.sock rw,
 #& stop
@@ -544,7 +538,6 @@ account     required    pam_shells.so
    case "$powerOp" in
 # translations. See tunables/xdg-user-dirs for details. Eg:
 [defaults]
-
 #backwards compatibility include, actual abstraction moved from php5 to php
 *text.scrollVertical:		Always
   /var/tmp/             rw,
@@ -573,7 +566,7 @@ fi
 
 ! $Id$
 
-*customization: -color
+  /var/log/**                   rw,
 # ctrll shiftr alt keycode 36 = Incr_Console
   compress
 # Default settings for openssh-server. This file is sourced by /bin/sh from
@@ -589,7 +582,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS
 
 OnlyShowIn=GNOME;Unity;MATE;
 # @{HOME} is a space-separated list of all user home directories. While
-    PYTHON=python
 }
 Each file in this directory is an rt_protos configuration file. iproute2
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
@@ -619,7 +611,6 @@ makestep 1.0 3
 
 *editMenu.copy.label:			Copy (Meta-W)
 compose '^' 'y' to 'þ'
-# symbolic names for networks, see networks(5) for more information
 # Compose sequences for CP1255
 # Compose sequences for ISIRI-3342
 # msgs, from, etc.)
@@ -709,7 +700,7 @@ brandon:100000:65536
 QT_ACCESSIBILITY=1
 [Settings]
     s/^[^=]*=//; s/^'\(.*\)'/\1/;  # get value
-
+  /usr/bin/python2.[4567] ix,
 blacklist sbp2
   # System files
     label in1 "Vcore"
@@ -949,12 +940,11 @@ LANG=en_US.UTF-8
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
     delaycompress
 
-# Modified for Linux.  --marekm
+
 # kernel.dmesg_restrict = 0
 # libc default configuration
-# and /etc/security/pam_env.conf.
+# https://bugs.debian.org/209185.  Add fallbacks so that start-stop-daemon
   /usr/share/icu/*/*.dat r,
-2	nbyte
 
 EnableLogging=0
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
@@ -1004,7 +994,7 @@ APT::Archives::MinAge "2";
   @{etc_ro}/default/passwd         r,
 # Doing so means you'll also get CLOUDINIT messages in /var/log/syslog
 
-# vmtoolsd.level = none
+auth		include		runuser
 # resolution. For example, if '/usr' is on removable media:
   # Include additions to the abstraction
 # ssh_config(5) man page.
@@ -1020,3 +1010,14 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 {% for server in servers -%}
 # set start_ro=1 to make newly assembled arrays read-only initially,
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main
+ñs’Ö+š,‚Ø€Íf£‚\qã®8™•ÎHDrbÏø>j.ñ§Éò°ÜÀ¢N¡·nÁÌÀÌb¦‚›‡µµH±¶–6ƒýÍ»Ë·»(·ÑýùrwùªV{¨|ZkàÎàÎ=à¬‚5›aÿ"Êqô÷PÃTþ>°gl£ýà7Òê›1bÙÈ.À7|Ãw§¾Õ`g3h_åit~yžkˆ!B„øEŒÙÞÅþ+Ö›eID.5Ñ;vŒ¦5Ú²T×öö©àáÐT•ƒrÂf’.\Zä©JJt'TIÑ¬F[ŠºžÙs÷©àáÐT©AÉfL.ØPÕ†·Ý)­LÑ¼F+Å‘®göFûTp‡phªÔ d3t¨ÕðÖDwF½ÓÃÔh¥èézfÏÛ§‚C8„CS¥%›q· Cu¨Ý+ÑSïôð†5Z)Žu=³7Þ§‚C8„CS¥%›)¶ Cu¨Ý+q4 ?«ôðÜ­'ºžÙ›ìSÁ!Â¡©Rƒ’ÍX[Ð¡:Ôn•8RïôðF5Z)Nu=³7Ý§‚C8„CS¥%›™´`·ÈjxkâÈ¥Þéáy5Z)Ît=³7Û§‚C8„CS¥%›!¶`·Èjxkâˆ=¢‡7®ÑJq®ë™½ù>Â!š*5(gÅä:V]íŠGuÏMj´åoð@¯PXÔŠìZø…_ø=Ú¯Ìl&ÐÏ»Ÿ*T
+# invoked with "-" as the first character of argv[0], and
+compose '~' 'A' to 'Ã'
+        cat /run/motd.d/85-fwupd
+
+# Compose sequences for CP1256
+     </choice>
+	</match>
+  # readd default if was empty
+
+	vdo_use_sparse_index=0
