@@ -189,7 +189,7 @@ CQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQCm3O9rRvPb/wsQf7BGEkgT08Bx1v
 America/Los_Angeles
 	}
 // Remove unused automatically installed kernel-related packages
-
+ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 # ------------------------------------------------------------------
 # Compose sequences for TIS-620
 
@@ -247,7 +247,6 @@ tty:x:5:
 # and user name in $4.
 # Compose sequences for ISIRI-3342
 	[ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`
- 			<family>LKLUG</family>
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
 *form.invert.label:			Invert
@@ -257,7 +256,7 @@ XL3IlFx/6OUpBA==
       <string>DejaVu LGC Sans</string>
 	daytime_hosts => [ qw {} ],
 # so please ensure that:
-  include if exists <abstractions/p11-kit.d>
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '''s/^s*[0-9]+s*//;s/[;&|]s*alert$//''')"'
 sonames=libbd_lvm.so.2
 # NOTE
 
@@ -286,7 +285,7 @@ session    required   pam_env.so readenv=1 user_readenv=0
 # restart daemons that directly depend on D-Bus
 
 @{run}=/run/ /var/run/
-
+# This variable is deprecated. You should use ENCRYPT_METHOD.
 
    <xs:documentation>
 # Compose sequences for ISO-8859-11
@@ -339,7 +338,6 @@ Title=Vendor
 . /usr/share/bash-completion/bash_completion
 
 
-
 # symbolic names for networks, see networks(5) for more information
 # This file lists certificates that you wish to use or to ignore to be
 swedish         sv_SE.ISO-8859-1
@@ -348,7 +346,6 @@ www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 
 </fontconfig>
   eval $($DBUSLAUNCH --exit-with-session --sh-syntax)
-. /usr/share/bash-completion/bash_completion
 XClock.input: false
   #
 fi
@@ -358,7 +355,6 @@ fi
 #
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
-# or FITNESS FOR A PARTICULAR PURPOSE.  See the Lesser GNU General Public
 
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 #
@@ -406,7 +402,6 @@ QUIET=0
   </match>
 networkd_dispatcher_args="--run-startup-triggers"
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
-       notifempty
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # no packages own wtmp -- we'll rotate it here
@@ -431,7 +426,7 @@ DISTRIB_RELEASE=22.04
 #
 #
 # ------------------------------------------------------------------
-
+# This directive specifies the file into which chronyd will store the rate
 }
 # want to track accesses to individual keys on the LDAP server side.
   owner @{HOME}/man/**                        r,
@@ -449,7 +444,6 @@ if [ -f /bin/setupcon ]; then
 systemd=false
 DISTRIB_CODENAME=jammy
 label=magenta,
-[Install]
   unix (connect, receive, send)
 modify any previously set config option.
 /lib32
@@ -595,7 +589,6 @@ version="$1"
   @{HOME}/ r,
 	</alias>
 
-
 <!ENTITY % totalDigits "%p;totalDigits">
 # Example (generic):
 
@@ -614,7 +607,7 @@ compose '\'' '\'' to '´'
 fi
   @{run}/samba/winbindd_privileged/pipe rw,
 
-# Compose sequences for ISIRI-3342
+Each file in this directory is an rt_tables configuration file. iproute2
 {% endif %}
 #       it to appear.
 <element name="SPKIData" type="ds:SPKIDataType"/>
@@ -729,7 +722,6 @@ link-local 169.254.0.0
 compose ')' '-' to '}'
 FileDescriptorName=unix
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
-    try:
 # do not try to refresh this more than once per day
   abi <abi/3.0>,
 
@@ -738,7 +730,7 @@ FileDescriptorName=unix
 
 	if [ -f /etc/iscsi/iscsi.initramfs ] ||
 # shellcheck source=/dev/null
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
+# no matching entries are found elsewhere.  For more information see the
 	thin_pool_chunk_size_policy = "performance"
 	cache_pool_chunk_size = 64
 ##########################################################
@@ -763,13 +755,12 @@ if [ -d /run/systemd/system ]; then
 # It is sourced, not executed.  For more information see dhclient-script(8).
 	notifempty
 compose ',' 'a' to '±'
-   [logger_root]
+# Compose sequences for GEORGIAN-PS
         mount_devtmpfs
 _ÕOÊRÖaBOí”tcôRó%7-Ñ¡g[õ´AUbuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>‰7
     install -d -o man -g man -m 0755 /var/cache/man
 .\}
 # problems supporting passive transfer.  If you are in such
-if [ "${PS1-}" ]; then
 
 # needrestart - Restart daemons after library updates.
 # * Be careful about changing the environment since this is sourced
@@ -784,7 +775,6 @@ data {yes
 
 ! XMore.ad
 
-#    For sites which prefer IPv4 connections change the last line to
 
 .  \" than utf8.
 ! this causes problems with some non-Xaw apps, use with care
@@ -920,7 +910,6 @@ X-Ubuntu-Gettext-Domain=xdg-user-dirs
   <match target="pattern">
 }
 @{run}=/run/ /var/run/
-
 # example via package removal (e.g. wine, dosemu).  Therefore, this value
 APT::Archives::MinAge "2";
   include if exists <abstractions/dbus-accessibility-strict.d>
@@ -959,14 +948,12 @@ mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt
 compose '~' 'A' to 'Ã'
         cat /run/motd.d/85-fwupd
 
-# Compose sequences for CP1256
      </choice>
 	</match>
   # readd default if was empty
 	vdo_use_sparse_index=0
 # ------------------------------------------------------------------
   audit deny @{HOME}/.gnupg/{,**} mrwkl,
-	missingok
 # NIS (man nsswitch) as well as normal /etc/passwd and
 ## use non # comment characters will be interpreted by the helper scripts (
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
@@ -991,7 +978,6 @@ DNS={% for server in nameservers %}{{server}} {% endfor %}
 }
 		<rejectfont>
 # Record the rate at which the system clock gains/losses time.
-  include <abstractions/dri-enumerate>
 # ...
 [Install]
     start-stop-daemon --start --pidfile /dev/null \
@@ -1004,7 +990,7 @@ X-GNOME-Autostart-Phase=Initialization
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
 # needrestart - Restart daemons after library updates.
   /opt/novell/lib64/libpthread_ext*.so* mr,
-
+# failure_action can be: log, ignore, terminate
 
 #BindPasswd: secret
 <Key>q: quit() \n\
@@ -1022,3 +1008,16 @@ if enabled in cloud-config.  Specifically, in order to enable it
 # Find settings with a given prefix and print them as they appeared in
 }
 directory are parsed by needrestart's default configuration file.
+
+
+# Global Order: zshenv, zprofile, zshrc, zlogin
+# Compose sequences for GEORGIAN-PS
+compose 'v' 'Z' to '´'
+
+
+#tls_cert = /etc/ssl/sudo/certs/logsrvd_cert.pem
+fi
+fi
+for svc in $RESTART_CHK; do
+  abi <abi/3.0>,
+  /etc/OpenCL/** r,
