@@ -6,7 +6,7 @@ auth		sufficient	pam_rootok.so
 /var/log/auth.log
 #    modify it under the terms of version 2 of the GNU General Public
 	export AWKPATH="$*:$AWKPATH"
-# ------------------------------------------------------------------
+# ~/.bash_logout: executed by bash(1) when login shell exits.
 
 9mBZutKynYmphD0Mi4XjXn7JNXyuJa8Qutz98/Iyhsjq4LeiL9ayaKMXT+3pKlTm
 
@@ -56,7 +56,6 @@ test -x /usr/bin/plymouth || exit 0
 RESTART_CHK="NetworkManager.service"
 #   # needed for ubuntu-* abstractions
 ## Sourced, not exec'ed, but helps syntax highlighting
-       XDG_DATA_DIRS="$DEFAULT_XDG_DATA_DIRS"
 <fontconfig>
 # <target name>	<source device>		<key file>	<options>
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   jammy stable
@@ -80,7 +79,6 @@ mail.*				-/var/log/mail.log
 # The following is a space-separated list of where additional user home
 		      --startas /usr/bin/mandb --oknodo --chuid man \
 compose '\'' 'E' to '…'
-  # and the nss plugin also needs to talk to a pipe
 ptrace {mask {read trace
 	# Configuration option report/segs_sort_full.
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
@@ -101,13 +99,12 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 <!-- /etc/fonts/conf.d/58-dejavu-lgc-sans.conf
 SOCKET_DIR=.X11-unix
 
-# Another alternative is:
   # php session mmap socket
 fi
 # /tmp and /var/tmp, whereas home directories will be polyinstantiated for all users.
 
 *text.baseTranslations:		#override\
-
+#MaxRetentionSec=
 # Compose sequences for ISO-8859-8
 # Configuration for Busybox ntpd - it only supports "server" lines.
 
@@ -132,7 +129,6 @@ APT::Archives::MinAge "2";
 .    char \- \N'45'
   # shared python paths
 		</test>
-
 #
 
 # EDAC driver for amd76x clashes with the agp driver preventing the aperture
@@ -397,7 +393,6 @@ www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 # Compose sequences for KOI8-U
 
 </fontconfig>
-
   eval $($DBUSLAUNCH --exit-with-session --sh-syntax)
 . /usr/share/bash-completion/bash_completion
 XClock.input: false
@@ -451,7 +446,7 @@ set -e
     /etc/modprobe.d/{,*.conf} r,
 }
 #net.ipv4.tcp_syncookies=1
-
+    # TODO: remove this rule when we stop supporting executing other snaps from
 QUIET=0
 DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
     case "$1:$2" in
@@ -459,7 +454,6 @@ DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
   monthly
 
   </match>
-<?xml version="1.0"?>
 *dashlist*ShapeStyle: rectangle
 À«∆Lõ6õ∞∏ö∏£ˆ¢£“¢££\ƒFƒkæUæôæÉæ¸ƒÊƒ˘≈„≈Rû<û]∂G∂π∏%ææñáÄáñá^áΩeßeùwáw∫|¶|l]V]Ô{Ÿ{ˇTÈTt}^}b¯aäyty~˘}fÔe¿ÆüÆ¿ÆwÆ¿ÆQÆ¿ÆπÆÆfèfÆfifÆfßfö¨Ñ¨ﬂ≠…≠»i»õ¿Ö¿õ¿d¿≈`Ø`˘h„hPz:zΩ≈ß≈Ω≈É≈≈}Ø}⁄ÜƒÜYoCo[`V`{Ëz{√z{†z{ˇzJj4jÆÖòÖÆÖxÖâ≥s≥:_$_,ÅÅ\FÃå∂åÇÒÅ®“í“@ * IÜ3ÜMá7árö\ö3ªªÖoœ“π“WÇAÇÖtot`©J©`©&©˜ò·ò¥jûjXïBïÍû‘ûΩΩwíaíÔäŸä∂Ü†Ü:ñ$ñÙ“ﬁ“†ëäëz_d_B|,|Íí‘íòôÇôòô^ô"UU'ÃÃ∑è°èOó9ó}√g√Jî4î⁄°ƒ°vú\úvú;úvúúvúoú∞óöóÕ…∑… ä¨ä äáä ädä ä√ähVLVhV)VhVaV}rgrˇbÈbíò|òÄÚN¡.¡N¡¡N¡G¡T~>~d∏N∏%‘‘Õl∑lÓ√ÿ√Ó√∂√—ƒªƒ—ƒíƒ‡∆¡∆‡∆õ∆‡∆w∆‡∆Ÿ∆/}}*qq+{{∑∑NÃ8Ã˙À‰ÀtÉ^ÉhuRuhu/uèhyhÕ{∑{h|R|ó}Å}|˛{YiCiùiái¢ÃåÃ¢ÃgÃ®líl©ˇ®≤ ú øÄ©Äø~©~€à≈à®kíkàÍá±hõh±ÀõÀÀkµkX…B…‘hæh2……2…¯»khUhÌÉ◊ÉçUwU≈ÉØÉ≈ÉâÉgUQU;Ω%ΩØ\ô\ìÜ}ÜìÜ\Üπb£bwcXcwc2cwccwcpcóπÅπ'ÜÜÙsﬁsùîáîN√8√õœÖœ[nEn“¯—“œ—˘n„nv–`–v–5–Ñnnn…–≥–…–ç–Ønôn¸uÊuVV¥xûx`Ò_S«=«,««ø˚æ±põpOπ9πOππ=∑'∑Ãt∂tï””ü¶â¶œ^π^Q};}Ë¬“¬Ë¬≤¬òÅÇÅuÅ_ÅAU0U°	°Ÿö»ön•]•ê™™[˝Zu´d´“ØºØ•oèo)jjkjUjsî]î¢åéåÆçöçŸì∑ìŸìéìŸìgìŸì“ìËd»dËd°dËd·dvéUévé-évéévéoécçDçcççcç˙åcç\ç{åYå{å0å{å	å{åtåÕZ≠ZÕZÜZÕZ∆Z{iei~ëhë~ëHëË§Õ§Ë§´§Ë§ã§Ë§·§Z_D_-WW„¿Õ¿§¯£¢µåµxµbµ¯~Hò2ò^üHüUø?ønâXâ§rérP‘:‘–Ö∫Ö±uõuw¯vA∞+∞n≠f≠n≠C≠8f0f8ffı¿¿Ù`Ô`}øgøÇƒlƒç w 4ww‹á∆áHâ2â∫á§áù∂ò∂Y	Y“≈Õ≈˛d˘d%ùù%ùÌú∂Y†Y3øøù«á«»±≤±æô®ôG°1°çuwuµUüU!vvsX]XndPdnd+dnddndgdD∆.∆D∆∆æÅ®ÅÊ«–«≠˛¨qxXxqx8xqxxqxjx__¶±u±¶±U±¶±ó±9i*i,óóú~Ü~ú~e~>g(gÔÇŸÇ˙ó‰ó©tìt)``Hæ2æ√«≠«9“#“¶…ê…óÚñ…i…ÜÏÖÖÖÖﬂÑ<s&s∂⁄∂∂≤∂Fà0àFààZìDì7ü!ü7ü¸ûí—|—/~~ï°°ZrDrÌa◊a/ûû•¬è¬Ãa∂aPÄ:Äº	ºä∏t∏¢øåø®£ç£®£k£®£°£øπ©π}ÇgÇlWVWÔWŸWØWôW°{ã{≠VóV¬î¨îÊî–îåãvãEß/ßÂâœâf P gÀQÀgÀ0Àm¥W¥õeÖe’≥ø≥ãVuV˙≥‰≥7Y!YF¥0¥F^0^!¥¥J]4]í¥|¥ggdyNy·pÀp€T≈Tƒ∫Æ∫Ïµ÷µÏµ±µvT`TÉ∂m∂îX~X◊∏¡∏#ZZu©p©ïiïv«`«∏˚∑sœ]œÿ ¬ ˙j‰jœ	œnım]ŒGŒ]ŒŒæm®mÔœŸœ∆œ∞œ––——B—,—éñxñéñPñÏ£÷£≥àùà≥àwàÇklk<ë&ëmòWò˜ª·ª˜ªªª&¢
   </match>
@@ -542,7 +536,7 @@ Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-se
 /lib32
 # be specified in a specific application's profile.
 America/Los_Angeles
-LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
+	cat <<-EOF
 Wants=network.target
 # ------------------------------------------------------------------
 
@@ -683,7 +677,7 @@ compose '^' 'y' to '˛'
 
 	</match>
 
-	<UnmapNotify>:		Iconified()	\n\
+0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
   /tmp/.X11-unix/* rw,
 compose '(' '-' to '{'
   @{HOME}/ r,
@@ -701,14 +695,13 @@ compose '(' '-' to '{'
 # or removing a feature will be allowed.
 # Compose sequences for ISO-8859-11
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
-# $Id: Xsession.options 189 2005-06-11 00:04:27Z branden $
 [DEFAULT]
 #NR_NOTIFYD_DISABLE_NOTIFY_SEND='1'
 
 compose '\'' '\'' to '¥'
 *showGrip:			FALSE
 APT::Periodic::Download-Upgradeable-Packages "0";
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
+  @{run}/samba/winbindd_privileged/pipe rw,
 restrict ::1
 
 # when bash-completion is loaded.  Continue to load this library
@@ -858,7 +851,6 @@ FileDescriptorName=unix
 	if [ -f /etc/iscsi/iscsi.initramfs ] ||
   @{sys}/devices/pci[0-9]*/*/drm/card[0-9]/metrics/ r, # anv_enumerate_physical_devices() from libvulkan_intel.so
 # shellcheck source=/dev/null
-# Desktop files (used by desktop environments within both X11 and Wayland) are
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 	thin_pool_chunk_size_policy = "performance"
 	cache_pool_chunk_size = 64
@@ -884,7 +876,6 @@ compose '+' '+' to '#'
   include if exists <abstractions/consoles.d>
 #    This program is free software; you can redistribute it and/or
 if [ -d /run/systemd/system ]; then
-. "$TOOLS_CONFDIR"/statechange.subr
 # It is sourced, not executed.  For more information see dhclient-script(8).
 	notifempty
 compose ',' 'a' to '±'
@@ -900,7 +891,7 @@ if [ "${PS1-}" ]; then
 abi <abi/3.0>,
 # * Be careful about changing the environment since this is sourced
         ;;
-#
+Mode: 644
 
 data {yes
 # Allow updating recent documents
@@ -933,14 +924,14 @@ if [ "$INITRD" = 'No' ]; then
 	if [ -n "$DOCKER_SOCKET" ]; then
 session		required	pam_unix.so
 
-}
+description=OpenSSH is a free implementation of the Secure Shell protocol.
 #    it. This is confirmed to work with:
 
 
   # privacy violations (don't audit files under $HOME otherwise get a
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 .if n \{\
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
+#event_timeout=180
 # Compose sequences for ISO-8859-8
 set -- $IF_ETHERNET_WOL
 #    modify it under the terms of version 2 of the GNU General Public
@@ -978,7 +969,6 @@ l7ljKjFi06XLJxOjLLpIFBH/yAJ5YbsYZt+XuT3WgORfHPDU3xepWGfQj4QFcsny
 # License for more details.
 loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null' 
 # and should contain a list of modules that define tasks to be performed
-*Indicator.foreground:		rgb:9b/cd/9b
 #    The CPUs list which allows you to indicate which CPUs should
 # Turn on Source Address Verification in all interfaces to
 
@@ -1000,3 +990,17 @@ bookworm/sid
 
 
   /usr/bin/shotwell Cxr -> sanitized_helper,
+}
+#
+fi
+# ------------------------------------------------------------------
+# Global Order: zshenv, zprofile, zshrc, zlogin
+#  * there is no space around the "="
+MetadataURI=file:///usr/share/fwupd/remotes.d/vendor/vendor.xml.gz
+# semanage will set the policy version to POLICYDB_VERSION_MAX, as
+
+
+	cache_mode = "writethrough"
+631	# cups
+## Commands metadata files.
+	notifempty
