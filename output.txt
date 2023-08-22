@@ -13,7 +13,6 @@ auth		sufficient	pam_rootok.so
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 # libc default configuration
 ## Wget initialization file can reside in /etc/wgetrc
-XCalc*hp.button39.fromVert:		button30
       <element ref="ds:KeyInfo" minOccurs="0"/>
 compose '<' '/' to '\\'
 	<include ignore_missing="yes">local.conf</include>
@@ -103,7 +102,7 @@ APT::Archives::MinAge "2";
 {#
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] exiting on signal [0-9]+.$
 
-# vim:syntax=apparmor
+
 
 #    Copyright (C) 2006 Novell/SUSE
 # sources.
@@ -157,9 +156,7 @@ server {{server}} iburst
 			<family>Artsounk</family> <!-- armenian -->
 # Note that /etc/iscsi/iscsi.initramfs must exist for this option to
 
-  DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
 # dpkg configuration file
- 10 through 19		system rendering defaults (AA, etc)
 #    modify it under the terms of version 2 of the GNU General Public
 
 # vim:syntax=apparmor
@@ -203,7 +200,6 @@ commands scan this directory processing all files that end in '.conf'.
 password	include		su
 # it under the terms of the GNU Lesser General Public License as published by
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
-  /usr/bin/mailody Cx -> sanitized_helper,
 [msr]
 # Your system has been configured with 'manage-resolv-conf' set to true.
 # As a result, cloud-init has written this file with configuration data
@@ -214,11 +210,11 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 # should contain commands that should be executed only
 #!/bin/sh
 
-# See comments in /etc/login.defs
+  abi <abi/3.0>,
 #
 # shellcheck disable=SC2086
 
-  owner @{HOME}/tmp/groff*                    rwl,
+#    License published by the Free Software Foundation.
 # Compose sequences for IBM1133
 #!/bin/sh
 # @{PROC} is the location where procfs is mounted.
@@ -251,7 +247,6 @@ tty:x:5:
 # and user name in $4.
 # Compose sequences for ISIRI-3342
 	[ -z "$AWKPATH" ] && AWKPATH=`gawk 'BEGIN {print ENVIRON["AWKPATH"]}'`
-alias.url += ("/javascript" => "/usr/share/javascript")
  			<family>LKLUG</family>
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
@@ -302,7 +297,6 @@ if [ -x /usr/lib/update-notifier/update-motd-fsck-at-reboot ]; then
 20210529091139 2 6 100 8191 2 D8A2E2F024645B5A3FB339A2EF06A3E46CD2AA808530C320F121CE1EEBEE128D6DB4C49492881B35E5AA8C43CAA07E7F69A5C4ECD0EE62A29FC191B9C0DD6955E23E831A0573135B9931D03A5BBCA961410CA287D08D53C0E8CFEC19534C4FECBAD0F2BE625802AF1B504F59A4A88DAA5F52F221E0E9E0DB1396F07EAF2CA88B79D8CF35EF154A69569C545CA1D04A07ADE3628243039985880B79972FB9F5070951D40C9D21C1729348152724531B270C9DEBB5B2C730C72F4EA3932DB44BD3C746E082856A4109A37BA979164881D5B8007807FF1A7E0C48F99DBBE1709585203E579AE201D295E720CDD45B3A8652A7CE878765E699727641410F840871B4362DC51A3D4D15980876649089CE845B5733497FB8E7B2568EF8627EC1BEE0434A3A72094132A0BA0CA102A440952285823FB09684A1C52468193F6E8A6CC9D935C13FCC661DED5CB84B5D5DF721447531787F78AB31AA1D6342460A8B896518640B7DCF3825B52D46469351EF17E586B661D5C0E792C0AA0B0309B8A4BECB3B267BB459C7452387FF6028EEC1C6DFAE3EE9452EB7A7CFB9CDD361B45FF29E6648BD94712BEF29A1C86C492231F710BC66BF8CF83F8765EF6DBA6857C733789DD71245F17C6FA03DD07FCFFBC450029776FDB4F4B411D4B4A98E090CB79B4CF990398FE1C147CE959C8C11D5DE9A4271EA4CA3D8A50A6F7081A2B0F95AA4AD80081511C357D9F15B7547F0A725EED4EE7FDDAE32A3D00512984928679C51375777E968FE3363DCC495300762C7C6D32F4088DB4D4D4449610D05E87CECADA742827EF2B4EF1D064CEB0EEBB01264306F3E24D6260483829576F88B8346764429722BFD0FE3845F541837ACFFEDA101E0E082F618630B741BE1A9E44C677A947FEC31F08EB338798617A09C38EF3FF31A677E62DCDBA2C56D37B1F16AD2B06F41D3E5CDE9A9B7179B6EC46DF99D857521DF29E8012A1AFE6F2F0658171F56EEA20E531C3B2E02864B130BB0BA476F23024DCCA6411CE1BBD1D5C9F5346DB36334117AAF7A1B4ABE86470CABDF862010F5AE3129CA17F36BA89EE3DB83641804EC2455ED75686342E9F339068A77258BBC292E05AF5C233F5B74CA83080CC5DAE01E977E2F7D1ADC36803398B81DAC22DE391F512912148392371C658C416C96C8C3035928EDBB418CF249C9C02793AE6661AB04B4C6C944F55B23CB5621511DACD8EC5C1ECD463620CAC79C38B6CC95FA8993482EA255246D30DA6EA67C677889F56CDF4466F5D968069E152B0BE30B64E1B18607035D7D15503D364B73BAB5582CDF290FE30D2EB7A4F6F797D80702CC448E1153A3A9D882445C73BA490388588F31FA6C14BA7DBFAD39E1CE6B0E2FAD69015F81FF6DAAC56420A478CF717DD952A0DC51B1E38113CF5EF2AC2EC08B6F6CB427A06AD990213C09DB2CBC6896B3
 #    This program is free software; you can redistribute it and/or
 #This file is DEPRECATED! @{sys} is defined in tunables/kernelvars now.
-# sudo service apport start force_start=1
 # Do note that only the values are preserved; the rest of the file is
 # Case-sensitive behavior is defined by the operating system.
 global {
@@ -342,7 +336,7 @@ yﬁÒ#≤.¸ÖSkÈô¡Úo€oãcåP+ ∏\*pF˙õÛS÷[∑ú6Y].¿Ï;œ”‰@y(R£X<¯|)>+Øò¥jhºbûê
 Title=Vendor
 # This file is sourced by Xsession(5), not executed.
 # This file is a simple placeholder to keep dpkg from removing this directory
-APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
+. /usr/share/bash-completion/bash_completion
 
 
 
@@ -364,7 +358,6 @@ fi
 #
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
-#
 # or FITNESS FOR A PARTICULAR PURPOSE.  See the Lesser GNU General Public
 
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
@@ -442,7 +435,7 @@ DISTRIB_RELEASE=22.04
 }
 # want to track accesses to individual keys on the LDAP server side.
   owner @{HOME}/man/**                        r,
-7	canid
+# Compose sequences for ISO-8859-5
 	inet_domain => undef,
 compose '-' 'L' to 'Ÿ'
 
@@ -509,7 +502,6 @@ rexd		100017	rex
 application/ibe-pkg-reply+xml
 fi
 # ~/.bashrc: executed by bash(1) for non-login shells.
-mozilla/Comodo_AAA_Services_root.crt
 account     required    pam_shells.so
 #  default), which need to be decoded to play correctly on speakers.
 <fontconfig>
@@ -531,10 +523,10 @@ Parent: Debian
 @include common-session
     DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
 <Directory "/usr/share/javascript/">
-APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
+if [ -n "$2" ]; then
 # $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
 # x25
-# This file is a simple placeholder to keep dpkg from removing this directory
+bookworm/sid
   <match target="pattern">
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
 QT_ACCESSIBILITY=1
@@ -585,7 +577,6 @@ ja_JP		ja_JP.eucJP
 
 }
 
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 makestep 1.0 3
 
 
@@ -699,7 +690,7 @@ XKBMODEL="pc105"
 @{run}=/run/ /var/run/
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
   # System files
-#PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+#allow 192.168/16
 #keyfile /etc/chrony.keys
 of the format.
 	unset AWKPATH
@@ -719,7 +710,7 @@ AutomaticSecurityReports=false
 ## extensively as that contained in the main release, although it includes
 # vim:syntax=apparmor
 # ------------------------------------------------------------------
-XL3IlFx/6OUpBA==
+
     user_friendly_names yes
 221 160 221		plum
 if [ -d /run/systemd/system ]; then
@@ -763,7 +754,7 @@ XClock.input: false
 
 # @{securityfs} is the location where securityfs is mounted.
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-#   include <abstractions/ubuntu-helpers>
+# udevd is also started in the initrd.  When this file is modified you might
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   jammy stable
 compose '+' '+' to '#'
   include if exists <abstractions/consoles.d>
@@ -822,7 +813,6 @@ description=OpenSSH is a free implementation of the Secure Shell protocol.
 # then an administrator can adjust /etc/apparmor.d/local/usr.sbin.smbd to
 set -- $IF_ETHERNET_WOL
 #    modify it under the terms of version 2 of the GNU General Public
-
 13  ip6fw
   audit deny @{HOME}/.local/share/thumbnailers/{,**} wl,
 chip "w83627uhg-*"
@@ -863,7 +853,7 @@ with something the package builder needs later. It must end with .conf though.
 if [ "$SHLVL" = 1 ]; then
  -->
 
-
+# vim:syntax=apparmor
 bookworm/sid
 
 
@@ -875,7 +865,7 @@ fi
 # ------------------------------------------------------------------
   # Iceweasel
 #  * there is no space around the "="
-# semanage will set the policy version to POLICYDB_VERSION_MAX, as
+//Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
 	cache_mode = "writethrough"
 631	# cups
 ## Commands metadata files.
@@ -951,7 +941,7 @@ APT::Archives::MinAge "2";
 auth		include		runuser
 # resolution. For example, if '/usr' is on removable media:
   # Include additions to the abstraction
-# ssh_config(5) man page.
+
   </alias>
 
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPgz4pnxGhnRPbzreFbZerylDneftGZKsHIMpC8KatK7pqmHPjs4EKWjSn8XoIk/uA5NccoESmo/ao5YVw= root@LAPTOP-5TIN5O4V
@@ -1009,7 +999,6 @@ DNS={% for server in nameservers %}{{server}} {% endfor %}
 
 	        # check because c-n-f could've been removed in the meantime
 # This file is sourced by Xsession(5), not executed.
-
 	;;
 X-GNOME-Autostart-Phase=Initialization
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
@@ -1022,3 +1011,14 @@ X-GNOME-Autostart-Phase=Initialization
 </match>
 # This file is sourced only for login shells (i.e. shells
 #DEFINE		compressor	gzip -c7
+if enabled in cloud-config.  Specifically, in order to enable it
+#        directory before $MAIL_FILE
+  /usr/bin/file-roller Cxr -> sanitized_helper,
+  #    peer=(addr="@@{HOME}/.cache/ibus/dbus-*"),
+
+# /etc/apport/blacklist.d/, apport will not generate a crash report
+  </its:rules>
+# systemd systems als /usr), place them here. iSCSI sessions that carry
+# Find settings with a given prefix and print them as they appeared in
+}
+directory are parsed by needrestart's default configuration file.
