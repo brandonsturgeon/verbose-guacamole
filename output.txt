@@ -87,7 +87,6 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 // If you don't like it, comment it out.
 #
 
-compose '"' 'o' to 'ˆ'
 
 CRYPTDISKS_MOUNT=""
 overlayroot_cfgdisk=LABEL=OROOTCFG
@@ -96,7 +95,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 SOCKET_DIR=.X11-unix
 
   # php session mmap socket
-fi
+# Allow writing cache for Qt5 "platforminputcontexts" plugins
 # /tmp and /var/tmp, whereas home directories will be polyinstantiated for all users.
 
 *text.baseTranslations:		#override\
@@ -173,7 +172,6 @@ fi
  10 through 19		system rendering defaults (AA, etc)
 #    modify it under the terms of version 2 of the GNU General Public
 
-# This directive specify the location of the file containing ID/key pairs for
 # vim:syntax=apparmor
   # Xlibs
 
@@ -233,7 +231,7 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 #
 			<Key>q:set()notify()unset()\n\
 
-bookworm/sid
+  owner @{HOME}/tmp/groff*                    rwl,
 # Compose sequences for IBM1133
 #!/bin/sh
 # @{PROC} is the location where procfs is mounted.
@@ -320,7 +318,6 @@ driftfile /var/lib/chrony/drift
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
 20210529091139 2 6 100 8191 2 D8A2E2F024645B5A3FB339A2EF06A3E46CD2AA808530C320F121CE1EEBEE128D6DB4C49492881B35E5AA8C43CAA07E7F69A5C4ECD0EE62A29FC191B9C0DD6955E23E831A0573135B9931D03A5BBCA961410CA287D08D53C0E8CFEC19534C4FECBAD0F2BE625802AF1B504F59A4A88DAA5F52F221E0E9E0DB1396F07EAF2CA88B79D8CF35EF154A69569C545CA1D04A07ADE3628243039985880B79972FB9F5070951D40C9D21C1729348152724531B270C9DEBB5B2C730C72F4EA3932DB44BD3C746E082856A4109A37BA979164881D5B8007807FF1A7E0C48F99DBBE1709585203E579AE201D295E720CDD45B3A8652A7CE878765E699727641410F840871B4362DC51A3D4D15980876649089CE845B5733497FB8E7B2568EF8627EC1BEE0434A3A72094132A0BA0CA102A440952285823FB09684A1C52468193F6E8A6CC9D935C13FCC661DED5CB84B5D5DF721447531787F78AB31AA1D6342460A8B896518640B7DCF3825B52D46469351EF17E586B661D5C0E792C0AA0B0309B8A4BECB3B267BB459C7452387FF6028EEC1C6DFAE3EE9452EB7A7CFB9CDD361B45FF29E6648BD94712BEF29A1C86C492231F710BC66BF8CF83F8765EF6DBA6857C733789DD71245F17C6FA03DD07FCFFBC450029776FDB4F4B411D4B4A98E090CB79B4CF990398FE1C147CE959C8C11D5DE9A4271EA4CA3D8A50A6F7081A2B0F95AA4AD80081511C357D9F15B7547F0A725EED4EE7FDDAE32A3D00512984928679C51375777E968FE3363DCC495300762C7C6D32F4088DB4D4D4449610D05E87CECADA742827EF2B4EF1D064CEB0EEBB01264306F3E24D6260483829576F88B8346764429722BFD0FE3845F541837ACFFEDA101E0E082F618630B741BE1A9E44C677A947FEC31F08EB338798617A09C38EF3FF31A677E62DCDBA2C56D37B1F16AD2B06F41D3E5CDE9A9B7179B6EC46DF99D857521DF29E8012A1AFE6F2F0658171F56EEA20E531C3B2E02864B130BB0BA476F23024DCCA6411CE1BBD1D5C9F5346DB36334117AAF7A1B4ABE86470CABDF862010F5AE3129CA17F36BA89EE3DB83641804EC2455ED75686342E9F339068A77258BBC292E05AF5C233F5B74CA83080CC5DAE01E977E2F7D1ADC36803398B81DAC22DE391F512912148392371C658C416C96C8C3035928EDBB418CF249C9C02793AE6661AB04B4C6C944F55B23CB5621511DACD8EC5C1ECD463620CAC79C38B6CC95FA8993482EA255246D30DA6EA67C677889F56CDF4466F5D968069E152B0BE30B64E1B18607035D7D15503D364B73BAB5582CDF290FE30D2EB7A4F6F797D80702CC448E1153A3A9D882445C73BA490388588F31FA6C14BA7DBFAD39E1CE6B0E2FAD69015F81FF6DAAC56420A478CF717DD952A0DC51B1E38113CF5EF2AC2EC08B6F6CB427A06AD990213C09DB2CBC6896B3
 deb {{mirror}} {{codename}} universe
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPgz4pnxGhnRPbzreFbZerylDneftGZKsHIMpC8KatK7pqmHPjs4EKWjSn8XoIk/uA5NccoESmo/ao5YVw= root@LAPTOP-5TIN5O4V
 #    This program is free software; you can redistribute it and/or
 #This file is DEPRECATED! @{sys} is defined in tunables/kernelvars now.
 # sudo service apport start force_start=1
@@ -377,7 +374,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 # symbolic names for networks, see networks(5) for more information
 # This file lists certificates that you wish to use or to ignore to be
 swedish         sv_SE.ISO-8859-1
-default = 'ubuntu'
 www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 # Compose sequences for KOI8-U
 
@@ -393,7 +389,7 @@ XClock.input: false
 #
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
-set -e
+#
 # Default-Start:     S
 # or FITNESS FOR A PARTICULAR PURPOSE.  See the Lesser GNU General Public
 
@@ -447,12 +443,10 @@ DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
 À«∆Lõ6õ∞∏ö∏£ˆ¢£“¢££\ƒFƒkæUæôæÉæ¸ƒÊƒ˘≈„≈Rû<û]∂G∂π∏%ææñáÄáñá^áΩeßeùwáw∫|¶|l]V]Ô{Ÿ{ˇTÈTt}^}b¯aäyty~˘}fÔe¿ÆüÆ¿ÆwÆ¿ÆQÆ¿ÆπÆÆfèfÆfifÆfßfö¨Ñ¨ﬂ≠…≠»i»õ¿Ö¿õ¿d¿≈`Ø`˘h„hPz:zΩ≈ß≈Ω≈É≈≈}Ø}⁄ÜƒÜYoCo[`V`{Ëz{√z{†z{ˇzJj4jÆÖòÖÆÖxÖâ≥s≥:_$_,ÅÅ\FÃå∂åÇÒÅ®“í“@ * IÜ3ÜMá7árö\ö3ªªÖoœ“π“WÇAÇÖtot`©J©`©&©˜ò·ò¥jûjXïBïÍû‘ûΩΩwíaíÔäŸä∂Ü†Ü:ñ$ñÙ“ﬁ“†ëäëz_d_B|,|Íí‘íòôÇôòô^ô"UU'ÃÃ∑è°èOó9ó}√g√Jî4î⁄°ƒ°vú\úvú;úvúúvúoú∞óöóÕ…∑… ä¨ä äáä ädä ä√ähVLVhV)VhVaV}rgrˇbÈbíò|òÄÚN¡.¡N¡¡N¡G¡T~>~d∏N∏%‘‘Õl∑lÓ√ÿ√Ó√∂√—ƒªƒ—ƒíƒ‡∆¡∆‡∆õ∆‡∆w∆‡∆Ÿ∆/}}*qq+{{∑∑NÃ8Ã˙À‰ÀtÉ^ÉhuRuhu/uèhyhÕ{∑{h|R|ó}Å}|˛{YiCiùiái¢ÃåÃ¢ÃgÃ®líl©ˇ®≤ ú øÄ©Äø~©~€à≈à®kíkàÍá±hõh±ÀõÀÀkµkX…B…‘hæh2……2…¯»khUhÌÉ◊ÉçUwU≈ÉØÉ≈ÉâÉgUQU;Ω%ΩØ\ô\ìÜ}ÜìÜ\Üπb£bwcXcwc2cwccwcpcóπÅπ'ÜÜÙsﬁsùîáîN√8√õœÖœ[nEn“¯—“œ—˘n„nv–`–v–5–Ñnnn…–≥–…–ç–Ønôn¸uÊuVV¥xûx`Ò_S«=«,««ø˚æ±põpOπ9πOππ=∑'∑Ãt∂tï””ü¶â¶œ^π^Q};}Ë¬“¬Ë¬≤¬òÅÇÅuÅ_ÅAU0U°	°Ÿö»ön•]•ê™™[˝Zu´d´“ØºØ•oèo)jjkjUjsî]î¢åéåÆçöçŸì∑ìŸìéìŸìgìŸì“ìËd»dËd°dËd·dvéUévé-évéévéoécçDçcççcç˙åcç\ç{åYå{å0å{å	å{åtåÕZ≠ZÕZÜZÕZ∆Z{iei~ëhë~ëHëË§Õ§Ë§´§Ë§ã§Ë§·§Z_D_-WW„¿Õ¿§¯£¢µåµxµbµ¯~Hò2ò^üHüUø?ønâXâ§rérP‘:‘–Ö∫Ö±uõuw¯vA∞+∞n≠f≠n≠C≠8f0f8ffı¿¿Ù`Ô`}øgøÇƒlƒç w 4ww‹á∆áHâ2â∫á§áù∂ò∂Y	Y“≈Õ≈˛d˘d%ùù%ùÌú∂Y†Y3øøù«á«»±≤±æô®ôG°1°çuwuµUüU!vvsX]XndPdnd+dnddndgdD∆.∆D∆∆æÅ®ÅÊ«–«≠˛¨qxXxqx8xqxxqxjx__¶±u±¶±U±¶±ó±9i*i,óóú~Ü~ú~e~>g(gÔÇŸÇ˙ó‰ó©tìt)``Hæ2æ√«≠«9“#“¶…ê…óÚñ…i…ÜÏÖÖÖÖﬂÑ<s&s∂⁄∂∂≤∂Fà0àFààZìDì7ü!ü7ü¸ûí—|—/~~ï°°ZrDrÌa◊a/ûû•¬è¬Ãa∂aPÄ:Äº	ºä∏t∏¢øåø®£ç£®£k£®£°£øπ©π}ÇgÇlWVWÔWŸWØWôW°{ã{≠VóV¬î¨îÊî–îåãvãEß/ßÂâœâf P gÀQÀgÀ0Àm¥W¥õeÖe’≥ø≥ãVuV˙≥‰≥7Y!YF¥0¥F^0^!¥¥J]4]í¥|¥ggdyNy·pÀp€T≈Tƒ∫Æ∫Ïµ÷µÏµ±µvT`TÉ∂m∂îX~X◊∏¡∏#ZZu©p©ïiïv«`«∏˚∑sœ]œÿ ¬ ˙j‰jœ	œnım]ŒGŒ]ŒŒæm®mÔœŸœ∆œ∞œ––——B—,—éñxñéñPñÏ£÷£≥àùà≥àwàÇklk<ë&ëmòWò˜ª·ª˜ªªª&¢
   </match>
 networkd_dispatcher_args="--run-startup-triggers"
-/lib/i386-linux-gnu
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
 bookworm/sid
        notifempty
 {% endfor %}
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # no packages own wtmp -- we'll rotate it here
 title=Secure shell server, an rshd replacement
@@ -524,7 +518,6 @@ America/Los_Angeles
 	cat <<-EOF
 Wants=network.target
 # ------------------------------------------------------------------
-
 [Time]
 # Magic local data for file(1) command.
 
@@ -591,7 +584,7 @@ APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
 QT_ACCESSIBILITY=1
 commands scan this directory processing all files that end in '.conf'.
-{% if pools %}# pools
+" This happens after /etc/vim/vimrc(.local) are loaded, so it will override
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 	vgs_cols_full="vg_name,vg_uuid,vg_fmt,vg_size,vg_free,vg_sysid,vg_extent_size,vg_extent_count,vg_free_count,vg_profile,max_lv,max_pv,pv_count,lv_count,snap_count,vg_seqno,vg_mda_count,vg_mda_free,vg_mda_size,vg_mda_used_count,vg_attr,vg_tags"
 fi
@@ -703,7 +696,6 @@ America/Los_Angeles
 
 	rotate 12
 #HostKey /etc/ssh/ssh_host_ecdsa_key
-#endif
 
 
 À«∆Lõ6õ∞∏ö∏£ˆ¢£“¢££FƒkæUæôæÉæ¸ƒÊƒ˘≈„≈Rû<û]∂G∂π∏%ææñáÄáñá^áΩeßeùwáw∫|¶|l]V]Ô{Ÿ{ˇTÈTt}^}b¯aäyty~˘}fÔe¿ÆüÆ¿ÆwÆ¿ÆQÆ¿ÆπÆÆfèfÆfifÆfßfö¨Ñ¨ﬂ≠…≠»i»õ¿Ö¿õ¿d¿≈`Ø`˘h„hPz:zΩ≈ß≈Ω≈É≈≈}Ø}⁄ÜƒÜYoCo[`V`{Ëz{√z{†z{ˇzJj4jÆÖòÖÆÖxÖâ≥s≥:_$_,ÅÅFÃå∂åÇÒÅ®“í“@ * IÜ3ÜMá7árö3ªªÖoœ“π“WÇAÇÖtot`©J©`©&©˜ò·ò¥jûjXïBïÍû‘ûΩΩwíaíÔäŸä∂Ü†Ü:ñ$ñÙ“ﬁ“†ëäëz_d_B|,|Íí‘íòôÇôòô^ô"UU'ÃÃ∑è°èOó9ó}√g√Jî4î⁄°ƒ°vúvú;úvúúvúoú∞óöóÕ…∑… ä¨ä äáä ädä ä√ähVLVhV)VhVaV}rgrˇbÈbíò|òÄÚN¡.¡N¡¡N¡G¡T~>~d∏N∏%‘‘Õl∑lÓ√ÿ√Ó√∂√—ƒªƒ—ƒíƒ‡∆¡∆‡∆õ∆‡∆w∆‡∆Ÿ∆/}}*qq+{{∑∑NÃ8Ã˙À‰ÀtÉ^ÉhuRuhu/uèhyhÕ{∑{h|R|ó}Å}|˛{YiCiùiái¢ÃåÃ¢ÃgÃ®líl©ˇ®≤ ú øÄ©Äø~©~€à≈à®kíkàÍá±hõh±ÀõÀÀkµkX…B…‘hæh2……2…¯»khUhÌÉ◊ÉçUwU≈ÉØÉ≈ÉâÉgUQU;Ω%ΩØìÜ}ÜìÜπb£bwcXcwc2cwccwcpcóπÅπ'ÜÜÙsﬁsùîáîN√8√õœÖœ[nEn“¯—“œ—˘n„nv–`–v–5–Ñnnn…–≥–…–ç–Ønôn¸uÊuVV¥xûx`Ò_S«=«,««ø˚æ±põpOπ9πOππ=∑'∑Ãt∂tï””ü¶â¶œ^π^Q};}Ë¬“¬Ë¬≤¬òÅÇÅuÅ_ÅAU0U°	°Ÿö»ön•]•ê™™[˝Zu´d´“ØºØ•oèo)jjkjUjsî]î¢åéåÆçöçŸì∑ìŸìéìŸìgìŸì“ìËd»dËd°dËd·dvéUévé-évéévéoécçDçcççcç˙åcç{åYå{å0å{å	å{åtåÕZ≠ZÕZÜZÕZ∆Z{iei~ëhë~ëHëË§Õ§Ë§´§Ë§ã§Ë§·§Z_D_-WW„¿Õ¿§¯£¢µåµxµbµ¯~Hò2ò^üHüUø?ønâXâ§rérP‘:‘–Ö∫Ö±uõuw¯vA∞+∞n≠f≠n≠C≠8f0f8ffı¿¿Ù`Ô`}øgøÇƒlƒç w 4ww‹á∆áHâ2â∫á§áù∂ò∂Y	Y“≈Õ≈˛d˘d%ùù%ùÌú∂Y†Y3øøù«á«»±≤±æô®ôG°1°çuwuµUüU!vvsX]XndPdnd+dnddndgdD∆.∆D∆∆æÅ®ÅÊ«–«≠˛¨qxXxqx8xqxxqxjx__¶±u±¶±U±¶±ó±9i*i,óóú~Ü~ú~e~>g(gÔÇŸÇ˙ó‰ó©tìt)``Hæ2æ√«≠«9“#“¶…ê…óÚñ…i…ÜÏÖÖÖÖﬂÑ<s&s∂⁄∂∂≤∂Fà0àFààZìDì7ü!ü7ü¸ûí—|—/~~ï°°ZrDrÌa◊a/ûû•¬è¬Ãa∂aPÄ:Äº	ºä∏t∏¢øåø®£ç£®£k£®£°£øπ©π}ÇgÇlWVWÔWŸWØWôW°{ã{≠VóV¬î¨îÊî–îåãvãEß/ßÂâœâf P gÀQÀgÀ0Àm¥W¥õeÖe’≥ø≥ãVuV˙≥‰≥7Y!YF¥0¥F^0^!¥¥J]4]í¥|¥ggdyNy·pÀp€T≈Tƒ∫Æ∫Ïµ÷µÏµ±µvT`TÉ∂m∂îX~X◊∏¡∏#ZZu©p©ïiïv«`«∏˚∑sœ]œÿ ¬ ˙j‰jœ	œnım]ŒGŒ]ŒŒæm®mÔœŸœ∆œ∞œ––——B—,—éñxñéñPñÏ£÷£≥àùà≥àwàÇklk<ë&ëmòWò˜ª·ª˜ªªª&¢
@@ -738,7 +730,6 @@ brandon:100000:65536
 # It should explain why certain codecs cannot be used, and perhaps show
 [ -z "$(find "$stamp" -newermt 'now-1 days' 2> /dev/null)" ] && exit 0
   set -e
-# Default-Stop:
 QT_ACCESSIBILITY=1
 [Settings]
     s/^[^=]*=//; s/^'\(.*\)'/\1/;  # get value
@@ -754,7 +745,6 @@ FNr0Y/Dq9HHuTofjcan0yVflLl8cebsjqodEV+m9NU1Bu0soo5iyG9kLFwfl9+qd
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
 # raid1
   notifempty
-# Magic local data for file(1) command.
 
 
 {% endif %}
@@ -773,7 +763,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 *Indicator.width:		15
 Vendor-URL: https://www.debian.org/
 XKBMODEL="pc105"
-
+@{run}=/run/ /var/run/
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
   # System files
 #PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
@@ -807,8 +797,7 @@ blacklist neofb
 IdleTimeout=7200
 
 #    License published by the Free Software Foundation.
-#
-
+link-local 169.254.0.0
 Each file in this directory is an rt_protos configuration file. iproute2
 #    Copyright (C) 2006-2009 Novell/SUSE
 #DefaultLimitMSGQUEUE=
@@ -875,7 +864,7 @@ data {yes
   /etc/profile.d/                  r,
 
 ! XMore.ad
-	  </default>
+
 #    For sites which prefer IPv4 connections change the last line to
 #!/bin/sh
 .  \" than utf8.
@@ -891,7 +880,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 KP_5 = j;k;l;5;¬£
 # Default-Start:     2 3 4 5
 #%PAM-1.0
-# present.  Remove the following line, or the old file before making
+
 if [ "$INITRD" = 'No' ]; then
 
 
@@ -970,7 +959,6 @@ fi
 #  * there is no space around the "="
 MetadataURI=file:///usr/share/fwupd/remotes.d/vendor/vendor.xml.gz
 # semanage will set the policy version to POLICYDB_VERSION_MAX, as
-
 	cache_mode = "writethrough"
 631	# cups
 ## Commands metadata files.
@@ -979,7 +967,7 @@ MetadataURI=file:///usr/share/fwupd/remotes.d/vendor/vendor.xml.gz
 háÅ?Ç'˘4æéØÁ¯˘»Ÿ¬gÈ¸Hæëü¡¯.Ñ,·'næåwÒ•ºìœœ·€˘{~4?é/Êãxé/‰«Úc¯Væçè <ÕÁÚo„.ü√[˘l~ﬂÃáŒxØÒQ~øîÔ·sõO‚ü¬WÚS˘ƒÁ˘)ºèWyÖüÃ{˘
 ## Suppress Warnings
 #    This program is free software; you can redistribute it and/or
-
+# install storage)
 APT::Periodic::Update-Package-Lists "1";
 session		optional	pam_keyinit.so force revoke
 # /usr/bin/gvfs-open rPx -> foo//gvfs-open,
@@ -1018,3 +1006,16 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 
 {
 - /dev/stdout
+
+# vim:syntax=apparmor
+# no packages own btmp -- we'll rotate it here
+  </alias>
+#    Handle linux distributions that use systemd to replace the legacy
+eval $(/usr/bin/locale-check C.UTF-8)
+
+
+#    Copyright (C) 2002-2009 Novell/SUSE
+X-Ubuntu-Gettext-Domain=xdg-user-dirs
+  <match target="pattern">
+}
+@{run}=/run/ /var/run/
