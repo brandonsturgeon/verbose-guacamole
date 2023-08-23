@@ -1,6 +1,5 @@
 Ubuntu 22.04 LTS (Jammy Jellyfish)
 #Source user defined xsessionrc (locales and other environment variables)
-#
 /var/log/auth.log
 Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
@@ -99,7 +98,7 @@ gdm:x:121:129:Gnome Display Manager:/var/lib/gdm3:/bin/false
 20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
     else
 # --launch gpg-agent"
-    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
 	</alias>
 # that will become kernel vars at some point
 
@@ -121,7 +120,6 @@ password	include		su
 # As a result, cloud-init has written this file with configuration data
 *ispell*look.label:			Look
 .  " rather than letting it be rendered as "&minus;".
-PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
   abi <abi/3.0>,
 # shellcheck disable=SC2086
 # Compose sequences for IBM1133
@@ -158,10 +156,8 @@ Ubuntu 22.04.2 LTS
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 # PTRACE only to direct child processes (e.g. "gdb name-of-program" and
       will change accordingly; the version at
-/usr/bin/rbash
+		<test qual="any" name="family">
 <!--  Use the Antialiasing -->
-session    required   pam_env.so readenv=1 user_readenv=0
-# This file is part of the resolvconf package.
 # Default is yes
 		<test qual="any" name="family">
 
@@ -185,7 +181,7 @@ case "$ADDRFAM" in
 # console I usually leave idle.
 #
 
-  . "$USERXSESSIONRC"
+       search:
   </its:rules>
 trusted.SGI_DMI_*		skip		# xfs specific
 # $ sudo dpkg-reconfigure apparmor
@@ -193,7 +189,7 @@ Title=Vendor
 
 # This file is a simple placeholder to keep dpkg from removing this directory
 
-
+*Command.highlightThickness:	1
 # symbolic names for networks, see networks(5) for more information
 swedish         sv_SE.ISO-8859-1
 XClock.input: false
@@ -226,7 +222,7 @@ QUIET=0
 /dev/scanner
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
-#!/bin/sh
+# and thus you'll know about Linux's capability support.
 # received.  Note: it is not advisable to use this option with the persist
 
 # Compose sequences for IBM1133
@@ -267,7 +263,6 @@ Wants=network.target
 scsi ULTIMA
 # For more details, please see /etc/apparmor.d/local/README.
 fi
-fi
 # append to the history file, don't overwrite it
 /dev/scanner
   log_action_end_msg $?
@@ -277,7 +272,6 @@ fi
 #    This program is free software; you can redistribute it and/or
 			<family>DejaVu Sans</family>
     if [ -f "$HOME/.bashrc" ]; then
-[ -x /usr/bin/xhost ] && [ -x /usr/bin/id ] &&
 @{XDG_PUBLICSHARE_DIR}="Public"
 ## Uncomment the following two lines to add software from Canonical's
 
@@ -431,7 +425,7 @@ compose ')' '-' to '}'
 fi
 	notifempty
 # Compose sequences for GEORGIAN-PS
-_’O R÷aBOÌîtcÙRÛ%7-—°g[ı¥AUbuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>â7
+#  privileged clients.  Instead the passwd.adjunct.byname table is
 
 # of /var/log/ubuntu-advantage*.log files.
 
@@ -488,7 +482,7 @@ bookworm/sid
 
 
   /usr/bin/shotwell Cxr -> sanitized_helper,
-  manage_etc_hosts: True
+APT::Archives::MaxAge "30";
 compose 'r' 'o' to 'Æ'
 fi
 change_hat {yes
@@ -524,7 +518,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 ### FILENAMES ETC
 #    This program is free software; you can redistribute it and/or
 #    Handle linux distributions that use systemd to replace the legacy
-eval $(/usr/bin/locale-check C.UTF-8)
+  # to other profiles if they exist.
 #    Copyright (C) 2002-2009 Novell/SUSE
 
   include if exists <abstractions/dbus-accessibility-strict.d>
@@ -589,7 +583,7 @@ for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; 
 #stv680.conf
 fi
 # authentication via PAP, CHAP and similar protocols.
-
+    IM_CONFIG_PHASE=1
   abi <abi/3.0>,
 #dateext
 ### END INIT INFO
@@ -647,9 +641,9 @@ X-GNOME-Bugzilla-Version=3.36.x
 # Compose sequences for ISO-8859-16
 
 #NTP=
-®â 9©`Ÿl’ >D∂∞!£j[~=‡g·%1¯Å_á¸T0T+–ƒfüﬁ¥Çe≥èR·Cdˇ¥!£j[~=‡g·%1¯Å_á¸T0,W†MfÇ‰¨Ç˙®Õ5œ~∞°G~p¸z¿œ¬Kbø˘©`X~Ég"ﬂ˙¯|∆dE»rüPÿˇùg?Ÿ–√ö≠x=!^>Éx¡K≥Ú:π€ÀUÀ¬uÉT∏Ÿ2™∂Ö‡◊~^É¯u»OCıù@ê*X6ã§¬á»Œm»®⁄Ç_¯YxI~‡◊!?ÁboÄﬂ¬`‰Ä¯L≤	É$Jb5Òd?øé¯ï¡–à`ËNyÊÄ¯Ómí—ªΩœ?Ìíú,Ø¢µ‡æ‡æOÑØ
+
 do_bootloader = no
-	# lvmdbusd relies on command log report to inspect LVM command's execution status
+
 DESKTOP-OFJN9OT
 
 	fwsetup
@@ -674,7 +668,6 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
 
 # since the modules above will each just jump around
 
-deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 font='Monospace 16'
 
 	case "$REPORT_ABSENT_SYMLINK" in
@@ -687,7 +680,7 @@ font='Monospace 16'
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])? md: md[[:digit:]]+: (data-check|requested-resync|resync|reshape|recovery) done.$
 ˝h#0£#e§íìèπÖ(1∑PtA¸·Û≈ßmZ&õÙ°Öﬂ±˚ã7Ω⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷4B˙4-±Ô¶.ÜP¸ç=1˙¿ÜæâhµVÇ6uƒDLƒSuVA˘&⁄≥¯Ë∏êJÜ4s·Tˇ¯|ù"KŸÖ›‡dAõˆhõΩ∫û˚€•B@D@S’t )ç$\∏’._)ËN+eµy≥mu=˘sw©–T©NI#Ó‘UµÓ≠†V∆’ÊÕ{¥5Ùt=˘Ûv©–T©NI#„UWuT˜÷†;´¢Wõ?È—÷–◊ı‰œﬂ•B@D@S•:%ç8[T]’—nètÁUÙjÛùm]O˛Ç]*D@4U™S“H´E’UÌˆXAoR˝¨VõÔˆhk8’ı‰o∫KÖÄàÄ¶JuJÒµ®∫™£›+Ë9UÙjÛΩmC]O˛¬]*D@4U™S“»û›"´Ó≠Aœ≠¢WõÔ˜hk8”ı‰o∂KÖÄàÄ¶JuJaµ†[d’Ω5Ë—S°jÛÉmÁ∫û¸Õw©–T©N9„É™æÍjØPÙ¸*<=öˆhõﬂ‡ân¿=jª∫µàã∏à{p\’ôi$–/€ï)‘=⁄±8‰X00˘…ô4…%§MÁqû•©∞8ø…æ]|b´,¯ªNäíÂ≈˜fÁeT≤ˆÓ>º√”S`4ç@#–4bD‚ÍG√Û·CQ–ÔP®…FqJKW€ÕåN·tßÍ¢u≈E;:”d£¨fFßp:ÜSu—z‚¢ùãÇùk≤QàV3£ÄS8√©∫h}q—ûo/À<äÀ&GgΩ⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷Ú€fæ((àØ…F!~¨fFßp:ÜSu—N≈EàÇ4Ÿ(D´ôQ¿)úé·T]¥°∏hß¢†Cßöl"Ç’Ã(‡N«p™.⁄ô∏hOóÀ∫¢√ﬂ˚vU˚⁄#¢u4’˘Ê¢Û9¢ 7é&ÖËﬁV3£ÄS8√is—Œ&‚¢uEAá∫öl"Ç’Ã(‡N«p™.Z˘F€Íi≤QàV3£ÄS8√©∫hÂÌâ(Ë–â&Öà`53
 #
-  <description>Set hintfull to hintstyle</description>
+{% endfor %}
   #include <abstractions/gnome>
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
   <type name="Arial-Narrow" fullname="Arial Narrow" family="Arial Narrow" weight="400" style="normal" stretch="condensed" glyphs="arialn.ttf"/>
@@ -863,7 +856,7 @@ gt68xx
 #!/bin/sh
 
   /usr/bin/dbus-launch ix,
-# 127.0.0.53 is the systemd-resolved stub resolver.
+
 fi
 		;;
 
@@ -888,7 +881,7 @@ fi
 
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
   /usr/share/perl/**             r,
-blacklist lxfb
+LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # the root account (the options `even_deny_root>` and
 # vim:set ai et sts=2 sw=2 tw=80:
 # SCSI
@@ -936,7 +929,6 @@ auth    optional        pam_gnome_keyring.so
 $x-display-manager gdm3
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
 
-# Note that any setup should come before the sessreg command as
     monthly
 Ëç_âD´Æ»æEüƒd˘WMØµ0Lí∆>?Üê¥Ÿ◊Ñè[˛öfô6∆¸‹Ñ	*ánçµ9ê+›K¯¢∑|#Ô17WÌ§÷&J˜1ÒÈg‹~÷≈=¿æcC°“5∞ÿaè
 # Read man sane-mustek_usb for documentation
@@ -1005,7 +997,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 # in the toplevel profile. Eg:
 LANG=C.UTF-8
 		<!-- https://en.wikipedia.org/wiki/Category:Mathematical_OpenType_typefaces -->
-X-GNOME-HiddenUnderSystemd=true
+  audit deny @{HOME}/.kde{,4}/Autostart/{,**} wl,
   <match target="pattern">
 
 
@@ -1031,7 +1023,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 #    modify it under the terms of version 2 of the GNU General Public
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
 X-GNOME-Autostart-Notify=true
-#
+DPkg::Pre-Install-Pkgs { "/usr/bin/apt-listchanges --apt || test $? -lt 10"; };
 # Provides:          gdm3
 /dev/scanner
 [Desktop Entry]
@@ -1049,3 +1041,11 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 # Compose sequences for KOI8-R
 # or
 		</edit>
+  <type name="NewCenturySchlbk-Italic" fullname="New Century Schoolbook Italic" family="NewCenturySchlbk" foundry="URW" weight="400" style="italic" stretch="normal" format="type1" metrics="C059-Italic.afm" glyphs="C059-Italic.t1"/>
+		</edit>
+#    License published by the Free Software Foundation.
+# Uncomment the following if your scanner is connected by USB,
+  <delegate decode="ps:alpha" stealth="True" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=pngalpha&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;-f%s&quot; &quot;-f%s&quot;"/>
+post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
+[genie]
+
