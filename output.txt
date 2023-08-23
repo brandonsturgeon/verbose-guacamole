@@ -11,7 +11,7 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 # Here is the list of possible values:
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
-
+#
 # /etc/passwd file.
 # ------------------------------------------------------------------
 # Make sure the locale variables are set to valid values.
@@ -20,7 +20,7 @@ driftfile /var/lib/chrony/chrony.drift
   # Checking for PID existence is quite common so add it by default for now
 
     permission javax.crypto.CryptoAllPermission; 
-	si_unit_consistency=1
+# Written by Austin Donnelly <and1000@debian.org>
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
   dbus send
 	[ -z "$AWKLIBPATH" ] && 
@@ -54,7 +54,6 @@ APT::Archives::MinAge "2";
 #
 
 #    Copyright (C) 2006 Novell/SUSE
-  if [ "$add_etc_modules" ]; then
 188	ospf
   /var/lib/acme/live/* r,
 <?xml version="1.0"?>
@@ -106,7 +105,6 @@ Comment[zh_CN]=å¯åŠ¨ PulseAudio å£°éŸ³ç³»ç»Ÿ
 # Reserved protocols.
         <policy user="root">
 
-. /usr/share/bash-completion/bash_completion
      o General entity declarations of any kind.  For example:
 commands scan this directory processing all files that end in '.conf'.
 password	include		su
@@ -141,9 +139,8 @@ NAME="plymouth-log"
 # and users home directories will reside within the directories that
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.$
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
-# PTRACE only to direct child processes (e.g. "gdb name-of-program" and
       will change accordingly; the version at
-		<test qual="any" name="family">
+    owner @{HOME}/** rwk,
 <!--  Use the Antialiasing -->
 # Default is yes
 # using the ${string} syntax and (possibly non-existent) PAM_ITEMs may
@@ -174,7 +171,7 @@ XClock.input: false
   #
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
-  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
   <acceptfont>
 ::1 {{fqdn}} {{hostname}}
@@ -186,7 +183,6 @@ trusted.SGI_DMI_*		skip		# xfs specific
 SáÊó:]C+¼İ˜·MÌÖGşp‚ô£ã×?ÒÇM”±àã@‡Òü³w>‚­ŸÂÏM?ÛƒX“YŠ®Ke>(pë9l‚ŒÃnÏÎŒ,<Í™zV@q-NúãÓ—şÔxÔ“Ö`”~ju©äÑ]bz1zü'ÓN}ÊÆa?t¨Q}ÜÍïÓP[Äÿ„!¿öØˆ=ºİ
 Description=Mount unit for snapd, revision 15904
     <allow send_interface="org.debian.apt.transaction"/>
-    /etc/modprobe.d/{,*.conf} r,
 # For some Atheros 5K RF MACs, the madwifi driver loads buts fails to
 
 Bugs: debbugs://bugs.debian.org
@@ -263,7 +259,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 #
 
 
-  /var/log/**                   rw,
+@include common-password
     # clean up parts of the database created by the initramfs udev
 restrict default kod nomodify notrap nopeer noquery
 fi
@@ -336,9 +332,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 mode="${mode%'}"
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 #allow 192.168/16
-#keyfile /etc/chrony.keys
 PK!	questUTc(,M-.áPKqêé	PK!	racingUTc(JLÎÌKçPKÔ…áÍ
-KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 Acquire::Changelogs::AlwaysOnline "true";
 . /usr/share/bash-completion/bash_completion
 # Set the default output policy to ACCEPT, DROP, or REJECT. Please note that if
@@ -382,7 +376,7 @@ fi
 _apport_symptoms ()
 
 # ~/.bash_logout: executed by bash(1) when login shell exits.
-
+fs.protected_symlinks = 1
 if [ "$INITRD" = 'No' ]; then
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 }
@@ -400,7 +394,6 @@ fi
         %fixedAttr;
 #
 PK!	æ”¿åŠ¡UTcx6eÿÓ®…PK>ÌøK
-
 *customization: -color
         if shopt -q progcomp && [ -r /usr/share/bash-completion/bash_completion ]; then
 			<string>AR PL UMing HK</string>
@@ -469,7 +462,7 @@ APT::Archives::MaxSize "500";
 #!/bin/sh
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 # set start_ro=1 to make newly assembled arrays read-only initially,
-/var/log/cron.log
+:Î”ŒägvwbNB3ôâ3äÏiKÏÏ?øÛB±ö Ygãwe7Œ6©€»	ÂjQ:ÜÚ(qº”é]Ø±ç1¼y:ÿBQ%¯~2±,³ß5à’Ú‹Ü‡„#™è¶aÔêÌé.ˆ;÷}uYÉÈ¢[UüWÇ¨b¥kG=•Uµäp› xĞMŞWÔAh®Ç²œ•0É8ÔÌ{@âÊrÔŞ¥LJîÉtÑO=]m-bÌıFbüôai›ÂóLp:°Um>oÙ”Ğ—èıWÌœ+¿°Ò@ úiAAEş9á	òÔä‘ÿL”QØ|?Æ1T¹á€¾i0ãi¦¥ã/—s'¼b;Šj`¿ÓÃcTB2k]´¬Øoş“ö!¸jòËˆ{e
 # To take advantage of this, it is recommended that you configure any
         cat /run/motd.d/85-fwupd
      </choice>
@@ -508,7 +501,6 @@ X-GNOME-Autostart-Phase=Initialization
   /usr/lib/@{multiarch}/gdk-pixbuf-*/** mr,
 
 # authentication via PAP, CHAP and similar protocols.
-    IM_CONFIG_PHASE=1
   abi <abi/3.0>,
 #dateext
 ### END INIT INFO
@@ -544,7 +536,6 @@ Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-se
     else
 		https://*)
 GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
-#    License published by the Free Software Foundation.
 # This file is a simple placeholder to keep dpkg from removing this directory
 # The following may be used to add additional entries such as for
 PPP_LOCAL="$4"
@@ -587,7 +578,6 @@ scsi AdLib * Scanner
 font='Monospace 16'
 
 	case "$REPORT_ABSENT_SYMLINK" in
-
 
 
 						;;
@@ -721,7 +711,6 @@ test "$XDG_SESSION_TYPE" = 'wayland' || return
 /HYRGoThic-Medium /NanumGothic-Regular ;
 # for allowing access to konsole
 Clock*BorderColor:	light blue
-"
 Ubuntu 20.04.1 LTS (Focal Fossa)
 
   stop)
@@ -792,8 +781,7 @@ NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 # remove the iwl?vm module and then iwlwifi.
 ¤
 brandon:100000:65536
-      106 118 146 183 207 227 242 249 250 241 225 205 181 145 117 105
-#
+  /usr/bin/tkrat Cx -> sanitized_helper,
 #
 # modem initialization string.
 /dev/scanner
@@ -985,7 +973,7 @@ X-GNOME-AutoRestart=true
 SHELL=/bin/sh
 # This is the configuration file for pam_env, a PAM module to load in
   /usr/lib/nspluginwrapper/i386/linux/npviewer{,.bin} ixr,
-
+deb http://packages.azlux.fr/debian/ buster main
 unset USEHTTP
 		;;
 # The following section will copy the contents of /etc/skel if this is a
@@ -1009,7 +997,7 @@ application/x-zip=org.gnome.FileRoller.desktop
 DEFAULT_OUTPUT_POLICY="ACCEPT"
 # Set up the prompt
 Zaz+ortKsugmTmzsF4DlRhq0Ok0VWuq0rzWndpFyFvIewwARAQABiQI+BBgBAgAJ
- 30 through 39		family substitution
+set runtimepath=~/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim90,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,~/.vim/after
 helpline=,magenta
 #   https://bugs.debian.org/858528
 
@@ -1023,7 +1011,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 
   /usr/share/drirc.d/{,*.conf}    r,
-
 DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
 # Side effects:
 #
@@ -1064,3 +1051,15 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 #Name: remotedb
   <!-- <policy domain="system" name="precision" value="6"/> -->
 # This file is sourced by Xsession(5), not executed.
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
+™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
+# dpkg-shlibdeps(1) manual page. 
+# The /etc/chatscripts/pap chat script may be modified to change the
+
+{¶Ç.@ÀBG‡¿yóØXP¿j±˜ó”nÒGí¥/©püµ‡æ§İo¿7eœ„îÿí™Àm×£[ÈM¨Ù–šüŞØG£Ş-£ªÎ£[Âxo”üédÙÏ@CÍ >MEÆu}üèDÎtKZCAù~ûivÎî¦UZ§Ş«+¤@Øÿ¹ØxâÊ†vF”/âöÜÄn1#À´Ç×¨Š·Æ‡×~5üüAóÒ¡…êCÕÇFĞÕ[Æ«ÖÏË¾pn"Xo4>•ùR¤CkÀ^«—'±´1öl:;y>…óYeP+¶]µ°û3WŒbLîMGäœ²ª‘ñdõ=]^X~1&ëò¢ñöøÈÅd•>”½Ô–=SÕ±eÕº¸½Â5¦¯fÿbìOw½>¡ö;§…íÇO1&ûõä\LŸ*Ş–}{ım•æå{#¯)µàR;cÚı	VŞê.¬ÇD°@ªïGÆ›5G‚şûGÉ¶>ış¾¯d»şËÖÚóKIQ{›Ot:E05õnÀ’½	ÏPÕåç´_TVĞŸ…ÑbwwÇÜBm%gg÷¬«ZåÙù³Ùb±^,f³¾\W¯Ø¿ÜPˆşİµ1úç•fÙ“ÔÔîC{F×Õß¶şÛrQYÕ*”½Ô“Úoô­÷¯Mz®sn¶¿şªı¸Ê£i^½ŞT²¯Ÿ ı¬@™Æê?3¶÷kÅ„V<}tÅ­x~;¾,Ğ¡õmÚû!µ?	í›SC,µ¡efÿäºŞ­dÙR°¾ø-´í¯†j$
+# X11xx series
+    <accept>
+      Most clients may picks up the first value only. so using "append"
+
+                    attributes in this namespace</p>
+
