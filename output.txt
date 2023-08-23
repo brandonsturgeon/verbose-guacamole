@@ -75,15 +75,14 @@ search updates ubuntu built-in
   /var/lib/ctdb/** rwk,
 password	include		su
 
-# As a result, cloud-init has written this file with configuration data
   </policy>
   abi <abi/3.0>,
 # shellcheck disable=SC2086
 
 xterm
-twm
+# This file is a simple placeholder to keep dpkg from removing this directory
 ## possibly not what you want... On first reading, you might think this
-	log_begin_msg "Stopping $DESC" "$NAME"
+ 			<family>AR PL Zenkai Uni</family>
 Type=Application
    (append '(("CMakeLists\.txt\'" . cmake-mode)
 test -r /usr/share/im-config/xinputrc.common || return
@@ -163,7 +162,6 @@ fi
     export CLUTTER_IM_MODULE
 # the terms of the GNU General Public License as published by the Free Software
 LOGLEVEL=low
-#  (at your option) any later version.
 #export http_proxy="http://127.0.0.1:3128/"
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # configuration options for /etc/X11/Xsession
@@ -202,7 +200,6 @@ turkish         tr_TR.ISO-8859-9
 
 brandon:100000:65536
 LazyUnmount=yes
-  set -e
 Type=Application
 	</policy>
     label in1 "Vcore"
@@ -391,7 +388,7 @@ DelayedActivation=false
 	# addition to any existing reports. Otherwise, there's only log report
 #
 #!/bin/sh
-scsi "B&H SCSI"
+mozilla/GTS_Root_R3.crt
 	cache_settings {
 
 <!--  Disable sub-pixel rendering --> 
@@ -459,7 +456,6 @@ update-hostname=true
   <type name="Verdana" fullname="Verdana" family="Verdana" weight="400" style="normal" stretch="normal" glyphs="verdana.ttf"/>
 #DefaultLimitAS=
 -dcevm KNOWN
-# how to byte-compile (comma separated: standard, optimize)
 which grub-editenv >/dev/null 2>&1 || exit 0
 #!/bin/sh
 # This file is the default tidy configuration file
@@ -469,13 +465,11 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
     delaycompress
   #include <abstractions/kde>
   </its:rules>
-# Microtek ScanMaker 3840 ID
 ú3ú@úcúsúôú™ú—ú·úùùAùSù{ùâù≠ùΩù„ùÒùû#ûGûXûûéû≥û¡ûÂûıûü,üSücüâüöü¡ü—ü˜ü†)†6†Y†e†á†ï†π†∆†È†¸†%°3°W°j°ì°ƒ°¢ ¢K¢d¢ì¢®¢”¢Ì¢£6£e£Ä£±£∆£Ò£§5§H§q§Ä§•§∏§·§Ó§••/•:•[•f•Ö•ê•¢•´•º•≈•‰•Ì•˝•¶1¶A¶g¶v¶õ¶©¶Õ¶ﬁ¶ßß+ß:ß_ßnßëß†ß∂ß√ßÿßÂß®®)®:®a®r®ô®™®—®‡®©©=©L©q©~©°©≤©À©‹©™™,™=™d™t™ö™Æ™ÿ™Ë™´#´N´_´Ü´õ´ø´Ò´9¨h¨≠¨ø¨Á¨ı¨≠'≠I≠^≠â≠û≠«≠„≠Æ%Æ=ÆMÆsÆÉÆßÆ∑ÆŒÆ‹ÆÚÆØ$Ø2ØGØWØ}ØâØ´ØπØ›ØÔØ∞&∞K∞V∞w∞Ä∞ü∞±∞Ÿ∞Ê∞	±"±Q±h±ï±§±…±’±˜±≤E≤]≤ã≤£≤—≤ﬂ≤≥≥1≥<≥]≥n≥ï≥¶≥Õ≥·≥¥¥A¥Q¥w¥à¥Ø¥æ¥„¥¥µ"µGµTµwµàµØµøµÂµ˜µ∂/∂U∂e∂ã∂ô∂Ω∂ ∂Ì∂¯∂∑(∑M∑Z∑}∑ç∑•∑µ∑€∑Î∑∏∏6∏H∏p∏|∏û∏≠∏“∏·∏ππNπ\πÄπïπ¿π’π∫∫D∫V∫~∫ç∫≤∫ø∫‚∫∫ª ªBªOªrªÉª™ª∂ªÿªÚª"º2ºXºmºòº®ºΩºÀºﬁºÔºΩΩ(Ω5ΩXΩcΩÑΩîΩ∫Ω ΩΩæ4æKæxæáæ¨æ∆æˆæø&ø2øTø`øÄøäø™ø∫ø€øÚø¿5¿a¿s¿ñ¿¨¿”¿Á¿¡¡=¡J¡m¡¡ß¡≤¡”¡‚¡¬¬E¬Y¬u¬â¬≥¬«¬Ô¬√√0√J√\√Ñ√ñ√Ø√ø√◊√Á√ƒƒAƒQƒhƒvƒåƒöƒæƒÃƒ·ƒ˚ƒ+≈=≈e≈≈Ø≈¡≈È≈∆1∆B∆i∆|∆ó∆™∆”∆Ê∆« «:«K«d«u«ú«≠«≈«◊«Ò«»+»=»c»u»é»û»∂»∆»Ï»¸»…#…;…K…q…Å…•…µ…Ã…⁄……˛…" 0 E X s Ü Ø ¬ È ¸ À'À@ÀQÀxÀâÀ°À≠ÀœÀ€ÀÔÀ˚ÀÃ)ÃIÃUÃhÃrÃÑÃéÃÆÃ∏Ã…Ã◊Ã˚ÃÕ+Õ:Õ_ÕlÕèÕõÕΩÕ»ÕÈÕ¯ÕŒ2Œ]ŒqŒõŒ¨Œ”Œ‚ŒœœAœQœwœÜœ´œ¡œÌœ–-–E–s–â–µ–∆–Ì–ˇ–'—7—L—h—ö—©—Œ—⁄—¸—“<“L“r“Ü“∞“º“ﬁ“Ô“”&”L”g”ò”≠”ÿ”Í”‘!‘F‘S‘h‘u‘ò‘£‘∂‘¡‘‚‘Û‘’,’C’S’h’v’ö’©’Œ’ﬁ’÷÷8÷E÷h÷v÷ö÷¶÷»÷›÷˜÷
   # the unix socket to use to connect to the display
     permission javax.crypto.CryptoPermission *, 128;
 # Compose sequences for CP1255
 # Any customisation or reliance on the existence of this file and its
-*MenuButton.leftBitmap:		None
   # Kubuntu
 #usb VENDORID PRODUCTID
 # define if shading data shall be inverted befor sending it back to the scanner
@@ -526,7 +520,7 @@ lp:x:7:
 				/bin/plymouth message --text="${TEXT}"
     log_action_begin_msg "Synthesizing the initial hotplug events (subsystems)"
   owner @{HOME}/.cache/ rw,
-# for allowing access to xterm
+     %dbgenent;
 # minclass = 0
 #include <tunables/global>
 
@@ -535,7 +529,6 @@ LANG=C.UTF-8
 		<!-- https://en.wikipedia.org/wiki/Category:Mathematical_OpenType_typefaces -->
 # their current one is listed in /etc/shells. This keeps
   <match target="pattern">
- * and edit it there.  That way, your changes will be kept next time
 
 
 17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
@@ -575,7 +568,6 @@ Type=Application
 # and the kernel MPPE module available from the CVS repository also on
 # troubles on misconfigured networks
 scsi IBM 2456
-IPT_MODULES=""
 Exec=/usr/libexec/gsd-wacom
 #
         <Key>q:         quit()\n
@@ -620,7 +612,6 @@ helpline=,magenta
 # Compose sequences for ISO-8859-11
 
 NoDisplay=true
-</typemap>
 *dashlist*ShapeStyle: rectangle
 #
 #
@@ -755,7 +746,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
       <string>DejaVu Sans Mono</string>
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 run_im default
-# value to be assigned to the environment variable.
 # This file should be world readable but not world writable.
 blacklist dv1394
 #    modify it under the terms of version 2 of the GNU General Public
@@ -767,7 +757,6 @@ roottext=,magenta
   #include <abstractions/private-files>
   #include <abstractions/opencl-mesa>
   -->
-    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 #  normal - Check to see if a new release is available.  If more than one new
 56f12ada18a3412ab1f9dcd69450be95
 
@@ -807,10 +796,10 @@ BRIDGE_HOTPLUG=no
 
 XClock.Clock.minorColor:	rgba:00/7f/7f/c0
 XClock.Clock.hourColor:		rgba:7f/00/00/c0
-
+# does not work or could not work correctly
 # Compose sequences for ARMSCII-8
 /RR3w6RbKFfCs/mC/bdFWJsCAwEAAaOCAVowggFWMBIGA1UdEwEB/wQIMAYBAf8C
-# This is a configuration file for /etc/init.d/dbus; it allows you to
+root:x:0:
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 # ldconfig = false
 #
@@ -826,7 +815,6 @@ scsi RICOH IS60
 #
 type=file
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-  /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/ r,
 #children_max=
 disable_root: true
 X-GNOME-Bugzilla-Bugzilla=GNOME
@@ -857,7 +845,6 @@ server {{server}} iburst
 
   /var/log/lastlog  rwk,
   owner @{HOME}/@{XDG_DOCUMENTS_DIR}/**   rwl,
-  https_proxy: null
 /dev/scanner
 HuaweiAltModeGlobal=0
 restrict 127.0.0.1
@@ -966,7 +953,7 @@ byte-compile = standard
 Ubuntu 20.04.5 LTS \n \l
     <allow own="org.freedesktop.GeoClue2"/>
 # be polyinstantiated based on the MLS level part of the security context as well as user
-
+# 'keyscript=' option.  In that case, the field is not treated as a file
 # a minimum a blank line following it).
 # another usb section here.
 MIIElDCCA3ygAwIBAgIQAf2j627KdciIQ4tyS8+8kTANBgkqhkiG9w0BAQsFADBh
@@ -1014,7 +1001,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 /dev/scanner
 # picture-options='zoom'
 			<family>Code2001</family> <!-- plane1 and beyond -->
-
 # For scanners connected via USB on a known device (kernel driver):
 *Toggle.justify:			left
 Ubuntu 20.04.1 LTS (Focal Fossa)
@@ -1111,3 +1097,15 @@ APT::Periodic::Update-Package-Lists "1";
 #     /etc/cloud/cloud.cfg or cloud-config from user-data
     'debug': {
 #       services;ttys;users;times
+
+applicable law.
+X25		0805
+test -x /usr/sbin/sshd || exit 0
+	rotate 4
+îTÓ
+     </p>
+
+  /dev/nvidia-uvm rw,
+ipv6-icmp 58	IPv6-ICMP	# ICMP for IPv6
+#
+
