@@ -16,7 +16,6 @@ required in any way by the specification).  The information may be useful in
 {% for pool in pools -%}
 ï3ïDïkï|ï£ï≥ï»ï◊ïÓï˝ï"ñ1ñTñcñyñòñÕñÿñ˘ñó+ó9ó[óeóÖóèó≠ó∫ó›óÈóòòGòRòsòÑò´òªò·òÔòô$ôKôYô}ôäô≠ôπô€ôÏôö*öWöföãöõö¡öŒöÒöˇö#õ3õYõiõèõüõ√õ“õ˜õ
 <fontconfig>
-
 ##
 # This file is sourced on all invocations of the shell.
 #
@@ -80,7 +79,6 @@ checkbox=,magenta
 # Compose sequences for ARMSCII-8
 # DO NOT EDIT OR REMOVE
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
-DISTRIB_CODENAME=jammy
 
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 # how to byte-compile (comma separated: standard, optimize)
@@ -123,7 +121,7 @@ XClock.Clock.secondColor:	rgba:00/00/ff/80
 # raid1
 {
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
-# IPMI_System_Event_Transition_Severity_No_Event                                         Nominal
+# ------------------------------------------------------------------
 
 [Desktop Entry]
 
@@ -225,12 +223,11 @@ X-GNOME-Autostart-Phase=PreDisplayServer
     <allow send_destination="net.hadess.SensorProxy" send_interface="org.freedesktop.DBus.Peer" send_path="/net/hadess/SensorProxy/Compass"/>
 *internalBorderWidth:		0
 
-    done
   #include <abstractions/fcitx-strict>
 
 XLoad.input:			false
 #
-}
+DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
 #!/bin/sh
 [fwupd Remote]
 # javax.sound.sampled.TargetDataLine
@@ -257,7 +254,7 @@ fi
 #    Copyright (C) 2011-2013 Canonical Ltd.
 NoDisplay=true
 }
-# Compose sequences for ISO-8859-11
+# in the toplevel profile. Eg:
 [connection]
 #!/bin/sh
 # This file is the default tidy configuration file
@@ -280,7 +277,7 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 LP-PPA-ubuntu-mozilla-daily
 /dev/scanner
 #    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-    <alias>
+#    This program is free software: you can redistribute it and/or modify
       <family>DejaVu Serif</family>
 letter
   </rejectfont>
@@ -314,14 +311,13 @@ XCalc*ti.button30.displayList:		foreground rgb:a/9/8;segments 8,-4,-9,-4,-4,-9,-
 # Provides:          gdm3
 #
 <?xml version="1.0"?>
--->
+esac
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
     <match target="pattern">
 # banner-message-text='Welcome'
 serif.symbol.bolditalic=Symbol
-#alias {
+<!ELEMENT br ANY>
 
-Type=Application
 *yÛ∂»XEÜqÜ†ÑÀ"9≤∆Kî}‰J['·iÊÉ`éòú7ÃCÙFí˙@{À=ê¸Pº"i
 Exec=/usr/libexec/gsd-wacom
 scsi "RELISYS" "APOLLO Express 3"
@@ -351,7 +347,6 @@ if ls /dev/fb* >/dev/null 2>/dev/null; then
 fi
  * only some of those definitions, copy calendar.all to /etc/calendar
 case "$6" in
-*Blank1Inc-button.fromHoriz: Blank1-text
   @{sys}/bus/{cpu,node}/devices/ r, # libpocl.so -> libhwlock.so
 
 NoDisplay=true
@@ -378,7 +373,6 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
 #
 
 fax:x:21:
-		1) log_progress_msg "already stopped"
 exec tail -n +3 $0
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
   convenient to refer to a color by name (e.g. white) rather than by hex
@@ -619,7 +613,7 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
 
             . /usr/share/bash-completion/bash_completion
 ## Commands metadata files.
-EnumerateAllDevices=false
+deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 <?xml version="1.0"?>
 
 
@@ -733,7 +727,6 @@ order hosts,bind
 AutomaticReports=false
 # The default is 900 (15 minutes).
 # System-wide GDB initialization file.
-
 # ctrll shiftl alt keycode 36 = Incr_Console
 
 @(br|eth)*
@@ -762,7 +755,6 @@ LANG=C.UTF-8
 @include common-session
 # Compose sequences for ISO-8859-16
 AdminIdentities=unix-group:sudo;unix-group:admin
-commands scan this directory processing all files that end in '.conf'.
 
 #
 compose '-' '-' to '≠'
@@ -787,7 +779,7 @@ compose 'c' 'o' to '©'
 
 gtk-theme-name = Yaru
 PICTURES=Pictures
-<delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/" catalog="file:///etc/xml/docbook-xml.xml"/>
+# the 'exec tail' line above.
     # locale: Cannot set LC_SOMETHING to default locale
 
 
@@ -866,11 +858,10 @@ SHELL=/bin/sh
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
 
 # the line below. However this makes the meta key not work as a meta key,
-    /{,usr/}lib{,32,64,x32}/{,@{multiarch}/}libgcc_s.so* mr,
+  /etc/ssl/openssl.cnf r,
 
 <!-- File dbgenent.mod .................................................... -->
 			<family>Noto Serif CJK TC</family>
-
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
 usb 0x1083 0x1622
   #
@@ -915,7 +906,7 @@ POOL=""
 # on a file, 2 seconds after the second failure, etc. up to this max).
 # If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
 #domain-name=local
-		return
+
         'impl': 'launchpad',
 # Agent configuration options
 #PAGER		DEFAULT=less
@@ -959,7 +950,6 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # Purpose: show user warnings on login.
 +  manage_etc_hosts: True
 
-◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 X-Ubuntu-Gettext-Domain=gnome-keyring
     <Menu>
     exec /usr/lib/update-notifier/update-motd-hwe-eol
@@ -1084,7 +1074,6 @@ NI	-*-new century schoolbook-medium-i-normal--*-*-*-*-*-*-iso8859-1\n\
 #
 # vim:syntax=apparmor
 	didn't include the right instructions in the 'prep' table.
-# option linedistance-fix        # stripes may go away in color mode
 # USB
   owner /{,var/}run/lightdm/authority/[0-9]* r,
 # ------------------------------------------------------------------
@@ -1092,7 +1081,7 @@ when preparing a golden image for clone and redeployment. The clean command
 
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
             rm -f /var/run/$NAME.pid
-#[device]
+application/x-jar=openjdk-7-java.desktop
 [Time]
 .  \" command-line options.  Uncomment this if you want to make sure that
 
@@ -1114,7 +1103,7 @@ datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltClo
 # Compose sequences for VISCII
   monthly
 
-	</policy>
+	  <family>TeX Gyre Pagella</family>
 AdminIdentities=unix-group:sudo;unix-group:admin
  üPJ>z6˙—Q@œY‡{‰	Lß‹][¥≤∞≤ΩwÕwwb@HÁI‡Íâ—“ëáH>'4)¥´+ïK%}≈c≤-(q‹LSç^5Ô‘Ûﬁí}â†TÙÄ-Pôâw±ÑıÔ†◊µ>Reëv-©ﬁñY~I‡¥”<Gieç–≠l ¶Ï0†âùQ$rxL[
     ;;     bogus errors on installation because of #132355 and friends.
@@ -1197,3 +1186,14 @@ fi
 DF21016B00FC54F9FE3BC8B039911BB216E9162FAD2FD14D990AB96E951B49BE
 
 
+# needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
+              <Filename>system-config-firewall.desktop</Filename>
+search updates ubuntu built-in
+# Examples:
+#statistics clockstats cryptostats loopstats peerstats
+auth	requisite			pam_deny.so
+restrict default limited kod nomodify notrap noquery nopeer
+# #include <abstractions/ubuntu-helpers>
+*ispell*terse.foreground:	gray20
+    else
+kernel.yama.ptrace_scope = 1
