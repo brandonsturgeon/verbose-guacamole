@@ -15,8 +15,7 @@ NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 # ------------------------------------------------------------------
 # Make sure the locale variables are set to valid values.
 required in any way by the specification).  The information may be useful in
-# for it. Matches are exact only at the moment (no globbing etc.).
-  # Checking for PID existence is quite common so add it by default for now
+compose '^' '2' to '²'
 
     permission javax.crypto.CryptoAllPermission; 
 # Written by Austin Donnelly <and1000@debian.org>
@@ -51,7 +50,6 @@ APT::Archives::MinAge "2";
 #
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 #    Copyright (C) 2006 Novell/SUSE
-188	ospf
   /var/lib/acme/live/* r,
 <?xml version="1.0"?>
 };
@@ -186,7 +184,6 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 
 pool {{pool}} iburst
 #  Enables compensation for the speakers' relative distances to the listener.
-# prevents the sshd-keygen units from running *if* cloud-init is going to run.
 # vim:syntax=apparmor
 # Compose sequences for ISO-8859-16
   # User files
@@ -218,7 +215,7 @@ fi
 /dev/scanner
 };
 #
-# for it. Matches are exact only at the moment (no globbing etc.).
+# Each line contains either:
 fi
 			<family>DejaVu Sans</family>
 @{XDG_PUBLICSHARE_DIR}="Public"
@@ -253,7 +250,7 @@ fi
 
 # deb-src {{security}} {{codename}}-security multiverse
     import apport_python_hook
-#    This program is free software; you can redistribute it and/or
+/usr/lib/update-notifier/package-data-downloader
             . "${XDG_CONFIG_HOME:-$HOME/.config}/bash_completion"
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/ r,
 XKBLAYOUT="us"
@@ -263,7 +260,7 @@ makestep 1.0 3
 
 #  As rsync is often used for backups which aren't all that time-critical,
 
-
+#pnm
   /tmp/.X11-unix/* rw,
 version="$1"
 # If you want to globally change where snmp libraries, commands and daemons
@@ -314,9 +311,9 @@ a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 #allow 192.168/16
 PK!	questUTc(,M-.áPKqêé	PK!	racingUTc(JLÎÌKçPKÔ…áÍ
 Acquire::Changelogs::AlwaysOnline "true";
-. /usr/share/bash-completion/bash_completion
+
 # Set the default output policy to ACCEPT, DROP, or REJECT. Please note that if
-# This script can be used to override the .d files supplied by other packages.
+
 . /usr/share/bash-completion/bash_completion
 
 blacklist rivafb
@@ -366,7 +363,6 @@ if [ "$INITRD" = 'No' ]; then
 löÿKyá˜¶`&`ò3)ƒË”ÍhºÒ$Šx‹ëäöò-Ù$é=—ß“a–“4«V»Èıœ<,®“÷XêBF'Ğ	t@'NHhùzş)OØïĞTÃFò‚}z¾¹š‘À(ŒÂ¨ºh]~ÑÎxÂšÎ4l$ÜCc5#Q=…QuÑøE;ç	k:×°‘pÕŒFaôFÕEëñ‹öbw•§~?™¡³Zí¡òi­38ƒ38÷€³
 
 [localization]
-chip "w83627uhg-*"
 remove iwlwifi 
 fi
 #
@@ -409,7 +405,6 @@ compose ',' 'A' to '¡'
     delaycompress
 
 exec >>"$ERRFILE" 2>&1
-fi
 
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 	compress
@@ -570,7 +565,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 			<int>180</int>
 #
 eval $(/usr/bin/locale-check C.UTF-8)
-## To make sure an option is disabled, use "unset <option>".
+# extra command line arguments).
 
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
 <!DOCTYPE typemap [
@@ -588,7 +583,6 @@ image/jpg=org.gnome.eog.desktop
 12	bird
 #
 #!/bin/sh
-/dev/scanner
 scsi "B&H SCSI"
 // Country-specific policy file for countries with no limits on crypto strength.
 	result=0
@@ -605,7 +599,6 @@ failure_action = ignore
 ‹]ÒÇj[A†á½¯b°Z·G³±§A¼ÓæH:‰¶#’àÒ{ï½÷Ş{ÌåÿŞì²xg`àY|Cn[Ù-{E¿l»­½jÑÍmI#ıÅ¥…Ñz³Óít]s×¦!·bÇ¹ó…ÒõÊ¢í
 CRYPTDISKS_MOUNT=""
 
-<delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML" catalog="file:///etc/xml/docbook-xml.xml"/>
 XLoad.input:			false
 Oğô„=i£‹­Ù;'«¼MrF‚T=pnÙva·[»ÚÕÌŞw¼?^ç¤?Æš·CÃÜ<7Ú(bb_ÇKı=´«=É;Knc$H¾P¢]ÅÖä.—·É‹$-î’‹²Ó$°ËŸÓ²ºº‡lÁÛqFÒ2d_ ÓF#[É÷l’Ò&+&„X¯mx‚§'á©]s±ïÒë˜Í*¶şka)o#ÓLÀL¾q&*¸°'Xb¦!räÈû—k÷ñì™Ñ;—Kú2%şÚ’¢>ê?¡úê§‘†_“pyq¿¹¢£EÛ¬8UÉc–¸¶Tâ°bœœœœœœœ‘Ï|FÔÍ‰Ø"ø,¼	)T{(ğÒªi+o¼À¼À«AÒæª°·ù/¢Gíj`o“ëşšGŠ´©î±±±¼&¸p5”WÃ´ö5Dˆ!BìXÔ¢ñğÈ]Ö!A‚é–eyÆ3ÇÏœ]¶ó£gr~¹&NÄ9‰s'Y9ùu˜9«0"ÎmEÎqüí–ÄK²tò„j‰³»8‘ŸìòçÂÆ*‰¢ä–Zw¨?vÈ¿ÙR3×É-k¹ñ×„İÿ»“İ†yp]˜ãc¶xèOŒEñ†Æ—EÍµ^“VÛ¦ä&Lv™¬øümô!’Í†‘ÏˆÂ˜Ğ$©sÆ»»çós’‡¡ÕüÜ!7$½§]-ØR+)ÙFaàç´—¬‰O{¾M²,¼¢tnühGMç†8›d®B’fNv®òè¯<O©Æ;ÈSÚöÏ\W”pµã§„raÿcšì¶™3|şÜcv{ó’Ue§ hf¼*í÷*¼+Ü^¥ÉšÄÎ+›'ÁÚ¹½¦¨èYyÚh«0.ÎHXüâQ¦ä/Å9òé_&òwp4)–f©•ÕT/Ù¶©–¶­ÖÒ(ïq»Z™lÉöAåvÌ3ÊşÌÓ·z¨9£uÕÒ¶ÕZµœÑÚZ™lÉ¶ñŒVÚĞF:*ØuùBGc¶£’ØY¤„¼¼8svûFùß™g@ÿ§ç»ß¿sXöS‘Å‘£gYjÙóŠÛ˜²ÆknãM‘İä–myãmÿNı‚Ş
 #DefaultLimitNICE=
@@ -624,7 +617,6 @@ OnlyShowIn=GNOME;
 # Compose sequences for ISO-8859-6
 
 n22AuKKENtgYwulgJH0VQ0lJ5k1CcFuEuZqnXk5CUIC4tStdUS6hgn+vEkaJ5dX8
-
 	rotate 4
 # Compose sequences for TIS-620
 		<allow own="uk.org.thekelleys.dnsmasq"/>
@@ -737,7 +729,6 @@ compose '|' '|' to '¦'
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
 
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
-DPkg::Pre-Install-Pkgs { "/usr/bin/apt-listchanges --apt || test $? -lt 10"; };
 ### END INIT INFO
 LANG=C.UTF-8
     <alias>
@@ -785,7 +776,6 @@ session	optional	pam_systemd.so
       This configuration is available on the major desktop environments.
   owner @{HOME}/.cache/ rw,
 # for allowing access to xterm
-//  the file /var/run/reboot-required is found after the upgrade
 # minclass = 0
 #include <tunables/global>
 
@@ -808,14 +798,13 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 
 
 esac
-option skipDarkStrip 0
+XCalc*hp.button37.fromVert:		button28
 rk0JgVoRzG3BT5yYfuxHIe4H4Axh95tW9i6urzyQkXRz14twwwcEDvl5ALrBLNJJ
 
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 PPP_DISC	8863		# PPP over Ethernet discovery stage
       may simply works to avoid it.
 
-#    Copyright (C) 2009-2010 Canonical Ltd.
 
 #    modify it under the terms of version 2 of the GNU General Public
 Name=GNOME Settings Daemon's power plugin
@@ -850,7 +839,7 @@ Ubuntu 20.04.5 LTS
 X-GNOME-Bugzilla-Version=3.36.0
 #!/bin/sh
 
-usb 0x05d8 0x4010
+[Sources]
 
 
   /etc/OpenCL/** r,
@@ -865,7 +854,6 @@ IPT_MODULES=""
 #[debug]
 #
         <Key>q:         quit()\n
-  <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
 #
       This configuration is available on the major desktop environments.
    local script="error"
@@ -931,7 +919,7 @@ Acquire::Changelogs::AlwaysOnline "true";
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 
   /usr/share/drirc.d/{,*.conf}    r,
-DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
+if [ -x /usr/lib/update-notifier/update-motd-hwe-eol ]; then
 #
 
      declaration that uses the public identifier shown below:
@@ -1046,7 +1034,7 @@ iDeWIFqaM/S+DXMF3bgqvqRZq1U2RwT2oxapAuaG/0I5JaKKpb3HqMCXfOUxpFPk
 # DO NOT EDIT OR REMOVE
 session		optional	pam_keyinit.so force revoke
 # "local" section which contains settings that should not be shared or
-™Y|}Ğ˜fz¤:ğcØ‡ô5eÀÜ:ó™î®åsåı2ß2ÍmrCü?Z†ÇA7ÕV´É¨ù’¾{Åõæ¾¹L[6O·¨ö{ş
+# vim:syntax=apparmor
 
   /usr/lib{,32,64}/python{2.[4-7],3.[0-9]}/{site,dist}-packages/ r,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
@@ -1066,3 +1054,13 @@ show-im-name=false
 /HYRGoThic-Medium /NanumGothic-Regular ;
 
   /usr/bin/decibel Cxr -> sanitized_helper,
+0	global
+[ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
+<?xml version="1.0"?>
+commands scan this directory processing all files that end in '.conf'.
+# As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
+# Options to pass to sshd
+# ------------------------------------------------------------------
+    </event>
+# vim:syntax=apparmor
+:Î”ŒägvwbNB3ôâ3äÏiKÏÏ\¤?øÛB±ö Ygãwe7Œ6©€»	ÂjQ:ÜÚ(qº”é]Ø±ç1¼y:ÿBQ%¯~2±,³ß5à’Ú‹Ü‡„#™è¶aÔêÌé.ˆ;÷}uYÉÈ¢[UüWÇ¨b¥kG=•Uµäp› xĞMŞWÔAh®Ç²œ•0É8ÔÌ{@âÊrÔŞ¥LJîÉtÑO=]m-bÌıFbüôai›ÂóLp:°Um>oÙ”Ğ—èıWÌœ+¿°Ò@ úiAAEş9á	òÔä‘ÿL”QØ|?Æ1T¹á€¾i0ãi¦¥ã/—s'¼b;Šj`¿ÓÃcTB\ä2k]´¬Øoş“ö!¸jòËˆ{e
