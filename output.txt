@@ -31,7 +31,6 @@ X-GNOME-HiddenUnderSystemd=true
 # people's needs, but debconf's database drivers can be used to do much
 {% for pool in pools -%}
 *text.baseTranslations:		#override\
-# Compose sequences for ISO-8859-8
     # locale: Cannot set LC_SOMETHING to default locale
 
 
@@ -91,7 +90,6 @@ test -r /usr/share/im-config/xinputrc.common || return
 gtk-icon-sizes = panel-menu-bar=24,24
 # so please ensure that:
 
-NAME="plymouth-log"
 # If you want logs to go to syslog, uncomment the following line.
 # and users home directories will reside within the directories that
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
@@ -134,7 +132,6 @@ Bugs: debbugs://bugs.debian.org
     // There is no restriction to any algorithms.
 
 # Compose sequences for IBM1133
-scsi "LEO" "LEOScan-S3"
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 
 # Use DOCKER_OPTS to modify the daemon startup options.
@@ -173,7 +170,6 @@ LOGLEVEL=low
 #export http_proxy="http://127.0.0.1:3128/"
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 ## form 127.127.t.u, where t is the clock type and u is a unit 
-# by the included systemd service file.
 # configuration options for /etc/X11/Xsession
 # vim:syntax=apparmor
 
@@ -240,7 +236,7 @@ blacklist rivafb
 compose ')' '-' to '}'
 # never load them automatically.
 
-# The following lines are desirable for IPv4 capable hosts
+
 # Required-Start:    $remote_fs
            "booktitles.ent">
 # interpreted by the kernel to help with debugging. The kernel will respond
@@ -248,7 +244,6 @@ compose ')' '-' to '}'
 fi
 # See avahi.hosts(5) for more information on this configuration file!
 # Compose sequences for GEORGIAN-PS
-#  privileged clients.  Instead the passwd.adjunct.byname table is
 #           will attempt to upgrade to the first LTS release available after
 # * Be careful about changing the environment since this is sourced
 # at bash-completion startup for now, to ease the transition to a
@@ -275,7 +270,7 @@ if [ "$INITRD" = 'No' ]; then
 # set start_ro=1 to make newly assembled arrays read-only initially,
 	#   0 if daemon has been stopped
 
-/usr/bin/wine-preloader
+# here are the per-package modules (the "Primary" block)
 bookworm/sid
 
 
@@ -288,7 +283,7 @@ ctl.!default {
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 ## Type:        yesno
 1,222,57,255,0,118,44,204,128,255,0,255,0,255,0,255
-BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
+€šdGh•E^q§ì5¹õ·&nÀ„àòU0tÿz,é#í=°—¤¼ªëğc×Ê¹m		<4Å®MïÜ¶ÜšZqöÅ–ä‚š@˜µÒÆ¯3ÆòÔ¥èIÛÎZ`^Uy³»	åùPŞ|sîúç˜ÉîÑT‡I<‚¾eRÁ==©hLçÏ:îÃùØ¿~œæmbæwys€ÎYÊ
 usb 0x043d 0x007c
 /usr/lib/i686-linux-gnu
       without rebooting a machine which drastically limits the need for
@@ -299,9 +294,7 @@ usb 0x043d 0x007c
 X-GNOME-Autostart-Phase=PreDisplayServer
 # as possible
 DISTRIB_RELEASE=20.04
-#fi-5950
 #    Handle linux distributions that use systemd to replace the legacy
-fi
 _§”‹¨Ï…PC„xWçyÏÏxñ<î%|«ÜK­6«o2ºnä‹Ÿ¶Â_ãöÀ—áÎäBâ¿Bèğ<ÏÃğ*ÜVöÂA|½æÂ}|áAØÁ~x„§àyx^Ó¨ÁË„^Wá5q0o^ÆÉ›Èß‚oÃwà{ğ¼ß‡wà‡ğ3øü|„ÿƒNÊ˜½°Îƒóa¶ÂuĞ„gé‘w!G+æÀÃ<è„UĞwCbÚëÔ/9íü6òi8Úa&ä`ZƒàHXıp"”aªpÔàd¨Ã°Î‚³a3œÀEğ1ø8×Àµ0®¾GİçÀ‘ğ¼oÃ;"~:Ì€C óÔš]P	GÁñ°Î…Ká£p9æ,s7	3àè„ùPMp&ŒÀV¸şş>	ïƒ Œi…Ã`6X=°…%°VÂ	P‚50káTØgÂ6¸v€P=¤áP˜G@æÀ‘p,†£á8–ÀRXÇÁJèƒUĞ'@	N„Õp2œkáTX§Áz†Óá8¶À¹pœ»à&ø$³çSğpü%|ş
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
  -->
@@ -313,7 +306,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 [usb]
 ETHTOOL=/sbin/ethtool
 # javax.management.monitor.foo.Bar.
-     </choice>
+# Uncomment following line to disable "clever precalibration" routines...
 *ispell*options.horizDistance:		2
 max_allowed_packet	= 16M
 type=file
@@ -371,7 +364,7 @@ udplite	136	UDPLite		# UDP-Lite [RFC3828]
     permission java.lang.RuntimePermission "accessUserInformation";
                     Schema Recommendation</a> forbids the declaration of
 
-	€<¿Íˆ²Éş$£¯”4&6ùü_•Ów¤QiA÷ŞEØ^«“èÙ%È’ìM L™ª¼Ê´&5ÂHF1#š«q…yb¥ı?¯Š£ëèÎ'±å,ñÿ48¨½¢OµF Ü¸$‰òQÿ[ÂÕ±9-Æ0sá…Å{±@´/œU—k,¨¯ŸOÄDg™ùİæéúœw‘nîœlªmP2¹4¿§<ˆ„ßš¹:áƒ8JÔ$¡|g3üFW¢õKsêŸO]ˆ•i×µ>*4fMLİ-GãKş©ß`…G.{ü5Un‰CeFa‘çfïRğ³€Zäˆ=?@è*éÊµ~>¤ĞO‘1äuš¸Ü’N@˜ÛÅãn#L™ <ƒ7?w¥†}7XfÄ®5ÍÙãîÜÛ~#|V%óOuF×E 0‡/ú­4…o<
+# pam-auth-update to manage selection of other modules.  See
 
 # abstraction for allowing access to graphical browsers in Ubuntu
 
@@ -482,7 +475,6 @@ if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ];
 *Scrollbar.displayList:\
   /etc/X11/app-defaults/XTerm r,
 STARTSSH=
-root=,magenta
 update-hostname=true
 #    Copyright (C) 2011-2013 Canonical Ltd.
 ™O­h»¤¢»òß=næ¼Ê‚$œ-óÍÏÓH]üÒ+4„TKİÓ¦qq6Åöê;oñ·o¾Ù”_?§¶j’ÊË:åU†Kû 59@WÚL‹.vÒÑå„åvn93›Ôu„+nŸî!há5Ér‹¿êÒ®­>Ç¶mï‚®W%i;UHÁgÅ—Ÿ³¿µ8¯Êhc\#°Bú›—6y0œö.!|d©}GcºòÄe]?e“§¡NDq&+ÓÇ&ï‚·C,ECØ°îW¡:Œ¡ü Ô„{ƒœ›Í¯´!y+AâÂTÓÙ2Û* lË“N-Ÿò&Íñ&Û…É”3İÙ™$¦Â|€˜è„q¯\i­ƒ¡]ÍHh«Jo-q©)Kçtü%l>9ŞÉ,Æ¬İÄìí¹Öœs$4¦­2|æ•:‹Së™lö?îÒRCöbô‰óøêó[gëôİÃáLSÁqÌVÖ¿<“«•/=·oüŒë°Jx$©™µ¯ÔÙFJO#ò®ôØ†Ÿó+}öIñ‰8eô#‚0—4—ŠX2Ës¤Å&ÒÛÿ9õ@¢±v¼2Õ˜Z¹Lİ‡ÆÏdÕg¦0¿.ïØ6¯ İSäŞå©ê¹ñ›¾
@@ -526,7 +518,6 @@ check_config() {
 Comment=GNOME Keyring: SSH Agent
 #    This program is free software; you can redistribute it and/or modify
 LP-PPA-ubuntu-mozilla-daily
-compose '|' '|' to '¦'
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
 
 ### END INIT INFO
@@ -569,7 +560,6 @@ LANG=C.UTF-8
   <match target="pattern">
  * and edit it there.  That way, your changes will be kept next time
 
-AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 
 17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
 -server KNOWN
@@ -597,7 +587,7 @@ SHELL=/bin/sh
  60 through 69		generic aliases, map generic->family
                                   (symbol-name debian-emacs-flavor)
 # shiftr shiftl alt keycode 37 = Decr_Console
-#%PAM-1.0
+serif.symbol.bolditalic=Symbol
 #    modify it under the terms of version 2 of the GNU General Public
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
@@ -628,10 +618,8 @@ LANG=C.UTF-8
 driftfile /var/lib/chrony/drift
   <type name="NewCenturySchlbk-BoldItalic" fullname="New Century Schoolbook Bold Italic" family="NewCenturySchlbk" foundry="URW" weight="700" style="italic" stretch="normal" format="type1" metrics="C059-BdIta.afm" glyphs="C059-BdIta.t1"/>
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
-}
   <mime type="application/smil" acronym="SMIL" description="Synchronized Multimedia Integration Language" priority="100" pattern="*.sml" />
 # Compose sequences for ISO-8859-8
-# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
      export XDG_DATA_DIRS
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
   # dehydrated
@@ -649,7 +637,6 @@ application/x-zip=org.gnome.FileRoller.desktop
 @include common-password
 # inclusion by distributed profiles to aid in packaging AppArmor for
 {% endif %}
-
 <!ATTLIST %element;
     then
 DEFAULT_OUTPUT_POLICY="ACCEPT"
@@ -734,12 +721,11 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
 # b.) change or remove the value of 'manage_etc_hosts' in
 create_machineid() {
 m§lj'‹©ZjUJŸ¤m“™Ìb¹üG«¹ôOë¥ß¯7Dòö
-<fontconfig>
 #    Copyright (C) 2014 Canonical Ltd.
 #
         if [ -x "$STARTUPFILE" ]; then
 	# 
-/dev/scanner
+/var/log/user.log
 
   /usr/lib{,32,64}/python{2.[4-7],3.[0-9]}/{site,dist}-packages/ r,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
@@ -748,7 +734,7 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
     <edit name="hinting" mode="append"><bool>false</bool></edit>
 ## template:jinja
   if [ -x $UUIDGEN ]; then
-	if test "$HID2HCI_ENABLED" = 1; then
+/dev/scanner
 
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 ETHTOOL=/sbin/ethtool
@@ -829,7 +815,7 @@ letter
 
 	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-4CBBF8256BC9888A8007B2F386940A2E394378B0D903CBB3863C5A6394B889CE
+logfile   /var/log/ntp		# alternate log file
 
 			<string>AR PL UKai TW</string>
 type=file
@@ -951,7 +937,6 @@ compose '\'' 'n' to 'ñ'
   # do not use ux or PUx here. Use at a minimum ix
 QT_ACCESSIBILITY=1
 
-
 allow-failsafe
 
 XCalc*ti.button37.label:	7
@@ -1003,11 +988,10 @@ deb http://packages.azlux.fr/debian/ buster main
 GenericName=Demo geoclue agent
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 X-GNOME-Autostart-Phase=Initialization
-  /opt/novell/xad/lib64/gss/*.so* mr,
 search updates ubuntu built-in
 
 
-usb 0x05da 0x30cf
+  </match>
 Name[cs]=ZvukovÃ½ systÃ©m PulseAudio
 
 # /etc/xdg/user-dirs.defaults)
@@ -1104,3 +1088,10 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 scsi ULTIMA
   capability ipc_lock,
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
+#@{HOMEDIRS}+=
+$ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
+#   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
+#
+# IPMI_Chip_Set_Transition_Severity_Informational                                    Nominal
+	</match> 
+rq0t2YjXglIBHRDiJlOTAR3if37OCDKCcHOOODqYrsN7wNleez+ulkDyP7C7ZTbm
