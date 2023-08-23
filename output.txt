@@ -4,7 +4,6 @@ mQENBFWt/98BCADZ4+lUHSp4OMlzVf4HlJNLJ7Ks5QxGwL/hy2wChoNLuA/j4GNM
 #
 auth		sufficient	pam_rootok.so
 /var/log/auth.log
-#    modify it under the terms of version 2 of the GNU General Public
 	export AWKPATH="$*:$AWKPATH"
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 143 188 143		DarkSeaGreen
@@ -149,7 +148,6 @@ PATH=/sbin:/bin
 # This file is a simple placeholder to keep dpkg from removing this directory
 /usr/local/lib
 /NimbusSanL-Regu (/usr/share/fonts/type1/gsfonts/n019003l.pfb) ;
-	     "/site-lisp/dictionaries-common"))
 
 # Reserved protocols.
         <policy user="root">
@@ -318,13 +316,11 @@ Description=Mount unit for snapd, revision 15904
 URI_UNSTABLE_POSTFIX = -development
 set -e
 
-/usr/lib/x86_64-linux-gnu/libfakeroot
     /etc/modprobe.d/{,*.conf} r,
 }
 #net.ipv4.tcp_syncookies=1
 QUIET=0
     case "$1:$2" in
-    fi
   monthly
 
 #
@@ -333,7 +329,6 @@ QUIET=0
 compose ''' 'i' to 'í'
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
-#option scsi-maxqueue 2
 # no packages own wtmp -- we'll rotate it here
 title=Secure shell server, an rshd replacement
 
@@ -361,7 +356,7 @@ compose '-' 'L' to 'Ù'
 # Scripts in this directory are executed as root when a user log out from
 # Compose sequences for ISO-8859-8
 #
-</catalog>
+# Compose sequences for ARMSCII-8
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
 if [ -f /bin/setupcon ]; then
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
@@ -438,7 +433,7 @@ QT_ACCESSIBILITY=1
 " This happens after /etc/vim/vimrc(.local) are loaded, so it will override
 #
 	vgs_cols_full="vg_name,vg_uuid,vg_fmt,vg_size,vg_free,vg_sysid,vg_extent_size,vg_extent_count,vg_free_count,vg_profile,max_lv,max_pv,pv_count,lv_count,snap_count,vg_seqno,vg_mda_count,vg_mda_free,vg_mda_size,vg_mda_used_count,vg_attr,vg_tags"
-fi
+Type=Application
 
 
   /var/log/**                   rw,
@@ -471,11 +466,10 @@ XKBLAYOUT="us"
 }
 
 makestep 1.0 3
-
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
 
 *editMenu.copy.label:			Copy (Meta-W)
 compose '^' 'y' to 'þ'
-# msgs, from, etc.)
   /opt/novell/lib/libpthread_ext*.so* mr,
 
 
@@ -491,7 +485,7 @@ version="$1"
 #
 
 			<family>Arial</family>
-
+additional configuration artifact cleanup from the filesystem when
 # or removing a feature will be allowed.
 # Compose sequences for ISO-8859-11
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
@@ -586,7 +580,7 @@ AutomaticSecurityReports=false
 221 160 221		plum
 # Allow NTP client access from local network.
     </edit>
-    exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
+KERNEL_UPGRADED=0
 <Key>Escape: quit()
 #include <tunables/multiarch.d>
 link-local 169.254.0.0
@@ -597,7 +591,7 @@ link-local 169.254.0.0
 compose ')' '-' to '}'
 FileDescriptorName=unix
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
-# do not try to refresh this more than once per day
+
 127.0.1.1 {{fqdn}} {{hostname}}
 
 # Example configuration file for the GTK+ Multipress Input Method
@@ -620,7 +614,6 @@ Znd1cGQub3JnMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA8GA1UdDwEB/wQFAwMHBgAw
 	notifempty
 compose ',' 'a' to '±'
 # Compose sequences for GEORGIAN-PS
-        mount_devtmpfs
 _ÕOÊRÖaBOí”tcôRó%7-Ñ¡g[õ´AUbuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>‰7
     install -d -o man -g man -m 0755 /var/cache/man
 # of /var/log/ubuntu-advantage*.log files.
@@ -643,8 +636,7 @@ data {yes
 
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 }
-</fontconfig>
-    monthly
+auth		sufficient	pam_rootok.so
 #
 
 if [ "$INITRD" = 'No' ]; then
@@ -724,7 +716,6 @@ compose ',' 'A' to '¡'
     delaycompress
 
 # kernel.dmesg_restrict = 0
-
 fi
 
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
@@ -749,11 +740,10 @@ X-Ubuntu-Gettext-Domain=xdg-user-dirs
   include if exists <abstractions/dbus-accessibility-strict.d>
   # User files
 #5	russia
-# userspace things.
   <complexType name="EncryptionPropertiesType">
 #!/bin/sh
 
-# use
+# no matching entries are found elsewhere.  For more information see the
 # Allow any user to opt into auto-launching byobu by setting LC_BYOBU=1
   # owns on removable media and filesystems.
 
@@ -763,7 +753,7 @@ auth		include		runuser
 # resolution. For example, if '/usr' is on removable media:
 *Scale.baseTranslations:#augment
 
-# system, and having it enabled by default can lead to security issues on
+# Legacy biarch compatibility support
 
 
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -796,7 +786,6 @@ ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 DNS={% for server in nameservers %}{{server}} {% endfor %}
 # ctrll alt keycode 36 = Incr_Console
 
-
 }
 		<rejectfont>
 # Record the rate at which the system clock gains/losses time.
@@ -828,7 +817,6 @@ directory are parsed by needrestart's default configuration file.
 #fudge 127.127.8.1 time1 0.0042        # relative to PPS for my hardware
 # Global Order: zshenv, zprofile, zshrc, zlogin
 # Compose sequences for VISCII
-compose 'v' 'Z' to '´'
 
 #stv680.conf
 fi
@@ -850,7 +838,7 @@ fi
 fi
 [fwupd Remote]
 
-	thin_pool_chunk_size_policy = "generic"
+    fi
 
 
   # System devices
@@ -877,9 +865,7 @@ DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
 alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIBPATH == "") then; unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWKLIBPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKLIBPATH "\!*"":$AWKLIBPATH"'
         rc=0
 0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255
-# name	type	   flag							     #
 # Don't try to change I/O priority in a vserver or OpenVZ.
-LAPTOP-5TIN5O4V
 APT::Archives::MaxSize "500";
 	elif [ -e "/etc/byobu/autolaunch" ]; then
 
@@ -912,7 +898,6 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 # Some "catch-all" log files.
 # Compose sequences for ISO-8859-16
-## template:jinja
 0	unspec
 [fwupd]
 #NTP=
@@ -1018,3 +1003,13 @@ enabled=1
 *replace.accelerators:#augment\
 # PercentageLow=10
 
+    echo ""
+  audit deny @{HOME}/.evolution/{,**} mrwkl,
+#  1. command line options
+ipcomp	108	IPCOMP		# IP Payload Compression Protocol
+<!--
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
+;; Created on: Fri Oct 22 09:48:21 CEST 1999
+
+XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
