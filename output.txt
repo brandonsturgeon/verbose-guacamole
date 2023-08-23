@@ -108,7 +108,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
 [ -d /var/crash ] || exit 0
-
+    minsize 1M
    formatter=simpleFormatter
     export CLUTTER_IM_MODULE
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
@@ -183,7 +183,7 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 # usb 0x4b8 0x14c
 # set start_ro=1 to make newly assembled arrays read-only initially,
 	#   0 if daemon has been stopped
-find /var/crash/. ! -name . -prune -type f ( ( -size 0 -a ! -name '*.upload*' -a ! -name '*.drkonqi*' ) -o -mtime +7 ) -exec rm -f -- '{}' ;
+	create 644 root root
 
 
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
@@ -237,9 +237,7 @@ Before=snapd.service
 # The following may be used to add additional entries such as for
 PPP_LOCAL="$4"
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-passwd:         files systemd
 [Sleep]
-/var/log/apt/term.log {
 	daytime_hosts => [ qw {} ],
         . $IM_CONFIG_XINPUTRC_USR
                     Schema Recommendation</a> forbids the declaration of
@@ -278,7 +276,7 @@ DelayedActivation=false
 ÛOg·÷µ÷ÙëÍ¼ÂšÆ†B°ßUf³v°·yº¼£#V>'•9àöZ¨ıš´Şf‹¹‹ıõÊÛ­Äö#ÑıJTVVÍ–U~{ÿ¢ÒÛr1&3l#ç+õ=[Vùm¹Xœ|Sç½÷üóµÛ©šû"[ÎÅö3ªşñó—gÃc
 <fontconfig>
 	cache_settings {
-SECTION		1 n l 8 3 2 3posix 3pm 3perl 3am 5 4 9 6 7
+# Autodetect the Canon CanoScan FB630u
     <allow send_destination="net.hadess.SensorProxy" send_interface="org.freedesktop.DBus.Peer" send_path="/net/hadess/SensorProxy/Compass"/>
 *internalBorderWidth:		0
 
@@ -348,7 +346,6 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # switches to the higher rate
 *insertFile*text.?.pieceSize:		256
 # Compose sequences for GEORGIAN-PS
-Options=nodev,ro,x-gdu.hide
 # suspend and power-off, the end user's execute before VMware's.  (This way,
       awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
 LP-PPA-ubuntu-mozilla-daily
@@ -395,7 +392,7 @@ Name=GNOME Settings Daemon's power plugin
 # Provides:          gdm3
 #
 # Required-Start:    $local_fs
-  # kindof required
+-->
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
     <match target="pattern">
 # banner-message-text='Welcome'
@@ -456,7 +453,6 @@ case $0:$mode in
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
   /etc/cloud/clean.d/99-live-installer
     fi
-rtcsync
 
 	<alias>
 
@@ -582,7 +578,6 @@ application/x-texinfo				texinfo texi
 scsi RICOH IS60
 #
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-# Compose sequences for GEORGIAN-PS
 compose '^' 'U' to 'Û'
 compose '`' 'a' to 'à'
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
@@ -634,12 +629,11 @@ speed=115200
 # vim:syntax=apparmor
   #include <abstractions/opencl-nvidia>
   # do not use ux or PUx here. Use at a minimum ix
-# Compose sequences for ISO-8859-6
+-----END CERTIFICATE-----
 
 XCalc*ti.button37.label:	7
 . /usr/share/bash-completion/bash_completion
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-#  address = "/run/containerd/debug.sock"
 
 Name=GNOME Settings Daemon's housekeeping plugin
 session optional pam_systemd.so
@@ -665,7 +659,7 @@ AUFS_MAX_NAMELEN=242
 
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
 
-GenericName=Demo geoclue agent
+  <alias>
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
   </match>
@@ -715,7 +709,6 @@ MinimumSmeKernelVersion=5.18.0
 /usr/sbin/gdm3
 
 By default, Java provides two different sets of cryptographic policy
-[ ! -r "$stamp" ] || cat "$stamp"
   00_*: Reserved for 00_header.
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
@@ -773,7 +766,6 @@ test -x /usr/sbin/sshd || exit 0
 	rotate 4
 -----BEGIN CERTIFICATE-----
      </p>
-
   /dev/nvidia-uvm rw,
 ipv6-icmp 58	IPv6-ICMP	# ICMP for IPv6
 #
@@ -840,7 +832,7 @@ MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 LANG=C.UTF-8
 ### END INIT INFO
 †ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ğëŸ
-fi
+	compact_output_cols=""
 #
 
   /dev/xconsole                 rw,
@@ -871,7 +863,7 @@ arch=`dpkg --print-architecture`
 			Button1<Enter>:popup-pixel()\n\
 
 # /etc/login.defs and user settings, solving the problem of different
-  /srv/svn/**/db/representations rwl,
+ "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 
 DISTRIB_ID=Ubuntu
 # This file is sourced by Xsession(5), not executed.
@@ -971,7 +963,7 @@ DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
 /lib32
   
 APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
-
+@{multiarch}=*-linux-gnu*
   /etc/bash.bashrc.local           r,
 
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
@@ -1064,7 +1056,6 @@ löÿKyá˜¶`&`ò3)ƒË”ÍhºÒ$Šx‹ëäöò-Ù$é=—ß“a–“4«V»Èıœ<,®“÷XêBF'Ğ	t@'NH\ıhùzş
 
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
 ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
-Exec=/usr/bin/gnome-keyring-daemon --start --components=secrets
 usb 0x1083 0x1622
   #
 # so please ensure that:
@@ -1103,8 +1094,8 @@ brandon:100000:65536
 POOL=""
 
 
-#          4 - enable control of keyboard (SAK, unraw)
-# Scripts in this directory are executed as root when a user log out from
+# Defaults can be restored by simply deleting this file.
+# set start_ro=1 to make newly assembled arrays read-only initially,
 # specifically which process will be using PTRACE on the debugee:
 
 #log measurements statistics tracking
@@ -1122,7 +1113,6 @@ Ubuntu 20.04.5 LTS
 option lampOff   -1
 
 ¨	±‚7)G.¯ØãTĞ3Ë,XÅ…ã‰xNy
-session required        pam_limits.so
   owner @{HOME}/.config/kdeglobals.lock rwk,
 # mountpoins which are configured in /etc/fstab as arguments. Separate
 			XawPositionSimpleMenu(optionMenu) 
@@ -1195,3 +1185,16 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
 #
 
 X-GNOME-AutoRestart=true
+
+if [ ! -x /usr/sbin/logrotate ]; then
+#	mult_sect_io = 16
+
+
+  <!ELEMENT type EMPTY>
+# on this system.
+
+/dev/scanner
+
+	# the local host, which is determined by system_id_source.)
+      <family>DejaVu LGC Sans Mono</family>
+#  under the terms of the GNU Lesser General Public License as published by
