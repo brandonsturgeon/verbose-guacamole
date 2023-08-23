@@ -147,7 +147,7 @@ session		optional	pam_keyinit.so force revoke
 *ispell*options.horizDistance:		2
 [fwupd Remote]
 
-	        # check because c-n-f could've been removed in the meantime
+    "dns": ["1.1.1.1", "1.0.0.1", "8.8.8.8", "4.4.4.4"]
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
 #
 
@@ -255,7 +255,6 @@ letter
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 [fwupd Remote]
      o Declarations for and references to external parameter entities
-/CenturySchL-BoldItal (/usr/share/fonts/type1/gsfonts/c059036l.pfb) ;
 scsi Nikon * Scanner
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- XML -*- -->
 		AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`
@@ -266,7 +265,7 @@ Comment=GNOME Keyring: SSH Agent
 
 #include <tunables/global>
 #mount_max = 1000
-
+mail.err			/var/log/mail.err
 # their current one is listed in /etc/shells. This keeps
 0x38	AF13
 /libx32
@@ -274,7 +273,7 @@ Comment=GNOME Keyring: SSH Agent
 
 CATALOG /usr/share/xml/docutils/catalog
 
-#
+# This file should be world readable but not world writable.
 # Provides:          gdm3
 <?xml version="1.0"?>
 esac
@@ -377,7 +376,7 @@ case "${1}" in
 @{securityfs}=@{sys}/kernel/security/
 	<match target="pattern">
 *MenuButton.foreground: white
-system.nfs4_acl			permissions
+[upower]
 roottext=,magenta
 
 # cloud-init. They are read in lexical order. Later files overwrite values in
@@ -419,10 +418,10 @@ scsi RICOH IS60
 /dev/camera
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
     <h3>Father (in any context at all)</h3>
-*ispell*check.label:			Check
+</busconfig>
 group:          files systemd
 # useful if you for example need to do some setup to create a home directory
-
+     name="OpenSansLI"
 # You can change settings by editing this file.
 server {{server}} iburst
 <?xml version="1.0"?>
@@ -441,14 +440,14 @@ kbd_mode '-u' < '/dev/tty3'
 
 
 # Should-Start:      $network $named slapd autofs ypbind nscd nslcd winbind sssd
-## or updates from the Ubuntu security team.
+
 speed=115200
               ;;
 # Compose sequences for GEORGIAN-PS
 [OpenSSH]
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
   # The Name Service Cache Daemon can cache lookups, sometimes leading
-#
+conf.d/README
     echo "updates of cacerts keystore disabled."
 # vim:syntax=apparmor
 # you can temporarily override this with
@@ -490,7 +489,6 @@ inode/directory
 
 compose ',' '-' to '¨'
 # matches), NONE (matches no tty on non-networked logins) or
-## (create soft link /dev/refclock-0 to the particular ttyS?)
       We shouldn't overwrite it with "assign" unconditionally.
 #     then changes to /home will go through to the original device.
 # grub-mkconfig when init-select was removed but not purged.  This file does
@@ -504,7 +502,6 @@ encryption=luks1
 cups-pk-helper:x:114:121:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
 # Compose sequences for KOI8-U
 # ------------------------------------------------------------------
-scsi "KINPO   " "Vividscan S120  "
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 8x13         -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
@@ -541,7 +538,7 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
             . /usr/share/bash-completion/bash_completion
 ## Commands metadata files.
 #broadcast 192.168.1.255 autokey	# broadcast server
-<?xml version="1.0"?>
+#    10-help-text - print the help text associated with the distro
 
 #
 DAEMON="/lib/systemd/systemd-udevd"
@@ -554,9 +551,8 @@ DAEMON="/lib/systemd/systemd-udevd"
 Categories=System;Monitor;GTK;
 	rotate 4
 -----BEGIN CERTIFICATE-----
-     </p>
   /dev/nvidia-uvm rw,
-## Turn creating/updating of the cache on by default
+
   dbus (receive)
 #    Copyright (C) 2014 Canonical Ltd.
 		chown root:adm $XCONSOLE
@@ -657,7 +653,7 @@ order hosts,bind
 
 #
 #  * and that the path value is quoted
-# Compose sequences for ISO-8859-16
+#    exitCode may be incremented.
 AdminIdentities=unix-group:sudo;unix-group:admin
 [Desktop Entry]
 #
@@ -678,7 +674,7 @@ compose 'c' 'o' to '©'
 
 gtk-theme-name = Yaru
 PICTURES=Pictures
-# the 'exec tail' line above.
+# Compose sequences for ISO-8859-8
     # locale: Cannot set LC_SOMETHING to default locale
 
 
@@ -709,7 +705,7 @@ scsi FCPA
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
   </alias>
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-#verify = yes
+Comment=GNOME Keyring: SSH Agent
 
 # DO NOT EDIT OR REMOVE
 
@@ -779,7 +775,7 @@ StartupNotify=false
 
 # Defaults can be restored by simply deleting this file.
 X-GNOME-Autostart-Notify=true
-# specifically which process will be using PTRACE on the debugee:
+deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
             <string>serif</string>
 # on a file, 2 seconds after the second failure, etc. up to this max).
 # If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
@@ -791,7 +787,7 @@ X-GNOME-Autostart-Notify=true
 
   owner @{HOME}/.config/kdeglobals.lock rwk,
 # mountpoins which are configured in /etc/fstab as arguments. Separate
-# This file is a simple placeholder to keep dpkg from removing this directory
+  /etc/dconf/** r,
 deb {{mirror}} {{codename}} multiverse
 #  elif [ -f /etc/bash_completion ]; then
     do_status
@@ -834,7 +830,6 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
 </busconfig>
 
-
 #
 
 if [ ! -x /usr/sbin/logrotate ]; then
@@ -876,7 +871,7 @@ compose '-' ')' to '}'
 jD≈L“Pçù	¿âÈ˘[§Ã-ﬂVDôøõ‡b>°X*~¬Ä'Æ˚ﬁﬁÏôÃFû_~t√É¥o¬°í‚ùÜMºcR
 @include common-session-noninteractive 
 #  uid = 0
-
+  <type name="NewCenturySchlbk-Bold" fullname="New Century Schoolbook Bold" family="NewCenturySchlbk" foundry="URW" weight="700" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/c059016l.afm" glyphs="/usr/share/fonts/type1/gsfonts/c059016l.pfb"/>
 sysresources=/etc/X11/Xresources
 // THAT THE UPDATE-INFO MIGHT HAVE CHANGED
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
@@ -1020,7 +1015,7 @@ gtk-icon-sizes = panel-menu-bar=24,24
 
 
 # HP scanjet 4400c
-# filenames (generally seen as "/tmp file race" vulnerabilities).
+deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 	 xargs -r0 rm -f"
 # will be used
 fi
@@ -1028,10 +1023,9 @@ fi
 @include common-account
 DF21016B00FC54F9FE3BC8B039911BB216E9162FAD2FD14D990AB96E951B49BE
 
-
+# DO NOT EDIT OR REMOVE
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
               <Filename>system-config-firewall.desktop</Filename>
-search updates ubuntu built-in
 # Examples:
 #statistics clockstats cryptostats loopstats peerstats
 restrict default limited kod nomodify notrap noquery nopeer
@@ -1062,7 +1056,7 @@ Icon=appointment-soon
 DAEMON=/sbin/lvmpolld
 session    required   pam_limits.so
 Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
-# their respective territories so make sure you select a ISO/IEC 3166-1 alpha2
+
   Associate an image format with a unique identifier. 
 OnlyShowIn=GNOME;
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
@@ -1130,7 +1124,6 @@ enabled=1
 # method must be bjnp
 
 
-# maxclassrepeat = 0
 
 FcslpYqtjj4fgUswQ/cY/a1UcAX5zCnVqFbU7oJH2uTNewKuaZ2wgPbnzvwx8JYl
 #############################################################################
@@ -1147,17 +1140,16 @@ esac
 /dev/scanner
 
 # Uncomment the following line if you'd like all of your users'
-X-Ubuntu-Gettext-Domain=gnome-settings-daemon
+alias.url += ("/javascript" => "/usr/share/javascript")
 
 #baud=115200
 
 After=snap-lxd-18150.mount network.target snapd.apparmor.service
   (setq auto-mode-alist
-
+#
 /usr/lib/x86_64-linux-gnu
 scsi SIEMENS "ST 800" Scanner * * 3 *
 /dev/camera
-  /usr/bin/gnome-btdownload Cxr -> sanitized_helper,
 	fi
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
@@ -1200,3 +1192,9 @@ Type=Application
 #
 
 
+compose ',' '-' to '¨'
+*Command.highlightThickness:	1
+      This configuration is available on the major desktop environments.
+		--exec $DAEMON
+			<family>STIX Two Math</family> <!-- AMS -->
+Acquire::http::User-Agent-Non-Interactive "true";
