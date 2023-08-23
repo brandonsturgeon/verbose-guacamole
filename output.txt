@@ -3,7 +3,6 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 required in any way by the specification).  The information may be useful in
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 /usr/lib/x86_64-linux-gnu
-scsi AdLib * Scanner
 @include common-account
 
 
@@ -251,7 +250,6 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 LP-PPA-ubuntu-mozilla-daily
 /dev/scanner
 #    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-      <family>DejaVu Serif</family>
 letter
   </rejectfont>
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
@@ -261,7 +259,6 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 scsi Nikon * Scanner
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- XML -*- -->
 		AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`
-  <match target="pattern">
   # Apport
 ### that look up the default sink/source get the right value
 #
@@ -323,7 +320,6 @@ case $0:$mode in
 # Compose sequences for TIS-620
 switch($TERM)
     done
-# ------------------------------------------------------------------
   /etc/cloud/clean.d/99-live-installer
     fi
 
@@ -382,7 +378,7 @@ case "${1}" in
 @{securityfs}=@{sys}/kernel/security/
 	<match target="pattern">
 *MenuButton.foreground: white
-  /usr/share/aspell/* r,
+system.nfs4_acl			permissions
 roottext=,magenta
 
 # cloud-init. They are read in lexical order. Later files overwrite values in
@@ -492,7 +488,7 @@ compose '"' 'O' to '÷'
 deb http://packages.azlux.fr/debian/ buster main
 
 inode/directory
-# Three-pass mode (true, false)
+      Most clients may picks up the first value only. so using "append"
 
 compose ',' '-' to '¨'
 # matches), NONE (matches no tty on non-networked logins) or
@@ -586,7 +582,6 @@ fi
 *Panner.background:			gray70
 # kdenetwork
 
-[OpenSSH]
 grant {
 #    Copyright (C) 2015 Canonical Ltd.
 /dev/scanner
@@ -738,13 +733,13 @@ Acquire::Changelogs::AlwaysOnline "true";
 
 
 # password.
-fi
+  <type name="Helvetica-Narrow" fullname="Helvetica Narrow" family="Helvetica Narrow" foundry="URW" weight="400" style="normal" stretch="condensed" format="type1" metrics="NimbusSansNarrow-Regular.afm" glyphs="NimbusSansNarrow-Regular.t1"/>
 #    with this program; if not, write to the Free Software Foundation, Inc.,
 #               -> put the port that you use instead of '88'.
 # $ systemctl edit --full cron.service
 #dumpinquiry
 # 
-build_name: server
+;Hellenic Academic and Research Institutions Cert. Authority1D0BU;Hellenic Academic and Research Institutions ECC RootCA 20150150707103712Z400630103712Z0Å™10	UGR10UAthens1D0BU
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 /usr/local/lib/x86_64-linux-gnu
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
@@ -760,18 +755,16 @@ SHELL=/bin/sh
 # the line below. However this makes the meta key not work as a meta key,
   /etc/ssl/openssl.cnf r,
 
-<!-- File dbgenent.mod .................................................... -->
 			<family>Noto Serif CJK TC</family>
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
 usb 0x1083 0x1622
   #
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
-Title=Vendor
+
 #
 # udevd is also started in the initrd.  When this file is modified you might
 			<string>AR PL UKai HK</string>
   </match>
-#
 			<family>FreeMono</family>
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
 # data_portrange = 10000 - 10100
@@ -824,7 +817,6 @@ domain {{domain}}
 # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
  			<family>Lohit Telugu</family>
 			<string>sans</string>
-# ldconfig = false
   the ImageMagick option
 # clean all crash reports which are older than a week.
 alias.url += ("/javascript" => "/usr/share/javascript")
@@ -1045,7 +1037,7 @@ gtk-icon-sizes = panel-menu-bar=24,24
 # will be used
 fi
 # To use a specific scsi device
-  if [ "${BASH-}" ] && [ "$BASH" != "/bin/sh" ]; then
+@include common-account
 DF21016B00FC54F9FE3BC8B039911BB216E9162FAD2FD14D990AB96E951B49BE
 
 
@@ -1082,7 +1074,6 @@ Icon=appointment-soon
 DAEMON=/sbin/lvmpolld
 session    required   pam_limits.so
 Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
-  <type
 # their respective territories so make sure you select a ISO/IEC 3166-1 alpha2
   Associate an image format with a unique identifier. 
 OnlyShowIn=GNOME;
@@ -1091,7 +1082,6 @@ OnlyShowIn=GNOME;
 # Insert here your local magic data. Format is described in magic(5).
 # Compose sequences for CP1251
 # timeout). The policy plugin should contain a sane set of values by
-QT_ACCESSIBILITY=1
 # to update this file, run dpkg-reconfigure cloud-init
 *editMenu.cut.label:			Cut (Meta-C)
 
@@ -1167,7 +1157,7 @@ $x-display-manager gdm3
 esac
 #
 /dev/scanner
-session required        pam_env.so readenv=1
+
 # Uncomment the following line if you'd like all of your users'
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 
@@ -1178,7 +1168,7 @@ After=snap-lxd-18150.mount network.target snapd.apparmor.service
 
 /usr/lib/x86_64-linux-gnu
 scsi SIEMENS "ST 800" Scanner * * 3 *
-wifi.powersave = 3
+#
   /usr/bin/gnome-btdownload Cxr -> sanitized_helper,
 	fi
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
@@ -1194,8 +1184,20 @@ deb http://packages.azlux.fr/debian/ buster main
 {% for server in servers -%}
 #
 [device]
-# VM3564 RELISYS AVEC II S3 scanner
 # the pool.ntp.org domain since they return multiple A records.
-# NIS (man nsswitch) as well as normal /etc/passwd and
-    fi
+  *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 type=file
+#       "readwrite" grants access to read and write attributes of MBeans,
+   ADDRESS_FAMILIES=""
+#    the "FSU light dispersion error" does not cause the abortion
+            . /usr/share/bash-completion/bash_completion
+#    Copyright (C) 2016 Canonical Ltd.
+# List of modules that you want to include in your initramfs.
+#
+    <allow send_destination="net.hadess.SensorProxy" send_interface="net.hadess.SensorProxy"/>
+
+    permission javax.crypto.CryptoAllPermission; 
+# Don't try to change I/O priority in a vserver or OpenVZ.
+# By default, exchange time with everybody, but don't allow configuration.
+$x-display-manager gdm3
+S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
