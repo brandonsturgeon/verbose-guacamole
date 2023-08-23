@@ -1,7 +1,6 @@
-/var/log/auth.log
+	<match target="pattern">
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 # 0 means leave lamp-status untouched, not 0 means switch off
-#%PAM-1.0
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 # ------------------------------------------------------------------
 # /etc/passwd file.
@@ -39,7 +38,6 @@ if [[ -z "$PATH" || "$PATH" == "/bin:/usr/bin" ]]
 # Refresh AppStream cache when APT's cache is updated (i.e. apt update)
 #*)
   </match>
-# Unlike any other crontab you don't have to run the `crontab'
 #    modify it under the terms of version 2 of the GNU General Public
 search updates ubuntu built-in
     user
@@ -168,7 +166,7 @@ a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 2fk6GWIY8lgxlKV/LinM5XkFDXv6Zf/o8Nv/i9bVO9Dv1bVh1ThgA3xy8WIzUQge
 
 blacklist rivafb
-"ee[C": forward-word
+post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
   STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 Include /etc/ssh/sshd_config.d/*.conf
 
@@ -250,7 +248,7 @@ tcp.flag.psh	u8		tcp+13		0x08		3
 overlayroot_cfgdisk=LABEL=OROOTCFG
 	rm -f "$TEXT_FILE"
 #    License published by the Free Software Foundation.
-thai		th_TH.TIS-620
+session optional pam_systemd.so
 
 Before=snapd.service
 # vim:syntax=apparmor
@@ -380,10 +378,9 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 Options=nodev,ro,x-gdu.hide
 # suspend and power-off, the end user's execute before VMware's.  (This way,
       awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
-#    This program is free software; you can redistribute it and/or modify
 LP-PPA-ubuntu-mozilla-daily
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
-bookman_light_italic.latin1.plain=Bookman-LightItalic
+d /run/screen 1777 root utmp
     <alias>
       <family>DejaVu Serif</family>
 letter
@@ -424,10 +421,9 @@ LANG=C.UTF-8
 Name=GNOME Settings Daemon's power plugin
     // There is no restriction to any algorithms.
 # Provides:          gdm3
-/dev/scanner
 #
 # Required-Start:    $local_fs
-	daytime_hosts => [ qw {} ],
+  # kindof required
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 SHELL=/bin/sh
     <match target="pattern">
@@ -523,7 +519,7 @@ test -f $DAEMON || exit 0
 
 email_format=text
 #
-#
+##     or do the same in user-data
 session		required	pam_unix.so
 # You should have received a copy of the GNU Lesser General Public License
 # polyinstantiation.
@@ -636,7 +632,6 @@ disable_root: true
 # Compose sequences for GEORGIAN-PS
 #
 compose '^' 'U' to 'Û'
-	 !-->
 compose '`' 'a' to 'à'
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
 Acquire::Changelogs::AlwaysOnline "true";
@@ -648,7 +643,7 @@ group:          files systemd
 
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/*-linux/**.so mr,
 
-[OpenSSH]
+# Compose sequences for GEORGIAN-ACADEMY
 # You can change settings by editing this file.
 server {{server}} iburst
 <?xml version="1.0"?>
@@ -665,7 +660,7 @@ restrict 127.0.0.1
 
 kbd_mode '-u' < '/dev/tty3' 
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
-title=Secure shell server, an rshd replacement
+
 
 
 Bugs: debbugs://bugs.debian.org
@@ -675,7 +670,7 @@ Bugs: debbugs://bugs.debian.org
 #option modelname "Prima PagePartner"
 speed=115200
 !ŠÅÉù=7a©|ªg¢_Çû¢ÿÎ$êï1×hègõöÛë™LÏÆŸÖòïÏÙ¸aƒ•.W,V«Í*ÎIš&ÊÕê`¿’3‰þA;Ø/Äq5ë;OÖ_?©À¡Q¾×?C¹v¿ô
-#!/bin/sh
+    set in0_max   3.3 * 1.10
        bus=session
 
 # Compose sequences for GEORGIAN-PS
@@ -803,7 +798,7 @@ $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 	;;
 # with the multiqueue (mq) policy and uses less memory.
     rotate 7
-# javax.sound.sampled.Port
+
 #   1:			top		# top -> 1:0
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 
@@ -852,7 +847,7 @@ ipv6-icmp 58	IPv6-ICMP	# ICMP for IPv6
 #    Copyright (C) 2014 Canonical Ltd.
 /usr/bin/wine-preloader
 	missingok
-## # rcntpd addserver <yourserver>
+# By default, exchange time with everybody, but don't allow configuration.
     . $SESSIONFILE
 <delegatePublic publicIdStartString="-//OASIS//DTD XML Exchange Table Model 19990315" catalog="file:///etc/xml/docbook-xml.xml"/>
   <type name="AvantGarde-Demi" fullname="AvantGarde DemiBold" family="AvantGarde" foundry="URW" weight="600" style="normal" stretch="normal" format="type1" metrics="URWGothic-Demi.afm" glyphs="URWGothic-Demi.t1"/>
@@ -885,7 +880,6 @@ brandon:100000:65536
 brandon:100000:65536
 application/vnd.intu.qfx
  10 through 19		system rendering defaults (AA, etc)
-  /etc/X11/cursors/**             r,
 grant {
      format="ttf"
 /dev/scanner
@@ -915,8 +909,8 @@ MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 #
 	notifempty
 # Defaults for the saned initscript, from sane-utils
-::1 {{fqdn}} {{hostname}}
-  /usr/lib{,64,/@{multiarch}}/qt5/qml/** r,
+LANG=C.UTF-8
+### END INIT INFO
 blacklist nvidiafb
 †ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ðëŸ
 fi
@@ -1141,7 +1135,6 @@ GRp¢£ªmÒK>'ÀüË]‚Ø¯æç9,åç>;$¾Ý`£s“(nõ4 <ô›â3ÄÓ²Ä]Iëà$‚	¥«Ž {C‘»w ÄÄe±‰
 
 create
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
-  # include the programs that actually parse input data in a non-trivial
 löÿKyá˜¶`&`ò3)ƒË”ÍhºÒ$Šx‹ëäöò-Ù$é=—ß“a–“4«V»Èýœ<,®“÷XêBF'Ð	t@'NH\ýhùzþ)OØïÐTÃFò‚}z¾¹š‘À(ŒžÂ¨ºh]~ÑÎxÂšÎ4l$ÜCc5#Q=…QuÑŽøE;ç	k:×°‘pÕŒFaôFÕEëñ‹öbw•§~?™¡³Zí¡òi­38ƒ38÷€³
 
 # escape the unprintable characters, mainly for grep-ping /proc/mounts
@@ -1173,3 +1166,18 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 PIDDIR=/var/run/dbus
 # - What to do after sleep-inactive-ac-timeout
         'distro': 'ubuntu',
+14E6D2764A4B06701C6CBC376A253775F79C782FBCB6C0EE6F99DE4BA1024ADD
+20190502160005 2 6 100 6143 2 D775D98222C19B71B1640F95F44179182E462E941B1ED2AABD7B9A92A387C5A10014F3150A4E2F48FAA83BBA757A7AFAD52FFBA351FF9DCED93B94669353E737D5DC74052A46299579F2F942AB66574E855A7E915834BD378408F0932BE8537F9863EF3EF0072EAC02EFD86A91573B63E45009CDAC495E6AAE87A2FD70395EC22F249492AFD7D007CF1718799D821E220AA90AB881E64096726963959F094A6ACE215A417B8163EAECEACA5B5454951324DB52FA2768FD22E9F0C2A1EEDD1B4DADA051455654FE405425EB73BF3536DB3B7FD9898F562EDF0BD5DA0EC15379CAEB4CFA2E2B4745D496617503427274AB3D9DBEDFFDCB5B7DC263E9F743A17FB094AE65E546468D398F0F5E3FCAF12B9799DEFDAFCB765F8AAF5D8B6BA2C24E1E1969339991AC01C542F56528446B5233819724F6CFE2E7B5797E4910993FF0EE87A1C696D60CB70EE6BCF27FC18E0B0BAF3AB97158130B0A8A1732A99A9E56713BFADC95BCD2ABD1996BF52E719441D9CFE948DF65F3BD454CF8198F43472F47F0F73703BAEF1E266B1F109AB3466B1D41E7E25AE6CA9CF42C73540245E8BE948FC620264DED7F1235A5962418BFA028C8F9657558E3A164668F9302B4A0D184DDF237275EF6C803B5DA901EA1A4E86E9FB5AACDED09EC4983A2B3089BDE76CC6D5EDE0FF746935912E63C4543A080977D92728F513A8FDEFD13F72B578B776552AAF9E7DAE4D292642762CB6F41BD9A4E668430C3C3E1CE6AE4BE5C520865E316DE2085420294EFF8D170322AB506042E08F3B621443273414FE2A9B5EB17DA967F8273999D7F1A562DD36E8827476767523F0C0BED30EBCECDD3BE963544DD22FBCFB58CAD4BCB0AF4756AAEB9B32E0302D55A30F0BE267729B831AB43BCF0F9D979EB01982BB9AD905F978B0EECC66C24FDD43E3C9A61DAD3847CD7A26573E5624ACA6497C4FC2846E743DCE94ED80CE5B85E4D94E9B04B5101CC5B93ECC5446D909EFD66B90BF9DE30B2184A762A47F850FEC2B275CBEC5F8C2D8129140345F92A62B10827FE5391D421CDDD3477525D7962802F86FB6DD776DF804BE18B
+#port=/dev/term/a
+*Form.displayList:			foreground rgb:7/7/5;segments 1,-1,-2,-1, -1,-2,-1,1;foreground rgb:f/f/d;segments -2,0,1,0, 0,1,0,-2
+
+  /usr/lib/{pyshared,pycentral,python-support}/**.so     mr,
+# Compose sequences for GEORGIAN-ACADEMY
+#                   See the manual pages hosts_access(5) and hosts_options(5).
+# @{HOMEDIRS}.
+# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
+StartupNotify=false
+    start-stop-daemon --start --pidfile /dev/null \
+# See sane-microtek2(5) for a description of the options
+!ŠÅÉù=7a©|ªg¢_Çû¢ÿÎ$êï1×hègõöÛë™LÏÆŸÖòïÏÙ¸aƒ•.W,V«Í*ÎIš&ÊÕê`¿’3‰þA;Ø/Äq5ë;OÖ_?©À¡Q¾×?C¹v¿ô
+# ----
