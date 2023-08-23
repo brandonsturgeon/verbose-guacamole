@@ -45,7 +45,6 @@ APT::Periodic::AutocleanInterval "0";
 
 	monthly
 // If you don't like it, comment it out.
-QT_ACCESSIBILITY=1
 [ -x /sbin/vgchange ] || exit 0
 overlayroot_cfgdisk=LABEL=OROOTCFG
 # people's needs, but debconf's database drivers can be used to do much
@@ -214,7 +213,6 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
   <acceptfont>
   # I think this is adaptive memory management
 driftfile /var/lib/chrony/chrony.drift
-# ------------------------------------------------------------------
 ::1 {{fqdn}} {{hostname}}
 
         ShortDescription "Commands-$(NATIVE_ARCHITECTURE)";
@@ -303,7 +301,6 @@ application/ibe-pkg-reply+xml
 		exit 0
 #  (at your option) any later version.
  -->
-Parent: Debian
 #export http_proxy="http://127.0.0.1:3128/"
 " Vim will load $VIMRUNTIME/defaults.vim if the user does not have a vimrc.
 # default location for the meta-release file
@@ -342,7 +339,6 @@ XKBLAYOUT="us"
 makestep 1.0 3
 gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
 
-*editMenu.copy.label:			Copy (Meta-W)
   /opt/novell/lib/libpthread_ext*.so* mr,
 
 
@@ -369,7 +365,6 @@ allocation {
 	</alias>
   # Include additions to the abstraction
 America/Los_Angeles
-  rotate 6
 # Kernel Image management overrides
 
 scsi "B&H SCSI"
@@ -424,7 +419,6 @@ AutomaticSecurityReports=false
     missingok
 # This script can be used to override the .d files supplied by other packages.
 . /usr/share/bash-completion/bash_completion
-<fontconfig>
     #alias vdir='vdir --color=auto'
 
 blacklist rivafb
@@ -470,7 +464,7 @@ compose ',' 'a' to '±'
 #
 
 # ~/.bash_logout: executed by bash(1) when login shell exits.
-auth		sufficient	pam_rootok.so
+‹Fˆ¢Œπng;ÎˆãgrÍ‰íŸØ``Ö ∞⁄iË€Œd<Œ∑g∫Wå«≠H+ÀÈZ–≥‰b…ŸzmG¿E:öiè,ﬁl
 # set statuscolor brightwhite,magenta
 
 if [ "$INITRD" = 'No' ]; then
@@ -556,7 +550,7 @@ eval $(/usr/bin/locale-check C.UTF-8)
   # User files
  -->
 /usr/sbin/gdm3
-
+scsi CANON IX
 # no matching entries are found elsewhere.  For more information see the
 # Allow any user to opt into auto-launching byobu by setting LC_BYOBU=1
   # owns on removable media and filesystems.
@@ -602,7 +596,6 @@ X-GNOME-Autostart-Phase=Initialization
 for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; do
 
 #
-if enabled in cloud-config.  Specifically, in order to enable it
   /usr/bin/file-roller Cxr -> sanitized_helper,
 #    modify it under the terms of version 2 of the GNU General Public
   </its:rules>
@@ -666,7 +659,7 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 # It's important that all backports from this kernel have been
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 X-Snappy=yes
-# Shut down the daemon after this many seconds idle. 0 means don't shutdown.
+  </alias>
 [Sleep]
 X-GNOME-Bugzilla-Version=3.36.x
 # Authors:
@@ -675,7 +668,7 @@ X-GNOME-Bugzilla-Version=3.36.x
 	daytime_hosts => [ qw {} ],
 # Some "catch-all" log files.
 # Compose sequences for ISO-8859-16
-0	unspec
+
 #NTP=
 ®â 9©`Ÿl’ >D∂∞!£j[~=‡g·%1¯Å_á¸T0T+–ƒfüﬁ¥Çe≥èR·Cdˇ¥!£j[~=‡g·%1¯Å_á¸T0,W†MfÇ‰¨Ç˙®Õ5œ~∞°G~p¸z¿œ¬Kbø˘©`X~Ég"ﬂ˙¯|∆dE»rüPÿˇùg?Ÿ–√ö≠x=!^>Éx¡K≥Ú:π€ÀUÀ¬uÉT∏Ÿ2™∂Ö‡◊~^É¯u»OCıù@ê*X6ã§¬á»Œm»®⁄Ç_¯YxI~‡◊!?ÁboÄﬂ¬`‰Ä¯L≤	É$Jb5Òd?øé¯ï¡–à`ËNyÊÄ¯Ómí—ªΩœ?Ìíú,Ø¢µ‡æ‡æOÑØ
 do_bootloader = no
@@ -686,7 +679,6 @@ DESKTOP-OFJN9OT
 # abstraction for allowing access to graphical browsers in Ubuntu
 
 X-GNOME-HiddenUnderSystemd=true
-# device group names
   owner /tmp/groff*                           rwl,
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
 # install the apport exception handler if available
@@ -731,7 +723,7 @@ audio/x-pn-aiff=org.gnome.Totem.desktop
 	elif [ -e "/etc/byobu/autolaunch" ]; then
 #!/bin/sh
   /etc/cloud/clean.d/99-live-installer
-
+{% if servers %}# Servers
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 #
 <!-- Begin PGPData -->
@@ -758,13 +750,11 @@ audio:x:29:brandon,pulse
 ipcomp	108	IPCOMP		# IP Payload Compression Protocol
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 ;; Created on: Fri Oct 22 09:48:21 CEST 1999
-XClock.Clock.secondColor:	rgba:00/00/ff/80
 /dev/scanner
 #
 
 image/jpg=org.gnome.eog.desktop
         </edit>
-# Description:       GRUB displays the boot menu at the next boot if it
 12	bird
 #
 # The following is a space-separated list of where additional user home
@@ -822,8 +812,6 @@ rocks_trees = {
 # Compose sequences for ISO-8859-6
 
 <!ELEMENT %sequence; ((%annotation;)?, (%element;| %group;| %cs; | %any;)*)>
-[network]
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 
 	rotate 4
 # Compose sequences for TIS-620
@@ -916,7 +904,6 @@ fi
   #include <abstractions/kde>
 /dev/scanner
 
-# Format:
 # NULL-dereference attacks against potential future kernel security
 # Microtek ScanMaker 3840 ID
 #
@@ -928,7 +915,6 @@ fi
 # Compose sequences for CP1255
 # Any customisation or reliance on the existence of this file and its
 *MenuButton.leftBitmap:		None
-NoDisplay=true
   # Kubuntu
 		<test qual="any" name="family">
 # define if shading data shall be inverted befor sending it back to the scanner
@@ -965,7 +951,6 @@ brandon:100000:65536
 #    This program is free software; you can redistribute it and/or modify
 
 
-d_reload() {
 # vim:set ai et sts=2 sw=2 tw=80:
 compose '|' '|' to '¶'
 image/eps; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
@@ -974,7 +959,7 @@ image/eps; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
 DPkg::Pre-Install-Pkgs { "/usr/bin/apt-listchanges --apt || test $? -lt 10"; };
 ### END INIT INFO
-fi
+LANG=C.UTF-8
     <alias>
     echo "Usage: /etc/init.d/atd {start|stop|restart|force-reload|status}"
 NoDisplay=true
@@ -1015,7 +1000,6 @@ module(load="imuxsock") # provides support for local system logging
 # Illegal Example:
 /dev/scanner
           "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 # You should have received a copy of the GNU General Public License
 
 #
@@ -1040,7 +1024,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 #children_max=
       This configuration is available on the major desktop environments.
   owner @{HOME}/.cache/ rw,
-    <allow own="org.freedesktop.Accounts"/>
 # for allowing access to xterm
 ÜÀ´›˘ªóbdú-vj!¬",˛È©◊Z—=m';»61©Cß“‚ªBûì,ÈUW’>ˆ4˜˘˛±Ë2’Ì•V∞,‘_ûo∞¬ıÛÓ±∆cÑbÉ„Œ¥;p)“WÇPƒ
 # This module parses environment configuration file(s)
@@ -1048,4 +1031,16 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 #include <tunables/global>
 
         %facetAttr;
+
+APT::Periodic::AutocleanInterval "0";
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+
+#
+# Defaults can be restored by simply deleting this file.
+#Source user defined xsessionrc (locales and other environment variables)
+# in the toplevel profile. Eg:
+LANG=C.UTF-8
+		<!-- https://en.wikipedia.org/wiki/Category:Mathematical_OpenType_typefaces -->
+X-GNOME-HiddenUnderSystemd=true
+  <match target="pattern">
 
