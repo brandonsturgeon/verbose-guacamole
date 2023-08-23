@@ -2,7 +2,6 @@
 Ubuntu 22.04 LTS (Jammy Jellyfish)
 #Source user defined xsessionrc (locales and other environment variables)
 #
-Clock*hour:		yellow
 /var/log/auth.log
 	export AWKPATH="$*:$AWKPATH"
 143 188 143		DarkSeaGreen
@@ -24,7 +23,7 @@ NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 </fontconfig>
 
 # Make sure the locale variables are set to valid values.
-# resolution. For example, if '/usr' is on removable media:
+#scsi "K.M.E.  " "KV-SS50EX       "
 #
 driftfile /var/lib/chrony/chrony.drift
 # for it. Matches are exact only at the moment (no globbing etc.).
@@ -59,7 +58,6 @@ QT_ACCESSIBILITY=1
 [ -x /sbin/vgchange ] || exit 0
 overlayroot_cfgdisk=LABEL=OROOTCFG
   /usr/bin/emacsclient.emacs2[2-9] Cxr -> sanitized_helper,
-SOCKET_DIR=.X11-unix
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
 *text.baseTranslations:		#override\
@@ -72,7 +70,7 @@ binary::apt::AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap a
 # -k disable/enable the "keep_settings_over_reset" flag for this drive
 APT::Archives::MinAge "2";
 # This file is sourced on all invocations of the shell.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] exiting on signal [0-9]+.$
+#
 
 #    Copyright (C) 2006 Novell/SUSE
   if [ "$add_etc_modules" ]; then
@@ -122,7 +120,6 @@ search updates ubuntu built-in
 # --launch gpg-agent"
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 	</alias>
-PATH=/sbin:/bin
 # that will become kernel vars at some point
 
     exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
@@ -202,7 +199,7 @@ compose 's' 'o' to '§'
 /usr/bin/rbash
 <!--  Use the Antialiasing -->
 session    required   pam_env.so readenv=1 user_readenv=0
-X-GNOME-Autostart-Phase=Initialization
+#
 # This file is part of the resolvconf package.
 # Default is yes
 		<test qual="any" name="family">
@@ -274,7 +271,6 @@ commands scan this directory processing all files that end in '.conf'.
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 
   /dev/dri/ r, # libGLX_mesa.so calls drmGetDevice2()
-
 #
 trusted.SGI_DMI_*		skip		# xfs specific
 [service]
@@ -307,14 +303,14 @@ pool {{pool}} iburst
 DISTRIB_RELEASE=22.04
 # prevents the sshd-keygen units from running *if* cloud-init is going to run.
 # vim:syntax=apparmor
-#DefaultLimitAS=
+#    Copyright (C) 2011 Canonical Ltd.
 # Compose sequences for ISO-8859-16
   # User files
 #
 # ------------------------------------------------------------------
 # This directive specifies the file into which chronyd will store the rate
 }
-# want to track accesses to individual keys on the LDAP server side.
+#
 	inet_domain => undef,
 compose '-' 'L' to 'Ù'
 
@@ -344,7 +340,6 @@ Wants=network.target
 # Magic local data for file(1) command.
 fi
 	<alias binding="same">
-<!-- Delicious 'heavy' variant says its Medium weight -->
   #/{,var/}run/mysqld/mysqld.sock rw,
 #& stop
 
@@ -455,7 +450,6 @@ scsi "B&H SCSI"
 
 
 ËÇğÆL›6›°¸š¸£ö¢£Ò¢££FÄk¾U¾™¾ƒ¾üÄæÄùÅãÅR<]¶G¶¹ğ¸%¾¾–‡€‡–‡^‡½e§ew‡wº|¦|l]V]ï{Ù{ÿTéTt}^}bøaŠyty~ù}fïeÀ®Ÿ®À®w®À®Q®À®¹®®ff®fif®f§fš¬„¬ß­É­ÈiÈ›À…À›ÀdÀÅ`¯`ùhãhPz:z½Å§Å½ÅƒÅÅ}¯}Ú†Ä†YoCo[`V`{èz{Ãz{ z{ÿzJj4j®…˜…®…x…‰³s³:_$_,FÌŒ¶Œ‚ñ¨Ò’Ò@Ê*ÊI†3†M‡7‡rš3»»…oÏÒ¹ÒW‚A‚…tot`©J©`©&©÷˜á˜´jjX•B•êÔ½½w’a’ïŠÙŠ¶† †:–$–ôÒŞÒ ‘Š‘z_d_B|,|ê’Ô’˜™‚™˜™^™"UU'ÌÌ·¡O—9—}ÃgÃJ”4”Ú¡Ä¡vœvœ;œvœœvœoœ°—š—ÍÉ·ÉÊŠ¬ŠÊŠ‡ŠÊŠdŠÊŠÃŠhVLVhV)VhVaV}rgrÿbéb’˜|˜€òNÁ.ÁNÁÁNÁGÁT~>~d¸N¸%ÔÔÍl·lîÃØÃîÃ¶ÃÑÄ»ÄÑÄ’ÄàÆÁÆàÆ›ÆàÆwÆàÆÙÆ/}}*qq+{{··NÌ8ÌúËäËtƒ^ƒhuRuhu/uhyhÍ{·{h|R|—}}|ş{YiCii‡i¢ÌŒÌ¢ÌgÌ¨l’l©ÿ¨²ÊœÊ¿€©€¿~©~ÛˆÅˆ¨k’kˆê‡±h›h±Ë›ËËkµkXÉBÉÔh¾h2ÉÉ2ÉøÈkhUhíƒ×ƒUwUÅƒ¯ƒÅƒ‰ƒgUQU;½%½¯“†}†“†¹b£bwcXcwc2cwccwcpc—¹¹'††ôsŞs”‡”NÃ8Ã›Ï…Ï[nEnÒøÑÒÏÑùnãnvĞ`ĞvĞ5Ğ„nnnÉĞ³ĞÉĞĞ¯n™nüuæuVV´xx`ñ_SÇ=Ç,ÇÇ¿û¾±p›pO¹9¹O¹¹=·'·Ìt¶t•ÓÓŸ¦‰¦Ï^¹^Q};}èÂÒÂèÂ²Â˜‚u_AU0U¡	¡ÙšÈšn¥]¥ªª[ıZu«d«Ò¯¼¯¥oo)jjkjUjs”]”¢ŒŒ®šÙ“·“Ù““Ù“g“Ù“Ò“èdÈdèd¡dèdádvUv-vvocDccúŒc{ŒYŒ{Œ0Œ{Œ	Œ{ŒtŒÍZ­ZÍZ†ZÍZÆZ{iei~‘h‘~‘H‘è¤Í¤è¤«¤è¤‹¤è¤á¤Z_D_-WWãÀÍÀ¤ø£¢µŒµxµbµø~H˜2˜^ŸHŸU¿?¿n‰X‰¤rrPÔ:ÔĞ…º…±u›uwøvA°+°n­f­n­C­8f0f8ffõÀğÀô`ï`}¿g¿‚ÄlÄÊwÊ4wwÜ‡Æ‡H‰2‰º‡¤‡¶˜¶Y	YÒÅÍÅşdùd%%íœ¶Y Y3¿¿Ç‡ÇÈ±²±¾™¨™G¡1¡uwuµUŸU!vvsX]XndPdnd+dnddndgdDÆ.ÆDÆÆ¾¨æÇĞÇ­ş¬qxXxqx8xqxxqxjx__¦±u±¦±U±¦±—±9i*i,——œ~†~œ~e~>g(gï‚Ù‚ú—ä—©t“t)``H¾2¾ÃÇ­Ç9Ò#Ò¦ÉÉ—ò–ÉiÉ†ì…………ß„<s&sğ¶Ú¶ğ¶²¶Fˆ0ˆFˆˆZ“D“7Ÿ!Ÿ7Ÿü’Ñ|Ñ/~~•¡¡ZrDría×a/¥ÂÂÌa¶aP€:€¼	¼Š¸t¸¢¿Œ¿¨££¨£k£¨£¡£¿¹©¹}‚g‚lWVWïWÙW¯W™W¡{‹{­V—VÂ”¬”æ”Ğ”Œ‹v‹E§/§å‰Ï‰fÊPÊgËQËgË0Ëm´W´›e…eÕ³¿³‹VuVú³ä³7Y!YF´0´F^0^!´´J]4]’´|´ggdyNyápËpÛTÅTÄº®ºìµÖµìµ±µvT`Tƒ¶m¶”X~X×¸Á¸#ZZu©p©•i•vÇ`Ç¸û·sÏ]ÏØÊÂÊújäjÏ	Ïnõm]ÎGÎ]ÎÎ¾m¨mïÏÙÏÆÏ°ÏĞĞÑÑBÑ,Ñ–x––P–ì£Ö£³ˆˆ³ˆwˆ‚klk<‘&‘m˜W˜÷»á»÷»»»&¢
-#
 #!/bin/sh
 # DO NOT EDIT OR REMOVE
 These files are normally installed in /usr/share/fontconfig/conf.avail
@@ -528,7 +522,6 @@ FileDescriptorName=unix
 127.0.1.1 {{fqdn}} {{hostname}}
 
 # Example configuration file for the GTK+ Multipress Input Method
-suffix (dbus vs. dbus.service). Needrestart uses the systemctl/service
 # shellcheck source=/dev/null
 	thin_pool_chunk_size_policy = "performance"
 	cache_pool_chunk_size = 64
@@ -565,7 +558,7 @@ data {yes
 
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 auth		sufficient	pam_rootok.so
-#
+# set statuscolor brightwhite,magenta
 
 if [ "$INITRD" = 'No' ]; then
 
@@ -610,8 +603,8 @@ bookworm/sid
 
 
   /usr/bin/shotwell Cxr -> sanitized_helper,
-compose ''' 'e' to 'é'
-#
+  manage_etc_hosts: True
+compose 'r' 'o' to '®'
 fi
 change_hat {yes
   # Iceweasel
@@ -646,7 +639,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 
 # Specify the key identifiers which are trusted.
 #backwards compatibility include, actual abstraction moved from php5 to php
-{
+### FILENAMES ETC
 # no packages own btmp -- we'll rotate it here
 #    Handle linux distributions that use systemd to replace the legacy
 eval $(/usr/bin/locale-check C.UTF-8)
@@ -740,7 +733,7 @@ fi
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+(\[[0-9]+\])?: DIGEST-MD5 common mech free
 //Unattended-Upgrade::Mail "";
-AutomaticReports=false
+    <complexType name="EncryptionPropertyType" mixed="true">
 # cloud-init generated file
 # Specify command line options here. This config file is used
 fi
@@ -779,7 +772,7 @@ APT::Archives::MaxSize "500";
 
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
 
-# white space is ignored and lines maybe extended with '\\n' (escaped
+
 compose '^' '/' to '|'
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
 ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
@@ -818,7 +811,6 @@ do_bootloader = no
 # device group names
   owner /tmp/groff*                           rwl,
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
-
 		;;
 # install the apport exception handler if available
 camera=Kodak DC240
@@ -845,7 +837,6 @@ font='Monospace 16'
 DBUSLAUNCH=/usr/bin/dbus-launch
 	case "$REPORT_ABSENT_SYMLINK" in
     fi
-datasource meta-data and user-data.
 start_it_up()
 audio/x-pn-aiff=org.gnome.Totem.desktop
 
@@ -868,7 +859,6 @@ scan-data-timeout 15000
   #
 ## If the coloring rule should span multiple lines, use the following format:
         fi
-		<family>monospace</family>
 	elif [ -e "/etc/byobu/autolaunch" ]; then
 #!/bin/sh
 #ClientAliveCountMax 3
@@ -912,7 +902,7 @@ XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
 /dev/scanner
 #
 
-
+image/jpg=org.gnome.eog.desktop
         </edit>
 handleStartupErrors = ignoreMultipleInitialisation
 # Description:       GRUB displays the boot menu at the next boot if it
@@ -1002,7 +992,6 @@ rocks_trees = {
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 run_sdptool()
 
-# 2001::81:1 test.local
 Vendor-URL: http://www.ubuntu.com/
 
 # the value 'auto' will make the backend find the correct value
@@ -1043,3 +1032,15 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
 
   stop)
 if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
+#2	inr.ruhep
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
+
+<busconfig>
+if [ -d /var/run ]; then
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
+*Scrollbar.displayList:\
+  /etc/X11/app-defaults/XTerm r,
+STARTSSH=
+[storage]
+  # system library
