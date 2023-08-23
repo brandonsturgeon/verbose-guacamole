@@ -95,7 +95,7 @@ password	include		su
 *scrollMenu.vertical.label:		Vertical
 auth		include		runuser
 xterm
-#!/bin/sh
+    locale
   # do not use ux or PUx here. Use at a minimum ix
 twm
 
@@ -188,7 +188,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 # Local users may interrogate the ntp server more closely.
 	cat <<-EOF
 Wants=network.target
-## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
+audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
 fi
 /dev/scanner
@@ -307,8 +307,7 @@ fi
 ! XMore.ad
 
 
-_apport_symptoms ()
-# Use DOCKER_OPTS to modify the daemon startup options.
+description=OpenSSH is a free implementation of the Secure Shell protocol.
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 fs.protected_symlinks = 1
 if [ "$INITRD" = 'No' ]; then
@@ -330,7 +329,7 @@ OnlyShowIn=GNOME;
 # Turn on Source Address Verification in all interfaces to
 # directories are stored, each must have a trailing '/'. Directories added
 # set start_ro=1 to make newly assembled arrays read-only initially,
-    <Directory>X-GNOME-Other.directory</Directory>
+	#   0 if daemon has been stopped
 
 
 bookworm/sid
@@ -343,7 +342,7 @@ APT::Archives::MaxAge "30";
 185 211 238		SlateGray2
 change_hat {yes
             <extension base="saml:StatementAbstractType">
-#[direct]
+
 //Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
 631	# cups
 
@@ -352,8 +351,6 @@ BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
 usb 0x043d 0x007c
 /usr/lib/i686-linux-gnu
       without rebooting a machine which drastically limits the need for
-compose ',' 'A' to '¡'
-#   permissions - copy when trying to preserve permissions.
     delaycompress
 
 
@@ -361,7 +358,7 @@ compose ',' 'A' to '¡'
 # How many usec (1,000,000ths of a) between sending the "back to default" break
 X-GNOME-Autostart-Phase=PreDisplayServer
 # as possible
-
+ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 DISTRIB_RELEASE=20.04
 #backwards compatibility include, actual abstraction moved from php5 to php
 #    This program is free software; you can redistribute it and/or
@@ -408,7 +405,6 @@ the exact distribution terms for each program are described in the
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 }
 
-#fudge 127.127.8.1 time1 0.0042        # relative to PPS for my hardware
   /usr/lib/@{multiarch}/gdk-pixbuf-*/** mr,
   abi <abi/3.0>,
 ### END INIT INFO
@@ -440,7 +436,7 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 # This file is a simple placeholder to keep dpkg from removing this directory
 # The following may be used to add additional entries such as for
 PPP_LOCAL="$4"
-if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && 
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
   </alias>
 [Sleep]
 X-GNOME-Bugzilla-Version=3.36.x
@@ -463,7 +459,6 @@ X-GNOME-HiddenUnderSystemd=true
 
 X-GNOME-Autostart-Notify=true
  *
-# These variables are for the use of the scripts run by run-parts.
  * and edit it there.  That way, your changes will be kept next time
 	# Configuration option local/extra_system_ids.
 # This file contains a list of port numbers between 600 and 1024,
@@ -576,7 +571,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
 Clock*BorderColor:	light blue
 
-  stop)
 if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
 127.0.0.1	www.paginebiamnche.it
      declaration that uses the public identifier shown below:
@@ -663,7 +657,6 @@ XKBMODEL="pc105"
 # IPMI_Platform_Alert_State_Asserted     Critical
 scsi Nikon * Scanner
     <Include>
-mustek_usb
 XCalc*hp.button16.fromHoriz:		button15
 # Illegal Example:
 /dev/scanner
@@ -727,7 +720,7 @@ SHELL=/bin/sh
 #    License published by the Free Software Foundation.
 # Uncomment the following if your scanner is connected by USB,
   exec /etc/ppp/ipv6-down.local "$@"
-[genie]
+ 60 through 69		generic aliases, map generic->family
 
                                   (symbol-name debian-emacs-flavor)
 # shiftr shiftl alt keycode 37 = Decr_Console
@@ -781,7 +774,7 @@ SHELL=/bin/sh
   /usr/lib/nspluginwrapper/i386/linux/npviewer{,.bin} ixr,
 deb http://packages.azlux.fr/debian/ buster main
 unset USEHTTP
-		;;
+#!/bin/sh
 # The following section will copy the contents of /etc/skel if this is a
 -->
 # eliminate DISABLE
@@ -813,7 +806,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 #
   /usr/share/drirc.d/{,*.conf}    r,
-if [ -x /usr/lib/update-notifier/update-motd-hwe-eol ]; then
 #
 // This system policy file grants a set of default permissions to all domains
 # Compose sequences for TIS-620
@@ -873,7 +865,7 @@ APT::Periodic::Update-Package-Lists "1";
 # cloud-init. They are read in lexical order. Later files overwrite values in
         Disable hinting manually at smaller sizes (< 8ppem)
 #  the Free Software Foundation; either version 2.1 of the License, or
-
+	<alias>
     unset XDG_SESSION_ID
 # Set to the user saned should run as
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
@@ -899,7 +891,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
   <!-- Allow anyone to invoke methods on the interfaces -->
   owner /tmp/**         rwkl,
 # b.) change or remove the value of 'manage_etc_hosts' in
-[publish]
 create_machineid() {
 deb http://archive.ubuntu.com/ubuntu/ focal main restricted
 m§lj'‹©ZjUJŸ¤m“™Ìb¹üG«¹ôOë¥ß¯7Dòö
@@ -928,12 +919,10 @@ show-im-name=false
 # drop-in config adds a condition to sshd-keygen@.service if it exists and
 
   /usr/bin/decibel Cxr -> sanitized_helper,
-0	global
 [ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
 <?xml version="1.0"?>
 commands scan this directory processing all files that end in '.conf'.
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
-# ------------------------------------------------------------------
 # vim:syntax=apparmor
   </its:rules>
 			[[ -x /usr/lib/command-not-found ]] || return 1
@@ -943,14 +932,12 @@ commands scan this directory processing all files that end in '.conf'.
 
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 # mdadm module configuration file
-#
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG network certificate management daemon.$
 # Uncomment and edit /etc/security/access.conf if you need to set complex
 KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 <Key>q: quit() \n\
 fi
 # For using an SSL/TLS protected RMI registry use the following line
-
 XLogo*background: rgb:d2/22/32
 }
     permission javax.crypto.CryptoAllPermission; 
@@ -964,7 +951,7 @@ OK           ATDT<put phone number here>
 # XDG_DATA_DIRS or XDG_DATA_HOME, and are the parent directory
 
   # system library
-.96Hüi§XönCFÕ¶üzÀÏÂKbð¿ù©`8/ƒ¡ÜM„T°l7H|FÏ~¶!£j[~=àgá%1ø_‡üÊ`8Vß¼‘»,+xß—¾
+#  option routers 192.33.137.250;
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # Defaults can be restored by simply deleting this file.
 
@@ -1077,3 +1064,13 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 # VM3575  Mustek ScanMagic 4830S
 
 # type and run a series of external commands (fortune,
+	 !-->
+# Ciphers and keying
+compose '`' 'a' to 'à'
+PATH=/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin
+# "strace -f name-of-program" work, but gdb's "attach" and "strace -fp $PID"
+<delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook Document Hierarchy V4.1.2//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.1.2/catalog.xml"/>
+Acquire::Changelogs::AlwaysOnline "true";
+*Fetch-button.label: Fetch
+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
