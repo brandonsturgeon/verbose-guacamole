@@ -101,7 +101,7 @@ gdm:x:121:129:Gnome Display Manager:/var/lib/gdm3:/bin/false
   # Include additions to the abstraction
   include if exists <abstractions/user-download.d>
   </edit>
-# This file is a simple placeholder to keep dpkg from removing this directory
+    label fan4 "System FAN4"
 Comment[zh_CN]=å¯åŠ¨ PulseAudio å£°éŸ³ç³»ç»Ÿ
 /NimbusSanL-Regu (/usr/share/fonts/type1/gsfonts/n019003l.pfb) ;
 
@@ -140,7 +140,7 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 # Should-Start:       cgroupfs-mount cgroup-lite
 NAME="plymouth-log"
 10	mrt
-<delegateSystem systemIdStartString="http://globaltranscorp.org/oasis/catalog/xml/tr9401.dtd" catalog="file:///usr/share/xml/schema/xml-core/catalog.xml"/>
+# If you want logs to go to syslog, uncomment the following line.
 Ubuntu 22.04.2 LTS
 # and users home directories will reside within the directories that
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.$
@@ -190,7 +190,6 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
 ::1 {{fqdn}} {{hostname}}
 
         ShortDescription "Commands-$(NATIVE_ARCHITECTURE)";
-commands scan this directory processing all files that end in '.conf'.
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 
 trusted.SGI_DMI_*		skip		# xfs specific
@@ -222,8 +221,8 @@ pool {{pool}} iburst
                                      "javax.crypto.spec.RC2ParameterSpec", 128;
     # 'unsafe' is ok here because the kernel will have already cleared the
 }
-# <target name>	<source device>		<key file>	<options>
-	inet_domain => undef,
+*Background:				rgb:c/d/b
+nssDbMode = noDb
 
 # Scripts in this directory are executed as root when a user log out from
 # Compose sequences for ISO-8859-8
@@ -275,7 +274,6 @@ rexd		100017	rex
 # x25
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
 QT_ACCESSIBILITY=1
-" This happens after /etc/vim/vimrc(.local) are loaded, so it will override
 #
 
 
@@ -411,7 +409,7 @@ _apport_symptoms ()
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 
 if [ "$INITRD" = 'No' ]; then
-# Specify the key identifier to use with the ntpq utility.
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 }
 
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
@@ -451,7 +449,7 @@ APT::Archives::MaxAge "30";
 compose 'r' 'o' to '®'
 fi
 change_hat {yes
-  # Iceweasel
+            <extension base="saml:StatementAbstractType">
 #[direct]
 //Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
 631	# cups
@@ -501,7 +499,7 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
     done
 # set start_ro=1 to make newly assembled arrays read-only initially,
 /var/log/cron.log
-# invoked with "-" as the first character of argv[0], and
+# To take advantage of this, it is recommended that you configure any
 };
         cat /run/motd.d/85-fwupd
      </choice>
@@ -539,7 +537,7 @@ X-GNOME-Autostart-Phase=Initialization
 
 #fudge 127.127.8.1 time1 0.0042        # relative to PPS for my hardware
 
-#stv680.conf
+  /usr/lib/@{multiarch}/gdk-pixbuf-*/** mr,
 
 # authentication via PAP, CHAP and similar protocols.
     IM_CONFIG_PHASE=1
@@ -637,7 +635,7 @@ font='Monospace 16'
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
   <type name="Arial-Narrow" fullname="Arial Narrow" family="Arial Narrow" weight="400" style="normal" stretch="condensed" glyphs="arialn.ttf"/>
 ## If the coloring rule should span multiple lines, use the following format:
-        fi
+## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 	elif [ -e "/etc/byobu/autolaunch" ]; then
 #!/bin/sh
   /etc/cloud/clean.d/99-live-installer
@@ -672,7 +670,7 @@ image/jpg=org.gnome.eog.desktop
 12	bird
 #
 #!/bin/sh
-X-GNOME-Autostart-Phase=Initialization
+#%PAM-1.0
 /dev/scanner
 scsi "B&H SCSI"
 // Country-specific policy file for countries with no limits on crypto strength.
@@ -707,10 +705,8 @@ OnlyShowIn=GNOME;
 #   2 = handle as i/o error
 #               -> put your type of protocol instead of 'https' : http or https.
 # This file is sourced by Xsession(5), not executed.
-compose '*' '0' to '°'
-#!/bin/sh
+# Uncomment this to allow this host to route packets between interfaces
 # installkernel must call postinst.d with two args, version & image_path
-
 
 	;;
 #    License published by the Free Software Foundation.
@@ -770,9 +766,7 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
 if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
 127.0.0.1	www.paginebiamnche.it
      declaration that uses the public identifier shown below:
-<busconfig>
   /usr/bin/dbus-launch ix,
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
 *Scrollbar.displayList:\
   /etc/X11/app-defaults/XTerm r,
 STARTSSH=
@@ -807,7 +801,6 @@ gt68xx
 # NULL-dereference attacks against potential future kernel security
 # Microtek ScanMaker 3840 ID
 #
-    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
   /var/yp/binding/*           r,
 
@@ -829,7 +822,7 @@ system-db:ibus
 check_config() {
 # double-lockout scenario where a user is locked out locally and
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-     Ctrl<Key>v:    NextPage()
+*insertFile*text.?.pieceSize:		256
 
 blacklist raw1394
 # system supports only Multiple Profiles Single Device (MPSD) configuration
@@ -939,7 +932,6 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 
 # Short-Description: Configure kernel parameters at boottime
 esac
-#  * default: 'disabled'
 option skipDarkStrip 0
 rk0JgVoRzG3BT5yYfuxHIe4H4Axh95tW9i6urzyQkXRz14twwwcEDvl5ALrBLNJJ
 
@@ -1024,7 +1016,7 @@ nssDbMode = noDb
 #/dev/usb/scanner0
 
       <const>lcddefault</const>
-6Jt¤¯Ğß0@fvš«Òå@Ndr–¤ÆÔéú!-Oa‰ÇÕù)9_p—©ÀÒú
+#
 /Adobe-Japan2 /Japanese-Mincho-Regular-JaH ;
         [ -x /sbin/restorecon ] && /sbin/restorecon "$1"
 }
@@ -1043,7 +1035,19 @@ X-GNOME-AutoRestart=true
 # sleep-inactive-ac-timeout=1200
   help: |
 SHELL=/bin/sh
-## template:jinja
+# This is the configuration file for pam_env, a PAM module to load in
   /usr/lib/nspluginwrapper/i386/linux/npviewer{,.bin} ixr,
 
 unset USEHTTP
+		;;
+# The following section will copy the contents of /etc/skel if this is a
+
+# eliminate DISABLE
+TEMPLATES=Templates
+XClock.input: false
+#
+# TODO: add alternate apparmorfs interface for enabled
+application/x-zip=org.gnome.FileRoller.desktop
+/usr/lib/x86_64-linux-gnu/libfakeroot
+@include common-password
+# --security-set-pass Set security password
