@@ -10,7 +10,6 @@ required in any way by the specification).  The information may be useful in
 
 options md_mod start_ro=1
 
-APT::Periodic::AutocleanInterval "0";
 # This file is a simple placeholder to keep dpkg from removing this directory
 	monthly
 #    This program is free software; you can redistribute it and/or
@@ -26,7 +25,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 # Specify directory for log files.
       <family>Noto Mono</family>
 <?xml version="1.0"?>
-Comment=GNOME Keyring: SSH Agent
+# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #
 
 # Compose sequences for ISO-8859-11
@@ -46,7 +45,7 @@ deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # This file is a simple placeholder to keep dpkg from removing this directory
 
         <policy user="root">
-
+# This file is a simple placeholder to keep dpkg from removing this directory
 password	include		su
 
   </policy>
@@ -184,7 +183,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
 /usr/sbin/gdm3
 
-# definitions of existing MD arrays
     [ ! -f "$sfile" ] || return 0
 # javax.management.monitor.foo.Bar.
 # Uncomment following line to disable "clever precalibration" routines...
@@ -236,7 +234,6 @@ rocks_trees = {
 font='Monospace 16'
 15	ntk
 # On Debian/Ubuntu systems, this is in /var/run/screen, but on
-    exec /usr/lib/update-notifier/update-motd-reboot-required
 # subpath mappings from mount point for pinning
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 Exec=/usr/libexec/gnome-shell-overrides-migration.sh
@@ -244,13 +241,12 @@ Exec=/usr/libexec/gnome-shell-overrides-migration.sh
 
   deny @{HOME}/.mutt** mrwkl,
 =RFA4
-#option strip-height 1           # some SCSI adapters need this; scanning may
 #
 usb 0x05da 0x30d4
 # vim:syntax=apparmor
 
 # Enable Modem-GPS source
-DelayedActivation=false
+X-GNOME-Autostart-Phase=PreDisplayServer
 /dev/scanner
 €Og∑˜µ˜ŸÎÕº¬ö∆ÜB∞ﬂUf≥v∞∑y∫º£#ùV>'ï9‡ˆZ®˝çö¥ﬁéfãπã˝ı €≠ƒˆ#—˝JTVVÕñU~{ˇ¢“€r1&3l#Á+ı=[V˘mπXú|SÁΩ˜¸Ûûµ€©ö˚"[Œ≈ˆ3™˛ÒÛóg√c
 <fontconfig>
@@ -331,7 +327,7 @@ LP-PPA-ubuntu-mozilla-daily
 letter
   </rejectfont>
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
-# local modules either before or after the default block, and use
+[fwupd Remote]
      o Declarations for and references to external parameter entities
 /CenturySchL-BoldItal (/usr/share/fonts/type1/gsfonts/c059036l.pfb) ;
 scsi Nikon * Scanner
@@ -350,9 +346,7 @@ Comment=GNOME Keyring: SSH Agent
 #include <tunables/global>
 #mount_max = 1000
 
-LANG=C.UTF-8
 # their current one is listed in /etc/shells. This keeps
-
 
 
 
@@ -384,7 +378,7 @@ scsi "RELISYS" "APOLLO Express 3"
 #
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 session required        pam_loginuid.so
-fi
+#
 nssDbMode = noDb
 LANG=C.UTF-8
       <const>lcddefault</const>
@@ -548,7 +542,7 @@ Acquire::Changelogs::AlwaysOnline "true";
 *ispell*check.label:			Check
 group:          files systemd
 
-  /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/*-linux/**.so mr,
+# useful if you for example need to do some setup to create a home directory
 
 # You can change settings by editing this file.
 server {{server}} iburst
@@ -639,7 +633,6 @@ compose ',' '-' to '¨'
 ## (create soft link /dev/refclock-0 to the particular ttyS?)
       We shouldn't overwrite it with "assign" unconditionally.
 #     then changes to /home will go through to the original device.
-        machine_id=$(cat "${etc_dir}/machine-id")
 # grub-mkconfig when init-select was removed but not purged.  This file does
 # Read man sane-mustek_usb for documentation
       may simply works to avoid it.
@@ -707,7 +700,6 @@ DAEMON="/lib/systemd/systemd-udevd"
 255 193 193		RosyBrown1
 	    <family>NanumGothic</family>
 #
-#     /etc/cloud/cloud.cfg or cloud-config from user-data
     'debug': {
 #       services;ttys;users;times
 
@@ -841,12 +833,11 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
 		;;
     </edit>
 # specify the provider and priority in the format
-
+# $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 # Compose sequences for ISO-8859-8
 . /usr/share/bash-completion/bash_completion
  - chef
-& stop
 LANG=C.UTF-8
     <allow own="org.pulseaudio.Server"/>
 <fontconfig>
@@ -857,7 +848,6 @@ LANG=C.UTF-8
       126 138 170 195 220 236 248 253 254 245 233 217 193 169 137 125
 *ÜHŒ=h0e1Âi…n€∆1∫	A·ó¯˚˝ö‚}…Ì|d”À%ãVŸ†Á^]NÉú[v)†	&!jb0q“µè\Í;·x	Ö®uí;»\˝HÔt"®‚n≈IŒ«ºßaiÒ˜;·*À˘+Ûfê7"debian:digicert_global_root_g3.pem8P_1X.509C0Ç?0Ç≈†UVºÚ^§55√§’´Er0
 
-#   If a pattern includes a "=", it sets a limit.
 #
 @include common-session
     (if (file-exists-p
@@ -895,14 +885,13 @@ scsi Nikon * Scanner
     # locale: Cannot set LC_SOMETHING to default locale
 
 
-
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 /lib32
   
 APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 @{multiarch}=*-linux-gnu*
   /etc/bash.bashrc.local           r,
-
+/dev/scanner
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
 </catalog>
@@ -1029,8 +1018,6 @@ POOL=""
             <string>serif</string>
 # on a file, 2 seconds after the second failure, etc. up to this max).
 # If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
-Title=Vendor
-Ubuntu 20.04.5 LTS
 libXvMC.so.1
 #domain-name=local
 		return
@@ -1199,3 +1186,16 @@ PARAMS=""
 49 1 * * *   root    test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond
 # VM6586 Primax Profi 19200
 -----END PGP PUBLIC KEY BLOCK-----
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
+restrict -6 default notrap nomodify nopeer noquery
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+  <description>Load local customization file</description>
+usb 0x03f0 0x0105
+XCalc*ti.button48.fromVert:		button43
+[Desktop Entry]
+type=file
+# networking=no
+@include common-session-noninteractive
+		if ! [ -z $tablename ]; then
+CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
+NI	-*-new century schoolbook-medium-i-normal--*-*-*-*-*-*-iso8859-1\n\
