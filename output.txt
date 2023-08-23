@@ -1,6 +1,6 @@
 # Do not enable debsig-verify by default; since the distribution is not using
-MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
-<!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
+deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+		exec update-grub
 # /etc/passwd file.
 required in any way by the specification).  The information may be useful in
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
@@ -44,7 +44,6 @@ deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 
         <policy user="root">
 # This file is a simple placeholder to keep dpkg from removing this directory
-password	include		su
 
   </policy>
 
@@ -360,7 +359,7 @@ Comment=GNOME Keyring: SSH Agent
 # banner-message-text='Welcome'
 # shiftr shiftl alt keycode 37 = Decr_Console
 serif.symbol.bolditalic=Symbol
-lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
+#alias {
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 
   <policy user="root">
@@ -405,7 +404,7 @@ NoDisplay=true
 #
 case $0:$mode in
 # Compose sequences for TIS-620
-# The page set here should explain how to add new software repositories if required.
+switch($TERM)
     done
 # ------------------------------------------------------------------
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
@@ -452,7 +451,7 @@ create_machineid() {
   #
     permission java.util.PropertyPermission "path.separator", "read";
 #
-
+# exit if custom kernel does not need an initramfs
 
 
 
@@ -467,7 +466,7 @@ create_machineid() {
 
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 <Key>q: quit() \n\
-
+# libc default configuration
 }
 		<prefer>
 America/Los_Angeles
@@ -475,7 +474,6 @@ OK           ATDT<put phone number here>
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 /var/log/btmp {
 
-#  might result into a network communication with the server to get
 # This file is a simple placeholder to keep dpkg from removing this directory
 # Defaults can be restored by simply deleting this file.
 # Autodetect 1200 UB and Trust Compact Scan USB 19200
@@ -483,7 +481,6 @@ OK           ATDT<put phone number here>
 case "${1}" in
 @{securityfs}=@{sys}/kernel/security/
 #
-alias gawkpath_prepend 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") then; unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKPATH "!*"":$AWKPATH"'
 *MenuButton.foreground: white
 		<test compare="more_eq" target="pattern" name="weight" >
 roottext=,magenta
@@ -549,7 +546,7 @@ restrict 127.0.0.1
 <delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///usr/share/xml/svg/catalog.xml"/>
 	rm -rf "${RUN_DIR}/interface/*"
 // grant codeBase "jrt:/com.greetings" {
-  /usr/lib/NetworkManager/nm-dhcp-client.action   Pxrm,
+NoDisplay=true
 
 kbd_mode '-u' < '/dev/tty3' 
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
@@ -631,7 +628,6 @@ compose ',' '-' to '¨'
 # Read man sane-mustek_usb for documentation
       may simply works to avoid it.
 #
-
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 #
 requestkey 1			# key (7) for accessing server variables
@@ -703,7 +699,7 @@ Categories=System;Monitor;GTK;
 -----BEGIN CERTIFICATE-----
      </p>
   /dev/nvidia-uvm rw,
-ipv6-icmp 58	IPv6-ICMP	# ICMP for IPv6
+## Turn creating/updating of the cache on by default
 #
 #    Copyright (C) 2014 Canonical Ltd.
 		chown root:adm $XCONSOLE
@@ -711,7 +707,7 @@ networkd_dispatcher_args="--run-startup-triggers"
 <delegatePublic publicIdStartString="-//OASIS//DTD XML Exchange Table Model 19990315" catalog="file:///etc/xml/docbook-xml.xml"/>
   <type name="AvantGarde-Demi" fullname="AvantGarde DemiBold" family="AvantGarde" foundry="URW" weight="600" style="normal" stretch="normal" format="type1" metrics="URWGothic-Demi.afm" glyphs="URWGothic-Demi.t1"/>
 7   selinux
-  /etc/netconfig r,
+#    License published by the Free Software Foundation.
 port=/dev/ttyS0
 
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -872,8 +868,7 @@ compose 'c' 'o' to '©'
 
 gtk-theme-name = Yaru
 PICTURES=Pictures
-Enabled=true
-scsi Nikon * Scanner
+<delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/" catalog="file:///etc/xml/docbook-xml.xml"/>
     # locale: Cannot set LC_SOMETHING to default locale
 
 
@@ -909,7 +904,6 @@ scsi FCPA
 <?xml version="1.0"?>
 Acquire::Changelogs::AlwaysOnline "true";
 # vim:syntax=apparmor
-compose 'N' 'G' to 'Ω'
 			<string>HYSong</string>
 rocks_trees = {
 # The PAM configuration file for the Shadow 'newusers' service
@@ -1028,7 +1022,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 emptyscale=magenta
 			<family>AR PL New Sung Mono</family> <!-- han (zh-cn,zh-tw) -->
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
-#    This program is free software; you can redistribute it and/or
+˘î`ﬁ…VùF2eE∆«†ÖõwÒƒ#5æmz∑øb¢æ∏Ë^|µR-	LÂ≠&èâ3
 	unload_ipmi_modules_leave_features
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 
@@ -1079,7 +1073,7 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
 # avahi is free software; you can redistribute it and/or modify it
 
-server {{server}} iburst
+
 #
 
 X-GNOME-AutoRestart=true
@@ -1190,3 +1184,20 @@ NI	-*-new century schoolbook-medium-i-normal--*-*-*-*-*-*-iso8859-1\n\
 # Run cryptdisks initscripts at startup? Default is Yes.
 9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB
 
+#
+# vim:syntax=apparmor
+	didn't include the right instructions in the 'prep' table.
+# option linedistance-fix        # stripes may go away in color mode
+# USB
+  owner /{,var/}run/lightdm/authority/[0-9]* r,
+# ------------------------------------------------------------------
+when preparing a golden image for clone and redeployment. The clean command
+
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+            rm -f /var/run/$NAME.pid
+#[device]
+[Time]
+.  \" command-line options.  Uncomment this if you want to make sure that
+
+ACTION!="add|change|move", GOTO="mm_mtk_port_types_end"
+## (create soft link /dev/refclock-0 to the particular ttyS?)
