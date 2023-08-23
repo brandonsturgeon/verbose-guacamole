@@ -155,7 +155,6 @@ audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
 fi
 /dev/scanner
-#
 			<family>DejaVu Sans</family>
 ## Uncomment the following two lines to add software from Canonical's
 
@@ -167,9 +166,7 @@ LOGLEVEL=low
 #  (at your option) any later version.
 #export http_proxy="http://127.0.0.1:3128/"
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
-## form 127.127.t.u, where t is the clock type and u is a unit 
 # configuration options for /etc/X11/Xsession
-# vim:syntax=apparmor
 auth	required	pam_nologin.so
 
 #    modify it under the terms of version 2 of the GNU General Public
@@ -200,7 +197,6 @@ turkish         tr_TR.ISO-8859-9
 	    if test -f $PIDFILE; then exit 2; fi
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
 		mkdir -p /boot/grub
-# Compose sequences for ISO-8859-11
 #include <tunables/share>
 [storage]
 
@@ -219,7 +215,6 @@ CATALOG /usr/share/xml/qaml/catalog
 mode="${mode%'}"
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 #
-Acquire::Changelogs::AlwaysOnline "true";
          only share the location if user allows it. -->
 
 2fk6GWIY8lgxlKV/LinM5XkFDXv6Zf/o8Nv/i9bVO9Dv1bVh1ThgA3xy8WIzUQge
@@ -229,7 +224,6 @@ blacklist rivafb
   STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 
 compose ')' '-' to '}'
-# never load them automatically.
 
 
 # Required-Start:    $remote_fs
@@ -348,7 +342,6 @@ passwd:         files systemd
 X-GNOME-Bugzilla-Version=3.36.x
 /var/log/apt/term.log {
 	daytime_hosts => [ qw {} ],
-udplite	136	UDPLite		# UDP-Lite [RFC3828]
 # Compose sequences for ISO-8859-16
     permission java.lang.RuntimePermission "accessUserInformation";
                     Schema Recommendation</a> forbids the declaration of
@@ -363,9 +356,9 @@ udplite	136	UDPLite		# UDP-Lite [RFC3828]
 X-GNOME-Autostart-Notify=true
 
  * and edit it there.  That way, your changes will be kept next time
-	# Configuration option local/extra_system_ids.
+  /dev/console rw,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
-<fontconfig>
+    # Skip in favour of systemd timer.
 
 font='Monospace 16'
 #    Copyright (C) 2009 Canonical Ltd.
@@ -405,7 +398,7 @@ scsi "B&H SCSI"
 $x-display-manager gdm3
 # Where to place spool and state files
     <allow send_destination="net.hadess.SensorProxy" send_interface="org.freedesktop.DBus.Peer" send_path="/net/hadess/SensorProxy/Compass"/>
-failure_action = ignore
+*internalBorderWidth:		0
 
     done
 # Compose sequences for IBM1133
@@ -413,11 +406,10 @@ failure_action = ignore
 CRYPTDISKS_MOUNT=""
 
 XLoad.input:			false
-Oğô„=i£‹­Ù;'«¼MrF‚T=pnÙva·[»ÚÕÌŞw¼?^ç¤?Æš·CÃÜ<7Ú(bb_ÇKı=´«=É;Knc$H¾P¢]ÅÖä.—·É‹$-î’‹²Ó$°ËŸÓ²ºº‡lÁÛqFÒ2d_ ÓF#[É÷l’Ò&+&„X¯mx‚§'á©]s±ïÒë˜Í*¶şka)o#ÓLÀL¾q&*¸°'Xb¦!räÈû—k÷ñì™Ñ;—Kú2%şÚ’¢>ê?¡úê§‘†_“pyq¿¹¢£EÛ¬8UÉc–¸¶Tâ°bœœœœœœœ‘Ï|FÔÍ‰Ø"ø,¼	)T{(ğÒªi+o¼À¼À«AÒæª°·ù/¢Gíj`o“ëşšGŠ´©î±±±¼&¸p5”WÃ´ö5Dˆ!BìXÔ¢ñğÈ]Ö!A‚é–eyÆ3ÇÏœ]¶ó£gr~¹&NÄ9‰s'Y9ùu˜9«0"ÎmEÎqüí–ÄK²tò„j‰³»8‘ŸìòçÂÆ*‰¢ä–Zw¨?vÈ¿ÙR3×É-k¹ñ×„İÿ»“İ†yp]˜ãc¶xèOŒEñ†Æ—EÍµ^“VÛ¦ä&Lv™¬øümô!’Í†‘ÏˆÂ˜Ğ$©sÆ»»çós’‡¡ÕüÜ!7$½§]-ØR+)ÙFaàç´—¬‰O{¾M²,¼¢tnühGMç†8›d®B’fNv®òè¯<O©Æ;ÈSÚöÏ\W”pµã§„raÿcšì¶™3|şÜcv{ó’Ue§ hf¼*í÷*¼+Ü^¥ÉšÄÎ+›'ÁÚ¹½¦¨èYyÚh«0.ÎHXüâQ¦ä/Å9òé_&òwp4)–f©•ÕT/Ù¶©–¶­ÖÒ(ïq»Z™lÉöAåvÌ3ÊşÌÓ·z¨9£uÕÒ¶ÕZµœÑÚZ™lÉ¶ñŒVÚĞF:*ØuùBGc¶£’ØY¤„¼¼8svûFùß™g@ÿ§ç»ß¿sXöS‘Å‘£gYjÙóŠÛ˜²ÆknãM‘İä–myãmÿNı‚Ş
 !•”hÄÂÇ¨(/ä< @€á	êÇhÊ×¬á‹Xó¥jCBŸbÊ›¿Œâ[±Ö£ÖÜııc=ëÖ¶—‘	zoÕcÓÉ-AKĞ´-y®–¨ş¹Ç9Y¸ÚºÚ'éCÎÕæ‡=Úæ›nÀ=j»ºµˆ‹¸ˆ{p™Åg~h5íã^
 @include common-account
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-OnlyShowIn=GNOME;
+#    This program is free software; you can redistribute it and/or
 #!/bin/sh
 # installkernel must call postinst.d with two args, version & image_path
 # Insert here your local magic data. Format is described in magic(5).
@@ -465,7 +457,7 @@ update-hostname=true
 #    Copyright (C) 2011-2013 Canonical Ltd.
 ™O­h»¤¢»òß=næ¼Ê‚$œ-óÍÏÓH]üÒ+4„TKİÓ¦qq6Åöê;oñ·o¾Ù”_?§¶j’ÊË:åU†Kû 59@WÚL‹.vÒÑå„åvn93›Ôu„+nŸî!há5Ér‹¿êÒ®­>Ç¶mï‚®W%i;UHÁgÅ—Ÿ³¿µ8¯Êhc\#°Bú›—6y0œö.!|d©}GcºòÄe]?e“§¡NDq&+ÓÇ&ï‚·C,ECØ°îW¡:Œ¡ü Ô„{ƒœ›Í¯´!y+AâÂTÓÙ2Û* lË“N-Ÿò&Íñ&Û…É”3İÙ™$¦Â|€˜è„q¯\i­ƒ¡]ÍHh«Jo-q©)Kçtü%l>9ŞÉ,Æ¬İÄìí¹Öœs$4¦­2|æ•:‹Së™lö?îÒRCöbô‰óøêó[gëôİÃáLSÁqÌVÖ¿<“«•/=·oüŒë°Jx$©™µ¯ÔÙFJO#ò®ôØ†Ÿó+}öIñ‰8eô#‚0—4—ŠX2Ës¤Å&ÒÛÿ9õ@¢±v¼2Õ˜Z¹Lİ‡ÆÏdÕg¦0¿.ïØ6¯ İSäŞå©ê¹ñ›¾
   <type name="Verdana" fullname="Verdana" family="Verdana" weight="400" style="normal" stretch="normal" glyphs="verdana.ttf"/>
-# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
+#DefaultLimitAS=
 -dcevm KNOWN
 # how to byte-compile (comma separated: standard, optimize)
 which grub-editenv >/dev/null 2>&1 || exit 0
@@ -654,7 +646,7 @@ done
 # You can even override a supported extension:
 #
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
-™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
+esac
 #
 	# the local host, which is determined by system_id_source.)
     <accept>
@@ -692,12 +684,12 @@ email_format=text
 session		required	pam_unix.so
 # You should have received a copy of the GNU Lesser General Public License
   </complexType>
-APT::Periodic::Update-Package-Lists "1";
+# polyinstantiation.
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 # that case, 0 = Don't try to detect .local unicast dns servers, can cause
 ##############################################################################
   <!-- Allow anyone to invoke methods on the interfaces -->
-# b.) change or remove the value of 'manage_etc_hosts' in
+What=/var/lib/snapd/snaps/snapd_8542.snap
 create_machineid() {
 m§lj'‹©ZjUJŸ¤m“™Ìb¹üG«¹ôOë¥ß¯7Dòö
 #    Copyright (C) 2014 Canonical Ltd.
@@ -710,7 +702,7 @@ m§lj'‹©ZjUJŸ¤m“™Ìb¹üG«¹ôOë¥ß¯7Dòö
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 # or by launching either "byobu-screen" or "byobu-tmux" instead of "byobu".
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
-    <edit name="hinting" mode="append"><bool>false</bool></edit>
+#
 ## template:jinja
   if [ -x $UUIDGEN ]; then
 /dev/scanner
@@ -797,7 +789,6 @@ logfile   /var/log/ntp		# alternate log file
 
 			<string>AR PL UKai TW</string>
 type=file
-compose '`' 'O' to 'Ò'
 	}
 # fstrim=0
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
@@ -871,7 +862,7 @@ server {{server}} iburst
 HuaweiAltModeGlobal=0
 restrict 127.0.0.1
 <delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///usr/share/xml/svg/catalog.xml"/>
-
+#   This is not a comprehensive list of options, look at the screen manual for
 // grant codeBase "jrt:/com.greetings" {
 # set trimblanks
 ™V1XŒÀ*†afRqÑ–Î¥~ÔáµÆ$¢Œ
@@ -882,7 +873,6 @@ kbd_mode '-u' < '/dev/tty3'
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
 title=Secure shell server, an rshd replacement
 *SimpleMenu*displayList:\
-
 
 
 sortlist {% for sort in sortlist %}{{sort}} {% endfor %}
@@ -975,7 +965,7 @@ Name[cs]=ZvukovÃ½ systÃ©m PulseAudio
 byte-compile = standard
 Ubuntu 20.04.5 LTS \n \l
     <allow own="org.freedesktop.GeoClue2"/>
-
+# be polyinstantiated based on the MLS level part of the security context as well as user
 
 # a minimum a blank line following it).
 # another usb section here.
@@ -1044,7 +1034,7 @@ fi
 X-GNOME-Autostart-Phase=Initialization
 #
 "\e[1~": beginning-of-line
-X-GNOME-Bugzilla-Product=gnome-keyring
+By default, Java provides two different sets of cryptographic policy
 # This file is a simple placeholder to keep dpkg from removing this directory
   00_*: Reserved for 00_header.
 MODULES="${MODULES_INTERFACES} ${MODULES_FEATURES} ${MODULES_HW} ${MODULES_BASE}"
@@ -1054,7 +1044,7 @@ mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
 {% endif %}
    [[/usr/local]]
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
-
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 #skip-cache
 # SCSI
 overlayroot_cfgdisk=LABEL=OROOTCFG
@@ -1109,3 +1099,15 @@ XLogo*foreground: rgb:d7/d7/d7
 
 
   # python build configuration and headers
+echo "done."
+    /etc/ld.so.preload r,
+PARA2=$(gettext 'As a result the session will not be configured correctly.
+# ------------------------------------------------------------------
+255 193 193		RosyBrown1
+
+if has_option use-ssh-agent; then
+
+APT::Periodic::Update-Package-Lists "1";
+#     /etc/cloud/cloud.cfg or cloud-config from user-data
+    'debug': {
+#       services;ttys;users;times
