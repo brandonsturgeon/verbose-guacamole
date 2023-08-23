@@ -41,7 +41,7 @@ mail.*				-/var/log/mail.log
 {#
 
 
-# Compose sequences for GEORGIAN-PS
+APT::Periodic::AutocleanInterval "0";
 
 	monthly
 // If you don't like it, comment it out.
@@ -108,7 +108,6 @@ gdm:x:121:129:Gnome Display Manager:/var/lib/gdm3:/bin/false
 	</alias>
 # that will become kernel vars at some point
 
-session		include		runuser
   # Include additions to the abstraction
   include if exists <abstractions/user-download.d>
   </edit>
@@ -166,7 +165,7 @@ Ubuntu 22.04.2 LTS
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.$
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 # PTRACE only to direct child processes (e.g. "gdb name-of-program" and
-compose 's' 'o' to '§'
+      will change accordingly; the version at
 /usr/bin/rbash
 <!--  Use the Antialiasing -->
 session    required   pam_env.so readenv=1 user_readenv=0
@@ -216,7 +215,7 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
   # I think this is adaptive memory management
 driftfile /var/lib/chrony/chrony.drift
 # ------------------------------------------------------------------
-fi
+::1 {{fqdn}} {{hostname}}
 
         ShortDescription "Commands-$(NATIVE_ARCHITECTURE)";
 commands scan this directory processing all files that end in '.conf'.
@@ -234,14 +233,13 @@ URI_UNSTABLE_POSTFIX = -development
 QUIET=0
 
 #
-compose ''' 'i' to 'í'
+/dev/scanner
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
 #!/bin/sh
 # received.  Note: it is not advisable to use this option with the persist
 
 # Compose sequences for IBM1133
-LAPTOP-5TIN5O4V
 ## user 'morgan' gets the CAP_SETFCAP inheritable capability (commented out!)
 
 
@@ -249,7 +247,6 @@ pool {{pool}} iburst
 #  Enables compensation for the speakers' relative distances to the listener.
 # prevents the sshd-keygen units from running *if* cloud-init is going to run.
 # vim:syntax=apparmor
-#    Copyright (C) 2011 Canonical Ltd.
 # Compose sequences for ISO-8859-16
   # User files
 #
@@ -300,7 +297,6 @@ rexd		100017	rex
    formatter=simpleFormatter
 application/ibe-pkg-reply+xml
                 mask=$(awk '/^UMASK/{gsub("#.*$", "", $2); print $2; exit}' /etc/login.defs)
-[ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
 }
 # the terms of the GNU General Public License as published by the Free Software
 
@@ -447,7 +443,6 @@ compose ')' '-' to '}'
 # never load them automatically.
 
 # shellcheck source=/dev/null
-	cache_pool_chunk_size = 64
 # The following lines are desirable for IPv4 capable hosts
 # Required-Start:    $remote_fs
   )
@@ -556,7 +551,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 #    Handle linux distributions that use systemd to replace the legacy
 eval $(/usr/bin/locale-check C.UTF-8)
 #    Copyright (C) 2002-2009 Novell/SUSE
-ExecStop=/usr/bin/snap run --command=stop lxd.daemon
 
   include if exists <abstractions/dbus-accessibility-strict.d>
   # User files
@@ -567,10 +561,8 @@ ExecStop=/usr/bin/snap run --command=stop lxd.daemon
 # Allow any user to opt into auto-launching byobu by setting LC_BYOBU=1
   # owns on removable media and filesystems.
 set -e
-
 #    Copyright (C) 2012 Canonical Ltd.
 
-auth		sufficient	pam_rootok.so
 # don't do anything if im-config was removed but not purged
 			Ctrl<Key>r:	do-resize()
 
@@ -608,7 +600,7 @@ X-GNOME-Autostart-Phase=Initialization
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
 0xD9 'Ã™'
 for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; do
-# The PAM configuration file for the Shadow 'newusers' service
+
 #
 if enabled in cloud-config.  Specifically, in order to enable it
   /usr/bin/file-roller Cxr -> sanitized_helper,
@@ -649,7 +641,6 @@ alias net-pf-36 off
 tcp.flag.psh	u8		tcp+13		0x08		3
 #!/bin/sh
   </match>
-session required        pam_loginuid.so
 			<Key>q:set()notify()unset()
 
 alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIBPATH == "") then; unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWKLIBPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKLIBPATH "\!*"":$AWKLIBPATH"'
@@ -689,11 +680,10 @@ X-GNOME-Bugzilla-Version=3.36.x
 ¨‰ 9©`ÙlÕ >D¶°!£j[~=àgá%1ø_‡üT0T+ĞÄfŸŞ´‚e³RáCdÿ´!£j[~=àgá%1ø_‡üT0,W Mf‚ä¬‚ú¨Í5Ï~°¡G~püzÀÏÂKbğ¿ù©`X~ƒg"ßúø|ÆdEÈrŸPØÿg?ÙĞÃš­x=!^>ƒxÁK³ò:¹ÛËUËÂuƒT¸Ù2ª¶…à×~^ƒøuÈOCõ@*X6‹¤Â‡ÈÎmÈ¨Ú‚_øYxI~à×!?çbo€ßÂ`ä€øL²	ƒ$Jb5ñdğ?ğ¿ø•ÁĞˆ`èNyæ€øîm’Ñ»½Ï?í’œ,¯¢µà¾à¾O„¯
 do_bootloader = no
 	# lvmdbusd relies on command log report to inspect LVM command's execution status
-
+DESKTOP-OFJN9OT
 
 	fwsetup
 # abstraction for allowing access to graphical browsers in Ubuntu
-            COMPREPLY=( $( compgen -W 'IN CH HS' -- "$cur" ) )
 
 X-GNOME-HiddenUnderSystemd=true
 # device group names
@@ -781,7 +771,6 @@ image/jpg=org.gnome.eog.desktop
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
 #
-[chooser]
 blacklist tdfxfb
 scsi "B&H SCSI"
 // Country-specific policy file for countries with no limits on crypto strength.
@@ -793,7 +782,6 @@ $x-display-manager gdm3
 
 # Where to place spool and state files
 byte-compile = standard
-  <type name="DejaVu-Serif-Book" fullname="DejaVu Serif Book" family="DejaVu Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuSerif.ttf"/>
 failure_action = ignore
 
 # Compose sequences for ISO-8859-8
@@ -878,7 +866,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 scsi TAMARACK
 		</rescan>
 
-	</alias>
 test "$XDG_SESSION_TYPE" = 'wayland' || return
 
 /HYRGoThic-Medium /NanumGothic-Regular ;
@@ -907,7 +894,6 @@ gt68xx
 #
 # times
 	if [ "$TRUNCATE_NAMESERVER_LIST_AFTER_127" ] ; then
-    <allow send_destination="org.debian.apt"/>
 *ispell.lookCommand:			/bin/egrep
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
 P
@@ -937,7 +923,7 @@ fi
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
   /var/yp/binding/*           r,
-X-GNOME-AutoRestart=true
+
     permission javax.crypto.CryptoPermission *, 128;
 # Compose sequences for CP1255
 # Any customisation or reliance on the existence of this file and its
@@ -949,7 +935,7 @@ NoDisplay=true
 
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
   /usr/share/perl/**             r,
-CATALOG /usr/share/xml/qaml/catalog
+blacklist lxfb
 # the root account (the options `even_deny_root>` and
 # vim:set ai et sts=2 sw=2 tw=80:
 # SCSI
@@ -962,7 +948,6 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 blacklist raw1394
 # system supports only Multiple Profiles Single Device (MPSD) configuration
 
-
 fi
 # Compose sequences for GEORGIAN-PS
 NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
@@ -972,10 +957,9 @@ brandon:100000:65536
       106 118 146 183 207 227 242 249 250 241 225 205 181 145 117 105
 #
 #
-#  never  - Never check for, or allow upgrading to, a new release.
 
 # modem initialization string.
-#
+
 /dev/scanner
 # Allow non-root users to specify the allow_other or allow_root mount options.
 #    This program is free software; you can redistribute it and/or modify
@@ -1002,7 +986,6 @@ $x-display-manager gdm3
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
 
 # Note that any setup should come before the sessreg command as
-# Normally, if the DHCP server provides reasonable information and does
     monthly
 è_‰D«®È¾EŸÄdùWM¯µ0L’Æ>?†´Ù×„[şšf™6ÆüÜ„	*‡nµ9+İKø¢·|#ï17Wí¤Ö&J÷1ñégÜ~ÖÅ=À¾cC¡Ò5°Øa
 # Read man sane-mustek_usb for documentation
@@ -1057,3 +1040,12 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 #children_max=
       This configuration is available on the major desktop environments.
   owner @{HOME}/.cache/ rw,
+    <allow own="org.freedesktop.Accounts"/>
+# for allowing access to xterm
+†Ë«İù»—bdœ-vj!Â",şé©×ZÑ=m';È61©C§Òâ»B“,éUWÕ>ö4÷ùş±è2Õí¥V°,Ô_o°Âõóî±Æc„bƒãÎ´;p)ÒW‚PÄ
+# This module parses environment configuration file(s)
+# minclass = 0
+#include <tunables/global>
+
+        %facetAttr;
+
