@@ -83,7 +83,6 @@ Comment[zh_CN]=å¯åŠ¨ PulseAudio å£°éŸ³ç³»ç»Ÿ
         <policy user="root">
 
      o General entity declarations of any kind.  For example:
-commands scan this directory processing all files that end in '.conf'.
 password	include		su
 
 # As a result, cloud-init has written this file with configuration data
@@ -130,13 +129,13 @@ Acquire::Changelogs::AlwaysOnline "true";
 ## template:jinja
 trusted.SGI_DMI_*		skip		# xfs specific
 # $ sudo dpkg-reconfigure apparmor
-
+# vim:syntax=apparmor
 # This file is a simple placeholder to keep dpkg from removing this directory
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 
 swedish         sv_SE.ISO-8859-1
 XClock.input: false
-    modprobe $module $args || true
+*Text.Scrollbar.background:	gray60
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
@@ -183,7 +182,6 @@ label=magenta,
 
 # Defaults can be restored by simply deleting this file and all drop-ins.
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-# Try to rerun any package data downloads that failed at package install time.
 #
 # Local users may interrogate the ntp server more closely.
 	cat <<-EOF
@@ -235,7 +233,7 @@ makestep 1.0 3
 #pnm
 # vim:syntax=apparmor
 # If you want to globally change where snmp libraries, commands and daemons
-{% for pool in pools -%}
+<!-- ...................................................................... -->
 turkish         tr_TR.ISO-8859-9
 # or removing a feature will be allowed.
 <!ELEMENT magicmap (magic)+>
@@ -323,7 +321,6 @@ fi
 
   </policy>
 *customization: -color
-        if shopt -q progcomp && [ -r /usr/share/bash-completion/bash_completion ]; then
 			<string>AR PL UMing HK</string>
 OnlyShowIn=GNOME;
 # Turn on Source Address Verification in all interfaces to
@@ -339,7 +336,7 @@ bookworm/sid
 APT::Archives::MaxAge "30";
 		Shift<Btn4Down>,<Btn4Up>: Page(Line,-1) 
 
-185 211 238		SlateGray2
+ctl.!default {
 change_hat {yes
             <extension base="saml:StatementAbstractType">
 
@@ -352,7 +349,6 @@ usb 0x043d 0x007c
 /usr/lib/i686-linux-gnu
       without rebooting a machine which drastically limits the need for
     delaycompress
-
 
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 # How many usec (1,000,000ths of a) between sending the "back to default" break
@@ -395,7 +391,7 @@ DNS={% for server in nameservers %}{{server}} {% endfor %}
 auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
 	        # check because c-n-f could've been removed in the meantime
 X-GNOME-Autostart-Phase=Initialization
-the exact distribution terms for each program are described in the
+esac
 0xD9 'Ã™'
 
 #
@@ -409,7 +405,6 @@ the exact distribution terms for each program are described in the
   abi <abi/3.0>,
 ### END INIT INFO
 # Specify command line options here. This config file is used
-bazaar-properties.desktop
 # Compose sequences for ISO-8859-5
 ports=22/tcp
 
@@ -418,7 +413,6 @@ ports=22/tcp
   LABEL="UEFI Firmware Settings"
   	if [ -r $CACHE ]; then
 tcp.flag.psh	u8		tcp+13		0x08		3
-*form.fold.width:			36
   </match>
 <?xml version="1.0"?>
 
@@ -442,10 +436,10 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 X-GNOME-Bugzilla-Version=3.36.x
 /var/log/apt/term.log {
 	daytime_hosts => [ qw {} ],
-#
+udplite	136	UDPLite		# UDP-Lite [RFC3828]
 # Compose sequences for ISO-8859-16
     permission java.lang.RuntimePermission "accessUserInformation";
-#NTP=
+                    Schema Recommendation</a> forbids the declaration of
 do_bootloader = no
 
 	€<¿Íˆ²Éş$£¯”4&6ùü_•Ów¤QiA÷ŞEØ^«“èÙ%È’ìM L™ª¼Ê´&5ÂHF1#š«q…yb¥ı?¯Š£ëèÎ'±å,ñÿ48¨½¢OµF Ü¸$‰òQÿ[ÂÕ±9-Æ0sá…Å{±@´/œU—k,¨¯ŸOÄDg™ùİæéúœw‘nîœlªmP2¹4¿§<ˆ„ßš¹:áƒ8JÔ$¡|g3üFW¢õKsêŸO]ˆ•i×µ>*4fMLİ-GãKş©ß`…G.{ü5Un‰CeFa‘çfïRğ³€Zäˆ=?@è*éÊµ~>¤ĞO‘1äuš¸Ü’N@˜ÛÅãn#L™ <ƒ7?w¥†}7XfÄ®5ÍÙãîÜÛ~#|V%óOuF×E 0‡/ú­4…o<
@@ -574,7 +568,7 @@ Clock*BorderColor:	light blue
 if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
 127.0.0.1	www.paginebiamnche.it
      declaration that uses the public identifier shown below:
-  /usr/bin/dbus-launch ix,
+# Magic local data for file(1) command.
 *Scrollbar.displayList:\
   /etc/X11/app-defaults/XTerm r,
 STARTSSH=
@@ -622,7 +616,6 @@ check_config() {
 
 *insertFile*text.?.pieceSize:		256
 blacklist raw1394
-
 application/pkix-cert+pem; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
 # Compose sequences for GEORGIAN-PS
 NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
@@ -672,7 +665,6 @@ hanzigb24st "-isas-song ti-medium-r-normal--24-240-72-72-c-240-gb2312.1980-0"
 session	optional	pam_systemd.so 
     # pivoting into a whitelisted path.
 				/bin/plymouth message --text="${TEXT}"
-#children_max=
       This configuration is available on the major desktop environments.
   owner @{HOME}/.cache/ rw,
 # for allowing access to xterm
@@ -727,7 +719,7 @@ SHELL=/bin/sh
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 #    modify it under the terms of version 2 of the GNU General Public
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
-Ubuntu 20.04.5 LTS
+
 X-GNOME-Bugzilla-Version=3.36.0
 #!/bin/sh
 
@@ -816,7 +808,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
   # User files
 #
 : > "$TMPFILE"
-#
+  /etc/cloud/clean.d/99-live-installer
 *Background:			RoyalBlue4
 rtcsync
 done
@@ -835,7 +827,7 @@ done
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 #
-pim	103	PIM		# Protocol Independent Multicast
+	# the local host, which is determined by system_id_source.)
 {¶Ç.@ÀBG‡¿yóØXP¿j±˜ó”nÒGí¥/©püµ‡æ§İo¿7eœ„îÿí™Àm×£[ÈM¨Ù–šüŞØG£Ş-£ªÎ£[Âxo”üédÙÏ@CÍ >MEÆu}üèDÎtKZCAù~ûivÎî¦UZ§Ş«+¤@Øÿ¹ØxâÊ†vF”/âöÜÄn1#À´Ç×¨Š·Æ‡×~5üüAóÒ¡…êCÕÇFĞÕ[Æ«ÖÏË¾pn"Xo4>•ùR¤CkÀ^«—'±´1öl:;y>…óYeP+¶]µ°û3WŒbLîMGäœ²ª‘ñdõ=]^X~1&ëò¢ñöøÈÅd•>”½Ô–=SÕ±eÕº¸½Â5¦¯fÿbìOw½>¡ö;§…íÇO1&ûõä\LŸ*Ş–}{ım•æå{#¯)µàR;cÚı	VŞê.¬ÇD°@ªïGÆ›5G‚şûGÉ¶>ış¾¯d»şËÖÚóKIQ{›Ot:E05õnÀ’½	ÏPÕåç´_TVĞŸ…ÑbwwÇÜBm%gg÷¬«ZåÙù³Ùb±^,f³¾\W¯Ø¿ÜPˆşİµ1úç•fÙ“ÔÔîC{F×Õß¶şÛrQYÕ*”½Ô“Úoô­÷¯Mz®sn¶¿şªı¸Ê£i^½ŞT²¯Ÿ ı¬@™Æê?3¶÷kÅ„V<}tÅ­x~;¾,Ğ¡õmÚû!µ?	í›SC,µ¡efÿäºŞ­dÙR°¾ø-´í¯†j$
 # +CPIN provides the SIM card PIN
     <accept>
@@ -918,7 +910,7 @@ show-im-name=false
 #0x2eb
 # drop-in config adds a condition to sshd-keygen@.service if it exists and
 
-  /usr/bin/decibel Cxr -> sanitized_helper,
+# set this to 0 to disable apport, or to 1 to enable it
 [ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
 <?xml version="1.0"?>
 commands scan this directory processing all files that end in '.conf'.
@@ -1074,3 +1066,17 @@ Acquire::Changelogs::AlwaysOnline "true";
 *Fetch-button.label: Fetch
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
+sonames=libbd_swap.so.2
+    <h3>Father (in any context at all)</h3>
+*ispell*check.label:			Check
+group:          files systemd
+
+
+# DO NOT EDIT OR REMOVE
+
+#!/bin/sh
+@include common-password
+  </its:rules>
+
+# Standard Un*x authorization.
+# to allow your remote connection before starting ufw. Eg: 'ufw allow 22/tcp'
