@@ -55,7 +55,7 @@ checkbox=,magenta
 # Compose sequences for ARMSCII-8
 # option stop_on_fsu_error: should be 0 or 1. If set to 0,
 
-
+#
 
 audio/x-mpegurl=rhythmbox.desktop
     esac
@@ -94,7 +94,6 @@ XConsole.translations:		#override
     [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
 /dev/scanner
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
-# Compose sequences for GEORGIAN-PS
 # deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
 
 mode="${1#'}"
@@ -102,7 +101,6 @@ mode="${1#'}"
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #DefaultBackend=auto
 #    This program is free software; you can redistribute it and/or
-<delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML V4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/catalog.xml"/>
 #FallbackNTP=ntp.ubuntu.com
 # This file should not contain commands that produce
 {
@@ -144,7 +142,6 @@ Before=snapd.service
 # The following may be used to add additional entries such as for
 [Sleep]
 #    Copyright (C) 2012 Canonical Ltd.
-/dev/scanner
 
 rocks_trees = {
 
@@ -199,11 +196,10 @@ LP-PPA-ubuntu-mozilla-daily
 /dev/scanner
 eval $(/usr/bin/locale-check C.UTF-8)
 letter
-  </rejectfont>
 d /run/screen 1777 root utmp
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
-<?xml version="1.0" encoding="UTF-8"?> <!-- -*- XML -*- -->
+XClock.Clock.secondColor:	rgba:00/00/ff/80
 		AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`
   # Apport
 ### that look up the default sink/source get the right value
@@ -282,7 +278,7 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
     permission java.util.PropertyPermission "path.separator", "read";
 #
-# usb vendor product
+# Cloud Image specific Grub settings for Generic Cloud Images
 ˛GéöÀ<q
  l
 # ------------------------------------------------------------------
@@ -459,12 +455,12 @@ fi
 # kdenetwork
 
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
-#    Copyright (C) 2015 Canonical Ltd.
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 /dev/scanner
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 " If you don't want that to happen, uncomment the below line to prevent
 
-# Scripts in this directory are executed as root when a user log out from
+    <allow own="org.freedesktop.Avahi"/>
 # cloud-init. They are read in lexical order. Later files overwrite values in
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
         This is a copy of the Bistream Vera fonts fonts rule, as DejaVu is
@@ -589,7 +585,7 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 
 
 #
-. /usr/share/bash-completion/bash_completion
+ 80 through 89		match target="scan" (modify scanned patterns)
 SHELL=/bin/sh
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
@@ -639,7 +635,6 @@ deb {{mirror}} {{codename}} multiverse
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 			<string>sans</string>
   the ImageMagick option
-# clean all crash reports which are older than a week.
 alias.url += ("/javascript" => "/usr/share/javascript")
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
@@ -718,7 +713,6 @@ main
 	˚Ñ?'/[¨ˆàﬂßø|L•
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 
-# VM6586 Primax Profi 19200
 -----END PGP PUBLIC KEY BLOCK-----
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 restrict -6 default notrap nomodify nopeer noquery
@@ -772,7 +766,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
    case "$reason" in
 # Compose sequences for IBM1133
 
-<fontconfig>
+run_im default
 #
 [Desktop Entry]
 #
@@ -859,7 +853,6 @@ encap	98	ENCAP		# Yet Another IP encapsulation [RFC1241]
 # interpreted by the kernel to help with debugging. The kernel will respond
 # ------------------------------------------------------------------
 deb http://packages.azlux.fr/debian/ buster main
-<!DOCTYPE busconfig PUBLIC
 <?xml version="1.0"?>
   /etc/gtk/*                      r,
 			for N in $new_dhcp6_name_servers ; do
@@ -1036,8 +1029,7 @@ has led to the following conventions in usage:
 #    modify it under the terms of version 2 of the GNU General Public
 fi
 Type=Application
-############################################################
-# or simply
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 # Setup file rotation - keep 3 files
 #
 
@@ -1060,7 +1052,6 @@ Ubuntu 20.04.5 LTS \n \l
 // Some countries have import limits on crypto strength, but may allow for
 deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # orbit2 permissions
-)ó…∏¶Fçû|O#e◊p"^˝Lñ@hNnW.ßüâÑ˜I∑R1„CÎØË«ßr›∫e3Z™â¥JﬁÂ|"ÙüìÓ(÷jM«q¸OW*ïÒD"a‚Ûd∑˙ªI'‘É]%+^ÖÀ‰w˙"57’‰†π¥'„fRN"“˙PIíJX'Ë_’?CõÜáá◊πùÒ˘¢eUwØ˛„A~ZX	Íª≥¶ıW€iµ_•h∆‰äï]8^U^Ôs˛˜ f¯˙˙üÔxÆVÛıQ≠’◊èå¨Ø◊¸Ù„ö¶º±±Õõ√Ú™££√√CCÉÉ’Pøˆ¸Û⁄≠ürõ«J…0æ^´U√¸ïﬁtb
 cmdrespause=125000
   /tmp/.ZendSem.* rwlk,
 $x-display-manager gdm3
@@ -1087,12 +1078,11 @@ APT::Periodic::Update-Package-Lists "1";
   audit deny @{HOME}/.mozilla/{,**} mrwkl,
 # Legacy biarch compatibility support
 
-#
+    xhost +si:localuser:`id -un` > /dev/null
 compose '_' 'a' to '‡'
 
 
 
-DESC="unattended package upgrades shutdown"
 /lib/i386-linux-gnu
 #endif
 # The possible arguments are:
@@ -1151,7 +1141,6 @@ lines		1,-1,-1,-1,-1,1;\
 # Rules for writing KDE icon cache
 # ------------------------------------------------------------------
 +D4CFmCnW8cc+Jb6jrJ2ZcjUqWE/c+uwZhwsUHNdk6ummPPKfMhRSbduk1ngdQe5
-
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 ###                   read requests. All values are given in milliseconds,
 /dev/scanner
@@ -1198,3 +1187,17 @@ APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || 
     $primeswitch
 <!ATTLIST type version CDATA #IMPLIED>
 # device connections. Several older mice have been known for not supporting
+  audit deny @{HOME}/.inputrc wl,
+#
+#include <tunables/home>
+# on the right-hand side.  The list items are separated by semicolons ";" and
+[ ! -r "$auto_attach_stamp" ] || cat "$auto_attach_stamp"
+  /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
+you need to add the following to config:
+Before=snapd.service
+  #include <abstractions/ubuntu-console-email>
+{% if log_level %}
+<delegateSystem systemIdStartString="/usr/share/sgml/dtd/qaml-xml.dtd" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
+		<default><family>fantasy</family></default>
+# This file will be sourced by both shell scripts and python code,
+#
