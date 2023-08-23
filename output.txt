@@ -233,19 +233,17 @@ X-GNOME-Autostart-Phase=Initialization
 @{run}=/run/ /var/run/
 		<test qual="any" name="family">
 
-   <xs:documentation>
 driftfile /var/lib/chrony/drift
 if [ -x /usr/lib/update-notifier/update-motd-fsck-at-reboot ]; then
 #
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
-20210529091139 2 6 100 8191 2 D8A2E2F024645B5A3FB339A2EF06A3E46CD2AA808530C320F121CE1EEBEE128D6DB4C49492881B35E5AA8C43CAA07E7F69A5C4ECD0EE62A29FC191B9C0DD6955E23E831A0573135B9931D03A5BBCA961410CA287D08D53C0E8CFEC19534C4FECBAD0F2BE625802AF1B504F59A4A88DAA5F52F221E0E9E0DB1396F07EAF2CA88B79D8CF35EF154A69569C545CA1D04A07ADE3628243039985880B79972FB9F5070951D40C9D21C1729348152724531B270C9DEBB5B2C730C72F4EA3932DB44BD3C746E082856A4109A37BA979164881D5B8007807FF1A7E0C48F99DBBE1709585203E579AE201D295E720CDD45B3A8652A7CE878765E699727641410F840871B4362DC51A3D4D15980876649089CE845B5733497FB8E7B2568EF8627EC1BEE0434A3A72094132A0BA0CA102A440952285823FB09684A1C52468193F6E8A6CC9D935C13FCC661DED5CB84B5D5DF721447531787F78AB31AA1D6342460A8B896518640B7DCF3825B52D46469351EF17E586B661D5C0E792C0AA0B0309B8A4BECB3B267BB459C7452387FF6028EEC1C6DFAE3EE9452EB7A7CFB9CDD361B45FF29E6648BD94712BEF29A1C86C492231F710BC66BF8CF83F8765EF6DBA6857C733789DD71245F17C6FA03DD07FCFFBC450029776FDB4F4B411D4B4A98E090CB79B4CF990398FE1C147CE959C8C11D5DE9A4271EA4CA3D8A50A6F7081A2B0F95AA4AD80081511C357D9F15B7547F0A725EED4EE7FDDAE32A3D00512984928679C51375777E968FE3363DCC495300762C7C6D32F4088DB4D4D4449610D05E87CECADA742827EF2B4EF1D064CEB0EEBB01264306F3E24D6260483829576F88B8346764429722BFD0FE3845F541837ACFFEDA101E0E082F618630B741BE1A9E44C677A947FEC31F08EB338798617A09C38EF3FF31A677E62DCDBA2C56D37B1F16AD2B06F41D3E5CDE9A9B7179B6EC46DF99D857521DF29E8012A1AFE6F2F0658171F56EEA20E531C3B2E02864B130BB0BA476F23024DCCA6411CE1BBD1D5C9F5346DB36334117AAF7A1B4ABE86470CABDF862010F5AE3129CA17F36BA89EE3DB83641804EC2455ED75686342E9F339068A77258BBC292E05AF5C233F5B74CA83080CC5DAE01E977E2F7D1ADC36803398B81DAC22DE391F512912148392371C658C416C96C8C3035928EDBB418CF249C9C02793AE6661AB04B4C6C944F55B23CB5621511DACD8EC5C1ECD463620CAC79C38B6CC95FA8993482EA255246D30DA6EA67C677889F56CDF4466F5D968069E152B0BE30B64E1B18607035D7D15503D364B73BAB5582CDF290FE30D2EB7A4F6F797D80702CC448E1153A3A9D882445C73BA490388588F31FA6C14BA7DBFAD39E1CE6B0E2FAD69015F81FF6DAAC56420A478CF717DD952A0DC51B1E38113CF5EF2AC2EC08B6F6CB427A06AD990213C09DB2CBC6896B3
 #    This program is free software; you can redistribute it and/or
 compose '`' 'u' to '˘'
 
 # Case-sensitive behavior is defined by the operating system.
 global {
 #
-# restore the kernel default if the value is changed during runtime; for
+       not necessary for user PulseAudio instances. -->
 	check_privsep_dir
 # Compose sequences for IBM1133
 
@@ -275,7 +273,7 @@ restrict -6 default kod nomodify notrap nopeer noquery
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 yﬁÒ#≤.¸ÖSkÈô¡Úo€oãcåP+ ∏\*pF˙õÛS÷[∑ú6Y].¿Ï;œ”‰@y(R£X<¯|)>+Øò¥jhºbûê`[éƒ•)º¯*Ù#Ku Ù7NëAÀ5}FÄ@KsË1≤Á9Ö)&g˘—DO≥›1
 # $ sudo dpkg-reconfigure apparmor
-#!/bin/sh
+  do
 Title=Vendor
 # This file is sourced by Xsession(5), not executed.
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -293,7 +291,6 @@ XClock.input: false
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 # If xhost (from x11-xserver-utils) is installed, use it to give access 
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
-
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
   <acceptfont>
@@ -315,7 +312,6 @@ trusted.SGI_DMI_*		skip		# xfs specific
 [service]
       We shouldn't overwrite it with "assign" unconditionally.
 S· éÛ:]C+º›ò∑MÃ÷G˛pÇÙ£„◊?é“«ùMî±‡„@á“¸≥w>Ç≠ü¬œçèM?€ÉXèìYäÆKe>(pÎ9lÇå√nœŒå,<ÕôzV@q-N˙„”ó˛‘x‘ì÷`î~ju©‰—]bz1z¸'”N} ∆a?t®Q}‹ÕÔ”P[ƒˇÑ!çøˆÿà=∫›
-	<include ignore_missing="yes" deprecated="yes">~/.fonts.conf.d</include>
 	<!-- Add language for emoji, to match other emoji fonts. -->
 Description=Mount unit for snapd, revision 15904
 # permissions for querying dconf settings; granting write access should
@@ -334,7 +330,7 @@ QUIET=0
 #
   /etc/postfix/*.db     rk,
   </match>
-# ------------------------------------------------------------------
+compose ''' 'i' to 'Ì'
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
 #option scsi-maxqueue 2
@@ -449,14 +445,13 @@ fi
 # ctrll shiftr alt keycode 36 = Incr_Console
 z¥Ë}z÷£m¬∏∫˜®ÌÍ÷".‚"Ó¡qõŒÏLËuﬁªl≈P†x¶BªÈ=›ØõÓÿ√eÂÀÛ‰z•Ωf8ˆè}¨ˆøM/@>ÁIñ◊|x]˝È≠:}äëÈG“zÕ±˚»Æ !≈ãsıÄx‡AøOÎWªöÈ˝ƒó‰˙¶‹£|ø÷¢Ì{0¬ ÃÀ£ı"z˚vΩƒvºõv5–ìº≥Ï€äg*¥´ëqö›óımÚ"À˘]2ﬂ7Nœ¸#=´´€°	jÔ◊ÀKT®P=C•ıFöy˜Ö≠≤;6§‚∏˜¥z"!“ãà‘ÙÆπ¸N“€5çjÕ◊ZtÏ9L¿L~r&*π–,9“5j‘«Wk˜ÒÙÃËs¥-XG˘:g—mG	{ÿø {ı”Hù·∑,Yû?¨.´ﬁ¢¡!Û∆⁄Ûò)i˚Mêÿo7ŒŒŒŒŒŒŒ»>#ÍÊD~“˜,πK*Q!z(∫S3Óº¿º¿ÀÇ¥±*Ù6ˇ4-±Ô¶]Ù6πÔØyî(è†TΩ¡êëõ´aä´WCs5ÑΩè®üjŸÿ9´Ë@@@@?1zUîy≤æ.N¢‚d[l£Ù’ˇbó}¨c…
 
-logdir /var/log/chrony
+#    This program is free software; you can redistribute it and/or
 fi
 *SimpleMenu.line.height:		0
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
 #
 # clean all crash reports which are older than a week.
 
-# @{HOME} is a space-separated list of all user home directories. While
 }
 Each file in this directory is an rt_protos configuration file. iproute2
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
@@ -514,7 +509,6 @@ allocation {
 	</alias>
   # Include additions to the abstraction
 America/Los_Angeles
-
   rotate 6
 #
 # Kernel Image management overrides
@@ -568,7 +562,7 @@ contract_url: https://contracts.canonical.com
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 *Indicator.width:		15
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
-# Compose sequences for ISO-8859-8
+deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
   # System files
 #allow 192.168/16
 #keyfile /etc/chrony.keys
@@ -590,8 +584,7 @@ AutomaticSecurityReports=false
 
     user_friendly_names yes
 221 160 221		plum
-blacklist neofb
-    y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/;  # lower-case
+# Allow NTP client access from local network.
     </edit>
     exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
 <Key>Escape: quit()
@@ -618,7 +611,7 @@ scsi Nikon * Scanner
 # enable xtrace if we should be verbose
 #   1:			top		# top -> 1:0
 	<alias>
-# If you enable logging, you may want to add an entry to a log rotation
+# interpreted by the kernel to help with debugging. The kernel will respond
 
 # @{securityfs} is the location where securityfs is mounted.
 Znd1cGQub3JnMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA8GA1UdDwEB/wQFAwMHBgAw
@@ -714,7 +707,7 @@ change_hat {yes
 //Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
 	cache_mode = "writethrough"
 631	# cups
-} < /dev/tty${1#vcs} > /dev/tty${1#vcs}
+alias net-pf-19 off
 usb 0x04e8 0x3455
 
 compose '<' 'r' to '¯'
@@ -730,7 +723,6 @@ compose ',' 'A' to '°'
 			done
     delaycompress
 
-
 # kernel.dmesg_restrict = 0
 
 fi
@@ -743,8 +735,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
   abi <abi/3.0>,
 -->
 
-#
-# Compose sequences for CP1256
 # Specify the key identifiers which are trusted.
 #backwards compatibility include, actual abstraction moved from php5 to php
 {
@@ -934,7 +924,6 @@ do_bootloader = no
 
   /usr/{local/,}share/glib-[0-9]*/schemas/** r,
 # abstraction for allowing access to graphical browsers in Ubuntu
-	notifempty
             bindkey -M "$i" "$sequence" "$widget"
 # one second, but only in the first three clock updates.
 
@@ -945,7 +934,6 @@ do_bootloader = no
 
 		;;
 # install the apport exception handler if available
-  upload_limit: 100
 camera=Kodak DC240
 X-GNOME-Autostart-Notify=true
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
@@ -977,7 +965,7 @@ datasource meta-data and user-data.
 start_it_up()
 [Mount]
 
-# on this system.
+unset SUBMITURLS
 						;;
      It is enabled by default with Ubuntu Pro. You can find out more about
     done
@@ -1019,3 +1007,14 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 #
 enabled=1
+
+## To make sure an option is disabled, use "unset <option>".
+	</alias>
+# file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
+<!DOCTYPE typemap [
+    IM_CONFIG_PREFERRED_RULE="zh_CN,fcitx:zh_TW,fcitx:zh_HK,fcitx:zh_SG,fcitx:ja_JP,fcitx:ko_KR,fcitx:vi_VN,fcitx"
+      <enumeration value="maxExclusive"/>
+254	main
+*replace.accelerators:#augment\
+# PercentageLow=10
+
