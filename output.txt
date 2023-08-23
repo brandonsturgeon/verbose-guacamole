@@ -14,7 +14,7 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 		read dev <  $1/dev
 
 # Here is the list of possible values:
-  owner @{HOME}/.config/ rw,
+<!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 # Compose sequences for ISO-8859-6
 NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 
@@ -135,7 +135,6 @@ password	include		su
 *ispell*look.label:			Look
 .  " rather than letting it be rendered as "&minus;".
 PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
-# should contain commands that should be executed only
 #!/bin/sh
   abi <abi/3.0>,
 # shellcheck disable=SC2086
@@ -157,11 +156,10 @@ lock
 	log_begin_msg "Stopping $DESC" "$NAME"
 /var/log/boot.log
 #
-# and user name in $4.
+   (append '(("CMakeLists\.txt\'" . cmake-mode)
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
 *form.invert.label:			Invert
-;; -*-emacs-lisp-*-
       <string>DejaVu LGC Sans</string>
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main
 # so please ensure that:
@@ -198,7 +196,7 @@ compose '`' 'u' to 'ù'
 # raid1
 #select-timeout 5;
 # Compose sequences for ISO-8859-6
-#
+#   "SANE_STATUS_UNSUPPORTED",
 »}Nz×åË‰F´Í{SÊBÔ‡&¶šŸXéPjˆjàg§]‰8‹
 ${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
 
@@ -307,8 +305,8 @@ scsi ULTIMA
 # Magic local data for file(1) command.
 fi
 fi
-  #/{,var/}run/mysqld/mysqld.sock rw,
-
+# append to the history file, don't overwrite it
+/dev/scanner
   log_action_end_msg $?
 };
 #
@@ -332,10 +330,10 @@ X-GNOME-AutoRestart=true
 # the terms of the GNU General Public License as published by the Free Software
 
 		exit 0
-    unset XDG_SESSION_ID
+#  (at your option) any later version.
  -->
 Parent: Debian
-@include common-session
+#export http_proxy="http://127.0.0.1:3128/"
 " Vim will load $VIMRUNTIME/defaults.vim if the user does not have a vimrc.
 # default location for the meta-release file
 # $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
@@ -429,7 +427,7 @@ brandon:100000:65536
 # @{securityfs} is the location where securityfs is mounted.
   set -e
 Type=Application
-    s/^[^=]*=//; s/^'\(.*\)'/\1/;  # get value
+	</policy>
 blacklist sbp2
   # System files
     label in1 "Vcore"
@@ -479,7 +477,7 @@ compose ')' '-' to '}'
 
 # shellcheck source=/dev/null
 	cache_pool_chunk_size = 64
-scsi Nikon * Scanner
+# The following lines are desirable for IPv4 capable hosts
 # Required-Start:    $remote_fs
 # enable xtrace if we should be verbose
 #   1:			top		# top -> 1:0
@@ -589,7 +587,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 # Specify the key identifiers which are trusted.
 #backwards compatibility include, actual abstraction moved from php5 to php
 ### FILENAMES ETC
-# no packages own btmp -- we'll rotate it here
+#    This program is free software; you can redistribute it and/or
 #    Handle linux distributions that use systemd to replace the legacy
 eval $(/usr/bin/locale-check C.UTF-8)
 #    Copyright (C) 2002-2009 Novell/SUSE
@@ -614,7 +612,7 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
     done
 # set start_ro=1 to make newly assembled arrays read-only initially,
-ñs’Ö+š,‚Ø€Íf£‚\qã®8™•ÎHDrbÏø>j.ñ§Éò°ÜÀ¢N¡·nÁÌÀÌb¦‚›‡µµH±¶–6ƒýÍ»Ë·»(·ÑýùrwùªV{¨|ZkàÎàÎ=à¬‚5›aÿ"Êqô÷PÃTþ>°gl£ýà7Òê›1bÙÈ.À7|Ãw§¾Õ`g3h_åit~yžkˆ!B„øEŒÙÞÅþ+Ö›eID.5Ñ;vŒ¦5Ú²T×öö©àáÐT•ƒrÂf’.\Zä©JJt'TIÑ¬F[ŠºžÙs÷©àáÐT©AÉfL.ØPÕ†·Ý)­LÑ¼F+Å‘®göFûTp‡phªÔ d3t¨ÕðÖDwF½ÓÃÔh¥èézfÏÛ§‚C8„CS¥%›q· Cu¨Ý+ÑSïôð†5Z)Žu=³7Þ§‚C8„CS¥%›)¶ Cu¨Ý+q4 ?«ôðÜ­'ºžÙ›ìSÁ!Â¡©Rƒ’ÍX[Ð¡:Ôn•8RïôðF5Z)Nu=³7Ý§‚C8„CS¥%›™´`·ÈjxkâÈ¥Þéáy5Z)Ît=³7Û§‚C8„CS¥%›!¶`·Èjxkâˆ=¢‡7®ÑJq®ë™½ù>Â!š*5(gÅä:V]íŠGuÏMj´åoð@¯PXÔŠìZø…_ø=Ú¯Ìl&ÐÏ»Ÿ*T
+/var/log/cron.log
 # invoked with "-" as the first character of argv[0], and
 };
         cat /run/motd.d/85-fwupd
@@ -635,7 +633,6 @@ ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 DNS={% for server in nameservers %}{{server}} {% endfor %}
 # ctrll alt keycode 36 = Incr_Console
     </accept>
-}
 		<rejectfont>
 # Record the rate at which the system clock gains/losses time.
     start-stop-daemon --start --pidfile /dev/null \
@@ -691,7 +688,6 @@ alias net-pf-36 off
 
     while(<$plist>) {
   	if [ -r $CACHE ]; then
-
 tcp.flag.psh	u8		tcp+13		0x08		3
 DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
   </match>
@@ -771,7 +767,6 @@ font='Monospace 16'
 
 	case "$REPORT_ABSENT_SYMLINK" in
     fi
-start_it_up()
 audio/x-pn-aiff=org.gnome.Totem.desktop
 
 
@@ -806,7 +801,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 /Adobe-CNS1-Bold /ZenKai-Medium ;
 #
 #
-enabled=1
+eval $(/usr/bin/locale-check C.UTF-8)
 # Required-Start:    $remote_fs dbus udev
 ## To make sure an option is disabled, use "unset <option>".
 
@@ -837,7 +832,7 @@ image/jpg=org.gnome.eog.desktop
 X-GNOME-Autostart-Phase=Initialization
 }
 #
-    <allow own="com.ubuntu.SoftwareProperties"/>
+[chooser]
 blacklist tdfxfb
 scsi "B&H SCSI"
 // Country-specific policy file for countries with no limits on crypto strength.
@@ -874,7 +869,6 @@ system.posix_acl_access		permissions
 
 #!/bin/sh
   /usr/bin/citadel Cx -> sanitized_helper,
-/usr/bin/wine-preloader
 #   2 = handle as i/o error
 #               -> put your type of protocol instead of 'https' : http or https.
 # This file is sourced by Xsession(5), not executed.
@@ -897,7 +891,7 @@ rocks_trees = {
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 
 	rotate 4
-
+# Compose sequences for TIS-620
 		<allow own="uk.org.thekelleys.dnsmasq"/>
     family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
 #  if no sources are feeding it, so this may help when apps use more than the
@@ -932,7 +926,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 # and should contain a list of modules that define tasks to be performed
 XCalc*hp.button36.background:	white
 ; cpu-limit = no
-[mysqldump]
     exec /usr/lib/update-notifier/update-motd-hwe-eol
   # pretty-print messages of arbitrary length; use xmessage if it
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
@@ -981,10 +974,9 @@ gt68xx
 # CONFIGURATION FILE FOR SETUPCON
 # how to byte-compile (comma separated: standard, optimize)
 # The usual place for a SCSI-scanner on Linux
-# subpath mappings from mount point for pinning
+      interface="com.canonical.Unity.LauncherEntry"
 #!/bin/sh
 
-/usr/lib/x86_64-linux-gnu/libfakeroot
   /usr/bin/dbus-launch ix,
 # 127.0.0.53 is the systemd-resolved stub resolver.
 fi
@@ -1033,3 +1025,14 @@ fi
   /var/log/samba/* w,
 XClock.input: false
 NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
+# remove the iwl?vm module and then iwlwifi.
+¤
+brandon:100000:65536
+iZ8ikN+HNJa5uQ68F76aDP1BOE0XiLrOZC0MZ7mvbyOi9LPXFyV2EuVj+gt7r+2x
+      106 118 146 183 207 227 242 249 250 241 225 205 181 145 117 105
+#
+#
+#  never  - Never check for, or allow upgrading to, a new release.
+  /usr/bin/nvidia-modprobe Px -> nvidia_modprobe,
+# modem initialization string.
+#
