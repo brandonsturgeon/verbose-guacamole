@@ -9,7 +9,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 # /etc/passwd file.
 required in any way by the specification).  The information may be useful in
 *JumpScroll:			1
-@include common-session-noninteractive
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 </fontconfig>
 /usr/lib/x86_64-linux-gnu
@@ -49,7 +48,6 @@ compose '"' 'A' to 'ƒ'
   </match>
 # Unlike any other crontab you don't have to run the `crontab'
 scsi FCPA
-# dpkg configuration file
 #    modify it under the terms of version 2 of the GNU General Public
 #  under the terms of the GNU Lesser General Public License as published by
 search updates ubuntu built-in
@@ -190,7 +188,7 @@ XClock.Clock.secondColor:	rgba:00/00/ff/80
 # raid1
 	</alias>
 {% if nameservers is defined %}
-CATALOG /usr/share/xml/qaml/catalog
+compose ''' 'O' to '”'
 {
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 #
@@ -298,7 +296,6 @@ tcp.flag.psh	u8		tcp+13		0x08		3
 <?xml version="1.0"?>
 overlayroot_cfgdisk=LABEL=OROOTCFG
 	rm -f "$TEXT_FILE"
-20  rdma
 # Don't try to change I/O priority in a vserver or OpenVZ.
 # in the toplevel profile. Eg:
 
@@ -331,7 +328,7 @@ rocks_trees = {
     # Skip in favour of systemd timer.
 
 font='Monospace 16'
-#    Copyright (C) 2009 Canonical Ltd.
+
   RESOURCEFILES=$(run-parts --list $SYSRESOURCES)
 #
 # On Debian/Ubuntu systems, this is in /var/run/screen, but on
@@ -377,7 +374,6 @@ XLoad.input:			false
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 #    This program is free software; you can redistribute it and/or
 #!/bin/sh
-# installkernel must call postinst.d with two args, version & image_path
 # Insert here your local magic data. Format is described in magic(5).
 [fwupd Remote]
 [chooser]
@@ -395,7 +391,7 @@ Name=GNOME Settings Daemon's USB protection plugin
 Vendor-URL: http://www.ubuntu.com/
 # the value 'auto' will make the backend find the correct value
 name = NSS
-	Ä
+Title=Enable UEFI capsule updates on Dell systems
 # This directive enables kernel synchronisation (every 11 minutes) of the
     rotate 1
   /usr/bin/netrik Cx -> sanitized_helper,
@@ -408,7 +404,6 @@ name = NSS
 # msgs, from, etc.)
 	The Bistream Vera fonts have GASP entries suggesting that hinting be
 /usr/sbin/gdm3
-/HYRGoThic-Medium /NanumGothic-Regular ;
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
 Clock*BorderColor:	light blue
 if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
@@ -634,7 +629,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
 What=/var/lib/snapd/snaps/snapd_8542.snap
 create_machineid() {
 mßlj'ã©ZjUJü§mìôÃbπ¸G´πÙOÎ•ﬂØ7DÚˆ
-#    Copyright (C) 2014 Canonical Ltd.
         if [ -x "$STARTUPFILE" ]; then
 	# 
 /var/log/user.log
@@ -742,7 +736,7 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
 root:x:0:
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 #
-
+# password.
 # See sane-microtek2(5) for a description of the options
     else
 
@@ -771,7 +765,7 @@ group:          files systemd
 
 #!/bin/sh
 @include common-password
-  </its:rules>
+<!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 
 # to allow your remote connection before starting ufw. Eg: 'ufw allow 22/tcp'
 # You can change settings by editing this file.
@@ -789,8 +783,7 @@ restrict 127.0.0.1
 #   This is not a comprehensive list of options, look at the screen manual for
 // grant codeBase "jrt:/com.greetings" {
 # set trimblanks
-  <type name="DejaVu-Sans-Bold" fullname="DejaVu Sans Bold" family="DejaVu Sans" style="Normal" stretch="Normal" weight="700" glyphs="DejaVuSans-Bold.ttf"/>
-# Users of this abstraction need to #include the ubuntu-helpers abstraction
+# Copyright: Copyright (c) 2009 Michael Vogt
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 kbd_mode '-u' < '/dev/tty3' 
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
@@ -871,11 +864,10 @@ deb http://packages.azlux.fr/debian/ buster main
 #OK		"AT+CPIN=1234"
 
 GenericName=Demo geoclue agent
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+#!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
 search updates ubuntu built-in
 
-session		optional	pam_keyinit.so revoke
   </match>
 Name[cs]=Zvukov√Ω syst√©m PulseAudio
 
@@ -954,7 +946,6 @@ mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
 {% endif %}
    [[/usr/local]]
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
-X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 #skip-cache
 # SCSI
 ## team, and may not be under a free licence. Please satisfy yourself as to
@@ -966,7 +957,6 @@ $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 # IPMI_Chip_Set_Transition_Severity_Informational                                    Nominal
 	</match> 
 rq0t2YjXglIBHRDiJlOTAR3if37OCDKCcHOOODqYrsN7wNleez+ulkDyP7C7ZTbm
-# Default for Linux and all non-Windows:
   dbus (send)
 	;;
 # with the multiqueue (mq) policy and uses less memory.
@@ -1035,7 +1025,6 @@ ipv6-icmp 58	IPv6-ICMP	# ICMP for IPv6
 <delegatePublic publicIdStartString="-//OASIS//DTD XML Exchange Table Model 19990315" catalog="file:///etc/xml/docbook-xml.xml"/>
   <type name="AvantGarde-Demi" fullname="AvantGarde DemiBold" family="AvantGarde" foundry="URW" weight="600" style="normal" stretch="normal" format="type1" metrics="URWGothic-Demi.afm" glyphs="URWGothic-Demi.t1"/>
 7   selinux
-    <allow send_destination="org.bluez"/>
 alias gawklibpath_append 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIBPATH == "") then; unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWKLIBPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKLIBPATH "$AWKLIBPATH"":\!*"'
 port=/dev/ttyS0
 
@@ -1121,3 +1110,20 @@ fi
 #
 option buffer-size 32768
 
+	thin_pool_zero=1
+#!/bin/sh
+@include common-account
+CATALOG /usr/share/xml/docutils/catalog
+			<string>AR PL UKai HK</string>
+<?xml version="1.0"?>
+; rlimit-rss = -1
+Subsystem	sftp	/usr/lib/openssh/sftp-server
+# usb 0x05e3 0x0145 0x36 0x00
+  </its:rules>
+
+[Desktop Entry]
+fi
+	;;
+{∂«.@¿BGáøyÛÿXPøj±òÛîn“GÌ•/©p¸µáÊß›oø7eúÑÓˇÌô¿m◊£[»M®Ÿñö¸ﬁÿG£ﬁ-£™Œ£[¬xoî¸ÈdŸœ@CÕ >ME∆u}¸ËDçŒtKZCA˘~˚ivŒÓ¶UZèßﬁ´+§@ÿˇπÿx‚ ÜvFéî/‚ˆ‹ƒèn1#¿¥«◊®ä∑∆á◊~5¸¸AÛ“°ÖçÍC’«F–’[∆´÷œÀæpn"Xo4ç>ï˘R§Cké¿^´ó'±¥1ˆl:;y>ÖÛYeP+∂]µ∞˚3WåéèbLÓMG‰ú≤™ëÒdçı=]^X~1&ÎÚ¢Òˆ¯»≈dï>îΩ‘ñ=S’±e’∫∏Ω¬5¶ØfˇbÏOwΩ>°ˆ;ßÖÌ«O1&˚ı‰\Lü*ﬁñ}{˝mïÊÂ{#Ø)µ‡R;c⁄˝	VﬁÍè.¨«D∞@™ÔG∆õ5GÇ˛˚G…∂>˝˛æØdª˛À÷⁄ÛKIQ{õOt:E05ın¿íΩ	œP’ÂÁ¥_TV–üçÖ—bww«‹Bmù%gg˜¨´ZÂŸ˘≥Ÿb±^,f≥æ\WØÿø‹Pà˛›µ1˙ÁïfŸì‘‘ÓC{F◊’ﬂ∂˛€rQY’*îΩ‘ì⁄oÙ≠˜ØMzÆsn∂ø˛™˝∏ £i^ΩﬁT≤Øü ˝¨@ô∆Í?3∂˜k≈ÑV<}t≈≠x~;æ,–°ım⁄˚!µ?	ÌõSC,µ°efˇ‰∫ﬁ≠dŸèR∞æ¯-¥ÌØÜj$
+	separator=" "
+search updates ubuntu built-in
