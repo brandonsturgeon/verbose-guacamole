@@ -4,7 +4,7 @@ required in any way by the specification).  The information may be useful in
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 @include common-account
 
-
+NoDisplay=true
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 Enabled=true
 
@@ -44,7 +44,6 @@ Alias /javascript /usr/share/javascript/
 Title=Vendor
     <allow send_interface="org.debian.apt.transaction"/>
 
-0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
     // There is no restriction to any algorithms.
 
 [Configuration]
@@ -53,7 +52,7 @@ usb "Panasonic KV-S1025C"
 checkbox=,magenta
 # Compose sequences for ISO-8859-8
 # Compose sequences for ARMSCII-8
-# option stop_on_fsu_error: should be 0 or 1. If set to 0,
+The files are loaded in numeric order, the structure of the configuration
 
 #
 
@@ -127,7 +126,7 @@ TimeoutStopSec=600
 
   /usr/bin/file-roller Cxr -> sanitized_helper,
 deb {{security}} {{codename}}-security universe
-X-Ubuntu-Gettext-Domain=gnome-settings-daemon
+  /dev/dri/ r, # libvulkan_radeon.so, libvulkan_intel.so (Mesa)
 #    This program is free software; you can redistribute it and/or
 ports=22/tcp
 
@@ -148,7 +147,6 @@ rocks_trees = {
 <?xml version="1.0"?>
 PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
-  /etc/cloud/clean.d/99-live-installer
   deny @{HOME}/.mutt** mrwkl,
 =RFA4
     <test name="pixelsize" compare="less_eq">
@@ -238,7 +236,6 @@ twm
 # eliminate DISABLE
 #    Copyright (C) 2011 Canonical Ltd.
 echo
-
 <!ATTLIST %element;
 
 #
@@ -302,10 +299,8 @@ scsi APPLE
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
 # device group names
-account    required     pam_nologin.so
     permission java.util.PropertyPermission "java.class.version", "read";
 
-0x80	CS4
       <choice minOccurs="1" maxOccurs="unbounded">
 # For more details, please see /etc/apparmor.d/local/README.
 
@@ -320,7 +315,7 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 fi
 
-    else
+# Compose sequences for ISO-8859-8
 # Additional mounts to exclude at shutdown.
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
@@ -415,7 +410,7 @@ $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 BatteryThreshold=10
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 # If set to all update-initramfs will update all initramfs
-# Compose sequences for ARMSCII-8
+  owner @{HOME}/.adobe/** rw,
 
 
 # This file is sourced only for login shells. It
@@ -434,7 +429,6 @@ DAEMON="/lib/systemd/systemd-udevd"
 
 Categories=System;Monitor;GTK;
 	rotate 4
-
 
   dbus (receive)
 		chown root:adm $XCONSOLE
@@ -503,7 +497,6 @@ Each file in this directory is an rt_tables configuration file. iproute2
 
 #
 # The default is 900 (15 minutes).
-#    modify it under the terms of version 2 of the GNU General Public
 # ctrll shiftl alt keycode 36 = Incr_Console
 #
 			<family>Arial Unicode</family>
@@ -512,7 +505,7 @@ Each file in this directory is an rt_tables configuration file. iproute2
 		;;
 Ÿ◊õ¢ök√JÌA`0—™Bn”#∆e››Rw⁄Åk≤®˙8πñÍ*lgóâîûº·T’‰jxÔJΩ+ö=@~∆¿u“n˚h0ÏÏãù˘I5ö,Ÿ≥ï9’í˜¶πe/Â=m:HL‹‰((æ}5‡~j◊>◊û¸-u≤¡’#€[o>x/ﬁ3ç∑HÁÉöÅ{¡CMU8JQ’Y¢ât”üæK◊∆m∑à$o`ë§ÇÖ[VAº–D´jæ—,X∑3X≤7c‹ıî?@QıOı:Ì»≈Î¬ïz«~BqìnK∑0ﬂ™ÌWÖH¨j›9i‰·yxæŒø°˜Ä{!g'0YBdebian:hellenic_academic_and_research_institutions_rootca_2015.pem8P_XX.5090Ç0ÇÛ†0	*ÜHÜ˜0Å¶10	UGR10UAthens1D0BU
 # specify the provider and priority in the format
-Ubuntu 20.04.1 LTS (Focal Fossa)
+CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 . /usr/share/bash-completion/bash_completion
  - chef
@@ -597,7 +590,7 @@ usb 0x1083 0x1622
   #include <abstractions/nameservice>
 # udevd is also started in the initrd.  When this file is modified you might
 			<string>AR PL UKai HK</string>
-  </match>
+/Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 			<family>FreeMono</family>
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
@@ -643,7 +636,6 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
 +  manage_etc_hosts: True
   network netlink raw,
-X-Ubuntu-Gettext-Domain=gnome-keyring
     <Menu>
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
@@ -667,7 +659,7 @@ type=file
 #backwards compatibility include, actual abstraction moved from php5 to php
 
 deb {{mirror}} {{codename}}-updates main
-if [ -f /run/motd.d/85-fwupd ]; then
+# dpkg configuration file
 Ïˇò“Øq≥¥SüNáÔíºΩÏO20àK^WƒS¬ˆóçŸb+ø$bçﬂ√∏)KIx<ì`à"¸ô⁄6»¬¢‘,Tg5nsøX§›Â∞¢&z ‡6•ı˝∑ÔÆ?@ımZ˝Œ4 $‹t#]3]ƒ%ˆ0›]ü‡’GΩ¥Î°ªIIÿü[Ûä‰$ê‰bOO¡Øãt®—ràjzIÃ¥Fy∆±⁄òY˙u!Öe›êVŒ˚´•`ùƒù˘R∞ãΩá˘è+#
 if [ -n "$STARTDBUS" ]; then
 # 0 means default behaviour as specified in the internal tables
@@ -871,7 +863,6 @@ test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 }; 
 # orbit2 permissions
 #/dev/scanner
-::1 localhost6.localdomain6 localhost6
 # Compose sequences for CP1251
     <!--
 #include <abstractions/ubuntu-browsers.d/user-files>
@@ -942,7 +933,7 @@ Type=Application
 Acquire::http::User-Agent-Non-Interactive "true";
 CATALOG /usr/share/xml/docutils/catalog
 
-# This mechanism that does not depend on a system service to operate.
+directory and its contents.
 #
 d /run/screen 1777 root utmp
 #   https://bugs.debian.org/858528
@@ -1048,7 +1039,7 @@ DESKTOP-OFJN9OT
 exit 0
 }
 	devtypes_cols_verbose="devtype_name,devtype_max_partitions,devtype_description"
-Ubuntu 20.04.5 LTS \n \l
+# ---------------------------------------------------------------------------#
 // Some countries have import limits on crypto strength, but may allow for
 deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # orbit2 permissions
@@ -1073,7 +1064,6 @@ modules_load_preference=ondemand
    [formatters]
 if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 APT::Periodic::Update-Package-Lists "1";
-	exit 0
 # The hook script for dbus-launch is in 75 which changes $STARTUP string.
   audit deny @{HOME}/.mozilla/{,**} mrwkl,
 # Legacy biarch compatibility support
@@ -1108,7 +1098,6 @@ quote-names
 	bootdir=$(dirname "$2")
 #
 #1	inr.ruhep
-  dbus (receive, send)
 @include common-account
 #
 owner /{,var/}run/user/*/pulse/  rw,
@@ -1138,7 +1127,6 @@ compose '>' 'A' to '¬'
 lines		1,-1,-1,-1,-1,1;\
 -#}
 #  You should have received a copy of the GNU Lesser General Public
-# Rules for writing KDE icon cache
 # ------------------------------------------------------------------
 +D4CFmCnW8cc+Jb6jrJ2ZcjUqWE/c+uwZhwsUHNdk6ummPPKfMhRSbduk1ngdQe5
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -1201,3 +1189,14 @@ Before=snapd.service
 		<default><family>fantasy</family></default>
 # This file will be sourced by both shell scripts and python code,
 #
+application/x-pkcs12; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+
+# mdadm module configuration file
+# model override switch, mostly for cosmetic changes, if the autodetection
+#!/bin/sh
+Each file in this directory is an rt_tables configuration file. iproute2
+fi
+log_file: /var/log/ubuntu-advantage.log
+# This is the configuration file for libaudit tunables.
+! Menu Button Names
+rpc:            db files
