@@ -11,7 +11,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 Enabled=true
 
 ï3ïDïkï|ï£ï≥ï»ï◊ïÓï˝ï"ñ1ñTñcñyñòñÕñÿñ˘ñó+ó9ó[óeóÖóèó≠ó∫ó›óÈóòòGòRòsòÑò´òªò·òÔòô$ôKôYô}ôäô≠ôπô€ôÏôö*öWöföãöõö¡öŒöÒöˇö#õ3õYõiõèõüõ√õ“õ˜õ
-# This file is sourced on all invocations of the shell.
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
 # Specify directory for log files.
       <family>Noto Mono</family>
@@ -19,7 +18,7 @@ Enabled=true
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #
 
-  </its:rules>
+# install the apport exception handler if available
   </match>
 TryExec=xdg-user-dirs-update
 search updates ubuntu built-in
@@ -75,7 +74,7 @@ launch-items=audiotestsrc;videotestsrc;videotestoverlay
 X-GNOME-Bugzilla-Version=3.36.0
 #pnm
 #
-# If you want to globally change where snmp libraries, commands and daemons
+
 # to update this file, run dpkg-reconfigure cloud-init
 
                 . /lib/lsb/init-functions
@@ -119,10 +118,10 @@ mode="${1#'}"
 
 # Compose sequences for VISCII
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
-        rm -f $PIDFILE
+# also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
 # As the snmp packages come without MIB files due to license reasons, loading
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
-# How many usec (1,000,000ths of a) between sending the "back to default" break
+
 [Desktop Entry]
 # as possible
 CATALOG /usr/share/xml/docutils/catalog
@@ -161,7 +160,6 @@ japanese.euc	ja_JP.eucJP
 PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
   /etc/cloud/clean.d/99-live-installer
-
   deny @{HOME}/.mutt** mrwkl,
 =RFA4
     <test name="pixelsize" compare="less_eq">
@@ -307,7 +305,7 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # published by the Free Software Foundation; either version 2 of the
 0x48	AF21
-}
+
 		<prefer>
 15	ntk
 
@@ -373,7 +371,7 @@ speed=115200
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
     echo "updates of cacerts keystore disabled."
-# vim:syntax=apparmor
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # you can temporarily override this with
 
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
@@ -425,7 +423,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 # how to byte-compile (comma separated: standard, optimize)
 
 # security of the host and prevent against some network attacks
-By default, Java provides two different sets of cryptographic policy
+# should not normally be necessary (under Linux at least).
   00_*: Reserved for 00_header.
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
@@ -572,7 +570,7 @@ d /run/screen 1777 root utmp
 IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
 gtk-theme-name = Yaru
 PICTURES=Pictures
-# Compose sequences for ISO-8859-8
+
     # locale: Cannot set LC_SOMETHING to default locale
 
 *search*manualPage.Label:	Manual Page
@@ -625,7 +623,6 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 . /usr/share/bash-completion/bash_completion
 SHELL=/bin/sh
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-# ntp.conf(5), ntp_acc(5), ntp_auth(5), ntp_clock(5), ntp_misc(5), ntp_mon(5).
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
 # under the terms of the GNU Lesser General Public License as published
   /etc/ssl/openssl.cnf r,
@@ -751,9 +748,7 @@ BYOBU_BACKEND="tmux"
   . "$USERXSESSIONRC"
 #
            send_interface="org.freedesktop.DBus.Properties" />
-#DefaultStartLimitBurst=5
 ## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
-   ls /sys/firmware/efi/efivars/fwupd-*-0abba7dc-e516-4167-bbf5-4d9d1c739416 1>/dev/null 2>&1; then
 127.0.0.1	www.frankvoce.com
   cat /etc/ppp/resolv.conf
 
@@ -779,7 +774,6 @@ type=file
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 APT::Periodic::Download-Upgradeable-Packages "0";
 stamp="/var/lib/ubuntu-advantage/messages/motd-esm-announce"
-
 	if ! test -d $UUIDD_DIR; then
 deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 
@@ -872,7 +866,7 @@ restrict default limited kod nomodify notrap noquery nopeer
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 # or on the command line.
   00_*: Reserved for 00_header.
-	fi
+modules=*
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 #
 
@@ -899,7 +893,7 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 # to update this file, run dpkg-reconfigure cloud-init
 *editMenu.cut.label:			Cut (Meta-C)
 
-ôV1Xå¿*ÜafRq—ñŒ•~‘·µ∆$¢å
+	<alias>
 
 title=@REALNAME@'s media on @PRETTY_HOSTNAME@
 
@@ -979,7 +973,7 @@ compose '-' 'o' to 'ı'
 #
 {% for server in servers -%}
 #
-# the pool.ntp.org domain since they return multiple A records.
+rocks_trees = {
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 #       "readwrite" grants access to read and write attributes of MBeans,
    ADDRESS_FAMILIES=""
@@ -1053,7 +1047,7 @@ auto
   dbus (send)
 <delegatePublic publicIdStartString="ISO 8879:1986//ENTITIES" catalog="file:///usr/share/xml/entities/xml-iso-entities-8879.1986/catalog.xml"/>
 # Find settings with a given prefix and print them as they appeared in
-# MODEL
+X-Meego-Priority=Low
   # 'r' is needed when using imfile
 1C5E6985ACC09221DBD1A4B7BBC6D3A8C3F8540D19F20763A9537FDD42B4FFE7
 191 191 191 		gray75
@@ -1063,13 +1057,13 @@ nameserver 1.1.1.1
 # This file is automatically updated on upgrades of the xserver-xorg-legacy
 [Desktop Entry]
 ip.id		u16		net+4
-d /run/screen 1777 root utmp
+#
 DISTRIB_ID=Ubuntu
 #
 search updates ubuntu built-in
 [network]
 /var/log/alternatives.log {
-# The URI to the Redfish service in the format <scheme>://<ip>:<port>
+deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 <?xml version="1.0"?>
   xterm*|vte*)
 #            export PHASE="pre-up"
@@ -1113,7 +1107,6 @@ Type=Application
 #
 autoload -Uz compinit
 
-X-GNOME-AutoRestart=true
   /usr/bin/ooimpress Cxr -> sanitized_helper,
 	thin_pool_discards="passdown"
   /etc/ssl/openssl.cnf r,
@@ -1195,3 +1188,17 @@ quote-names
 #
 #1	inr.ruhep
   dbus (receive, send)
+Requires=snap-lxd-18150.mount
+#
+owner /{,var/}run/user/*/pulse/  rw,
+	didn't include the right instructions in the 'prep' table.
+/dev/scanner
+;;
+Ä
+  <mime type="application/x-krita" description="Krita document" data-type="string" offset="0" magic="\037\213" priority="50" />
+# Default backends, as chosen in the configure script. This will be used
+
+brandon:100000:65536
+       <!NOTATION chicken-scratch SYSTEM>
+usb 0x04f9 0x2038
+/dev/scanner
