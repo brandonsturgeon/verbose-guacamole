@@ -38,7 +38,7 @@ CRYPTDISKS_ENABLE=Yes
     # locale: Cannot set LC_SOMETHING to default locale
 
 
-# Compose sequences for GEORGIAN-ACADEMY
+##
 # This file is sourced on all invocations of the shell.
 #
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
@@ -215,7 +215,7 @@ fi
     permission java.util.PropertyPermission "java.vendor.url", "read";
      <choice>
 #    Copyright (C) 2014 Canonical Ltd
-# deb-src {{security}} {{codename}}-security multiverse
+#
     import apport_python_hook
 /usr/lib/update-notifier/package-data-downloader
             . "${XDG_CONFIG_HOME:-$HOME/.config}/bash_completion"
@@ -278,7 +278,6 @@ blacklist rivafb
     user_friendly_names yes
   STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 
-/usr/lib/@{multiarch}/kde3/lib*so* mr,
 compose ')' '-' to '}'
 # never load them automatically.
 
@@ -330,7 +329,7 @@ bookworm/sid
 
   /usr/bin/shotwell Cxr -> sanitized_helper,
 APT::Archives::MaxAge "30";
-		Shift<Btn4Down>,<Btn4Up>: Page(Line,-1) 
+# might also be helpful.
 
 ctl.!default {
 change_hat {yes
@@ -365,7 +364,7 @@ fi
 # This file contains common DRI-specific rules useful for GUI applications that
 
 # definitions of existing MD arrays
-#!/bin/sh
+[usb]
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 # To take advantage of this, it is recommended that you configure any
 # javax.management.monitor.foo.Bar.
@@ -436,7 +435,6 @@ udplite	136	UDPLite		# UDP-Lite [RFC3828]
 # Compose sequences for ISO-8859-16
     permission java.lang.RuntimePermission "accessUserInformation";
                     Schema Recommendation</a> forbids the declaration of
-do_bootloader = no
 
 	çÅÄ<øÕà≤…˛$£Øî4&6˘¸_ï”w§QiA˜ﬁEÿ^´ìËŸ%»íÏM†Lô™º ù¥é&5Å¬HF1#ö´qÖyb•˝?Øä£ÎËŒé'±Â,Òˇ48®Ω¢OµéF†‹∏$éâÚQˇ[¬’±ù9-∆0s·Ö≈{±@¥/úUók,®ØùüOƒDgô˘›ÊÈ˙úwënÓúl™mP2π4øß<àÑﬂöπ:·É8J‘$°|g3¸FW¢ıKsÍüO]àïi◊µ>*4fML›-G„K˛Å©ﬂ`ÖG.{¸5UnâCeFaëÁfÔR≥ÄZ‰à=?@Ë*È µ~>§–Oë1‰uö∏‹íN@ò€≈„n#Lô <É7?w•Ü}7XfƒÆ5ÕŸ„Ó‹€~ê#|V%ÛOuF◊E†0á/˙≠4Öo<
 
@@ -517,7 +515,7 @@ allocation {
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 OnlyShowIn=GNOME;
 #!/bin/sh
-# This file is sourced by Xsession(5), not executed.
+# If you have one:
 # installkernel must call postinst.d with two args, version & image_path
 
 [fwupd Remote]
@@ -541,7 +539,7 @@ Vendor-URL: http://www.ubuntu.com/
 # the value 'auto' will make the backend find the correct value
 name = NSS
 bullseye/sid
-/Adobe-Japan1-Bold /Japanese-Gothic-Regular ;
+	Ä
 # This directive enables kernel synchronisation (every 11 minutes) of the
     rotate 1
   /usr/bin/netrik Cx -> sanitized_helper,
@@ -569,11 +567,10 @@ if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ];
   /etc/X11/app-defaults/XTerm r,
 STARTSSH=
   # system library
-# Cloud Image specific Grub settings for Generic Cloud Images
+root=,magenta
 gt68xx
 update-hostname=true
 /dev/scanner
-# times
 #    Copyright (C) 2011-2013 Canonical Ltd.
 ôO≠éhª§¢ªÚﬂ=nÊº Ç$ú-ÛÕœ”H]¸“+4ÑTK›”¶qq6≈ˆÍ;oÒ∑oæŸî_?ß∂jí À:ÂUÜK˚ 59@W⁄Lã.v“—ÂÑÂvn93õ‘uÑ+nüÓ!h·5…rãøÍ“Æ≠>«∂mÔÇÆW%i;UH¡g≈óü≥øµ8Ø hc\#∞B˙õó6y0úˆ.!|d©}Gc∫Úƒe]é?eìß°NDq&+”«&ÔÇ∑C,ECÿ∞ÓW°:å°¸ ‘Ñ{ÉúõÕØ¥!y+A‚¬T”Ÿ2€* lÀìN-üÚ&ÕÒ&€Öê…î3›Ÿô$¶¬ç|ÄòËèÑqØ\i≠É°]ÕHh´Jo-q©)KÁt¸Å%l>9ﬁ…,∆¨›ƒÏÌèπ÷ús$4¶≠2|Êï:ãSÎôûlˆ?Ó“RCˆbÙâÛ¯ÍÛ[gÎÙ›√·LS¡qÃV÷ø<ì´ï/=∑ço¸åÎ∞ùJx$©ôµØ‘ŸFJO#ÚÆÙÿÜüÛ+}ˆIÒâ8eÙ#Ç0ó4óäX2Às§≈&“€ˇ9ı@¢±vº2’òZπL›á∆œd’g¶0ø.Ôÿ6Ø ›S‰ﬁÂ©ÍπÒõæ
 -->
@@ -584,7 +581,7 @@ which grub-editenv >/dev/null 2>&1 || exit 0
 #!/bin/sh
 # This file is the default tidy configuration file
 
-		;;
+  /usr/bin/loimpress Cxr -> sanitized_helper,
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
 	then
   #include <abstractions/kde>
@@ -726,7 +723,6 @@ X-GNOME-Bugzilla-Version=3.36.0
 # and the kernel MPPE module available from the CVS repository also on
 # troubles on misconfigured networks
 scsi IBM 2456
-  # changehat itself
 IPT_MODULES=""
 		<default><family>emoji</family></default>
 Exec=/usr/libexec/gsd-wacom
@@ -754,13 +750,13 @@ X-GNOME-AutoRestart=true
 # Default-Start:     S
 # Compose sequences for ISO-8859-8
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-#   TunnelDevice any:any
+     export XDG_DATA_DIRS
 SHELL=/bin/sh
   /usr/lib/nspluginwrapper/i386/linux/npviewer{,.bin} ixr,
          ;;
 unset USEHTTP
 #!/bin/sh
-# The following section will copy the contents of /etc/skel if this is a
+[METARELEASE]
 -->
 # eliminate DISABLE
 TEMPLATES=Templates
@@ -828,7 +824,6 @@ done
 # udevd is also started in the initrd.  When this file is modified you might
                     attributes in this namespace</p>
 <!ENTITY % allAttrs ''>
-#   /etc/cron.daily/mdadm.
   <mime type="application/x-bzip" description="Bzip archive" priority="100" pattern="*.bz" />
 nameserver 1.1.1.1
   deny @{HOME}/.zshenv mrk,
@@ -917,7 +912,7 @@ commands scan this directory processing all files that end in '.conf'.
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 # mdadm module configuration file
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG network certificate management daemon.$
-# Uncomment and edit /etc/security/access.conf if you need to set complex
+en+([bcosxpP])*([^.]).@(dhclient|dhcpcd|pump|udhcpc)
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 <Key>q: quit() \n\
 fi
@@ -929,7 +924,7 @@ XLogo*background: rgb:d2/22/32
 America/Los_Angeles
 OK           ATDT<put phone number here>
 # reserved values
-# executable, fall back to looking for a user's custom X session script, if
+#          will be killed on logout
 # ------------------------------------------------------------------
 				wep_key3 wpa-wep-key3
 # XDG_DATA_DIRS or XDG_DATA_HOME, and are the parent directory
@@ -960,7 +955,6 @@ roottext=,magenta
             KERNEL_UPGRADED=1
     <alias>
 # value is 80) and nonProxyHosts is a '|' separated list of hostnames which
-# /etc/xattr.conf
 /var/log/apt/term.log {
   #include <abstractions/private-files>
   #include <abstractions/opencl-mesa>
@@ -980,13 +974,11 @@ roottext=,magenta
     <allow send_destination="org.gnome.DisplayManager"
 # vim:syntax=apparmor
 
-#!/bin/sh -e
 #  0x4064, /* kodak Hero 5.1 */
 #bind ^P curpos main
 letter
 
 	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
-# ipmipower-ping-timeout 30000
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 # 
 # this remote provides metadata and firmware marked as 'testing' from the LVFS
@@ -996,7 +988,6 @@ search updates ubuntu built-in
 			<string>AR PL UKai TW</string>
 type=file
 </Directory>
-# /etc/profile.d/im-config_wayland.sh
 	}
 # fstrim=0
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
@@ -1019,7 +1010,6 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
 
 # Compose sequences for ARMSCII-8
 # Compose sequences for ISO-8859-6
-
 /RR3w6RbKFfCs/mC/bdFWJsCAwEAAaOCAVowggFWMBIGA1UdEwEB/wQIMAYBAf8C
 # This is a configuration file for /etc/init.d/dbus; it allows you to
 
@@ -1082,3 +1072,16 @@ mountd		100005	mount showmount
 scsi ABATON
   https_proxy: null
 /dev/scanner
+Type=Application
+HuaweiAltModeGlobal=0
+restrict 127.0.0.1
+<delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///usr/share/xml/svg/catalog.xml"/>
+       rotate 7
+// grant codeBase "jrt:/com.greetings" {
+		<test target="pattern" name="slant" compare="not_eq">
+# set trimblanks
+ôV1Xå¿*ÜafRq—ñŒ•~‘·µ∆$¢å
+  </match>
+*formWindow.labelWindow.displayList:\
+
+kbd_mode '-u' < '/dev/tty3' 
