@@ -1,5 +1,5 @@
 Ubuntu 22.04 LTS (Jammy Jellyfish)
-#Source user defined xsessionrc (locales and other environment variables)
+# ctrll shiftr alt keycode 37 = Decr_Console
 /var/log/auth.log
 Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
@@ -65,7 +65,7 @@ APT::Archives::MinAge "2";
 
 
 # Compose sequences for ISO-8859-11
- 			<family>Lohit Gujarati</family>
+{
 # The PAM configuration file for the Shadow 'newusers' service
 # Each line names a host to attach to.
 
@@ -96,7 +96,7 @@ gdm:x:121:129:Gnome Display Manager:/var/lib/gdm3:/bin/false
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
 # that will become kernel vars at some point
 
-  # Include additions to the abstraction
+    </alias>
   include if exists <abstractions/user-download.d>
         # This line will fix the labeling on all newly created directories
     label fan4 "System FAN4"
@@ -138,7 +138,6 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 NAME="plymouth-log"
 10	mrt
 # If you want logs to go to syslog, uncomment the following line.
-Ubuntu 22.04.2 LTS
 # and users home directories will reside within the directories that
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.$
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
@@ -152,18 +151,14 @@ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
     [ -x /sbin/restorecon ] && /sbin/restorecon -R /dev
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
 # Case-sensitive behavior is defined by the operating system.
-CATALOG /usr/share/xml/docutils/catalog
        not necessary for user PulseAudio instances. -->
   owner @{HOME}/mbox          rw,
-# Compose sequences for IBM1133
 # raid1
 #select-timeout 5;
 # Compose sequences for ISO-8859-6
 ª}Nz◊ÂÀâF¥Õ{S B‘á&ù∂çöüXÈÅPjàj‡gß]â8ã
 ${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
-
 Acquire::Changelogs::AlwaysOnline "true";
-case "$ADDRFAM" in
 
        search:
 ## template:jinja
@@ -255,7 +250,6 @@ fi
 rexd		100017	rex
    formatter=simpleFormatter
 
-}
 # the terms of the GNU General Public License as published by the Free Software
 
 		exit 0
@@ -286,7 +280,6 @@ fi
 #    This program is free software; you can redistribute it and/or
             . "${XDG_CONFIG_HOME:-$HOME/.config}/bash_completion"
 
-ja_JP		ja_JP.eucJP
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/ r,
 XKBLAYOUT="us"
 X-GNOME-Bugzilla-Bugzilla=GNOME
@@ -300,7 +293,6 @@ makestep 1.0 3
 version="$1"
 # If you want to globally change where snmp libraries, commands and daemons
 {% for pool in pools -%}
-			<family>Arial</family>
 turkish         tr_TR.ISO-8859-9
 # or removing a feature will be allowed.
 #
@@ -378,7 +370,7 @@ compose ')' '-' to '}'
 
 
 fi
-	notifempty
+#    modify it under the terms of version 2 of the GNU General Public
 # Compose sequences for GEORGIAN-PS
 #  privileged clients.  Instead the passwd.adjunct.byname table is
 
@@ -422,7 +414,6 @@ fi
 Terminal=false
 0x91 '¬ë'
 # Turn on Source Address Verification in all interfaces to
-# grub-mkconfig when init-select was removed but not purged.  This file does
 # directories are stored, each must have a trailing '/'. Directories added
 deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # set start_ro=1 to make newly assembled arrays read-only initially,
@@ -463,7 +454,7 @@ fi
 	compress
 X-GNOME-Autostart-Phase=PreDisplayServer
 #precedence ::ffff:0:0/96  100
--->
+            <string>zh-mo</string>
 
 # Specify the key identifiers which are trusted.
 #backwards compatibility include, actual abstraction moved from php5 to php
@@ -537,7 +528,7 @@ X-GNOME-Autostart-Phase=Initialization
 fi
 bazaar-properties.desktop
 # Compose sequences for ISO-8859-5
-
+ports=22/tcp
 
 session		required	pam_unix.so
 alias net-pf-36 off
@@ -568,12 +559,11 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 PPP_LOCAL="$4"
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
-X-Snappy=yes
   </alias>
 [Sleep]
 X-GNOME-Bugzilla-Version=3.36.x
 # Authors:
-
+defaults {
 	daytime_hosts => [ qw {} ],
 # Some "catch-all" log files.
 # Compose sequences for ISO-8859-16
@@ -599,7 +589,6 @@ X-GNOME-Autostart-Notify=true
 # This file contains a list of port numbers between 600 and 1024,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
 scsi AdLib * Scanner
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
 # This file is a simple placeholder to keep dpkg from removing this directory
 <fontconfig>
 
@@ -872,7 +861,6 @@ XCalc*hp.button16.fromHoriz:		button15
 
 # Your system has configured 'manage_etc_hosts' as True.
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
-        start-stop-daemon --start --quiet --pidfile /var/run/vmtoolsd.pid --exec /usr/bin/vmtoolsd --test > /dev/null || exit 1
       INSERT 64 POSITIVE INTEGERS HERE, COMMA-SEPARATED
 # subpath mappings from mount point for pinning
   <match target="pattern">
@@ -902,7 +890,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 #
 LANG=C.UTF-8
 		<!-- https://en.wikipedia.org/wiki/Category:Mathematical_OpenType_typefaces -->
-  audit deny @{HOME}/.kde{,4}/Autostart/{,**} wl,
+#LogLocation=no
   <match target="pattern">
 
 
@@ -1001,7 +989,7 @@ nssDbMode = noDb
 }
 *ispell*terse.internalWidth:	10
 *Tree*List.BorderWidth: 		0
-
+/Adobe-Korea1 /NanumBarunGothic-Regular ;
 # NIS (man nsswitch) as well as normal /etc/passwd and
 
 X-GNOME-AutoRestart=true
@@ -1056,4 +1044,16 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 
 DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
 # Side effects:
+#
+
+     declaration that uses the public identifier shown below:
+# Work around a bug in the obsolete init-select package which broke
+// This system policy file grants a set of default permissions to all domains
+# Compose sequences for TIS-620
+# The page set here should explain how to add new software repositories if required.
+	Options FollowSymLinks MultiViews
++# The following lines are desirable for IPv6 capable hosts
+/STHeiti-Regular /BousungEG-Light-GB ;
+	</alias>
+  # User files
 #
