@@ -11,7 +11,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 	<include ignore_missing="yes">local.conf</include>
 
-		read dev <  $1/dev
 
 # Here is the list of possible values:
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
@@ -154,7 +153,6 @@ lock
 
 	log_begin_msg "Stopping $DESC" "$NAME"
 /var/log/boot.log
-#
    (append '(("CMakeLists\.txt\'" . cmake-mode)
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
@@ -220,7 +218,6 @@ swedish         sv_SE.ISO-8859-1
 XClock.input: false
   #
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-# If xhost (from x11-xserver-utils) is installed, use it to give access 
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
@@ -254,7 +251,7 @@ compose ''' 'i' to 'í'
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
 #!/bin/sh
-
+# received.  Note: it is not advisable to use this option with the persist
 
 # Compose sequences for IBM1133
 LAPTOP-5TIN5O4V
@@ -274,7 +271,6 @@ pool {{pool}} iburst
 }
      export XDG_DATA_DIRS
 	inet_domain => undef,
-compose '-' 'L' to 'Ù'
 
 # Scripts in this directory are executed as root when a user log out from
 # Compose sequences for ISO-8859-8
@@ -357,7 +353,7 @@ brandon:100000:65536
     import apport_python_hook
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 #    This program is free software; you can redistribute it and/or
-# [automount]
+            . "${XDG_CONFIG_HOME:-$HOME/.config}/bash_completion"
 
 ja_JP		ja_JP.eucJP
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/ r,
@@ -489,7 +485,6 @@ compose ',' 'a' to '±'
 
 <!--  Enable sub-pixel rendering --> 
 # * Be careful about changing the environment since this is sourced
-
   <edit name="scalingnotneeded" mode="assign">
   /etc/profile.d/                  r,
 
@@ -509,7 +504,7 @@ if [ "$INITRD" = 'No' ]; then
 
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
 
-# then an administrator can adjust /etc/apparmor.d/local/usr.sbin.smbd to
+.}
 löÿKyá˜¶`&`ò3)ƒË”ÍhºÒ$Šx‹ëäöò-Ù$é=—ß“a–“4«V»Èıœ<,®“÷XêBF'Ğ	t@'NHhùzş)OØïĞTÃFò‚}z¾¹š‘À(ŒÂ¨ºh]~ÑÎxÂšÎ4l$ÜCc5#Q=…QuÑøE;ç	k:×°‘pÕŒFaôFÕEëñ‹öbw•§~?™¡³Zí¡òi­38ƒ38÷€³
 13  ip6fw
 alias.url += ("/javascript" => "/usr/share/javascript")
@@ -680,7 +675,7 @@ alias net-pf-36 off
     while(<$plist>) {
   	if [ -r $CACHE ]; then
 tcp.flag.psh	u8		tcp+13		0x08		3
-DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
+#!/bin/sh
   </match>
 session required        pam_loginuid.so
 			<Key>q:set()notify()unset()
@@ -698,7 +693,7 @@ news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
 
 compose '^' '/' to '|'
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
-ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
+    else
 		https://*)
 GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 
@@ -796,7 +791,6 @@ eval $(/usr/bin/locale-check C.UTF-8)
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
 <!DOCTYPE typemap [
 127.0.0.1	tattoo-heute.com
-      <enumeration value="maxExclusive"/>
 254	main
 audio:x:29:brandon,pulse
 # battery than letting it rest for example).
@@ -818,7 +812,6 @@ image/jpg=org.gnome.eog.desktop
 # The following is a space-separated list of where additional user home
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
-}
 #
 [chooser]
 blacklist tdfxfb
@@ -976,7 +969,6 @@ fi
 # Microtek ScanMaker 3840 ID
 #
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
   /var/yp/binding/*           r,
 X-GNOME-AutoRestart=true
@@ -1026,7 +1018,6 @@ iZ8ikN+HNJa5uQ68F76aDP1BOE0XiLrOZC0MZ7mvbyOi9LPXFyV2EuVj+gt7r+2x
 #    This program is free software; you can redistribute it and/or modify
 
 
-brandon:100000:65536
 d_reload() {
 # vim:set ai et sts=2 sw=2 tw=80:
 compose '|' '|' to '¦'
@@ -1043,7 +1034,6 @@ fi
     echo "Usage: /etc/init.d/atd {start|stop|restart|force-reload|status}"
 NoDisplay=true
   # User files
-#backwards compatibility include, actual abstraction moved from php5 to php
 mHpfNpxbTirChfepCNctZG818Hp2v+K4X/PjyQMQ6J5H9oinnlasVQ6wzdZifnWm
 auth    optional        pam_gnome_keyring.so
 ## IPMI_Fan_Device_Present
@@ -1053,3 +1043,23 @@ session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default
 # must be between 0 and 15
 # Note that any setup should come before the sessreg command as
 # Normally, if the DHCP server provides reasonable information and does
+    monthly
+è_‰D«®È¾EŸÄdùWM¯µ0L’Æ>?†´Ù×„[şšf™6ÆüÜ„	*‡nµ9+İKø¢·|#ï17Wí¤Ö&J÷1ñégÜ~ÖÅ=À¾cC¡Ò5°Øa
+# Read man sane-mustek_usb for documentation
+# Gather together the mixed bag of settings applied with -s/--change
+bullseye/sid
+  <match target="pattern">
+#    This program is free software; you can redistribute it and/or
+XKBMODEL="pc105"
+ipv6-nonxt 59	IPv6-NoNxt	# No Next Header for IPv6
+}
+    <!--
+# Also, include files in tunables/multiarch.d for site and packaging
+#      to bind the RMIServer remote object is protected with SSL/TLS
+# This file is a simple placeholder to keep dpkg from removing this directory
+compose '_' 'o' to 'ò'
+# the default is 1, n, l, 8, 3, 0, 2, 5, 4, 9, 6, 7. Multiple SECTION
+# If an executable path appears on any line in any file in
+# generate the popularity contest data
+	€<¿Íˆ²Éş$£¯”4&6ùü_•Ów¤QiA÷ŞEØ^«“èÙ%È’ìM L™ª¼Ê´&5ÂHF1#š«q…yb¥ı?¯Š£ëèÎ'±å,ñÿ48¨½¢OµF Ü¸$‰òQÿ[ÂÕ±9-Æ0sá…Å{±@´/œU—k,¨¯ŸOÄDg™ùİæéúœw‘nîœlªmP2¹4¿§<ˆ„ßš¹:áƒ8JÔ$¡|g3üFW¢õKsêŸO]ˆ•i×µ>*4fMLİ-GãKş©ß`…G.{ü5Un‰CeFa‘çfïRğ³€Zäˆ=?@è*éÊµ~>¤ĞO‘1äuš¸Ü’N@˜ÛÅãn#L™ <ƒ7?w¥†}7XfÄ®5ÍÙãîÜÛ~#|V%óOuF×E 0‡/ú­4…o<
+/CenturySchL-BoldItal (/usr/share/fonts/type1/gsfonts/c059036l.pfb) ;
