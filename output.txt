@@ -38,7 +38,7 @@ driftfile /var/lib/chrony/chrony.drift
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 LANG=C.UTF-8
   dbus send
-# This file is a simple placeholder to keep dpkg from removing this directory
+1	cmp
 
 RESTART_CHK="NetworkManager.service"
      <xs:sequence>
@@ -68,7 +68,6 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 
 #
 overlayroot_cfgdisk=LABEL=OROOTCFG
-#keyfile /etc/chrony.keys
   /usr/bin/emacsclient.emacs2[2-9] Cxr -> sanitized_helper,
 SOCKET_DIR=.X11-unix
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
@@ -122,7 +121,7 @@ server {{server}} iburst
 		</rejectfont>
 #ifdef COLOR
 			<family>Artsounk</family> <!-- armenian -->
-
+APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # dpkg configuration file
 #    modify it under the terms of version 2 of the GNU General Public
 # vim:syntax=apparmor
@@ -153,7 +152,6 @@ PATH=/sbin:/bin
         <policy user="root">
 // Remove unused automatically installed kernel-related packages
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
-# ------------------------------------------------------------------
 # Compose sequences for TIS-620
 
 #%PAM-1.0
@@ -180,7 +178,6 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
         'bug_pattern_url': '/tmp/bugpatterns.xml',
 		<edit name="family" mode="prepend" binding="strong">
 session		include		runuser
-  # Include additions to the abstraction
 
 compose '/' '<' to '\\'
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -251,7 +248,7 @@ global {
 #select-timeout 5;
 # Compose sequences for ISO-8859-6
 #
-0xC9 '√â'
+deb http://packages.azlux.fr/debian/ buster main
 ${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
 #  option domain-name-servers 127.0.0.1;
 fi
@@ -387,7 +384,7 @@ fi
 <!-- Delicious 'heavy' variant says its Medium weight -->
   #/{,var/}run/mysqld/mysqld.sock rw,
 #& stop
-## Suppress Warnings
+
   log_action_end_msg $?
 0xCD '√ç'
 #
@@ -401,7 +398,6 @@ auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
 XLogo*iconPixmap:    xlogo32
 
 # Compose sequences for ISIRI-3342
-# Provides:		open-vm-tools
   /etc/gnome/defaults.list r,
 rexd		100017	rex
    formatter=simpleFormatter
@@ -415,7 +411,6 @@ account     required    pam_shells.so
 }
 # the terms of the GNU General Public License as published by the Free Software
 #backwards compatibility include, actual abstraction moved from php5 to php
-# versions of Debian this has been the default.
 
 		exit 0
     The Real-time kernel is currently incompatible with FIPS and Livepatch. 
@@ -449,7 +444,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS
 
 }
 Each file in this directory is an rt_protos configuration file. iproute2
-post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
+#    Copyright (C) 2014 Canonical Ltd
 brandon:100000:65536
 
 *planemask*ShapeStyle: rectangle
@@ -582,7 +577,6 @@ AutomaticSecurityReports=false
     </edit>
 KERNEL_UPGRADED=0
 <Key>Escape: quit()
-#include <tunables/multiarch.d>
 link-local 169.254.0.0
 ## template:jinja
 -- cloud-init's clean.d run-parts directory --
@@ -619,7 +613,7 @@ compose ',' 'a' to '±'
 # of /var/log/ubuntu-advantage*.log files.
 # problems supporting passive transfer.  If you are in such
 
-# needrestart - Restart daemons after library updates.
+<!--  Enable sub-pixel rendering --> 
 # * Be careful about changing the environment since this is sourced
         ;;
 Mode: 644
@@ -640,8 +634,6 @@ auth		sufficient	pam_rootok.so
 #
 
 if [ "$INITRD" = 'No' ]; then
-
-# needrestart - Restart daemons after library updates.
 
 description=OpenSSH is a free implementation of the Secure Shell protocol.
 
@@ -667,14 +659,14 @@ include if exists <tunables/etc.d>
 {% endif %}
 
 *customization: -color
-    <edit name="hinting">
+# install the apport exception handler if available
 #
 # Make sure the locale variables are set to valid values.
 
-# License for more details.
+Terminal=false
 loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null' 
 # Turn on Source Address Verification in all interfaces to
-
+# grub-mkconfig when init-select was removed but not purged.  This file does
 with something the package builder needs later. It must end with .conf though.
 #    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 # set start_ro=1 to make newly assembled arrays read-only initially,
@@ -697,7 +689,7 @@ change_hat {yes
   # Iceweasel
 #  * there is no space around the "="
 //Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
-	cache_mode = "writethrough"
+wifi.powersave = 3
 631	# cups
 alias net-pf-19 off
 usb 0x04e8 0x3455
@@ -723,7 +715,6 @@ fi
 	compress
 X-GNOME-Autostart-Phase=PreDisplayServer
 #xterm*|rxvt*)
-  abi <abi/3.0>,
 -->
 
 # Specify the key identifiers which are trusted.
@@ -800,9 +791,8 @@ X-GNOME-Autostart-Phase=Initialization
                    return $?
 for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; do
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
-#BindPasswd: secret
 </match>
-# This file is sourced only for login shells (i.e. shells
+#
 # Compose sequences for ISO-8859-10
 if enabled in cloud-config.  Specifically, in order to enable it
 #        directory before $MAIL_FILE
@@ -846,7 +836,6 @@ fi
 Chef::Log::Formatter.show_time = true
   /usr/bin/gxmms Cxr -> sanitized_helper,
 alias net-pf-36 off
-# local
 # DO NOT EDIT OR REMOVE
 
     while(<$plist>) {
@@ -854,7 +843,6 @@ alias net-pf-36 off
 #    exitCode may be incremented.
 # Default-Stop:      0 6
 
-#
 # Skip if systemd is running.
 tcp.flag.psh	u8		tcp+13		0x08		3
 DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
@@ -929,7 +917,6 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 
 	# Configuration option local/extra_system_ids.
 # This file contains a list of port numbers between 600 and 1024,
-z¥Ë}z÷£m¬∏∫˜®ÌÍ÷".‚"Ó¡qõŒÏLËuﬁªl≈P†x¶BªÈ=›ØõÓÿ√eÂÀÛ‰z•Ωf8ˆè}¨ˆøM/@>ÁIñ◊|x]˝È≠:\Ó}äëÈG“zÕ±˚»Æ !≈ãsıÄx‡AøOÎWªöÈ˝ƒó‰˙¶‹£|ø÷¢Ì{0¬ ÃÀ£ı"z˚vΩƒvºõv5–ìº≥Ï€äg*¥´ëqö›óımÚ"À˘]2ﬂ7Nœ¸#=´´€°	jÔ◊ÀKT®P=C•ıFöy˜Ö≠≤;6§‚∏˜¥z"!“ãà‘ÙÆπ¸N“€5çjÕ◊ZtÏ9L¿L~r&*π–,9“5j‘«Wk˜ÒÙÃËs¥-XG˘:g—mG	{ÿø {ı”Hù·∑,Yû?¨.´ﬁ¢¡!Û∆⁄Ûò)i˚Mêÿo7ŒŒŒŒŒŒŒ»>#ÍÊD~“˜,πK*Q!z(∫S3Óº¿º¿ÀÇ¥±*Ù6ˇ4-±Ô¶]Ù6πÔØyî(è†TΩ¡êëõ´aä´WCs5ÑΩè®üjŸÿ9´Ë@@@@?1zUîy≤æ.N¢‚d[l£Ù’ˇbó}¨c…
 OLD_IFS=$IFS
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
 #%PAM-1.0
@@ -994,7 +981,7 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 enabled=1
 
 ## To make sure an option is disabled, use "unset <option>".
-	</alias>
+
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
 <!DOCTYPE typemap [
     IM_CONFIG_PREFERRED_RULE="zh_CN,fcitx:zh_TW,fcitx:zh_HK,fcitx:zh_SG,fcitx:ja_JP,fcitx:ko_KR,fcitx:vi_VN,fcitx"
@@ -1013,3 +1000,12 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 ;; Created on: Fri Oct 22 09:48:21 CEST 1999
 
 XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
+if [ -n "$2" ]; then
+/dev/scanner
+#
+
+
+scsi TAMARACK
+handleStartupErrors = ignoreMultipleInitialisation
+# Description:       GRUB displays the boot menu at the next boot if it
+@include common-password
