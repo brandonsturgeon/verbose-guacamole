@@ -32,7 +32,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 TryExec=xdg-user-dirs-update
 search updates ubuntu built-in
     user
-    else
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
     </alias>
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
@@ -66,14 +65,13 @@ swedish         sv_SE.ISO-8859-1
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
 #noprecal
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
-if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
+Title=Vendor
     <allow send_interface="org.debian.apt.transaction"/>
 
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
     // There is no restriction to any algorithms.
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
-# Use DOCKER_OPTS to modify the daemon startup options.
 # Compose sequences for ISO-8859-16
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 Comment[as]=PulseAudio শব্দ ব্যৱস্থা আৰম্ভ কৰা হ'ব
@@ -98,7 +96,7 @@ audio/x-mpegurl=rhythmbox.desktop
 #parport0
      <choice>
 	<match target="font">
-application/vnd.anser-web-funds-transfer-initiation
+scsi IBM 2456
 #  * and that the path value is quoted
 #!/bin/sh
 # shells invoked with the -l flag.)
@@ -307,7 +305,7 @@ XCalc*ti.button30.displayList:		foreground rgb:a/9/8;segments 8,-4,-9,-4,-4,-9,-
 # their current one is listed in /etc/shells. This keeps
 0x38	AF13
 
-
+/libx32
          cloud-init dhclient-hook down "$interface";;
 
 
@@ -315,7 +313,7 @@ XCalc*ti.button30.displayList:		foreground rgb:a/9/8;segments 8,-4,-9,-4,-4,-9,-
 # device group names
 # Provides:          gdm3
 #
-# Required-Start:    $local_fs
+<?xml version="1.0"?>
 -->
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
     <match target="pattern">
@@ -424,7 +422,6 @@ KP_2 = a;b;c;2;ä;à;á;ã;â;å;æ;ç
 		<prefer>
 
 15	ntk
-/var/log/btmp {
 
 # This file is a simple placeholder to keep dpkg from removing this directory
 # Defaults can be restored by simply deleting this file.
@@ -439,13 +436,13 @@ roottext=,magenta
 
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
-      <setting name="period">beginChunk</setting>
+# device group names
 #
 L9ItWY16Ck6WaVICqjaY7Pz6FIMMNx/Jkjd/14Et5cS54D40/mf0PmbR0/RAz15i
 127 127 127 		grey50
 # The following is a space-separated list of where additional user home
     permission java.util.PropertyPermission "java.class.version", "read";
-# you use, and remove everything else.
+enabled=1
 
 
 0x80	CS4
@@ -521,7 +518,7 @@ speed=115200
   #include <abstractions/opencl-nvidia>
   # do not use ux or PUx here. Use at a minimum ix
 -----END CERTIFICATE-----
-Name=GNOME Settings Daemon's a11y-settings plugin
+  # for mailto:
 # Compose sequences for ISO-8859-6
 . /usr/share/bash-completion/bash_completion
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
@@ -542,7 +539,7 @@ blacklist rivafb
   /usr/bin/iconv rm,
         </policy>
   # for networking
-# Configuration file for the hp4200 backend
+[METARELEASE]
   <!-- Generic name aliasing -->
 
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
@@ -646,7 +643,6 @@ Categories=System;Monitor;GTK;
 #    Copyright (C) 2014 Canonical Ltd.
 		chown root:adm $XCONSOLE
 networkd_dispatcher_args="--run-startup-triggers"
-  <type name="AvantGarde-Demi" fullname="AvantGarde DemiBold" family="AvantGarde" foundry="URW" weight="600" style="normal" stretch="normal" format="type1" metrics="URWGothic-Demi.afm" glyphs="URWGothic-Demi.t1"/>
 7   selinux
 #    License published by the Free Software Foundation.
 
@@ -718,7 +714,6 @@ search updates ubuntu built-in
 /usr/lib/x86_64-linux-gnu/libfakeroot
 #    Copyright (C) 2011 Canonical Ltd.
 arch=`dpkg --print-architecture`
-			Button1<Enter>:popup-pixel()\n\
 
 # /etc/login.defs and user settings, solving the problem of different
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
@@ -736,7 +731,7 @@ order hosts,bind
 // Example: Homepage
 #
 AutomaticReports=false
-# User "root" should get access from network 192.168.201.
+# The default is 900 (15 minutes).
 # System-wide GDB initialization file.
 
 # ctrll shiftl alt keycode 36 = Incr_Console
@@ -829,9 +824,8 @@ Acquire::Changelogs::AlwaysOnline "true";
     daily
 			<string>HYSong</string>
 rocks_trees = {
-# The PAM configuration file for the Shadow 'newusers' service
   </alias>
-  owner /var/run/user/*/weston-shared-* rw,
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 #verify = yes
 
 # DO NOT EDIT OR REMOVE
@@ -947,7 +941,6 @@ emptyscale=magenta
 6   xfrm
 {
 # This file is auto-generated. It is recommended you update it using:
-[Unit]
     -->
  			<family>Lohit Telugu</family>
 			<string>sans</string>
@@ -1001,7 +994,6 @@ if [ ! -x /usr/sbin/logrotate ]; then
 *Scrollbar.width:		14
 # NULL-dereference attacks against potential future kernel security
 rtcsync
-WorkingDirectory=/var/snap/lxd/18150
 
 eval $(/usr/bin/locale-check C.UTF-8)
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
@@ -1106,11 +1098,9 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 
 ACTION!="add|change|move", GOTO="mm_mtk_port_types_end"
 ## (create soft link /dev/refclock-0 to the particular ttyS?)
-# interpreted by the kernel to help with debugging. The kernel will respond
 #DefaultLimitDATA=
 datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltCloud, OVF, MAAS, GCE, OpenStack, CloudSigma, SmartOS, Bigstep, Scaleway, AliYun, Ec2, CloudStack, Hetzner, IBMCloud, Oracle, Exoscale, RbxCloud, None ]
 # symbolic names for networks, see networks(5) for more information
-Typical format of such scripts would be a ##-<some-app> like the following:
 [mysql]
 #@{XDG_VIDEOS_DIR}+=""
 	;;
@@ -1138,7 +1128,6 @@ byte-compile = standard
         fi
 # set PATH so it includes user's private bin if it exists
 #
-Type=Application
             <restriction base="saml:SubjectConfirmationDataType">
 {% endfor %}
 the exact distribution terms for each program are described in the
@@ -1194,3 +1183,17 @@ gtk-icon-sizes = panel-menu-bar=24,24
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
   network raw,
 /usr/local/lib/x86_64-linux-gnu
+# Should-Stop:       $syslog
+  if [ -n "$RESOURCEFILES" ]; then
+
+
+# HP scanjet 4400c
+# filenames (generally seen as "/tmp file race" vulnerabilities).
+	 xargs -r0 rm -f"
+# will be used
+fi
+# To use a specific scsi device
+  if [ "${BASH-}" ] && [ "$BASH" != "/bin/sh" ]; then
+DF21016B00FC54F9FE3BC8B039911BB216E9162FAD2FD14D990AB96E951B49BE
+
+
