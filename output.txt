@@ -10,7 +10,7 @@ auth		sufficient	pam_rootok.so
 143 188 143		DarkSeaGreen
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 # libc default configuration
-## Wget initialization file can reside in /etc/wgetrc
+  # indicator
       <element ref="ds:KeyInfo" minOccurs="0"/>
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 	<include ignore_missing="yes">local.conf</include>
@@ -38,7 +38,6 @@ driftfile /var/lib/chrony/chrony.drift
 	si_unit_consistency=1
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 LANG=C.UTF-8
-test -x /usr/bin/plymouth || exit 0
   dbus send
 # This file is a simple placeholder to keep dpkg from removing this directory
 
@@ -82,7 +81,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
 
 binary::apt::AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
-
 # -k disable/enable the "keep_settings_over_reset" flag for this drive
 APT::Archives::MinAge "2";
 {#
@@ -110,7 +108,6 @@ WantedBy=multi-user.target
  			<family>Lohit Gujarati</family>
                 chown -R "$user":"$gid" "$homedir"
 
-@include common-session-noninteractive
 
 Vendor-URL: https://www.debian.org/
 session		required	pam_unix.so
@@ -129,9 +126,8 @@ server {{server}} iburst
 
 # dpkg configuration file
 #    modify it under the terms of version 2 of the GNU General Public
-            ;;
 # vim:syntax=apparmor
-  # Xlibs
+c0582bt_.pfb -bitstream-courier 10 pitch-medium-i-normal--0-0-0-0-m-0-iso8859-1
 
 ¿W¸	Ú1­ÌGtf˜nëjõ'mJy°ÂJ€“Mé(1®V´åRäq–êg,Ã©‡ný£ÀJ°å¼lrâ’‰°ymC>¦ªS²Ö¨XBo‘ 2Qæ£V,Ò£ö¢Öæœ7É7°vn¨Ù8LÃ©V?i/ÀÈx‚íŠ£'ù'ËKB©€È1ª
 XCalc*hp.button19.label:	6
@@ -227,7 +223,6 @@ Ubuntu 22.04.2 LTS
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.$
     owner @{HOME}/.cache/pocl/kcache/tempfile*.so rw,
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
-# (Replaces /etc/login.access file)
 # PTRACE only to direct child processes (e.g. "gdb name-of-program" and
 compose 's' 'o' to '§'
 /usr/bin/rbash
@@ -280,7 +275,7 @@ restrict -6 default kod nomodify notrap nopeer noquery
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 yÞñ#².ü…Ské™ÁòoÛo‹cŒP+Ê¸\*pFú›óSÖ[·œ6Y].Àì;ÏÓä@y(R£X<ø|)>+¯˜´jh¼bž`[ðŽÄ¥)¼ø*ô#Ku ô7N‘AË5}F€@Ksè1²ç9…)&gùÑDO³Ý1
 # $ sudo dpkg-reconfigure apparmor
-
+#!/bin/sh
 Title=Vendor
 # This file is sourced by Xsession(5), not executed.
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -321,7 +316,7 @@ trusted.SGI_DMI_*		skip		# xfs specific
       We shouldn't overwrite it with "assign" unconditionally.
 SáÊŽó:]C+¼Ý˜·MÌÖGþp‚ô£ã×?ŽÒÇM”±àã@‡Òü³w>‚­ŸÂÏM?ÛƒX“YŠ®Ke>(pë9l‚ŒÃnÏÎŒ,<Í™zV@q-NúãÓ—þÔxÔ“Ö`”~ju©äÑ]bz1zü'ÓN}ÊÆa?t¨Q}ÜÍïÓP[Äÿ„!¿öØˆ=ºÝ
 	<include ignore_missing="yes" deprecated="yes">~/.fonts.conf.d</include>
-XLogo*background: rgb:d2/22/32
+	<!-- Add language for emoji, to match other emoji fonts. -->
 Description=Mount unit for snapd, revision 15904
 # permissions for querying dconf settings; granting write access should
 URI_UNSTABLE_POSTFIX = -development
@@ -345,7 +340,7 @@ Options=nodev,ro,x-gdu.hide,x-gvfs-hide
 #option scsi-maxqueue 2
 # no packages own wtmp -- we'll rotate it here
 title=Secure shell server, an rshd replacement
-Name=Certificate and Key Storage
+
 
 # Compose sequences for IBM1133
 LAPTOP-5TIN5O4V
@@ -385,7 +380,7 @@ modify any previously set config option.
 # Defaults can be restored by simply deleting this file and all drop-ins.
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
         log_daemon_msg "Starting open-vm daemon" "vmtoolsd"
-ApprovalRequired=false
+# Try to rerun any package data downloads that failed at package install time.
 # The following lines are desirable for IPv6 capable hosts
 #   permissions - copy when trying to preserve permissions.
 # Local users may interrogate the ntp server more closely.
@@ -394,7 +389,7 @@ America/Los_Angeles
 	cat <<-EOF
 Wants=network.target
 # ------------------------------------------------------------------
-[Time]
+  status)
 # Magic local data for file(1) command.
 fi
 	<alias binding="same">
@@ -420,14 +415,14 @@ XLogo*iconPixmap:    xlogo32
 rexd		100017	rex
    formatter=simpleFormatter
 application/ibe-pkg-reply+xml
-fi
+X-GNOME-AutoRestart=true
 # ~/.bashrc: executed by bash(1) for non-login shells.
 account     required    pam_shells.so
 <fontconfig>
                 mask=$(awk '/^UMASK/{gsub("#.*$", "", $2); print $2; exit}' /etc/login.defs)
 [ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
 }
-[defaults]
+# the terms of the GNU General Public License as published by the Free Software
 #backwards compatibility include, actual abstraction moved from php5 to php
 # versions of Debian this has been the default.
 
@@ -468,7 +463,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 brandon:100000:65536
 
 *planemask*ShapeStyle: rectangle
-byte-compile = standard
 # deb-src {{security}} {{codename}}-security multiverse
     import apport_python_hook
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
@@ -578,7 +572,6 @@ a Debian package maintainer script "deb-systemd-invoke restart procps.service").
   # System files
 #allow 192.168/16
 #keyfile /etc/chrony.keys
-of the format.
 
 KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 Acquire::Changelogs::AlwaysOnline "true";
@@ -605,7 +598,7 @@ blacklist neofb
 #include <tunables/multiarch.d>
 link-local 169.254.0.0
 ## template:jinja
-#    Copyright (C) 2006-2009 Novell/SUSE
+-- cloud-init's clean.d run-parts directory --
 #DefaultLimitMSGQUEUE=
 # Compose sequences for TIS-620
 compose ')' '-' to '}'
@@ -631,14 +624,13 @@ scsi Nikon * Scanner
 Znd1cGQub3JnMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA8GA1UdDwEB/wQFAwMHBgAw
   include if exists <abstractions/consoles.d>
 # This file is a simple placeholder to keep dpkg from removing this directory
-# It is sourced, not executed.  For more information see dhclient-script(8).
 	notifempty
 compose ',' 'a' to '±'
 # Compose sequences for GEORGIAN-PS
         mount_devtmpfs
 _ÕOÊRÖaBOí”tcôRó%7-Ñ¡g[õ´AUbuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>‰7
     install -d -o man -g man -m 0755 /var/cache/man
-.\}
+# of /var/log/ubuntu-advantage*.log files.
 # problems supporting passive transfer.  If you are in such
 
 # needrestart - Restart daemons after library updates.
@@ -667,7 +659,6 @@ if [ "$INITRD" = 'No' ]; then
 # needrestart - Restart daemons after library updates.
 
 description=OpenSSH is a free implementation of the Secure Shell protocol.
-#    it. This is confirmed to work with:
 
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ý^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTÝê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòÝ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùÞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòý äûIÉ÷‹’ï·Ê›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|¶¿¿„¤ù>©
 
@@ -837,7 +828,7 @@ for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; 
 if enabled in cloud-config.  Specifically, in order to enable it
 #        directory before $MAIL_FILE
   /usr/bin/file-roller Cxr -> sanitized_helper,
-
+#    modify it under the terms of version 2 of the GNU General Public
   </its:rules>
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 # Find settings with a given prefix and print them as they appeared in
@@ -852,7 +843,7 @@ compose 'v' 'Z' to '´'
 #stv680.conf
 fi
 fi
-scsi RICOH IS60
+}
   abi <abi/3.0>,
 # The PAM configuration file for the Shadow `passwd' service
   include <abstractions/consoles>
@@ -891,7 +882,8 @@ tcp.flag.psh	u8		tcp+13		0x08		3
 DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
   </match>
 	exit 0
-scsi TAMARACK
+			<Key>q:set()notify()unset()
+
 alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIBPATH == "") then; unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWKLIBPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKLIBPATH "\!*"":$AWKLIBPATH"'
         rc=0
 0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255
@@ -915,7 +907,7 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 #    License published by the Free Software Foundation.
 	vdo_write_policy="auto"
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ý^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTÝê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòÝ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùÞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòý äûIÉ÷‹’ï·Ê›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|¶¿¿„¤ù>©
-mozilla/AC_RAIZ_FNMT-RCM.crt
+*help.Label:			Help
 # @{PROC} is the location where procfs is mounted.
 # It's important that all backports from this kernel have been
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ý^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTÝê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòÝ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùÞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòý äûIÉ÷‹’ï·Ê›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|¶¿¿„¤ù>©
@@ -1016,3 +1008,14 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 <!-- Begin PGPData -->
 America/Los_Angeles
 #  about not starting rsyncd (you still need to modify inetd's config yourself).
+
+#
+if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
+#!/bin/sh
+
+/NanumBarunGothic-Bold << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
+=RFA4
+/Adobe-CNS1-Bold /ZenKai-Medium ;
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+#
+enabled=1
