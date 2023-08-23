@@ -18,7 +18,7 @@ required in any way by the specification).  The information may be useful in
 </fontconfig>
 # helpful to be able to examine where in memory the kernel, modules,
 # <target name>	<source device>		<key file>	<options>
-## the keyword 'command_line' are not run until after the root filesystem
+
 #    modify it under the terms of version 2 of the GNU General Public
 mail.*				-/var/log/mail.log
 options md_mod start_ro=1
@@ -152,7 +152,6 @@ Bugs: debbugs://bugs.debian.org
 scsi "LEO" "LEOScan-S3"
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 
-pool {{pool}} iburst
 # Use DOCKER_OPTS to modify the daemon startup options.
 # vim:syntax=apparmor
 # Compose sequences for ISO-8859-16
@@ -182,7 +181,6 @@ fi
 			<family>DejaVu Sans</family>
 ## Uncomment the following two lines to add software from Canonical's
 
-# Compose sequences for ISIRI-3342
 # This program could be rewritten in C or Golang for faster performance.
    formatter=simpleFormatter
     export CLUTTER_IM_MODULE
@@ -271,9 +269,8 @@ compose ')' '-' to '}'
 
 # The following lines are desirable for IPv4 capable hosts
 # Required-Start:    $remote_fs
-  )
+           "booktitles.ent">
 # interpreted by the kernel to help with debugging. The kernel will respond
-SCRIPTNAME=/etc/init.d/$NAME
 
 fi
 # See avahi.hosts(5) for more information on this configuration file!
@@ -361,9 +358,8 @@ esac
 
           </Not>
 # OpenCL access requirements for Intel implementation
-DNS={% for server in nameservers %}{{server}} {% endfor %}
+# the option, separated by whitespace and/or an `=' sign.
 # ctrll alt keycode 36 = Incr_Console
-		<rejectfont>
 # Record the rate at which the system clock gains/losses time.
 auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
 	        # check because c-n-f could've been removed in the meantime
@@ -386,7 +382,7 @@ esac
 ports=22/tcp
 
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-# Set the maximum number of FUSE mounts allowed to non-root users.
+# Multiarch support
   LABEL="UEFI Firmware Settings"
   	if [ -r $CACHE ]; then
 tcp.flag.psh	u8		tcp+13		0x08		3
@@ -432,7 +428,6 @@ KpPDkC55gIDvEwRqFDu1m5K+wgdlTvza/P96rtxcflUxDOg5B6TXvi/TC2rSsd9f
 # This file contains a list of port numbers between 600 and 1024,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
 <fontconfig>
-
 # since the modules above will each just jump around
 
 font='Monospace 16'
@@ -468,7 +463,7 @@ DelayedActivation=false
 /dev/scanner
 #@{XDG_PUBLICSHARE_DIR}+=""
 
-image/jpg=org.gnome.eog.desktop
+	# addition to any existing reports. Otherwise, there's only log report
 #
 #!/bin/sh
 scsi "B&H SCSI"
@@ -531,7 +526,7 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 #
 	The Bistream Vera fonts have GASP entries suggesting that hinting be
 /usr/sbin/gdm3
-
+</fontconfig>
 /HYRGoThic-Medium /NanumGothic-Regular ;
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
 Clock*BorderColor:	light blue
@@ -605,7 +600,6 @@ NoDisplay=true
 <?xml version="1.0"?>
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
     monthly
-#    This program is free software; you can redistribute it and/or
 XKBMODEL="pc105"
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 /usr/lib/firefox/firefox
@@ -626,7 +620,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
 # subpath mappings from mount point for pinning
   <match target="pattern">
-<!ATTLIST magic name CDATA #REQUIRED>
+[Desktop Entry]
 Acquire::Changelogs::AlwaysOnline "true";
 		<family>Nimbus Sans L</family>
 session	optional	pam_systemd.so 
@@ -637,7 +631,6 @@ session	optional	pam_systemd.so
 # for allowing access to xterm
 # minclass = 0
 #include <tunables/global>
--dcevm KNOWN
 X-GNOME-Bugzilla-Version=3.36.0
 
 
@@ -646,7 +639,7 @@ LANG=C.UTF-8
 		<!-- https://en.wikipedia.org/wiki/Category:Mathematical_OpenType_typefaces -->
 # their current one is listed in /etc/shells. This keeps
   <match target="pattern">
-AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
+ * and edit it there.  That way, your changes will be kept next time
 
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 
@@ -708,10 +701,9 @@ Exec=/usr/libexec/gsd-wacom
 
 #   option dumb-read
 compose '\'' 'o' to 'Û'
-#
 nssDbMode = noDb
 #/dev/usb/scanner0
-
+LANG=C.UTF-8
       <const>lcddefault</const>
 # which broke applications in UTF-8 locales.  See:
 }
@@ -727,7 +719,7 @@ SHELL=/bin/sh
   # dehydrated
          ;;
 unset USEHTTP
-  unix (connect, receive, send)
+twm
 [METARELEASE]
 -->
 # eliminate DISABLE
@@ -838,7 +830,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
   <!-- Allow anyone to invoke methods on the interfaces -->
 # b.) change or remove the value of 'manage_etc_hosts' in
 create_machineid() {
-deb http://archive.ubuntu.com/ubuntu/ focal main restricted
 mßlj'ã©ZjUJü§mìôÃbπ¸G´πÙOÎ•ﬂØ7DÚˆ
 <fontconfig>
 #    Copyright (C) 2014 Canonical Ltd.
@@ -851,20 +842,17 @@ mßlj'ã©ZjUJü§mìôÃbπ¸G´πÙOÎ•ﬂØ7DÚˆ
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 # or by launching either "byobu-screen" or "byobu-tmux" instead of "byobu".
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
-ApprovedFirmware=
 
     <edit name="hinting" mode="append"><bool>false</bool></edit>
 ## template:jinja
   if [ -x $UUIDGEN ]; then
 
-show-im-name=false
 
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 #0x2eb
 APT::Archives::MinAge "2";
 
 # set this to 0 to disable apport, or to 1 to enable it
-[ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
 <?xml version="1.0"?>
 commands scan this directory processing all files that end in '.conf'.
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
@@ -902,7 +890,6 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 # set convert-meta off
 
 #   FTDI does USB to serial converter ICs; and it's very likely that they'll
-  /usr/bin/apport-bug Cx -> sanitized_helper,
 @{securityfs}=@{sys}/kernel/security/
 # Policy for warnings and action based on battery levels
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
@@ -1067,7 +1054,7 @@ compose '\'' 'n' to 'Ò'
 usb 0x043d 0x007d
 /dev/scanner
 Description=Mount unit for snapd, revision 9721
-d /run/screen 1777 root utmp
+
 #    corresponding bits set to one in this mask will not have any
     missingok
 
@@ -1088,3 +1075,14 @@ XCalc*ti.button37.label:	7
 . /usr/share/bash-completion/bash_completion
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
   # Plugins/helpers
+S|≤«ó?=“r˙€têK-mänì6Ñ]9ˆπéF’2˛€âO≠äó
+20190501095809 2 6 100 6143 2 D775D98222C19B71B1640F95F44179182E462E941B1ED2AABD7B9A92A387C5A10014F3150A4E2F48FAA83BBA757A7AFAD52FFBA351FF9DCED93B94669353E737D5DC74052A46299579F2F942AB66574E855A7E915834BD378408F0932BE8537F9863EF3EF0072EAC02EFD86A91573B63E45009CDAC495E6AAE87A2FD70395EC22F249492AFD7D007CF1718799D821E220AA90AB881E64096726963959F094A6ACE215A417B8163EAECEACA5B5454951324DB52FA2768FD22E9F0C2A1EEDD1B4DADA051455654FE405425EB73BF3536DB3B7FD9898F562EDF0BD5DA0EC15379CAEB4CFA2E2B4745D496617503427274AB3D9DBEDFFDCB5B7DC263E9F743A17FB094AE65E546468D398F0F5E3FCAF12B9799DEFDAFCB765F8AAF5D8B6BA2C24E1E1969339991AC01C542F56528446B5233819724F6CFE2E7B5797E4910993FF0EE87A1C696D60CB70EE6BCF27FC18E0B0BAF3AB97158130B0A8A1732A99A9E56713BFADC95BCD2ABD1996BF52E719441D9CFE948DF65F3BD454CF8198F43472F47F0F73703BAEF1E266B1F109AB3466B1D41E7E25AE6CA9CF42C73540245E8BE948FC620264DED7F1235A5962418BFA028C8F9657558E3A164668F9302B4A0D184DDF237275EF6C803B5DA901EA1A4E86E9FB5AACDED09EC4983A2B3089BDE76CC6D5EDE0FF746935912E63C4543A080977D92728F513A8FDEFD13F72B578B776552AAF9E7DAE4D292642762CB6F41BD9A4E668430C3C3E1CE6AE4BE5C520865E316DE2085420294EFF8D170322AB506042E08F3B621443273414FE2A9B5EB17DA967F8273999D7F1A562DD36E8827476767523F0C0BED30EBCECDD3BE963544DD22FBCFB58CAD4BCB0AF4756AAEB9B32E0302D55A30F0BE267729B831AB43BCF0F9D979EB01982BB9AD905F978B0EECC66C24FDD43E3C9A61DAD3847CD7A26573E5624ACA6497C4FC2846E743DCE94ED80CE5B85E4D94E9B04B5101CC5B93ECC5446D909EFD66B90BF9DE30B2184A762A47F850FEC2B275CBEC5F8C2D8129140345F92A62B10827FE5391D421CDDD3477525D7962802F86FB6DD776DF579FDFFB
+   /{var/,}run/mysql{,d}/mysql{,d}.sock rw,
+
+
+Name=GNOME Settings Daemon's housekeeping plugin
+# precedence  <mask>   <value>
+avision
+XClock.Clock.majorColor:	rgba:7f/00/00/c0
+[service]
+# The format of port-name is dependant on your OS version.
