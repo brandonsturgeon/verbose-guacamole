@@ -58,7 +58,7 @@ scsi FCPA
 #  under the terms of the GNU Lesser General Public License as published by
 
 search updates ubuntu built-in
-
+    user
 20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
     else
 # Compose sequences for ISO-8859-16
@@ -67,7 +67,7 @@ search updates ubuntu built-in
     </alias>
         # This line will fix the labeling on all newly created directories
 
-Comment[zh_CN]=ÂêØÂä® PulseAudio Â£∞Èü≥Á≥ªÁªü
+üvÍà>(d¯˜5’“¢;√·√Ùµo√ÒËINLHyÌ$9∏ˆ—õ¿ﬂI’2HÌìü∏j0àÍ™;ﬂ˘ïjÓLL8yjm1≠ÙBä6˜^¡yπ’PÑ÷ø-≠ÿ^ﬁ»ä∆Â7ˆNÕyy}í3√L;ê?z±w¡Ω:fÿ∑ÖÂ/æ∞Ω•w‡>˛—ï˚òót≥7%?vü§;@±
 /NimbusSanL-Regu (/usr/share/fonts/type1/gsfonts/n019003l.pfb) ;
 
         <policy user="root">
@@ -174,7 +174,6 @@ auth	required	pam_nologin.so
 
 #    modify it under the terms of version 2 of the GNU General Public
 restrict default kod nomodify notrap nopeer noquery
-fi
     permission java.util.PropertyPermission "java.vendor.url", "read";
      <choice>
 #    Copyright (C) 2014 Canonical Ltd
@@ -185,7 +184,7 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 # auto, /dev/paraport* (ppdev device name)
 # shells invoked with the -l flag.)
 
-#  As rsync is often used for backups which aren't all that time-critical,
+Vendor: Ubuntu
 #pnm
 # vim:syntax=apparmor
 # If you want to globally change where snmp libraries, commands and daemons
@@ -223,7 +222,7 @@ a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 Acquire::Changelogs::AlwaysOnline "true";
          only share the location if user allows it. -->
 
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+2fk6GWIY8lgxlKV/LinM5XkFDXv6Zf/o8Nv/i9bVO9Dv1bVh1ThgA3xy8WIzUQge
 
 blacklist rivafb
 
@@ -247,7 +246,7 @@ fi
 # Default-Start: 2 3 4 5
 
 
-description=OpenSSH is a free implementation of the Secure Shell protocol.
+    fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 if [ "$INITRD" = 'No' ]; then
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
@@ -273,7 +272,6 @@ bookworm/sid
 APT::Archives::MaxAge "30";
 ctl.!default {
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-            <extension base="saml:StatementAbstractType">
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 ## Type:        yesno
 ## invoking user was bestowed with some inheritable capabilities by a
@@ -307,7 +305,6 @@ type=file
 esac
 
 # the option, separated by whitespace and/or an `=' sign.
-# ctrll alt keycode 36 = Incr_Console
 # Record the rate at which the system clock gains/losses time.
 	        # check because c-n-f could've been removed in the meantime
 # This file is sourced by Xsession(5), not executed.
@@ -451,7 +448,7 @@ name = NSS
 # and should contain a list of modules that define tasks to be performed
 #           the currently-running release is not itself an LTS release the
     exec /usr/lib/update-notifier/update-motd-hwe-eol
-  # pretty-print messages of arbitrary length; use xmessage if it
+# msgs, from, etc.)
 	The Bistream Vera fonts have GASP entries suggesting that hinting be
 /usr/sbin/gdm3
 /HYRGoThic-Medium /NanumGothic-Regular ;
@@ -488,7 +485,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 # Any customisation or reliance on the existence of this file and its
 *MenuButton.leftBitmap:		None
   # Kubuntu
-exec /usr/bin/X -nolisten tcp "$@"
+#usb VENDORID PRODUCTID
 # define if shading data shall be inverted befor sending it back to the scanner
 ôT¨ˇ∂Ä¯ﬂe‚Kóﬂä±!∂ÛúÒ…˛∫n˙ª83ÌGñ±¡,’[M¡ÓÀ´)∆mà≤Õ∫◊Ri€“îˇbvwR∞ò&ÅÏ¬fFäÑ>S®¨ke–úÁXw›æ≈$´[oƒÓÇÍ]ö·‰Jtÿ=4óPÑ;=ÏvDªv,œä÷XÆ0◊,&Øﬁiä·–]è9ø∂n9j¿sÚO˙Õ≠o>NF¶çéz!7íŸÅµ‰ƒh≠Ô¥èMeÆd4ÛóÌE∂ÅeÚ‹4ˆπß&=Nük.»”(¢ë˝	Ê+À*0®àíeœ@¡ÏñEÙká-Y @ ÷6∑j˚n√ä›Û ëö{?"<÷`ìàB∏ué∏ÀY¶<VÚ	àê+>·z≤?hˇ¶1nì√î’†:{∞j±	åHªM1/~Ø§
 
@@ -563,7 +560,6 @@ Name=GNOME Settings Daemon's power plugin
 /dev/scanner
 #
 # Required-Start:    $local_fs
-geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
   /usr/bin/m4 ixr,
 	daytime_hosts => [ qw {} ],
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
@@ -582,7 +578,7 @@ if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 [Sources]
 }
   /etc/OpenCL/** r,
-# in the toplevel profile. Eg:
+Type=Application
 # should not normally be necessary (under Linux at least).
 # and the kernel MPPE module available from the CVS repository also on
 # troubles on misconfigured networks
@@ -664,7 +660,7 @@ done
     <accept>
       Most clients may picks up the first value only. so using "append"
 # udevd is also started in the initrd.  When this file is modified you might
-                    attributes in this namespace</p>
+deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 <!ENTITY % allAttrs ''>
 fax:x:21:
   deny @{HOME}/.zshenv mrk,
@@ -732,7 +728,7 @@ commands scan this directory processing all files that end in '.conf'.
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
 # published by the Free Software Foundation; either version 2 of the
-# be able to allow access to files that are explicitly denied by the shipped
+
 
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 # mdadm module configuration file
@@ -761,7 +757,6 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 
 case "${1}" in
 @{securityfs}=@{sys}/kernel/security/
-# Policy for warnings and action based on battery levels
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 # Site-specific additions and overrides for usr.bin.firefox.
 # HP Scanjet G2710
@@ -784,7 +779,7 @@ roottext=,magenta
 #  normal - Check to see if a new release is available.  If more than one new
 56f12ada18a3412ab1f9dcd69450be95
 
-[mysql]
+ 97  97  97 		grey38
   # NIS rules
 # List your classid definitions here:
 #    exitCode may be incremented.
@@ -813,7 +808,7 @@ compose '`' 'O' to '“'
 # Compose sequences for IBM1133
 
 BRIDGE_HOTPLUG=no
-# deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
+
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
 
 
@@ -828,7 +823,7 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 # ldconfig = false
 #
-Requires=snap-lxd-18150.mount
+
 
 # See sane-microtek2(5) for a description of the options
     else
@@ -850,7 +845,6 @@ compose '^' 'U' to '€'
 	 !-->
 compose '`' 'a' to '‡'
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
-<delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook Document Hierarchy V4.1.2//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.1.2/catalog.xml"/>
 Acquire::Changelogs::AlwaysOnline "true";
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
@@ -918,7 +912,7 @@ compose '\'' 'n' to 'Ò'
   # do not use ux or PUx here. Use at a minimum ix
 QT_ACCESSIBILITY=1
 
-allow-failsafe
+# Compose sequences for ISO-8859-6
 
 XCalc*ti.button37.label:	7
 . /usr/share/bash-completion/bash_completion
@@ -987,7 +981,7 @@ Ubuntu 20.04.5 LTS \n \l
 # another usb section here.
 MIIElDCCA3ygAwIBAgIQAf2j627KdciIQ4tyS8+8kTANBgkqhkiG9w0BAQsFADBh
 deb http://packages.azlux.fr/debian/ buster main
- - &log_file |
+
 
 # Unlike any other crontab you don't have to run the `crontab'
 Type=Application
@@ -1096,10 +1090,22 @@ UUIDD_GROUP=uuidd
 
 # RFC 2598
 # subpath mappings from mount point for pinning
-		<default><family>sans-serif</family></default>
 
 # This file is sourced only for login shells. It
 
 
 
             . /usr/share/bash-completion/bash_completion
+    exit 0
+## Commands metadata files.
+EnumerateAllDevices=false
+if [ "$BASESTARTUP" = x-session-manager ]; then
+# enforce discretionary access controls) it can be used as if it did
+XLogo*foreground: rgb:d7/d7/d7
+# Insert here your local magic data. Format is described in magic(5).
+  /usr/bin/mousepad Cxr -> sanitized_helper,
+
+
+
+
+  # python build configuration and headers
