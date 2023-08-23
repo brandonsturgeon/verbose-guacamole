@@ -81,7 +81,7 @@ gtk-icon-sizes = panel-menu-bar=24,24
 
 # If you want logs to go to syslog, uncomment the following line.
 # and users home directories will reside within the directories that
-deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
+
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
       will change accordingly; the version at
 exec /usr/bin/X -nolisten tcp "$@"
@@ -142,13 +142,11 @@ fi
 /dev/scanner
 			<family>DejaVu Sans</family>
 ## Uncomment the following two lines to add software from Canonical's
-# This program could be rewritten in C or Golang for faster performance.
    formatter=simpleFormatter
     export CLUTTER_IM_MODULE
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # configuration options for /etc/X11/Xsession
 auth	required	pam_nologin.so
-
 #    modify it under the terms of version 2 of the GNU General Public
 
 compose '^' 'I' to 'Î'
@@ -158,7 +156,7 @@ compose '^' 'I' to 'Î'
 application/vnd.anser-web-funds-transfer-initiation
 ‹]ÒÇj[A†á½¯b°Z·G³±§A¼ÓæH:‰¶#’àÒ{ï½÷Ş{ÌåÿŞì²xg`àY|Cn[Ù-{E¿l»­½jÑÍmI#ıÅ¥…Ñz³Óít]s×¦!·bÇ¹ó…ÒõÊ¢í
 X-GNOME-Bugzilla-Bugzilla=GNOME
-# auto, /dev/paraport* (ppdev device name)
+1	redirect
 # shells invoked with the -l flag.)
 
 Vendor: Ubuntu
@@ -221,7 +219,6 @@ if [ "$INITRD" = 'No' ]; then
 }
 
 [localization]
-# Default-Stop:
 <Key>Escape: quit()
   </policy>
 *customization: -color
@@ -252,7 +249,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 # as possible
 DISTRIB_RELEASE=20.04
 #    Handle linux distributions that use systemd to replace the legacy
-_§”‹¨Ï…PC„xWçyÏÏxñ<î%|«ÜK­6«o2ºnä‹Ÿ¶Â_ãöÀ—áÎäBâ¿Bèğ<ÏÃğ*ÜVöÂA|½æÂ}|áAØÁ~x„§àyx^Ó¨ÁË„^Wá5q0o^ÆÉ›Èß‚oÃwà{ğ¼ß‡wà‡ğ3øü|„ÿƒNÊ˜½°Îƒóa¶ÂuĞ„gé‘w!G+æÀÃ<è„UĞwCbÚëÔ/9íü6òi8Úa&ä`ZƒàHXıp"”aªpÔàd¨Ã°Î‚³a3œÀEğ1ø8×Àµ0®¾GİçÀ‘ğ¼oÃ;"~:Ì€C óÔš]P	GÁñ°Î…Ká£p9æ,s7	3àè„ùPMp&ŒÀV¸şş>	ïƒ Œi…Ã`6X=°…%°VÂ	P‚50káTØgÂ6¸v€P=¤áP˜G@æÀ‘p,†£á8–ÀRXÇÁJèƒUĞ'@	N„Õp2œkáTX§Áz†Óá8¶À¹pœ»à&ø$³çSğpü%|ş
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
 /usr/sbin/gdm3
@@ -370,7 +366,7 @@ $x-display-manager gdm3
 CRYPTDISKS_MOUNT=""
 
 XLoad.input:			false
-!•”hÄÂÇ¨(/ä< @€á	êÇhÊ×¬á‹Xó¥jCBŸbÊ›¿Œâ[±Ö£ÖÜııc=ëÖ¶—‘	zoÕcÓÉ-AKĞ´-y®–¨ş¹Ç9Y¸ÚºÚ'éCÎÕæ‡=Úæ›nÀ=j»ºµˆ‹¸ˆ{p™Åg~h5íã^
+#
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 #    This program is free software; you can redistribute it and/or
 #!/bin/sh
@@ -394,7 +390,7 @@ name = NSS
 Title=Enable UEFI capsule updates on Dell systems
 # This directive enables kernel synchronisation (every 11 minutes) of the
     rotate 1
-  /usr/bin/netrik Cx -> sanitized_helper,
+# Turn on Source Address Verification in all interfaces to
 # for input method.  Thus moved from 80 to 70.
 †Ë«İù»—bdœ-vj!Â",şé©×ZÑ=m';È61©C§Òâ»B“,éUWÕ>ö4÷ùş±è2Õí¥V°,Ô_o°Âõóî±Æc„bƒãÎ´;p)ÒW‚PÄ
 # OpenCL access requirements for Intel implementation
@@ -430,7 +426,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 # Any customisation or reliance on the existence of this file and its
   # Kubuntu
 #usb VENDORID PRODUCTID
-# define if shading data shall be inverted befor sending it back to the scanner
+
 ™T¬ÿ¶€øßeâK—ßŠ±!¶óœñÉşºnú»83íG–±Á,Õ[MÁîË«)Æmˆ²Íº×RiÛÒ”ÿbvwR°˜&ìÂfFŠ„>S¨¬keĞœçXwİ¾Å$«[oÄî‚ê]šáäJtØ=4—P„;=ìvD»v,ÏŠÖX®0×,&¯ŞiŠáĞ]9¿¶n9jÀsòOúÍ­o>NF¦z!7’ÙµäÄh­ï´Me®d4ó—íE¶eòÜ4ö¹§&=NŸk.ÈÓ(¢‘ı	æ+Ë*0¨ˆ’eÏ@Áì–Eôk‡-YÊ@ÊÖ6·jûnÃŠİó ğ‘š{?"<Ö`“ˆB¸u¸ËY¦<Vò	ˆ+>áz²?hÿ¦1n“Ã”Õ :{°j±	ŒH»M1/~¯¤
 
   /usr/share/perl/**             r,
@@ -482,7 +478,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 #mount_max = 1000
 
 LANG=C.UTF-8
-		<!-- https://en.wikipedia.org/wiki/Category:Mathematical_OpenType_typefaces -->
 # their current one is listed in /etc/shells. This keeps
   <match target="pattern">
 
@@ -539,7 +534,7 @@ LANG=C.UTF-8
 # which broke applications in UTF-8 locales.  See:
 driftfile /var/lib/chrony/drift
   <type name="NewCenturySchlbk-BoldItalic" fullname="New Century Schoolbook Bold Italic" family="NewCenturySchlbk" foundry="URW" weight="700" style="italic" stretch="normal" format="type1" metrics="C059-BdIta.afm" glyphs="C059-BdIta.t1"/>
-# Compose sequences for ISO-8859-8
+# fails to use it it will not abort.
 # ATZW2 as a default init string
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
   # dehydrated
@@ -572,7 +567,6 @@ case $0:$mode in
 	Options FollowSymLinks MultiViews
 # ------------------------------------------------------------------
 /STHeiti-Regular /BousungEG-Light-GB ;
-  # User files
 #
 : > "$TMPFILE"
   /etc/cloud/clean.d/99-live-installer
@@ -606,7 +600,6 @@ test -f $DAEMON || exit 0
   (debian-pkg-add-load-path-item
 # ldconfig = false
 
-APT::Periodic::Update-Package-Lists "1";
         Disable hinting manually at smaller sizes (< 8ppem)
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
     permission javax.crypto.CryptoPermission *, 128;
@@ -681,7 +674,7 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
 alias gawkpath_prepend 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") then; unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKPATH "!*"":$AWKPATH"'
       <string>DejaVu Sans Mono</string>
-#
+  <complexType name="EncryptionPropertiesType">
 run_im default
 blacklist dv1394
 #    modify it under the terms of version 2 of the GNU General Public
@@ -690,7 +683,7 @@ roottext=,magenta
 # value is 80) and nonProxyHosts is a '|' separated list of hostnames which
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
-  #include <abstractions/opencl-mesa>
+      <setting name="period">beginChunk</setting>
   -->
 #  normal - Check to see if a new release is available.  If more than one new
 56f12ada18a3412ab1f9dcd69450be95
@@ -741,11 +734,10 @@ application/x-texinfo				texinfo texi
 scsi RICOH IS60
 
 #
-type=file
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 #children_max=
 disable_root: true
-^w{3} [ :0-9]{11} [._[:alnum:]-]+ mdadm([[[:digit:]]+])?: (New|Degraded)Array event detected on md device /dev/[-_./[:alnum:]]+$
+# Compose sequences for GEORGIAN-PS
 man:x:12:
 #
 compose '^' 'U' to 'Û'
@@ -789,7 +781,7 @@ title=Secure shell server, an rshd replacement
 
 umask 022
 
-    %r   real CPU time
+# Should-Start:      $network $named slapd autofs ypbind nscd nslcd winbind sssd
 ## or updates from the Ubuntu security team.
 #option modelname "Prima PagePartner"
 speed=115200
@@ -803,7 +795,7 @@ compose '\'' 'n' to 'ñ'
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #    corresponding bits set to one in this mask will not have any
     missingok
-	  <family>URW Bookman</family>
+#    (at your option) any later version.
     echo "updates of cacerts keystore disabled."
 # files; in other words, files such as a sample .profile that will be
 ## or updates from the Ubuntu security team.
@@ -863,14 +855,12 @@ GenericName=Demo geoclue agent
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
 search updates ubuntu built-in
-
   </match>
 Name[cs]=ZvukovÃ½ systÃ©m PulseAudio
 
 # /etc/xdg/user-dirs.defaults)
 # that should be loaded into the Java VM when the AWT is initailized.
       <bool>false</bool>
-Ubuntu 20.04.5 LTS \n \l
     <allow own="org.freedesktop.GeoClue2"/>
 # be polyinstantiated based on the MLS level part of the security context as well as user
 # 'keyscript=' option.  In that case, the field is not treated as a file
@@ -975,7 +965,6 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
 # subpath mappings from mount point for pinning
 
 # This file is sourced only for login shells. It
-
 
 
             . /usr/share/bash-completion/bash_completion
@@ -1141,3 +1130,15 @@ DISTRIB_ID=Ubuntu
 order hosts,bind
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 @include common-password
+# real-time clock. Note that it canâ€™t be used along with the 'rtcfile' directive.
+Type=Application
+			<family>FreeSerif</family>
+#port=/dev/tty01
+/usr/bin/wine-preloader
+
+// Example: Homepage
+  /usr/bin/emacsclient.emacs2[2-9] Cxr -> sanitized_helper,
+#
+/usr/lib/x86_64-linux-gnu
+#    This program is free software; you can redistribute it and/or
+# User "root" should get access from network 192.168.201.
