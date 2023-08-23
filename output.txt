@@ -2,7 +2,7 @@
 Ubuntu 22.04 LTS (Jammy Jellyfish)
 #Source user defined xsessionrc (locales and other environment variables)
 #
-auth		sufficient	pam_rootok.so
+Clock*hour:		yellow
 /var/log/auth.log
 	export AWKPATH="$*:$AWKPATH"
 143 188 143		DarkSeaGreen
@@ -59,8 +59,8 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 	monthly
 #    This program is free software; you can redistribute it and/or
 // If you don't like it, comment it out.
-#
-
+QT_ACCESSIBILITY=1
+[ -x /sbin/vgchange ] || exit 0
 #
 overlayroot_cfgdisk=LABEL=OROOTCFG
   /usr/bin/emacsclient.emacs2[2-9] Cxr -> sanitized_helper,
@@ -143,7 +143,7 @@ PATH=/sbin:/bin
 
 # Reserved protocols.
         <policy user="root">
-fi
+
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 # Compose sequences for TIS-620
 
@@ -197,7 +197,7 @@ XL3IlFx/6OUpBA==
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main
 # so please ensure that:
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '''s/^s*[0-9]+s*//;s/[;&|]s*alert$//''')"'
-sonames=libbd_lvm.so.2
+if [ -n "$DEB_MAINT_PARAMS" ]; then
 # Should-Start:       cgroupfs-mount cgroup-lite
 ONLY_IF_EMPTY = 0
 NAME="plymouth-log"
@@ -224,7 +224,7 @@ if [ -x /usr/lib/update-notifier/update-motd-fsck-at-reboot ]; then
 blacklist dv1394
 compose '`' 'u' to '˘'
 # Case-sensitive behavior is defined by the operating system.
-global {
+# conf_force_conffold=YES
        not necessary for user PulseAudio instances. -->
 	check_privsep_dir
 # Compose sequences for IBM1133
@@ -236,7 +236,7 @@ global {
 #
 deb http://packages.azlux.fr/debian/ buster main
 ${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
-#  option domain-name-servers 127.0.0.1;
+
 fi
     fi
 Acquire::Changelogs::AlwaysOnline "true";
@@ -306,7 +306,7 @@ QUIET=0
 compose ''' 'i' to 'Ì'
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
-# no packages own wtmp -- we'll rotate it here
+#!/bin/sh
 title=Secure shell server, an rshd replacement
 
 # Compose sequences for IBM1133
@@ -405,16 +405,14 @@ w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
 
   /var/log/**                   rw,
 # ctrll shiftr alt keycode 36 = Incr_Console
-z¥Ë}z÷£m¬∏∫˜®ÌÍ÷".‚"Ó¡qõŒÏLËuﬁªl≈P†x¶BªÈ=›ØõÓÿ√eÂÀÛ‰z•Ωf8ˆè}¨ˆøM/@>ÁIñ◊|x]˝È≠:}äëÈG“zÕ±˚»Æ !≈ãsıÄx‡AøOÎWªöÈ˝ƒó‰˙¶‹£|ø÷¢Ì{0¬ ÃÀ£ı"z˚vΩƒvºõv5–ìº≥Ï€äg*¥´ëqö›óımÚ"À˘]2ﬂ7Nœ¸#=´´€°	jÔ◊ÀKT®P=C•ıFöy˜Ö≠≤;6§‚∏˜¥z"!“ãà‘ÙÆπ¸N“€5çjÕ◊ZtÏ9L¿L~r&*π–,9“5j‘«Wk˜ÒÙÃËs¥-XG˘:g—mG	{ÿø {ı”Hù·∑,Yû?¨.´ﬁ¢¡!Û∆⁄Ûò)i˚Mêÿo7ŒŒŒŒŒŒŒ»>#ÍÊD~“˜,πK*Q!z(∫S3Óº¿º¿ÀÇ¥±*Ù6ˇ4-±Ô¶]Ù6πÔØyî(è†TΩ¡êëõ´aä´WCs5ÑΩè®üjŸÿ9´Ë@@@@?1zUîy≤æ.N¢‚d[l£Ù’ˇbó}¨c…
+    # clean up parts of the database created by the initramfs udev
 
 #    This program is free software; you can redistribute it and/or
 fi
 *SimpleMenu.line.height:		0
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
     permission java.util.PropertyPermission "java.vendor.url", "read";
-# clean all crash reports which are older than a week.
 }
-Each file in this directory is an rt_protos configuration file. iproute2
 #    Copyright (C) 2014 Canonical Ltd
 brandon:100000:65536
 
@@ -428,7 +426,6 @@ ja_JP		ja_JP.eucJP
       member={Hello,AddMatch,RemoveMatch,GetNameOwner,NameHasOwner,StartServiceByName}
 XKBLAYOUT="us"
 
-}
 
 makestep 1.0 3
 gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
@@ -459,7 +456,7 @@ Each file in this directory is an rt_tables configuration file. iproute2
 {% endif %}
 disable_flash_pq_bg_color=1
 allocation {
-			<family>Arial</family>
+# Benq/Acer 5300
 # UMAX Astra 4500 and Avision iVina 1600
 	</alias>
   # Include additions to the abstraction
@@ -502,7 +499,6 @@ option toggle-lamp on
 # This file is a simple placeholder to keep dpkg from removing this directory
 # raid1
         echo "$DPKG_MAINTSCRIPT_PACKAGE" >> /var/run/reboot-required.pkgs
-{% endif %}
 ## Add external Servers using
 /Adobe-Japan2-Bold /Japanese-Gothic-Regular-JaH ;
 #
@@ -524,7 +520,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 AutomaticSecurityReports=false
     missingok
 l2tp	115	L2TP		# Layer Two Tunneling Protocol [RFC2661]
-#label ::/96         3
 . /usr/share/bash-completion/bash_completion
 <fontconfig>
 	AºtattooUTPK!!{Yl	àºtaxUTPK!“w0	…ºtaxiUTPK!~ÒØ	ΩtcUTPK!_å<	WΩtciUTPK!°äJ	òΩtdUTPK!X¯}	‚ΩtdkUTPK!√y~}%	#æteamUTPK!Uù∂	|ætechUTPK!ò˙#F
@@ -579,7 +574,7 @@ data {yes
   /etc/profile.d/                  r,
 
 ! XMore.ad
-4	meta
+# for the GT-6500:
 
 ! this causes problems with some non-Xaw apps, use with care
 #
@@ -689,7 +684,6 @@ X-Ubuntu-Gettext-Domain=xdg-user-dirs
 set -e
 
 
-auth		include		runuser
 # resolution. For example, if '/usr' is on removable media:
 #    Copyright (C) 2012 Canonical Ltd.
 
@@ -738,7 +732,7 @@ X-GNOME-Autostart-Phase=Initialization
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
 # Compose sequences for KOI8-U
 for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; do
-  /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
+# The PAM configuration file for the Shadow 'newusers' service
 </match>
 #
 # Compose sequences for ISO-8859-10
@@ -765,7 +759,7 @@ fi
   include <abstractions/consoles>
 #dateext
 ### END INIT INFO
-# DO NOT EDIT OR REMOVE
+#
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+(\[[0-9]+\])?: DIGEST-MD5 common mech free
 //Unattended-Upgrade::Mail "";
 AutomaticReports=false
@@ -989,7 +983,6 @@ fs.protected_hardlinks = 1
 allocation {
 #
 system.posix_acl_access		permissions
-    <!--
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 }
 
@@ -1026,3 +1019,17 @@ compose '*' '0' to '∞'
 
 # ctrll shiftr alt keycode 37 = Decr_Console
 	<!-- Prefer to match color emoji font. -->
+# The "order" line is only used by old versions of the C library.
+
+
+
+# im-config signature: d57688c8151277a0c25d15aa0523da6b  -
+  <match target="pattern">
+#!/bin/sh
+post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
+run_sdptool()
+
+# 2001::81:1 test.local
+Vendor-URL: http://www.ubuntu.com/
+
+# the value 'auto' will make the backend find the correct value
