@@ -1,6 +1,5 @@
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 		exec update-grub
-   [[/usr/local]]
 required in any way by the specification).  The information may be useful in
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 /usr/lib/x86_64-linux-gnu
@@ -216,11 +215,10 @@ Name=GNOME Settings Daemon's USB protection plugin
 MANPATH_MAP	/opt/sbin		/opt/man
 name = NSS
 fi
-    rotate 1
+  . "$USERXSESSIONRC"
 # Turn on Source Address Verification in all interfaces to
 # for input method.  Thus moved from 80 to 70.
 # and should contain a list of modules that define tasks to be performed
-#           the currently-running release is not itself an LTS release the
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 # msgs, from, etc.)
        daily
@@ -310,7 +308,6 @@ twm
 #    Copyright (C) 2011 Canonical Ltd.
 echo
 if ls /dev/fb* >/dev/null 2>/dev/null; then
-# inclusion by distributed profiles to aid in packaging AppArmor for
 {% endif %}
 <!ATTLIST %element;
 fi
@@ -347,7 +344,6 @@ exec tail -n +3 $0
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
     permission javax.crypto.CryptoPermission *, 128;
 	missingok
-
 email_format=text
 #
 
@@ -394,7 +390,6 @@ roottext=,magenta
 # device group names
 #
 L9ItWY16Ck6WaVICqjaY7Pz6FIMMNx/Jkjd/14Et5cS54D40/mf0PmbR0/RAz15i
-127 127 127 		grey50
 # The following is a space-separated list of where additional user home
     permission java.util.PropertyPermission "java.class.version", "read";
 enabled=1
@@ -463,7 +458,7 @@ speed=115200
 # files; in other words, files such as a sample .profile that will be
 # vim:syntax=apparmor
 compose '`' 'e' to 'è'
------END CERTIFICATE-----
+
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 
@@ -581,7 +576,7 @@ networkd_dispatcher_args="--run-startup-triggers"
 # minclass = 0
 #
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
-# This argument is used when the -n flag is specified.
+usb 0x05e3 0x0145 0x2e 0x00
 quick
 # vim:syntax=apparmor
 fi
@@ -603,7 +598,6 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 # Set to the user saned should run as
 |y+ÃÉ?4O›¶Ş¦°òãÿ*-¸Š·ÙJ-º7ªå¸Îí0KO›Ñ„=ûºëÈHÑ`.‹íZ"MAM„s¶ÌS®¼y£6ÄÎÁÅWm"ÀÔ‘‘ÅßİÍç]²{ÄÙ {§¦;Ö[AçŒm»Hºun¯‰³CÍoào*gƒOÍºÖU¡BĞñ	û×t ãhHZš%’½›½{¢¿KGC!3E´,Launchpad PPA for Roberto Mier EscandÃ³n îƒ¿‰8"ZÂfS		
 # Configuration for systemwide password quality limits
-  dbus (send)
         done
 Name=User folders update
 
@@ -630,7 +624,7 @@ scsi RICOH
 # Each line can contain optional arguments separated by :
 search updates ubuntu built-in
 #    . /etc/bash_completion
-/usr/lib/x86_64-linux-gnu/libfakeroot
+  #include <abstractions/dbus-strict>
 #    Copyright (C) 2011 Canonical Ltd.
 arch=`dpkg --print-architecture`
 # /etc/login.defs and user settings, solving the problem of different
@@ -700,7 +694,6 @@ PICTURES=Pictures
 
 
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
-/lib32
 @{multiarch}=*-linux-gnu*
   /etc/bash.bashrc.local           r,
 /MKai-Medium /ZenKai-Medium ;
@@ -724,7 +717,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
 scsi FCPA
 # ------------------------------------------------------------------
-    daily
+
 			<string>HYSong</string>
 rocks_trees = {
   </alias>
@@ -732,7 +725,6 @@ rocks_trees = {
 #verify = yes
 
 # DO NOT EDIT OR REMOVE
-## saned hosts
 
 #
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
@@ -843,7 +835,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 
 *start.Justify: left
 [defaults]
-# Purpose: show user warnings on login.
+# Compose sequences for TIS-620
 +  manage_etc_hosts: True
 
 X-Ubuntu-Gettext-Domain=gnome-keyring
@@ -910,7 +902,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
     if [ -e "$dmi_path" ] && read vendor < "$dmi_path"; then
 56f12ada18a3412ab1f9dcd69450be95
-	                echo failed.
 # symbolic names for networks, see networks(5) for more information
 #    /etc/overlayroot.local.conf
 #keyfile /etc/chrony.keys
@@ -919,7 +910,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 	weekly
 BYOBU_BACKEND="tmux"
   /usr/bin/epiphany-webkit Cx -> sanitized_helper,
-#               -> put your type of protocol instead of 'https' : http or https.
   . "$USERXSESSIONRC"
 #
            send_interface="org.freedesktop.DBus.Properties" />
@@ -956,7 +946,7 @@ NI	-*-new century schoolbook-medium-i-normal--*-*-*-*-*-*-iso8859-1\n\
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # If we are running the GNOME session, source ~/.gnomerc
 # Run cryptdisks initscripts at startup? Default is Yes.
-9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB
+deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 
 #
 # vim:syntax=apparmor
@@ -982,7 +972,7 @@ datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltClo
 # BYOBU_BACKEND can currently be "screen" or "tmux"
 # This file may be sourced by the function source_with_error_check() in
 [Distro]
-# Compose sequences for VISCII
+# 0=disable, 1=enable all, >1 bitmask of sysrq functions
 
 AdminIdentities=unix-group:sudo;unix-group:admin
  ŸPJ>z6úÑQ@ÏYà{ä	L§Ü][´²°²½wÍwwb@HçIàê‰ÑÒ‘‡H>'4)´«+•K%}Åc²-(qÜLS^5ïÔóŞ’}‰ Tô€-P™‰w±„õï ×µ>Re‘v-©Ş–Y~Ià´Ó<GieĞ­l ¦ì0 ‰Q$rxL[
@@ -1081,7 +1071,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 
   /usr/lib/NetworkManager/nm-dhcp-helper          Pxrm,
 #IgnoreRhosts yes
-  owner @{HOME}/man/                          r,
 #
 # usb 0x4b8 0x14c
    "URL": "https://launchpad.net/~%s/+sshkeys"
@@ -1094,7 +1083,7 @@ DAEMON=/sbin/lvmpolld
 session    required   pam_limits.so
 Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
   <type
-else:
+# their respective territories so make sure you select a ISO/IEC 3166-1 alpha2
   Associate an image format with a unique identifier. 
 OnlyShowIn=GNOME;
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
@@ -1115,7 +1104,6 @@ you need to add the following to config:
 127.0.0.1	noadware.ws
 #    License published by the Free Software Foundation.
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf
-#frequency =
 
 	exit 0
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -1128,7 +1116,6 @@ LP-PPA-ubuntu-mozilla-daily
 # ------------------------------------------------------------------
 deb http://packages.azlux.fr/debian/ buster main
 #option 1200cu
-  Associate an image format with a unique identifier. 
 <!DOCTYPE busconfig PUBLIC
 <?xml version="1.0"?>
   /etc/gtk/*                      r,
@@ -1156,9 +1143,9 @@ enabled=1
 # orbit2 permissions
 #/dev/scanner
 ::1 localhost6.localdomain6 localhost6
-#
+# Compose sequences for CP1251
     <!--
-# 192.168.0.1 router.local
+187	isis
    userScriptDir="$TOOLS_CONFDIR/scripts/${powerOp}-default.d"
   # temp files
 
@@ -1201,3 +1188,14 @@ deb http://packages.azlux.fr/debian/ buster main
 #    modify it under the terms of version 2 of the GNU General Public
   /usr/local/share/man/man?/            r,
 /Ryumin-Light /Japanese-Mincho-Regular ;
+# ctrll shiftr alt keycode 36 = Incr_Console
+*fileDialog*cancel.label:		Cancel
+#
+{% for server in servers -%}
+#
+[device]
+# VM3564 RELISYS AVEC II S3 scanner
+# the pool.ntp.org domain since they return multiple A records.
+# NIS (man nsswitch) as well as normal /etc/passwd and
+    fi
+type=file
