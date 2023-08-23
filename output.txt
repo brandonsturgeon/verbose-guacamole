@@ -10,7 +10,6 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 required in any way by the specification).  The information may be useful in
 *JumpScroll:			1
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-/dev/scanner
 /usr/lib/x86_64-linux-gnu
 # <target name>	<source device>		<key file>	<options>
 @include common-account
@@ -56,7 +55,7 @@ search updates ubuntu built-in
     </alias>
         # This line will fix the labeling on all newly created directories
 
-/NimbusSanL-Regu (/usr/share/fonts/type1/gsfonts/n019003l.pfb) ;
+LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 
         <policy user="root">
 
@@ -122,7 +121,7 @@ DISTRIB_CODENAME=jammy
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 #
 
-	cat <<-EOF
+[localization]
 audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
 [ -d /var/crash ] || exit 0
@@ -141,7 +140,7 @@ auth	required	pam_nologin.so
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 application/vnd.anser-web-funds-transfer-initiation
 #  * and that the path value is quoted
-# should not normally be necessary (under Linux at least).
+#!/bin/sh
 # shells invoked with the -l flag.)
 
 Vendor: Ubuntu
@@ -413,7 +412,6 @@ letter
   </rejectfont>
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 # local modules either before or after the default block, and use
-	# use bytes for expected and deterministic output
      o Declarations for and references to external parameter entities
 /CenturySchL-BoldItal (/usr/share/fonts/type1/gsfonts/c059036l.pfb) ;
 scsi Nikon * Scanner
@@ -439,7 +437,7 @@ LANG=C.UTF-8
 # their current one is listed in /etc/shells. This keeps
 
 
-17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
+
 
          cloud-init dhclient-hook down "$interface";;
 
@@ -457,7 +455,7 @@ Name=GNOME Settings Daemon's power plugin
 SHELL=/bin/sh
 # This mechanism that does not depend on a system service to operate.
     <match target="pattern">
-#AllowHibernation=yes
+# banner-message-text='Welcome'
                                   (symbol-name debian-emacs-flavor)
 # shiftr shiftl alt keycode 37 = Decr_Console
 serif.symbol.bolditalic=Symbol
@@ -504,7 +502,7 @@ if ls /dev/fb* >/dev/null 2>/dev/null; then
 <!ATTLIST %element;
 fi
 DEFAULT_OUTPUT_POLICY="ACCEPT"
-APT::Archives::MinAge "2";
+case "$6" in
 helpline=,magenta
 
 
@@ -537,7 +535,6 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 fax:x:21:
 		1) log_progress_msg "already stopped"
-# deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
 exec tail -n +3 $0
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
   convenient to refer to a color by name (e.g. white) rather than by hex
@@ -593,7 +590,6 @@ KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 
 XLogo*background: rgb:d2/22/32
 }
-    permission javax.crypto.CryptoAllPermission; 
 		<prefer>
 America/Los_Angeles
 OK           ATDT<put phone number here>
@@ -693,7 +689,7 @@ server {{server}} iburst
 HuaweiAltModeGlobal=0
 restrict 127.0.0.1
 <delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///usr/share/xml/svg/catalog.xml"/>
-#   This is not a comprehensive list of options, look at the screen manual for
+	rm -rf "${RUN_DIR}/interface/*"
 // grant codeBase "jrt:/com.greetings" {
 # set trimblanks
 
@@ -710,7 +706,6 @@ Bugs: debbugs://bugs.debian.org
 #option modelname "Prima PagePartner"
 speed=115200
 !ŠÅÉù=7a©|ªg¢_Çû¢ÿÎ$êï1×hègõöÛë™LÏÆŸÖòïÏÙ¸aƒ•.W,V«Í*ÎIš&ÊÕê`¿’3‰şA;Ø/Äq5ë;OÖ_?©À¡Q¾×?C¹v¿ô
-compose '\'' 'n' to 'ñ'
 #!/bin/sh
        bus=session
 
@@ -755,7 +750,6 @@ XClock.input: false
 
 # Insert here your local magic data. Format is described in magic(5).
 
-#  under the terms of the GNU Lesser General Public License as published by
 
   /usr/bin/iconv rm,
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
@@ -814,16 +808,13 @@ encryption=luks1
 scsi "KINPO   " "Vividscan S120  "
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-# picture-options='zoom'
 			<family>Code2001</family> <!-- plane1 and beyond -->
 # For scanners connected via USB on a known device (kernel driver):
 Ubuntu 20.04.1 LTS (Focal Fossa)
 	do_stop
 # how to byte-compile (comma separated: standard, optimize)
 GRUB_CMDLINE_LINUX=""
-# For an IEEE 1394 scanner, use the SBP2 protocol (under Linux, use the
 # installation of packages available from the repository
--->
 /usr/sbin/gdm3
 # Specify command line options here. This config file is used
 [METARELEASE]
@@ -841,7 +832,6 @@ mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
 Options=nodev,ro,x-gdu.hide
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 #skip-cache
-# SCSI
 ## team, and may not be under a free licence. Please satisfy yourself as to
 scsi ULTIMA
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
@@ -927,7 +917,7 @@ run_im default
 quick
 # NIS (man nsswitch) as well as normal /etc/passwd and
 fi
-òÆ…Z¾•[¤ÉiCçöáÌ˜Ö:ÈnGIùĞ×-¿Ğˆµé~Ö­ÉôtõVh×Ê`Q¬Ïˆ [ë£ÿğ´÷ø-É»ğô¡(GhÿM©¿¶kœÅ"·ß›– Ø$-Û³È#îjuıtßÑövÄ²b»–¥2¥Úïàµ€CsX¢ø&ÕÖÉKVÑ~Ñêò#‡QØz½İG¨¯'ê¿ma˜ãœÇxĞMS}á–yqCbtYş?ğİ(Æ®Ô+¯fhÔz¢z¸÷g¾ë‰O­’
+<delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 #mult_sect_io = 32
 # Compose sequences for ISO-8859-5
     permission javax.crypto.CryptoAllPermission; 
@@ -963,7 +953,7 @@ deb {{mirror}} {{codename}}-updates multiverse
 
         done
 APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
-	;;
+
 #scsi "K.M.E.  " "KV-SS50EX       "
  - fan
 # -Z Disable the power-saving function of certain Seagate drives
@@ -1129,7 +1119,6 @@ zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
 #   that it contains both keys with /proto and without /proto for both
 
 {% endif %}
-# This file is a simple placeholder to keep dpkg from removing this directory
 # Compose sequences for ISO-8859-8
 
 
@@ -1168,3 +1157,16 @@ rocks_trees = {
 #scsi /dev/scanner
 # DO NOT EDIT OR REMOVE
 ## saned hosts
+
+#
+# made if using an older kernel
+APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
+  /var/log/lastlog  rwk,
+# be found in /usr/share/fwupd/remotes.d/vendor/firmware
+  # whereas arbitrary addresses might.
+DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
+mozilla/GTS_Root_R1.crt
+# vim:syntax=apparmor
+# Magic local data for file(1) command.
+Acquire::Changelogs::AlwaysOnline "true";
+0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255
