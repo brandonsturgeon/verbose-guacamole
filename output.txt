@@ -99,7 +99,7 @@ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
       will change accordingly; the version at
 exec /usr/bin/X -nolisten tcp "$@"
 # Default is yes
-# using the ${string} syntax and (possibly non-existent) PAM_ITEMs may
+
 
   #include <abstractions/fcitx-strict>
 # Case-sensitive behavior is defined by the operating system.
@@ -110,7 +110,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 
        search:
 ## template:jinja
-trusted.SGI_DMI_*		skip		# xfs specific
 # $ sudo dpkg-reconfigure apparmor
 			<family>Code2000</family> <!-- almost everything; serif actually -->
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -176,7 +175,6 @@ fi
 LOGLEVEL=low
 #  (at your option) any later version.
 #export http_proxy="http://127.0.0.1:3128/"
-       containing collections of any of the above.  For example:
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 ## form 127.127.t.u, where t is the clock type and u is a unit 
 # by the included systemd service file.
@@ -321,8 +319,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
 # definitions of existing MD arrays
 [usb]
-XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
-# To take advantage of this, it is recommended that you configure any
+ETHTOOL=/sbin/ethtool
 # javax.management.monitor.foo.Bar.
      </choice>
 *ispell*options.horizDistance:		2
@@ -348,7 +345,6 @@ esac
 
   /usr/lib/@{multiarch}/gdk-pixbuf-*/** mr,
   abi <abi/3.0>,
-### END INIT INFO
 # Specify command line options here. This config file is used
 # Compose sequences for ISO-8859-5
 ports=22/tcp
@@ -407,7 +403,7 @@ font='Monospace 16'
 if [ "$RUN" = "yes" ]; then
   #include <abstractions/gnome>
 	# Configuration option local/system_id.
-## If the coloring rule should span multiple lines, use the following format:
+kbd_mode '-u' < '/dev/tty5' 
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 	elif [ -e "/etc/byobu/autolaunch" ]; then
   /etc/cloud/clean.d/99-live-installer
@@ -548,7 +544,6 @@ compose '|' '|' to '¶'
 
 ### END INIT INFO
     <alias>
-10  fiblookup
 NoDisplay=true
   # User files
 <?xml version="1.0"?>
@@ -560,7 +555,6 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 # This file is a simple placeholder to keep dpkg from removing this directory
      o Declarations for and references to external parameter entities
 # generate the popularity contest data
-	}
 /CenturySchL-BoldItal (/usr/share/fonts/type1/gsfonts/c059036l.pfb) ;
 scsi Nikon * Scanner
 XCalc*hp.button16.fromHoriz:		button15
@@ -636,7 +630,6 @@ Exec=/usr/libexec/gsd-wacom
 #
         <Key>q:         quit()\n
 #
-      This configuration is available on the major desktop environments.
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -680,7 +673,7 @@ set runtimepath=~/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vi
 helpline=,magenta
 # Compose sequences for ISO-8859-11
 
-
+NoDisplay=true
 </typemap>
 *dashlist*ShapeStyle: rectangle
 #
@@ -701,7 +694,6 @@ done
 	<alias>
 
                     <a href="http://www.w3.org/TR/xmlschema-1/#no-xsi">the XML
-
 /Helvetica-Narrow-Bold /NimbusSanL-BoldCond ;
 #       from the USB subsystem. If you're not using the
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
@@ -833,12 +825,11 @@ roottext=,magenta
 <?xml version="1.0"?>
     <alias>
 # value is 80) and nonProxyHosts is a '|' separated list of hostnames which
-/var/log/apt/term.log {
+# cloud-init. They are read in lexical order. Later files overwrite values in
   #include <abstractions/private-files>
   #include <abstractions/opencl-mesa>
   -->
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-# This file is a simple placeholder to keep dpkg from removing this directory
 #  normal - Check to see if a new release is available.  If more than one new
 56f12ada18a3412ab1f9dcd69450be95
 
@@ -950,7 +941,7 @@ kbd_mode '-u' < '/dev/tty3'
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
 title=Secure shell server, an rshd replacement
 *SimpleMenu*displayList:\
-[org.gnome.Shell]
+
 
 
 
@@ -994,7 +985,6 @@ S|≤«ó?=“r˙€têK-mänì6Ñ]9ˆπéF’2˛€âO≠äó
 
 
 Name=GNOME Settings Daemon's housekeeping plugin
-avision
 XClock.Clock.majorColor:	rgba:7f/00/00/c0
 [service]
 # The format of port-name is dependant on your OS version.
@@ -1015,7 +1005,7 @@ XClock.input: false
 
 # Insert here your local magic data. Format is described in magic(5).
 
-URI = https://changelogs.ubuntu.com/meta-release
+#  under the terms of the GNU Lesser General Public License as published by
 
   # a user-session socket has already been set up.
   /usr/bin/iconv rm,
@@ -1051,14 +1041,13 @@ Ubuntu 20.04.5 LTS \n \l
 
 
 # a minimum a blank line following it).
-        --color|--colour)
+# another usb section here.
 MIIElDCCA3ygAwIBAgIQAf2j627KdciIQ4tyS8+8kTANBgkqhkiG9w0BAQsFADBh
 deb http://packages.azlux.fr/debian/ buster main
  - &log_file |
 
 # Unlike any other crontab you don't have to run the `crontab'
 Type=Application
-# main --
 # This file is sourced by Xsession(5), not executed.
   /{,var/}run/utmp r,
   /usr/bin/seamonkey Cx -> sanitized_helper,
@@ -1093,3 +1082,19 @@ encryption=luks1
 # Compose sequences for KOI8-U
 \w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
 	    linux_entry "${OS}" "${version}" "${xen_version}" recovery \
+	95áŸ}ÜP'ˇFn9∆πc"F#Ô/•8ØÈÂN\¶ÿ–ﬁßÒVÓ•Ï0ÚÌ´>ëûkä¶Z–PŒ|£ø,*ÏOpøt(™Ûƒ˜∆√ f†Ë9ú.úé„mˆö—ñ˛≥øÍgB˝∏≠5—‘¬$je∑ò«"fóÎ˛ﬁ ¬ÉÇôÄ∑≤≠Ó‰C†&˘Ò∏zÁdõSlÊ√>˛<Ã#ﬁ4M%d4ñÂqYªÏKÏ.øÑÅ∂Îl≥0ıä•ÈPMV˛CÀöUãôÔÏÍüÊ?Ã´6Ø¡Y—X]A√≈gÒ©ﬂT5Nqó5ªÄ†'CT˙/ÏkÃáXÙò0ÜN§“4d'´M?L‚⁄∞@„Sin©;≤ØÉôÀ£Dµ∏‚∂€(ˆ .˜ÂÒÙ˜Í¡|R.≤J≈¬#∂6Ú]êa∆n¥ÿÃ§ÁO!’◊û?M%µ‚N1f™ﬂ≤¡kÖ≥A°qÑ
+scsi "KINPO   " "Vividscan S120  "
+MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+/dev/scanner
+# picture-options='zoom'
+			<family>Code2001</family> <!-- plane1 and beyond -->
+
+# For scanners connected via USB on a known device (kernel driver):
+*Toggle.justify:			left
+Ubuntu 20.04.1 LTS (Focal Fossa)
+	do_stop
+*form.circle.label:			Circle
+# how to byte-compile (comma separated: standard, optimize)
+GRUB_CMDLINE_LINUX=""
+
