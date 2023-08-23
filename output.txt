@@ -59,7 +59,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 };
 		</test>
 #
-# unprivileged users cannot use them by default. System owners can still
 
 
 # Compose sequences for ISO-8859-11
@@ -74,7 +73,6 @@ Vendor-URL: https://www.debian.org/
 compose '"' 'A' to 'ƒ'
 #
   </match>
-# command line option.
 üáÃıº¢/4¢¥-üL0À+/¯‰¬‹Å
 #ifdef COLOR
 scsi FCPA
@@ -113,9 +111,9 @@ password	include		su
 
 *scrollMenu.vertical.label:		Vertical
 session		include		runuser
-
+deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 xterm
-		<default><family>monospace</family></default>
+#!/bin/sh
 #%PAM-1.0
 lock
 
@@ -131,7 +129,7 @@ NAME="plymouth-log"
 10	mrt
 # If you want logs to go to syslog, uncomment the following line.
 # and users home directories will reside within the directories that
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.$
+
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
       will change accordingly; the version at
     owner @{HOME}/** rwk,
@@ -171,7 +169,7 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
 
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 
-trusted.SGI_DMI_*		skip		# xfs specific
+# with the 'sonames' key. The value of the key has to be a list of
   # global tmp directories
 S· éÛ:]C+º›ò∑MÃ÷G˛pÇÙ£„◊?é“«ùMî±‡„@á“¸≥w>Ç≠ü¬œçèM?€ÉXèìYäÆKe>(pÎ9lÇå√nœŒå,<ÕôzV@q-N˙„”ó˛‘x‘ì÷`î~ju©‰—]bz1z¸'”N} ∆a?t®Q}‹ÕÔ”P[ƒˇÑ!çøˆÿà=∫›
 Description=Mount unit for snapd, revision 15904
@@ -231,7 +229,7 @@ fi
 ## Uncomment the following two lines to add software from Canonical's
 
 # Compose sequences for ISIRI-3342
-<?xml version="1.0"?>
+# This program could be rewritten in C or Golang for faster performance.
 # Unlock the backend after this many seconds idle.
    formatter=simpleFormatter
 
@@ -282,7 +280,6 @@ turkish         tr_TR.ISO-8859-9
 fi
 {% endif %}
 esp	50	IPSEC-ESP	# Encap Security Payload [RFC2406]
-# Benq/Acer 5300
 	</alias>
   # Include additions to the abstraction
 America/Los_Angeles
@@ -351,7 +348,7 @@ fi
 #    modify it under the terms of version 2 of the GNU General Public
 # Compose sequences for GEORGIAN-PS
 #  privileged clients.  Instead the passwd.adjunct.byname table is
-
+deb http://packages.azlux.fr/debian/ buster main
 # of /var/log/ubuntu-advantage*.log files.
 
 ! cmdratelimit interval -4 burst 16
@@ -410,7 +407,6 @@ change_hat {yes
       <bool>false</bool>
 
 	<match target="font" >
-#@{multiarch}+=*-freebsd* s390-hurd-zomg
 BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
   abi <abi/3.0>,
   # mouse themes
@@ -499,13 +495,13 @@ ports=22/tcp
 
 session		required	pam_unix.so
 alias net-pf-36 off
-
+# Set the maximum number of FUSE mounts allowed to non-root users.
   LABEL="UEFI Firmware Settings"
   	if [ -r $CACHE ]; then
 tcp.flag.psh	u8		tcp+13		0x08		3
 *form.fold.width:			36
   </match>
-			<Key>q:set()notify()unset()
+<?xml version="1.0"?>
 
 /etc/xdg/Trolltech.conf r,
         rc=0
@@ -544,7 +540,6 @@ DESKTOP-OFJN9OT
 
 X-GNOME-HiddenUnderSystemd=true
   owner /tmp/groff*                           rwl,
-# im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
 # install the apport exception handler if available
 camera=Kodak DC240
 X-GNOME-Autostart-Notify=true
@@ -589,7 +584,6 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 #
 #
 eval $(/usr/bin/locale-check C.UTF-8)
-# Required-Start:    $remote_fs dbus udev
 ## To make sure an option is disabled, use "unset <option>".
 
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
@@ -650,7 +644,7 @@ OnlyShowIn=GNOME;
 ###          Currently autodiscovery seems to not work
 # Compose sequences for ISO-8859-6
 
-
+n22AuKKENtgYwulgJH0VQ0lJ5k1CcFuEuZqnXk5CUIC4tStdUS6hgn+vEkaJ5dX8
 
 	rotate 4
 # Compose sequences for TIS-620
@@ -658,7 +652,7 @@ OnlyShowIn=GNOME;
     family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
 #  if no sources are feeding it, so this may help when apps use more than the
 
-# ctrll shiftr alt keycode 37 = Decr_Console
+# System-wide GDB initialization file.
 	<!-- Prefer to match color emoji font. -->
     label in4 "+12V"
 
@@ -704,7 +698,7 @@ if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ];
   /etc/X11/app-defaults/XTerm r,
 STARTSSH=
   # system library
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
+# Cloud Image specific Grub settings for Generic Cloud Images
 gt68xx
     <edit name="hinting">
 /dev/scanner
@@ -736,7 +730,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 # Any customisation or reliance on the existence of this file and its
 *MenuButton.leftBitmap:		None
   # Kubuntu
-		<test qual="any" name="family">
+#VIDEOS=Documents/Videos
 # define if shading data shall be inverted befor sending it back to the scanner
 =6Dz2
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
@@ -779,7 +773,6 @@ auth    optional        pam_gnome_keyring.so
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
     monthly
 Ëç_âD´Æ»æEüƒd˘WMØµ0Lí∆>?Üê¥Ÿ◊Ñè[˛öfô6∆¸‹Ñ	*ánçµ9ê+›K¯¢∑|#Ô17WÌ§÷&J˜1ÒÈg‹~÷≈=¿æcC°“5∞ÿaè
-# Read man sane-mustek_usb for documentation
 bullseye/sid
 #    This program is free software; you can redistribute it and/or
 XKBMODEL="pc105"
@@ -825,7 +818,7 @@ session	optional	pam_systemd.so
 APT::Periodic::AutocleanInterval "0";
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 
-#
+
 # Defaults can be restored by simply deleting this file.
 #
 LANG=C.UTF-8
@@ -877,7 +870,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
                                   (symbol-name debian-emacs-flavor)
 # shiftr shiftl alt keycode 37 = Decr_Console
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-# This sets the filename encoding to use. You can specify an explicit
+#
 # rewritten.
 Ubuntu 20.04.5 LTS
 X-GNOME-Bugzilla-Version=3.36.0
@@ -948,7 +941,7 @@ application/x-zip=org.gnome.FileRoller.desktop
 @include common-password
 # --security-set-pass Set security password
 # inclusion by distributed profiles to aid in packaging AppArmor for
-# This file is a simple placeholder to keep dpkg from removing this directory
+{% endif %}
 
 <!ATTLIST %element;
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.2/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.2/catalog.xml"/>
@@ -964,7 +957,7 @@ helpline=,magenta
   /usr/bin/mutt Cx -> sanitized_helper,
 Acquire::Changelogs::AlwaysOnline "true";
 # also want to rebuild the initrd, so that it will include the modified configuration.
-]>
+
 *dashlist*ShapeStyle: rectangle
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])?[[:space:]]+Operation continuing on [[:digit:]]+ devices?$
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
@@ -1005,9 +998,8 @@ XClock.Clock.minorColor:	rgba:00/7f/7f/c0
 <?xml version="1.0"?>
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255
-#Name: remotedb
+#
   <!-- <policy domain="system" name="precision" value="6"/> -->
-# This file is sourced by Xsession(5), not executed.
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 ôSMã≈¥∑?˜i¸«Yõ˚Q`P$ˇZ∂Aıß_Ëïò#XÁTã»¡ûAê(Fì\Z˘—ﬁoéYJ±üÂgcPâ?DG	¸⁄ÑBá*ÒUQ8˝‘Ù`[T≥"F±mÍ3é˝ê∆8l¸Òw#h˙F)yQó∂‹‚aa∂;%Ä=3’X9’EΩŸ—_d>Fv	eﬂnhd6D¨a5√çò{P5Æ&˛t}ÈÈÏkV`Å˚î1Òæ"6K&!z£˙Lh˛I|Ñ?[8ÀfpãÄ8È'–‹Ÿ(ˇæq§èµ Ñ9ûO¢5ùZ⁄œ:m˛≥∑FHKƒÿÆ™^s[yï’9:Ü6Â[œóπQˇò∆÷)oïPÂwRR≠É‚˜∂ÍYcMÆCì^ÍˆÛºÒ≤◊¶…âÿò^ÃJù2ûÌ'˚àõ«Ö‡IãŸﬂpÚ÷o’gc{≤ÜÓ_Pjc^bm:’ÛM0¬‚±)ËöPZΩV27ÿ/Ã€n–vZ^≈¿0èÿd)hE~&ÂC¿—Æ†u´ckﬁ0√¸:5 ˝º*[\p“'<.#c—)ÏÎm1À]±ÂÔ1≤@Èeôµeˆ25Ì©7À\R¯aﬁTäb“-…‰Lt&GPéôKŸYÿÌ<IFƒˇ)ÙYª”˚éFqÏ'CÚ¨I3çñ)Ñ3∑[Ó< !w9¥Launchpad PPA for Raelâ8"SMã		
 # dpkg-shlibdeps(1) manual page. 
@@ -1060,3 +1052,12 @@ session		required	pam_unix.so
 # no packages own btmp -- we'll rotate it here
 restrict -6 ::1
     [ -x "/usr/bin/dbus-update-activation-environment" ]; then
+# You should have received a copy of the GNU Lesser General Public License
+  </complexType>
+            <element ref="saml:AssertionURIRef"/>
+APT::Periodic::Update-Package-Lists "1";
+/var/log/apt/term.log {
+
+  </its:rules>
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
+    "dns": ["1.1.1.1", "1.0.0.1", "8.8.8.8", "4.4.4.4"]
