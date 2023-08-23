@@ -53,7 +53,6 @@ Alias /javascript /usr/share/javascript/
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 
 # Case-sensitive behavior is defined by the operating system.
-/dev/scanner
 #           the supported release that immediately succeeds the
        search:
 
@@ -223,7 +222,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 
 XLoad.input:			false
 #
-DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
 #!/bin/sh
 [fwupd Remote]
 # javax.sound.sampled.TargetDataLine
@@ -301,7 +299,7 @@ XCalc*ti.button30.displayList:		foreground rgb:a/9/8;segments 8,-4,-9,-4,-4,-9,-
 
 
 
-# device group names
+#
 # Provides:          gdm3
 <?xml version="1.0"?>
 esac
@@ -311,7 +309,6 @@ esac
 serif.symbol.bolditalic=Symbol
 <!ELEMENT br ANY>
 
-*yÛ∂»XEÜqÜ†ÑÀ"9≤∆Kî}‰J['·iÊÉ`éòú7ÃCÙFí˙@{À=ê¸Pº"i
 scsi "RELISYS" "APOLLO Express 3"
         <Key>q:         quit()\n
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
@@ -415,7 +412,7 @@ case "${1}" in
 @{securityfs}=@{sys}/kernel/security/
 #
 *MenuButton.foreground: white
-		<test compare="more_eq" target="pattern" name="weight" >
+  /usr/share/aspell/* r,
 roottext=,magenta
 
 # cloud-init. They are read in lexical order. Later files overwrite values in
@@ -442,7 +439,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
 
 
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
-
+<?xml version="1.0"?>
 XClock.Clock.hourColor:		rgba:7f/00/00/c0
 # does not work or could not work correctly
 # Compose sequences for ARMSCII-8
@@ -458,7 +455,7 @@ scsi RICOH IS60
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 compose '`' 'a' to '‡'
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
-Acquire::Changelogs::AlwaysOnline "true";
+/dev/camera
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
     <h3>Father (in any context at all)</h3>
 *ispell*check.label:			Check
@@ -469,7 +466,7 @@ group:          files systemd
 server {{server}} iburst
 <?xml version="1.0"?>
 
- - locale
+OrderBefore=lvfs,fwupd
 
 HuaweiAltModeGlobal=0
 restrict 127.0.0.1
@@ -532,7 +529,6 @@ X-GNOME-Autostart-Phase=Initialization
       <bool>false</bool>
     <allow own="org.freedesktop.GeoClue2"/>
 #disable = rpm, selinux, dovecot
-# 'keyscript=' option.  In that case, the field is not treated as a file
 # a minimum a blank line following it).
 
 deb http://packages.azlux.fr/debian/ buster main
@@ -557,7 +553,7 @@ encryption=luks1
 
 # Compose sequences for KOI8-U
 \w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
-	95áŸ}ÜP'ˇFn9∆πc"F#Ô/•8ØÈÂN\¶ÿ–ﬁßÒVÓ•Ï0ÚÌ´>ëûkä¶Z–PŒ|£ø,*ÏOpøt(™Ûƒ˜∆√ f†Ë9ú.úé„mˆö—ñ˛≥øÍgB˝∏≠5—‘¬$je∑ò«"fóÎ˛ﬁ ¬ÉÇôÄ∑≤≠Ó‰C†&˘Ò∏zÁdõSlÊ√>˛<Ã#ﬁ4M%d4ñÂqYªÏKÏ.øÑÅ∂Îl≥0ıä•ÈPMV˛CÀöUãôÔÏÍüÊ?Ã´6Ø¡Y—X]A√≈gÒ©ﬂT5Nqó5ªÄ†'CT˙/ÏkÃáXÙò0ÜN§“4d'´M?L‚⁄∞@„Sin©;≤ØÉôÀ£Dµ∏‚∂€(ˆ .˜ÂÒÙ˜Í¡|R.≤J≈¬#∂6Ú]êa∆n¥ÿÃ§ÁO!’◊û?M%µ‚N1f™ﬂ≤¡kÖ≥A°qÑ
+# ------------------------------------------------------------------
 scsi "KINPO   " "Vividscan S120  "
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
@@ -611,7 +607,6 @@ DAEMON="/lib/systemd/systemd-udevd"
 # Add an "alert" alias for long running commands.  Use like so:
 
 Categories=System;Monitor;GTK;
-  if [ -x /usr/bin/x-session-manager ]; then
 	rotate 4
 -----BEGIN CERTIFICATE-----
      </p>
@@ -666,7 +661,6 @@ Name=User folders update
 	notifempty
 'ﬂﬂ^“9œE}BKﬂ≥,≈∆] U:†úiöè⁄Ô≤∞<üál+epR1$œo1#PåOè#√tAcU®›>‡QPœÒ0Ví∞ÇÖÿÉÀ"dº-∏%’T¢∏Í≠í§$†¡ÜµJjGœ.VïTÀŒö€j¥¶≤€AÜ'w˜j†Bl8Œ◊uP2í¬ﬂ+0"H–’A8%]§È]ü∆îu–E˝0óCèê´
 ÜÍõWb¿xV¡≤Ÿ]ÉT¯Ÿo6dTm¡Ø¸,º$?Îêü
-	compact_output_cols=""
   /dev/xconsole                 rw,
 #
 option buffer-size 32768
@@ -709,10 +703,8 @@ AutomaticReports=false
 # The default is 900 (15 minutes).
 # System-wide GDB initialization file.
 # ctrll shiftl alt keycode 36 = Incr_Console
-
 @(br|eth)*
 #
-loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null' 
 			<family>Arial Unicode</family>
 /dev/scanner
 #if /etc/pam.d/cron  specifies no session modules but cron calls
@@ -742,7 +734,7 @@ compose '-' '-' to '≠'
 # Assumes that your IP address is allocated dynamically by the ISP.
 #
 
-/NanumBarunGothic-Regular << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
+# this remote provides metadata shipped with the fwupd package
 1,222,57,255,0,118,44,204,128,255,0,255,0,255,0,255
 # For USB scanners also specify bus=usb, e.g.
 # ------------------------------------------------------------------
@@ -855,14 +847,12 @@ Title=Vendor
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
 # data_portrange = 10000 - 10100
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
-# Ubuntu Pro Client config file.
 # deb-src {{security}} {{codename}}-security main restricted
 # - What to do after sleep-inactive-ac-timeout
 fi
 14E6D2764A4B06701C6CBC376A253775F79C782FBCB6C0EE6F99DE4BA1024ADD
-20190502160005 2 6 100 6143 2 D775D98222C19B71B1640F95F44179182E462E941B1ED2AABD7B9A92A387C5A10014F3150A4E2F48FAA83BBA757A7AFAD52FFBA351FF9DCED93B94669353E737D5DC74052A46299579F2F942AB66574E855A7E915834BD378408F0932BE8537F9863EF3EF0072EAC02EFD86A91573B63E45009CDAC495E6AAE87A2FD70395EC22F249492AFD7D007CF1718799D821E220AA90AB881E64096726963959F094A6ACE215A417B8163EAECEACA5B5454951324DB52FA2768FD22E9F0C2A1EEDD1B4DADA051455654FE405425EB73BF3536DB3B7FD9898F562EDF0BD5DA0EC15379CAEB4CFA2E2B4745D496617503427274AB3D9DBEDFFDCB5B7DC263E9F743A17FB094AE65E546468D398F0F5E3FCAF12B9799DEFDAFCB765F8AAF5D8B6BA2C24E1E1969339991AC01C542F56528446B5233819724F6CFE2E7B5797E4910993FF0EE87A1C696D60CB70EE6BCF27FC18E0B0BAF3AB97158130B0A8A1732A99A9E56713BFADC95BCD2ABD1996BF52E719441D9CFE948DF65F3BD454CF8198F43472F47F0F73703BAEF1E266B1F109AB3466B1D41E7E25AE6CA9CF42C73540245E8BE948FC620264DED7F1235A5962418BFA028C8F9657558E3A164668F9302B4A0D184DDF237275EF6C803B5DA901EA1A4E86E9FB5AACDED09EC4983A2B3089BDE76CC6D5EDE0FF746935912E63C4543A080977D92728F513A8FDEFD13F72B578B776552AAF9E7DAE4D292642762CB6F41BD9A4E668430C3C3E1CE6AE4BE5C520865E316DE2085420294EFF8D170322AB506042E08F3B621443273414FE2A9B5EB17DA967F8273999D7F1A562DD36E8827476767523F0C0BED30EBCECDD3BE963544DD22FBCFB58CAD4BCB0AF4756AAEB9B32E0302D55A30F0BE267729B831AB43BCF0F9D979EB01982BB9AD905F978B0EECC66C24FDD43E3C9A61DAD3847CD7A26573E5624ACA6497C4FC2846E743DCE94ED80CE5B85E4D94E9B04B5101CC5B93ECC5446D909EFD66B90BF9DE30B2184A762A47F850FEC2B275CBEC5F8C2D8129140345F92A62B10827FE5391D421CDDD3477525D7962802F86FB6DD776DF804BE18B
 #port=/dev/term/a
-
+auth    required        pam_permit.so
 	</match>
 # Compose sequences for GEORGIAN-ACADEMY
 # @{HOMEDIRS}.
@@ -901,7 +891,6 @@ emptyscale=magenta
 			<family>AR PL New Sung Mono</family> <!-- han (zh-cn,zh-tw) -->
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
 ˘î`ﬁ…VùF2eE∆«†ÖõwÒƒ#5æmz∑øb¢æ∏Ë^|µR-	LÂ≠&èâ3
-	unload_ipmi_modules_leave_features
 
     permission javax.crypto.CryptoPermission *, 128;
 # The username of the user logging out is provided in the $USER environment
@@ -938,7 +927,7 @@ system-db:ibus
 # #include <abstractions/ubuntu-helpers>
 X-Ubuntu-Gettext-Domain=gnome-keyring
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
-# avahi is free software; you can redistribute it and/or modify it
+</busconfig>
 
 
 #
@@ -1009,7 +998,7 @@ BYOBU_BACKEND="tmux"
   . "$USERXSESSIONRC"
 #
            send_interface="org.freedesktop.DBus.Properties" />
-Icon=nm-device-wireless
+#DefaultStartLimitBurst=5
 ## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
 sleep_then_check &
 127.0.0.1	www.frankvoce.com
@@ -1054,7 +1043,7 @@ when preparing a golden image for clone and redeployment. The clean command
 
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
             rm -f /var/run/$NAME.pid
-application/x-jar=openjdk-7-java.desktop
+; rlimit-locks = -1
 [Time]
 .  \" command-line options.  Uncomment this if you want to make sure that
 
@@ -1187,7 +1176,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
    "URL": "https://launchpad.net/~%s/+sshkeys"
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
-# RSYNC_IONICE='-c3'
+    <edit name="hintstyle" mode="append"><const>hintslight</const></edit>
 
 Icon=appointment-soon
         fi
@@ -1206,4 +1195,16 @@ OnlyShowIn=GNOME;
 QT_ACCESSIBILITY=1
 # to update this file, run dpkg-reconfigure cloud-init
 *editMenu.cut.label:			Cut (Meta-C)
+
+ôV1Xå¿*ÜafRq—ñŒ•~‘·µ∆$¢å
+				init_wpa_cli 		|| { kill_wpa_supplicant; exit 1; }
+#       is a logic list of users or a netgroup of users to whom this
+
+title=@REALNAME@'s media on @PRETTY_HOSTNAME@
+
+you need to add the following to config:
+127.0.0.1	noadware.ws
+#    License published by the Free Software Foundation.
+  <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf
+#frequency =
 
