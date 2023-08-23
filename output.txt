@@ -12,7 +12,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 	<include ignore_missing="yes">local.conf</include>
 
-            ;;
 		read dev <  $1/dev
 
 # Here is the list of possible values:
@@ -24,7 +23,6 @@ NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 
 # Make sure the locale variables are set to valid values.
 #scsi "K.M.E.  " "KV-SS50EX       "
-#
 driftfile /var/lib/chrony/chrony.drift
 # for it. Matches are exact only at the moment (no globbing etc.).
 	the data found in the instructed hints. The initial Vera release
@@ -86,7 +84,6 @@ APT::Archives::MinAge "2";
 /var/log/btmp {
 # It has been reported that passwords should be enclosed with ticks/quotes
 
-  exit 0
  -->
 # Compose sequences for ISO-8859-11
  			<family>Lohit Gujarati</family>
@@ -160,7 +157,6 @@ compose '/' '<' to '\\'
 xterm
 		<default><family>monospace</family></default>
 #
-LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
 
 #%PAM-1.0
 lock
@@ -226,11 +222,10 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 #
        interface=org.freedesktop.DBus
 
-	else
 # Compose sequences for ISO-8859-5
   . "$USERXSESSIONRC"
 #  address = "/run/containerd/debug.sock"
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
+  </its:rules>
 yﬁÒ#≤.¸ÖSkÈô¡Úo€oãcåP+ ∏\*pF˙õÛS÷[∑ú6Y].¿Ï;œ”‰@y(R£X<¯|)>+Øò¥jhºbûê`[éƒ•)º¯*Ù#Ku Ù7NëAÀ5}FÄ@KsË1≤Á9Ö)&g˘—DO≥›1
 # $ sudo dpkg-reconfigure apparmor
 Title=Vendor
@@ -332,7 +327,6 @@ Wants=network.target
 fi
 	<alias binding="same">
   #/{,var/}run/mysqld/mysqld.sock rw,
-#& stop
 
   log_action_end_msg $?
 };
@@ -424,7 +418,6 @@ additional configuration artifact cleanup from the filesystem when
 *showGrip:			FALSE
 fi
 
-Each file in this directory is an rt_tables configuration file. iproute2
 {% endif %}
 esp	50	IPSEC-ESP	# Encap Security Payload [RFC2406]
 allocation {
@@ -479,7 +472,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 PK!	manUTc»MÃ„PK„÷–]PK!
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
-  # System files
 #allow 192.168/16
 #keyfile /etc/chrony.keys
 
@@ -501,9 +493,7 @@ l2tp	115	L2TP		# Layer Two Tunneling Protocol [RFC2661]
 
 KERNEL_UPGRADED=0
 <Key>Escape: quit()
-link-local 169.254.0.0
 ## template:jinja
--- cloud-init's clean.d run-parts directory --
 #DefaultLimitMSGQUEUE=
 # ctrll is used to fix the broken CapsLock when Linux console is in
 compose ')' '-' to '}'
@@ -555,7 +545,7 @@ if [ "$INITRD" = 'No' ]; then
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 
 # then an administrator can adjust /etc/apparmor.d/local/usr.sbin.smbd to
-set -- $IF_ETHERNET_WOL
+lˆˇKy·ò∂`&`Úç3)ÉÀîÕh∫“$äxçãÎ‰ˆÚ-Ÿ$È=óﬂìèañì4´Vª»˝ú<,Æì˜XÍBF'–	tù@'NHh˘z˛)OÿÔ–T√FÚÇ}zæπöë¿(åû¬®∫h]~—Œx¬öŒ4l$‹Cc5#ÅQ=ÖQu—é¯E;Á	k:◊∞ëpç’åFaÙF’EÎÒãˆbwïß~ê?êô°≥ZÌ°Úi≠Å38É38˜Ä≥
 13  ip6fw
   audit deny @{HOME}/.local/share/thumbnailers/{,**} wl,
 chip "w83627uhg-*"
@@ -568,7 +558,6 @@ fi
 # Compose sequences for VISCII
 #
 PK!	ÊîøÂä°UTcx6eˇ”ÆÖPK>Ã¯K
-include if exists <tunables/etc.d>
 {% endif %}
 
 *customization: -color
@@ -622,7 +611,7 @@ fi
 
 	compress
 X-GNOME-Autostart-Phase=PreDisplayServer
-#xterm*|rxvt*)
+#precedence ::ffff:0:0/96  100
 -->
 
 # Specify the key identifiers which are trusted.
@@ -701,7 +690,7 @@ if enabled in cloud-config.  Specifically, in order to enable it
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 # Find settings with a given prefix and print them as they appeared in
 }
-directory are parsed by needrestart's default configuration file.
+
 
 #fudge 127.127.8.1 time1 0.0042        # relative to PPS for my hardware
 # Global Order: zshenv, zprofile, zshrc, zlogin
@@ -849,7 +838,6 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 
 #  about not starting rsyncd (you still need to modify inetd's config yourself).
 
-if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 
 /NanumBarunGothic-Bold << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
 =RFA4
@@ -868,7 +856,6 @@ enabled=1
 *replace.accelerators:#augment\
 # battery than letting it rest for example).
 
-/NimbusSanL-Bold (/usr/share/fonts/type1/gsfonts/n019004l.pfb) ;
 scsi FCPA
 #  1. command line options
 ipcomp	108	IPCOMP		# IP Payload Compression Protocol
@@ -883,7 +870,6 @@ XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
 
 image/jpg=org.gnome.eog.desktop
         </edit>
-handleStartupErrors = ignoreMultipleInitialisation
 # Description:       GRUB displays the boot menu at the next boot if it
 12	bird
 #
@@ -935,7 +921,6 @@ system.posix_acl_access		permissions
 #               -> put your type of protocol instead of 'https' : http or https.
 # This file is sourced by Xsession(5), not executed.
 compose '*' '0' to '∞'
-/Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 # ------------------------------------------------------------------
 #!/bin/sh
 # Packet filtering: for more information, see pppd(8)
@@ -952,7 +937,7 @@ rocks_trees = {
 <!ELEMENT %sequence; ((%annotation;)?, (%element;| %group;| %cs; | %any;)*)>
 [network]
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
-# NTP authentication.
+
 	rotate 4
 
 		<allow own="uk.org.thekelleys.dnsmasq"/>
@@ -967,9 +952,8 @@ rocks_trees = {
 
 # im-config signature: d57688c8151277a0c25d15aa0523da6b  -
   <match target="pattern">
-#!/bin/sh
+}
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-run_sdptool()
 
 Vendor-URL: http://www.ubuntu.com/
 
@@ -986,7 +970,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 		[ ! "$interface" ] || /sbin/resolvconf -d "${interface}.dhclient"
     user_friendly_names yes
 ÜÀ´›˘ªóbdú-vj!¬",˛È©◊Z—=m';»61©Cß“‚ªBûì,ÈUW’>ˆ4˜˘˛±Ë2’Ì•V∞,‘_ûo∞¬ıÛÓ±∆cÑbÉ„Œ¥;p)“WÇPƒ
-X-Ubuntu-Gettext-Domain=gnome-shell
 
 # <target name>	<source device>		<key file>	<options>
 # and should contain a list of modules that define tasks to be performed
@@ -1011,7 +994,7 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
   stop)
 if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
 #2	inr.ruhep
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
+<!--
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 
 <busconfig>
@@ -1025,7 +1008,6 @@ STARTSSH=
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 gt68xx
   /usr/bin/Dooble Cx -> sanitized_helper,
-ABORT		"NO DIALTONE"
 #    Copyright (C) 2014 Canonical Ltd.
   <!-- This configuration file specifies the required security policies
 #
@@ -1044,3 +1026,11 @@ ABORT		"NO DIALTONE"
 # how to byte-compile (comma separated: standard, optimize)
 # The usual place for a SCSI-scanner on Linux
 # subpath mappings from mount point for pinning
+#!/bin/sh
+
+/usr/lib/x86_64-linux-gnu/libfakeroot
+  /usr/bin/dbus-launch ix,
+# 127.0.0.53 is the systemd-resolved stub resolver.
+fi
+		;;
+
