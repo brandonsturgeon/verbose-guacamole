@@ -126,7 +126,7 @@ mode="${1#'}"
 *customization: -color
 {
 # usb 0x4b8 0x14c
-# set start_ro=1 to make newly assembled arrays read-only initially,
+### that look up the default sink/source get the right value
 # Welcome to the chrony configuration file. See chrony.conf(5) for more
 
 
@@ -198,7 +198,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 	cache_settings {
 # Autodetect the Canon CanoScan FB630u
     <allow send_destination="net.hadess.SensorProxy" send_interface="org.freedesktop.DBus.Peer" send_path="/net/hadess/SensorProxy/Compass"/>
-*internalBorderWidth:		0
+deb http://packages.azlux.fr/debian/ buster main
 
 
 
@@ -227,7 +227,7 @@ NoDisplay=true
 # Compose sequences for ARMSCII-8
 # in the toplevel profile. Eg:
 [connection]
-#!/bin/sh
+[keys]
 video/x-ms-wmx					wmx
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
@@ -239,7 +239,6 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # ldconfig = false
-# vim:set ai et sts=2 sw=2 tw=80:
 # switches to the higher rate
 *insertFile*text.?.pieceSize:		256
 # Compose sequences for GEORGIAN-PS
@@ -258,7 +257,7 @@ scsi Nikon * Scanner
   # Apport
 ### that look up the default sink/source get the right value
 #
-Comment=GNOME Keyring: SSH Agent
+    <allow send_destination="org.freedesktop.PackageKit"
 
 #include <tunables/global>
 #mount_max = 1000
@@ -283,7 +282,7 @@ scsi "RELISYS" "APOLLO Express 3"
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 fi
 Type=oneshot
-nssDbMode = noDb
+      <choice minOccurs="1" maxOccurs="unbounded">
 LANG=C.UTF-8
 # which broke applications in UTF-8 locales.  See:
 driftfile /var/lib/chrony/drift
@@ -382,7 +381,6 @@ L9ItWY16Ck6WaVICqjaY7Pz6FIMMNx/Jkjd/14Et5cS54D40/mf0PmbR0/RAz15i
 # The following is a space-separated list of where additional user home
     permission java.util.PropertyPermission "java.class.version", "read";
 
-
 0x80	CS4
       <choice minOccurs="1" maxOccurs="unbounded">
 # For more details, please see /etc/apparmor.d/local/README.
@@ -423,7 +421,7 @@ OrderBefore=lvfs,fwupd
 
 HuaweiAltModeGlobal=0
 restrict 127.0.0.1
-
+[Unit]
 	rm -rf "${RUN_DIR}/interface/*"
 // grant codeBase "jrt:/com.greetings" {
 
@@ -465,7 +463,7 @@ blacklist rivafb
   <!-- Generic name aliasing -->
 ###############################################################################
 
-  <alias>
+/var/log/unattended-upgrades/unattended-upgrades-dpkg.log
 #!/bin/sh
 compose '"' 'O' to '÷'
   </match>
@@ -490,7 +488,6 @@ compose ',' '-' to '¨'
 -session	optional	pam_systemd.so
 encryption=luks1
     <accept>
-cups-pk-helper:x:114:121:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
 # Compose sequences for KOI8-U
 # ------------------------------------------------------------------
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
@@ -746,7 +743,6 @@ usb 0x1083 0x1622
   </match>
 			<family>FreeMono</family>
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
-max_allowed_packet	= 16M
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # - What to do after sleep-inactive-ac-timeout
 fi
@@ -806,7 +802,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 [defaults]
 # Compose sequences for TIS-620
 +  manage_etc_hosts: True
-
+  network netlink raw,
 X-Ubuntu-Gettext-Domain=gnome-keyring
     <Menu>
     exec /usr/lib/update-notifier/update-motd-hwe-eol
@@ -843,7 +839,7 @@ session		optional	pam_keyinit.so force revoke
 if [ -f /run/motd.d/85-fwupd ]; then
 Ïˇò“Øq≥¥SüNáÔíºΩÏO20àK^WƒS¬ˆóçŸb+ø$bçﬂ√∏)KIx<ì`à"¸ô⁄6»¬¢‘,Tg5nsøX§›Â∞¢&z ‡6•ı˝∑ÔÆ?@ımZ˝Œ4 $‹t#]3]ƒ%ˆ0›]ü‡’GΩ¥Î°ªIIÿü[Ûä‰$ê‰bOO¡Øãt®—ràjzIÃ¥Fy∆±⁄òY˙u!Öe›êVŒ˚´•`ùƒù˘R∞ãΩá˘è+#
 # filenames (generally seen as "/tmp file race" vulnerabilities).
-CATALOG /usr/share/xml/docutils/catalog
+if [ -n "$STARTDBUS" ]; then
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 #    License published by the Free Software Foundation.
 
@@ -856,7 +852,7 @@ Name=GNOME Settings Daemon's housekeeping plugin
 #
 grant {
 	;;
-Vendor: Debian
+#  systemd is free software; you can redistribute it and/or modify it
 			<string>AR PL New Sung</string>
 compose '-' ')' to '}'
 jD≈L“Pçù	¿âÈ˘[§Ã-ﬂVDôøõ‡b>°X*~¬Ä'Æ˚ﬁﬁÏôÃFû_~t√É¥o¬°í‚ùÜMºcR
@@ -894,7 +890,7 @@ main
 	# sessions, but it also doesn't hurt to leave it running.
 	˚Ñ?'/[¨ˆàﬂßø|L•
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
-PARAMS=""
+
 # VM6586 Primax Profi 19200
 -----END PGP PUBLIC KEY BLOCK-----
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
@@ -908,7 +904,7 @@ type=file
 @include common-session-noninteractive
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 NI	-*-new century schoolbook-medium-i-normal--*-*-*-*-*-*-iso8859-1\n\
-  # SASL plugins and config
+stamp="/var/lib/ubuntu-advantage/messages/motd-esm-announce"
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # If we are running the GNOME session, source ~/.gnomerc
 # Run cryptdisks initscripts at startup? Default is Yes.
@@ -924,7 +920,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
             rm -f /var/run/$NAME.pid
 ; rlimit-locks = -1
-[Time]
 .  \" command-line options.  Uncomment this if you want to make sure that
 
 ACTION!="add|change|move", GOTO="mm_mtk_port_types_end"
@@ -936,7 +931,7 @@ RUN_AS_USER=saned
   </its:rules>
 # Read man sane-pieusb for documentation
 # BYOBU_BACKEND can currently be "screen" or "tmux"
-# This file may be sourced by the function source_with_error_check() in
+# See sane-microtek2(5) for a description of the options
 [Distro]
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
 
@@ -985,14 +980,12 @@ esac
 
 fi
 		done
-#pam_open_session, the session module out of /etc/pam.d/other is
 APT::Periodic::Unattended-Upgrade "1";
   <!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
 #dumpinquiry
 gtk-icon-sizes = panel-menu-bar=24,24
 #include <tunables/share>
 
-<!ATTLIST type fullname CDATA #IMPLIED>
 /var/log/wtmp {
 # The maximum credit for having digits in the new password. If less than 0
   <!ATTLIST type xmlns CDATA #FIXED '' encoding NMTOKEN #IMPLIED
@@ -1031,7 +1024,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 <!ATTLIST color color CDATA "rgb(0,0,0)">
 
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
-# Lenient profile that is intended to be used when 'Ux' is desired but
+#
 
   /usr/lib/NetworkManager/nm-dhcp-helper          Pxrm,
 #IgnoreRhosts yes
@@ -1139,7 +1132,6 @@ After=snap-lxd-18150.mount network.target snapd.apparmor.service
 #
 /usr/lib/x86_64-linux-gnu
 scsi SIEMENS "ST 800" Scanner * * 3 *
-/dev/camera
 	fi
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
@@ -1168,7 +1160,6 @@ type=file
     permission javax.crypto.CryptoAllPermission; 
 # Don't try to change I/O priority in a vserver or OpenVZ.
 # By default, exchange time with everybody, but don't allow configuration.
-$x-display-manager gdm3
 S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
 group:          files systemd
 #!/bin/sh
@@ -1182,7 +1173,7 @@ Type=Application
 #
 
 
-compose ',' '-' to '¨'
+/usr/bin/wine-preloader
 *Command.highlightThickness:	1
       This configuration is available on the major desktop environments.
 		--exec $DAEMON
@@ -1198,3 +1189,14 @@ wifi.scan-rand-mac-address=no
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
 # run rsyncd at a nice level?
 
+# Description:       Zeroconf daemon for configuring your network 
+/dev/scanner
+# cloud-init. They are read in lexical order. Later files overwrite values in
+export PATH
+<!ENTITY % maxLength "%p;maxLength">
+[Unit]
+	start)
+#
+      Most clients may picks up the first value only. so using "append"
+  <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf
+Type=Application
