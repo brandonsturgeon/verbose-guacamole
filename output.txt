@@ -25,7 +25,6 @@ NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 AdminIdentities=unix-group:sudo;unix-group:admin
 
 # Make sure the locale variables are set to valid values.
-        <extension base="saml:ConditionAbstractType">
 # resolution. For example, if '/usr' is on removable media:
 #
 driftfile /var/lib/chrony/chrony.drift
@@ -33,7 +32,6 @@ driftfile /var/lib/chrony/chrony.drift
 	the data found in the instructed hints. The initial Vera release
 
 # to update this file, run dpkg-reconfigure cloud-init
-*text.scrollHorizontal:		Never
 	si_unit_consistency=1
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 LANG=C.UTF-8
@@ -81,7 +79,7 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 binary::apt::AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # -k disable/enable the "keep_settings_over_reset" flag for this drive
 APT::Archives::MinAge "2";
-{#
+# This file is sourced on all invocations of the shell.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] exiting on signal [0-9]+.$
 
 #    Copyright (C) 2006 Novell/SUSE
@@ -108,7 +106,6 @@ WantedBy=multi-user.target
 
 
 Vendor-URL: https://www.debian.org/
-session		required	pam_unix.so
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 
 server {{server}} iburst
@@ -127,7 +124,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 # vim:syntax=apparmor
 c0582bt_.pfb -bitstream-courier 10 pitch-medium-i-normal--0-0-0-0-m-0-iso8859-1
 
-¿W¸	Ú1­ÌGtf˜nëjõ'mJy°ÂJ€“Mé(1®V´åRäq–êg,Ã©‡ný£ÀJ°å¼lrâ’‰°ymC>¦ªS²Ö¨XBo‘ 2Qæ£V,Ò£ö¢Öæœ7É7°vn¨Ù8LÃ©V?i/ÀÈx‚íŠ£'ù'ËKB©€È1ª
 XCalc*hp.button19.label:	6
 # ------------------------------------------------------------------
 search updates ubuntu built-in
@@ -150,7 +146,7 @@ PATH=/sbin:/bin
 
 # Reserved protocols.
         <policy user="root">
-// Remove unused automatically installed kernel-related packages
+fi
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 # Compose sequences for TIS-620
 
@@ -224,7 +220,7 @@ compose 's' 'o' to '§'
 <!--  Use the Antialiasing -->
 session    required   pam_env.so readenv=1 user_readenv=0
 X-GNOME-Autostart-Phase=Initialization
-# restart daemons that directly depend on D-Bus
+# This file is part of the resolvconf package.
 @{run}=/run/ /var/run/
 		<test qual="any" name="family">
 
@@ -352,7 +348,7 @@ compose '-' 'L' to 'Ù'
 
 # Scripts in this directory are executed as root when a user log out from
 # Compose sequences for ISO-8859-8
-#
+deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 # Compose sequences for ARMSCII-8
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
 if [ -f /bin/setupcon ]; then
@@ -447,7 +443,6 @@ Each file in this directory is an rt_protos configuration file. iproute2
 #    Copyright (C) 2014 Canonical Ltd
 brandon:100000:65536
 
-*planemask*ShapeStyle: rectangle
 # deb-src {{security}} {{codename}}-security multiverse
     import apport_python_hook
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
@@ -472,7 +467,6 @@ compose '^' 'y' to 'þ'
 
   /tmp/.X11-unix/* rw,
 version="$1"
-  @{HOME}/ r,
 	</alias>
 #
 # Example (generic):
@@ -494,7 +488,7 @@ Each file in this directory is an rt_tables configuration file. iproute2
 disable_flash_pq_bg_color=1
 allocation {
 			<family>Arial</family>
-
+# UMAX Astra 4500 and Avision iVina 1600
 	</alias>
   # Include additions to the abstraction
 America/Los_Angeles
@@ -574,7 +568,6 @@ AutomaticSecurityReports=false
     user_friendly_names yes
 221 160 221		plum
 # Allow NTP client access from local network.
-    </edit>
 KERNEL_UPGRADED=0
 <Key>Escape: quit()
 link-local 169.254.0.0
@@ -598,7 +591,7 @@ scsi Nikon * Scanner
 # Required-Start:    $remote_fs
 # enable xtrace if we should be verbose
 #   1:			top		# top -> 1:0
-	<alias>
+       containing collections of any of the above.  For example:
 # interpreted by the kernel to help with debugging. The kernel will respond
 
 # @{securityfs} is the location where securityfs is mounted.
@@ -615,7 +608,6 @@ compose ',' 'a' to '±'
 
 <!--  Enable sub-pixel rendering --> 
 # * Be careful about changing the environment since this is sourced
-        ;;
 Mode: 644
 
 data {yes
@@ -695,7 +687,7 @@ alias net-pf-19 off
 usb 0x04e8 0x3455
 
 compose '<' 'r' to 'ø'
-# install storage)
+
 session		optional	pam_keyinit.so force revoke
 # /usr/bin/gvfs-open rPx -> foo//gvfs-open,
 BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
@@ -720,7 +712,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 # Specify the key identifiers which are trusted.
 #backwards compatibility include, actual abstraction moved from php5 to php
 {
-- /dev/stdout
 # no packages own btmp -- we'll rotate it here
 #    Handle linux distributions that use systemd to replace the legacy
 eval $(/usr/bin/locale-check C.UTF-8)
@@ -737,12 +728,12 @@ X-Ubuntu-Gettext-Domain=xdg-user-dirs
 # no matching entries are found elsewhere.  For more information see the
 # Allow any user to opt into auto-launching byobu by setting LC_BYOBU=1
   # owns on removable media and filesystems.
-
+set -e
 
 
 auth		include		runuser
 # resolution. For example, if '/usr' is on removable media:
-*Scale.baseTranslations:#augment
+#    Copyright (C) 2012 Canonical Ltd.
 
 # Legacy biarch compatibility support
 
@@ -821,7 +812,7 @@ fi
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+(\[[0-9]+\])?: DIGEST-MD5 common mech free
 //Unattended-Upgrade::Mail "";
 AutomaticReports=false
-       missingok
+# cloud-init generated file
 # Specify command line options here. This config file is used
 fi
   # Note that anything that is D-Bus-activated between here and
@@ -839,7 +830,7 @@ alias net-pf-36 off
 # DO NOT EDIT OR REMOVE
 
     while(<$plist>) {
-       for the PackageKit to work. -->
+# prefixes are stored, each should not have a trailing '/'. Directories
 #    exitCode may be incremented.
 # Default-Stop:      0 6
 
@@ -932,7 +923,6 @@ font='Monospace 16'
 DBUSLAUNCH=/usr/bin/dbus-launch
 	case "$REPORT_ABSENT_SYMLINK" in
     fi
-# set this to 0 to disable apport, or to 1 to enable it
 datasource meta-data and user-data.
 start_it_up()
 [Mount]
@@ -1009,3 +999,17 @@ scsi TAMARACK
 handleStartupErrors = ignoreMultipleInitialisation
 # Description:       GRUB displays the boot menu at the next boot if it
 @include common-password
+#
+# The following is a space-separated list of where additional user home
+#!/bin/sh
+X-GNOME-Autostart-Phase=Initialization
+}
+#
+#    License published by the Free Software Foundation.
+blacklist tdfxfb
+<codermap>
+scsi "B&H SCSI"
+// Country-specific policy file for countries with no limits on crypto strength.
+	result=0
+
+
