@@ -13,7 +13,7 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 # libc default configuration
 ## Wget initialization file can reside in /etc/wgetrc
       <element ref="ds:KeyInfo" minOccurs="0"/>
-compose '<' '/' to '\\'
+iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 	<include ignore_missing="yes">local.conf</include>
 net.ipv6.conf.all.use_tempaddr = 0
             ;;
@@ -51,7 +51,6 @@ RESTART_CHK="NetworkManager.service"
      Define aliasing and other fontconfig settings for
 #    modify it under the terms of version 2 of the GNU General Public
 	output_format=json
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 	</match>
 #	franc,ais	fr_FR.ISO-8859-1
 fi
@@ -62,7 +61,6 @@ mail.*				-/var/log/mail.log
 -#}
   notifempty
 # The following is a space-separated list of where additional user home
-ptrace {mask {read trace
 
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
@@ -96,7 +94,6 @@ APT::Archives::MinAge "2";
 
 
 #    Copyright (C) 2006 Novell/SUSE
-# sources.
   if [ "$add_etc_modules" ]; then
 188	ospf
   /var/lib/acme/live/* r,
@@ -106,7 +103,6 @@ APT::Archives::MinAge "2";
   # shared python paths
 		</test>
 #
-X-GNOME-Bugzilla-Version=40.0
 # EDAC driver for amd76x clashes with the agp driver preventing the aperture
 
   @{etc_ro}/libnl-*/classid r,
@@ -151,7 +147,7 @@ XCalc*hp.button19.label:	6
 
 20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
     else
-  cd /
+# --launch gpg-agent"
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 	</alias>
 PATH=/sbin:/bin
@@ -206,7 +202,7 @@ compose '/' '<' to '\\'
 		<default><family>monospace</family></default>
 #
 binary::apt::AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
-# Configuration file for the PolicyKit Local Authority.
+CATALOG /usr/share/xml/docutils/catalog
 LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
 
 #%PAM-1.0
@@ -217,7 +213,7 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 # These extensions should be added when creating a proxy certificate
 /var/log/boot.log
             Location: http://docs.oasis-open.org/security/saml/v2.0/
-tty:x:5:
+#canon.conf
 # and user name in $4.
 # /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
 XL3IlFx/6OUpBA==
@@ -457,7 +453,6 @@ account     required    pam_shells.so
 		exit 0
     The Real-time kernel is currently incompatible with FIPS and Livepatch. 
     unset XDG_SESSION_ID
-9   audit
  -->
 Parent: Debian
 @include common-session
@@ -482,7 +477,6 @@ fi
 
 logdir /var/log/chrony
 fi
-
 *SimpleMenu.line.height:		0
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
 #
@@ -505,7 +499,6 @@ byte-compile = standard
 ja_JP		ja_JP.eucJP
       member={Hello,AddMatch,RemoveMatch,GetNameOwner,NameHasOwner,StartServiceByName}
 	compress
-
 
 }
 
@@ -538,7 +531,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 #
 *showGrip:			FALSE
 fi
-  @{run}/samba/winbindd_privileged/pipe rw,
 
 Each file in this directory is an rt_tables configuration file. iproute2
 {% endif %}
@@ -554,7 +546,7 @@ America/Los_Angeles
 #
 # Kernel Image management overrides
 
-	rotate 12
+scsi "B&H SCSI"
 #HostKey /etc/ssh/ssh_host_ecdsa_key
 
 
@@ -571,7 +563,7 @@ These files are normally installed in /usr/share/fontconfig/conf.avail
 {% endfor %}
 # Compose sequences for ISO-8859-11
 # Default is yes
-  /{usr/,}bin/bzip2 ixr,
+
 XCalc*.bevel.borderWidth:		1
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? raid[[:digit:]]+: Disk failure on [[:alnum:]]+, disabling device\.$
 
@@ -634,7 +626,7 @@ blacklist neofb
     </edit>
     exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
 <Key>Escape: quit()
-#    License published by the Free Software Foundation.
+#include <tunables/multiarch.d>
 link-local 169.254.0.0
 ## template:jinja
 #    Copyright (C) 2006-2009 Novell/SUSE
@@ -686,7 +678,7 @@ data {yes
   /etc/profile.d/                  r,
 
 ! XMore.ad
-
+4	meta
 
 ! this causes problems with some non-Xaw apps, use with care
 #
@@ -719,7 +711,6 @@ fi
 # linux-image-* postinst calls postinst.d with DEB_MAINT_PARAMS set
   abi <abi/3.0>,
 Delegate=true
-if [ -z "$DISTRIB_DESCRIPTION" ] && command -v lsb_release > /dev/null; then
         %fixedAttr;
 # Compose sequences for VISCII
 URLS="https://motd.ubuntu.com"
@@ -744,7 +735,6 @@ with something the package builder needs later. It must end with .conf though.
 ##
 
 # symbolic names for networks, see networks(5) for more information
-if [ "$SHLVL" = 1 ]; then
 Ubuntu 22.04.2 LTS
 
 bookworm/sid
@@ -762,7 +752,7 @@ change_hat {yes
 	cache_mode = "writethrough"
 631	# cups
 } < /dev/tty${1#vcs} > /dev/tty${1#vcs}
-	notifempty
+usb 0x04e8 0x3455
 
 compose '<' 'r' to '¯'
 # install storage)
@@ -854,7 +844,7 @@ Parent: Debian
 esac
 iLeGMSzZBGE0ioJ82PZzsHelrrObDP1mMre1jQ6zxLlnYUlLvtJpydAfeBxU+6yL
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
-  dbus-update-activation-environment --verbose --systemd 
+          </Not>
 # OpenCL access requirements for Intel implementation
 DNS={% for server in nameservers %}{{server}} {% endfor %}
 # ctrll alt keycode 36 = Incr_Console
@@ -878,7 +868,7 @@ for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; 
 <Key>q: quit() \n\
 </match>
 # This file is sourced only for login shells (i.e. shells
-#DEFINE		compressor	gzip -c7
+# Compose sequences for ISO-8859-10
 if enabled in cloud-config.  Specifically, in order to enable it
 #        directory before $MAIL_FILE
   /usr/bin/file-roller Cxr -> sanitized_helper,
@@ -948,7 +938,6 @@ alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIB
 # Don't try to change I/O priority in a vserver or OpenVZ.
 LAPTOP-5TIN5O4V
 APT::Archives::MaxSize "500";
-#!/bin/sh
 	elif [ -e "/etc/byobu/autolaunch" ]; then
 
 
@@ -959,7 +948,6 @@ news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
 compose '^' '/' to '|'
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
 ˝h#0£#e§íìèπÖ(1∑PtA¸·Û≈ßmZ&õÙ°Öﬂ±˚ã7Ω⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷4B˙4-±Ô¶.ÜP¸ç=1˙¿ÜæâhµVÇ6uƒDLƒSuVA˘&⁄≥¯Ë∏êJÜ4s·Tˇ¯|ù"KŸÖ›‡dAõˆhõΩ∫û˚€•B@D@S’t )ç$\∏’._)ËN+eµy≥mu=˘sw©–T©NI#Ó‘UµÓ≠†V∆’ÊÕ{¥5Ùt=˘Ûv©–T©NI#„UWuT˜÷†;´¢Wõ?È—÷–◊ı‰œﬂ•B@D@S•:%ç8[T]’—nètÁUÙjÛùm]O˛Ç]*D@4U™S“H´E’UÌˆXAoR˝¨VõÔˆhk8’ı‰o∫KÖÄàÄ¶JuJÒµ®∫™£›+Ë9UÙjÛΩmC]O˛¬]*D@4U™S“»û›"´Ó≠Aœ≠¢WõÔ˜hk8”ı‰o∂KÖÄàÄ¶JuJaµ†[d’Ω5Ë—S°jÛÉmÁ∫û¸Õw©–T©N9„É™æÍjØPÙ¸*<=öˆhõﬂ‡ân¿=jª∫µàã∏à{p\’ôi$–/€ï)‘=⁄±8‰X00˘…ô4…%§MÁqû•©∞8ø…æ]|b´,¯ªNäíÂ≈˜fÁeT≤ˆÓ>º√”S`4ç@#–4bD‚ÍG√Û·CQ–ÔP®…FqJKW€ÕåN·tßÍ¢u≈E;:”d£¨fFßp:ÜSu—z‚¢ùãÇùk≤QàV3£ÄS8√©∫h}q—ûo/À<äÀ&GgΩ⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷Ú€fæ((àØ…F!~¨fFßp:ÜSu—N≈EàÇ4Ÿ(D´ôQ¿)úé·T]¥°∏hß¢†Cßöl"Ç’Ã(‡N«p™.⁄ô∏hOóÀ∫¢√ﬂ˚vU˚⁄#¢u4’˘Ê¢Û9¢ 7é&ÖËﬁV3£ÄS8√is—Œ&‚¢uEAá∫öl"Ç’Ã(‡N«p™.Z˘F€Íi≤QàV3£ÄS8√©∫hÂÌâ(Ë–â&Öà`53
-
 		https://*)
 GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
   # User files
@@ -1025,3 +1013,14 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
 <fontconfig>
 
 # since the modules above will each just jump around
+
+deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
+font='Monospace 16'
+[Install]
+DBUSLAUNCH=/usr/bin/dbus-launch
+	case "$REPORT_ABSENT_SYMLINK" in
+    fi
+# set this to 0 to disable apport, or to 1 to enable it
+datasource meta-data and user-data.
+start_it_up()
+[Mount]
