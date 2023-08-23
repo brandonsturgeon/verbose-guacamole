@@ -34,7 +34,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 search updates ubuntu built-in
     user
     else
-  #include <abstractions/consoles>
+# here are the per-package modules (the "Primary" block)
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
     </alias>
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
@@ -97,7 +97,6 @@ audio/x-mpegurl=rhythmbox.desktop
     export CLUTTER_IM_MODULE
 // Pre-configure all packages with debconf before they are installed.
 # configuration options for /etc/X11/Xsession
-#    modify it under the terms of version 2 of the GNU General Public
 # An integer and % (e.g. 50 %) - use a percentage of the amount of RAM.
 #parport0
      <choice>
@@ -195,7 +194,7 @@ deb {{security}} {{codename}}-security universe
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # Defines whether the mail spool should be created while
-# Compose sequences for ISO-8859-5
+#    This program is free software; you can redistribute it and/or
 ports=22/tcp
   /etc/firefox*/** r,
 previous-engine=@as []
@@ -209,7 +208,6 @@ Before=snapd.service
 # vim:syntax=apparmor
 		https://*)
 # The following may be used to add additional entries such as for
-PPP_LOCAL="$4"
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 [Sleep]
 	daytime_hosts => [ qw {} ],
@@ -249,7 +247,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 *internalBorderWidth:		0
 
     done
-<!DOCTYPE busconfig PUBLIC
+  #include <abstractions/fcitx-strict>
 
 XLoad.input:			false
 #
@@ -294,7 +292,6 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
   #include <abstractions/kde>
     #@VERBATIM_LIBEXECDIR_SNAP_CONFINE@ mr,
 ú3ú@úcúsúôú™ú—ú·úùùAùSù{ùâù≠ùΩù„ùÒùû#ûGûXûûéû≥û¡ûÂûıûü,üSücüâüöü¡ü—ü˜ü†)†6†Y†e†á†ï†π†∆†È†¸†%°3°W°j°ì°ƒ°¢ ¢K¢d¢ì¢®¢”¢Ì¢£6£e£Ä£±£∆£Ò£§5§H§q§Ä§•§∏§·§Ó§••/•:•[•f•Ö•ê•¢•´•º•≈•‰•Ì•˝•¶1¶A¶g¶v¶õ¶©¶Õ¶ﬁ¶ßß+ß:ß_ßnßëß†ß∂ß√ßÿßÂß®®)®:®a®r®ô®™®—®‡®©©=©L©q©~©°©≤©À©‹©™™,™=™d™t™ö™Æ™ÿ™Ë™´#´N´_´Ü´õ´ø´Ò´9¨h¨≠¨ø¨Á¨ı¨≠'≠I≠^≠â≠û≠«≠„≠Æ%Æ=ÆMÆsÆÉÆßÆ∑ÆŒÆ‹ÆÚÆØ$Ø2ØGØWØ}ØâØ´ØπØ›ØÔØ∞&∞K∞V∞w∞Ä∞ü∞±∞Ÿ∞Ê∞	±"±Q±h±ï±§±…±’±˜±≤E≤]≤ã≤£≤—≤ﬂ≤≥≥1≥<≥]≥n≥ï≥¶≥Õ≥·≥¥¥A¥Q¥w¥à¥Ø¥æ¥„¥¥µ"µGµTµwµàµØµøµÂµ˜µ∂/∂U∂e∂ã∂ô∂Ω∂ ∂Ì∂¯∂∑(∑M∑Z∑}∑ç∑•∑µ∑€∑Î∑∏∏6∏H∏p∏|∏û∏≠∏“∏·∏ππNπ\πÄπïπ¿π’π∫∫D∫V∫~∫ç∫≤∫ø∫‚∫∫ª ªBªOªrªÉª™ª∂ªÿªÚª"º2ºXºmºòº®ºΩºÀºﬁºÔºΩΩ(Ω5ΩXΩcΩÑΩîΩ∫Ω ΩΩæ4æKæxæáæ¨æ∆æˆæø&ø2øTø`øÄøäø™ø∫ø€øÚø¿5¿a¿s¿ñ¿¨¿”¿Á¿¡¡=¡J¡m¡¡ß¡≤¡”¡‚¡¬¬E¬Y¬u¬â¬≥¬«¬Ô¬√√0√J√\√Ñ√ñ√Ø√ø√◊√Á√ƒƒAƒQƒhƒvƒåƒöƒæƒÃƒ·ƒ˚ƒ+≈=≈e≈≈Ø≈¡≈È≈∆1∆B∆i∆|∆ó∆™∆”∆Ê∆« «:«K«d«u«ú«≠«≈«◊«Ò«»+»=»c»u»é»û»∂»∆»Ï»¸»…#…;…K…q…Å…•…µ…Ã…⁄……˛…" 0 E X s Ü Ø ¬ È ¸ À'À@ÀQÀxÀâÀ°À≠ÀœÀ€ÀÔÀ˚ÀÃ)ÃIÃUÃhÃrÃÑÃéÃÆÃ∏Ã…Ã◊Ã˚ÃÕ+Õ:Õ_ÕlÕèÕõÕΩÕ»ÕÈÕ¯ÕŒ2Œ]ŒqŒõŒ¨Œ”Œ‚ŒœœAœQœwœÜœ´œ¡œÌœ–-–E–s–â–µ–∆–Ì–ˇ–'—7—L—h—ö—©—Œ—⁄—¸—“<“L“r“Ü“∞“º“ﬁ“Ô“”&”L”g”ò”≠”ÿ”Í”‘!‘F‘S‘h‘u‘ò‘£‘∂‘¡‘‚‘Û‘’,’C’S’h’v’ö’©’Œ’ﬁ’÷÷8÷E÷h÷v÷ö÷¶÷»÷›÷˜÷
-NotShowIn=KDE;GNOME;Cinnamon;LXDE;Unity;
 # Any customisation or reliance on the existence of this file and its
 #usb VENDORID PRODUCTID
 
@@ -361,7 +358,6 @@ Type=Application
 Exec=/usr/libexec/gsd-wacom
 scsi "RELISYS" "APOLLO Express 3"
         <Key>q:         quit()\n
-#
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 session required        pam_loginuid.so
 #
@@ -389,7 +385,7 @@ fi
 DEFAULT_OUTPUT_POLICY="ACCEPT"
 case "$6" in
 *Blank1Inc-button.fromHoriz: Blank1-text
-
+  @{sys}/bus/{cpu,node}/devices/ r, # libpocl.so -> libhwlock.so
 
 NoDisplay=true
 #
@@ -506,7 +502,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
 XClock.Clock.hourColor:		rgba:7f/00/00/c0
 # does not work or could not work correctly
 # Compose sequences for ARMSCII-8
-/MOESung-Regular /ShanHeiSun-Light ;
+application/msexcel=libreoffice-calc.desktop
 fi
 #
 # See sane-microtek2(5) for a description of the options
@@ -524,7 +520,6 @@ Acquire::Changelogs::AlwaysOnline "true";
     <h3>Father (in any context at all)</h3>
 *ispell*check.label:			Check
 group:          files systemd
-
 # useful if you for example need to do some setup to create a home directory
 
 # You can change settings by editing this file.
@@ -590,7 +585,6 @@ blacklist rivafb
 # Configuration file for the hp4200 backend
   <!-- Generic name aliasing -->
 
-
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
 
   <alias>
@@ -622,7 +616,7 @@ compose ',' '-' to '¨'
 #
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 #
-requestkey 1			# key (7) for accessing server variables
+-session	optional	pam_systemd.so
 encryption=luks1
     <accept>
 
@@ -700,7 +694,6 @@ networkd_dispatcher_args="--run-startup-triggers"
   <type name="AvantGarde-Demi" fullname="AvantGarde DemiBold" family="AvantGarde" foundry="URW" weight="600" style="normal" stretch="normal" format="type1" metrics="URWGothic-Demi.afm" glyphs="URWGothic-Demi.t1"/>
 7   selinux
 #    License published by the Free Software Foundation.
-port=/dev/ttyS0
 
 # This file is a simple placeholder to keep dpkg from removing this directory
 
@@ -718,7 +711,6 @@ XClock.input: false
 *Panner.background:			gray70
 # kdenetwork
 
-}
 [OpenSSH]
 application/vnd.intu.qfx
  10 through 19		system rendering defaults (AA, etc)
@@ -732,7 +724,6 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 # Scripts in this directory are executed as root when a user log out from
 enabled/disabled by adjusting the symlinks.
 # Set to the user saned should run as
-Type=Application
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
 # Configuration for systemwide password quality limits
 127.0.0.1 localhost4.localdomain4 localhost4
@@ -810,7 +801,7 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
 <?xml version="1.0"?>
 #if /etc/pam.d/cron  specifies no session modules but cron calls
 		;;
-    </edit>
+Ÿ◊õ¢ök√JÌA`0—™Bn”#∆e››Rw⁄Åk≤®˙8πñÍ*lgóâîûº·T’‰jxÔJΩ+ö=@~∆¿u“n˚h0ÏÏãù˘I5ö,Ÿ≥ï9’í˜¶πe/Â=m:HL‹‰((æ}5‡~j◊>◊û¸-u≤¡’#€[o>x/ﬁ3ç∑HÁÉöÅ{¡CMU8JQ’Y¢ât”üæK◊∆m∑à$o`ë§ÇÖ[VAº–D´jæ—,X∑3X≤7c‹ıî?@QıOı:Ì»≈Î¬ïz«~BqìnK∑0ﬂ™ÌWÖH¨j›9i‰·yxæŒø°˜Ä{!g'0YBdebian:hellenic_academic_and_research_institutions_rootca_2015.pem8P_XX.5090Ç0ÇÛ†0	*ÜHÜ˜0Å¶10	UGR10UAthens1D0BU
 # specify the provider and priority in the format
 # $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
@@ -910,7 +901,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
   # whereas arbitrary addresses might.
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 mozilla/GTS_Root_R1.crt
-# vim:syntax=apparmor
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 # Magic local data for file(1) command.
 Acquire::Changelogs::AlwaysOnline "true";
 		<family>fantasy</family>
@@ -1019,7 +1010,6 @@ emptyscale=magenta
 6   xfrm
   /srv/svn/**/db/strings         rwl,
 {
-</catalog>
 # This file is auto-generated. It is recommended you update it using:
 [Unit]
     -->
@@ -1146,7 +1136,6 @@ main
 	˚Ñ?'/[¨ˆàﬂßø|L•
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 PARAMS=""
-49 1 * * *   root    test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond
 # VM6586 Primax Profi 19200
 -----END PGP PUBLIC KEY BLOCK-----
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
@@ -1194,3 +1183,16 @@ Typical format of such scripts would be a ##-<some-app> like the following:
 #@{XDG_VIDEOS_DIR}+=""
 	;;
        path=/org/freedesktop/DBus
+  </its:rules>
+# Read man sane-pieusb for documentation
+# BYOBU_BACKEND can currently be "screen" or "tmux"
+# This file may be sourced by the function source_with_error_check() in
+[Distro]
+## Note, this file is written by cloud-init on first boot of an instance
+# Compose sequences for VISCII
+  monthly
+
+	</policy>
+AdminIdentities=unix-group:sudo;unix-group:admin
+ üPJ>z6˙—Q@œY‡{‰	Lß‹][¥≤∞≤ΩwÕwwb@HÁI‡Íâ—“ëáH>'4)¥´+ïK%}≈c≤-(q‹LSç^5Ô‘Ûﬁí}â†TÙÄ-Pôâw±ÑıÔ†◊µ>Reëv-©ﬁñY~I‡¥”<Gieç–≠l ¶Ï0†âùQ$rxL[
+    ;;     bogus errors on installation because of #132355 and friends.
