@@ -1,5 +1,4 @@
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-		exec update-grub
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 @include common-account
 
@@ -11,7 +10,7 @@ Enabled=true
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
 
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-#
+# vim:syntax=apparmor
 
 # install the apport exception handler if available
 TryExec=xdg-user-dirs-update
@@ -30,7 +29,6 @@ scsi DEVCOM * Scanner
 Alias /javascript /usr/share/javascript/
 
 # Case-sensitive behavior is defined by the operating system.
-#           the supported release that immediately succeeds the
        search:
 
 
@@ -78,7 +76,6 @@ LazyUnmount=yes
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 ; default-dbus-server =
 # raid1
-{
 
 [Desktop Entry]
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
@@ -123,7 +120,7 @@ deb {{security}} {{codename}}-security universe
 ports=22/tcp
 
 previous-engine=@as []
-tcp.flag.psh	u8		tcp+13		0x08		3
+# Measure in percent
 <?xml version="1.0"?>
 #    License published by the Free Software Foundation.
 scsi * * Scanner
@@ -200,7 +197,7 @@ fi
 <?xml version="1.0"?>
 esac
 };
-# banner-message-text='Welcome'
+OnlyShowIn=GNOME;Unity;XFCE;Dawati;MATE;
 <!ELEMENT br ANY>
 #
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
@@ -424,7 +421,6 @@ After=snap-lxd-18150.mount
 'ﬂﬂ^“9œE}BKﬂ≥,≈∆] U:†úiöè⁄Ô≤∞<üál+epR1$œo1#PåOè#√tAcU®›>‡QPœÒ0Ví∞ÇÖÿÉÀ"dº-∏%’T¢∏Í≠í§$†¡ÜµJjGœ.VïTÀŒö€j¥¶≤€AÜ'w˜j†Bl8Œ◊uP2í¬ﬂ+0"H–’A8%]§È]ü∆îu–E˝0óCèê´
   /dev/xconsole                 rw,
 # X11xx series
-  /etc/X11/cursors/**             r,
 #!/bin/sh
 CATALOG /usr/share/xml/docutils/catalog
 auth		sufficient	pam_rootok.so
@@ -446,7 +442,7 @@ Each file in this directory is an rt_tables configuration file. iproute2
 ôSMã≈¥∑?˜i¸«Yõ˚Q`P$ˇZ∂Aıß_Ëïò#XÁTã»¡ûAê(Fì\Z˘—ﬁoéYJ±üÂgcPâ?DG	¸⁄ÑBá*ÒUQ8˝‘Ù`[T≥"F±mÍ3é˝ê∆8l¸Òw#h˙F)yQó∂‹‚aa∂;%Ä=3’X9’EΩŸ—_d>Fv	eﬂnhd6D¨a5√çò{P5Æ&˛t}ÈÈÏkV`Å˚î1Òæ"6K&!z£˙Lh˛I|Ñ?[8ÀfpãÄ8È'–‹Ÿ(ˇæq§èµ Ñ9ûO¢5ùZ⁄œ:m˛≥∑FHKƒÿÆ™^s[yï’9:Ü6Â[œóπQˇò∆÷)oïPÂwRR≠É‚˜∂ÍYcMÆCì^ÍˆÛºÒ≤◊¶…âÿò^ÃJù2ûÌ'˚àõ«Ö‡IãŸﬂpÚ÷o’gc{≤ÜÓ_Pjc^bm:’ÛM0¬‚±)ËöPZΩV27ÿ/Ã€n–vZ^≈¿0èÿd)hE~&ÂC¿—Æ†u´ckﬁ0√¸:5 ˝º*[\p“'<.#c—)ÏÎm1À]±ÂÔ1≤@Èeôµeˆ25Ì©7À\R¯aﬁTäb“-…‰Lt&GPéôKŸYÿÌ<IFƒˇ)ÙYª”˚éFqÏ'CÚ¨I3çñ)Ñ3∑[Ó< !w9¥Launchpad PPA for Raelâ8"SMã		
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
        path="/com/canonical/hud",
-#       browsers) do not have to be bound to agents.
+# deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/" catalog="file:///etc/xml/docbook-xml.xml"/>
 # The default is 900 (15 minutes).
@@ -469,7 +465,7 @@ CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true";
 #
 
-bullseye/sid
+
 # ------------------------------------------------------------------
 # while a reboot isn't required for the new kernel it might be for another package
 
@@ -596,7 +592,7 @@ type=file
 deb {{mirror}} {{codename}}-updates main
 # dpkg configuration file
 B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
-if [ -n "$STARTDBUS" ]; then
+# comment out the following line to allow CLOUDINIT messages through.
 # 0 means default behaviour as specified in the internal tables
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
@@ -650,7 +646,7 @@ type=file
         chmod 0755 $SCREENDIR
 @include common-session-noninteractive
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
-APT::Periodic::Download-Upgradeable-Packages "0";
+			local ZONE_ID
 stamp="/var/lib/ubuntu-advantage/messages/motd-esm-announce"
 	if ! test -d $UUIDD_DIR; then
 deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
@@ -680,7 +676,6 @@ multi on
 byte-compile = standard
 Enabled=false
 #
-	<alias>
 BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
 }
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
@@ -747,7 +742,7 @@ Icon=appointment-soon
 DAEMON=/sbin/lvmpolld
 [Distro]
   Associate an image format with a unique identifier. 
-OnlyShowIn=GNOME;
+#state = "/run/containerd"
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 # HP Scanjet G2710
 # Compose sequences for CP1251
@@ -788,8 +783,8 @@ test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 #/dev/scanner
 # Compose sequences for CP1251
-    <!--
-#include <abstractions/ubuntu-browsers.d/user-files>
+# If Hibernate isn't available, PowerOff will be used
+if [ -n "$DESKTOP_SESSION" ]; then
    userScriptDir="$TOOLS_CONFDIR/scripts/${powerOp}-default.d"
 
 
@@ -825,7 +820,7 @@ NoDisplay=true
 rocks_trees = {
 #    Copyright (C) 2009-2012 Canonical Ltd.
 #    the "FSU light dispersion error" does not cause the abortion
-            . /usr/share/bash-completion/bash_completion
+# Description:       Debian init script for the GNOME Display Manager
 
 # List of modules that you want to include in your initramfs.
 
@@ -897,11 +892,10 @@ search updates ubuntu built-in
 /var/log/alternatives.log {
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 <?xml version="1.0"?>
-  xterm*|vte*)
+usb 0x05e3 0x0142 0x2f 0x00
 auth		sufficient	pam_rootok.so
 COMPRESS=lz4
 X-GNOME-Bugzilla-Component=nm-applet
-# you really have a QuickCam connect to each port.
 {
 # This file can contain default options for dpkg.  All command-line
 scsi TAMARACK
@@ -948,7 +942,6 @@ exit 0
 // Some countries have import limits on crypto strength, but may allow for
 deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # orbit2 permissions
-cmdrespause=125000
 $x-display-manager gdm3
 #
   dbus bus=accessibility,
@@ -977,8 +970,8 @@ APT::Periodic::Update-Package-Lists "1";
 #endif
 # The possible arguments are:
 # intervention.  (For instance if /etc/crypttab lists two key files
-    minsize 1M
-XLogo*baseTranslations: #override \
+printf "
+"
  </selectfont>
 # Protect the zero page of memory from userspace mmap to prevent kernel
 auto
@@ -1016,7 +1009,6 @@ XClock.Clock.secondColor:	rgba:00/00/ff/80
 Exec=/usr/libexec/gsd-wacom
   # per-user write  directories
 
-if [ -x /etc/ppp/ip-up.local ]; then
 compose '>' 'A' to '¬'
 {% if searchdomains is defined %}
 
@@ -1032,7 +1024,6 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 ##
 
 #    License published by the Free Software Foundation.
-# allowed or they would not be able to exchange time information with
 #    Copyright (C) 2012 Canonical Ltd.
 @{tid}=@{pid}
 eval $(/usr/bin/locale-check C.UTF-8)
@@ -1042,7 +1033,7 @@ Ubuntu 20.04.5 LTS \n \l
     enabled: false
 #    This program is free software; you can redistribute it and/or
 OK		ATD*99#
-           send_member="SetSuplServer"/>
+# text following a '#' is ignored to the end of the line.
 
       <family>DejaVu LGC Serif</family>
 
@@ -1099,7 +1090,7 @@ XClipboard.baseTranslations: #augment\n\
 	rotate 12
   /usr/bin/nautilus Cxr -> sanitized_helper,
 blacklist vfb
-[mysql]
+scsi ACROSS * Scanner * * * 0
 
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
@@ -1122,8 +1113,6 @@ user-db:user
 /var/log/dpkg.log {
 
 # /etc/default/bridge-utils
- 54 100 139		SteelBlue4
-scsi "RELISYS" "VM4540" Scanner * * * 0
 CATALOG /usr/share/xml/docutils/catalog
 #same pattern as @{pid} for now
 	</alias>
@@ -1159,3 +1148,9 @@ X-GNOME-HiddenUnderSystemd=true
 
             printf '%s' ${terminfo[smkx]}
 # Specify command line options here. This config file is used
+#
+
+
+  audit deny @{HOME}/.zshenv wl,
+/dev/camera
+/dev/scanner
