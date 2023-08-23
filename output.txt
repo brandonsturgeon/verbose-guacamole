@@ -2,7 +2,6 @@
 Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 # 0 means leave lamp-status untouched, not 0 means switch off
-!?ûÒ9_ø5.ç˚Ñ?'/[[üƒC
 #%PAM-1.0
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 # ------------------------------------------------------------------
@@ -42,9 +41,7 @@ if [[ -z "$PATH" || "$PATH" == "/bin:/usr/bin" ]]
 #*)
   </match>
 # Unlike any other crontab you don't have to run the `crontab'
-#SplitMode=uid
 #    modify it under the terms of version 2 of the GNU General Public
-#  under the terms of the GNU Lesser General Public License as published by
 search updates ubuntu built-in
     user
 20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
@@ -176,7 +173,6 @@ a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 blacklist rivafb
 "ee[C": forward-word
   STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
-
 Include /etc/ssh/sshd_config.d/*.conf
 
 
@@ -217,7 +213,6 @@ SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 ## invoking user was bestowed with some inheritable capabilities by a
 ÄödGhïE^qßÏ5πı∑&n¿Ñ‡ÚU0tˇz,È#Ì=∞ó§º™Îc◊ πm		<4≈ÆMÔ‹∂‹ûöZqˆ≈ñ‰ÇÅö@òµ“∆Ø3∆Ú‘•ËI€ŒéZ`^Uy≥ª	Â˘Pﬁ|sèÓ˙Áò…Ó—TáI<ÇæeR¡==©hLÁêœ:Ó√˘ÿø~éúÊmbÊwysÄŒY 
 usb 0x043d 0x007c
-/usr/lib/i686-linux-gnu
       without rebooting a machine which drastically limits the need for
     delaycompress
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
@@ -267,7 +262,6 @@ thai		th_TH.TIS-620
 
 Before=snapd.service
 # vim:syntax=apparmor
-    else
 		https://*)
 # The following may be used to add additional entries such as for
 PPP_LOCAL="$4"
@@ -301,7 +295,7 @@ OK		ATDTT
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 	elif [ -e "/etc/byobu/autolaunch" ]; then
   /etc/cloud/clean.d/99-live-installer
-# See comments in /etc/login.defs
+
             <family>Sazanami Gothic</family>
   deny @{HOME}/.mutt** mrwkl,
 =RFA4
@@ -508,7 +502,7 @@ NoDisplay=true
 case $0:$mode in
 # Compose sequences for TIS-620
 # The page set here should explain how to add new software repositories if required.
-	Options FollowSymLinks MultiViews
+    done
 # ------------------------------------------------------------------
 /STHeiti-Regular /BousungEG-Light-GB ;
   /etc/cloud/clean.d/99-live-installer
@@ -521,7 +515,7 @@ done
 #
 #       from the USB subsystem. If you're not using the
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
-# You can even override a supported extension:
+  # User files
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 X-Ubuntu-Gettext-Domain=gnome-keyring
@@ -540,7 +534,7 @@ test -f $DAEMON || exit 0
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
     permission javax.crypto.CryptoPermission *, 128;
 	missingok
-# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+
 email_format=text
 #
 #
@@ -600,7 +594,7 @@ case "${1}" in
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
 alias gawkpath_prepend 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") then; unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKPATH "!*"":$AWKPATH"'
-      <string>DejaVu Sans Mono</string>
+PICTURES=Pictures
   <complexType name="EncryptionPropertiesType">
 run_im default
 roottext=,magenta
@@ -655,7 +649,6 @@ scsi RICOH IS60
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 disable_root: true
 # Compose sequences for GEORGIAN-PS
-man:x:12:
 #
 compose '^' 'U' to '€'
 	 !-->
@@ -734,7 +727,6 @@ AUFS_MAX_NAMELEN=242
 XClock.input: false
 # Dell A920
 # IPMI_OS_Boot_A_Boot_Completed                          Nominal
-# This file contains the names of kernel modules that should be loaded
 	;OÊ¨¿≤2]~ë‘tÆû`Ãâr±Oﬂ"óµF2ñáDœﬂñäô¥·añgT»4ÍÙxª¡SBg&iÀŸr$√≈óãBaX—z7Ù+IOºq—°;∑¢GU@ûŒs[…Œ=ÖpïR]d≥öË˘ÑÂe’^ô<π0<ænë;j“€{ƒÌM)BU~‘eW1a¯d∏⁄Bœ”õºΩ^©6Ì|·b„ö !—Í«3„?ıöºÈlÓ%-G≈tz9Ä¬ﬂˆê_∞±a=LC0¸Ûõú{dós—1gS[∑“B€•|ÈØo…	Î˙1˜<S-xÁÉ÷ÚVOF•”E1†iJ£´&h≤¸gè›ôÊ0Hõ]„T/y`∑XÂUø√à¶àôp>¸àY∏†H‰JÕn–V¡ºëèxv…°ß4ëÉ)‘¯
 # raid1
         %facetAttr;
@@ -766,7 +758,7 @@ X-GNOME-Autostart-Phase=Initialization
 # be polyinstantiated based on the MLS level part of the security context as well as user
 # 'keyscript=' option.  In that case, the field is not treated as a file
 # a minimum a blank line following it).
-	monthly
+
 deb http://packages.azlux.fr/debian/ buster main
 
 inode/directory
@@ -781,7 +773,7 @@ Type=Application
         machine_id=$(cat "${etc_dir}/machine-id")
 # grub-mkconfig when init-select was removed but not purged.  This file does
 # Read man sane-mustek_usb for documentation
-# To use a specific scsi device
+      may simply works to avoid it.
 #
 
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
@@ -804,11 +796,11 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 Ubuntu 20.04.1 LTS (Focal Fossa)
 	do_stop
 # how to byte-compile (comma separated: standard, optimize)
-GRUB_CMDLINE_LINUX=""
+MinimumSmeKernelVersion=5.18.0
 # installation of packages available from the repository
 /usr/sbin/gdm3
 # Specify command line options here. This config file is used
-<!DOCTYPE colormap [
+  <type name="Helvetica-Narrow-BoldOblique" fullname="Helvetica Narrow Bold Oblique" family="Helvetica Narrow" foundry="URW" weight="700" style="oblique" stretch="condensed" format="type1" metrics="nNimbusSansNarrow-BdOblique.afm" glyphs="NimbusSansNarrow-BdOblique.t1"/>
 
 X-GNOME-Autostart-Phase=Initialization
 #
@@ -835,11 +827,10 @@ rq0t2YjXglIBHRDiJlOTAR3if37OCDKCcHOOODqYrsN7wNleez+ulkDyP7C7ZTbm
 	;;
 # with the multiqueue (mq) policy and uses less memory.
 title=Secure shell server, an rshd replacement
-  <policy context="default">
+    rotate 7
 # javax.sound.sampled.Port
 #   1:			top		# top -> 1:0
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
-account     required    pam_shells.so
 
 
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
@@ -896,7 +887,7 @@ alias gawklibpath_append 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIBP
 port=/dev/ttyS0
 
 # This file is a simple placeholder to keep dpkg from removing this directory
-run_im default
+
 # minclass = 0
 
 #
@@ -907,7 +898,7 @@ run_im default
 quick
 # NIS (man nsswitch) as well as normal /etc/passwd and
 fi
-<delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
+XClock.input: false
 #mult_sect_io = 32
 # Compose sequences for ISO-8859-5
     permission javax.crypto.CryptoAllPermission; 
@@ -920,7 +911,6 @@ brandon:100000:65536
 brandon:100000:65536
 application/vnd.intu.qfx
  10 through 19		system rendering defaults (AA, etc)
-                mask=$(awk '/^UMASK/{gsub("#.*$", "", $2); print $2; exit}' /etc/login.defs)
   /etc/X11/cursors/**             r,
 grant {
      format="ttf"
@@ -1126,7 +1116,7 @@ r16          -sony-fixed-medium-r-normal--16-*-*-*-*-*-jisx0201.1976-0
 # Compose sequences for ISO-8859-5
 # Common rules for Qt5-based applications
 
-  <description>Disable hinting</description>
+mQENBFWt/98BCADZ4+lUHSp4OMlzVf4HlJNLJ7Ks5QxGwL/hy2wChoNLuA/j4GNM
 /dev/scanner
 #    modify it under the terms of version 2 of the GNU General Public
 # applications have "Help -> Switch Application Language..." option, that needs
@@ -1175,3 +1165,15 @@ scsi CANON IX
 build_name: server
   audit deny @{HOME}/.evolution/{,**} mrwkl,
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
+/usr/local/lib/x86_64-linux-gnu
+# in the toplevel profile. Eg:
+
+
+
+ *   /etc/calendar
+SHELL=/bin/sh
+GRp¢£™m“K>'¿¸À]ÇèÿØÊÁ9,ÂÁ>;$æ›`£sì(nı4†<êÙõ‚3ƒç”≤ƒ]IÎ‡ç$Ç	•´é†{Cëªw†ƒƒe±â_ïk]âß¯¶_sı6.ãbÒñÜÊsµ6ò¥_jB^Up»»À‚a)‹<
+
+create
+# NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
+  # include the programs that actually parse input data in a non-trivial
