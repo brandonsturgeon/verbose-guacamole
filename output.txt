@@ -39,7 +39,7 @@ APT::Periodic::AutocleanInterval "0";
 
 	monthly
 // If you don't like it, comment it out.
-[ -x /sbin/vgchange ] || exit 0
+X-GNOME-HiddenUnderSystemd=true
 /dev/scanner
 # people's needs, but debconf's database drivers can be used to do much
 {% for pool in pools -%}
@@ -52,7 +52,7 @@ APT::Periodic::AutocleanInterval "0";
 APT::Archives::MinAge "2";
 # This file is sourced on all invocations of the shell.
 #
-
+APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 #    Copyright (C) 2006 Novell/SUSE
 188	ospf
   /var/lib/acme/live/* r,
@@ -80,14 +80,14 @@ compose '"' 'A' to 'ƒ'
 üáÃıº¢/4¢¥-üL0À+/¯‰¬‹Å
 		</rejectfont>
 #ifdef COLOR
-deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
+scsi FCPA
 # dpkg configuration file
 #    modify it under the terms of version 2 of the GNU General Public
 # vim:syntax=apparmor
 c0582bt_.pfb -bitstream-courier 10 pitch-medium-i-normal--0-0-0-0-m-0-iso8859-1
 
 gdm:x:121:129:Gnome Display Manager:/var/lib/gdm3:/bin/false
-# ------------------------------------------------------------------
+search updates ubuntu built-in
 
 20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
     else
@@ -152,7 +152,6 @@ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
   owner @{HOME}/mbox          rw,
 # raid1
 #select-timeout 5;
-# Compose sequences for ISO-8859-6
 ª}Nz◊ÂÀâF¥Õ{S B‘á&ù∂çöüXÈÅPjàj‡gß]â8ã
 ${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
 Acquire::Changelogs::AlwaysOnline "true";
@@ -208,7 +207,6 @@ Comment[as]=PulseAudio ‡¶∂‡¶¨‡ßç‡¶¶ ‡¶¨‡ßç‡¶Ø‡ß±‡¶∏‡ßç‡¶•‡¶æ ‡¶Ü‡ß∞‡¶Æ‡ßç‡¶≠ ‡¶ï
 }
 *Background:				rgb:c/d/b
 nssDbMode = noDb
-
 # Scripts in this directory are executed as root when a user log out from
 # Compose sequences for ISO-8859-8
 # Compose sequences for ARMSCII-8
@@ -234,7 +232,7 @@ fi
 };
 #
 # for it. Matches are exact only at the moment (no globbing etc.).
-#    This program is free software; you can redistribute it and/or
+fi
 			<family>DejaVu Sans</family>
 @{XDG_PUBLICSHARE_DIR}="Public"
 ## Uncomment the following two lines to add software from Canonical's
@@ -265,7 +263,7 @@ restrict default kod nomodify notrap nopeer noquery
 fi
 *SimpleMenu.line.height:		0
     permission java.util.PropertyPermission "java.vendor.url", "read";
-}
+     <choice>
 #    Copyright (C) 2014 Canonical Ltd
 
 # deb-src {{security}} {{codename}}-security multiverse
@@ -301,7 +299,7 @@ scsi "B&H SCSI"
 #HostKey /etc/ssh/ssh_host_ecdsa_key
 
 
-À«∆Lõ6õ∞∏ö∏£ˆ¢£“¢££FƒkæUæôæÉæ¸ƒÊƒ˘≈„≈Rû<û]∂G∂π∏%ææñáÄáñá^áΩeßeùwáw∫|¶|l]V]Ô{Ÿ{ˇTÈTt}^}b¯aäyty~˘}fÔe¿ÆüÆ¿ÆwÆ¿ÆQÆ¿ÆπÆÆfèfÆfifÆfßfö¨Ñ¨ﬂ≠…≠»i»õ¿Ö¿õ¿d¿≈`Ø`˘h„hPz:zΩ≈ß≈Ω≈É≈≈}Ø}⁄ÜƒÜYoCo[`V`{Ëz{√z{†z{ˇzJj4jÆÖòÖÆÖxÖâ≥s≥:_$_,ÅÅFÃå∂åÇÒÅ®“í“@ * IÜ3ÜMá7árö3ªªÖoœ“π“WÇAÇÖtot`©J©`©&©˜ò·ò¥jûjXïBïÍû‘ûΩΩwíaíÔäŸä∂Ü†Ü:ñ$ñÙ“ﬁ“†ëäëz_d_B|,|Íí‘íòôÇôòô^ô"UU'ÃÃ∑è°èOó9ó}√g√Jî4î⁄°ƒ°vúvú;úvúúvúoú∞óöóÕ…∑… ä¨ä äáä ädä ä√ähVLVhV)VhVaV}rgrˇbÈbíò|òÄÚN¡.¡N¡¡N¡G¡T~>~d∏N∏%‘‘Õl∑lÓ√ÿ√Ó√∂√—ƒªƒ—ƒíƒ‡∆¡∆‡∆õ∆‡∆w∆‡∆Ÿ∆/}}*qq+{{∑∑NÃ8Ã˙À‰ÀtÉ^ÉhuRuhu/uèhyhÕ{∑{h|R|ó}Å}|˛{YiCiùiái¢ÃåÃ¢ÃgÃ®líl©ˇ®≤ ú øÄ©Äø~©~€à≈à®kíkàÍá±hõh±ÀõÀÀkµkX…B…‘hæh2……2…¯»khUhÌÉ◊ÉçUwU≈ÉØÉ≈ÉâÉgUQU;Ω%ΩØìÜ}ÜìÜπb£bwcXcwc2cwccwcpcóπÅπ'ÜÜÙsﬁsùîáîN√8√õœÖœ[nEn“¯—“œ—˘n„nv–`–v–5–Ñnnn…–≥–…–ç–Ønôn¸uÊuVV¥xûx`Ò_S«=«,««ø˚æ±põpOπ9πOππ=∑'∑Ãt∂tï””ü¶â¶œ^π^Q};}Ë¬“¬Ë¬≤¬òÅÇÅuÅ_ÅAU0U°	°Ÿö»ön•]•ê™™[˝Zu´d´“ØºØ•oèo)jjkjUjsî]î¢åéåÆçöçŸì∑ìŸìéìŸìgìŸì“ìËd»dËd°dËd·dvéUévé-évéévéoécçDçcççcç˙åcç{åYå{å0å{å	å{åtåÕZ≠ZÕZÜZÕZ∆Z{iei~ëhë~ëHëË§Õ§Ë§´§Ë§ã§Ë§·§Z_D_-WW„¿Õ¿§¯£¢µåµxµbµ¯~Hò2ò^üHüUø?ønâXâ§rérP‘:‘–Ö∫Ö±uõuw¯vA∞+∞n≠f≠n≠C≠8f0f8ffı¿¿Ù`Ô`}øgøÇƒlƒç w 4ww‹á∆áHâ2â∫á§áù∂ò∂Y	Y“≈Õ≈˛d˘d%ùù%ùÌú∂Y†Y3øøù«á«»±≤±æô®ôG°1°çuwuµUüU!vvsX]XndPdnd+dnddndgdD∆.∆D∆∆æÅ®ÅÊ«–«≠˛¨qxXxqx8xqxxqxjx__¶±u±¶±U±¶±ó±9i*i,óóú~Ü~ú~e~>g(gÔÇŸÇ˙ó‰ó©tìt)``Hæ2æ√«≠«9“#“¶…ê…óÚñ…i…ÜÏÖÖÖÖﬂÑ<s&s∂⁄∂∂≤∂Fà0àFààZìDì7ü!ü7ü¸ûí—|—/~~ï°°ZrDrÌa◊a/ûû•¬è¬Ãa∂aPÄ:Äº	ºä∏t∏¢øåø®£ç£®£k£®£°£øπ©π}ÇgÇlWVWÔWŸWØWôW°{ã{≠VóV¬î¨îÊî–îåãvãEß/ßÂâœâf P gÀQÀgÀ0Àm¥W¥õeÖe’≥ø≥ãVuV˙≥‰≥7Y!YF¥0¥F^0^!¥¥J]4]í¥|¥ggdyNy·pÀp€T≈Tƒ∫Æ∫Ïµ÷µÏµ±µvT`TÉ∂m∂îX~X◊∏¡∏#ZZu©p©ïiïv«`«∏˚∑sœ]œÿ ¬ ˙j‰jœ	œnım]ŒGŒ]ŒŒæm®mÔœŸœ∆œ∞œ––——B—,—éñxñéñPñÏ£÷£≥àùà≥àwàÇklk<ë&ëmòWò˜ª·ª˜ªªª&¢
+#           currently-running release.
 #!/bin/sh
 # DO NOT EDIT OR REMOVE
 These files are normally installed in /usr/share/fontconfig/conf.avail
@@ -393,7 +391,6 @@ fi
 #
         %fixedAttr;
 #
-PK!	ÊîøÂä°UTcx6eˇ”ÆÖPK>Ã¯K
 *customization: -color
         if shopt -q progcomp && [ -r /usr/share/bash-completion/bash_completion ]; then
 			<string>AR PL UMing HK</string>
@@ -423,7 +420,6 @@ change_hat {yes
 
 	<match target="font" >
 #@{multiarch}+=*-freebsd* s390-hurd-zomg
-session		optional	pam_keyinit.so force revoke
 BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
   abi <abi/3.0>,
   # mouse themes
@@ -461,7 +457,7 @@ APT::Archives::MaxSize "500";
 			Ctrl<Key>r:	do-resize()
 #!/bin/sh
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
-# set start_ro=1 to make newly assembled arrays read-only initially,
+
 :Œîå‰gvwbNB3Ù‚3‰œiKœœ?¯€B±ˆ†Yg„we7å6©Äªù	¬jQ:‹⁄(q∫îÈ]ÿ±Á1ºy:ˇBQ%Ø~2±,≥ﬂ5‡í⁄êã‹áÑ#ôË∂a‘ÍÃÈ.à;˜}uY…»¢[U¸Wû«®b•kG=ïUµ‰põ†x–MﬁW‘AhÆ«û≤úï0…8‘Ã{@ù‚ r‘ﬁ•LJÓ…t—O=]m-bÃ˝Fb¸Ùaiõ¬ÛLp:∞Um>oŸî–óË˝WÃú+ø∞“@†˙iAAE˛9·	Ú‘‰ëˇLîèQÿ|?∆1Tπ·Äæi0„i¶•„/ós'ºb;äj`ø”√cTB2èk]¥¨ÿo˛ìˆ!∏jéÅÚÀà{e
 # To take advantage of this, it is recommended that you configure any
         cat /run/motd.d/85-fwupd
@@ -469,7 +465,6 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 	vdo_use_sparse_index=0
 *ispell*options.horizDistance:		2
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
-*fileDialog.accept.bottom:		ChainBottom
 twm
 type=file
 esac
@@ -725,7 +720,6 @@ STARTSSH=
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 gt68xx
     <edit name="hinting">
-#    Copyright (C) 2014 Canonical Ltd.
 /dev/scanner
 # times
 *ispell.lookCommand:			/bin/egrep
@@ -735,7 +729,6 @@ gt68xx
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 -dcevm KNOWN
 # how to byte-compile (comma separated: standard, optimize)
-# The usual place for a SCSI-scanner on Linux
       interface="com.canonical.Unity.LauncherEntry"
 #!/bin/sh
 # This file is the default tidy configuration file
@@ -768,10 +761,9 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 /Japanese-Gothic-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-gothic.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 system-db:ibus
 check_config() {
-# double-lockout scenario where a user is locked out locally and
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 *insertFile*text.?.pieceSize:		256
-session    required     pam_loginuid.so
+#user_allow_other
 blacklist raw1394
 
 
@@ -783,7 +775,6 @@ NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 brandon:100000:65536
   /usr/bin/tkrat Cx -> sanitized_helper,
 #
-# modem initialization string.
 /dev/scanner
 # Allow non-root users to specify the allow_other or allow_root mount options.
 #    This program is free software; you can redistribute it and/or modify
@@ -813,7 +804,6 @@ bullseye/sid
 XKBMODEL="pc105"
 ipv6-nonxt 59	IPv6-NoNxt	# No Next Header for IPv6
 }
-#DUIDType=vendor
 # This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:
 # This file is a simple placeholder to keep dpkg from removing this directory
 # the default is 1, n, l, 8, 3, 0, 2, 5, 4, 9, 6, 7. Multiple SECTION
@@ -840,10 +830,9 @@ option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
 <!ATTLIST magic name CDATA #REQUIRED>
 Acquire::Changelogs::AlwaysOnline "true";
 hanzigb24st "-isas-song ti-medium-r-normal--24-240-72-72-c-240-gb2312.1980-0"
-/var/log/alternatives.log {
+		<family>Nimbus Sans L</family>
 session	optional	pam_systemd.so 
 /usr/bin/wine-preloader
-        cat "$warning"
 				/bin/plymouth message --text="${TEXT}"
 #children_max=
       This configuration is available on the major desktop environments.
@@ -895,14 +884,13 @@ option artecFirmwareFile /usr/share/sane/artec_eplus48u/Artec48.usb
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 # For more details, please see /etc/apparmor.d/local/README.
 # real-time clock. Note that it can‚Äôt be used along with the 'rtcfile' directive.
-# vim:syntax=apparmor
+	daytime_hosts => [ qw {} ],
 <fontconfig>
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 # Compose sequences for KOI8-R
 # or
   audit deny @{HOME}/.*/ rw,
   <type name="NewCenturySchlbk-Italic" fullname="New Century Schoolbook Italic" family="NewCenturySchlbk" foundry="URW" weight="400" style="italic" stretch="normal" format="type1" metrics="C059-Italic.afm" glyphs="C059-Italic.t1"/>
-		</edit>
 #    License published by the Free Software Foundation.
 # Uncomment the following if your scanner is connected by USB,
   <delegate decode="ps:alpha" stealth="True" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=pngalpha&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;-f%s&quot; &quot;-f%s&quot;"/>
@@ -1055,7 +1043,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 ôSMã≈¥∑?˜i¸«Yõ˚Q`P$ˇZ∂Aıß_Ëïò#XÁTã»¡ûAê(Fì\Z˘—ﬁoéYJ±üÂgcPâ?DG	¸⁄ÑBá*ÒUQ8˝‘Ù`[T≥"F±mÍ3é˝ê∆8l¸Òw#h˙F)yQó∂‹‚aa∂;%Ä=3’X9’EΩŸ—_d>Fv	eﬂnhd6D¨a5√çò{P5Æ&˛t}ÈÈÏkV`Å˚î1Òæ"6K&!z£˙Lh˛I|Ñ?[8ÀfpãÄ8È'–‹Ÿ(ˇæq§èµ Ñ9ûO¢5ùZ⁄œ:m˛≥∑FHKƒÿÆ™^s[yï’9:Ü6Â[œóπQˇò∆÷)oïPÂwRR≠É‚˜∂ÍYcMÆCì^ÍˆÛºÒ≤◊¶…âÿò^ÃJù2ûÌ'˚àõ«Ö‡IãŸﬂpÚ÷o’gc{≤ÜÓ_Pjc^bm:’ÛM0¬‚±)ËöPZΩV27ÿ/Ã€n–vZ^≈¿0èÿd)hE~&ÂC¿—Æ†u´ckﬁ0√¸:5 ˝º*[\p“'<.#c—)ÏÎm1À]±ÂÔ1≤@Èeôµeˆ25Ì©7À\R¯aﬁTäb“-…‰Lt&GPéôKŸYÿÌ<IFƒˇ)ÙYª”˚éFqÏ'CÚ¨I3çñ)Ñ3∑[Ó< !w9¥Launchpad PPA for Raelâ8"SMã		
 # dpkg-shlibdeps(1) manual page. 
 # The /etc/chatscripts/pap chat script may be modified to change the
-
 {∂«.@¿BGáøyÛÿXPøj±òÛîn“GÌ•/©p¸µáÊß›oø7eúÑÓˇÌô¿m◊£[»M®Ÿñö¸ﬁÿG£ﬁ-£™Œ£[¬xoî¸ÈdŸœ@CÕ >ME∆u}¸ËDçŒtKZCA˘~˚ivŒÓ¶UZèßﬁ´+§@ÿˇπÿx‚ ÜvFéî/‚ˆ‹ƒèn1#¿¥«◊®ä∑∆á◊~5¸¸AÛ“°ÖçÍC’«F–’[∆´÷œÀæpn"Xo4ç>ï˘R§Cké¿^´ó'±¥1ˆl:;y>ÖÛYeP+∂]µ∞˚3WåéèbLÓMG‰ú≤™ëÒdçı=]^X~1&ÎÚ¢Òˆ¯»≈dï>îΩ‘ñ=S’±e’∫∏Ω¬5¶ØfˇbÏOwΩ>°ˆ;ßÖÌ«O1&˚ı‰\Lü*ﬁñ}{˝mïÊÂ{#Ø)µ‡R;c⁄˝	VﬁÍè.¨«D∞@™ÔG∆õ5GÇ˛˚G…∂>˝˛æØdª˛À÷⁄ÛKIQ{õOt:E05ın¿íΩ	œP’ÂÁ¥_TV–üçÖ—bww«‹Bmù%gg˜¨´ZÂŸ˘≥Ÿb±^,f≥æ\WØÿø‹Pà˛›µ1˙ÁïfŸì‘‘ÓC{F◊’ﬂ∂˛€rQY’*îΩ‘ì⁄oÙ≠˜ØMzÆsn∂ø˛™˝∏ £i^ΩﬁT≤Øü ˝¨@ô∆Í?3∂˜k≈ÑV<}t≈≠x~;æ,–°ım⁄˚!µ?	ÌõSC,µ°efˇ‰∫ﬁ≠dŸèR∞æ¯-¥ÌØÜj$
 # X11xx series
     <accept>
@@ -1063,3 +1050,13 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 
                     attributes in this namespace</p>
 
+<!ENTITY % allAttrs ''>
+#   /etc/cron.daily/mdadm.
+generateResolvConf = false
+nameserver 1.1.1.1
+  deny @{HOME}/.zshenv mrk,
+# deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
+03DB9E5E79FE6117177F81C11595AF598CB176AF766290DBCEB2C318B32E39A2
+stamp="/var/lib/ubuntu-advantage/messages/motd-esm-announce"
+  missingok
+exec tail -n +3 $0
