@@ -62,7 +62,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 Vendor-URL: https://www.debian.org/
 ! MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 compose '"' 'A' to 'Ä'
-#
+#*)
   </match>
 Ÿ‡Ìõ¼¢/4¢ğ´-ŸL0Ë+/øäÂÜ
 #ifdef COLOR
@@ -118,7 +118,7 @@ NAME="plymouth-log"
 10	mrt
 # If you want logs to go to syslog, uncomment the following line.
 # and users home directories will reside within the directories that
-  # User files
+deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
       will change accordingly; the version at
     owner @{HOME}/** rwk,
@@ -222,9 +222,9 @@ LOGLEVEL=low
 #export http_proxy="http://127.0.0.1:3128/"
 #
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
-*topform.Form.fillstyle.Toggle.width:	185
+## form 127.127.t.u, where t is the clock type and u is a unit 
 # x25
-  owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
+# configuration options for /etc/X11/Xsession
 # vim:syntax=apparmor
 smproxy
 
@@ -242,9 +242,8 @@ fi
 /usr/lib/update-notifier/package-data-downloader
             . "${XDG_CONFIG_HOME:-$HOME/.config}/bash_completion"
 ‹]ÒÇj[A†á½¯b°Z·G³±§A¼ÓæH:‰¶#’àÒ{ï½÷Ş{ÌåÿŞì²xg`àY|Cn[Ù-{E¿l»­½jÑÍmI#ıÅ¥…Ñz³Óít]s×¦!·bÇ¹ó…ÒõÊ¢í
-XKBLAYOUT="us"
 X-GNOME-Bugzilla-Bugzilla=GNOME
-
+# auto, /dev/paraport* (ppdev device name)
 makestep 1.0 3
 
 #  As rsync is often used for backups which aren't all that time-critical,
@@ -277,7 +276,6 @@ turkish         tr_TR.ISO-8859-9
 # Compose sequences for ISO-8859-11
 
 [storage]
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? raid[[:digit:]]+: Disk failure on [[:alnum:]]+, disabling device\.$
 
 scsi CANON IX
 brandon:100000:65536
@@ -302,7 +300,7 @@ Acquire::Changelogs::AlwaysOnline "true";
 
 # Set the default output policy to ACCEPT, DROP, or REJECT. Please note that if
 
-. /usr/share/bash-completion/bash_completion
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
 
 blacklist rivafb
 #net.ipv4.ip_forward=1
@@ -356,7 +354,6 @@ fi
 Terminal=false
 # Turn on Source Address Verification in all interfaces to
 # directories are stored, each must have a trailing '/'. Directories added
-deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # set start_ro=1 to make newly assembled arrays read-only initially,
     <Directory>X-GNOME-Other.directory</Directory>
 
@@ -374,11 +371,11 @@ change_hat {yes
 #[direct]
 //Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
 631	# cups
-      <bool>false</bool>
+deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 
 	<match target="font" >
 BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
-  abi <abi/3.0>,
+usb 0x043d 0x007c
   # mouse themes
       without rebooting a machine which drastically limits the need for
 compose ',' 'A' to '¡'
@@ -432,7 +429,6 @@ DNS={% for server in nameservers %}{{server}} {% endfor %}
 # Record the rate at which the system clock gains/losses time.
 auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
 	        # check because c-n-f could've been removed in the meantime
-	<alias>
 X-GNOME-Autostart-Phase=Initialization
 the exact distribution terms for each program are described in the
 0xD9 'Ã™'
@@ -486,7 +482,6 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] &&
 [Sleep]
 X-GNOME-Bugzilla-Version=3.36.x
 /var/log/apt/term.log {
-defaults {
 	daytime_hosts => [ qw {} ],
 # Some "catch-all" log files.
 # Compose sequences for ISO-8859-16
@@ -510,7 +505,7 @@ X-GNOME-Autostart-Notify=true
 	# Configuration option local/extra_system_ids.
 # This file contains a list of port numbers between 600 and 1024,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
-# This file is a simple placeholder to keep dpkg from removing this directory
+
 <fontconfig>
 
 # since the modules above will each just jump around
@@ -703,7 +698,6 @@ LANG=C.UTF-8
     echo "Usage: /etc/init.d/atd {start|stop|restart|force-reload|status}"
 NoDisplay=true
   # User files
-#  Default rules for rsyslog.
 <?xml version="1.0"?>
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
     monthly
@@ -750,7 +744,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 
 
   if [ -n "${XDG_CONFIG_DIRS##*$DEFAULT_XDG_CONFIG_DIRS/xdg-$DESKTOP_SESSION*}" ]; then
-                <!-- check to see if the font is just regular -->
 LANG=C.UTF-8
 		<!-- https://en.wikipedia.org/wiki/Category:Mathematical_OpenType_typefaces -->
 [daemon]
@@ -908,12 +901,11 @@ XClock.Clock.minorColor:	rgba:00/7f/7f/c0
 [mysqldump]
 # You can even override a supported extension:
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
-0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255
 #
   <!-- <policy domain="system" name="precision" value="6"/> -->
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
-# dpkg-shlibdeps(1) manual page. 
+#
 # The /etc/chatscripts/pap chat script may be modified to change the
 {¶Ç.@ÀBG‡¿yóØXP¿j±˜ó”nÒGí¥/©püµ‡æ§İo¿7eœ„îÿí™Àm×£[ÈM¨Ù–šüŞØG£Ş-£ªÎ£[Âxo”üédÙÏ@CÍ >MEÆu}üèDÎtKZCAù~ûivÎî¦UZ§Ş«+¤@Øÿ¹ØxâÊ†vF”/âöÜÄn1#À´Ç×¨Š·Æ‡×~5üüAóÒ¡…êCÕÇFĞÕ[Æ«ÖÏË¾pn"Xo4>•ùR¤CkÀ^«—'±´1öl:;y>…óYeP+¶]µ°û3WŒbLîMGäœ²ª‘ñdõ=]^X~1&ëò¢ñöøÈÅd•>”½Ô–=SÕ±eÕº¸½Â5¦¯fÿbìOw½>¡ö;§…íÇO1&ûõä\LŸ*Ş–}{ım•æå{#¯)µàR;cÚı	VŞê.¬ÇD°@ªïGÆ›5G‚şûGÉ¶>ış¾¯d»şËÖÚóKIQ{›Ot:E05õnÀ’½	ÏPÕåç´_TVĞŸ…ÑbwwÇÜBm%gg÷¬«ZåÙù³Ùb±^,f³¾\W¯Ø¿ÜPˆşİµ1úç•fÙ“ÔÔîC{F×Õß¶şÛrQYÕ*”½Ô“Úoô­÷¯Mz®sn¶¿şªı¸Ê£i^½ŞT²¯Ÿ ı¬@™Æê?3¶÷kÅ„V<}tÅ­x~;¾,Ğ¡õmÚû!µ?	í›SC,µ¡efÿäºŞ­dÙR°¾ø-´í¯†j$
 # +CPIN provides the SIM card PIN
@@ -923,7 +915,7 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
                     attributes in this namespace</p>
 <!ENTITY % allAttrs ''>
 #   /etc/cron.daily/mdadm.
-generateResolvConf = false
+  <mime type="application/x-bzip" description="Bzip archive" priority="100" pattern="*.bz" />
 nameserver 1.1.1.1
   deny @{HOME}/.zshenv mrk,
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
@@ -1010,7 +1002,6 @@ commands scan this directory processing all files that end in '.conf'.
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
 # Options to pass to sshd
 # ------------------------------------------------------------------
-    </event>
 # vim:syntax=apparmor
 :Î”ŒägvwbNB3ôâ3äÏiKÏÏ\¤?øÛB±ö Ygãwe7Œ6©€»	ÂjQ:ÜÚ(qº”é]Ø±ç1¼y:ÿBQ%¯~2±,³ß5à’Ú‹Ü‡„#™è¶aÔêÌé.ˆ;÷}uYÉÈ¢[UüWÇ¨b¥kG=•Uµäp› xĞMŞWÔAh®Ç²œ•0É8ÔÌ{@âÊrÔŞ¥LJîÉtÑO=]m-bÌıFbüôai›ÂóLp:°Um>oÙ”Ğ—èıWÌœ+¿°Ò@ úiAAEş9á	òÔä‘ÿL”QØ|?Æ1T¹á€¾i0ãi¦¥ã/—s'¼b;Šj`¿ÓÃcTB\ä2k]´¬Øoş“ö!¸jòËˆ{e
 			[[ -x /usr/lib/command-not-found ]] || return 1
@@ -1063,3 +1054,18 @@ run_im default
 # value to be assigned to the environment variable.
 # This file should be world readable but not world writable.
 blacklist dv1394
+#    modify it under the terms of version 2 of the GNU General Public
+roottext=,magenta
+# Set up user limits from /etc/security/limits.conf.
+            KERNEL_UPGRADED=1
+    <alias>
+# value is 80) and nonProxyHosts is a '|' separated list of hostnames which
+# /etc/xattr.conf
+/var/log/apt/term.log {
+  #include <abstractions/private-files>
+  #include <abstractions/opencl-mesa>
+scsi RICOH
+		<allow send_destination="com.redhat.PrinterDriversInstaller"
+  -->
+# need this to enable the arrow keys.
+# deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
