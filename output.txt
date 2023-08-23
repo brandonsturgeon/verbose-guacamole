@@ -13,14 +13,14 @@ Enabled=true
 
 # install the apport exception handler if available
 TryExec=xdg-user-dirs-update
-## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+15  uevent
            "booktitles.ent">
 #ClassicBondedOnly=true
 /bin/sh
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 xterm
-# This file is a simple placeholder to keep dpkg from removing this directory
+# libc default configuration
 ## possibly not what you want... On first reading, you might think this
 scsi DEVCOM * Scanner
 
@@ -75,7 +75,6 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 
 [Desktop Entry]
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-XConsole.translations:		#override
     [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
 @include common-auth
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
@@ -123,10 +122,10 @@ scsi * * Scanner
 Before=snapd.service
 # vim:syntax=apparmor
 # Compose sequences for ISO-8859-11
-[Sleep]
+#    License published by the Free Software Foundation.
 #    Copyright (C) 2012 Canonical Ltd.
 
-rocks_trees = {
+# Compose sequences for IBM1133
 
 PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
@@ -134,7 +133,7 @@ PICTURES=Pictures
 =RFA4
 
 
-*status.fromHoriz:			editButton
+
 X-GNOME-Autostart-Phase=PreDisplayServer
 /dev/scanner
 €Og∑˜µ˜ŸÎÕº¬ö∆ÜB∞ﬂUf≥v∞∑y∫º£#ùV>'ï9‡ˆZ®˝çö¥ﬁéfãπã˝ı €≠ƒˆ#—˝JTVVÕñU~{ˇ¢“€r1&3l#Á+ı=[V˘mπXú|SÁΩ˜¸Ûûµ€©ö˚"[Œ≈ˆ3™˛ÒÛóg√c
@@ -163,7 +162,6 @@ max_allowed_packet	= 16M
 # iwlwifi will dyamically load either iwldvm or iwlmvm depending on the
 # in the toplevel profile. Eg:
 alias.url += ("/javascript" => "/usr/share/javascript")
-ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
 #
 net.ipv4.conf.all.rp_filter=2
 defaults {
@@ -177,7 +175,7 @@ d /run/screen 1777 root utmp
 scsi Nikon * Scanner
 XClock.Clock.secondColor:	rgba:00/00/ff/80
   # Apport
-### that look up the default sink/source get the right value
+APT::Periodic::Unattended-Upgrade "1";
 #
     <allow send_destination="org.freedesktop.PackageKit"
 
@@ -206,7 +204,7 @@ compose '`' 'U' to 'Ÿ'
 # fails to use it it will not abort.
                 log_action_msg "Not starting GNOME Display Manager; it is not the default display manager"
 
-twm
+
 # Compose sequences for KOI8-R
 # eliminate DISABLE
 #    Copyright (C) 2011 Canonical Ltd.
@@ -347,21 +345,18 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 *next.right:			ChainLeft
 # security of the host and prevent against some network attacks
 # should not normally be necessary (under Linux at least).
-!mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
 # Compose sequences for GEORGIAN-PS
 
 scsi FCPA
 
-	</match> 
 # with the multiqueue (mq) policy and uses less memory.
 
 BatteryThreshold=10
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 # If set to all update-initramfs will update all initramfs
   owner @{HOME}/.adobe/** rw,
-
 # This file is sourced only for login shells. It
 #
             . /usr/share/bash-completion/bash_completion
@@ -409,7 +404,6 @@ After=snap-lxd-18150.mount
 # -Z Disable the power-saving function of certain Seagate drives
 'ﬂﬂ^“9œE}BKﬂ≥,≈∆] U:†úiöè⁄Ô≤∞<üál+epR1$œo1#PåOè#√tAcU®›>‡QPœÒ0Ví∞ÇÖÿÉÀ"dº-∏%’T¢∏Í≠í§$†¡ÜµJjGœ.VïTÀŒö€j¥¶≤€AÜ'w˜j†Bl8Œ◊uP2í¬ﬂ+0"H–’A8%]§È]ü∆îu–E˝0óCèê´
   /dev/xconsole                 rw,
-# Options that will apply to any `sos report` run should be listed here.
 #!/bin/sh
 CATALOG /usr/share/xml/docutils/catalog
 
@@ -475,7 +469,7 @@ PICTURES=Pictures
 Each file in this directory is an rt_protos configuration file. iproute2
 <fontconfig>
   /usr/bin/apport-bug Cx -> sanitized_helper,
-
+# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 # Common rules for Qt5-based applications
 run_im default
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
@@ -526,7 +520,6 @@ NoDisplay=true
 StartupNotify=false
     start-stop-daemon --start --pidfile /dev/null \
 # See sane-microtek2(5) for a description of the options
-# You can change settings by editing this file.
 #pam_deny.so as appropriate.
 # one second, but only in the first three clock updates.
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
@@ -562,7 +555,7 @@ system-db:ibus
 X-Ubuntu-Gettext-Domain=gnome-keyring
 start)
 #
-
+  /etc/fonts/**                         r,
 <?xml version="1.0" encoding="UTF-8"?>
 # Specify file containing keys for NTP authentication.
   #include <abstractions/fcitx-strict>
@@ -581,7 +574,6 @@ B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
 # comment out the following line to allow CLOUDINIT messages through.
 # 0 means default behaviour as specified in the internal tables
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-
 java.util.logging.ConsoleHandler.formatter = java.util.logging.SimpleFormatter
 printf '\033%%G' 
 Name=GNOME Settings Daemon's housekeeping plugin
@@ -642,14 +634,14 @@ deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 ; rlimit-locks = -1
 .  \" command-line options.  Uncomment this if you want to make sure that
-
+<Directory "/usr/share/javascript/">
 #DefaultLimitDATA=
 # symbolic names for networks, see networks(5) for more information
 #@{XDG_VIDEOS_DIR}+=""
  -->
 
 # BYOBU_BACKEND can currently be "screen" or "tmux"
-# See sane-microtek2(5) for a description of the options
+s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
 [Distro]
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
 bullseye/sid
@@ -675,7 +667,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 run_im default
 [Desktop Entry]
 #
-# along with this program; if not, write to the Free Software Foundation, Inc.,
+# The following is an example how to use a braille font
       for file in $(find $i -type f -print | LC_ALL=C sort)
     resource
 esac
@@ -802,7 +794,6 @@ rocks_trees = {
 #    Copyright (C) 2009-2012 Canonical Ltd.
 #    the "FSU light dispersion error" does not cause the abortion
 # Description:       Debian init script for the GNOME Display Manager
-
 # List of modules that you want to include in your initramfs.
 
 
@@ -843,7 +834,6 @@ trusted.SGI_DMI_*		skip		# xfs specific
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # look for all devices with vendor ID "SHARP" and type "Scanner"
 9ED8F9B0E8E42A1656B8E1DD18F42BA42DC06FE52686173BA2FC70E756F207DC
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 c0583bt_.pfb -bitstream-courier 10 pitch-bold-r-normal--0-0-0-0-m-0-iso8859-1
             break;
 #
@@ -873,12 +863,12 @@ search updates ubuntu built-in
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 <?xml version="1.0"?>
 auth		sufficient	pam_rootok.so
-COMPRESS=lz4
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 X-GNOME-Bugzilla-Component=nm-applet
 {
 # This file can contain default options for dpkg.  All command-line
 scsi TAMARACK
-XLogo*baseTranslations: #override \
+# i.e. for Plustek (0x07B3) U1212 (0x0001)
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
     <edit name="hinting">
 
@@ -896,7 +886,7 @@ has led to the following conventions in usage:
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 #    Use the ip command to remove all the addresses of an interface.
-#    modify it under the terms of version 2 of the GNU General Public
+     lock_passwd: True
 fi
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 #
@@ -976,7 +966,7 @@ brandon:100000:65536
 Kernel system variables configuration files
 /dev/scanner
 # X-Start-Before:    $network
-# System-wide GDB initialization file.
+[ifupdown]
 XClock.Clock.secondColor:	rgba:00/00/ff/80
 Exec=/usr/libexec/gsd-wacom
   # per-user write  directories
@@ -985,7 +975,7 @@ compose '>' 'A' to '¬'
 {% if searchdomains is defined %}
 
 #5	tc/cls1
-lines		1,-1,-1,-1,-1,1;\
+}
 -#}
 #  You should have received a copy of the GNU Lesser General Public
 # ------------------------------------------------------------------
@@ -1034,7 +1024,6 @@ deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 [ ! -r "$auto_attach_stamp" ] || cat "$auto_attach_stamp"
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
 KP_0 = s;0
-Before=snapd.service
   #include <abstractions/ubuntu-console-email>
 {% if log_level %}
 <delegateSystem systemIdStartString="/usr/share/sgml/dtd/qaml-xml.dtd" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
@@ -1155,3 +1144,10 @@ XCalc*ti.button40.foreground:		gray5
 compose '^' '.' to '∑'
 # you can temporarily override this with
 
+# Legacy biarch compatibility support
+deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
+  # Be nice to non-libdbus, non-sd-bus implementations by using
+if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
+
+directory), then /lib/terminfo, and last not least /usr/share/terminfo.
+#DefaultLimitCPU=
