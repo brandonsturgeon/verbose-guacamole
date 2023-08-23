@@ -137,12 +137,11 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
 
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
  * and edit it there.  That way, your changes will be kept next time
-# with the 'sonames' key. The value of the key has to be a list of
+# vim:syntax=apparmor
   # global tmp directories
 Description=Mount unit for snapd, revision 15904
     <allow send_interface="org.debian.apt.transaction"/>
 DEFAULT_LOUD=""
-
 Bugs: debbugs://bugs.debian.org
 
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
@@ -154,15 +153,14 @@ scsi "LEO" "LEOScan-S3"
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 
 pool {{pool}} iburst
-#  Enables compensation for the speakers' relative distances to the listener.
+# Use DOCKER_OPTS to modify the daemon startup options.
 # vim:syntax=apparmor
 # Compose sequences for ISO-8859-16
-  # User files
+ "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
                                      "javax.crypto.spec.RC2ParameterSpec", 128;
 Comment[as]=PulseAudio ‡¶∂‡¶¨‡ßç‡¶¶ ‡¶¨‡ßç‡¶Ø‡ß±‡¶∏‡ßç‡¶•‡¶æ ‡¶Ü‡ß∞‡¶Æ‡ßç‡¶≠ ‡¶ï‡ß∞‡¶æ ‡¶π'‡¶¨
 }
 *Background:				rgb:c/d/b
-nssDbMode = noDb
 # Compose sequences for ISO-8859-8
 # Compose sequences for ARMSCII-8
 # DO NOT EDIT OR REMOVE
@@ -180,14 +178,14 @@ audio/x-mpegurl=rhythmbox.desktop
 fi
 /dev/scanner
 #
-# Each line contains either:
+# of the ${powerOp}-default.d directories.
 			<family>DejaVu Sans</family>
 ## Uncomment the following two lines to add software from Canonical's
 
 # Compose sequences for ISIRI-3342
 # This program could be rewritten in C or Golang for faster performance.
    formatter=simpleFormatter
-
+    export CLUTTER_IM_MODULE
 # the terms of the GNU General Public License as published by the Free Software
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 LOGLEVEL=low
@@ -209,7 +207,7 @@ fi
      <choice>
 #    Copyright (C) 2014 Canonical Ltd
     import apport_python_hook
-/usr/lib/update-notifier/package-data-downloader
+# will be translated on a per-path-element basis into the users locale
             . "${XDG_CONFIG_HOME:-$HOME/.config}/bash_completion"
 ã]“«j[AÜ·ΩØb∞Z∑Gé≥±ßAº”ÊH:â∂é#í‡“{ÔΩ˜ﬁ{ÅÃçÂˇﬁÏ≤xg`‡Y|Cn[Ÿ-{Eølª≠Ωj—ÕmI#˝≈•Ö—z≥”Ìt]s◊¶Å!∑b«πÛùÖ“ı ¢Ì
 X-GNOME-Bugzilla-Bugzilla=GNOME
@@ -338,7 +336,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 # as possible
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 DISTRIB_RELEASE=20.04
-#backwards compatibility include, actual abstraction moved from php5 to php
 #fi-5950
 #    Handle linux distributions that use systemd to replace the legacy
 fi
@@ -361,7 +358,6 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 max_allowed_packet	= 16M
 type=file
 esac
-
 
           </Not>
 # OpenCL access requirements for Intel implementation
@@ -397,7 +393,7 @@ tcp.flag.psh	u8		tcp+13		0x08		3
   </match>
 <?xml version="1.0"?>
 Name=AT-SPI D-Bus Bus
-/etc/xdg/Trolltech.conf r,
+	rm -f "$TEXT_FILE"
 20  rdma
 # Don't try to change I/O priority in a vserver or OpenVZ.
 # in the toplevel profile. Eg:
@@ -463,7 +459,6 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 eval $(/usr/bin/locale-check C.UTF-8)
 
 				fi
-<!DOCTYPE typemap [
 	<policy user="root">
 # battery than letting it rest for example).
 #
@@ -569,7 +564,6 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
   #include <abstractions/kde>
   </its:rules>
 # Microtek ScanMaker 3840 ID
-#
 ú3ú@úcúsúôú™ú—ú·úùùAùSù{ùâù≠ùΩù„ùÒùû#ûGûXûûéû≥û¡ûÂûıûü,üSücüâüöü¡ü—ü˜ü†)†6†Y†e†á†ï†π†∆†È†¸†%°3°W°j°ì°ƒ°¢ ¢K¢d¢ì¢®¢”¢Ì¢£6£e£Ä£±£∆£Ò£§5§H§q§Ä§•§∏§·§Ó§••/•:•[•f•Ö•ê•¢•´•º•≈•‰•Ì•˝•¶1¶A¶g¶v¶õ¶©¶Õ¶ﬁ¶ßß+ß:ß_ßnßëß†ß∂ß√ßÿßÂß®®)®:®a®r®ô®™®—®‡®©©=©L©q©~©°©≤©À©‹©™™,™=™d™t™ö™Æ™ÿ™Ë™´#´N´_´Ü´õ´ø´Ò´9¨h¨≠¨ø¨Á¨ı¨≠'≠I≠^≠â≠û≠«≠„≠Æ%Æ=ÆMÆsÆÉÆßÆ∑ÆŒÆ‹ÆÚÆØ$Ø2ØGØWØ}ØâØ´ØπØ›ØÔØ∞&∞K∞V∞w∞Ä∞ü∞±∞Ÿ∞Ê∞	±"±Q±h±ï±§±…±’±˜±≤E≤]≤ã≤£≤—≤ﬂ≤≥≥1≥<≥]≥n≥ï≥¶≥Õ≥·≥¥¥A¥Q¥w¥à¥Ø¥æ¥„¥¥µ"µGµTµwµàµØµøµÂµ˜µ∂/∂U∂e∂ã∂ô∂Ω∂ ∂Ì∂¯∂∑(∑M∑Z∑}∑ç∑•∑µ∑€∑Î∑∏∏6∏H∏p∏|∏û∏≠∏“∏·∏ππNπ\πÄπïπ¿π’π∫∫D∫V∫~∫ç∫≤∫ø∫‚∫∫ª ªBªOªrªÉª™ª∂ªÿªÚª"º2ºXºmºòº®ºΩºÀºﬁºÔºΩΩ(Ω5ΩXΩcΩÑΩîΩ∫Ω ΩΩæ4æKæxæáæ¨æ∆æˆæø&ø2øTø`øÄøäø™ø∫ø€øÚø¿5¿a¿s¿ñ¿¨¿”¿Á¿¡¡=¡J¡m¡¡ß¡≤¡”¡‚¡¬¬E¬Y¬u¬â¬≥¬«¬Ô¬√√0√J√\√Ñ√ñ√Ø√ø√◊√Á√ƒƒAƒQƒhƒvƒåƒöƒæƒÃƒ·ƒ˚ƒ+≈=≈e≈≈Ø≈¡≈È≈∆1∆B∆i∆|∆ó∆™∆”∆Ê∆« «:«K«d«u«ú«≠«≈«◊«Ò«»+»=»c»u»é»û»∂»∆»Ï»¸»…#…;…K…q…Å…•…µ…Ã…⁄……˛…" 0 E X s Ü Ø ¬ È ¸ À'À@ÀQÀxÀâÀ°À≠ÀœÀ€ÀÔÀ˚ÀÃ)ÃIÃUÃhÃrÃÑÃéÃÆÃ∏Ã…Ã◊Ã˚ÃÕ+Õ:Õ_ÕlÕèÕõÕΩÕ»ÕÈÕ¯ÕŒ2Œ]ŒqŒõŒ¨Œ”Œ‚ŒœœAœQœwœÜœ´œ¡œÌœ–-–E–s–â–µ–∆–Ì–ˇ–'—7—L—h—ö—©—Œ—⁄—¸—“<“L“r“Ü“∞“º“ﬁ“Ô“”&”L”g”ò”≠”ÿ”Í”‘!‘F‘S‘h‘u‘ò‘£‘∂‘¡‘‚‘Û‘’,’C’S’h’v’ö’©’Œ’ﬁ’÷÷8÷E÷h÷v÷ö÷¶÷»÷›÷˜÷
 
     permission javax.crypto.CryptoPermission *, 128;
@@ -628,13 +622,12 @@ XCalc*hp.button16.fromHoriz:		button15
 
 /dev/scanner
 # You should have received a copy of the GNU General Public License
-# Your system has configured 'manage_etc_hosts' as True.
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
 # subpath mappings from mount point for pinning
   <match target="pattern">
 <!ATTLIST magic name CDATA #REQUIRED>
 Acquire::Changelogs::AlwaysOnline "true";
-hanzigb24st "-isas-song ti-medium-r-normal--24-240-72-72-c-240-gb2312.1980-0"
 		<family>Nimbus Sans L</family>
 session	optional	pam_systemd.so 
     # pivoting into a whitelisted path.
@@ -692,7 +685,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 X-GNOME-Bugzilla-Version=3.36.0
-#!/bin/sh
+	missingok
 
 [Sources]
 
@@ -720,7 +713,7 @@ nssDbMode = noDb
 #/dev/usb/scanner0
 
       <const>lcddefault</const>
-        [ -x /sbin/restorecon ] && /sbin/restorecon "$1"
+# which broke applications in UTF-8 locales.  See:
 }
 *ispell*terse.internalWidth:	10
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
@@ -734,7 +727,7 @@ SHELL=/bin/sh
   # dehydrated
          ;;
 unset USEHTTP
-#!/bin/sh
+  unix (connect, receive, send)
 [METARELEASE]
 -->
 # eliminate DISABLE
@@ -749,7 +742,6 @@ application/x-zip=org.gnome.FileRoller.desktop
 {% endif %}
 
 <!ATTLIST %element;
-<delegateSystem systemIdStartString="http://docbook.org/xml/4.2/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.2/catalog.xml"/>
     then
 DEFAULT_OUTPUT_POLICY="ACCEPT"
 # Set up the prompt
@@ -889,7 +881,6 @@ commands scan this directory processing all files that end in '.conf'.
 en+([bcosxpP])*([^.]).@(dhclient|dhcpcd|pump|udhcpc)
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 <Key>q: quit() \n\
-fi
 # For using an SSL/TLS protected RMI registry use the following line
 XLogo*background: rgb:d2/22/32
 }
@@ -917,7 +908,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 # Site-specific additions and overrides for usr.bin.firefox.
 # HP Scanjet G2710
-# These variables are for the use of the scripts run by run-parts.
+      <string>DejaVu Sans Mono</string>
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 run_im default
 # value to be assigned to the environment variable.
@@ -955,7 +946,6 @@ letter
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 # 
 4CBBF8256BC9888A8007B2F386940A2E394378B0D903CBB3863C5A6394B889CE
-search updates ubuntu built-in
 
 			<string>AR PL UKai TW</string>
 type=file
@@ -1036,7 +1026,6 @@ server {{server}} iburst
 
 mountd		100005	mount showmount
 
-+127.0.0.1 localhost.localdomain localhost
     pass
   /var/log/lastlog  rwk,
 scsi ABATON
@@ -1053,7 +1042,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 ôV1Xå¿*ÜafRq—ñŒ•~‘·µ∆$¢å
   </match>
 *formWindow.labelWindow.displayList:\
-
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 kbd_mode '-u' < '/dev/tty3' 
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
 title=Secure shell server, an rshd replacement
@@ -1067,7 +1056,6 @@ sortlist {% for sort in sortlist %}{{sort}} {% endfor %}
 
     %r   real CPU time
 ## or updates from the Ubuntu security team.
-		<edit name="family" mode="prepend" binding="strong">
 #option modelname "Prima PagePartner"
 speed=115200
 !ä≈…˘=7a©|™g¢_«˚¢ˇŒ$ÍÔ1◊hËgıˆ€ÎôLœ∆çü÷ÚÔœŸ∏aÉï.W,V´Õ*ŒIö& ’Í`øí3â˛A;ÿ/ƒq5Î;O÷_?©¿°Qæ◊?CπvøÙ
@@ -1088,7 +1076,15 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 ## or updates from the Ubuntu security team.
 # vim:syntax=apparmor
         <hfp:hasFacet name="maxInclusive"/>
-*topform.Form.testpercent.Scrollbar.width:	332
+  #include <abstractions/opencl-nvidia>
   # do not use ux or PUx here. Use at a minimum ix
 QT_ACCESSIBILITY=1
 
+
+HOMEHOST <system>
+allow-failsafe
+
+XCalc*ti.button37.label:	7
+. /usr/share/bash-completion/bash_completion
+post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
+  # Plugins/helpers
