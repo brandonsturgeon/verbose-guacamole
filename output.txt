@@ -38,7 +38,6 @@ scsi DEVCOM * Scanner
 
 
 Alias /javascript /usr/share/javascript/
-#
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 
 # Case-sensitive behavior is defined by the operating system.
@@ -63,7 +62,7 @@ checkbox=,magenta
 # Compose sequences for ARMSCII-8
 # option stop_on_fsu_error: should be 0 or 1. If set to 0,
 
-# how to byte-compile (comma separated: standard, optimize)
+
 
 audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
@@ -74,7 +73,6 @@ audio/x-mpegurl=rhythmbox.desktop
 scsi IBM 2456
 launch-items=audiotestsrc;videotestsrc;videotestoverlay
 #!/bin/sh
-# shells invoked with the -l flag.)
 X-GNOME-Bugzilla-Version=3.36.0
 #pnm
 #
@@ -82,7 +80,7 @@ X-GNOME-Bugzilla-Version=3.36.0
 # to update this file, run dpkg-reconfigure cloud-init
 
                 . /lib/lsb/init-functions
-   (append '(("CMakeLists\.txt\'" . cmake-mode)
+  # local LDAP name service daemon
 #
 		mkdir -p /boot/grub
 	<Btn1Up>:	notify() reset()
@@ -306,7 +304,7 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 #
 # packets
 # usb vendor product
-Ubuntu 20.04.5 LTS 
+˛GéöÀ<q
  l
 # ------------------------------------------------------------------
 #
@@ -424,7 +422,7 @@ deb http://packages.azlux.fr/debian/ buster main
 # grub-mkconfig when init-select was removed but not purged.  This file does
 # Read man sane-mustek_usb for documentation
 #
-# deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
+# tools with the -M option or MIBDIRS environment variable.
 }
 -session	optional	pam_systemd.so
     <accept>
@@ -503,7 +501,6 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 " If you don't want that to happen, uncomment the below line to prevent
 
 # Scripts in this directory are executed as root when a user log out from
-# e.g.:
 # cloud-init. They are read in lexical order. Later files overwrite values in
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
         This is a copy of the Bistream Vera fonts fonts rule, as DejaVu is
@@ -583,7 +580,7 @@ Each file in this directory is an rt_tables configuration file. iproute2
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 #    modify it under the terms of version 2 of the GNU General Public
 {
-@include common-session-noninteractive 
+d /run/screen 1777 root utmp
 /Adobe-CNS1 /ShanHeiSun-Light ;
 IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
 norwegian       nb_NO.ISO-8859-1
@@ -608,7 +605,7 @@ PICTURES=Pictures
 
 # Common rules for Qt5-based applications
     exec /usr/lib/update-notifier/update-motd-fsck-at-reboot
-fi
+vH
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
 scsi FCPA
 #
@@ -618,7 +615,6 @@ scsi FCPA
 Comment=GNOME Keyring: SSH Agent
 # DO NOT EDIT OR REMOVE
 
-#
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
 # default location for the meta-release file
 [Desktop Entry]
@@ -676,8 +672,7 @@ StartupNotify=false
 # You can change settings by editing this file.
 #
 # avoid running multiple times
-    ERRMSG="$ERRMSG no "$USERXSESSION" file, no "$ALTUSERXSESSION" file,"
-X-GNOME-Autostart-Notify=true
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
             <string>serif</string>
 # on a file, 2 seconds after the second failure, etc. up to this max).
@@ -785,7 +780,7 @@ BYOBU_BACKEND="tmux"
 
                                            /usr/sbin       \
 # the management config file $JRE/conf/management/management.properties
-  /srv/www/htdocs/ r,
+/var/log/unattended-upgrades/unattended-upgrades-shutdown.log
 # modify the hostname appropriately:
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).$
 main
@@ -826,7 +821,7 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 # See sane-microtek2(5) for a description of the options
 [Distro]
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
-
+bullseye/sid
 #    Copyright (C) 2012 Canonical Ltd.
 multi on
 # Compose sequences for ISO-8859-6
@@ -856,7 +851,6 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
   dbus bus=fcitx,
 #
 [Desktop Entry]
-Where=/snap/lxd/18150
 #
 /var/log/ufw.log
       for file in $(find $i -type f -print | LC_ALL=C sort)
@@ -889,7 +883,7 @@ fi
 
 messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
-# Examples:
+#    Copyright (C) 2016 Canonical Ltd.
 #statistics clockstats cryptostats loopstats peerstats
 restrict default limited kod nomodify notrap noquery nopeer
 # #include <abstractions/ubuntu-helpers>
@@ -951,8 +945,6 @@ deb http://packages.azlux.fr/debian/ buster main
 <?xml version="1.0"?>
   /etc/gtk/*                      r,
 			for N in $new_dhcp6_name_servers ; do
-
-
 #
 
 order hosts,bind
@@ -976,7 +968,6 @@ test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
     <!--
 #include <abstractions/ubuntu-browsers.d/user-files>
    userScriptDir="$TOOLS_CONFDIR/scripts/${powerOp}-default.d"
-  # temp files
 
 # method must be bjnp
 
@@ -989,7 +980,7 @@ sgi-cmsd	17001/udp		# Cluster membership services daemon
 x-scheme-handler/ftp; firefox -private-window %s; test=test -n "$DISPLAY"
 # System-wide GDB initialization file.
  * The search path for include files is:
-Type=Application
+# or by launching either "byobu-screen" or "byobu-tmux" instead of "byobu".
 $x-display-manager gdm3
 #
 # orbit2 permissions
@@ -1068,7 +1059,6 @@ export PATH
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf
 Type=Application
 # It receives polydir path as $1, the instance path as $2,
-@{HOME}=@{HOMEDIRS}/*/ /root/
 # here's the fallback if no module succeeds
 
 MetadataURI=file:///usr/share/fwupd/remotes.d/dell-esrt/metadata.xml
@@ -1160,7 +1150,6 @@ X-GNOME-AutoRestart=true
 	thin_pool_discards="passdown"
   /etc/ssl/openssl.cnf r,
 
-PATH="/usr/bin:$PATH"
 #	        done
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
   owner @{HOME}/.config/QtProject.conf.?????? rwl -> @{HOME}/.config/#[0-9]*[0-9],
@@ -1188,3 +1177,16 @@ $x-display-manager gdm3
   dbus bus=accessibility,
      format="ttf"
 # Insert here your local magic data. Format is described in magic(5).
+# <target name>	<source device>		<key file>	<options>
+# gain for red channel, if not given, will be automatically computed
+
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
+
+
+XKBVARIANT=""
+ports=22/tcp
+  # see LP: #1422521
+modules_load_preference=ondemand
+   [formatters]
+if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
+APT::Periodic::Update-Package-Lists "1";
