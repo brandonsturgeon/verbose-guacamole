@@ -77,7 +77,7 @@ Vendor-URL: https://www.debian.org/
 #option disable-calibration
 compose '"' 'A' to 'ƒ'
 #
-
+		<Btn1Down>,<Btn1Up>: Next16() unset()
   </match>
     # laptop check, on_ac_power returns:
 üáÃıº¢/4¢¥-üL0À+/¯‰¬‹Å
@@ -127,7 +127,6 @@ session		include		runuser
 
 xterm
 		<default><family>monospace</family></default>
-#
 #%PAM-1.0
 lock
 
@@ -200,14 +199,13 @@ if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 
 trusted.SGI_DMI_*		skip		# xfs specific
   # global tmp directories
-      We shouldn't overwrite it with "assign" unconditionally.
 S· éÛ:]C+º›ò∑MÃ÷G˛pÇÙ£„◊?é“«ùMî±‡„@á“¸≥w>Ç≠ü¬œçèM?€ÉXèìYäÆKe>(pÎ9lÇå√nœŒå,<ÕôzV@q-N˙„”ó˛‘x‘ì÷`î~ju©‰—]bz1z¸'”N} ∆a?t®Q}‹ÕÔ”P[ƒˇÑ!çøˆÿà=∫›
 Description=Mount unit for snapd, revision 15904
-
+    <allow send_interface="org.debian.apt.transaction"/>
     /etc/modprobe.d/{,*.conf} r,
 # For some Atheros 5K RF MACs, the madwifi driver loads buts fails to
 
-#
+Bugs: debbugs://bugs.debian.org
 
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
@@ -259,7 +257,7 @@ fi
 # for it. Matches are exact only at the moment (no globbing etc.).
 #    This program is free software; you can redistribute it and/or
 			<family>DejaVu Sans</family>
-    if [ -f "$HOME/.bashrc" ]; then
+#parport0
 @{XDG_PUBLICSHARE_DIR}="Public"
 ## Uncomment the following two lines to add software from Canonical's
 
@@ -314,8 +312,6 @@ makestep 1.0 3
   /tmp/.X11-unix/* rw,
 version="$1"
 # If you want to globally change where snmp libraries, commands and daemons
-
-#
 {% for pool in pools -%}
 			<family>Arial</family>
 additional configuration artifact cleanup from the filesystem when
@@ -391,7 +387,7 @@ blacklist rivafb
 KERNEL_UPGRADED=0
 <Key>Escape: quit()
 ## template:jinja
-#DefaultLimitMSGQUEUE=
+[storage]
 # ctrll is used to fix the broken CapsLock when Linux console is in
 compose ')' '-' to '}'
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
@@ -401,7 +397,6 @@ compose ')' '-' to '}'
 # The following lines are desirable for IPv4 capable hosts
 # Required-Start:    $remote_fs
   )
-       containing collections of any of the above.  For example:
 # interpreted by the kernel to help with debugging. The kernel will respond
 
 
@@ -440,7 +435,6 @@ remove iwlwifi
 fi
 #
         %fixedAttr;
-# Compose sequences for VISCII
 #
 PK!	ÊîøÂä°UTcx6eˇ”ÆÖPK>Ã¯K
 {% endif %}
@@ -514,7 +508,6 @@ scsi CANON IX
 # don't do anything if im-config was removed but not purged
 			Ctrl<Key>r:	do-resize()
 #!/bin/sh
-
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
     done
 # set start_ro=1 to make newly assembled arrays read-only initially,
@@ -588,8 +581,7 @@ alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIB
 20  rdma
 # Don't try to change I/O priority in a vserver or OpenVZ.
 APT::Archives::MaxSize "500";
-  unix (connect, receive, send) type=stream peer=(addr="@tmp/.mozc.*"),
-
+# in the toplevel profile. Eg:
 
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
 
@@ -726,7 +718,7 @@ fs.protected_hardlinks = 1
 allocation {
 #
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-
+OnlyShowIn=GNOME;
 #!/bin/sh
 #   2 = handle as i/o error
 #               -> put your type of protocol instead of 'https' : http or https.
@@ -735,7 +727,6 @@ compose '*' '0' to '∞'
 # ------------------------------------------------------------------
 #!/bin/sh
 # installkernel must call postinst.d with two args, version & image_path
-#
 
 
 	;;
@@ -875,11 +866,10 @@ brandon:100000:65536
 #
 
 # modem initialization string.
-
+#
 /dev/scanner
 # Allow non-root users to specify the allow_other or allow_root mount options.
 #    This program is free software; you can redistribute it and/or modify
-
 
 # vim:set ai et sts=2 sw=2 tw=80:
 compose '|' '|' to '¶'
@@ -893,7 +883,7 @@ LANG=C.UTF-8
     echo "Usage: /etc/init.d/atd {start|stop|restart|force-reload|status}"
 NoDisplay=true
   # User files
-mHpfNpxbTirChfepCNctZG818Hp2v+K4X/PjyQMQ6J5H9oinnlasVQ6wzdZifnWm
+
 auth    optional        pam_gnome_keyring.so
 ## IPMI_Fan_Device_Present
 $x-display-manager gdm3
@@ -929,7 +919,6 @@ module(load="imuxsock") # provides support for local system logging
           "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 # You should have received a copy of the GNU General Public License
 
-#
 # Your system has configured 'manage_etc_hosts' as True.
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
         start-stop-daemon --start --quiet --pidfile /var/run/vmtoolsd.pid --exec /usr/bin/vmtoolsd --test > /dev/null || exit 1
@@ -984,13 +973,12 @@ PPP_DISC	8863		# PPP over Ethernet discovery stage
 		</test>
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 
-  # unprivileged mir socket for clients
+
 # To use a specific scsi device
 
 #    modify it under the terms of version 2 of the GNU General Public
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
 X-GNOME-Autostart-Notify=true
-DPkg::Pre-Install-Pkgs { "/usr/bin/apt-listchanges --apt || test $? -lt 10"; };
 # Provides:          gdm3
 /dev/scanner
 X-GNOME-Autostart-Phase=Initialization
@@ -1052,3 +1040,15 @@ usb 0x04c8 0x0722
 <?xml version="1.0" encoding="UTF-8"?>
 
 #   option dumb-read
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+compose '\'' 'o' to 'Û'
+## Digital UNIX
+#
+nssDbMode = noDb
+#/dev/usb/scanner0
+
+      <const>lcddefault</const>
+6JtÅ§Ø–ﬂ0@fvö´“Â@Ndrñ§∆‘È˙!-Oaâù«’˘)9_pó©¿“˙
+/Adobe-Japan2 /Japanese-Mincho-Regular-JaH ;
+        [ -x /sbin/restorecon ] && /sbin/restorecon "$1"
+}
