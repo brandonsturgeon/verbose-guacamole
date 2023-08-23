@@ -3,8 +3,7 @@ Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 !?ûÒ9_ø5.ç˚Ñ?'/[[üƒC
-iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
-# Here is the list of possible values:
+#%PAM-1.0
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 # ------------------------------------------------------------------
 # /etc/passwd file.
@@ -178,7 +177,7 @@ turkish         tr_TR.ISO-8859-9
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 
                 . /lib/lsb/init-functions
-
+#
 	    if test -f $PIDFILE; then exit 2; fi
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
 		mkdir -p /boot/grub
@@ -261,7 +260,7 @@ DISTRIB_RELEASE=20.04
 #    Handle linux distributions that use systemd to replace the legacy
 _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ¬}|·Aÿè¡~xûÑß‡yx^”®¡ÀÑ^ÅW·5q0o^∆…õ»ﬂÇo√w‡{ºﬂáw‡á3¯¸|ÑˇÉN òΩ∞ŒÉÛa∂¬u–ÑgÈëw!G+Ê¿√<ËÑU–wCb⁄Î‘/9Ì¸6Úi8⁄a&‰`éZÉ‡HX˝p"îa™p‘‡d®√∞ŒÇ≥a3ú¿E1¯8◊¿µ0ÆæG›Á¿ëºo√;ê"~:ÃÄC Û‘ö]P	G¡Ò∞ŒÖK·£p9Ê,s7	3‡ËÑ˘PÅMp&å¿V∏˛˛>	ÔÉ†åiêÖ√`6X=∞éÖ%∞V¬	PÇ50k·Tÿg¬6∏vÄP=§·PòG@Ê¿ëp,Ü£·8ñ¿RX«¡JËÉU–'@	NÑ’p2úk·TXß¡zÜ”·8∂¿πpúª‡&¯$≥ÁSp¸%|˛
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
- -->
+session		optional	pam_keyinit.so force revoke
 /usr/sbin/gdm3
 #MaxLevelSyslog=debug
 # no matching entries are found elsewhere.  For more information see the
@@ -289,7 +288,7 @@ esac
     </event>
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 
-  /usr/lib/@{multiarch}/gdk-pixbuf-*/** mr,
+°SÑ˙:6ÔE¨∆óv†9Ë≥=yëñ3-QKmgFeŒI∞"µ"Ω∑≈<?üÅ…◊ÎàuÛ≥e?†° -Ì£≠ˆí˚ÃëeDÂo∂ìeëpªæF8‡Ç,a¬ ~2Ô¿Ò7¯W¶˛böR„äºık3‰/c≤ÕHÁﬂHÓíñÃΩ¢+M◊ƒﬂŸ¬ÓïQ¥7Microsoft (Release signing) <gpgsecurity@microsoft.com>â5V1Xå	Ä
   abi <abi/3.0>,
 # Specify command line options here. This config file is used
 # Compose sequences for ISO-8859-5
@@ -297,7 +296,6 @@ ports=22/tcp
 
 		echo "autospawn=yes" > /run/pulseaudio-enable-autospawn
 # Multiarch support
-  LABEL="UEFI Firmware Settings"
 previous-engine=@as []
 tcp.flag.psh	u8		tcp+13		0x08		3
   </match>
@@ -368,7 +366,6 @@ DelayedActivation=false
 #
 #!/bin/sh
 	cache_settings {
-
 <!--  Disable sub-pixel rendering --> 
 $x-display-manager gdm3
 # Where to place spool and state files
@@ -397,7 +394,6 @@ XLoad.input:			false
 # System-wide GDB initialization file.
 	<!-- Prefer to match color emoji font. -->
 Name=GNOME Settings Daemon's USB protection plugin
-
 }
 # install prefixes.
 
@@ -433,7 +429,7 @@ STARTSSH=
 which grub-editenv >/dev/null 2>&1 || exit 0
 #!/bin/sh
 # This file is the default tidy configuration file
-
+   "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
   /usr/bin/loimpress Cxr -> sanitized_helper,
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
     delaycompress
@@ -459,7 +455,7 @@ check_config() {
 # Compose sequences for GEORGIAN-PS
 	prepare_grub_to_access_device `${grub_probe} --target=device "$GRUB_THEME"`
 # remove the iwl?vm module and then iwlwifi.
-§
+# suspend and power-off, the end user's execute before VMware's.  (This way,
       awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
 Comment=GNOME Keyring: SSH Agent
 #    This program is free software; you can redistribute it and/or modify
@@ -475,14 +471,13 @@ NoDisplay=true
 ! ON button
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 # local modules either before or after the default block, and use
-# This file is a simple placeholder to keep dpkg from removing this directory
+	# use bytes for expected and deterministic output
      o Declarations for and references to external parameter entities
 # generate the popularity contest data
 /CenturySchL-BoldItal (/usr/share/fonts/type1/gsfonts/c059036l.pfb) ;
 scsi Nikon * Scanner
 XCalc*hp.button16.fromHoriz:		button15
 
-/dev/scanner
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
 # subpath mappings from mount point for pinning
@@ -561,7 +556,6 @@ driftfile /var/lib/chrony/drift
 # ATZW2 as a default init string
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
   # dehydrated
-         ;;
 unset USEHTTP
 twm
 [METARELEASE]
@@ -601,7 +595,7 @@ done
 	<alias>
 
                     <a href="http://www.w3.org/TR/xmlschema-1/#no-xsi">the XML
-/Helvetica-Narrow-Bold /NimbusSanL-BoldCond ;
+#
 #       from the USB subsystem. If you're not using the
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
 # You can even override a supported extension:
@@ -647,7 +641,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 create_machineid() {
 mßlj'ã©ZjUJü§mìôÃbπ¸G´πÙOÎ•ﬂØ7DÚˆ
 #    Copyright (C) 2014 Canonical Ltd.
-#
         if [ -x "$STARTUPFILE" ]; then
 	# 
 /var/log/user.log
@@ -664,7 +657,6 @@ ETHTOOL=/sbin/ethtool
 APT::Archives::MinAge "2";
 
 # set this to 0 to disable apport, or to 1 to enable it
-<?xml version="1.0"?>
 commands scan this directory processing all files that end in '.conf'.
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
 # vim:syntax=apparmor
@@ -717,7 +709,6 @@ roottext=,magenta
   -->
 #  normal - Check to see if a new release is available.  If more than one new
 56f12ada18a3412ab1f9dcd69450be95
-
  97  97  97 		grey38
   # NIS rules
 # List your classid definitions here:
@@ -727,7 +718,7 @@ stop_watchdog_quiet()
     <allow send_destination="org.gnome.DisplayManager"
 # vim:syntax=apparmor
 
-#bind ^P curpos main
+0x80	CS4
 
 	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
 NoDisplay=true
@@ -962,7 +953,7 @@ fi
 X-GNOME-Autostart-Phase=Initialization
 #
 By default, Java provides two different sets of cryptographic policy
-#option modelname "Prima PagePartner"
+[ ! -r "$stamp" ] || cat "$stamp"
   00_*: Reserved for 00_header.
 MODULES="${MODULES_INTERFACES} ${MODULES_FEATURES} ${MODULES_HW} ${MODULES_BASE}"
   <!ATTLIST typemap xmlns CDATA #FIXED ''>
@@ -1011,7 +1002,6 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
 
 
             . /usr/share/bash-completion/bash_completion
-    exit 0
 ## Commands metadata files.
 EnumerateAllDevices=false
 if [ "$BASESTARTUP" = x-session-manager ]; then
@@ -1072,8 +1062,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 quick
 # NIS (man nsswitch) as well as normal /etc/passwd and
 fi
-      This configuration is available on the major desktop environments.
------BEGIN CERTIFICATE-----
+Ú∆ÖZæï[§…iCÁˆ·Ãò÷:»nGI˘–◊-ø–àµÈ~÷≠…ÙtıVh◊ `Q¨œà†[Î£ˇ¥˜¯-…ªÙé°(GhˇM©ø∂kú≈"∑ﬂõñ†ÿ$-€≥»#Óju˝tﬂ—ˆvƒ≤bªñ•2•⁄Ô‡µÄCsX¢¯&’÷…KV—~—ÍÚ#áQÿzΩ›G®Ø'Íømaò„ú«x–MS}·ñyqCbtY˛?›(∆Æ‘ê+Øfh‘z¢z∏˜gæÎâO≠í
 #mult_sect_io = 32
 # Compose sequences for ISO-8859-5
     permission javax.crypto.CryptoAllPermission; 
@@ -1113,3 +1102,16 @@ deb {{mirror}} {{codename}}-updates multiverse
   /usr/share/myspell/**                            r,
 text/*; less '%s'; needsterminal
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
+DOCKER_OPTS=
+  echo "The cpp package is needed to run calendar."
+[apt]
+127.0.0.1 localhost4.localdomain4 localhost4
+  dbus (send)
+
+        done
+  owner @{HOME}/.{firefox,mozilla}/**/plugins/** rm,
+	;;
+#scsi "K.M.E.  " "KV-SS50EX       "
+ - fan
+# -Z Disable the power-saving function of certain Seagate drives
+MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
