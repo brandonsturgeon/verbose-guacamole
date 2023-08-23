@@ -4,7 +4,7 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 required in any way by the specification).  The information may be useful in
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 /usr/lib/x86_64-linux-gnu
-# <target name>	<source device>		<key file>	<options>
+scsi AdLib * Scanner
 @include common-account
 
 
@@ -128,7 +128,7 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 #           will attempt to upgrade to the first LTS release available after
 
     permission javax.crypto.CryptoPermission "RC5", 128, 
-. /etc/popularity-contest.conf
+mode="${1#'}"
     fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #DefaultBackend=auto
@@ -438,7 +438,6 @@ fi
 scsi RICOH IS60
 #
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-compose '`' 'a' to '‡'
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
 /dev/camera
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
@@ -464,7 +463,6 @@ kbd_mode '-u' < '/dev/tty3'
 
 
 
-
 # Should-Start:      $network $named slapd autofs ypbind nscd nslcd winbind sssd
 ## or updates from the Ubuntu security team.
 speed=115200
@@ -474,18 +472,17 @@ speed=115200
 [OpenSSH]
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
   # The Name Service Cache Daemon can cache lookups, sometimes leading
-    missingok
+#
     echo "updates of cacerts keystore disabled."
 # files; in other words, files such as a sample .profile that will be
 # vim:syntax=apparmor
-  #include <abstractions/opencl-nvidia>
+compose '`' 'e' to 'Ë'
 -----END CERTIFICATE-----
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
 . /usr/share/bash-completion/bash_completion
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 
 Name=GNOME Settings Daemon's housekeeping plugin
-  /var/log/lastlog  rwk,
 #!/bin/sh
 
 AUFS_MAX_NAMELEN=242
@@ -531,7 +528,7 @@ compose ',' '-' to '¨'
 -session	optional	pam_systemd.so
 encryption=luks1
     <accept>
-
+cups-pk-helper:x:114:121:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
 # Compose sequences for KOI8-U
 # ------------------------------------------------------------------
 scsi "KINPO   " "Vividscan S120  "
@@ -620,7 +617,7 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 " If you don't want that to happen, uncomment the below line to prevent
 
 # Scripts in this directory are executed as root when a user log out from
-enabled/disabled by adjusting the symlinks.
+# e.g.:
 # Set to the user saned should run as
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
 # Configuration for systemwide password quality limits
@@ -655,9 +652,8 @@ search updates ubuntu built-in
 /usr/lib/x86_64-linux-gnu/libfakeroot
 #    Copyright (C) 2011 Canonical Ltd.
 arch=`dpkg --print-architecture`
-
 # /etc/login.defs and user settings, solving the problem of different
- "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
+
 
 0lQIZgahmcUt1qm6VW94VAio+SDCdqTx73wUsgM3t9sAwKxkEdJQQoO8PqYHV3uK
 <fontconfig/>
@@ -730,7 +726,6 @@ PICTURES=Pictures
 
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 /lib32
-  
 @{multiarch}=*-linux-gnu*
   /etc/bash.bashrc.local           r,
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
@@ -753,7 +748,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 #    modify it under the terms of version 2 of the GNU General Public
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
 scsi FCPA
-Acquire::Changelogs::AlwaysOnline "true";
+# ------------------------------------------------------------------
     daily
 			<string>HYSong</string>
 rocks_trees = {
@@ -819,7 +814,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 fi
 14E6D2764A4B06701C6CBC376A253775F79C782FBCB6C0EE6F99DE4BA1024ADD
 #port=/dev/term/a
-auth    required        pam_permit.so
+#
 # Compose sequences for GEORGIAN-ACADEMY
 # @{HOMEDIRS}.
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
@@ -828,7 +823,6 @@ StartupNotify=false
 # See sane-microtek2(5) for a description of the options
 !ä≈…˘=7a©|™g¢_«˚¢ˇŒ$ÍÔ1◊hËgıˆ€ÎôLœ∆çü÷ÚÔœŸ∏aÉï.W,V´Õ*ŒIö& ’Í`øí3â˛A;ÿ/ƒq5Î;O÷_?©¿°Qæ◊?CπvøÙ
 # ----
-/URWGothicL-BookObli (/usr/share/fonts/type1/gsfonts/a010033l.pfb) ;
 #
 # Compose sequences for IBM1133
 # avoid running multiple times
@@ -857,7 +851,7 @@ emptyscale=magenta
 			<family>AR PL New Sung Mono</family> <!-- han (zh-cn,zh-tw) -->
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
 ˘î`ﬁ…VùF2eE∆«†ÖõwÒƒ#5æmz∑øb¢æ∏Ë^|µR-	LÂ≠&èâ3
-			<BtnUp>:FailContinue() unset()
+domain {{domain}}
     permission javax.crypto.CryptoPermission *, 128;
 # The username of the user logging out is provided in the $USER environment
 # @{securityfs} is the location where securityfs is mounted.
@@ -911,7 +905,6 @@ type=file
 *Scrollbar.width:		14
 rtcsync
 
-eval $(/usr/bin/locale-check C.UTF-8)
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
 if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
 Comment=Calendar event notifications
@@ -999,7 +992,7 @@ deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # vim:syntax=apparmor
 	didn't include the right instructions in the 'prep' table.
 # USB
-# ------------------------------------------------------------------
+
 when preparing a golden image for clone and redeployment. The clean command
 
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
@@ -1148,7 +1141,6 @@ QT_ACCESSIBILITY=1
 *editMenu.cut.label:			Cut (Meta-C)
 
 ôV1Xå¿*ÜafRq—ñŒ•~‘·µ∆$¢å
-				init_wpa_cli 		|| { kill_wpa_supplicant; exit 1; }
 #       is a logic list of users or a netgroup of users to whom this
 
 title=@REALNAME@'s media on @PRETTY_HOSTNAME@
@@ -1199,3 +1191,18 @@ enabled=1
 # orbit2 permissions
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 #/dev/scanner
+::1 localhost6.localdomain6 localhost6
+#
+    <!--
+# 192.168.0.1 router.local
+   userScriptDir="$TOOLS_CONFDIR/scripts/${powerOp}-default.d"
+  # temp files
+
+# method must be bjnp
+
+
+# maxclassrepeat = 0
+
+FcslpYqtjj4fgUswQ/cY/a1UcAX5zCnVqFbU7oJH2uTNewKuaZ2wgPbnzvwx8JYl
+#############################################################################
+
