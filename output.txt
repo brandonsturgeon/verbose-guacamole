@@ -63,7 +63,7 @@ xterm
 ## possibly not what you want... On first reading, you might think this
  			<family>AR PL Zenkai Uni</family>
 scsi DEVCOM * Scanner
-test -r /usr/share/im-config/xinputrc.common || return
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 gtk-icon-sizes = panel-menu-bar=24,24
 
 Alias /javascript /usr/share/javascript/
@@ -99,7 +99,6 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 # Use DOCKER_OPTS to modify the daemon startup options.
 # Compose sequences for ISO-8859-16
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
-                                     "javax.crypto.spec.RC2ParameterSpec", 128;
 Comment[as]=PulseAudio ‡¶∂‡¶¨‡ßç‡¶¶ ‡¶¨‡ßç‡¶Ø‡ß±‡¶∏‡ßç‡¶•‡¶æ ‡¶Ü‡ß∞‡¶Æ‡ßç‡¶≠ ‡¶ï‡ß∞‡¶æ ‡¶π'‡¶¨
 # Device filename to use for scanner access
 # Compose sequences for ISO-8859-8
@@ -131,7 +130,6 @@ application/vnd.anser-web-funds-transfer-initiation
 #!/bin/sh
 # shells invoked with the -l flag.)
 
-Vendor: Ubuntu
 #pnm
 # with local modifications. As always, new policy should be reviewed to ensure
 # If you want to globally change where snmp libraries, commands and daemons
@@ -293,7 +291,7 @@ OK		ATDTT
 usb 0x05da 0x30d4
 # vim:syntax=apparmor
 
-deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
+# Enable Modem-GPS source
 DelayedActivation=false
 /dev/scanner
 €Og∑˜µ˜ŸÎÕº¬ö∆ÜB∞ﬂUf≥v∞∑y∫º£#ùV>'ï9‡ˆZ®˝çö¥ﬁéfãπã˝ı €≠ƒˆ#—˝JTVVÕñU~{ˇ¢“€r1&3l#Á+ı=[V˘mπXú|SÁΩ˜¸Ûûµ€©ö˚"[Œ≈ˆ3™˛ÒÛóg√c
@@ -319,7 +317,6 @@ XLoad.input:			false
 
 *customization: -color
 # Compose sequences for TIS-620
-#  if no sources are feeding it, so this may help when apps use more than the
 	<!-- Prefer to match color emoji font. -->
 Name=GNOME Settings Daemon's USB protection plugin
 }
@@ -516,7 +513,6 @@ test -f $DAEMON || exit 0
 email_format=text
 #
 ##     or do the same in user-data
-session		required	pam_unix.so
 # You should have received a copy of the GNU Lesser General Public License
 # polyinstantiation.
 			<string>WenQuanYi Zen Hei Mono</string>
@@ -540,7 +536,7 @@ APT::Archives::MinAge "2";
 
 # set this to 0 to disable apport, or to 1 to enable it
 commands scan this directory processing all files that end in '.conf'.
-# As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
+		<test qual="any" name="family">
 # vim:syntax=apparmor
   </its:rules>
 			[[ -x /usr/lib/command-not-found ]] || return 1
@@ -581,11 +577,10 @@ roottext=,magenta
   -->
 #  normal - Check to see if a new release is available.  If more than one new
 56f12ada18a3412ab1f9dcd69450be95
- 97  97  97 		grey38
+127 127 127 		grey50
   # NIS rules
 # The following is a space-separated list of where additional user home
 #    exitCode may be incremented.
-/usr/local/lib/i686-linux-gnu
 # ---------------------------------------------------------------------------#
 
 
@@ -624,7 +619,6 @@ scsi RICOH IS60
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 disable_root: true
 # Compose sequences for GEORGIAN-PS
-#
 compose '^' 'U' to '€'
 compose '`' 'a' to '‡'
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
@@ -729,7 +723,7 @@ inode/directory
 Type=Application
 # This file is sourced by Xsession(5), not executed.
   /usr/bin/seamonkey Cx -> sanitized_helper,
-        *:down) exec cloud-init dhclient-hook down "$1";;
+compose ',' '-' to '¨'
 /Courier-Bold /NimbusMonL-Bold ;
 ## (create soft link /dev/refclock-0 to the particular ttyS?)
       We shouldn't overwrite it with "assign" unconditionally.
@@ -749,7 +743,6 @@ encryption=luks1
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 # Compose sequences for KOI8-U
 \w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
-	    linux_entry "${OS}" "${version}" "${xen_version}" recovery \
 	95áŸ}ÜP'ˇFn9∆πc"F#Ô/•8ØÈÂN\¶ÿ–ﬁßÒVÓ•Ï0ÚÌ´>ëûkä¶Z–PŒ|£ø,*ÏOpøt(™Ûƒ˜∆√ f†Ë9ú.úé„mˆö—ñ˛≥øÍgB˝∏≠5—‘¬$je∑ò«"fóÎ˛ﬁ ¬ÉÇôÄ∑≤≠Ó‰C†&˘Ò∏zÁdõSlÊ√>˛<Ã#ﬁ4M%d4ñÂqYªÏKÏ.øÑÅ∂Îl≥0ıä•ÈPMV˛CÀöUãôÔÏÍüÊ?Ã´6Ø¡Y—X]A√≈gÒ©ﬂT5Nqó5ªÄ†'CT˙/ÏkÃáXÙò0ÜN§“4d'´M?L‚⁄∞@„Sin©;≤ØÉôÀ£Dµ∏‚∂€(ˆ .˜ÂÒÙ˜Í¡|R.≤J≈¬#∂6Ú]êa∆n¥ÿÃ§ÁO!’◊û?M%µ‚N1f™ﬂ≤¡kÖ≥A°qÑ
 scsi "KINPO   " "Vividscan S120  "
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
@@ -793,7 +786,7 @@ $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 #   1:			top		# top -> 1:0
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 
-
+    permission java.io.FilePermission "<<ALL FILES>>", "read,write,delete";
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 # If set to all update-initramfs will update all initramfs
 # RFC 2598
@@ -809,7 +802,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 # enforce discretionary access controls) it can be used as if it did
 <?xml version="1.0"?>
 # Insert here your local magic data. Format is described in magic(5).
-  /usr/bin/mousepad Cxr -> sanitized_helper,
 
 
 
@@ -860,7 +852,6 @@ fi
 XClock.input: false
 #mult_sect_io = 32
 # Compose sequences for ISO-8859-5
-    permission javax.crypto.CryptoAllPermission; 
 # The default is 1000.
 *Panner.background:			gray70
 # kdenetwork
@@ -960,7 +951,7 @@ order hosts,bind
 
 # ctrll shiftl alt keycode 36 = Incr_Console
 	</match>
-# vim:syntax=apparmor
+@(br|eth)*
 #
 #Username=
 loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null' 
@@ -976,7 +967,6 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 	run_sdptool || :
 # Compose sequences for ISO-8859-8
-			<string>AR PL UMing CN</string>
 . /usr/share/bash-completion/bash_completion
  - chef
 & stop
@@ -995,7 +985,6 @@ LANG=C.UTF-8
 # Compose sequences for VISCII
          	    $PYTHON $SHUTDOWN_HELPER --stop-only
     (if (file-exists-p
-	log_warning_msg $@
 # Compose sequences for ISO-8859-16
 AdminIdentities=unix-group:sudo;unix-group:admin
 rocks_trees = {
@@ -1039,7 +1028,7 @@ Name=GNOME Settings Daemon's Wwan plugin
   /usr/bin/basename ixr,
 /lib32
 #
-# ---------------------------------------------------------------------------#
+APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 
   /etc/bash.bashrc.local           r,
 
@@ -1058,7 +1047,6 @@ zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
 #Username=
 /GothicBBB-Medium /Japanese-Gothic-Regular ;
-
 #%PAM-1.0
 # set this to 0 to disable apport, or to 1 to enable it
   /usr/bin/apport-bug Cx -> sanitized_helper,
@@ -1184,3 +1172,18 @@ brandon:100000:65536
 #log measurements statistics tracking
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
+Title=Vendor
+Ubuntu 20.04.5 LTS
+#
+#scsi FCPA
+  capability sys_nice,
+#domain-name=local
+		return
+        'impl': 'launchpad',
+# Agent configuration options
+option lampOff   -1
+
+®	±Ç7)G.Øÿ„T–3À,X≈Ö„âxNy
+session required        pam_limits.so
+  owner @{HOME}/.config/kdeglobals.lock rwk,
+# mountpoins which are configured in /etc/fstab as arguments. Separate
