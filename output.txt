@@ -5,7 +5,6 @@ deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 NoDisplay=true
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 Enabled=true
-
 •3•D•k•|•£•³•È•×•î•ý•"–1–T–c–y–˜–Í–Ø–ù–—+—9—[—e—…——­—º—Ý—é—˜˜G˜R˜s˜„˜«˜»˜á˜ï˜™$™K™Y™}™Š™­™¹™Û™ì™š*šWšfš‹š›šÁšÎšñšÿš#›3›Y›i››Ÿ›Ã›Ò›÷›
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
 
@@ -14,7 +13,6 @@ Enabled=true
 
 # install the apport exception handler if available
 TryExec=xdg-user-dirs-update
-lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
            "booktitles.ent">
 #ClassicBondedOnly=true
@@ -39,7 +37,7 @@ Title=Vendor
     <allow send_interface="org.debian.apt.transaction"/>
     // There is no restriction to any algorithms.
 
-[Configuration]
+OMITDIR=/run/sendsigs.omit.d
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
 checkbox=,magenta
@@ -69,7 +67,6 @@ scsi IBM 2456
 	<Btn1Up>:	notify() reset()
 [ ! -r "$stamp" ] || cat "$stamp"
 # Configuration file for the hp4200 backend
-brandon:100000:65536
 LazyUnmount=yes
 # Example to customize the SimpleFormatter output format 
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
@@ -107,7 +104,7 @@ X-GNOME-AutoRestart=false
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
 # javax.management.monitor.foo.Bar.
-@{multiarch}=*-linux-gnu*
+    <test compare="less" name="pixelsize">
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 #
@@ -125,7 +122,7 @@ previous-engine=@as []
 scsi * * Scanner
 Before=snapd.service
 # vim:syntax=apparmor
-# The following may be used to add additional entries such as for
+# Compose sequences for ISO-8859-11
 [Sleep]
 #    Copyright (C) 2012 Canonical Ltd.
 
@@ -196,7 +193,6 @@ fi
 <?xml version="1.0"?>
 esac
 };
-OnlyShowIn=GNOME;Unity;XFCE;Dawati;MATE;
 <!ELEMENT br ANY>
 #
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
@@ -246,7 +242,7 @@ email_format=text
   <!-- Allow anyone to invoke methods on the interfaces -->
 
         if [ -x "$STARTUPFILE" ]; then
-    <element ref="ds:DigestValue"/>
+deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
     permission java.util.PropertyPermission "path.separator", "read";
@@ -278,7 +274,7 @@ scsi APPLE
 # For more details, please see /etc/apparmor.d/local/README.
 
 # fstrim=0
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
+#
 /usr/local/lib
 
   owner @{HOME}/.config/#[0-9]* rw,
@@ -323,7 +319,6 @@ Name=GNOME Settings Daemon's housekeeping plugin
 blacklist rivafb
 
 # inclusion by distributed profiles to aid in packaging AppArmor for
-        </policy>
 [METARELEASE]
 ###############################################################################
 
@@ -373,7 +368,7 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
 APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
 #    10-help-text - print the help text associated with the distro
 
-#
+# Default-Start:     2 3 4 5
 DAEMON="/lib/systemd/systemd-udevd"
 <!-- You can edit this file to add the following:
 			<string>serif</string>
@@ -395,7 +390,6 @@ usb 0x05e3 0x0145 0x2e 0x00
 quick
 
 fi
-# Compose sequences for ISO-8859-5
 	<alias>
 *Panner.background:			gray70
 
@@ -549,7 +543,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 deb {{mirror}} {{codename}} multiverse
 #  elif [ -f /etc/bash_completion ]; then
   option buffersize 262144
-# Written by the Cloud Image build process
 	notifempty
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 			<string>sans</string>
@@ -599,7 +592,7 @@ X-GNOME-HiddenUnderSystemd=true
 Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 compose '-' ')' to '}'
 ## This works for most UNIX's
-#log measurements statistics tracking
+#3	tracing
 #  uid = 0
   <type name="NewCenturySchlbk-Bold" fullname="New Century Schoolbook Bold" family="NewCenturySchlbk" foundry="URW" weight="700" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/c059016l.afm" glyphs="/usr/share/fonts/type1/gsfonts/c059016l.pfb"/>
 sysresources=/etc/X11/Xresources
@@ -612,7 +605,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 #!/bin/sh -e
 }
 BYOBU_BACKEND="tmux"
-	if is_path_readable_by_grub "${1}"; then
   . "$USERXSESSIONRC"
 # statechange.sh
            send_interface="org.freedesktop.DBus.Properties" />
@@ -668,7 +660,7 @@ multi on
 	create 644 root root
 byte-compile = standard
 Enabled=false
-#
+    <edit name="rgba" mode="append"><const>none</const></edit>
 BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
 }
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
@@ -728,7 +720,7 @@ modules=*
    "URL": "https://launchpad.net/~%s/+sshkeys"
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 
-Icon=appointment-soon
+    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
         fi
 DAEMON=/sbin/lvmpolld
 [Distro]
@@ -960,7 +952,6 @@ printf "
 auto
 # Compose sequences for KOI8-U
 
-
   @{HOME}/** r,
 user-db:user
   @{PROC}/sys/crypto/fips_enabled r,
@@ -968,7 +959,6 @@ user-db:user
 deb http://packages.azlux.fr/debian/ buster main
 [tunables]
 €
-  </policy>
 quote-names
 
 	bootdir=$(dirname "$2")
@@ -978,7 +968,6 @@ quote-names
 owner /{,var/}run/user/*/pulse/  rw,
 	didn't include the right instructions in the 'prep' table.
 /dev/scanner
-;;
   <mime type="application/x-krita" description="Krita document" data-type="string" offset="0" magic="\037\213" priority="50" />
 # Default backends, as chosen in the configure script. This will be used
 
@@ -1021,7 +1010,7 @@ OK		ATD*99#
       <family>DejaVu LGC Serif</family>
 
 # X-Stop-After:      umountfs
-deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+  /usr/share/ghostscript/fonts/{,**}    r,
 
 
 # For more details, please see /etc/apparmor.d/local/README.
@@ -1029,7 +1018,7 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 ## template:jinja
 APT::Archives::MinAge "2";
        interface=org.a11y.atspi*,
-# other distros, it might be elsewhere, such as /tmp/screens
+compose '>' 'A' to 'Â'
       bus=session
 # ------------------------------------------------------------------
 115200
@@ -1057,13 +1046,13 @@ application/x-pkcs12; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
 # model override switch, mostly for cosmetic changes, if the autodetection
 #!/bin/sh
 Each file in this directory is an rt_tables configuration file. iproute2
-fi
+XCalc*hp.button16.displayList:	foreground rgb:b/b/b;segments 8,-4,-9,-4,-4,-9,-4,8;draw-arc -14,-14,-4,-4,270,90
 log_file: /var/log/ubuntu-advantage.log
 # This is the configuration file for libaudit tunables.
 ! Menu Button Names
 rpc:            db files
     hurd)
-<delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
+# NIS (man nsswitch) as well as normal /etc/passwd and
 #    License published by the Free Software Foundation.
 
 XClipboard.baseTranslations: #augment\n\
@@ -1156,3 +1145,13 @@ OnlyShowIn=GNOME;
 #
 #lookahead = on
 CATALOG /usr/share/xml/svg/catalog
+BACKSPACE="guess"
+};
+
+XCalc*ti.button40.foreground:		gray5
+# Script fragment to make dhclient supply nameserver information to resolvconf
+  gettext_printf "Adding boot menu entry for UEFI Firmware Settings\n" >&2
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
+compose '^' '.' to '·'
+# you can temporarily override this with
+
