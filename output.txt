@@ -45,8 +45,8 @@ test -x /usr/bin/plymouth || exit 0
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 RESTART_CHK="NetworkManager.service"
-#   # needed for ubuntu-* abstractions
-## Sourced, not exec'ed, but helps syntax highlighting
+     <xs:sequence>
+"/usr/bin/test -e /usr/share/dbus-1/system-services/org.freedesktop.PackageKit.service && /usr/bin/test -S /var/run/dbus/system_bus_socket && /usr/bin/gdbus call --system --dest org.freedesktop.PackageKit --object-path /org/freedesktop/PackageKit --timeout 4 --method org.freedesktop.PackageKit.StateHasChanged cache-update > /dev/null; /bin/echo > /dev/null";
 # <target name>	<source device>		<key file>	<options>
      Define aliasing and other fontconfig settings for
 #    modify it under the terms of version 2 of the GNU General Public
@@ -72,7 +72,6 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 #    This program is free software; you can redistribute it and/or
 // If you don't like it, comment it out.
 #
-
 
 #
 overlayroot_cfgdisk=LABEL=OROOTCFG
@@ -159,14 +158,14 @@ PATH=/sbin:/bin
 # that will become kernel vars at some point
 
     exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
-CQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQCm3O9rRvPb/wsQf7BGEkgT08Bx1v
+X-GNOME-AutoRestart=true
    fi
   # Include additions to the abstraction
   include if exists <abstractions/user-download.d>
   </edit>
 # This file is a simple placeholder to keep dpkg from removing this directory
 /usr/local/lib
-# Default-Start:     S
+/NimbusSanL-Regu (/usr/share/fonts/type1/gsfonts/n019003l.pfb) ;
 	     "/site-lisp/dictionaries-common"))
 
 # Reserved protocols.
@@ -185,7 +184,6 @@ password	include		su
 # As a result, cloud-init has written this file with configuration data
 *ispell*look.label:			Look
                 <attribute name="SPProvidedID" type="string" use="optional"/>
-031293952cbc4020bd12b3af8daf1382
 PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 # should contain commands that should be executed only
 #!/bin/sh
@@ -243,7 +241,6 @@ fi
 Ubuntu 22.04.2 LTS
 # and users home directories will reside within the directories that
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG cryptographic agent and passphrase cache\.$
-/var/log/unattended-upgrades/unattended-upgrades-shutdown.log
     owner @{HOME}/.cache/pocl/kcache/tempfile*.so rw,
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 # (Replaces /etc/login.access file)
@@ -342,7 +339,7 @@ trusted.SGI_DMI_*		skip		# xfs specific
       We shouldn't overwrite it with "assign" unconditionally.
 # System-wide GDB initialization file.
 	<include ignore_missing="yes" deprecated="yes">~/.fonts.conf.d</include>
-APT::Archives::MaxSize "500";
+XLogo*background: rgb:d2/22/32
 Description=Mount unit for snapd, revision 15904
 # permissions for querying dconf settings; granting write access should
 URI_UNSTABLE_POSTFIX = -development
@@ -455,7 +452,7 @@ account     required    pam_shells.so
 [defaults]
 #backwards compatibility include, actual abstraction moved from php5 to php
 		<!-- pretend the font is oblique now -->
-  /var/tmp/             rw,
+# versions of Debian this has been the default.
 
 		exit 0
     The Real-time kernel is currently incompatible with FIPS and Livepatch. 
@@ -482,7 +479,6 @@ fi
 # ctrll shiftr alt keycode 36 = Incr_Console
   compress
 # Default settings for openssh-server. This file is sourced by /bin/sh from
-#  lts    - Check to see if a new LTS release is available.  The upgrader
 
 logdir /var/log/chrony
 fi
@@ -547,7 +543,7 @@ fi
 Each file in this directory is an rt_tables configuration file. iproute2
 {% endif %}
 disable_flash_pq_bg_color=1
-<element name="SPKIData" type="ds:SPKIDataType"/>
+allocation {
 			<family>Arial</family>
 
 	</alias>
@@ -605,7 +601,7 @@ contract_url: https://contracts.canonical.com
 #
 
 #  terms of the GNU Lesser General Public License as published by the Free
-NAME=binfmt-support
+{
 #PermitTunnel no
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 *Indicator.width:		15
@@ -648,7 +644,7 @@ compose ')' '-' to '}'
 FileDescriptorName=unix
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
 # do not try to refresh this more than once per day
-  abi <abi/3.0>,
+127.0.1.1 {{fqdn}} {{hostname}}
 
 # Example configuration file for the GTK+ Multipress Input Method
 suffix (dbus vs. dbus.service). Needrestart uses the systemctl/service
@@ -698,7 +694,6 @@ data {yes
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 }
 </fontconfig>
-KP_5 = j;k;l;5;¬£
     monthly
 #
 
@@ -810,7 +805,6 @@ eval $(/usr/bin/locale-check C.UTF-8)
 X-Ubuntu-Gettext-Domain=xdg-user-dirs
   <match target="pattern">
 }
-@{run}=/run/ /var/run/
 # example via package removal (e.g. wine, dosemu).  Therefore, this value
   include if exists <abstractions/dbus-accessibility-strict.d>
   # User files
@@ -833,7 +827,6 @@ auth		include		runuser
 # system, and having it enabled by default can lead to security issues on
 
 
-# well. (This option allows users to use the allow_other option.) You need
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPgz4pnxGhnRPbzreFbZerylDneftGZKsHIMpC8KatK7pqmHPjs4EKWjSn8XoIk/uA5NccoESmo/ao5YVw= root@LAPTOP-5TIN5O4V
@@ -857,7 +850,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6Ax
 XClock.input: false
 #! /bin/sh
 Parent: Debian
-deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   jammy stable
 *form.floodFill.label:			Flood Fill
 esac
 iLeGMSzZBGE0ioJ82PZzsHelrrObDP1mMre1jQ6zxLlnYUlLvtJpydAfeBxU+6yL
@@ -879,7 +871,7 @@ networkd_dispatcher_args="--run-startup-triggers"
 	<alias>
 X-GNOME-Autostart-Phase=Initialization
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
-# needrestart - Restart daemons after library updates.
+                   return $?
 for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; do
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 #BindPasswd: secret
@@ -899,10 +891,10 @@ directory are parsed by needrestart's default configuration file.
 
 use-ssh-agent
 # Global Order: zshenv, zprofile, zshrc, zlogin
-# Compose sequences for GEORGIAN-PS
+# Compose sequences for VISCII
 compose 'v' 'Z' to '¥'
 
-#tls_cert = /etc/ssl/sudo/certs/logsrvd_cert.pem
+#stv680.conf
 fi
 fi
 for svc in $RESTART_CHK; do
@@ -920,7 +912,7 @@ AutomaticReports=false
 #Match User anoncvs
 # Specify command line options here. This config file is used
 fi
-  owner @{HOME}/.cache/pocl/kcache/**.so mrw, # dangerous!
+  # Note that anything that is D-Bus-activated between here and
 fi
 [fwupd Remote]
 
@@ -973,7 +965,6 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
   # User files
 #    License published by the Free Software Foundation.
 	vdo_write_policy="auto"
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 mozilla/AC_RAIZ_FNMT-RCM.crt
 # @{PROC} is the location where procfs is mounted.
@@ -1021,3 +1012,16 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # If this is an xterm set the title to user@host:dir
   # for gnome 1 applications
 # information about usuable directives.
+the enumerations below be given a documentation annotation, which would contain
+
+	# Configuration option local/extra_system_ids.
+# This file contains a list of port numbers between 600 and 1024,
+z¥Ë}z÷£m¬∏∫˜®ÌÍ÷".‚"Ó¡qõŒÏLËuﬁªl≈P†x¶BªÈ=›ØõÓÿ√eÂÀÛ‰z•Ωf8ˆè}¨ˆøM/@>ÁIñ◊|x]˝È≠:\Ó}äëÈG“zÕ±˚»Æ !≈ãsıÄx‡AøOÎWªöÈ˝ƒó‰˙¶‹£|ø÷¢Ì{0¬ ÃÀ£ı"z˚vΩƒvºõv5–ìº≥Ï€äg*¥´ëqö›óımÚ"À˘]2ﬂ7Nœ¸#=´´€°	jÔ◊ÀKT®P=C•ıFöy˜Ö≠≤;6§‚∏˜¥z"!“ãà‘ÙÆπ¸N“€5çjÕ◊ZtÏ9L¿L~r&*π–,9“5j‘«Wk˜ÒÙÃËs¥-XG˘:g—mG	{ÿø {ı”Hù·∑,Yû?¨.´ﬁ¢¡!Û∆⁄Ûò)i˚Mêÿo7ŒŒŒŒŒŒŒ»>#ÍÊD~“˜,πK*Q!z(∫S3Óº¿º¿ÀÇ¥±*Ù6ˇ4-±Ô¶]Ù6πÔØyî(è†TΩ¡êëõ´aä´WCs5ÑΩè®üjŸÿ9´Ë@@@@?1zUîy≤æ.N¢‚d[l£Ù’ˇbó}¨c…
+OLD_IFS=$IFS
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
+#%PAM-1.0
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
+# This file is a simple placeholder to keep dpkg from removing this directory
+<fontconfig>
+
+# since the modules above will each just jump around
