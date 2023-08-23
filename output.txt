@@ -1,6 +1,5 @@
 	<match target="pattern">
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
-# 0 means leave lamp-status untouched, not 0 means switch off
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 # /etc/passwd file.
 required in any way by the specification).  The information may be useful in
@@ -40,7 +39,6 @@ if [[ -z "$PATH" || "$PATH" == "/bin:/usr/bin" ]]
 #    modify it under the terms of version 2 of the GNU General Public
 search updates ubuntu built-in
     user
-20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
     else
      done
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
@@ -70,7 +68,6 @@ Alias /javascript /usr/share/javascript/
 
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 !mozilla/Sonera_Class_2_Root_CA.crt
-exec /usr/bin/X -nolisten tcp "$@"
 esac
 
 # Case-sensitive behavior is defined by the operating system.
@@ -81,7 +78,7 @@ esac
 
 swedish         sv_SE.ISO-8859-1
 [DHCP]
-#
+      We shouldn't overwrite it with "assign" unconditionally.
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
 #noprecal
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
@@ -94,7 +91,6 @@ Bugs: debbugs://bugs.debian.org
     // There is no restriction to any algorithms.
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
-Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 # Use DOCKER_OPTS to modify the daemon startup options.
 # Compose sequences for ISO-8859-16
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
@@ -196,7 +192,6 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 find /var/crash/. ! -name . -prune -type f ( ( -size 0 -a ! -name '*.upload*' -a ! -name '*.drkonqi*' ) -o -mtime +7 ) -exec rm -f -- '{}' ;
 
 
-ctl.!default {
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 ÄödGhïE^qßÏ5πı∑&n¿Ñ‡ÚU0tˇz,È#Ì=∞ó§º™Îc◊ πm		<4≈ÆMÔ‹∂‹ûöZqˆ≈ñ‰ÇÅö@òµ“∆Ø3∆Ú‘•ËI€ŒéZ`^Uy≥ª	Â˘Pﬁ|sèÓ˙Áò…Ó—TáI<ÇæeR¡==©hLÁêœ:Ó√˘ÿø~éúÊmbÊwysÄŒY 
 # ------------------------------------------------------------------
@@ -336,7 +331,6 @@ twm
 127.0.0.1	www.paginebiamnche.it
 #∫ˇ∏ÊdJ¥
   /etc/X11/app-defaults/XTerm r,
-  /srv/www/rails/*/public/** r,
 #    Copyright (C) 2011-2013 Canonical Ltd.
 ôO≠éhª§¢ªÚﬂ=nÊº Ç$ú-ÛÕœ”H]¸“+4ÑTK›”¶qq6≈ˆÍ;oÒ∑oæŸî_?ß∂jí À:ÂUÜK˚ 59@W⁄Lã.v“—ÂÑÂvn93õ‘uÑ+nüÓ!h·5…rãøÍ“Æ≠>«∂mÔÇÆW%i;UH¡g≈óü≥øµ8Ø hc\#∞B˙õó6y0úˆ.!|d©}Gc∫Úƒe]é?eìß°NDq&+”«&ÔÇ∑C,ECÿ∞ÓW°:å°¸ ‘Ñ{ÉúõÕØ¥!y+A‚¬T”Ÿ2€* lÀìN-üÚ&ÕÒ&€Öê…î3›Ÿô$¶¬ç|ÄòËèÑqØ\i≠É°]ÕHh´Jo-q©)KÁt¸Å%l>9ﬁ…,∆¨›ƒÏÌèπ÷ús$4¶≠2|Êï:ãSÎôûlˆ?Ó“RCˆbÙâÛ¯ÍÛ[gÎÙ›√·LS¡qÃV÷ø<ì´ï/=∑ço¸åÎ∞ùJx$©ôµØ‘ŸFJO#ÚÆÙÿÜüÛ+}ˆIÒâ8eÙ#Ç0ó4óäX2Às§≈&“€ˇ9ı@¢±vº2’òZπL›á∆œd’g¶0ø.Ôÿ6Ø ›S‰ﬁÂ©ÍπÒõæ
 }
@@ -433,7 +427,6 @@ Exec=/usr/libexec/gsd-wacom
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 <?xml version="1.0" encoding="UTF-8"?>
 session required        pam_loginuid.so
-# PPP up hook script for resolvconf
 fi
 nssDbMode = noDb
 LANG=C.UTF-8
@@ -473,7 +466,7 @@ case $0:$mode in
 # The page set here should explain how to add new software repositories if required.
     done
 # ------------------------------------------------------------------
-/STHeiti-Regular /BousungEG-Light-GB ;
+# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
   /etc/cloud/clean.d/99-live-installer
     fi
 rtcsync
@@ -538,7 +531,6 @@ commands scan this directory processing all files that end in '.conf'.
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 <Key>q: quit() \n\
 
-XLogo*background: rgb:d2/22/32
 }
 		<prefer>
 America/Los_Angeles
@@ -564,12 +556,12 @@ roottext=,magenta
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
       <setting name="period">beginChunk</setting>
-  -->
+#
 56f12ada18a3412ab1f9dcd69450be95
 127 127 127 		grey50
   # NIS rules
 # The following is a space-separated list of where additional user home
-#    exitCode may be incremented.
+    permission java.util.PropertyPermission "java.class.version", "read";
 # ---------------------------------------------------------------------------#
 
 
@@ -603,7 +595,6 @@ if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 #    Copyright (C) 2009 Canonical Ltd.
 application/x-texinfo				texinfo texi
 scsi RICOH IS60
-
 #
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 disable_root: true
@@ -626,7 +617,7 @@ server {{server}} iburst
 <?xml version="1.0"?>
 
  - locale
-  owner @{HOME}/@{XDG_DOCUMENTS_DIR}/**   rwl,
+
 HuaweiAltModeGlobal=0
 restrict 127.0.0.1
 <delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///usr/share/xml/svg/catalog.xml"/>
@@ -675,7 +666,6 @@ session optional pam_systemd.so
 
 AUFS_MAX_NAMELEN=242
 /dev/scanner
-XClock.input: false
 # Dell A920
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 # raid1
@@ -754,7 +744,6 @@ account	required			pam_permit.so
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
 /lib/x86_64-linux-gnu
 Options=nodev,ro,x-gdu.hide
-if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 
 
 scsi ULTIMA
@@ -989,7 +978,7 @@ SSHD_OPTS=
 		</edit>
 	    ;;
 # the value 'auto' will make the backend find the correct value
-    permission java.util.PropertyPermission "os.name", "read";
+IgnorePower=false
 {
 @include common-session-noninteractive 
     /usr/bin/env ix,
@@ -1009,7 +998,7 @@ scsi Nikon * Scanner
 
   /usr/bin/basename ixr,
 /lib32
-#
+  
 APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 
   /etc/bash.bashrc.local           r,
@@ -1060,7 +1049,7 @@ rocks_trees = {
 #
 # made if using an older kernel
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
-  /var/log/lastlog  rwk,
+[Desktop Entry]
 # be found in /usr/share/fwupd/remotes.d/vendor/firmware
   # whereas arbitrary addresses might.
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
@@ -1070,7 +1059,7 @@ mozilla/GTS_Root_R1.crt
 Acquire::Changelogs::AlwaysOnline "true";
 		<family>fantasy</family>
 
-  /usr/bin/conkeror Cx -> sanitized_helper,
+
   # StackGuard, FormatGuard, etc., alerts can be properly logged.
 # password.
 fi
@@ -1092,7 +1081,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 . /usr/share/bash-completion/bash_completion
 SHELL=/bin/sh
 GRp¢£™m“K>'¿¸À]ÇèÿØÊÁ9,ÂÁ>;$æ›`£sì(nı4†<êÙõ‚3ƒç”≤ƒ]IÎ‡ç$Ç	•´é†{Cëªw†ƒƒe±â_ïk]âß¯¶_sı6.ãbÒñÜÊsµ6ò¥_jB^Up»»À‚a)‹<
-
+# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 create
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
 lˆˇKy·ò∂`&`Úç3)ÉÀîÕh∫“$äxçãÎ‰ˆÚ-Ÿ$È=óﬂìèañì4´Vª»˝ú<,Æì˜XÍBF'–	tù@'NH\˝h˘z˛)OÿÔ–T√FÚÇ}zæπöë¿(åû¬®∫h]~—Œx¬öŒ4l$‹Cc5#ÅQ=ÖQu—é¯E;Á	k:◊∞ëpç’åFaÙF’EÎÒãˆbwïß~ê?êô°≥ZÌ°Úi≠Å38É38˜Ä≥
@@ -1169,7 +1158,6 @@ session required        pam_limits.so
 # mountpoins which are configured in /etc/fstab as arguments. Separate
 
 *fileMenuButton.label:		File
-
 # This file is a simple placeholder to keep dpkg from removing this directory
 # This script writes DHCP lease information into the cloud-init run directory
 # do something like:
@@ -1186,7 +1174,7 @@ emptyscale=magenta
 #    This program is free software; you can redistribute it and/or
 ## Add external Servers using
 	echo "Usage: cryptdisks {start|stop|restart|reload|force-reload|force-start}"
-# DO NOT EDIT OR REMOVE
+#    License published by the Free Software Foundation.
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 
 SHELL=/bin/sh
@@ -1197,3 +1185,15 @@ SHELL=/bin/sh
 6   xfrm
 # alternate mappings for "page up" and "page down" to search the history
 {
+</catalog>
+# This file is auto-generated. It is recommended you update it using:
+[Unit]
+    -->
+ 			<family>Lohit Telugu</family>
+			<string>sans</string>
+#rpm.rpmva = off
+<!--
+#port=/dev/ttyd1
+# ldconfig = false
+# image.  The associated devices can then be unlocked without manual
+  the ImageMagick option
