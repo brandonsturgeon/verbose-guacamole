@@ -41,7 +41,7 @@ search updates ubuntu built-in
      done
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
     </alias>
-        # This line will fix the labeling on all newly created directories
+deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 
 # This file is a simple placeholder to keep dpkg from removing this directory
 
@@ -146,7 +146,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 Include /etc/ssh/sshd_config.d/*.conf
 
 
-           "booktitles.ent">
 setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz' 
 /dev/scanner
 # See avahi.hosts(5) for more information on this configuration file!
@@ -161,7 +160,6 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #DefaultBackend=auto
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-}
 [localization]
 <Key>Escape: quit()
   </policy>
@@ -241,12 +239,12 @@ font='Monospace 16'
     exec /usr/lib/update-notifier/update-motd-reboot-required
 # subpath mappings from mount point for pinning
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
-	elif [ -e "/etc/byobu/autolaunch" ]; then
+Exec=/usr/libexec/gnome-shell-overrides-migration.sh
   /etc/cloud/clean.d/99-live-installer
 
   deny @{HOME}/.mutt** mrwkl,
 =RFA4
-# found. Default is to true which will allow any peer to access anything.
+#option strip-height 1           # some SCSI adapters need this; scanning may
 #
 usb 0x05da 0x30d4
 # vim:syntax=apparmor
@@ -342,7 +340,7 @@ scsi Nikon * Scanner
 
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
   <match target="pattern">
-Acquire::Changelogs::AlwaysOnline "true";
+8MXW5dRNJ2Srm8c+cftIl7gzbckTB+6WohsYFfZcTEDts8Ls/3HB40f/1LkAtDdC
 ### that look up the default sink/source get the right value
     # pivoting into a whitelisted path.
     log_action_begin_msg "Synthesizing the initial hotplug events (subsystems)"
@@ -463,7 +461,7 @@ create_machineid() {
 
   /usr/lib{,32,64}/python{2.[4-7],3.[0-9]}/{site,dist}-packages/ r,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
-  # User files
+  #
     permission java.util.PropertyPermission "path.separator", "read";
 #
 
@@ -520,7 +518,7 @@ NoDisplay=true
 
 	}
 # fstrim=0
-# CLOUD_IMG: This file was created/modified by the Cloud Image build process
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 /usr/local/lib
 
 
@@ -545,7 +543,6 @@ scsi RICOH IS60
 compose '`' 'a' to '‡'
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
 Acquire::Changelogs::AlwaysOnline "true";
-
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
     <h3>Father (in any context at all)</h3>
 *ispell*check.label:			Check
@@ -608,7 +605,7 @@ AUFS_MAX_NAMELEN=242
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 # raid1
         %facetAttr;
-# Insert here your local magic data. Format is described in magic(5).
+blacklist rivafb
 
   /usr/bin/iconv rm,
         </policy>
@@ -636,7 +633,7 @@ deb http://packages.azlux.fr/debian/ buster main
 inode/directory
 Type=Application
 # Three-pass mode (true, false)
-  /usr/bin/seamonkey Cx -> sanitized_helper,
+
 compose ',' '-' to '¨'
 # matches), NONE (matches no tty on non-networked logins) or
 ## (create soft link /dev/refclock-0 to the particular ttyS?)
@@ -690,7 +687,6 @@ WantedBy=multi-user.target
 #   1:			top		# top -> 1:0
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 #!/bin/sh
-    permission java.io.FilePermission "<<ALL FILES>>", "read,write,delete";
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 # If set to all update-initramfs will update all initramfs
 # RFC 2598
@@ -701,7 +697,6 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
             . /usr/share/bash-completion/bash_completion
 ## Commands metadata files.
 EnumerateAllDevices=false
-# enforce discretionary access controls) it can be used as if it did
 <?xml version="1.0"?>
 
 
@@ -710,7 +705,7 @@ EnumerateAllDevices=false
 DAEMON="/lib/systemd/systemd-udevd"
 <!-- You can edit this file to add the following:
 255 193 193		RosyBrown1
-if has_option use-ssh-agent; then
+	    <family>NanumGothic</family>
 #
 #     /etc/cloud/cloud.cfg or cloud-config from user-data
     'debug': {
@@ -765,7 +760,6 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 enabled/disabled by adjusting the symlinks.
 # Set to the user saned should run as
 Type=Application
-deb {{mirror}} {{codename}}-updates multiverse
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
 # Configuration for systemwide password quality limits
 127.0.0.1 localhost4.localdomain4 localhost4
@@ -876,7 +870,6 @@ compose '-' '-' to '≠'
 em+([0-9])?(_+([0-9]))*
 #
 
-SSHD_OPTS=
 /NanumBarunGothic-Regular << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
 1,222,57,255,0,118,44,204,128,255,0,255,0,255,0,255
 # For USB scanners also specify bus=usb, e.g.
@@ -911,7 +904,6 @@ APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
   /etc/bash.bashrc.local           r,
 
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
-  if [ ! -d $PIDDIR ]; then
 zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
 </catalog>
 
@@ -928,7 +920,7 @@ zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
   /usr/bin/apport-bug Cx -> sanitized_helper,
 *internalBorderWidth:			0
 
-# Compose sequences for ISO-8859-5
+# type and run a series of external commands (fortune,
 # Common rules for Qt5-based applications
     exec /usr/lib/update-notifier/update-motd-fsck-at-reboot
 #    modify it under the terms of version 2 of the GNU General Public
@@ -983,7 +975,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 . /usr/share/bash-completion/bash_completion
 SHELL=/bin/sh
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-create
+# ntp.conf(5), ntp_acc(5), ntp_auth(5), ntp_clock(5), ntp_misc(5), ntp_mon(5).
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
 
 # the line below. However this makes the meta key not work as a meta key,
@@ -1026,7 +1018,7 @@ StartupNotify=false
 !ä≈…˘=7a©|™g¢_«˚¢ˇŒ$ÍÔ1◊hËgıˆ€ÎôLœ∆çü÷ÚÔœŸ∏aÉï.W,V´Õ*ŒIö& ’Í`øí3â˛A;ÿ/ƒq5Î;O÷_?©¿°Qæ◊?CπvøÙ
 # ----
 /URWGothicL-BookObli (/usr/share/fonts/type1/gsfonts/a010033l.pfb) ;
-brandon:100000:65536
+#
 POOL=""
 
 
@@ -1039,7 +1031,6 @@ POOL=""
 # If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
 Title=Vendor
 Ubuntu 20.04.5 LTS
-#scsi FCPA
 libXvMC.so.1
 #domain-name=local
 		return
@@ -1053,7 +1044,6 @@ option lampOff   -1
 			XawPositionSimpleMenu(optionMenu) 
 # This file is a simple placeholder to keep dpkg from removing this directory
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
-XCalc*hp.button20.translations: #override<Btn1Down>,<Btn1Up>:multiply()unset()
 #DefaultLimitRTPRIO=
 Terminal=false
 #  elif [ -f /etc/bash_completion ]; then
@@ -1068,7 +1058,7 @@ emptyscale=magenta
 	unload_ipmi_modules_leave_features
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 
-SHELL=/bin/sh
+    permission javax.crypto.CryptoPermission *, 128;
   # dbus-strict abstraction for fine-grained bus mediation.
 # The username of the user logging out is provided in the $USER environment
 # @{securityfs} is the location where securityfs is mounted.
@@ -1147,7 +1137,6 @@ if [ -f /run/motd.d/85-fwupd ]; then
 Ïˇò“Øq≥¥SüNáÔíºΩÏO20àK^WƒS¬ˆóçŸb+ø$bçﬂ√∏)KIx<ì`à"¸ô⁄6»¬¢‘,Tg5nsøX§›Â∞¢&z ‡6•ı˝∑ÔÆ?@ımZ˝Œ4 $‹t#]3]ƒ%ˆ0›]ü‡’GΩ¥Î°ªIIÿü[Ûä‰$ê‰bOO¡Øãt®—ràjzIÃ¥Fy∆±⁄òY˙u!Öe›êVŒ˚´•`ùƒù˘R∞ãΩá˘è+#
 # filenames (generally seen as "/tmp file race" vulnerabilities).
 # Blacklist for apport
-}
 CATALOG /usr/share/xml/docutils/catalog
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 #    License published by the Free Software Foundation.
@@ -1157,7 +1146,7 @@ CATALOG /usr/share/xml/docutils/catalog
 *paned.allowResize:		true
 printf '\033%%G' 
 Name=GNOME Settings Daemon's housekeeping plugin
-# of MIBs is disabled by default. If you added the MIBs you can reenable
+#
 #
 grant {
 	;;
@@ -1188,7 +1177,6 @@ BYOBU_BACKEND="tmux"
   /usr/bin/epiphany-webkit Cx -> sanitized_helper,
 #               -> put your type of protocol instead of 'https' : http or https.
   . "$USERXSESSIONRC"
-
 #
            send_interface="org.freedesktop.DBus.Properties" />
 Icon=nm-device-wireless
@@ -1202,3 +1190,12 @@ Q°S2ﬁ“>íOFˇñ%ç∫Q[Z1^µ°è}	â
   /srv/www/htdocs/ r,
 # modify the hostname appropriately:
 
+main
+	# sessions, but it also doesn't hurt to leave it running.
+NTP={% for host in servers|list + pools|list %}{{ host }} {% endfor -%}
+	˚Ñ?'/[¨ˆàﬂßø|L•
+session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
+PARAMS=""
+49 1 * * *   root    test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond
+# VM6586 Primax Profi 19200
+-----END PGP PUBLIC KEY BLOCK-----
