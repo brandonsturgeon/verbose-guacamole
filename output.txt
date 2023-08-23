@@ -40,7 +40,7 @@ APT::Periodic::AutocleanInterval "0";
 	monthly
 // If you don't like it, comment it out.
 [ -x /sbin/vgchange ] || exit 0
-# option blocksize 2048          # set non standard block size (in kb)
+/dev/scanner
 # people's needs, but debconf's database drivers can be used to do much
 {% for pool in pools -%}
 *text.baseTranslations:		#override\
@@ -77,7 +77,7 @@ compose '"' 'A' to 'Ä'
 #
 		<Btn1Down>,<Btn1Up>: Next16() unset()
   </match>
-    # laptop check, on_ac_power returns:
+# command line option.
 Ÿ‡Ìõ¼¢/4¢ğ´-ŸL0Ë+/øäÂÜ
 		</rejectfont>
 #ifdef COLOR
@@ -179,7 +179,6 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
   <acceptfont>
 ::1 {{fqdn}} {{hostname}}
 
-        ShortDescription "Commands-$(NATIVE_ARCHITECTURE)";
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 
 trusted.SGI_DMI_*		skip		# xfs specific
@@ -225,7 +224,6 @@ label=magenta,
 
 # Defaults can be restored by simply deleting this file and all drop-ins.
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-        log_daemon_msg "Starting open-vm daemon" "vmtoolsd"
 # Try to rerun any package data downloads that failed at package install time.
 #
 # Local users may interrogate the ntp server more closely.
@@ -247,7 +245,7 @@ fi
 
 # Compose sequences for ISIRI-3342
 <?xml version="1.0"?>
-rexd		100017	rex
+# Unlock the backend after this many seconds idle.
    formatter=simpleFormatter
 
 # the terms of the GNU General Public License as published by the Free Software
@@ -261,7 +259,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 *topform.Form.fillstyle.Toggle.width:	185
 # x25
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
-QT_ACCESSIBILITY=1
+# vim:syntax=apparmor
 #
 
 
@@ -278,7 +276,6 @@ fi
     import apport_python_hook
 #    This program is free software; you can redistribute it and/or
             . "${XDG_CONFIG_HOME:-$HOME/.config}/bash_completion"
-
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/ r,
 XKBLAYOUT="us"
 X-GNOME-Bugzilla-Bugzilla=GNOME
@@ -294,7 +291,7 @@ version="$1"
 {% for pool in pools -%}
 turkish         tr_TR.ISO-8859-9
 # or removing a feature will be allowed.
-#
+<!ELEMENT magicmap (magic)+>
 fi
 {% endif %}
 esp	50	IPSEC-ESP	# Encap Security Payload [RFC2406]
@@ -403,7 +400,6 @@ fi
         %fixedAttr;
 #
 PK!	æ”¿åŠ¡UTcx6eÿÓ®…PK>ÌøK
-{% endif %}
 
 *customization: -color
         if shopt -q progcomp && [ -r /usr/share/bash-completion/bash_completion ]; then
@@ -451,13 +447,13 @@ fi
 	compress
 X-GNOME-Autostart-Phase=PreDisplayServer
 #precedence ::ffff:0:0/96  100
-            <string>zh-mo</string>
+				echo "$var='${content}'" >> /tmp/dhclient-script.debug
 
 # Specify the key identifiers which are trusted.
 #backwards compatibility include, actual abstraction moved from php5 to php
 #    This program is free software; you can redistribute it and/or
 #    Handle linux distributions that use systemd to replace the legacy
-  # to other profiles if they exist.
+fi
 #    Copyright (C) 2002-2009 Novell/SUSE
   include if exists <abstractions/dbus-accessibility-strict.d>
   # User files
@@ -472,11 +468,9 @@ APT::Archives::MaxSize "500";
 			Ctrl<Key>r:	do-resize()
 #!/bin/sh
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
-    done
 # set start_ro=1 to make newly assembled arrays read-only initially,
 /var/log/cron.log
 # To take advantage of this, it is recommended that you configure any
-};
         cat /run/motd.d/85-fwupd
      </choice>
 	vdo_use_sparse_index=0
@@ -518,7 +512,6 @@ X-GNOME-Autostart-Phase=Initialization
   abi <abi/3.0>,
 #dateext
 ### END INIT INFO
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+(\[[0-9]+\])?: DIGEST-MD5 common mech free
     <complexType name="EncryptionPropertyType" mixed="true">
 # cloud-init generated file
 # Specify command line options here. This config file is used
@@ -669,7 +662,7 @@ XLoad.input:			false
 Oğô„=i£‹­Ù;'«¼MrF‚T=pnÙva·[»ÚÕÌŞw¼?^ç¤?Æš·CÃÜ<7Ú(bb_ÇKı=´«=É;Knc$H¾P¢]ÅÖä.—·É‹$-î’‹²Ó$°ËŸÓ²ºº‡lÁÛqFÒ2d_ ÓF#[É÷l’Ò&+&„X¯mx‚§'á©]s±ïÒë˜Í*¶şka)o#ÓLÀL¾q&*¸°'Xb¦!räÈû—k÷ñì™Ñ;—Kú2%şÚ’¢>ê?¡úê§‘†_“pyq¿¹¢£EÛ¬8UÉc–¸¶Tâ°bœœœœœœœ‘Ï|FÔÍ‰Ø"ø,¼	)T{(ğÒªi+o¼À¼À«AÒæª°·ù/¢Gíj`o“ëşšGŠ´©î±±±¼&¸p5”WÃ´ö5Dˆ!BìXÔ¢ñğÈ]Ö!A‚é–eyÆ3ÇÏœ]¶ó£gr~¹&NÄ9‰s'Y9ùu˜9«0"ÎmEÎqüí–ÄK²tò„j‰³»8‘ŸìòçÂÆ*‰¢ä–Zw¨?vÈ¿ÙR3×É-k¹ñ×„İÿ»“İ†yp]˜ãc¶xèOŒEñ†Æ—EÍµ^“VÛ¦ä&Lv™¬øümô!’Í†‘ÏˆÂ˜Ğ$©sÆ»»çós’‡¡ÕüÜ!7$½§]-ØR+)ÙFaàç´—¬‰O{¾M²,¼¢tnühGMç†8›d®B’fNv®òè¯<O©Æ;ÈSÚöÏ\W”pµã§„raÿcšì¶™3|şÜcv{ó’Ue§ hf¼*í÷*¼+Ü^¥ÉšÄÎ+›'ÁÚ¹½¦¨èYyÚh«0.ÎHXüâQ¦ä/Å9òé_&òwp4)–f©•ÕT/Ù¶©–¶­ÖÒ(ïq»Z™lÉöAåvÌ3ÊşÌÓ·z¨9£uÕÒ¶ÕZµœÑÚZ™lÉ¶ñŒVÚĞF:*ØuùBGc¶£’ØY¤„¼¼8svûFùß™g@ÿ§ç»ß¿sXöS‘Å‘£gYjÙóŠÛ˜²ÆknãM‘İä–myãmÿNı‚Ş
 #DefaultLimitNICE=
 allocation {
-#
+*form.move.radioGroup:			copy
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 OnlyShowIn=GNOME;
 #!/bin/sh
@@ -696,8 +689,7 @@ OnlyShowIn=GNOME;
 	<!-- Prefer to match color emoji font. -->
     label in4 "+12V"
 
-
-
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # im-config signature: d57688c8151277a0c25d15aa0523da6b  -
   <match target="pattern">
 # install prefixes.
@@ -747,7 +739,6 @@ gt68xx
 #    Copyright (C) 2014 Canonical Ltd.
 /dev/scanner
 # times
-	if [ "$TRUNCATE_NAMESERVER_LIST_AFTER_127" ] ; then
 *ispell.lookCommand:			/bin/egrep
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
 ™O­h»¤¢»òß=næ¼Ê‚$œ-óÍÏÓH]üÒ+4„TKİÓ¦qq6Åöê;oñ·o¾Ù”_?§¶j’ÊË:åU†Kû 59@WÚL‹.vÒÑå„åvn93›Ôu„+nŸî!há5Ér‹¿êÒ®­>Ç¶mï‚®W%i;UHÁgÅ—Ÿ³¿µ8¯Êhc\#°Bú›—6y0œö.!|d©}GcºòÄe]?e“§¡NDq&+ÓÇ&ï‚·C,ECØ°îW¡:Œ¡ü Ô„{ƒœ›Í¯´!y+AâÂTÓÙ2Û* lË“N-Ÿò&Íñ&Û…É”3İÙ™$¦Â|€˜è„q¯\i­ƒ¡]ÍHh«Jo-q©)Kçtü%l>9ŞÉ,Æ¬İÄìí¹Öœs$4¦­2|æ•:‹Së™lö?îÒRCöbô‰óøêó[gëôİÃáLSÁqÌVÖ¿<“«•/=·oüŒë°Jx$©™µ¯ÔÙFJO#ò®ôØ†Ÿó+}öIñ‰8eô#‚0—4—ŠX2Ës¤Å&ÒÛÿ9õ@¢±v¼2Õ˜Z¹Lİ‡ÆÏdÕg¦0¿.ïØ6¯ İSäŞå©ê¹ñ›¾
@@ -771,7 +762,6 @@ gt68xx
 # Microtek ScanMaker 3840 ID
 #
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
-  /var/yp/binding/*           r,
 
     permission javax.crypto.CryptoPermission *, 128;
 # Compose sequences for CP1255
@@ -806,7 +796,6 @@ brandon:100000:65536
 #
 #
 # modem initialization string.
-#
 /dev/scanner
 # Allow non-root users to specify the allow_other or allow_root mount options.
 #    This program is free software; you can redistribute it and/or modify
@@ -847,7 +836,7 @@ ipv6-nonxt 59	IPv6-NoNxt	# No Next Header for IPv6
 # IPMI_Platform_Alert_State_Asserted     Critical
 scsi Nikon * Scanner
     <Include>
-Exec=/usr/libexec/gsd-print-notifications
+auth	required	pam_succeed_if.so user != root quiet_success
 mustek_usb
 XCalc*hp.button16.fromHoriz:		button15
 # Illegal Example:
@@ -901,7 +890,6 @@ rk0JgVoRzG3BT5yYfuxHIe4H4Axh95tW9i6urzyQkXRz14twwwcEDvl5ALrBLNJJ
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 PPP_DISC	8863		# PPP over Ethernet discovery stage
       may simply works to avoid it.
-deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 
 
 # To use a specific scsi device
@@ -992,7 +980,7 @@ X-GNOME-AutoRestart=true
   <policy context="default">
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 X-GNOME-AutoRestart=true
-# sleep-inactive-ac-timeout=1200
+#   TunnelDevice any:any
   help: |
 SHELL=/bin/sh
 # This is the configuration file for pam_env, a PAM module to load in
@@ -1065,3 +1053,14 @@ done
 
 XClock.Clock.minorColor:	rgba:00/7f/7f/c0
 #
+
+	Œö:ÓğoÆY$ÿwº>hÇpW:ÿ‰¿ØÛ6ä_£ V2FÚO“Çùfxá0}
+[mysqldump]
+# You can even override a supported extension:
+<?xml version="1.0"?>
+# The default is /var/run/faillock.
+deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
+0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255
+#Name: remotedb
+  <!-- <policy domain="system" name="precision" value="6"/> -->
+# This file is sourced by Xsession(5), not executed.
