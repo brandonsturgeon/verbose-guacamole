@@ -9,7 +9,6 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 #
 # /etc/passwd file.
-# ------------------------------------------------------------------
 # Make sure the locale variables are set to valid values.
 required in any way by the specification).  The information may be useful in
 *JumpScroll:			1
@@ -69,7 +68,6 @@ search updates ubuntu built-in
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
 
     </alias>
-  include if exists <abstractions/user-download.d>
         # This line will fix the labeling on all newly created directories
 
 Comment[zh_CN]=ÂêØÂä® PulseAudio Â£∞Èü≥Á≥ªÁªü
@@ -105,7 +103,7 @@ NAME="plymouth-log"
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
       will change accordingly; the version at
-    owner @{HOME}/** rwk,
+exec /usr/bin/X -nolisten tcp "$@"
 # Default is yes
 # using the ${string} syntax and (possibly non-existent) PAM_ITEMs may
 
@@ -191,10 +189,9 @@ LOGLEVEL=low
        containing collections of any of the above.  For example:
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 ## form 127.127.t.u, where t is the clock type and u is a unit 
-# x25
+# by the included systemd service file.
 # configuration options for /etc/X11/Xsession
 # vim:syntax=apparmor
-smproxy
 
 
 #    modify it under the terms of version 2 of the GNU General Public
@@ -216,9 +213,7 @@ makestep 1.0 3
 # vim:syntax=apparmor
 # If you want to globally change where snmp libraries, commands and daemons
 turkish         tr_TR.ISO-8859-9
-# or removing a feature will be allowed.
 <!ELEMENT magicmap (magic)+>
-# Compose sequences for ISO-8859-8
 
 # [automount]
 	</alias>
@@ -226,7 +221,6 @@ turkish         tr_TR.ISO-8859-9
 
                 . /lib/lsb/init-functions
 
-mozilla/Starfield_Class_2_CA.crt
 	    if test -f $PIDFILE; then exit 2; fi
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
     The Real-time kernel meets stringent preemption specifications and is suitable for
@@ -290,9 +284,8 @@ if [ "$INITRD" = 'No' ]; then
 }
 
 .}
-	;;
 [localization]
-remove iwlwifi 
+# Default-Stop:
 fi
 
   </policy>
@@ -421,7 +414,6 @@ X-GNOME-Autostart-Notify=true
 KpPDkC55gIDvEwRqFDu1m5K+wgdlTvza/P96rtxcflUxDOg5B6TXvi/TC2rSsd9f
  * and edit it there.  That way, your changes will be kept next time
 	# Configuration option local/extra_system_ids.
-# This file contains a list of port numbers between 600 and 1024,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
 <fontconfig>
 # since the modules above will each just jump around
@@ -435,7 +427,6 @@ font='Monospace 16'
 {% endfor %}
   #include <abstractions/gnome>
 	# Configuration option local/system_id.
-  <type name="Arial-Narrow" fullname="Arial Narrow" family="Arial Narrow" weight="400" style="normal" stretch="condensed" glyphs="arialn.ttf"/>
 ## If the coloring rule should span multiple lines, use the following format:
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 	elif [ -e "/etc/byobu/autolaunch" ]; then
@@ -549,7 +540,7 @@ which grub-editenv >/dev/null 2>&1 || exit 0
 
   /usr/bin/loimpress Cxr -> sanitized_helper,
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
-# Arguments passed into e2fsck.
+    delaycompress
   #include <abstractions/kde>
   </its:rules>
 # Microtek ScanMaker 3840 ID
@@ -568,20 +559,17 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # the root account (the options `even_deny_root>` and
 # vim:set ai et sts=2 sw=2 tw=80:
-}
 system-db:ibus
 check_config() {
 
 *insertFile*text.?.pieceSize:		256
-blacklist raw1394
 # Compose sequences for GEORGIAN-PS
 NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 # remove the iwl?vm module and then iwlwifi.
 §
-brandon:100000:65536
+      awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
 Comment=GNOME Keyring: SSH Agent
 #    This program is free software; you can redistribute it and/or modify
-
 LP-PPA-ubuntu-mozilla-daily
 compose '|' '|' to '¶'
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
@@ -609,7 +597,6 @@ scsi Nikon * Scanner
 XCalc*hp.button16.fromHoriz:		button15
 
 /dev/scanner
-# You should have received a copy of the GNU General Public License
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
 # subpath mappings from mount point for pinning
@@ -661,7 +648,7 @@ SHELL=/bin/sh
 # or
   audit deny @{HOME}/.*/ rw,
   <type name="NewCenturySchlbk-Italic" fullname="New Century Schoolbook Italic" family="NewCenturySchlbk" foundry="URW" weight="400" style="italic" stretch="normal" format="type1" metrics="C059-Italic.afm" glyphs="C059-Italic.t1"/>
-#    License published by the Free Software Foundation.
+# This mechanism that does not depend on a system service to operate.
 # Uncomment the following if your scanner is connected by USB,
   exec /etc/ppp/ipv6-down.local "$@"
  60 through 69		generic aliases, map generic->family
@@ -703,7 +690,7 @@ LANG=C.UTF-8
 *ispell*terse.internalWidth:	10
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 }
-# HP Scanjet 3800
+  # for -z
 # Default-Start:     S
 # Compose sequences for ISO-8859-8
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
@@ -745,7 +732,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 # Compose sequences for TIS-620
 # The page set here should explain how to add new software repositories if required.
 	Options FollowSymLinks MultiViews
-+# The following lines are desirable for IPv6 capable hosts
+# ------------------------------------------------------------------
 /STHeiti-Regular /BousungEG-Light-GB ;
   # User files
 #
@@ -778,7 +765,6 @@ done
                     attributes in this namespace</p>
 <!ENTITY % allAttrs ''>
   <mime type="application/x-bzip" description="Bzip archive" priority="100" pattern="*.bz" />
-nameserver 1.1.1.1
   deny @{HOME}/.zshenv mrk,
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
 #    License published by the Free Software Foundation.
@@ -811,7 +797,6 @@ session		required	pam_unix.so
 restrict -6 ::1
 # You should have received a copy of the GNU Lesser General Public License
   </complexType>
-            <element ref="saml:AssertionURIRef"/>
 APT::Periodic::Update-Package-Lists "1";
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
@@ -850,7 +835,7 @@ commands scan this directory processing all files that end in '.conf'.
   </its:rules>
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
-# 
+# published by the Free Software Foundation; either version 2 of the
 # be able to allow access to files that are explicitly denied by the shipped
 
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
@@ -966,7 +951,7 @@ application/x-texinfo				texinfo texi
 #
 type=file
 # type and run a series of external commands (fortune,
-scsi DEVCOM * Scanner
+/ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/ r,
 #children_max=
@@ -976,7 +961,6 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 
 # type and run a series of external commands (fortune,
 	 !-->
-# Ciphers and keying
 compose '`' 'a' to '‡'
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook Document Hierarchy V4.1.2//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.1.2/catalog.xml"/>
@@ -984,7 +968,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 *Fetch-button.label: Fetch
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
-#server 127.127.1.0
     <h3>Father (in any context at all)</h3>
 *ispell*check.label:			Check
 group:          files systemd
@@ -1083,3 +1066,11 @@ AUFS_MAX_NAMELEN=242
 
 XClock.input: false
 # Dell A920
+# IPMI_OS_Boot_A_Boot_Completed                          Nominal
+# this variable is only set if the usepeerdns pppd option is being used
+@include common-auth
+# raid1
+31C8FD37DB9B56E708B03D1F01848B068C6DA66F36FB5D82C008C6040FA3E133
+Á,A%§
+# Insert here your local magic data. Format is described in magic(5).
+
