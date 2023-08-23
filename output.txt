@@ -22,8 +22,7 @@ APT::Periodic::AutocleanInterval "0";
 # This file is a simple placeholder to keep dpkg from removing this directory
 	monthly
 #
-X-GNOME-HiddenUnderSystemd=true
-# people's needs, but debconf's database drivers can be used to do much
+  /usr/local/share/ r,
 {% for pool in pools -%}
 *text.baseTranslations:		#override\
     # locale: Cannot set LC_SOMETHING to default locale
@@ -141,7 +140,7 @@ audio/x-mpegurl=rhythmbox.desktop
 fi
 /dev/scanner
 			<family>DejaVu Sans</family>
-## Uncomment the following two lines to add software from Canonical's
+
    formatter=simpleFormatter
     export CLUTTER_IM_MODULE
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
@@ -171,7 +170,6 @@ turkish         tr_TR.ISO-8859-9
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 
                 . /lib/lsb/init-functions
-#
 	    if test -f $PIDFILE; then exit 2; fi
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
 		mkdir -p /boot/grub
@@ -292,7 +290,7 @@ tcp.flag.psh	u8		tcp+13		0x08		3
 <?xml version="1.0"?>
 overlayroot_cfgdisk=LABEL=OROOTCFG
 	rm -f "$TEXT_FILE"
-# Don't try to change I/O priority in a vserver or OpenVZ.
+#    License published by the Free Software Foundation.
 # in the toplevel profile. Eg:
 
 Before=snapd.service
@@ -329,7 +327,7 @@ font='Monospace 16'
 #
 # On Debian/Ubuntu systems, this is in /var/run/screen, but on
     exec /usr/lib/update-notifier/update-motd-reboot-required
-kbd_mode '-u' < '/dev/tty5' 
+OK		ATDTT
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 	elif [ -e "/etc/byobu/autolaunch" ]; then
   /etc/cloud/clean.d/99-live-installer
@@ -349,7 +347,7 @@ kbd_mode '-u' < '/dev/tty5'
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 DelayedActivation=false
 /dev/scanner
-
+€Og∑˜µ˜ŸÎÕº¬ö∆ÜB∞ﬂUf≥v∞∑y∫º£#ùV>'ï9‡ˆZ®˝çö¥ﬁéfãπã˝ı €≠ƒˆ#—˝JTVVÕñU~{ˇ¢“€r1&3l#Á+ı=[V˘mπXú|SÁΩ˜¸Ûûµ€©ö˚"[Œ≈ˆ3™˛ÒÛóg√c
 	# addition to any existing reports. Otherwise, there's only log report
 #
 <fontconfig>
@@ -372,7 +370,6 @@ XLoad.input:			false
 #!/bin/sh
 # Insert here your local magic data. Format is described in magic(5).
 [fwupd Remote]
-[chooser]
 # Compose sequences for ISO-8859-6
 
 *customization: -color
@@ -383,7 +380,6 @@ XLoad.input:			false
 Name=GNOME Settings Daemon's USB protection plugin
 }
 # install prefixes.
-
 Vendor-URL: http://www.ubuntu.com/
 # the value 'auto' will make the backend find the correct value
 name = NSS
@@ -402,7 +398,7 @@ Title=Enable UEFI capsule updates on Dell systems
 /usr/sbin/gdm3
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
 Clock*BorderColor:	light blue
-if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
+twm
 127.0.0.1	www.paginebiamnche.it
 *Scrollbar.displayList:\
   /etc/X11/app-defaults/XTerm r,
@@ -440,7 +436,6 @@ check_config() {
 	prepare_grub_to_access_device `${grub_probe} --target=device "$GRUB_THEME"`
 # suspend and power-off, the end user's execute before VMware's.  (This way,
       awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
-Comment=GNOME Keyring: SSH Agent
 #    This program is free software; you can redistribute it and/or modify
 LP-PPA-ubuntu-mozilla-daily
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
@@ -450,7 +445,6 @@ bookman_light_italic.latin1.plain=Bookman-LightItalic
 NoDisplay=true
   # User files
 <?xml version="1.0"?>
-
 ! ON button
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 # local modules either before or after the default block, and use
@@ -479,7 +473,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 
 LANG=C.UTF-8
 # their current one is listed in /etc/shells. This keeps
-  <match target="pattern">
 
 
 17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
@@ -585,7 +578,6 @@ KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 esac
 #
 	# the local host, which is determined by system_id_source.)
-    <accept>
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 <!ENTITY % allAttrs ''>
 fax:x:21:
@@ -593,14 +585,12 @@ fax:x:21:
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
 exec tail -n +3 $0
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
-	# no need for suffix if we have units set
   convenient to refer to a color by name (e.g. white) rather than by hex
 # it doesn't refer to a specific home directory (AppArmor doesn't
 test -f $DAEMON || exit 0
   (debian-pkg-add-load-path-item
 # ldconfig = false
 
-        Disable hinting manually at smaller sizes (< 8ppem)
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
     permission javax.crypto.CryptoPermission *, 128;
 	missingok
@@ -761,7 +751,6 @@ server {{server}} iburst
 <?xml version="1.0"?>
 
  - locale
-
   /var/log/lastlog  rwk,
   owner @{HOME}/@{XDG_DOCUMENTS_DIR}/**   rwl,
 /dev/scanner
@@ -856,7 +845,6 @@ GenericName=Demo geoclue agent
 X-GNOME-Autostart-Phase=Initialization
 search updates ubuntu built-in
   </match>
-Name[cs]=Zvukov√Ω syst√©m PulseAudio
 
 # /etc/xdg/user-dirs.defaults)
 # that should be loaded into the Java VM when the AWT is initailized.
@@ -888,7 +876,6 @@ deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.co
 #
 
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-
 #
 requestkey 1			# key (7) for accessing server variables
 encryption=luks1
@@ -912,7 +899,6 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
 # how to byte-compile (comma separated: standard, optimize)
 GRUB_CMDLINE_LINUX=""
 # For an IEEE 1394 scanner, use the SBP2 protocol (under Linux, use the
-
 # installation of packages available from the repository
 -->
 /usr/sbin/gdm3
@@ -980,7 +966,7 @@ XLogo*foreground: rgb:d7/d7/d7
 
   # python build configuration and headers
 echo "done."
-    /etc/ld.so.preload r,
+#
 DAEMON="/lib/systemd/systemd-udevd"
 <!-- You can edit this file to add the following:
 255 193 193		RosyBrown1
@@ -1048,7 +1034,7 @@ application/vnd.intu.qfx
 multi on
 grant {
 [Network]
-		rc=1
+     format="ttf"
 /dev/scanner
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
   reload)
@@ -1062,13 +1048,11 @@ enabled/disabled by adjusting the symlinks.
 # Set to the user saned should run as
 Type=Application
 deb {{mirror}} {{codename}}-updates multiverse
-	<alias binding="same">
   /usr/share/myspell/**                            r,
 text/*; less '%s'; needsterminal
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
 DOCKER_OPTS=
   echo "The cpp package is needed to run calendar."
-[apt]
 127.0.0.1 localhost4.localdomain4 localhost4
   dbus (send)
 
@@ -1142,3 +1126,14 @@ Type=Application
 /usr/lib/x86_64-linux-gnu
 #    This program is free software; you can redistribute it and/or
 # User "root" should get access from network 192.168.201.
+@include common-account
+
+mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt
+# ctrll shiftl alt keycode 36 = Incr_Console
+12	bird
+	</match>
+
+# vim:syntax=apparmor
+#
+#Username=
+loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null' 
