@@ -2,7 +2,6 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 		exec update-grub
 required in any way by the specification).  The information may be useful in
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-/usr/lib/x86_64-linux-gnu
 @include common-account
 
 
@@ -49,7 +48,7 @@ Title=Vendor
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
     // There is no restriction to any algorithms.
 
-## Digital UNIX
+[Configuration]
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
 checkbox=,magenta
@@ -60,7 +59,7 @@ checkbox=,magenta
 
 
 audio/x-mpegurl=rhythmbox.desktop
-# For more details, please see /etc/apparmor.d/local/README.
+    esac
 [ -d /var/crash ] || exit 0
 // Pre-configure all packages with debconf before they are installed.
 		fi
@@ -150,8 +149,7 @@ Before=snapd.service
 
 rocks_trees = {
 
-
-japanese.euc	ja_JP.eucJP
+<?xml version="1.0"?>
 PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
   /etc/cloud/clean.d/99-live-installer
@@ -263,7 +261,6 @@ deb http://packages.azlux.fr/debian/ buster main
   gnome-session*)
     fi
 
-	<alias>
 
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
   # User files
@@ -271,7 +268,7 @@ KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 }
 /lib/i386-linux-gnu
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
-  convenient to refer to a color by name (e.g. white) rather than by hex
+
   (debian-pkg-add-load-path-item
 # ldconfig = false
     permission javax.crypto.CryptoPermission *, 128;
@@ -330,7 +327,6 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 fi
 
-# See sane-microtek2(5) for a description of the options
     else
 # Additional mounts to exclude at shutdown.
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
@@ -359,7 +355,6 @@ speed=115200
               ;;
 # Compose sequences for ISO-8859-5
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
     echo "updates of cacerts keystore disabled."
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # you can temporarily override this with
@@ -388,7 +383,7 @@ compose '"' 'O' to '÷'
 # /etc/xdg/user-dirs.defaults)
 
 #disable = rpm, selinux, dovecot
-
+DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 deb http://packages.azlux.fr/debian/ buster main
 
       Most clients may picks up the first value only. so using "append"
@@ -460,7 +455,7 @@ networkd_dispatcher_args="--run-startup-triggers"
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 usb 0x05e3 0x0145 0x2e 0x00
 quick
-# vim:syntax=apparmor
+
 fi
 # Compose sequences for ISO-8859-5
 	<alias>
@@ -489,7 +484,6 @@ After=snap-lxd-18150.mount
   /dev/xconsole                 rw,
 # X11xx series
   /etc/X11/cursors/**             r,
-	thin_pool_zero=1
 #!/bin/sh
 CATALOG /usr/share/xml/docutils/catalog
 jD≈L“Pçù	¿âÈ˘[§Ã-ﬂVDôøõ‡b>°X*~¬Ä'Æ˚ﬁﬁÏôÃFû_~t√É¥o¬°í‚ùÜMºcR
@@ -514,7 +508,7 @@ Each file in this directory is an rt_tables configuration file. iproute2
        path="/com/canonical/hud",
 #       browsers) do not have to be bound to agents.
 
-// Example: Homepage
+
 #
 # The default is 900 (15 minutes).
 #    modify it under the terms of version 2 of the GNU General Public
@@ -530,7 +524,6 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 . /usr/share/bash-completion/bash_completion
  - chef
-0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
 ”Z∏,„∞Àº*m66{ˇl⁄5°
 <!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
 #    modify it under the terms of version 2 of the GNU General Public
@@ -590,7 +583,7 @@ scsi FCPA
 # password.
   <type name="Helvetica-Narrow" fullname="Helvetica Narrow" family="Helvetica Narrow" foundry="URW" weight="400" style="normal" stretch="condensed" format="type1" metrics="NimbusSansNarrow-Regular.afm" glyphs="NimbusSansNarrow-Regular.t1"/>
 #    with this program; if not, write to the Free Software Foundation, Inc.,
-#               -> put the port that you use instead of '88'.
+SHELL=/bin/sh
 # $ systemctl edit --full cron.service
 # 
 ;Hellenic Academic and Research Institutions Cert. Authority1D0BU;Hellenic Academic and Research Institutions ECC RootCA 20150150707103712Z400630103712Z0Å™10	UGR10UAthens1D0BU
@@ -631,7 +624,7 @@ StartupNotify=false
 # avoid running multiple times
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-            <string>serif</string>
+  /srv/www/vhosts/** r,
 # on a file, 2 seconds after the second failure, etc. up to this max).
 # If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
 #   distributed under the License is distributed on an "AS IS" BASIS,
@@ -646,10 +639,9 @@ deb {{mirror}} {{codename}} multiverse
 #  elif [ -f /etc/bash_completion ]; then
     do_status
 # Written by the Cloud Image build process
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
+	notifempty
 #broadcast 224.0.1.1 autokey		# multicast server
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
-# The username of the user logging out is provided in the $USER environment
 			<string>sans</string>
   the ImageMagick option
 # clean all crash reports which are older than a week.
@@ -683,9 +675,9 @@ type=file
 *Scrollbar.width:		14
 # e-mail destination used by e2scrub_fail when problems are found with
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
-if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
+#backwards compatibility include, actual abstraction moved from php5 to php
 
-session		optional	pam_keyinit.so force revoke
+deb {{mirror}} {{codename}}-updates main
 if [ -f /run/motd.d/85-fwupd ]; then
 Ïˇò“Øq≥¥SüNáÔíºΩÏO20àK^WƒS¬ˆóçŸb+ø$bçﬂ√∏)KIx<ì`à"¸ô⁄6»¬¢‘,Tg5nsøX§›Â∞¢&z ‡6•ı˝∑ÔÆ?@ımZ˝Œ4 $‹t#]3]ƒ%ˆ0›]ü‡’GΩ¥Î°ªIIÿü[Ûä‰$ê‰bOO¡Øãt®—ràjzIÃ¥Fy∆±⁄òY˙u!Öe›êVŒ˚´•`ùƒù˘R∞ãΩá˘è+#
 if [ -n "$STARTDBUS" ]; then
@@ -825,10 +817,10 @@ messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
 #    Copyright (C) 2016 Canonical Ltd.
 #statistics clockstats cryptostats loopstats peerstats
 # #include <abstractions/ubuntu-helpers>
-*ispell*terse.foreground:	gray20
+
     else
 # Global Order: zshenv, zprofile, zshrc, zlogin
-p|™è“ö)sçıg£·ˆÀ»Û[znpÍDK‘‰6z§VXí€ıÒ€nÂ[«m∑ùıa2Îy~∑îRÏõz,á≈v◊'&íjœÂ‘v‚‰`sΩˇ÷ò«ıBo“RÚ˙∏:ÚÌﬁØÂk£¨nXA¢∏∆¢Œv©ÿ®Yöô ~ÍrjeáK:í|¶πX≠⁄*ÁxøRˆn/ÖM€ï§cUE2'∂ˇ©8‹K)o~WPNë⁄OúêFc|<∫N˚˚E3bH$¿¯J' π-ÒrOJµëÇπÒ¶sãAﬁ^Ô%B´,>QNCb€|ùΩf`>;qC‡”OV∞k@V:	—°EH«]√VÃcˇ=Æ¡`Kú0∏¡wt6EàÏCÖ:ôÓ√ßZÌf§Y˛Üqyû√X5Z |Èä†•˙‰€W©
+# For more details, please see /etc/apparmor.d/local/README.
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 # or on the command line.
   00_*: Reserved for 00_header.
@@ -861,7 +853,7 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 	<alias>
 
 title=@REALNAME@'s media on @PRETTY_HOSTNAME@
-
+encap	98	ENCAP		# Yet Another IP encapsulation [RFC1241]
 *message.scrollVertical:	Always
 127.0.0.1	noadware.ws
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf
@@ -892,7 +884,7 @@ order hosts,bind
 test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 <?xml version="1.0"?>
 
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
+# Syntax:  module_name [args ...]
 }; 
 # orbit2 permissions
 #/dev/scanner
@@ -929,7 +921,7 @@ After=snap-lxd-18150.mount network.target snapd.apparmor.service
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
 deb http://packages.azlux.fr/debian/ buster main
-#    modify it under the terms of version 2 of the GNU General Public
+
   /usr/local/share/man/man?/            r,
 /Ryumin-Light /Japanese-Mincho-Regular ;
 compose '-' 'o' to 'ı'
@@ -953,7 +945,7 @@ S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
 group:          files systemd
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
 #    This program is free software; you can redistribute it and/or
-  # here
+Description=Service for snap application lxd.activate
 compose '\'' '\'' to '¥'
 Type=Application
 # Please change @{DOVECOT_MAILSTORE} to (only) contain the directory
@@ -984,7 +976,6 @@ export PATH
 <!ENTITY % maxLength "%p;maxLength">
 Type=Application
 # It receives polydir path as $1, the instance path as $2,
-# here's the fallback if no module succeeds
 
 MetadataURI=file:///usr/share/fwupd/remotes.d/dell-esrt/metadata.xml
 #    modify it under the terms of version 2 of the GNU General Public
@@ -1170,7 +1161,7 @@ compose '>' 'A' to '¬'
 lines		1,-1,-1,-1,-1,1;\
 -#}
 #  You should have received a copy of the GNU Lesser General Public
-session	required			pam_permit.so
+# Rules for writing KDE icon cache
 # ------------------------------------------------------------------
 +D4CFmCnW8cc+Jb6jrJ2ZcjUqWE/c+uwZhwsUHNdk6ummPPKfMhRSbduk1ngdQe5
 
@@ -1203,3 +1194,9 @@ fi
 
 		<family>ZYSong18030</family>
 # For more details, please see /etc/apparmor.d/local/README.
+
+## template:jinja
+APT::Archives::MinAge "2";
+       interface=org.a11y.atspi*,
+# other distros, it might be elsewhere, such as /tmp/screens
+      bus=session
