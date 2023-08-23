@@ -1,6 +1,6 @@
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 		exec update-grub
-required in any way by the specification).  The information may be useful in
+deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 @include common-account
 
@@ -11,20 +11,18 @@ Enabled=true
 •3•D•k•|•£•³•È•×•î•ı•"–1–T–c–y–˜–Í–Ø–ù–—+—9—[—e—…——­—º—İ—é—˜˜G˜R˜s˜„˜«˜»˜á˜ï˜™$™K™Y™}™Š™­™¹™Û™ì™š*šWšfš‹š›šÁšÎšñšÿš#›3›Y›i››Ÿ›Ã›Ò›÷›
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
 #
-      <family>Noto Mono</family>
 
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #
 
 # install the apport exception handler if available
 TryExec=xdg-user-dirs-update
-	€
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
            "booktitles.ent">
 # DO NOT EDIT OR REMOVE
 /bin/sh
 # This file is a simple placeholder to keep dpkg from removing this directory
-
 
 xterm
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -171,7 +169,6 @@ Name=GNOME Settings Daemon's USB protection plugin
 MANPATH_MAP	/opt/sbin		/opt/man
 name = NSS
 fi
-  . "$USERXSESSIONRC"
 # Turn on Source Address Verification in all interfaces to
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 [general]
@@ -328,7 +325,7 @@ server {{server}} iburst
 <?xml version="1.0"?>
 
 APT::Periodic::Download-Upgradeable-Packages "0";
-HuaweiAltModeGlobal=0
+
 [Unit]
 	rm -rf "${RUN_DIR}/interface/*"
 // grant codeBase "jrt:/com.greetings" {
@@ -343,7 +340,6 @@ speed=115200
               ;;
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
     echo "updates of cacerts keystore disabled."
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # you can temporarily override this with
 
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
@@ -360,7 +356,6 @@ blacklist rivafb
         </policy>
   # for networking
 [METARELEASE]
-  <!-- Generic name aliasing -->
 ###############################################################################
 
 /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
@@ -403,7 +398,6 @@ scsi FCPA
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 
-# IPMI_Chip_Set_Transition_Severity_Informational                                    Nominal
 	</match> 
 # with the multiqueue (mq) policy and uses less memory.
 
@@ -464,7 +458,6 @@ After=snap-lxd-18150.mount
 /dev/camera
 # You can change settings by editing this file.
 # -Z Disable the power-saving function of certain Seagate drives
--->
 'ßß^Ò9ÏE}BKß³,ÅÆ]ÊU: œišÚï²°<Ÿ‡l+epR1$Ïo1#PŒO#ÃtAcU¨İ>àQPÏñ0V’°‚…ØƒË"d¼-¸%ÕT¢¸ê­’¤$ Á†µJjGÏ.V•TËÎšÛj´¦²ÛA†'w÷j Bl8Î×uP2’Âß+0"HĞÕA8%]¤é]ŸÆ”uĞEı0—C«
 †ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ğëŸ
   /dev/xconsole                 rw,
@@ -503,7 +496,6 @@ Each file in this directory is an rt_tables configuration file. iproute2
 /dev/scanner
 #if /etc/pam.d/cron  specifies no session modules but cron calls
 		;;
-Ù×›ğ¢škÃJíA`0ÑªBnÓ#ÆeİİRwÚk²¨ú8¹–ê*lg—‰”¼áTÕäjxïJ½+š=@~ÆÀuÒnûh0ìì‹ùI5š,Ù³•9Õ’÷¦¹e/å=m:HLÜä((¾}5à~j×>×ü-u²ÁÕ#Û[o>x/Ş3·Hçƒš{ÁCMU8JQÕY¢‰tÓŸ¾K×Æm·ˆ$o`‘¤‚…[VA¼ĞD«j¾Ñ,X·3X²7cÜõ”?@QõOõ:íÈÅëÂ•zÇ~Bq“nK·0ßªíW…H¬jİ9iäáyx¾Î¿¡÷€{!g'0YBdebian:hellenic_academic_and_research_institutions_rootca_2015.pem8P_XX.5090‚0‚ó 0	*†H†÷0¦10	UGR10UAthens1D0BU
 # specify the provider and priority in the format
 CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
@@ -541,7 +533,6 @@ PICTURES=Pictures
 
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 
-	95‡Ù}†PµÓÿ_eeiŞ8!DÛ
 {% for server in servers -%}# servers
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
 <fontconfig>
@@ -558,12 +549,10 @@ scsi FCPA
 # DO NOT EDIT OR REMOVE
 # This is the chat script used to dial out to your default service provider.
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
-# default location for the meta-release file
 [Desktop Entry]
 #
     </event>
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
-		<family>fantasy</family>
 
 # password.
   <type name="Helvetica-Narrow" fullname="Helvetica Narrow" family="Helvetica Narrow" foundry="URW" weight="400" style="normal" stretch="condensed" format="type1" metrics="NimbusSansNarrow-Regular.afm" glyphs="NimbusSansNarrow-Regular.t1"/>
@@ -603,7 +592,6 @@ NoDisplay=true
 StartupNotify=false
     start-stop-daemon --start --pidfile /dev/null \
 # See sane-microtek2(5) for a description of the options
-. /usr/share/bash-completion/bash_completion
 # You can change settings by editing this file.
 #pam_deny.so as appropriate.
 # avoid running multiple times
@@ -634,7 +622,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 // Notify all clients to reload the cache
 
 # IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
-+  manage_etc_hosts: True
+#parport0
   network netlink raw,
     <Menu>
     exec /usr/lib/update-notifier/update-motd-hwe-eol
@@ -686,7 +674,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 # symbolic names for networks, see networks(5) for more information
 #!/bin/sh -e
 }
-  owner @{HOME}/.fonts.cache-2          mr,
 BYOBU_BACKEND="tmux"
   /usr/bin/epiphany-webkit Cx -> sanitized_helper,
   . "$USERXSESSIONRC"
@@ -723,7 +710,6 @@ deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # ------------------------------------------------------------------
 # vim:syntax=apparmor
 	didn't include the right instructions in the 'prep' table.
-scsi "KINPO   " "Vividscan S120  "
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 ; rlimit-locks = -1
 .  \" command-line options.  Uncomment this if you want to make sure that
@@ -765,7 +751,7 @@ run_im default
 /var/log/ufw.log
       for file in $(find $i -type f -print | LC_ALL=C sort)
     resource
-  format and its respective coder module is defined in this configuration
+
 esac
 fi
 		done
@@ -868,7 +854,6 @@ test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 #include <abstractions/ubuntu-browsers.d/user-files>
    userScriptDir="$TOOLS_CONFDIR/scripts/${powerOp}-default.d"
 
-# method must be bjnp
 
 #    License published by the Free Software Foundation.
 FcslpYqtjj4fgUswQ/cY/a1UcAX5zCnVqFbU7oJH2uTNewKuaZ2wgPbnzvwx8JYl
@@ -900,7 +885,7 @@ deb http://packages.azlux.fr/debian/ buster main
 compose '-' 'o' to 'õ'
 NoDisplay=true
 {% for server in servers -%}
-#
+# restore the kernel default if the value is changed during runtime; for
 rocks_trees = {
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 #       "readwrite" grants access to read and write attributes of MBeans,
@@ -947,7 +932,6 @@ d /run/screen 1777 root utmp
 export PATH
 <!ENTITY % maxLength "%p;maxLength">
 Type=Application
-# It receives polydir path as $1, the instance path as $2,
 
 MetadataURI=file:///usr/share/fwupd/remotes.d/dell-esrt/metadata.xml
 #    modify it under the terms of version 2 of the GNU General Public
@@ -969,7 +953,7 @@ auto
   @{sys}/class/video4linux r,
   dbus (send)
 <delegatePublic publicIdStartString="ISO 8879:1986//ENTITIES" catalog="file:///usr/share/xml/entities/xml-iso-entities-8879.1986/catalog.xml"/>
-# Find settings with a given prefix and print them as they appeared in
+		exit 1
 X-Meego-Priority=Low
   # 'r' is needed when using imfile
 1C5E6985ACC09221DBD1A4B7BBC6D3A8C3F8540D19F20763A9537FDD42B4FFE7
@@ -991,7 +975,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 auth		sufficient	pam_rootok.so
 COMPRESS=lz4
 X-GNOME-Bugzilla-Component=nm-applet
-/HYGoThic-Medium /NanumBarunGothic-Regular ;
 /dev/scanner
 {
 # This file can contain default options for dpkg.  All command-line
@@ -1048,7 +1031,6 @@ cmdrespause=125000
 $x-display-manager gdm3
 
 #
-# the number of seconds you want Wget to wait.
   dbus bus=accessibility,
      format="ttf"
 # Insert here your local magic data. Format is described in magic(5).
@@ -1151,10 +1133,9 @@ fi
 
       <family>DejaVu LGC Serif</family>
 
-# Compose sequences for CP1251
 
 # X-Stop-After:      umountfs
-#    modify it under the terms of version 2 of the GNU General Public
+deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 
 DISTRIB_DESCRIPTION="Ubuntu 20.04.5 LTS"
 # For more details, please see /etc/apparmor.d/local/README.
@@ -1171,11 +1152,10 @@ DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/upda
   @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
 
 -client IGNORE
-APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
     $primeswitch
 <!ATTLIST type version CDATA #IMPLIED>
 # device connections. Several older mice have been known for not supporting
-  audit deny @{HOME}/.inputrc wl,
+  # Support the new executable helper from NetworkManager.
 #
 #include <tunables/home>
 # on the right-hand side.  The list items are separated by semicolons ";" and
@@ -1200,3 +1180,9 @@ log_file: /var/log/ubuntu-advantage.log
 # This is the configuration file for libaudit tunables.
 ! Menu Button Names
 rpc:            db files
+# prefixes are stored, each should not have a trailing '/'. Directories
+<delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
+#    License published by the Free Software Foundation.
+
+XClipboard.baseTranslations: #augment\n\
+	# The checks LVM should use to detect MD component devices.
