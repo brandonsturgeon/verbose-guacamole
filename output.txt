@@ -71,7 +71,6 @@ checkbox=,magenta
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 # how to byte-compile (comma separated: standard, optimize)
 
-[localization]
 audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
 [ -d /var/crash ] || exit 0
@@ -83,7 +82,7 @@ scsi IBM 2456
 launch-items=audiotestsrc;videotestsrc;videotestoverlay
 #!/bin/sh
 # shells invoked with the -l flag.)
-
+X-GNOME-Bugzilla-Version=3.36.0
 #pnm
 #
 # If you want to globally change where snmp libraries, commands and daemons
@@ -156,14 +155,14 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # Defines whether the mail spool should be created while
 #    This program is free software; you can redistribute it and/or
 ports=22/tcp
-  /etc/firefox*/** r,
+
 previous-engine=@as []
 tcp.flag.psh	u8		tcp+13		0x08		3
 <?xml version="1.0"?>
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.0/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
 	rm -f "$TEXT_FILE"
 #    License published by the Free Software Foundation.
-
+scsi * * Scanner
 Before=snapd.service
 # vim:syntax=apparmor
 		https://*)
@@ -203,7 +202,6 @@ deb http://packages.azlux.fr/debian/ buster main
 
 
 XLoad.input:			false
-#
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
 [fwupd Remote]
 # Compose sequences for TIS-620
@@ -233,7 +231,6 @@ video/x-ms-wmx					wmx
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
     delaycompress
   #include <abstractions/kde>
-    #@VERBATIM_LIBEXECDIR_SNAP_CONFINE@ mr,
 ú3ú@úcúsúôú™ú—ú·úùùAùSù{ùâù≠ùΩù„ùÒùû#ûGûXûûéû≥û¡ûÂûıûü,üSücüâüöü¡ü—ü˜ü†)†6†Y†e†á†ï†π†∆†È†¸†%°3°W°j°ì°ƒ°¢ ¢K¢d¢ì¢®¢”¢Ì¢£6£e£Ä£±£∆£Ò£§5§H§q§Ä§•§∏§·§Ó§••/•:•[•f•Ö•ê•¢•´•º•≈•‰•Ì•˝•¶1¶A¶g¶v¶õ¶©¶Õ¶ﬁ¶ßß+ß:ß_ßnßëß†ß∂ß√ßÿßÂß®®)®:®a®r®ô®™®—®‡®©©=©L©q©~©°©≤©À©‹©™™,™=™d™t™ö™Æ™ÿ™Ë™´#´N´_´Ü´õ´ø´Ò´9¨h¨≠¨ø¨Á¨ı¨≠'≠I≠^≠â≠û≠«≠„≠Æ%Æ=ÆMÆsÆÉÆßÆ∑ÆŒÆ‹ÆÚÆØ$Ø2ØGØWØ}ØâØ´ØπØ›ØÔØ∞&∞K∞V∞w∞Ä∞ü∞±∞Ÿ∞Ê∞	±"±Q±h±ï±§±…±’±˜±≤E≤]≤ã≤£≤—≤ﬂ≤≥≥1≥<≥]≥n≥ï≥¶≥Õ≥·≥¥¥A¥Q¥w¥à¥Ø¥æ¥„¥¥µ"µGµTµwµàµØµøµÂµ˜µ∂/∂U∂e∂ã∂ô∂Ω∂ ∂Ì∂¯∂∑(∑M∑Z∑}∑ç∑•∑µ∑€∑Î∑∏∏6∏H∏p∏|∏û∏≠∏“∏·∏ππNπ\πÄπïπ¿π’π∫∫D∫V∫~∫ç∫≤∫ø∫‚∫∫ª ªBªOªrªÉª™ª∂ªÿªÚª"º2ºXºmºòº®ºΩºÀºﬁºÔºΩΩ(Ω5ΩXΩcΩÑΩîΩ∫Ω ΩΩæ4æKæxæáæ¨æ∆æˆæø&ø2øTø`øÄøäø™ø∫ø€øÚø¿5¿a¿s¿ñ¿¨¿”¿Á¿¡¡=¡J¡m¡¡ß¡≤¡”¡‚¡¬¬E¬Y¬u¬â¬≥¬«¬Ô¬√√0√J√\√Ñ√ñ√Ø√ø√◊√Á√ƒƒAƒQƒhƒvƒåƒöƒæƒÃƒ·ƒ˚ƒ+≈=≈e≈≈Ø≈¡≈È≈∆1∆B∆i∆|∆ó∆™∆”∆Ê∆« «:«K«d«u«ú«≠«≈«◊«Ò«»+»=»c»u»é»û»∂»∆»Ï»¸»…#…;…K…q…Å…•…µ…Ã…⁄……˛…" 0 E X s Ü Ø ¬ È ¸ À'À@ÀQÀxÀâÀ°À≠ÀœÀ€ÀÔÀ˚ÀÃ)ÃIÃUÃhÃrÃÑÃéÃÆÃ∏Ã…Ã◊Ã˚ÃÕ+Õ:Õ_ÕlÕèÕõÕΩÕ»ÕÈÕ¯ÕŒ2Œ]ŒqŒõŒ¨Œ”Œ‚ŒœœAœQœwœÜœ´œ¡œÌœ–-–E–s–â–µ–∆–Ì–ˇ–'—7—L—h—ö—©—Œ—⁄—¸—“<“L“r“Ü“∞“º“ﬁ“Ô“”&”L”g”ò”≠”ÿ”Í”‘!‘F‘S‘h‘u‘ò‘£‘∂‘¡‘‚‘Û‘’,’C’S’h’v’ö’©’Œ’ﬁ’÷÷8÷E÷h÷v÷ö÷¶÷»÷›÷˜÷
 #usb VENDORID PRODUCTID
 
@@ -248,7 +245,6 @@ LP-PPA-ubuntu-mozilla-daily
 start|restart|force-reload|status)
 letter
   </rejectfont>
-			<string>DejaVu Sans Mono</string>
 [fwupd Remote]
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
@@ -323,7 +319,6 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
 /lib/i386-linux-gnu
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
 exec tail -n +3 $0
-/URWGothicL-Book (/usr/share/fonts/type1/gsfonts/a010013l.pfb) ;
   convenient to refer to a color by name (e.g. white) rather than by hex
   (debian-pkg-add-load-path-item
 # ldconfig = false
@@ -367,7 +362,7 @@ case "${1}" in
 	<match target="pattern">
 *MenuButton.foreground: white
 [upower]
-roottext=,magenta
+# libc default configuration
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
@@ -441,7 +436,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 
 Name=GNOME Settings Daemon's housekeeping plugin
 #!/bin/sh
-
 /dev/scanner
 # Dell A920
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
@@ -584,7 +578,7 @@ option buffer-size 32768
 CATALOG /usr/share/xml/docutils/catalog
 jD≈L“Pçù	¿âÈ˘[§Ã-ﬂVDôøõ‡b>°X*~¬Ä'Æ˚ﬁﬁÏôÃFû_~t√É¥o¬°í‚ùÜMºcR
 Subsystem	sftp	/usr/lib/openssh/sftp-server
-/dev/scanner
+
 scsi RICOH
 
 [Desktop Entry]
@@ -644,7 +638,7 @@ AdminIdentities=unix-group:sudo;unix-group:admin
 
 # shells invoked with the -l flag.)
 	    ;;
-IgnorePower=false
+#    modify it under the terms of version 2 of the GNU General Public
 {
 @include common-session-noninteractive 
 /Adobe-CNS1 /ShanHeiSun-Light ;
@@ -663,7 +657,7 @@ PICTURES=Pictures
 
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 
-# Compose sequences for ISO-8859-8
+# attempts.
 
 {% for server in servers -%}# servers
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
@@ -673,7 +667,7 @@ PICTURES=Pictures
 
 # Common rules for Qt5-based applications
     exec /usr/lib/update-notifier/update-motd-fsck-at-reboot
-#    modify it under the terms of version 2 of the GNU General Public
+fi
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
 scsi FCPA
 # ------------------------------------------------------------------
@@ -687,7 +681,7 @@ Comment=GNOME Keyring: SSH Agent
 
 #
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
-APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
+Exec=/usr/bin/snap userd --autostart
 [Desktop Entry]
 # be found in /usr/share/fwupd/remotes.d/vendor/firmware
   . "$USERXSESSIONRC"
@@ -716,7 +710,6 @@ SHELL=/bin/sh
 # ntp.conf(5), ntp_acc(5), ntp_auth(5), ntp_clock(5), ntp_misc(5), ntp_mon(5).
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
 
-# the line below. However this makes the meta key not work as a meta key,
   /etc/ssl/openssl.cnf r,
 
 			<family>Noto Serif CJK TC</family>
@@ -885,7 +878,7 @@ type=file
 # networking=no
 @include common-session-noninteractive
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
-NI	-*-new century schoolbook-medium-i-normal--*-*-*-*-*-*-iso8859-1\n\
+APT::Periodic::Download-Upgradeable-Packages "0";
 stamp="/var/lib/ubuntu-advantage/messages/motd-esm-announce"
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # If we are running the GNOME session, source ~/.gnomerc
@@ -934,7 +927,6 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 foreground	gray90;\
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 # The example configuration below imitates the behavior of a standard mobile
-	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # ISSUE_FILE option from login.defs). Uncomment for use
 # /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
@@ -967,7 +959,7 @@ gtk-icon-sizes = panel-menu-bar=24,24
 
 /var/log/wtmp {
 # The maximum credit for having digits in the new password. If less than 0
-  <!ATTLIST type xmlns CDATA #FIXED '' encoding NMTOKEN #IMPLIED
+# xserver-xorg-legacy package using values from the debconf database.
   "file:///usr/share/xml/schema/xml-core/catalog.dtd">
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
   network raw,
@@ -978,7 +970,6 @@ gtk-icon-sizes = panel-menu-bar=24,24
 
 # HP scanjet 4400c
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-	 xargs -r0 rm -f"
 # will be used
 fi
 # To use a specific scsi device
@@ -1197,3 +1188,18 @@ c0583bt_.pfb -bitstream-courier 10 pitch-bold-r-normal--0-0-0-0-m-0-iso8859-1
 			<family>Noto Sans CJK HK</family>
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 [connection]
+
+/lib/x86_64-linux-gnu
+  @{sys}/class/video4linux r,
+  dbus (send)
+<delegatePublic publicIdStartString="ISO 8879:1986//ENTITIES" catalog="file:///usr/share/xml/entities/xml-iso-entities-8879.1986/catalog.xml"/>
+# Find settings with a given prefix and print them as they appeared in
+# MODEL
+  # 'r' is needed when using imfile
+1C5E6985ACC09221DBD1A4B7BBC6D3A8C3F8540D19F20763A9537FDD42B4FFE7
+191 191 191 		gray75
+  owner /net/** w,
+*allowShellResize: on
+
+-server KNOWN
+# This file is automatically updated on upgrades of the xserver-xorg-legacy
