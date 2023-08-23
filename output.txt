@@ -21,7 +21,7 @@ NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 </fontconfig>
 
 # Make sure the locale variables are set to valid values.
-#scsi "K.M.E.  " "KV-SS50EX       "
+blacklist i810fb
 driftfile /var/lib/chrony/chrony.drift
 # for it. Matches are exact only at the moment (no globbing etc.).
 	the data found in the instructed hints. The initial Vera release
@@ -31,7 +31,7 @@ driftfile /var/lib/chrony/chrony.drift
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 LANG=C.UTF-8
   dbus send
-
+	[ -z "$AWKLIBPATH" ] && 
      <xs:sequence>
 # <target name>	<source device>		<key file>	<options>
      Define aliasing and other fontconfig settings for
@@ -201,7 +201,6 @@ compose '`' 'u' to '˘'
 ${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
 
 fi
-    fi
 Acquire::Changelogs::AlwaysOnline "true";
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 # console I usually leave idle.
@@ -366,7 +365,7 @@ brandon:100000:65536
 # [automount]
 
 ja_JP		ja_JP.eucJP
-      member={Hello,AddMatch,RemoveMatch,GetNameOwner,NameHasOwner,StartServiceByName}
+  /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/ r,
 XKBLAYOUT="us"
 
 
@@ -397,7 +396,6 @@ fi
 esp	50	IPSEC-ESP	# Encap Security Payload [RFC2406]
 allocation {
 # Benq/Acer 5300
-# UMAX Astra 4500 and Avision iVina 1600
 	</alias>
   # Include additions to the abstraction
 America/Los_Angeles
@@ -491,7 +489,7 @@ fi
 compose ',' 'a' to '±'
 # Compose sequences for GEORGIAN-PS
 _’O R÷aBOÌîtcÙRÛ%7-—°g[ı¥AUbuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>â7
-# ~/.bash_logout: executed by bash(1) when login shell exits.
+
 # of /var/log/ubuntu-advantage*.log files.
 
 <!--  Enable sub-pixel rendering --> 
@@ -607,7 +605,8 @@ set -e
 
 			<string>farsiweb</string>
 
-Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+			Ctrl<Key>r:	do-resize()
+
 
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
     done
@@ -645,7 +644,6 @@ X-GNOME-Autostart-Phase=Initialization
 0xD9 '√ô'
 for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; do
 # The PAM configuration file for the Shadow 'newusers' service
-</match>
 #
 # Compose sequences for ISO-8859-10
 if enabled in cloud-config.  Specifically, in order to enable it
@@ -732,14 +730,13 @@ X-Snappy=yes
 ®â 9©`Ÿl’ >D∂∞!£j[~=‡g·%1¯Å_á¸T0T+–ƒfüﬁ¥Çe≥èR·Cdˇ¥!£j[~=‡g·%1¯Å_á¸T0,W†MfÇ‰¨Ç˙®Õ5œ~∞°G~p¸z¿œ¬Kbø˘©`X~Ég"ﬂ˙¯|∆dE»rüPÿˇùg?Ÿ–√ö≠x=!^>Éx¡K≥Ú:π€ÀUÀ¬uÉT∏Ÿ2™∂Ö‡◊~^É¯u»OCıù@ê*X6ã§¬á»Œm»®⁄Ç_¯YxI~‡◊!?ÁboÄﬂ¬`‰Ä¯L≤	É$Jb5Òd?øé¯ï¡–à`ËNyÊÄ¯Ómí—ªΩœ?Ìíú,Ø¢µ‡æ‡æOÑØ
 do_bootloader = no
 	# lvmdbusd relies on command log report to inspect LVM command's execution status
-## Add external Servers using
 
 
 	fwsetup
 # abstraction for allowing access to graphical browsers in Ubuntu
             COMPREPLY=( $( compgen -W 'IN CH HS' -- "$cur" ) )
 
-#
+X-GNOME-HiddenUnderSystemd=true
 # device group names
   owner /tmp/groff*                           rwl,
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
@@ -780,7 +777,6 @@ audio/x-pn-aiff=org.gnome.Totem.desktop
 # Short-Description: Configure kernel parameters at boottime
   #include <abstractions/gnome>
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
-<!-- File dbgenent.mod .................................................... -->
   <type name="Arial-Narrow" fullname="Arial Narrow" family="Arial Narrow" weight="400" style="normal" stretch="condensed" glyphs="arialn.ttf"/>
 .  if !'\*[.T]'utf8' \
   #
@@ -838,16 +834,15 @@ scsi "B&H SCSI"
 // Country-specific policy file for countries with no limits on crypto strength.
 	result=0
 
-
 0xA5 '¬•'
 <!--  Disable sub-pixel rendering --> 
 # how to byte-compile (comma separated: standard, optimize)
-  # global tmp directories
+
 # Where to place spool and state files
 byte-compile = standard
   <type name="DejaVu-Serif-Book" fullname="DejaVu Serif Book" family="DejaVu Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuSerif.ttf"/>
 failure_action = ignore
-1,222,57,255,0,118,44,204,128,255,0,255,0,255,0,255
+
 # Compose sequences for ISO-8859-8
 # Comma separated list of modules to load.
 # white space is ignored and lines maybe extended with '\\n' (escaped
@@ -898,7 +893,7 @@ rocks_trees = {
 
 # ctrll shiftr alt keycode 37 = Decr_Console
 	<!-- Prefer to match color emoji font. -->
-# The "order" line is only used by old versions of the C library.
+    label in4 "+12V"
 
 
 
@@ -910,7 +905,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 Vendor-URL: http://www.ubuntu.com/
 
 # the value 'auto' will make the backend find the correct value
-  /usr/lib{,32,64}/sasl2/*    mr,
 name = NSS
 bullseye/sid
   @{HOME}/.profile                 r,
@@ -961,7 +955,7 @@ gt68xx
   <!-- This configuration file specifies the required security policies
 #
 # times
-		<edit mode="assign" name="embeddedbitmap">
+	if [ "$TRUNCATE_NAMESERVER_LIST_AFTER_127" ] ; then
     <allow send_destination="org.debian.apt"/>
 *ispell.lookCommand:			/bin/egrep
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
@@ -1017,7 +1011,7 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 # if it is non-root user, skip
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 ; extra-arguments = --log-target=syslog
-}
+blacklist raw1394
 # system supports only Multiple Profiles Single Device (MPSD) configuration
 
 
@@ -1036,3 +1030,20 @@ iZ8ikN+HNJa5uQ68F76aDP1BOE0XiLrOZC0MZ7mvbyOi9LPXFyV2EuVj+gt7r+2x
   /usr/bin/nvidia-modprobe Px -> nvidia_modprobe,
 # modem initialization string.
 #
+/dev/scanner
+# Allow non-root users to specify the allow_other or allow_root mount options.
+#    This program is free software; you can redistribute it and/or modify
+
+
+brandon:100000:65536
+d_reload() {
+# vim:set ai et sts=2 sw=2 tw=80:
+compose '|' '|' to '¶'
+PPP_SPEED="$3"
+image/eps; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
+#
+  <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
+
+       <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
+DPkg::Pre-Install-Pkgs { "/usr/bin/apt-listchanges --apt || test $? -lt 10"; };
+### END INIT INFO
