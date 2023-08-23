@@ -26,7 +26,7 @@ TryExec=xdg-user-dirs-update
 search updates ubuntu built-in
 	€
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
-    </alias>
+           "booktitles.ent">
 # DO NOT EDIT OR REMOVE
 
 
@@ -74,7 +74,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
 [ -d /var/crash ] || exit 0
-    minsize 1M
 // Pre-configure all packages with debconf before they are installed.
 		fi
 	<match target="font">
@@ -109,7 +108,7 @@ XClock.Clock.secondColor:	rgba:00/00/ff/80
 blacklist rivafb
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 
-setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz' 
+    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
 /dev/scanner
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # Compose sequences for GEORGIAN-PS
@@ -122,7 +121,7 @@ mode="${1#'}"
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 <delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML V4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/catalog.xml"/>
 
-*customization: -color
+# This file should not contain commands that produce
 {
 # usb 0x4b8 0x14c
 ### that look up the default sink/source get the right value
@@ -167,7 +166,6 @@ Before=snapd.service
 # vim:syntax=apparmor
 		https://*)
 # The following may be used to add additional entries such as for
-# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 [Sleep]
 #    Copyright (C) 2012 Canonical Ltd.
 /dev/scanner
@@ -221,11 +219,10 @@ fi
   <delegate decode="hpg" command="&quot;hp2xx&quot; -sstdout=%%stderr -m eps -f `basename &quot;%o&quot;` &quot;%i&quot;;     /bin/mv -f `basename &quot;%o&quot;` &quot;%o&quot;"/>
 <?xml version="1.0" encoding="UTF-8"?>
   /etc/X11/app-defaults/XTerm r,
-NoDisplay=true
+max_allowed_packet	= 16M
 # Compose sequences for ARMSCII-8
 # in the toplevel profile. Eg:
 [connection]
-[keys]
 video/x-ms-wmx					wmx
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
@@ -282,7 +279,7 @@ LANG=C.UTF-8
 driftfile /var/lib/chrony/drift
 	;;
 # fails to use it it will not abort.
-X-Ubuntu-Gettext-Domain=gnome-settings-daemon
+scsi Nikon * Scanner
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
 
 twm
@@ -293,7 +290,7 @@ echo
 if ls /dev/fb* >/dev/null 2>/dev/null; then
 {% endif %}
 <!ATTLIST %element;
-fi
+
  * only some of those definitions, copy calendar.all to /etc/calendar
 case "$6" in
   @{sys}/bus/{cpu,node}/devices/ r, # libpocl.so -> libhwlock.so
@@ -322,7 +319,6 @@ exec tail -n +3 $0
   convenient to refer to a color by name (e.g. white) rather than by hex
   (debian-pkg-add-load-path-item
 # ldconfig = false
-       missingok
     permission javax.crypto.CryptoPermission *, 128;
 	missingok
 email_format=text
@@ -342,7 +338,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 
 
 # ------------------------------------------------------------------
-# Vulkan access requirements
 #
   </its:rules>
 			[[ -x /usr/lib/command-not-found ]] || return 1
@@ -368,7 +363,6 @@ LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 # Compose sequences for ISO-8859-5
 # device group names
 #
-L9ItWY16Ck6WaVICqjaY7Pz6FIMMNx/Jkjd/14Et5cS54D40/mf0PmbR0/RAz15i
 # The following is a space-separated list of where additional user home
     permission java.util.PropertyPermission "java.class.version", "read";
 
@@ -390,7 +384,6 @@ fi
 
 # See sane-microtek2(5) for a description of the options
     else
-#    Copyright (C) 2009 Canonical Ltd.
 # Additional mounts to exclude at shutdown.
 scsi RICOH IS60
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
@@ -398,7 +391,6 @@ scsi RICOH IS60
 /dev/camera
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
     <h3>Father (in any context at all)</h3>
-</busconfig>
 group:          files systemd
 # useful if you for example need to do some setup to create a home directory
      name="OpenSansLI"
@@ -425,7 +417,6 @@ speed=115200
 # Compose sequences for GEORGIAN-PS
 [OpenSSH]
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-  # The Name Service Cache Daemon can cache lookups, sometimes leading
 conf.d/README
     echo "updates of cacerts keystore disabled."
 # vim:syntax=apparmor
@@ -499,7 +490,6 @@ $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 # IPMI_Chip_Set_Transition_Severity_Informational                                    Nominal
 	</match> 
 # with the multiqueue (mq) policy and uses less memory.
-    rotate 7
 
 
 BatteryThreshold=10
@@ -526,7 +516,6 @@ DAEMON="/lib/systemd/systemd-udevd"
 Categories=System;Monitor;GTK;
 	rotate 4
 
-  /dev/nvidia-uvm rw,
 
   dbus (receive)
 #    Copyright (C) 2014 Canonical Ltd.
@@ -545,7 +534,7 @@ quick
 fi
 #mult_sect_io = 32
 # Compose sequences for ISO-8859-5
-# The default is 1000.
+	<alias>
 *Panner.background:			gray70
 # kdenetwork
 
@@ -634,7 +623,7 @@ AdminIdentities=unix-group:sudo;unix-group:admin
 1,222,57,255,0,118,44,204,128,255,0,255,0,255,0,255
 # For USB scanners also specify bus=usb, e.g.
 # ------------------------------------------------------------------
-# match-string "pattern=aadfa audit perms=crwxamlk/ user::other"
+# while a reboot isn't required for the new kernel it might be for another package
 
 # shells invoked with the -l flag.)
 	    ;;
@@ -670,7 +659,7 @@ PICTURES=Pictures
 fi
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
 scsi FCPA
-# ------------------------------------------------------------------
+#
 			<string>HYSong</string>
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
        path=/org/freedesktop/Notifications
@@ -767,7 +756,7 @@ domain {{domain}}
 # The username of the user logging out is provided in the $USER environment
 # @{securityfs} is the location where securityfs is mounted.
 # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
- 			<family>Lohit Telugu</family>
+    </edit>
 			<string>sans</string>
   the ImageMagick option
 # clean all crash reports which are older than a week.
@@ -791,7 +780,7 @@ system-db:ibus
     </accept>
 # #include <abstractions/ubuntu-helpers>
 X-Ubuntu-Gettext-Domain=gnome-keyring
-# As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
+start)
 </busconfig>
 #
 
@@ -852,7 +841,7 @@ BYOBU_BACKEND="tmux"
            send_interface="org.freedesktop.DBus.Properties" />
 #DefaultStartLimitBurst=5
 ## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
-sleep_then_check &
+   ls /sys/firmware/efi/efivars/fwupd-*-0abba7dc-e516-4167-bbf5-4d9d1c739416 1>/dev/null 2>&1; then
 127.0.0.1	www.frankvoce.com
   cat /etc/ppp/resolv.conf
 
@@ -919,7 +908,7 @@ byte-compile = standard
         fi
 # set PATH so it includes user's private bin if it exists
 #
-            <restriction base="saml:SubjectConfirmationDataType">
+	<alias>
 {% endfor %}
 BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
@@ -1030,7 +1019,7 @@ title=@REALNAME@'s media on @PRETTY_HOSTNAME@
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf
 
 	exit 0
-# This file is a simple placeholder to keep dpkg from removing this directory
+#</quote>
 LP-PPA-ubuntu-mozilla-daily
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
   /usr/bin/xmms Cxr -> sanitized_helper,
@@ -1076,7 +1065,6 @@ enabled=1
 # method must be bjnp
 
 
-
 FcslpYqtjj4fgUswQ/cY/a1UcAX5zCnVqFbU7oJH2uTNewKuaZ2wgPbnzvwx8JYl
 #############################################################################
 
@@ -1116,7 +1104,6 @@ deb http://packages.azlux.fr/debian/ buster main
 #
 # the pool.ntp.org domain since they return multiple A records.
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
-type=file
 #       "readwrite" grants access to read and write attributes of MBeans,
    ADDRESS_FAMILIES=""
 #    the "FSU light dispersion error" does not cause the abortion
@@ -1203,3 +1190,11 @@ ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 
 -server KNOWN
 # This file is automatically updated on upgrades of the xserver-xorg-legacy
+[Desktop Entry]
+ip.id		u16		net+4
+d /run/screen 1777 root utmp
+DISTRIB_ID=Ubuntu
+#
+search updates ubuntu built-in
+[network]
+/var/log/alternatives.log {
