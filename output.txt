@@ -113,7 +113,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 # $ sudo dpkg-reconfigure apparmor
 			<family>Code2000</family> <!-- almost everything; serif actually -->
 # This file is a simple placeholder to keep dpkg from removing this directory
-PATH=/sbin:/bin:/usr/sbin:/usr/bin
 
 swedish         sv_SE.ISO-8859-1
 XClock.input: false
@@ -164,7 +163,6 @@ audio/x-mpegurl=rhythmbox.desktop
 fi
 /dev/scanner
 #
-# of the ${powerOp}-default.d directories.
 			<family>DejaVu Sans</family>
 ## Uncomment the following two lines to add software from Canonical's
 
@@ -254,7 +252,6 @@ fi
 # Compose sequences for GEORGIAN-PS
 #  privileged clients.  Instead the passwd.adjunct.byname table is
 #           will attempt to upgrade to the first LTS release available after
-# added here are appended to @{multiarch}. See tunables/mutliarch for details. Eg:
 # * Be careful about changing the environment since this is sourced
 		      $iosched_idle 
 # at bash-completion startup for now, to ease the transition to a
@@ -278,7 +275,7 @@ fi
 			<string>AR PL UMing HK</string>
 # ------------------------------------------------------------------
 # Turn on Source Address Verification in all interfaces to
-#
+# usb 0x4b8 0x14c
 # set start_ro=1 to make newly assembled arrays read-only initially,
 	#   0 if daemon has been stopped
 
@@ -288,14 +285,13 @@ bookworm/sid
 
   /usr/bin/shotwell Cxr -> sanitized_helper,
 APT::Archives::MaxAge "30";
-# might also be helpful.
 
 ctl.!default {
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
             <extension base="saml:StatementAbstractType">
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 ## Type:        yesno
-#!/bin/sh -e
+1,222,57,255,0,118,44,204,128,255,0,255,0,255,0,255
 BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
 usb 0x043d 0x007c
 /usr/lib/i686-linux-gnu
@@ -336,7 +332,7 @@ esac
 esac
 0xD9 '√ô'
 
-#
+^w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: no dictionary update necessary.$
   /usr/bin/file-roller Cxr -> sanitized_helper,
 #    modify it under the terms of version 2 of the GNU General Public
     </event>
@@ -356,7 +352,7 @@ previous-engine=@as []
 tcp.flag.psh	u8		tcp+13		0x08		3
   </match>
 <?xml version="1.0"?>
-Name=AT-SPI D-Bus Bus
+overlayroot_cfgdisk=LABEL=OROOTCFG
 	rm -f "$TEXT_FILE"
 20  rdma
 # Don't try to change I/O priority in a vserver or OpenVZ.
@@ -396,7 +392,6 @@ KpPDkC55gIDvEwRqFDu1m5K+wgdlTvza/P96rtxcflUxDOg5B6TXvi/TC2rSsd9f
 # since the modules above will each just jump around
 
 font='Monospace 16'
-  /var/log/samba/* w,
     done
   RESOURCEFILES=$(run-parts --list $SYSRESOURCES)
 #
@@ -495,7 +490,6 @@ if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ];
   /etc/X11/app-defaults/XTerm r,
 STARTSSH=
 root=,magenta
-gt68xx
 update-hostname=true
 #    Copyright (C) 2011-2013 Canonical Ltd.
 ôO≠éhª§¢ªÚﬂ=nÊº Ç$ú-ÛÕœ”H]¸“+4ÑTK›”¶qq6≈ˆÍ;oÒ∑oæŸî_?ß∂jí À:ÂUÜK˚ 59@W⁄Lã.v“—ÂÑÂvn93õ‘uÑ+nüÓ!h·5…rãøÍ“Æ≠>«∂mÔÇÆW%i;UH¡g≈óü≥øµ8Ø hc\#∞B˙õó6y0úˆ.!|d©}Gc∫Úƒe]é?eìß°NDq&+”«&ÔÇ∑C,ECÿ∞ÓW°:å°¸ ‘Ñ{ÉúõÕØ¥!y+A‚¬T”Ÿ2€* lÀìN-üÚ&ÕÒ&€Öê…î3›Ÿô$¶¬ç|ÄòËèÑqØ\i≠É°]ÕHh´Jo-q©)KÁt¸Å%l>9ﬁ…,∆¨›ƒÏÌèπ÷ús$4¶≠2|Êï:ãSÎôûlˆ?Ó“RCˆbÙâÛ¯ÍÛ[gÎÙ›√·LS¡qÃV÷ø<ì´ï/=∑ço¸åÎ∞ùJx$©ôµØ‘ŸFJO#ÚÆÙÿÜüÛ+}ˆIÒâ8eÙ#Ç0ó4óäX2Às§≈&“€ˇ9ı@¢±vº2’òZπL›á∆œd’g¶0ø.Ôÿ6Ø ›S‰ﬁÂ©ÍπÒõæ
@@ -614,7 +608,6 @@ SHELL=/bin/sh
 #    modify it under the terms of version 2 of the GNU General Public
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
-X-GNOME-Bugzilla-Version=3.36.0
 	missingok
 
 [Sources]
@@ -746,7 +739,6 @@ APT::Periodic::Update-Package-Lists "1";
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 # that case, 0 = Don't try to detect .local unicast dns servers, can cause
 ##############################################################################
-# You can change settings by editing this file.
   <!-- Allow anyone to invoke methods on the interfaces -->
 # b.) change or remove the value of 'manage_etc_hosts' in
 create_machineid() {
@@ -843,7 +835,6 @@ stop_watchdog_quiet()
     <allow send_destination="org.gnome.DisplayManager"
 # vim:syntax=apparmor
 
-#  0x4064, /* kodak Hero 5.1 */
 #bind ^P curpos main
 letter
 
@@ -1049,7 +1040,6 @@ deb http://packages.azlux.fr/debian/ buster main
 # Unlike any other crontab you don't have to run the `crontab'
 Type=Application
 # This file is sourced by Xsession(5), not executed.
-  /{,var/}run/utmp r,
   /usr/bin/seamonkey Cx -> sanitized_helper,
         *:down) exec cloud-init dhclient-hook down "$1";;
 /Courier-Bold /NimbusMonL-Bold ;
@@ -1072,10 +1062,9 @@ deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.co
         mv ${TIMESYNCD_CONF}.new ${TIMESYNCD_CONF}
 			<bool>false</bool>
 #
-*ispell*cancel.label:			Close
+printf '%%G' 
 encryption=luks1
     <accept>
-
 
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
     <family>Verajja Serif</family>
@@ -1098,3 +1087,22 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
 # how to byte-compile (comma separated: standard, optimize)
 GRUB_CMDLINE_LINUX=""
 
+# For an IEEE 1394 scanner, use the SBP2 protocol (under Linux, use the
+
+# installation of packages available from the repository
+-->
+fi
+# Specify command line options here. This config file is used
+[METARELEASE]
+<!DOCTYPE colormap [
+# allowed by the options file.
+X-GNOME-Autostart-Phase=Initialization
+#
+"\e[1~": beginning-of-line
+X-GNOME-Bugzilla-Product=gnome-keyring
+# This file is a simple placeholder to keep dpkg from removing this directory
+  00_*: Reserved for 00_header.
+MODULES="${MODULES_INTERFACES} ${MODULES_FEATURES} ${MODULES_HW} ${MODULES_BASE}"
+  <!ATTLIST typemap xmlns CDATA #FIXED ''>
+
+mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
