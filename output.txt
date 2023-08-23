@@ -29,7 +29,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 
 # Refresh AppStream cache when APT's cache is updated (i.e. apt update)
   </match>
-#    modify it under the terms of version 2 of the GNU General Public
+TryExec=xdg-user-dirs-update
 search updates ubuntu built-in
     user
     else
@@ -142,14 +142,12 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 
         stop|status)
 . /etc/popularity-contest.conf
-# following line is sufficient. This however assumes that the connected scanner (or to be more
     fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #DefaultBackend=auto
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 [localization]
 <Key>Escape: quit()
-  </policy>
 *customization: -color
 			<string>AR PL UMing HK</string>
 # usb 0x4b8 0x14c
@@ -200,7 +198,6 @@ Before=snapd.service
 # The following may be used to add additional entries such as for
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 [Sleep]
-	daytime_hosts => [ qw {} ],
 #    Copyright (C) 2012 Canonical Ltd.
                     Schema Recommendation</a> forbids the declaration of
 
@@ -217,7 +214,6 @@ font='Monospace 16'
 PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
-Exec=/usr/libexec/gnome-shell-overrides-migration.sh
   /etc/cloud/clean.d/99-live-installer
 
   deny @{HOME}/.mutt** mrwkl,
@@ -251,7 +247,6 @@ XLoad.input:			false
 # Compose sequences for TIS-620
 Name=GNOME Settings Daemon's USB protection plugin
 # install prefixes.
-Vendor-URL: http://www.ubuntu.com/
 MANPATH_MAP	/opt/sbin		/opt/man
 name = NSS
 fi
@@ -269,7 +264,7 @@ fi
 #∫ˇ∏ÊdJ¥
   /etc/X11/app-defaults/XTerm r,
 #    Copyright (C) 2011-2013 Canonical Ltd.
-ôO≠éhª§¢ªÚﬂ=nÊº Ç$ú-ÛÕœ”H]¸“+4ÑTK›”¶qq6≈ˆÍ;oÒ∑oæŸî_?ß∂jí À:ÂUÜK˚ 59@W⁄Lã.v“—ÂÑÂvn93õ‘uÑ+nüÓ!h·5…rãøÍ“Æ≠>«∂mÔÇÆW%i;UH¡g≈óü≥øµ8Ø hc\#∞B˙õó6y0úˆ.!|d©}Gc∫Úƒe]é?eìß°NDq&+”«&ÔÇ∑C,ECÿ∞ÓW°:å°¸ ‘Ñ{ÉúõÕØ¥!y+A‚¬T”Ÿ2€* lÀìN-üÚ&ÕÒ&€Öê…î3›Ÿô$¶¬ç|ÄòËèÑqØ\i≠É°]ÕHh´Jo-q©)KÁt¸Å%l>9ﬁ…,∆¨›ƒÏÌèπ÷ús$4¶≠2|Êï:ãSÎôûlˆ?Ó“RCˆbÙâÛ¯ÍÛ[gÎÙ›√·LS¡qÃV÷ø<ì´ï/=∑ço¸åÎ∞ùJx$©ôµØ‘ŸFJO#ÚÆÙÿÜüÛ+}ˆIÒâ8eÙ#Ç0ó4óäX2Às§≈&“€ˇ9ı@¢±vº2’òZπL›á∆œd’g¶0ø.Ôÿ6Ø ›S‰ﬁÂ©ÍπÒõæ
+NoDisplay=true
 }
 # Compose sequences for ISO-8859-11
 [connection]
@@ -318,7 +313,7 @@ XCalc*ti.button30.displayList:		foreground rgb:a/9/8;segments 8,-4,-9,-4,-4,-9,-
 #mount_max = 1000
 
 # their current one is listed in /etc/shells. This keeps
-
+0x38	AF13
 
 
          cloud-init dhclient-hook down "$interface";;
@@ -346,7 +341,6 @@ fi
 #
 nssDbMode = noDb
 LANG=C.UTF-8
-      <const>lcddefault</const>
 # which broke applications in UTF-8 locales.  See:
 driftfile /var/lib/chrony/drift
 	;;
@@ -432,7 +426,6 @@ allow-deletion=false
 # published by the Free Software Foundation; either version 2 of the
 0x48	AF21
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
-
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 # libc default configuration
 }
@@ -466,7 +459,7 @@ L9ItWY16Ck6WaVICqjaY7Pz6FIMMNx/Jkjd/14Et5cS54D40/mf0PmbR0/RAz15i
 
 0x80	CS4
 		Ctrl<Key>s: PopupSearch()
-	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
+      <choice minOccurs="1" maxOccurs="unbounded">
 NoDisplay=true
 
 	}
@@ -524,11 +517,11 @@ kbd_mode '-u' < '/dev/tty3'
 #option modelname "Prima PagePartner"
 speed=115200
        bus=session
-
+              ;;
 # Compose sequences for GEORGIAN-PS
 [OpenSSH]
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-  # This abstraction grants full system bus access. Consider using the
+  # The Name Service Cache Daemon can cache lookups, sometimes leading
     missingok
 #    (at your option) any later version.
     echo "updates of cacerts keystore disabled."
@@ -602,7 +595,7 @@ encryption=luks1
 scsi "KINPO   " "Vividscan S120  "
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-Ubuntu 20.04.1 LTS (Focal Fossa)
+8x13         -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 	do_stop
 # how to byte-compile (comma separated: standard, optimize)
 daemon:x:1:
@@ -611,7 +604,6 @@ By default, Java provides two different sets of cryptographic policy
   00_*: Reserved for 00_header.
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
-  /usr/bin/apport-bug Cx -> sanitized_helper,
 Options=nodev,ro,x-gdu.hide
 
 #net.ipv6.conf.all.forwarding=1
@@ -721,11 +713,10 @@ option buffer-size 32768
 #!/bin/sh
 image/pcx; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 CATALOG /usr/share/xml/docutils/catalog
-			<string>AR PL UKai HK</string>
 jD≈L“Pçù	¿âÈ˘[§Ã-ﬂVDôøõ‡b>°X*~¬Ä'Æ˚ﬁﬁÏôÃFû_~t√É¥o¬°í‚ùÜMºcR
 Subsystem	sftp	/usr/lib/openssh/sftp-server
 /dev/scanner
-  </its:rules>
+scsi RICOH
 
 [Desktop Entry]
 fi
@@ -742,7 +733,6 @@ arch=`dpkg --print-architecture`
 # /etc/login.defs and user settings, solving the problem of different
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 
-DISTRIB_ID=Ubuntu
 0lQIZgahmcUt1qm6VW94VAio+SDCdqTx73wUsgM3t9sAwKxkEdJQQoO8PqYHV3uK
 <fontconfig/>
 order hosts,bind
@@ -750,19 +740,18 @@ order hosts,bind
 @include common-password
 # real-time clock. Note that it can‚Äôt be used along with the 'rtcfile' directive.
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-#
+       path="/com/canonical/hud",
 #port=/dev/tty01
 /usr/bin/wine-preloader
 
 // Example: Homepage
-  /usr/bin/emacsclient.emacs2[2-9] Cxr -> sanitized_helper,
 #
 AutomaticReports=false
 # User "root" should get access from network 192.168.201.
 # System-wide GDB initialization file.
 
 # ctrll shiftl alt keycode 36 = Incr_Console
-	</match>
+
 @(br|eth)*
 #
 loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null' 
@@ -804,7 +793,6 @@ compose '-' '-' to '≠'
 
 # shells invoked with the -l flag.)
 	    ;;
-# the value 'auto' will make the backend find the correct value
 IgnorePower=false
 {
 @include common-session-noninteractive 
@@ -826,7 +814,7 @@ APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 @{multiarch}=*-linux-gnu*
   /etc/bash.bashrc.local           r,
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
-zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
+# Disallows other than root logins when /etc/nologin exists
 
 
 
@@ -880,7 +868,6 @@ fi
 # $ systemctl edit --full cron.service
 #dumpinquiry
 #udev_log=info
-scsi CANON IX
 build_name: server
 Acquire::http::User-Agent-Non-Interactive "true";
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -976,7 +963,6 @@ emptyscale=magenta
     -->
  			<family>Lohit Telugu</family>
 			<string>sans</string>
-#rpm.rpmva = off
 <!--
 # ldconfig = false
   the ImageMagick option
@@ -1190,7 +1176,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
   dbus bus=fcitx,
 #
   /usr/bin/emacsclient.emacs-snapshot Cxr -> sanitized_helper,
-  <!-- <color name="yellow" color="rgb(255,255,0)" compliance="SVG, X11, XPM"/> -->
+
 Where=/snap/lxd/18150
 # It contains all configuration settings that are customizable by metadata
 # that a module could execute code in the wrong domain.
@@ -1202,3 +1188,12 @@ deb http://packages.azlux.fr/debian/ buster main
   owner @{HOME}/** w,
   format and its respective coder module is defined in this configuration
 
+esac
+
+fi
+		done
+#pam_open_session, the session module out of /etc/pam.d/other is
+" vim: set ft=vim:
+  <!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
+#dumpinquiry
+gtk-icon-sizes = panel-menu-bar=24,24
