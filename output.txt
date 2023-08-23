@@ -8,7 +8,7 @@ required in any way by the specification).  The information may be useful in
 
 	monthly
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-#    the precedence of IPv6 over IPv4 (see below) on machines having only
+Enabled=true
 {% for pool in pools -%}
 •3•D•k•|•£•³•È•×•î•ı•"–1–T–c–y–˜–Í–Ø–ù–—+—9—[—e—…——­—º—İ—é—˜˜G˜R˜s˜„˜«˜»˜á˜ï˜™$™K™Y™}™Š™­™¹™Û™ì™š*šWšfš‹š›šÁšÎšñšÿš#›3›Y›i››Ÿ›Ã›Ò›÷›
 # This file is sourced on all invocations of the shell.
@@ -104,7 +104,6 @@ XClock.Clock.secondColor:	rgba:00/00/ff/80
 # ------------------------------------------------------------------
 
 [Desktop Entry]
-blacklist rivafb
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 
     [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
@@ -158,7 +157,6 @@ previous-engine=@as []
 tcp.flag.psh	u8		tcp+13		0x08		3
 <?xml version="1.0"?>
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.0/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
-	rm -f "$TEXT_FILE"
 #    License published by the Free Software Foundation.
 scsi * * Scanner
 Before=snapd.service
@@ -177,7 +175,6 @@ rocks_trees = {
 japanese.euc	ja_JP.eucJP
 PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
-## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
   /etc/cloud/clean.d/99-live-installer
 
   deny @{HOME}/.mutt** mrwkl,
@@ -227,7 +224,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
     delaycompress
   #include <abstractions/kde>
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
-#usb VENDORID PRODUCTID
+net.ipv4.conf.all.rp_filter=2
 
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # ldconfig = false
@@ -251,7 +248,7 @@ scsi Nikon * Scanner
     <allow send_destination="org.freedesktop.PackageKit"
 
 #include <tunables/global>
-#mount_max = 1000
+# for the user or something like that.  $HOME, $LOGIN and such will all be
 mail.err			/var/log/mail.err
 # their current one is listed in /etc/shells. This keeps
 0x38	AF13
@@ -267,7 +264,6 @@ esac
 # banner-message-text='Welcome'
 <!ELEMENT br ANY>
 
-scsi "RELISYS" "APOLLO Express 3"
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 fi
 Type=oneshot
@@ -290,7 +286,7 @@ if ls /dev/fb* >/dev/null 2>/dev/null; then
 <!ATTLIST %element;
 
 #
-case "$6" in
+       relative URIs in the scope of the element on which it
   @{sys}/bus/{cpu,node}/devices/ r, # libpocl.so -> libhwlock.so
 
 
@@ -298,7 +294,7 @@ case "$6" in
 #
 #
 case $0:$mode in
-# Compose sequences for TIS-620
+    missingok
 switch($TERM)
     done
   /etc/cloud/clean.d/99-live-installer
@@ -318,7 +314,6 @@ exec tail -n +3 $0
   (debian-pkg-add-load-path-item
 # ldconfig = false
     permission javax.crypto.CryptoPermission *, 128;
-	missingok
 email_format=text
 #
 
@@ -568,7 +563,7 @@ Subsystem	sftp	/usr/lib/openssh/sftp-server
 scsi RICOH
 
 [Desktop Entry]
-	;;
+#
 # Each line can contain optional arguments separated by :
 search updates ubuntu built-in
 #    . /etc/bash_completion
@@ -636,7 +631,6 @@ PICTURES=Pictures
     # locale: Cannot set LC_SOMETHING to default locale
 
 *search*manualPage.Label:	Manual Page
-@{multiarch}=*-linux-gnu*
   /etc/bash.bashrc.local           r,
 /MKai-Medium /ZenKai-Medium ;
 # Disallows other than root logins when /etc/nologin exists
@@ -726,7 +720,7 @@ StartupNotify=false
 # You can change settings by editing this file.
 #
 # avoid running multiple times
-
+    ERRMSG="$ERRMSG no "$USERXSESSION" file, no "$ALTUSERXSESSION" file,"
 X-GNOME-Autostart-Notify=true
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
             <string>serif</string>
@@ -787,7 +781,6 @@ if [ ! -x /usr/sbin/logrotate ]; then
   <!ELEMENT type EMPTY>
     %d   domain
 
-/dev/scanner
 
 type=file
 *Scrollbar.width:		14
@@ -804,7 +797,6 @@ if [ -n "$STARTDBUS" ]; then
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 #    License published by the Free Software Foundation.
 
-{
 java.util.logging.ConsoleHandler.formatter = java.util.logging.SimpleFormatter
 *paned.allowResize:		true
 printf '\033%%G' 
@@ -813,7 +805,7 @@ Name=GNOME Settings Daemon's housekeeping plugin
 #
 grant {
 	;;
-#  systemd is free software; you can redistribute it and/or modify it
+X-GNOME-HiddenUnderSystemd=true
 Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 compose '-' ')' to '}'
 jDÅLÒP	À‰éù[¤Ì-ßVD™¿›àb>¡X*~Â€'®ûŞŞì™ÌF_~tÃƒ´oÂ¡’â†M¼cR
@@ -856,7 +848,6 @@ session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_
 -----END PGP PUBLIC KEY BLOCK-----
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 restrict -6 default notrap nomodify nopeer noquery
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
 *directoryFontNormal:		-*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
 usb 0x03f0 0x0105
 XCalc*ti.button48.fromVert:		button43
@@ -874,9 +865,7 @@ deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # ------------------------------------------------------------------
 # vim:syntax=apparmor
 	didn't include the right instructions in the 'prep' table.
-# USB
 
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 ; rlimit-locks = -1
 .  \" command-line options.  Uncomment this if you want to make sure that
@@ -908,7 +897,7 @@ byte-compile = standard
 	<alias>
 {% endfor %}
 BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
-directory), then /lib/terminfo, and last not least /usr/share/terminfo.
+}
 #@{HOMEDIRS}+=/srv/nfs/home/ /mnt/home/
 foreground	gray90;\
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
@@ -927,7 +916,6 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 Where=/snap/lxd/18150
 # It contains all configuration settings that are customizable by metadata
 #
-deb http://packages.azlux.fr/debian/ buster main
 /var/log/ufw.log
       for file in $(find $i -type f -print | LC_ALL=C sort)
 #kdebug n
@@ -1100,7 +1088,7 @@ deb http://packages.azlux.fr/debian/ buster main
    ADDRESS_FAMILIES=""
 #    the "FSU light dispersion error" does not cause the abortion
             . /usr/share/bash-completion/bash_completion
-#    Copyright (C) 2016 Canonical Ltd.
+
 # List of modules that you want to include in your initramfs.
 
     <allow send_destination="net.hadess.SensorProxy" send_interface="net.hadess.SensorProxy"/>
@@ -1198,3 +1186,16 @@ auth		sufficient	pam_rootok.so
 # in /etc/passwd and ignore centralized (AD, IdM, LDAP, etc.) users.
 X-GNOME-Bugzilla-Component=nm-applet
 /HYGoThic-Medium /NanumBarunGothic-Regular ;
+/dev/scanner
+{
+# This file can contain default options for dpkg.  All command-line
+#
+scsi TAMARACK
+XLogo*baseTranslations: #override \
+attributes = compatibility
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+    <edit name="hinting">
+# CLOUD_IMG: This file was created/modified by the Cloud Image build process
+LETTERHOMES=no
+run_im default
+[firefox]
