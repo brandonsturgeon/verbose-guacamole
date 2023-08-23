@@ -27,7 +27,7 @@ usb 0x04e8 0x3441
 •3•D•k•|•£•³•È•×•î•ı•"–1–T–c–y–˜–Í–Ø–ù–—+—9—[—e—…——­—º—İ—é—˜˜G˜R˜s˜„˜«˜»˜á˜ï˜™$™K™Y™}™Š™­™¹™Û™ì™š*šWšfš‹š›šÁšÎšñšÿš#›3›Y›i››Ÿ›Ã›Ò›÷›
 <fontconfig>
 
-
+scsi Nikon * Scanner
 ##
 # This file is sourced on all invocations of the shell.
 #
@@ -40,7 +40,6 @@ Comment=GNOME Keyring: SSH Agent
 
 # Compose sequences for ISO-8859-11
 if [[ -z "$PATH" || "$PATH" == "/bin:/usr/bin" ]]
-# This file contains common DRI-specific rules useful for GUI applications that
 compose '"' 'A' to 'Ä'
 #*)
   </match>
@@ -95,7 +94,7 @@ swedish         sv_SE.ISO-8859-1
 [DHCP]
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
-  <acceptfont>
+#noprecal
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 CRYPTDISKS_ENABLE=Yes
@@ -107,7 +106,7 @@ Bugs: debbugs://bugs.debian.org
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
     // There is no restriction to any algorithms.
 
-# Compose sequences for IBM1133
+DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 # Use DOCKER_OPTS to modify the daemon startup options.
 # Compose sequences for ISO-8859-16
@@ -121,7 +120,6 @@ Comment[as]=PulseAudio à¦¶à¦¬à§à¦¦ à¦¬à§à¦¯à§±à¦¸à§à¦¥à¦¾ à¦†à§°à¦®à§à¦­ à¦•
 # DO NOT EDIT OR REMOVE
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
 DISTRIB_CODENAME=jammy
-label=magenta,
 
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 #
@@ -145,7 +143,7 @@ auth	required	pam_nologin.so
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 application/vnd.anser-web-funds-transfer-initiation
 ‹]ÒÇj[A†á½¯b°Z·G³±§A¼ÓæH:‰¶#’àÒ{ï½÷Ş{ÌåÿŞì²xg`àY|Cn[Ù-{E¿l»­½jÑÍmI#ıÅ¥…Ñz³Óít]s×¦!·bÇ¹ó…ÒõÊ¢í
-X-GNOME-Bugzilla-Bugzilla=GNOME
+#  * and that the path value is quoted
 # should not normally be necessary (under Linux at least).
 # shells invoked with the -l flag.)
 
@@ -299,7 +297,7 @@ rocks_trees = {
  * and edit it there.  That way, your changes will be kept next time
   /dev/console rw,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
-brandon:100000:65536
+# Compose sequences for GEORGIAN-ACADEMY
 
 font='Monospace 16'
 
@@ -331,7 +329,7 @@ DelayedActivation=false
 #
 <fontconfig>
 	cache_settings {
-# Where to place spool and state files
+SECTION		1 n l 8 3 2 3posix 3pm 3perl 3am 5 4 9 6 7
     <allow send_destination="net.hadess.SensorProxy" send_interface="org.freedesktop.DBus.Peer" send_path="/net/hadess/SensorProxy/Compass"/>
 *internalBorderWidth:		0
 
@@ -360,7 +358,6 @@ Vendor-URL: http://www.ubuntu.com/
 # the value 'auto' will make the backend find the correct value
 name = NSS
 Title=Enable UEFI capsule updates on Dell systems
-# This directive enables kernel synchronisation (every 11 minutes) of the
     rotate 1
 # Turn on Source Address Verification in all interfaces to
 # for input method.  Thus moved from 80 to 70.
@@ -471,7 +468,6 @@ SHELL=/bin/sh
                                   (symbol-name debian-emacs-flavor)
 # shiftr shiftl alt keycode 37 = Decr_Console
 serif.symbol.bolditalic=Symbol
-#    modify it under the terms of version 2 of the GNU General Public
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 EnumerateAllDevices=false
@@ -488,7 +484,7 @@ Exec=/usr/libexec/gsd-wacom
 <?xml version="1.0" encoding="UTF-8"?>
 
 # PPP up hook script for resolvconf
-compose '\'' 'o' to 'ó'
+fi
 nssDbMode = noDb
 #/dev/usb/scanner0
 LANG=C.UTF-8
@@ -543,7 +539,7 @@ done
 # You can even override a supported extension:
 KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
-esac
+X-Ubuntu-Gettext-Domain=gnome-keyring
 #
 	# the local host, which is determined by system_id_source.)
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
@@ -581,13 +577,12 @@ m§lj'‹©ZjUJŸ¤m“™Ìb¹üG«¹ôOë¥ß¯7Dòö
 
   /usr/lib{,32,64}/python{2.[4-7],3.[0-9]}/{site,dist}-packages/ r,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
-# or by launching either "byobu-screen" or "byobu-tmux" instead of "byobu".
+  # User files
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
 #
   if [ -x $UUIDGEN ]; then
 
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
-ETHTOOL=/sbin/ethtool
 APT::Archives::MinAge "2";
 
 # set this to 0 to disable apport, or to 1 to enable it
@@ -660,7 +655,6 @@ BRIDGE_HOTPLUG=no
 
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
 
-
 XClock.Clock.hourColor:		rgba:7f/00/00/c0
 # does not work or could not work correctly
 # Compose sequences for ARMSCII-8
@@ -678,7 +672,7 @@ scsi RICOH IS60
 
 #
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-#children_max=
+_log:
 disable_root: true
 # Compose sequences for GEORGIAN-PS
 man:x:12:
@@ -728,7 +722,7 @@ Bugs: debbugs://bugs.debian.org
 speed=115200
 !ŠÅÉù=7a©|ªg¢_Çû¢ÿÎ$êï1×hègõöÛë™LÏÆŸÖòïÏÙ¸aƒ•.W,V«Í*ÎIš&ÊÕê`¿’3‰şA;Ø/Äq5ë;OÖ_?©À¡Q¾×?C¹v¿ô
 compose '\'' 'n' to 'ñ'
-# DO NOT EDIT OR REMOVE
+#!/bin/sh
        bus=session
 
 # Compose sequences for GEORGIAN-PS
@@ -786,7 +780,6 @@ SETTINGS="$(gather_settings HARDWARE_DMA_RING_)"
 		</test>
 
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
-#OK		"AT+CPIN=1234"
 
 GenericName=Demo geoclue agent
 #!/bin/sh
@@ -813,7 +806,7 @@ Type=Application
       We shouldn't overwrite it with "assign" unconditionally.
 #     then changes to /home will go through to the original device.
         machine_id=$(cat "${etc_dir}/machine-id")
-# if running bash
+# grub-mkconfig when init-select was removed but not purged.  This file does
 # Read man sane-mustek_usb for documentation
 # To use a specific scsi device
 #
@@ -865,7 +858,7 @@ if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 scsi ULTIMA
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
-#   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
+# the port address for your scanner.  You can enable multiple lines if
 #
 # IPMI_Chip_Set_Transition_Severity_Informational                                    Nominal
 	</match> 
@@ -909,7 +902,7 @@ DAEMON="/lib/systemd/systemd-udevd"
 255 193 193		RosyBrown1
 
 if has_option use-ssh-agent; then
-
+#
 APT::Periodic::Update-Package-Lists "1";
 #     /etc/cloud/cloud.cfg or cloud-config from user-data
     'debug': {
@@ -1151,3 +1144,16 @@ Name=GNOME Settings Daemon's Wwan plugin
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
   if [ ! -d $PIDDIR ]; then
 ::1 localhost ip6-localhost ip6-loopback
+</catalog>
+
+#   that it contains both keys with /proto and without /proto for both
+
+{% endif %}
+# This file is a simple placeholder to keep dpkg from removing this directory
+# Compose sequences for ISO-8859-8
+
+
+{% for server in servers -%}# servers
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
+#Username=
+/GothicBBB-Medium /Japanese-Gothic-Regular ;
