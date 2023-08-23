@@ -95,7 +95,6 @@ audio/x-mpegurl=rhythmbox.desktop
     export CLUTTER_IM_MODULE
 // Pre-configure all packages with debconf before they are installed.
 # configuration options for /etc/X11/Xsession
-# An integer and % (e.g. 50 %) - use a percentage of the amount of RAM.
 #parport0
      <choice>
 	<match target="font">
@@ -126,13 +125,12 @@ XClock.Clock.secondColor:	rgba:00/00/ff/80
 # raid1
 {
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
-#
+# IPMI_System_Event_Transition_Severity_No_Event                                         Nominal
 
 [Desktop Entry]
 
 blacklist rivafb
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-Include /etc/ssh/sshd_config.d/*.conf
 
 setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz' 
 /dev/scanner
@@ -171,7 +169,6 @@ session		optional	pam_keyinit.so force revoke
 
 *ispell*options.horizDistance:		2
 [fwupd Remote]
-type=file
 
 	        # check because c-n-f could've been removed in the meantime
 # This file is sourced by Xsession(5), not executed.
@@ -199,9 +196,7 @@ Before=snapd.service
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 [Sleep]
 #    Copyright (C) 2012 Canonical Ltd.
-                    Schema Recommendation</a> forbids the declaration of
 
-# pam-auth-update to manage selection of other modules.  See
 /dev/scanner
 #option maxread 65536
 rocks_trees = {
@@ -219,7 +214,7 @@ PICTURES=Pictures
   deny @{HOME}/.mutt** mrwkl,
 =RFA4
 #
-usb 0x05da 0x30d4
+
 # vim:syntax=apparmor
 
   manage_etc_hosts: True
@@ -238,12 +233,10 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 XLoad.input:			false
 #
 }
-#    This program is free software; you can redistribute it and/or
 #!/bin/sh
 [fwupd Remote]
 # javax.sound.sampled.TargetDataLine
 
-*customization: -color
 # Compose sequences for TIS-620
 Name=GNOME Settings Daemon's USB protection plugin
 # install prefixes.
@@ -276,7 +269,6 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
   #include <abstractions/kde>
     #@VERBATIM_LIBEXECDIR_SNAP_CONFINE@ mr,
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
-# Any customisation or reliance on the existence of this file and its
 #usb VENDORID PRODUCTID
 
 
@@ -411,7 +403,7 @@ create_machineid() {
 # This file is sourced by Xsession(5), not executed.
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
-  #
+        log_end_msg $?
     permission java.util.PropertyPermission "path.separator", "read";
 #
 # exit if custom kernel does not need an initramfs
@@ -430,8 +422,7 @@ KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 # libc default configuration
 }
 		<prefer>
-America/Los_Angeles
-OK           ATDT<put phone number here>
+
 15	ntk
 /var/log/btmp {
 
@@ -598,7 +589,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 8x13         -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 	do_stop
 # how to byte-compile (comma separated: standard, optimize)
-daemon:x:1:
+
 # security of the host and prevent against some network attacks
 By default, Java provides two different sets of cryptographic policy
   00_*: Reserved for 00_header.
@@ -642,7 +633,7 @@ DAEMON="/lib/systemd/systemd-udevd"
 255 193 193		RosyBrown1
 	    <family>NanumGothic</family>
 #
-		       send_interface="org.freedesktop.DBus.Introspectable"/>
+# Add an "alert" alias for long running commands.  Use like so:
 
 Categories=System;Monitor;GTK;
   if [ -x /usr/bin/x-session-manager ]; then
@@ -700,11 +691,10 @@ Name=User folders update
 # -Z Disable the power-saving function of certain Seagate drives
 -->
 	notifempty
-### END INIT INFO
+'ßß^Ò9ÏE}BKß³,ÅÆ]ÊU: œišÚï²°<Ÿ‡l+epR1$Ïo1#PŒO#ÃtAcU¨İ>àQPÏñ0V’°‚…ØƒË"d¼-¸%ÕT¢¸ê­’¤$ Á†µJjGÏ.V•TËÎšÛj´¦²ÛA†'w÷j Bl8Î×uP2’Âß+0"HĞÕA8%]¤é]ŸÆ”uĞEı0—C«
 †ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ğëŸ
 	compact_output_cols=""
 Vendor: Debian
-
   /dev/xconsole                 rw,
 #
 option buffer-size 32768
@@ -738,7 +728,6 @@ arch=`dpkg --print-architecture`
 order hosts,bind
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 @include common-password
-# real-time clock. Note that it canâ€™t be used along with the 'rtcfile' directive.
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
        path="/com/canonical/hud",
 #port=/dev/tty01
@@ -837,11 +826,11 @@ APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 scsi FCPA
 <?xml version="1.0"?>
 Acquire::Changelogs::AlwaysOnline "true";
-
+    daily
 			<string>HYSong</string>
 rocks_trees = {
 # The PAM configuration file for the Shadow 'newusers' service
-  /usr/bin/konsole ix,
+  </alias>
   owner /var/run/user/*/weston-shared-* rw,
 #verify = yes
 
@@ -867,7 +856,7 @@ fi
 #               -> put the port that you use instead of '88'.
 # $ systemctl edit --full cron.service
 #dumpinquiry
-#udev_log=info
+# 
 build_name: server
 Acquire::http::User-Agent-Non-Interactive "true";
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -928,7 +917,6 @@ POOL=""
 # Defaults can be restored by simply deleting this file.
 # set start_ro=1 to make newly assembled arrays read-only initially,
 # specifically which process will be using PTRACE on the debugee:
-
             <string>serif</string>
 # on a file, 2 seconds after the second failure, etc. up to this max).
 # If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
@@ -1002,7 +990,6 @@ X-GNOME-AutoRestart=true
 if [ ! -x /usr/sbin/logrotate ]; then
 # Specify file containing keys for NTP authentication.
 
-
   <!ELEMENT type EMPTY>
 # on this system.
 
@@ -1066,7 +1053,7 @@ BYOBU_BACKEND="tmux"
 #
            send_interface="org.freedesktop.DBus.Properties" />
 Icon=nm-device-wireless
-Q¡S2ŞÒ>’OFÿ–%ºQ[Z1^µ¡}	‰
+## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
 sleep_then_check &
 127.0.0.1	www.frankvoce.com
   cat /etc/ppp/resolv.conf
@@ -1197,3 +1184,13 @@ fi
   <!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
 #dumpinquiry
 gtk-icon-sizes = panel-menu-bar=24,24
+#include <tunables/share>
+
+<!ATTLIST type fullname CDATA #IMPLIED>
+/var/log/wtmp {
+# The maximum credit for having digits in the new password. If less than 0
+
+  "file:///usr/share/xml/schema/xml-core/catalog.dtd">
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+  network raw,
+/usr/local/lib/x86_64-linux-gnu
