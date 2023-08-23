@@ -43,7 +43,7 @@ search updates ubuntu built-in
     </alias>
         # This line will fix the labeling on all newly created directories
 
-LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
+# This file is a simple placeholder to keep dpkg from removing this directory
 
         <policy user="root">
 
@@ -54,9 +54,8 @@ password	include		su
 xterm
 # This file is a simple placeholder to keep dpkg from removing this directory
 ## possibly not what you want... On first reading, you might think this
- 			<family>AR PL Zenkai Uni</family>
 scsi DEVCOM * Scanner
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+
 
 Alias /javascript /usr/share/javascript/
 # Compose sequences for GEORGIAN-PS
@@ -230,7 +229,6 @@ PPP_LOCAL="$4"
                     Schema Recommendation</a> forbids the declaration of
 
 # pam-auth-update to manage selection of other modules.  See
-
 /dev/scanner
 #option maxread 65536
 rocks_trees = {
@@ -242,7 +240,7 @@ font='Monospace 16'
 15	ntk
 # On Debian/Ubuntu systems, this is in /var/run/screen, but on
     exec /usr/lib/update-notifier/update-motd-reboot-required
-OK		ATDTT
+# subpath mappings from mount point for pinning
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 	elif [ -e "/etc/byobu/autolaunch" ]; then
   /etc/cloud/clean.d/99-live-installer
@@ -296,7 +294,7 @@ fi
 # the file system.
 /usr/sbin/gdm3
         <test name="lang">
-twm
+exec tail -n +3 $0
 127.0.0.1	www.paginebiamnche.it
 #∫ˇ∏ÊdJ¥
   /etc/X11/app-defaults/XTerm r,
@@ -406,9 +404,8 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 twm
 -->
 # eliminate DISABLE
-XClock.input: false
+#    Copyright (C) 2014 Canonical Ltd.
 #
-    import apport_python_hook
 if ls /dev/fb* >/dev/null 2>/dev/null; then
 # inclusion by distributed profiles to aid in packaging AppArmor for
 {% endif %}
@@ -416,7 +413,7 @@ if ls /dev/fb* >/dev/null 2>/dev/null; then
 fi
 DEFAULT_OUTPUT_POLICY="ACCEPT"
 case "$6" in
-helpline=,magenta
+*Blank1Inc-button.fromHoriz: Blank1-text
 
 
 NoDisplay=true
@@ -513,7 +510,7 @@ roottext=,magenta
 # Compose sequences for ISO-8859-5
       <setting name="period">beginChunk</setting>
 #
-56f12ada18a3412ab1f9dcd69450be95
+L9ItWY16Ck6WaVICqjaY7Pz6FIMMNx/Jkjd/14Et5cS54D40/mf0PmbR0/RAz15i
 127 127 127 		grey50
 # The following is a space-separated list of where additional user home
     permission java.util.PropertyPermission "java.class.version", "read";
@@ -540,7 +537,6 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
 # does not work or could not work correctly
 # Compose sequences for ARMSCII-8
 /MOESung-Regular /ShanHeiSun-Light ;
-root:x:0:
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 #
 # See sane-microtek2(5) for a description of the options
@@ -562,7 +558,6 @@ group:          files systemd
 
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/*-linux/**.so mr,
 
-# Compose sequences for GEORGIAN-ACADEMY
 # You can change settings by editing this file.
 server {{server}} iburst
 <?xml version="1.0"?>
@@ -611,7 +606,6 @@ Name=GNOME Settings Daemon's housekeeping plugin
 # The format of port-name is dependant on your OS version.
   /var/log/lastlog  rwk,
 #!/bin/sh
-/dev/scanner
 
 AUFS_MAX_NAMELEN=242
 /dev/scanner
@@ -749,7 +743,6 @@ port=/dev/ttyS0
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 # minclass = 0
-
 #
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 # This argument is used when the -n flag is specified.
@@ -863,7 +856,6 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
 # specify the provider and priority in the format
 
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
-	run_sdptool || :
 # Compose sequences for ISO-8859-8
 . /usr/share/bash-completion/bash_completion
  - chef
@@ -879,7 +871,7 @@ LANG=C.UTF-8
 *ÜHŒ=h0e1Âi…n€∆1∫	A·ó¯˚˝ö‚}…Ì|d”À%ãVŸ†Á^]NÉú[v)†	&!jb0q“µè\Í;·x	Ö®uí;»\˝HÔt"®‚n≈IŒ«ºßaiÒ˜;·*À˘+Ûfê7"debian:digicert_global_root_g3.pem8P_1X.509C0Ç?0Ç≈†UVºÚ^§55√§’´Er0
 
 #   If a pattern includes a "=", it sets a limit.
-# Compose sequences for VISCII
+#
 @include common-session
     (if (file-exists-p
 # Compose sequences for ISO-8859-16
@@ -931,7 +923,6 @@ APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
 </catalog>
 
-#   that it contains both keys with /proto and without /proto for both
 
 {% endif %}
 # Compose sequences for ISO-8859-8
@@ -944,11 +935,10 @@ zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
 # set this to 0 to disable apport, or to 1 to enable it
   /usr/bin/apport-bug Cx -> sanitized_helper,
 *internalBorderWidth:			0
-r16          -sony-fixed-medium-r-normal--16-*-*-*-*-*-jisx0201.1976-0
+
 # Compose sequences for ISO-8859-5
 # Common rules for Qt5-based applications
     exec /usr/lib/update-notifier/update-motd-fsck-at-reboot
-mQENBFWt/98BCADZ4+lUHSp4OMlzVf4HlJNLJ7Ks5QxGwL/hy2wChoNLuA/j4GNM
 #    modify it under the terms of version 2 of the GNU General Public
 # applications have "Help -> Switch Application Language..." option, that needs
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
@@ -1183,7 +1173,6 @@ Name=GNOME Settings Daemon's housekeeping plugin
 grant {
 	;;
 Vendor: Debian
-#    Copyright (C) 2002-2005 Novell/SUSE
 			<string>AR PL New Sung</string>
 #
 jD≈L“Pçù	¿âÈ˘[§Ã-ﬂVDôøõ‡b>°X*~¬Ä'Æ˚ﬁﬁÏôÃFû_~t√É¥o¬°í‚ùÜMºcR
@@ -1198,3 +1187,18 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
     if [ -e "$dmi_path" ] && read vendor < "$dmi_path"; then
 56f12ada18a3412ab1f9dcd69450be95
+z¥Ë}z÷£m¬∏∫˜®ÌÍ÷".‚"Ó¡qõŒÏLËuﬁªl≈P†x¶BªÈ=›ØõÓÿ√eÂÀÛ‰z•Ωf8ˆè}¨ˆøM/@>ÁIñ◊|x]˝È≠:\Ó}äëÈG“zÕ±˚»Æ !≈ãsıÄx‡AøOÎWªöÈ˝ƒó‰˙¶‹£|ø÷¢Ì{0¬ ÃÀ£ı"z˚vΩƒvºõv5–ìº≥Ï€äg*¥´ëqö›óımÚ"À˘]2ﬂ7Nœ¸#=´´€°	jÔ◊ÀKT®P=C•ıFöy˜Ö≠≤;6§‚∏˜¥z"!“ãà‘ÙÆπ¸N“€5çjÕ◊ZtÏ9L¿L~r&*π–,9“5j‘«Wk˜ÒÙÃËs¥-XG˘:g—mG	{ÿø {ı”Hù·∑,Yû?¨.´ﬁ¢¡!Û∆⁄Ûò)i˚Mêÿo7ŒŒŒŒŒŒŒ»>#ÍÊD~“˜,πK*Q!z(∫S3Óº¿º¿ÀÇ¥±*Ù6ˇ4-±Ô¶]Ù6πÔØyî(è†TΩ¡êëõ´aä´WCs5ÑΩè®üjŸÿ9´Ë@@@@?1zUîy≤æ.N¢‚d[l£Ù’ˇbó}¨c…
+	                echo failed.
+# symbolic names for networks, see networks(5) for more information
+#    /etc/overlayroot.local.conf
+  /usr/share/X11/**               r,
+}
+  owner @{HOME}/.fonts.cache-2          mr,
+	weekly
+BYOBU_BACKEND="tmux"
+  /usr/bin/epiphany-webkit Cx -> sanitized_helper,
+#               -> put your type of protocol instead of 'https' : http or https.
+  . "$USERXSESSIONRC"
+
+#
+           send_interface="org.freedesktop.DBus.Properties" />
