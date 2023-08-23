@@ -66,7 +66,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
     # locale: Cannot set LC_SOMETHING to default locale
 
 
-binary::apt::AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # -k disable/enable the "keep_settings_over_reset" flag for this drive
 APT::Archives::MinAge "2";
 # This file is sourced on all invocations of the shell.
@@ -123,7 +122,7 @@ search updates ubuntu built-in
 # that will become kernel vars at some point
 
     exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
-   fi
+session		include		runuser
   # Include additions to the abstraction
   include if exists <abstractions/user-download.d>
   </edit>
@@ -134,7 +133,6 @@ search updates ubuntu built-in
 # Reserved protocols.
         <policy user="root">
 
-ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 # Compose sequences for TIS-620
 
 #%PAM-1.0
@@ -154,7 +152,6 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 #    License published by the Free Software Foundation.
 # Compose sequences for IBM1133
 #!/bin/sh
-# @{PROC} is the location where procfs is mounted.
 
 *scrollMenu.vertical.label:		Vertical
 		<edit name="family" mode="prepend" binding="strong">
@@ -174,7 +171,6 @@ lock
 /var/log/boot.log
 #canon.conf
 # and user name in $4.
-# /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
 *form.invert.label:			Invert
@@ -205,7 +201,7 @@ session    required   pam_env.so readenv=1 user_readenv=0
 		<test qual="any" name="family">
 
 driftfile /var/lib/chrony/drift
-if [ -x /usr/lib/update-notifier/update-motd-fsck-at-reboot ]; then
+auth    requisite       pam_nologin.so
 #
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
 blacklist dv1394
@@ -249,7 +245,6 @@ Title=Vendor
 # symbolic names for networks, see networks(5) for more information
 swedish         sv_SE.ISO-8859-1
 www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
-
 </fontconfig>
 XClock.input: false
   #
@@ -285,7 +280,6 @@ set -e
 
 #net.ipv4.tcp_syncookies=1
 QUIET=0
-  monthly
 
 #
 compose ''' 'i' to 'í'
@@ -310,7 +304,7 @@ DISTRIB_RELEASE=22.04
 # ------------------------------------------------------------------
 # This directive specifies the file into which chronyd will store the rate
 }
-#
+     export XDG_DATA_DIRS
 	inet_domain => undef,
 compose '-' 'L' to 'Ù'
 
@@ -352,7 +346,7 @@ fi
   /usr/share/dpkg/** r,
     if [ -f "$HOME/.bashrc" ]; then
 auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
-  <xs:annotation>
+@{XDG_PUBLICSHARE_DIR}="Public"
 ## Uncomment the following two lines to add software from Canonical's
 
 # Compose sequences for ISIRI-3342
@@ -419,7 +413,7 @@ gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologi
 
   /tmp/.X11-unix/* rw,
 version="$1"
-	</alias>
+# If you want to globally change where snmp libraries, commands and daemons
 #
 # Example (generic):
 
@@ -519,11 +513,10 @@ compose ')' '-' to '}'
 FileDescriptorName=unix
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
 
-127.0.1.1 {{fqdn}} {{hostname}}
+# never load them automatically.
 
 # Example configuration file for the GTK+ Multipress Input Method
 # shellcheck source=/dev/null
-	thin_pool_chunk_size_policy = "performance"
 	cache_pool_chunk_size = 64
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+(\[[0-9]+\])?: DIGEST-MD5 common mech free
 scsi Nikon * Scanner
@@ -591,7 +584,7 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
 # Turn on Source Address Verification in all interfaces to
 # grub-mkconfig when init-select was removed but not purged.  This file does
 with something the package builder needs later. It must end with .conf though.
-#    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # set start_ro=1 to make newly assembled arrays read-only initially,
 [PStore]
 ##
@@ -657,7 +650,6 @@ ExecStop=/usr/bin/snap run --command=stop lxd.daemon
 set -e
 
 
-# resolution. For example, if '/usr' is on removable media:
 #    Copyright (C) 2012 Canonical Ltd.
 
 # Legacy biarch compatibility support
@@ -668,7 +660,6 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPgz4pnxGhnRPbzreFbZerylDneftGZKsHIMpC8KatK7pqmHPjs4EKWjSn8XoIk/uA5NccoESmo/ao5YVw= root@LAPTOP-5TIN5O4V
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
     done
-{% for server in servers -%}
 # set start_ro=1 to make newly assembled arrays read-only initially,
 ñs’Ö+š,‚Ø€Íf£‚\qã®8™•ÎHDrbÏø>j.ñ§Éò°ÜÀ¢N¡·nÁÌÀÌb¦‚›‡µµH±¶–6ƒýÍ»Ë·»(·ÑýùrwùªV{¨|ZkàÎàÎ=à¬‚5›aÿ"Êqô÷PÃTþ>°gl£ýà7Òê›1bÙÈ.À7|Ãw§¾Õ`g3h_åit~yžkˆ!B„øEŒÙÞÅþ+Ö›eID.5Ñ;vŒ¦5Ú²T×öö©àáÐT•ƒrÂf’.\Zä©JJt'TIÑ¬F[ŠºžÙs÷©àáÐT©AÉfL.ØPÕ†·Ý)­LÑ¼F+Å‘®göFûTp‡phªÔ d3t¨ÕðÖDwF½ÓÃÔh¥èézfÏÛ§‚C8„CS¥%›q· Cu¨Ý+ÑSïôð†5Z)Žu=³7Þ§‚C8„CS¥%›)¶ Cu¨Ý+q4 ?«ôðÜ­'ºžÙ›ìSÁ!Â¡©Rƒ’ÍX[Ð¡:Ôn•8RïôðF5Z)Nu=³7Ý§‚C8„CS¥%›™´`·ÈjxkâÈ¥Þéáy5Z)Ît=³7Û§‚C8„CS¥%›!¶`·Èjxkâˆ=¢‡7®ÑJq®ë™½ù>Â!š*5(gÅä:V]íŠGuÏMj´åoð@¯PXÔŠìZø…_ø=Ú¯Ìl&ÐÏ»Ÿ*T
 # invoked with "-" as the first character of argv[0], and
@@ -739,19 +730,17 @@ fi
 fi
   # Note that anything that is D-Bus-activated between here and
 fi
-[fwupd Remote]
+bazaar-properties.desktop
 
     fi
   <description>Enable sub-pixel rendering with the vertical BGR stripes layout</description>
 
-  # System devices
 
-  /usr/bin/gxmms Cxr -> sanitized_helper,
+  <!-- <magic name="GIF" offset="0" target="GIF8"/> -->
 alias net-pf-36 off
 # DO NOT EDIT OR REMOVE
 
     while(<$plist>) {
-#    exitCode may be incremented.
   	if [ -r $CACHE ]; then
 
 # Skip if systemd is running.
@@ -767,7 +756,6 @@ alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIB
 # Don't try to change I/O priority in a vserver or OpenVZ.
 APT::Archives::MaxSize "500";
 	elif [ -e "/etc/byobu/autolaunch" ]; then
-
 
 
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
@@ -861,8 +849,7 @@ scan-data-timeout 15000
         fi
 	elif [ -e "/etc/byobu/autolaunch" ]; then
 #!/bin/sh
-#ClientAliveCountMax 3
-#	is a logic list of terminal names that this rule applies to.
+  /etc/cloud/clean.d/99-live-installer
 
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 #
@@ -913,7 +900,7 @@ handleStartupErrors = ignoreMultipleInitialisation
 X-GNOME-Autostart-Phase=Initialization
 }
 #
-#    License published by the Free Software Foundation.
+    <allow own="com.ubuntu.SoftwareProperties"/>
 blacklist tdfxfb
 scsi "B&H SCSI"
 // Country-specific policy file for countries with no limits on crypto strength.
@@ -1001,7 +988,6 @@ name = NSS
 #
   @{HOME}/.profile                 r,
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-# nf_conntrack_tftp, nf_nat_tftp: TFTP support (server side)
 # This directive enables kernel synchronisation (every 11 minutes) of the
 #Samsung MFP-560 Series
 # libc default configuration
@@ -1044,3 +1030,13 @@ if [ -d /var/run ]; then
 STARTSSH=
 [storage]
   # system library
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
+gt68xx
+  /usr/bin/Dooble Cx -> sanitized_helper,
+ABORT		"NO DIALTONE"
+#    Copyright (C) 2014 Canonical Ltd.
+  <!-- This configuration file specifies the required security policies
+#
+# times
+		<edit mode="assign" name="embeddedbitmap">
+    <allow send_destination="org.debian.apt"/>
