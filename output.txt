@@ -3,7 +3,7 @@ Ubuntu 22.04 LTS (Jammy Jellyfish)
 Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-  </alias>
+!?ñ9_¿5.û„?'/[[ŸÄC
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 # Here is the list of possible values:
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
@@ -129,7 +129,6 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
  * and edit it there.  That way, your changes will be kept next time
 # vim:syntax=apparmor
-  # global tmp directories
 Description=Mount unit for snapd, revision 15904
     <allow send_interface="org.debian.apt.transaction"/>
 DEFAULT_LOUD=""
@@ -175,7 +174,6 @@ fi
    formatter=simpleFormatter
     export CLUTTER_IM_MODULE
 # the terms of the GNU General Public License as published by the Free Software
-X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 LOGLEVEL=low
 #  (at your option) any later version.
 #export http_proxy="http://127.0.0.1:3128/"
@@ -264,7 +262,7 @@ fi
 		      $iosched_idle 
 # at bash-completion startup for now, to ease the transition to a
 
-! XMore.ad
+# Default-Start: 2 3 4 5
 
 
 description=OpenSSH is a free implementation of the Secure Shell protocol.
@@ -273,7 +271,7 @@ if [ "$INITRD" = 'No' ]; then
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 }
 
-.}
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 [localization]
 # Default-Stop:
 fi
@@ -321,7 +319,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 /usr/sbin/gdm3
 #MaxLevelSyslog=debug
 # no matching entries are found elsewhere.  For more information see the
-# This file contains common DRI-specific rules useful for GUI applications that
 
 # definitions of existing MD arrays
 [usb]
@@ -371,7 +368,6 @@ Name=AT-SPI D-Bus Bus
 # in the toplevel profile. Eg:
 
 Before=snapd.service
-
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
     else
 		https://*)
@@ -407,9 +403,9 @@ KpPDkC55gIDvEwRqFDu1m5K+wgdlTvza/P96rtxcflUxDOg5B6TXvi/TC2rSsd9f
 font='Monospace 16'
 #    memory for data transfer between the reader process
     done
-^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])? md: md[[:digit:]]+: (data-check|requested-resync|resync|reshape|recovery) done.$
+  RESOURCEFILES=$(run-parts --list $SYSRESOURCES)
 #
-{% endfor %}
+if [ "$RUN" = "yes" ]; then
   #include <abstractions/gnome>
 	# Configuration option local/system_id.
 ## If the coloring rule should span multiple lines, use the following format:
@@ -418,12 +414,12 @@ font='Monospace 16'
   /etc/cloud/clean.d/99-live-installer
 # See comments in /etc/login.defs
             <family>Sazanami Gothic</family>
-# prevent some spoofing attacks.
+
 =RFA4
   #include <abstractions/base>
 # found. Default is to true which will allow any peer to access anything.
 #
-eval $(/usr/bin/locale-check C.UTF-8)
+# DO NOT EDIT OR REMOVE
 
 				fi
 	<policy user="root">
@@ -438,7 +434,7 @@ DelayedActivation=false
 #
 #!/bin/sh
 scsi "B&H SCSI"
-	result=0
+	cache_settings {
 
 <!--  Disable sub-pixel rendering --> 
 $x-display-manager gdm3
@@ -454,7 +450,7 @@ CRYPTDISKS_MOUNT=""
 XLoad.input:			false
 Oğô„=i£‹­Ù;'«¼MrF‚T=pnÙva·[»ÚÕÌŞw¼?^ç¤?Æš·CÃÜ<7Ú(bb_ÇKı=´«=É;Knc$H¾P¢]ÅÖä.—·É‹$-î’‹²Ó$°ËŸÓ²ºº‡lÁÛqFÒ2d_ ÓF#[É÷l’Ò&+&„X¯mx‚§'á©]s±ïÒë˜Í*¶şka)o#ÓLÀL¾q&*¸°'Xb¦!räÈû—k÷ñì™Ñ;—Kú2%şÚ’¢>ê?¡úê§‘†_“pyq¿¹¢£EÛ¬8UÉc–¸¶Tâ°bœœœœœœœ‘Ï|FÔÍ‰Ø"ø,¼	)T{(ğÒªi+o¼À¼À«AÒæª°·ù/¢Gíj`o“ëşšGŠ´©î±±±¼&¸p5”WÃ´ö5Dˆ!BìXÔ¢ñğÈ]Ö!A‚é–eyÆ3ÇÏœ]¶ó£gr~¹&NÄ9‰s'Y9ùu˜9«0"ÎmEÎqüí–ÄK²tò„j‰³»8‘ŸìòçÂÆ*‰¢ä–Zw¨?vÈ¿ÙR3×É-k¹ñ×„İÿ»“İ†yp]˜ãc¶xèOŒEñ†Æ—EÍµ^“VÛ¦ä&Lv™¬øümô!’Í†‘ÏˆÂ˜Ğ$©sÆ»»çós’‡¡ÕüÜ!7$½§]-ØR+)ÙFaàç´—¬‰O{¾M²,¼¢tnühGMç†8›d®B’fNv®òè¯<O©Æ;ÈSÚöÏ\W”pµã§„raÿcšì¶™3|şÜcv{ó’Ue§ hf¼*í÷*¼+Ü^¥ÉšÄÎ+›'ÁÚ¹½¦¨èYyÚh«0.ÎHXüâQ¦ä/Å9òé_&òwp4)–f©•ÕT/Ù¶©–¶­ÖÒ(ïq»Z™lÉöAåvÌ3ÊşÌÓ·z¨9£uÕÒ¶ÕZµœÑÚZ™lÉ¶ñŒVÚĞF:*ØuùBGc¶£’ØY¤„¼¼8svûFùß™g@ÿ§ç»ß¿sXöS‘Å‘£gYjÙóŠÛ˜²ÆknãM‘İä–myãmÿNı‚Ş
 allocation {
-*form.move.radioGroup:			copy
+@include common-account
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 OnlyShowIn=GNOME;
 #!/bin/sh
@@ -465,7 +461,7 @@ OnlyShowIn=GNOME;
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
 # Compose sequences for ISO-8859-6
 
-	rotate 4
+*customization: -color
 # Compose sequences for TIS-620
 #  if no sources are feeding it, so this may help when apps use more than the
 # System-wide GDB initialization file.
@@ -561,7 +557,7 @@ session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default
     monthly
 XKBMODEL="pc105"
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
-/usr/lib/firefox/firefox
+# local modules either before or after the default block, and use
 # This file is a simple placeholder to keep dpkg from removing this directory
      o Declarations for and references to external parameter entities
 # generate the popularity contest data
@@ -597,7 +593,7 @@ LANG=C.UTF-8
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 
 17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
-esac
+-server KNOWN
          cloud-init dhclient-hook down "$interface";;
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 PPP_DISC	8863		# PPP over Ethernet discovery stage
@@ -616,8 +612,6 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 	daytime_hosts => [ qw {} ],
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 SHELL=/bin/sh
-  audit deny @{HOME}/.*/ rw,
-  <type name="NewCenturySchlbk-Italic" fullname="New Century Schoolbook Italic" family="NewCenturySchlbk" foundry="URW" weight="400" style="italic" stretch="normal" format="type1" metrics="C059-Italic.afm" glyphs="C059-Italic.t1"/>
 # This mechanism that does not depend on a system service to operate.
 # Uncomment the following if your scanner is connected by USB,
   exec /etc/ppp/ipv6-down.local "$@"
@@ -640,7 +634,6 @@ X-GNOME-Bugzilla-Version=3.36.0
 # troubles on misconfigured networks
 scsi IBM 2456
 IPT_MODULES=""
-		<default><family>emoji</family></default>
 Exec=/usr/libexec/gsd-wacom
 #
         <Key>q:         quit()\n
@@ -710,11 +703,10 @@ rtcsync
 done
 	<alias>
 
-
                     <a href="http://www.w3.org/TR/xmlschema-1/#no-xsi">the XML
 
 /Helvetica-Narrow-Bold /NimbusSanL-BoldCond ;
-
+#       from the USB subsystem. If you're not using the
 	Œö:ÓğoÆY$ÿwº>hÇpW:ÿ‰¿ØÛ6ä_£ V2FÚO“Çùfxá0}
 # You can even override a supported extension:
 #
@@ -933,7 +925,6 @@ autoload -Uz compinit
 group:          files systemd
 
 # DO NOT EDIT OR REMOVE
-
 #!/bin/sh
 @include common-password
   </its:rules>
@@ -1008,7 +999,6 @@ S|²Ç—?=ÒrúÛtK-mŠn“6„]9ö¹FğÕ2şÛ‰O­Š—
 
 
 Name=GNOME Settings Daemon's housekeeping plugin
-# precedence  <mask>   <value>
 avision
 XClock.Clock.majorColor:	rgba:7f/00/00/c0
 [service]
@@ -1078,3 +1068,15 @@ Type=Application
   /{,var/}run/utmp r,
   /usr/bin/seamonkey Cx -> sanitized_helper,
         *:down) exec cloud-init dhclient-hook down "$1";;
+/Courier-Bold /NimbusMonL-Bold ;
+
+      We shouldn't overwrite it with "assign" unconditionally.
+#     then changes to /home will go through to the original device.
+        machine_id=$(cat "${etc_dir}/machine-id")
+-->
+# ------------------------------------------------------------------
+
+		Ctrl<Btn5Down>,<Btn5Up>: Page(Forward) \n\
+USERXSESSIONRC=$HOME/.xsessionrc
+# if running bash
+# If an executable path appears on any line in any file in
