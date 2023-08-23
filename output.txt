@@ -10,7 +10,6 @@ Enabled=true
 
 •3•D•k•|•£•³•È•×•î•ı•"–1–T–c–y–˜–Í–Ø–ù–—+—9—[—e—…——­—º—İ—é—˜˜G˜R˜s˜„˜«˜»˜á˜ï˜™$™K™Y™}™Š™­™¹™Û™ì™š*šWšfš‹š›šÁšÎšñšÿš#›3›Y›i››Ÿ›Ã›Ò›÷›
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
-#
 
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #
@@ -178,7 +177,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
   #include <abstractions/kde>
 #
 net.ipv4.conf.all.rp_filter=2
-constraint from "2620:fe::fe"          # quad9 v6 without DNS
+defaults {
 
 # ldconfig = false
 LP-PPA-ubuntu-mozilla-daily
@@ -204,7 +203,7 @@ fi
 # This file should be world readable but not world writable.
 <?xml version="1.0"?>
 esac
-     Corporation, Norman Walsh, Sun Microsystems, Inc., and the
+};
 # banner-message-text='Welcome'
 <!ELEMENT br ANY>
 #
@@ -257,7 +256,7 @@ APT::Periodic::Unattended-Upgrade "1";
   <!-- Allow anyone to invoke methods on the interfaces -->
 What=/var/lib/snapd/snaps/snapd_8542.snap
         if [ -x "$STARTUPFILE" ]; then
-# Compose sequences for IBM1133
+#
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
     permission java.util.PropertyPermission "path.separator", "read";
@@ -329,7 +328,7 @@ speed=115200
               ;;
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
     echo "updates of cacerts keystore disabled."
-# you can temporarily override this with
+#  so you may want to run it at a nicer priority than the default priority.
 
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
   /usr/share/enchant/enchant.ordering              r,
@@ -338,12 +337,10 @@ Name=GNOME Settings Daemon's housekeeping plugin
 	log_end_msg $?
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
-# Compose sequences for KOI8-U
 blacklist rivafb
 
 # inclusion by distributed profiles to aid in packaging AppArmor for
         </policy>
-  # for networking
 [METARELEASE]
 ###############################################################################
 
@@ -384,7 +381,6 @@ mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
 
 scsi FCPA
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
-$ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 
 	</match> 
 # with the multiqueue (mq) policy and uses less memory.
@@ -415,7 +411,6 @@ Categories=System;Monitor;GTK;
 		chown root:adm $XCONSOLE
 networkd_dispatcher_args="--run-startup-triggers"
 
-#    License published by the Free Software Foundation.
 # This file is a simple placeholder to keep dpkg from removing this directory
 # minclass = 0
 #
@@ -441,7 +436,6 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
         done
 Name=User folders update
 After=snap-lxd-18150.mount
-/dev/camera
 # -Z Disable the power-saving function of certain Seagate drives
 'ßß^Ò9ÏE}BKß³,ÅÆ]ÊU: œišÚï²°<Ÿ‡l+epR1$Ïo1#PŒO#ÃtAcU¨İ>àQPÏñ0V’°‚…ØƒË"d¼-¸%ÕT¢¸ê­’¤$ Á†µJjGÏ.V•TËÎšÛj´¦²ÛA†'w÷j Bl8Î×uP2’Âß+0"HĞÕA8%]¤é]ŸÆ”uĞEı0—C«
   /dev/xconsole                 rw,
@@ -471,7 +465,6 @@ Each file in this directory is an rt_tables configuration file. iproute2
        path="/com/canonical/hud",
 #       browsers) do not have to be bound to agents.
 
-
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/" catalog="file:///etc/xml/docbook-xml.xml"/>
 # The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
@@ -494,7 +487,6 @@ CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true";
 #
 
-1,222,57,255,0,118,44,204,128,255,0,255,0,255,0,255
         fi
 # ------------------------------------------------------------------
 # while a reboot isn't required for the new kernel it might be for another package
@@ -574,7 +566,7 @@ StartupNotify=false
 # See sane-microtek2(5) for a description of the options
 # You can change settings by editing this file.
 #pam_deny.so as appropriate.
-# avoid running multiple times
+# one second, but only in the first three clock updates.
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   /srv/www/vhosts/** r,
@@ -776,7 +768,7 @@ modules=*
 Icon=appointment-soon
         fi
 DAEMON=/sbin/lvmpolld
-Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
+[Distro]
   Associate an image format with a unique identifier. 
 OnlyShowIn=GNOME;
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
@@ -814,7 +806,7 @@ order hosts,bind
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
         fi
 #endif
-# do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
+# IPv6 Privacy Extensions (RFC 4941)
 /dev/scanner
 test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 <?xml version="1.0"?>
@@ -853,7 +845,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
 deb http://packages.azlux.fr/debian/ buster main
 
-  /usr/local/share/man/man?/            r,
 /Ryumin-Light /Japanese-Mincho-Regular ;
 compose '-' 'o' to 'õ'
 NoDisplay=true
@@ -924,7 +915,6 @@ auto
 <delegatePublic publicIdStartString="ISO 8879:1986//ENTITIES" catalog="file:///usr/share/xml/entities/xml-iso-entities-8879.1986/catalog.xml"/>
 		exit 1
 X-Meego-Priority=Low
-  # 'r' is needed when using imfile
 
 191 191 191 		gray75
   owner /net/** w,
@@ -946,7 +936,6 @@ X-GNOME-Bugzilla-Component=nm-applet
 /dev/scanner
 {
 # This file can contain default options for dpkg.  All command-line
-#
 scsi TAMARACK
 XLogo*baseTranslations: #override \
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
@@ -961,7 +950,6 @@ run_im default
 # network scanning.
 /dev/camera
 # Timeout for the initial connection to saned. This will prevent the backend
-
 has led to the following conventions in usage:
 *fieldBox*field0.Label:	fndry
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
@@ -983,7 +971,7 @@ Type=Application
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
 # Serial port where the camera is connected
 DESKTOP-OFJN9OT
-</busconfig>
+
 # uncomment to set the default look and feel to GTK
 exit 0
 }
@@ -995,7 +983,6 @@ deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.co
 cmdrespause=125000
   /tmp/.ZendSem.* rwlk,
 $x-display-manager gdm3
-
 #
   dbus bus=accessibility,
      format="ttf"
@@ -1118,7 +1105,7 @@ DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/upda
 -client IGNORE
     $primeswitch
 <!ATTLIST type version CDATA #IMPLIED>
-# device connections. Several older mice have been known for not supporting
+deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
   # Support the new executable helper from NetworkManager.
 #
 #include <tunables/home>
@@ -1155,7 +1142,6 @@ XClipboard.baseTranslations: #augment\n\
 blacklist vfb
 [mysql]
 
-# coolscan3.conf: sample configuration file for coolscan3 backend
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
        interface=org.freedesktop.DBus
@@ -1177,3 +1163,15 @@ user-db:user
 /var/log/dpkg.log {
 
 # /etc/default/bridge-utils
+ 54 100 139		SteelBlue4
+scsi "RELISYS" "VM4540" Scanner * * * 0
+CATALOG /usr/share/xml/docutils/catalog
+#same pattern as @{pid} for now
+	</alias>
+  <policy user="root">
+
+session		required	pam_limits.so
+brandon:100000:65536
+	# system IDs that the host sees in VGs, not system IDs that identify
+# in the kernel. We recommend using cgroups to do container-local accounting.
+if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
