@@ -38,7 +38,7 @@ driftfile /var/lib/chrony/chrony.drift
 *text.scrollHorizontal:		Never
 	si_unit_consistency=1
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
-@include common-session
+LANG=C.UTF-8
 test -x /usr/bin/plymouth || exit 0
   dbus send
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -90,7 +90,6 @@ APT::Archives::MinAge "2";
 {#
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] exiting on signal [0-9]+.$
 
-
 #    Copyright (C) 2006 Novell/SUSE
   if [ "$add_etc_modules" ]; then
 188	ospf
@@ -118,7 +117,6 @@ WantedBy=multi-user.target
 Vendor-URL: https://www.debian.org/
 session		required	pam_unix.so
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-# Compose sequences for ISO-8859-16
 
 # Scripts in this directory are executed as root when a user log out from
 server {{server}} iburst
@@ -242,7 +240,6 @@ compose 's' 'o' to '§'
 session    required   pam_env.so readenv=1 user_readenv=0
 X-GNOME-Autostart-Phase=Initialization
 # restart daemons that directly depend on D-Bus
-
 @{run}=/run/ /var/run/
 		<test qual="any" name="family">
 
@@ -253,8 +250,8 @@ if [ -x /usr/lib/update-notifier/update-motd-fsck-at-reboot ]; then
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
 20210529091139 2 6 100 8191 2 D8A2E2F024645B5A3FB339A2EF06A3E46CD2AA808530C320F121CE1EEBEE128D6DB4C49492881B35E5AA8C43CAA07E7F69A5C4ECD0EE62A29FC191B9C0DD6955E23E831A0573135B9931D03A5BBCA961410CA287D08D53C0E8CFEC19534C4FECBAD0F2BE625802AF1B504F59A4A88DAA5F52F221E0E9E0DB1396F07EAF2CA88B79D8CF35EF154A69569C545CA1D04A07ADE3628243039985880B79972FB9F5070951D40C9D21C1729348152724531B270C9DEBB5B2C730C72F4EA3932DB44BD3C746E082856A4109A37BA979164881D5B8007807FF1A7E0C48F99DBBE1709585203E579AE201D295E720CDD45B3A8652A7CE878765E699727641410F840871B4362DC51A3D4D15980876649089CE845B5733497FB8E7B2568EF8627EC1BEE0434A3A72094132A0BA0CA102A440952285823FB09684A1C52468193F6E8A6CC9D935C13FCC661DED5CB84B5D5DF721447531787F78AB31AA1D6342460A8B896518640B7DCF3825B52D46469351EF17E586B661D5C0E792C0AA0B0309B8A4BECB3B267BB459C7452387FF6028EEC1C6DFAE3EE9452EB7A7CFB9CDD361B45FF29E6648BD94712BEF29A1C86C492231F710BC66BF8CF83F8765EF6DBA6857C733789DD71245F17C6FA03DD07FCFFBC450029776FDB4F4B411D4B4A98E090CB79B4CF990398FE1C147CE959C8C11D5DE9A4271EA4CA3D8A50A6F7081A2B0F95AA4AD80081511C357D9F15B7547F0A725EED4EE7FDDAE32A3D00512984928679C51375777E968FE3363DCC495300762C7C6D32F4088DB4D4D4449610D05E87CECADA742827EF2B4EF1D064CEB0EEBB01264306F3E24D6260483829576F88B8346764429722BFD0FE3845F541837ACFFEDA101E0E082F618630B741BE1A9E44C677A947FEC31F08EB338798617A09C38EF3FF31A677E62DCDBA2C56D37B1F16AD2B06F41D3E5CDE9A9B7179B6EC46DF99D857521DF29E8012A1AFE6F2F0658171F56EEA20E531C3B2E02864B130BB0BA476F23024DCCA6411CE1BBD1D5C9F5346DB36334117AAF7A1B4ABE86470CABDF862010F5AE3129CA17F36BA89EE3DB83641804EC2455ED75686342E9F339068A77258BBC292E05AF5C233F5B74CA83080CC5DAE01E977E2F7D1ADC36803398B81DAC22DE391F512912148392371C658C416C96C8C3035928EDBB418CF249C9C02793AE6661AB04B4C6C944F55B23CB5621511DACD8EC5C1ECD463620CAC79C38B6CC95FA8993482EA255246D30DA6EA67C677889F56CDF4466F5D968069E152B0BE30B64E1B18607035D7D15503D364B73BAB5582CDF290FE30D2EB7A4F6F797D80702CC448E1153A3A9D882445C73BA490388588F31FA6C14BA7DBFAD39E1CE6B0E2FAD69015F81FF6DAAC56420A478CF717DD952A0DC51B1E38113CF5EF2AC2EC08B6F6CB427A06AD990213C09DB2CBC6896B3
 #    This program is free software; you can redistribute it and/or
-#This file is DEPRECATED! @{sys} is defined in tunables/kernelvars now.
-# Do note that only the values are preserved; the rest of the file is
+compose '`' 'u' to 'ù'
+
 # Case-sensitive behavior is defined by the operating system.
 global {
 #
@@ -328,7 +325,7 @@ if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 trusted.SGI_DMI_*		skip		# xfs specific
 [service]
       We shouldn't overwrite it with "assign" unconditionally.
-# System-wide GDB initialization file.
+SáÊŽó:]C+¼Ý˜·MÌÖGþp‚ô£ã×?ŽÒÇM”±àã@‡Òü³w>‚­ŸÂÏM?ÛƒX“YŠ®Ke>(pë9l‚ŒÃnÏÎŒ,<Í™zV@q-NúãÓ—þÔxÔ“Ö`”~ju©äÑ]bz1zü'ÓN}ÊÆa?t¨Q}ÜÍïÓP[Äÿ„!¿öØˆ=ºÝ
 	<include ignore_missing="yes" deprecated="yes">~/.fonts.conf.d</include>
 XLogo*background: rgb:d2/22/32
 Description=Mount unit for snapd, revision 15904
@@ -351,7 +348,7 @@ QUIET=0
 # ------------------------------------------------------------------
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
-APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
+#option scsi-maxqueue 2
 # no packages own wtmp -- we'll rotate it here
 title=Secure shell server, an rshd replacement
 Name=Certificate and Key Storage
@@ -359,7 +356,6 @@ Name=Certificate and Key Storage
 # Compose sequences for IBM1133
 LAPTOP-5TIN5O4V
 SETTINGS="\
-# dmesg_restrict defaults to 1 via CONFIG_SECURITY_DMESG_RESTRICT, only
 
 
 pool {{pool}} iburst
@@ -397,7 +393,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
         log_daemon_msg "Starting open-vm daemon" "vmtoolsd"
 ApprovalRequired=false
 # The following lines are desirable for IPv6 capable hosts
-Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
 #   permissions - copy when trying to preserve permissions.
 # Local users may interrogate the ntp server more closely.
 /lib32
@@ -441,7 +436,6 @@ account     required    pam_shells.so
 # translations. See tunables/xdg-user-dirs for details. Eg:
 [defaults]
 #backwards compatibility include, actual abstraction moved from php5 to php
-		<!-- pretend the font is oblique now -->
 # versions of Debian this has been the default.
 
 		exit 0
@@ -491,7 +485,7 @@ byte-compile = standard
 
 ja_JP		ja_JP.eucJP
       member={Hello,AddMatch,RemoveMatch,GetNameOwner,NameHasOwner,StartServiceByName}
-	compress
+XKBLAYOUT="us"
 
 }
 
@@ -581,7 +575,6 @@ XKBOPTIONS=""
 
 {% endif %}
 ## Add external Servers using
-APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 contract_url: https://contracts.canonical.com
 #
 
@@ -637,7 +630,7 @@ suffix (dbus vs. dbus.service). Needrestart uses the systemctl/service
 	thin_pool_chunk_size_policy = "performance"
 	cache_pool_chunk_size = 64
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+(\[[0-9]+\])?: DIGEST-MD5 common mech free
-XClock.input: false
+scsi Nikon * Scanner
 # Required-Start:    $remote_fs
 # enable xtrace if we should be verbose
 #   1:			top		# top -> 1:0
@@ -646,7 +639,6 @@ XClock.input: false
 
 # @{securityfs} is the location where securityfs is mounted.
 Znd1cGQub3JnMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA8GA1UdDwEB/wQFAwMHBgAw
-  owner @{HOME}/mbox          rw,
   include if exists <abstractions/consoles.d>
 # This file is a simple placeholder to keep dpkg from removing this directory
 # It is sourced, not executed.  For more information see dhclient-script(8).
@@ -691,7 +683,6 @@ description=OpenSSH is a free implementation of the Secure Shell protocol.
 
 # then an administrator can adjust /etc/apparmor.d/local/usr.sbin.smbd to
 set -- $IF_ETHERNET_WOL
-#    modify it under the terms of version 2 of the GNU General Public
 13  ip6fw
   audit deny @{HOME}/.local/share/thumbnailers/{,**} wl,
 chip "w83627uhg-*"
@@ -763,7 +754,6 @@ compose ',' 'A' to '¡'
 
 fi
 
-EnableLogging=0
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 
 	compress
@@ -778,7 +768,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 #backwards compatibility include, actual abstraction moved from php5 to php
 {
 - /dev/stdout
-# since the modules above will each just jump around
 # no packages own btmp -- we'll rotate it here
 #    Handle linux distributions that use systemd to replace the legacy
 eval $(/usr/bin/locale-check C.UTF-8)
@@ -823,12 +812,11 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
      </choice>
   # readd default if was empty
 	vdo_use_sparse_index=0
-# ------------------------------------------------------------------
 *ispell*options.horizDistance:		2
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 *fileDialog.accept.bottom:		ChainBottom
-# USB-scanners supported by the hp-backend
+  # Other executables
 #! /bin/sh
 Parent: Debian
 *form.floodFill.label:			Flood Fill
@@ -840,7 +828,7 @@ ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 DNS={% for server in nameservers %}{{server}} {% endfor %}
 # ctrll alt keycode 36 = Incr_Console
 
-# filesystem. By default, the host will still logout from all other
+
 }
 		<rejectfont>
 # Record the rate at which the system clock gains/losses time.
@@ -856,7 +844,6 @@ X-GNOME-Autostart-Phase=Initialization
 for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; do
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 #BindPasswd: secret
-<Key>q: quit() \n\
 </match>
 # This file is sourced only for login shells (i.e. shells
 # Compose sequences for ISO-8859-10
@@ -870,7 +857,7 @@ if enabled in cloud-config.  Specifically, in order to enable it
 }
 directory are parsed by needrestart's default configuration file.
 
-use-ssh-agent
+#fudge 127.127.8.1 time1 0.0042        # relative to PPS for my hardware
 # Global Order: zshenv, zprofile, zshrc, zlogin
 # Compose sequences for VISCII
 compose 'v' 'Z' to '´'
@@ -907,7 +894,6 @@ Chef::Log::Formatter.show_time = true
 alias net-pf-36 off
 # local
 # DO NOT EDIT OR REMOVE
-fi
 
     while(<$plist>) {
        for the PackageKit to work. -->
@@ -983,7 +969,7 @@ do_bootloader = no
 
 		;;
 # install the apport exception handler if available
-#    Copyright (C) 2015 Canonical Ltd.
+  upload_limit: 100
 camera=Kodak DC240
 X-GNOME-Autostart-Notify=true
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
@@ -1026,3 +1012,13 @@ start_it_up()
 link-local 169.254.0.0
   #include <abstractions/gnome>
 
+       <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
+<!-- File dbgenent.mod .................................................... -->
+  <type name="Arial-Narrow" fullname="Arial Narrow" family="Arial Narrow" weight="400" style="normal" stretch="condensed" glyphs="arialn.ttf"/>
+scan-data-timeout 15000
+.  if !'\*[.T]'utf8' \
+  #
+## If the coloring rule should span multiple lines, use the following format:
+        fi
+deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+		<family>monospace</family>
