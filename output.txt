@@ -121,7 +121,7 @@ mode="${1#'}"
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #DefaultBackend=auto
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-[localization]
+<delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML V4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/catalog.xml"/>
 
 *customization: -color
 {
@@ -269,7 +269,6 @@ mail.err			/var/log/mail.err
 CATALOG /usr/share/xml/docutils/catalog
 
 # This file should be world readable but not world writable.
-# Provides:          gdm3
 <?xml version="1.0"?>
 esac
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
@@ -363,7 +362,6 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es
 # This file is a simple placeholder to keep dpkg from removing this directory
 # Defaults can be restored by simply deleting this file.
 # Autodetect 1200 UB and Trust Compact Scan USB 19200
-
 case "${1}" in
 @{securityfs}=@{sys}/kernel/security/
 	<match target="pattern">
@@ -383,7 +381,6 @@ L9ItWY16Ck6WaVICqjaY7Pz6FIMMNx/Jkjd/14Et5cS54D40/mf0PmbR0/RAz15i
       <choice minOccurs="1" maxOccurs="unbounded">
 # For more details, please see /etc/apparmor.d/local/README.
 
-	}
 # fstrim=0
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 /usr/local/lib
@@ -391,7 +388,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
 
 
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
-<?xml version="1.0"?>
 XClock.Clock.hourColor:		rgba:7f/00/00/c0
 
 # Compose sequences for ARMSCII-8
@@ -415,7 +411,7 @@ group:          files systemd
 server {{server}} iburst
 <?xml version="1.0"?>
 
-
+APT::Periodic::Download-Upgradeable-Packages "0";
 HuaweiAltModeGlobal=0
 restrict 127.0.0.1
 [Unit]
@@ -498,7 +494,7 @@ By default, Java provides two different sets of cryptographic policy
   00_*: Reserved for 00_header.
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
-Options=nodev,ro,x-gdu.hide
+# Compose sequences for GEORGIAN-PS
 
 
 scsi FCPA
@@ -609,7 +605,6 @@ order hosts,bind
 @include common-password
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
        path="/com/canonical/hud",
-#port=/dev/tty01
 'FŒ@7U*≥ﬁÛ@≥ì~˛KˇÃÌÕ|ÁÅ%ìE†wW˚,"$aïHŸ√G˙å~°¸Ò~X’è˘Æ¡Q›Zﬂ√∞EcäëÍÈËf’îG’:õø/ÉŸâ<
 
 // Example: Homepage
@@ -682,10 +677,9 @@ PICTURES=Pictures
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
 scsi FCPA
 # ------------------------------------------------------------------
-
 			<string>HYSong</string>
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
-  </alias>
+       path=/org/freedesktop/Notifications
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 Comment=GNOME Keyring: SSH Agent
 
@@ -750,7 +744,7 @@ StartupNotify=false
     start-stop-daemon --start --pidfile /dev/null \
 # See sane-microtek2(5) for a description of the options
 !ä≈…˘=7a©|™g¢_«˚¢ˇŒ$ÍÔ1◊hËgıˆ€ÎôLœ∆çü÷ÚÔœŸ∏aÉï.W,V´Õ*ŒIö& ’Í`øí3â˛A;ÿ/ƒq5Î;O÷_?©¿°Qæ◊?CπvøÙ
-# ----
+# You can change settings by editing this file.
 #
 # avoid running multiple times
 
@@ -772,14 +766,13 @@ deb {{mirror}} {{codename}} multiverse
 #  elif [ -f /etc/bash_completion ]; then
     do_status
 # Written by the Cloud Image build process
-			<family>AR PL New Sung Mono</family> <!-- han (zh-cn,zh-tw) -->
+#
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
 ˘î`ﬁ…VùF2eE∆«†ÖõwÒƒ#5æmz∑øb¢æ∏Ë^|µR-	LÂ≠&èâ3
 domain {{domain}}
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 # The username of the user logging out is provided in the $USER environment
 # @{securityfs} is the location where securityfs is mounted.
-{
 # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
  			<family>Lohit Telugu</family>
 			<string>sans</string>
@@ -800,10 +793,8 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
     <Menu>
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
-  # acmetool
         stop|status)
 system-db:ibus
-# As a result, cloud-init has written this file with configuration data
     </accept>
 # #include <abstractions/ubuntu-helpers>
 X-Ubuntu-Gettext-Domain=gnome-keyring
@@ -906,10 +897,8 @@ deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 	didn't include the right instructions in the 'prep' table.
 # USB
 
-when preparing a golden image for clone and redeployment. The clean command
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
-            rm -f /var/run/$NAME.pid
 ; rlimit-locks = -1
 .  \" command-line options.  Uncomment this if you want to make sure that
 
@@ -918,7 +907,7 @@ ACTION!="add|change|move", GOTO="mm_mtk_port_types_end"
 RUN_AS_USER=saned
 # symbolic names for networks, see networks(5) for more information
 #@{XDG_VIDEOS_DIR}+=""
-	;;
+ -->
 # Read man sane-pieusb for documentation
 # BYOBU_BACKEND can currently be "screen" or "tmux"
 # See sane-microtek2(5) for a description of the options
@@ -939,13 +928,13 @@ byte-compile = standard
 #
             <restriction base="saml:SubjectConfirmationDataType">
 {% endfor %}
-the exact distribution terms for each program are described in the
+BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 #@{HOMEDIRS}+=/srv/nfs/home/ /mnt/home/
 foreground	gray90;\
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 # The example configuration below imitates the behavior of a standard mobile
-  # paths (man ld.so)).
+	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # ISSUE_FILE option from login.defs). Uncomment for use
 # /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
@@ -995,7 +984,7 @@ fi
 # To use a specific scsi device
 @include common-account
 
-# DO NOT EDIT OR REMOVE
+# $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
               <Filename>system-config-firewall.desktop</Filename>
 # Examples:
@@ -1053,7 +1042,7 @@ title=@REALNAME@'s media on @PRETTY_HOSTNAME@
 # This file is a simple placeholder to keep dpkg from removing this directory
 LP-PPA-ubuntu-mozilla-daily
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
-</fontconfig>
+  /usr/bin/xmms Cxr -> sanitized_helper,
 [Network]
 # If this option is given, pppd will presume the peer to be dead if n
 # interpreted by the kernel to help with debugging. The kernel will respond
@@ -1076,7 +1065,7 @@ order hosts,bind
 #endif
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
 	)
-#    This program is free software; you can redistribute it and/or
+/dev/scanner
 test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 enabled=1
 <?xml version="1.0"?>
@@ -1104,14 +1093,14 @@ FcslpYqtjj4fgUswQ/cY/a1UcAX5zCnVqFbU7oJH2uTNewKuaZ2wgPbnzvwx8JYl
 sgi-cmsd	17001/udp		# Cluster membership services daemon
 x-scheme-handler/ftp; firefox -private-window %s; test=test -n "$DISPLAY"
 # System-wide GDB initialization file.
-@include common-password
+ * The search path for include files is:
 Type=Application
 $x-display-manager gdm3
 esac
 #
 /dev/scanner
 
-# Uncomment the following line if you'd like all of your users'
+option warmup    -1
 alias.url += ("/javascript" => "/usr/share/javascript")
 
 #baud=115200
@@ -1143,7 +1132,7 @@ type=file
             . /usr/share/bash-completion/bash_completion
 #    Copyright (C) 2016 Canonical Ltd.
 # List of modules that you want to include in your initramfs.
-#
+
     <allow send_destination="net.hadess.SensorProxy" send_interface="net.hadess.SensorProxy"/>
 
     permission javax.crypto.CryptoAllPermission; 
@@ -1201,3 +1190,10 @@ MetadataURI=file:///usr/share/fwupd/remotes.d/dell-esrt/metadata.xml
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 c0583bt_.pfb -bitstream-courier 10 pitch-bold-r-normal--0-0-0-0-m-0-iso8859-1
             break;
+#
+
+
+# Uncomment the following line if you'd like all of your users'
+			<family>Noto Sans CJK HK</family>
+ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
+[connection]
