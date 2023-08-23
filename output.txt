@@ -21,10 +21,10 @@ options md_mod start_ro=1
 APT::Periodic::AutocleanInterval "0";
 # This file is a simple placeholder to keep dpkg from removing this directory
 	monthly
-#
+#    This program is free software; you can redistribute it and/or
   /usr/local/share/ r,
 {% for pool in pools -%}
-*text.baseTranslations:		#override\
+ï3ïDïkï|ï£ï≥ï»ï◊ïÓï˝ï"ñ1ñTñcñyñòñÕñÿñ˘ñó+ó9ó[óeóÖóèó≠ó∫ó›óÈóòòGòRòsòÑò´òªò·òÔòô$ôKôYô}ôäô≠ôπô€ôÏôö*öWöföãöõö¡öŒöÒöˇö#õ3õYõiõèõüõ√õ“õ˜õ
     # locale: Cannot set LC_SOMETHING to default locale
 
 
@@ -40,7 +40,6 @@ Comment=GNOME Keyring: SSH Agent
 
 # Compose sequences for ISO-8859-11
 if [[ -z "$PATH" || "$PATH" == "/bin:/usr/bin" ]]
-# The PAM configuration file for the Shadow 'newusers' service
 # This file contains common DRI-specific rules useful for GUI applications that
 compose '"' 'A' to 'ƒ'
 #*)
@@ -53,7 +52,7 @@ search updates ubuntu built-in
     user
 20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
     else
-# Compose sequences for ISO-8859-16
+     done
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
 
     </alias>
@@ -134,7 +133,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 	cat <<-EOF
 audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
-/dev/scanner
+[ -d /var/crash ] || exit 0
 			<family>DejaVu Sans</family>
 
    formatter=simpleFormatter
@@ -156,7 +155,7 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 
 Vendor: Ubuntu
 #pnm
-# vim:syntax=apparmor
+# with local modifications. As always, new policy should be reviewed to ensure
 # If you want to globally change where snmp libraries, commands and daemons
 turkish         tr_TR.ISO-8859-9
     <policy domain="coder" rights="read|write" pattern="{GIF,JPEG,PNG,WEBP}" />
@@ -200,12 +199,12 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 # See avahi.hosts(5) for more information on this configuration file!
 # Compose sequences for GEORGIAN-PS
 #           will attempt to upgrade to the first LTS release available after
-# * Be careful about changing the environment since this is sourced
+
 # at bash-completion startup for now, to ease the transition to a
      because at the Infoset level where schemas operate,
 # Default-Start: 2 3 4 5
 
-
+# following line is sufficient. This however assumes that the connected scanner (or to be more
     fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 if [ "$INITRD" = 'No' ]; then
@@ -305,7 +304,7 @@ X-GNOME-Bugzilla-Version=3.36.x
 # pam-auth-update to manage selection of other modules.  See
 
 /dev/scanner
-
+#option maxread 65536
 rocks_trees = {
 # install the apport exception handler if available
 
@@ -341,12 +340,11 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 DelayedActivation=false
 /dev/scanner
 €Og∑˜µ˜ŸÎÕº¬ö∆ÜB∞ﬂUf≥v∞∑y∫º£#ùV>'ï9‡ˆZ®˝çö¥ﬁéfãπã˝ı €≠ƒˆ#—˝JTVVÕñU~{ˇ¢“€r1&3l#Á+ı=[V˘mπXú|SÁΩ˜¸Ûûµ€©ö˚"[Œ≈ˆ3™˛ÒÛóg√c
-	# addition to any existing reports. Otherwise, there's only log report
+  /etc/X11/app-defaults/XTerm r,
 #
 <fontconfig>
 	cache_settings {
 <!--  Disable sub-pixel rendering --> 
-$x-display-manager gdm3
 # Where to place spool and state files
     <allow send_destination="net.hadess.SensorProxy" send_interface="org.freedesktop.DBus.Peer" send_path="/net/hadess/SensorProxy/Compass"/>
 *internalBorderWidth:		0
@@ -432,7 +430,6 @@ check_config() {
 LP-PPA-ubuntu-mozilla-daily
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
 bookman_light_italic.latin1.plain=Bookman-LightItalic
-### END INIT INFO
     <alias>
 NoDisplay=true
   # User files
@@ -468,7 +465,7 @@ LANG=C.UTF-8
 
 
 17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
--server KNOWN
+
          cloud-init dhclient-hook down "$interface";;
 
 PPP_DISC	8863		# PPP over Ethernet discovery stage
@@ -599,7 +596,7 @@ create_machineid() {
 mßlj'ã©ZjUJü§mìôÃbπ¸G´πÙOÎ•ﬂØ7DÚˆ
         if [ -x "$STARTUPFILE" ]; then
 	# 
-/var/log/user.log
+# This file is sourced by Xsession(5), not executed.
 
   /usr/lib{,32,64}/python{2.[4-7],3.[0-9]}/{site,dist}-packages/ r,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
@@ -653,7 +650,6 @@ alias gawkpath_prepend 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") 
       <string>DejaVu Sans Mono</string>
   <complexType name="EncryptionPropertiesType">
 run_im default
-blacklist dv1394
 #    modify it under the terms of version 2 of the GNU General Public
 roottext=,magenta
     <alias>
@@ -743,7 +739,7 @@ restrict 127.0.0.1
 #   This is not a comprehensive list of options, look at the screen manual for
 // grant codeBase "jrt:/com.greetings" {
 # set trimblanks
-# Copyright: Copyright (c) 2009 Michael Vogt
+
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 kbd_mode '-u' < '/dev/tty3' 
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
@@ -838,7 +834,6 @@ MIIElDCCA3ygAwIBAgIQAf2j627KdciIQ4tyS8+8kTANBgkqhkiG9w0BAQsFADBh
 deb http://packages.azlux.fr/debian/ buster main
 
 inode/directory
-# Unlike any other crontab you don't have to run the `crontab'
 Type=Application
 # This file is sourced by Xsession(5), not executed.
   /usr/bin/seamonkey Cx -> sanitized_helper,
@@ -1000,7 +995,6 @@ brandon:100000:65536
 brandon:100000:65536
 # replaced by e100
 application/vnd.intu.qfx
-      <setting name="period">beginChunk</setting>
  10 through 19		system rendering defaults (AA, etc)
                 mask=$(awk '/^UMASK/{gsub("#.*$", "", $2); print $2; exit}' /etc/login.defs)
   /etc/X11/cursors/**             r,
@@ -1047,7 +1041,7 @@ fi
 #
 MinimumKernelVersion=4.13.0
 
-#    Copyright (C) 2010 Canonical Ltd.
+  /dev/xconsole                 rw,
 #
 option buffer-size 32768
 
@@ -1146,3 +1140,19 @@ LANG=C.UTF-8
   /usr/share/vulkan/{explicit,implicit}_layer.d/{,*.json} r,
 # Compose sequences for ISO-8859-16
 AdminIdentities=unix-group:sudo;unix-group:admin
+rocks_trees = {
+# CLOUD_IMG: This file was created/modified by the Cloud Image build process
+
+#
+compose '-' '-' to '≠'
+em+([0-9])?(_+([0-9]))*
+##########################################################################
+
+SSHD_OPTS=
+/NanumBarunGothic-Regular << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
+1,222,57,255,0,118,44,204,128,255,0,255,0,255,0,255
+# For USB scanners also specify bus=usb, e.g.
+# ------------------------------------------------------------------
+# match-string "pattern=aadfa audit perms=crwxamlk/ user::other"
+
+		</edit>
