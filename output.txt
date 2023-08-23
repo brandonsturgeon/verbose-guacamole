@@ -38,7 +38,6 @@ scsi DEVCOM * Scanner
 
 
 Alias /javascript /usr/share/javascript/
-Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 
 # Case-sensitive behavior is defined by the operating system.
 #           the supported release that immediately succeeds the
@@ -98,7 +97,7 @@ XClock.Clock.secondColor:	rgba:00/00/ff/80
 
 [Desktop Entry]
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-
+XConsole.translations:		#override
     [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
 /dev/scanner
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
@@ -133,7 +132,7 @@ session		optional	pam_keyinit.so force revoke
 @{multiarch}=*-linux-gnu*
 [fwupd Remote]
 
-# CLOUD_IMG: This file was created/modified by the Cloud Image build process
+#
 #
 
   /usr/bin/file-roller Cxr -> sanitized_helper,
@@ -271,7 +270,7 @@ echo
 #
 case $0:$mode in
     missingok
-switch($TERM)
+deb http://packages.azlux.fr/debian/ buster main
     done
   gnome-session*)
     fi
@@ -301,7 +300,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
     permission java.util.PropertyPermission "path.separator", "read";
 #
-# packets
 # usb vendor product
 þGŽšË<q
  l
@@ -328,7 +326,7 @@ LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
 # device group names
-#
+account    required     pam_nologin.so
     permission java.util.PropertyPermission "java.class.version", "read";
 
 0x80	CS4
@@ -343,7 +341,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
 XClock.Clock.hourColor:		rgba:7f/00/00/c0
 
-# Compose sequences for ARMSCII-8
+  *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 fi
 
 # See sane-microtek2(5) for a description of the options
@@ -377,7 +375,6 @@ speed=115200
 # Compose sequences for ISO-8859-5
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-conf.d/README
     echo "updates of cacerts keystore disabled."
 # vim:syntax=apparmor
 # you can temporarily override this with
@@ -386,7 +383,6 @@ conf.d/README
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 
 Name=GNOME Settings Daemon's housekeeping plugin
-#!/bin/sh
 /dev/scanner
 # Dell A920
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
@@ -473,12 +469,10 @@ Categories=System;Monitor;GTK;
 
 
   dbus (receive)
-#    Copyright (C) 2014 Canonical Ltd.
 		chown root:adm $XCONSOLE
 networkd_dispatcher_args="--run-startup-triggers"
 7   selinux
 #    License published by the Free Software Foundation.
-
 # This file is a simple placeholder to keep dpkg from removing this directory
 # minclass = 0
 #
@@ -567,11 +561,10 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
 
 #
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true";
-[Desktop Entry]
 #
 
 1,222,57,255,0,118,44,204,128,255,0,255,0,255,0,255
-# For USB scanners also specify bus=usb, e.g.
+        fi
 # ------------------------------------------------------------------
 # while a reboot isn't required for the new kernel it might be for another package
 
@@ -620,7 +613,6 @@ Comment=GNOME Keyring: SSH Agent
     </event>
 Acquire::Changelogs::AlwaysOnline "true";
 		<family>fantasy</family>
-
 
 # password.
   <type name="Helvetica-Narrow" fullname="Helvetica Narrow" family="Helvetica Narrow" foundry="URW" weight="400" style="normal" stretch="condensed" format="type1" metrics="NimbusSansNarrow-Regular.afm" glyphs="NimbusSansNarrow-Regular.t1"/>
@@ -687,7 +679,6 @@ deb {{mirror}} {{codename}} multiverse
 #  elif [ -f /etc/bash_completion ]; then
     do_status
 # Written by the Cloud Image build process
-#
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
 #broadcast 224.0.1.1 autokey		# multicast server
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
@@ -702,8 +693,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 // Notify all clients to reload the cache
 
-*start.Justify: left
-[defaults]
+# IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
 # Compose sequences for TIS-620
 +  manage_etc_hosts: True
   network netlink raw,
@@ -759,7 +749,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
     if [ -e "$dmi_path" ] && read vendor < "$dmi_path"; then
 56f12ada18a3412ab1f9dcd69450be95
 # symbolic names for networks, see networks(5) for more information
-#    /etc/overlayroot.local.conf
 #!/bin/sh -e
 }
   owner @{HOME}/.fonts.cache-2          mr,
@@ -820,7 +809,6 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 bullseye/sid
 #    Copyright (C) 2012 Canonical Ltd.
 multi on
-# Compose sequences for ISO-8859-6
 
 	log_action_begin_msg "Setting up resolvconf"
 
@@ -885,7 +873,6 @@ restrict default limited kod nomodify notrap noquery nopeer
 # #include <abstractions/ubuntu-helpers>
 *ispell*terse.foreground:	gray20
     else
-kernel.yama.ptrace_scope = 1
 # Global Order: zshenv, zprofile, zshrc, zlogin
     ;;
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
@@ -954,7 +941,6 @@ test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 <?xml version="1.0"?>
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
-	;;
 }; 
 # orbit2 permissions
 #/dev/scanner
@@ -1114,7 +1100,6 @@ LETTERHOMES=no
 run_im default
 [firefox]
   /etc/xulrunner-2.0*/ r,
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
      o Notation declarations.  For example:
       This configuration is available on the major desktop environments.
 # netboot - Add the base modules, network modules, but skip block devices.
@@ -1147,11 +1132,9 @@ X-GNOME-AutoRestart=true
 #	        done
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
   owner @{HOME}/.config/QtProject.conf.?????? rwl -> @{HOME}/.config/#[0-9]*[0-9],
-#
 # Serial port where the camera is connected
         derived from Vera.
 </busconfig>
-nameserver 1.1.1.1
 # uncomment to set the default look and feel to GTK
 exit 0
 }
@@ -1197,3 +1180,13 @@ compose '_' 'a' to 'à'
 
 DESC="unattended package upgrades shutdown"
 /lib/i386-linux-gnu
+#endif
+# The possible arguments are:
+@{flatpak_exports_root} = {flatpak/exports,flatpak/{app,runtime}/*/*/*/*/export}
+    minsize 1M
+  ;; separate autoconf-el package, we don't byte-compile the .el
+# To that end, the default is to set the PTRACE scope to "1".  This value
+XLogo*baseTranslations: #override \
+ </selectfont>
+# Protect the zero page of memory from userspace mmap to prevent kernel
+auto
