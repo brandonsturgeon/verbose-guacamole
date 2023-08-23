@@ -29,15 +29,13 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 #
 
 # Compose sequences for ISO-8859-11
-if [[ -z "$PATH" || "$PATH" == "/bin:/usr/bin" ]]
 # Refresh AppStream cache when APT's cache is updated (i.e. apt update)
-#*)
   </match>
 #    modify it under the terms of version 2 of the GNU General Public
 search updates ubuntu built-in
     user
     else
-     done
+  #include <abstractions/consoles>
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
     </alias>
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
@@ -91,7 +89,7 @@ checkbox=,magenta
 DISTRIB_CODENAME=jammy
 
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-#
+# how to byte-compile (comma separated: standard, optimize)
 
 [localization]
 audio/x-mpegurl=rhythmbox.desktop
@@ -268,7 +266,6 @@ XLoad.input:			false
 
 *customization: -color
 # Compose sequences for TIS-620
-auth		include		runuser
 Name=GNOME Settings Daemon's USB protection plugin
 }
 # install prefixes.
@@ -317,7 +314,6 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # switches to the higher rate
 *insertFile*text.?.pieceSize:		256
 # Compose sequences for GEORGIAN-PS
-# suspend and power-off, the end user's execute before VMware's.  (This way,
       awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
 LP-PPA-ubuntu-mozilla-daily
 /dev/scanner
@@ -332,9 +328,8 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 /CenturySchL-BoldItal (/usr/share/fonts/type1/gsfonts/c059036l.pfb) ;
 scsi Nikon * Scanner
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- XML -*- -->
-/dev/scanner
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 
-option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
   <match target="pattern">
 8MXW5dRNJ2Srm8c+cftIl7gzbckTB+6WohsYFfZcTEDts8Ls/3HB40f/1LkAtDdC
 ### that look up the default sink/source get the right value
@@ -355,7 +350,6 @@ Comment=GNOME Keyring: SSH Agent
 
 
 #    modify it under the terms of version 2 of the GNU General Public
-Name=GNOME Settings Daemon's power plugin
     // There is no restriction to any algorithms.
 # Provides:          gdm3
 #
@@ -481,7 +475,7 @@ OK           ATDT<put phone number here>
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 /var/log/btmp {
 
-#  option routers 192.33.137.250;
+#  might result into a network communication with the server to get
 # This file is a simple placeholder to keep dpkg from removing this directory
 # Defaults can be restored by simply deleting this file.
 # Autodetect 1200 UB and Trust Compact Scan USB 19200
@@ -491,7 +485,7 @@ case "${1}" in
 #
 alias gawkpath_prepend 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") then; unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKPATH "!*"":$AWKPATH"'
 *MenuButton.foreground: white
-run_im default
+		<test compare="more_eq" target="pattern" name="weight" >
 roottext=,magenta
 # value is 80) and nonProxyHosts is a '|' separated list of hostnames which
 # cloud-init. They are read in lexical order. Later files overwrite values in
@@ -727,7 +721,7 @@ port=/dev/ttyS0
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 # This argument is used when the -n flag is specified.
 quick
-# NIS (man nsswitch) as well as normal /etc/passwd and
+# vim:syntax=apparmor
 fi
 XClock.input: false
 #mult_sect_io = 32
@@ -802,13 +796,12 @@ arch=`dpkg --print-architecture`
 
 DISTRIB_ID=Ubuntu
 0lQIZgahmcUt1qm6VW94VAio+SDCdqTx73wUsgM3t9sAwKxkEdJQQoO8PqYHV3uK
-build_name: server
 <fontconfig/>
 order hosts,bind
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 @include common-password
 # real-time clock. Note that it canâ€™t be used along with the 'rtcfile' directive.
-
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 #
 #port=/dev/tty01
 /usr/bin/wine-preloader
@@ -824,7 +817,6 @@ AutomaticReports=false
 	</match>
 @(br|eth)*
 #
-#Username=
 loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null' 
 			<family>Arial Unicode</family>
 /dev/scanner
@@ -874,7 +866,7 @@ IgnorePower=false
 @include common-session-noninteractive 
     /usr/bin/env ix,
 /Adobe-CNS1 /ShanHeiSun-Light ;
-#
+IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
 compose 'c' 'o' to '©'
 
 
@@ -897,7 +889,6 @@ zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
 </catalog>
 
 
-{% endif %}
 # Compose sequences for ISO-8859-8
 
 
@@ -909,7 +900,6 @@ zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
   /usr/bin/apport-bug Cx -> sanitized_helper,
 *internalBorderWidth:			0
 
-# type and run a series of external commands (fortune,
 # Common rules for Qt5-based applications
     exec /usr/lib/update-notifier/update-motd-fsck-at-reboot
 #    modify it under the terms of version 2 of the GNU General Public
@@ -974,7 +964,6 @@ SHELL=/bin/sh
 			<family>Noto Serif CJK TC</family>
 
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
-ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
 usb 0x1083 0x1622
   #
 # so please ensure that:
@@ -997,7 +986,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 20190502160005 2 6 100 6143 2 D775D98222C19B71B1640F95F44179182E462E941B1ED2AABD7B9A92A387C5A10014F3150A4E2F48FAA83BBA757A7AFAD52FFBA351FF9DCED93B94669353E737D5DC74052A46299579F2F942AB66574E855A7E915834BD378408F0932BE8537F9863EF3EF0072EAC02EFD86A91573B63E45009CDAC495E6AAE87A2FD70395EC22F249492AFD7D007CF1718799D821E220AA90AB881E64096726963959F094A6ACE215A417B8163EAECEACA5B5454951324DB52FA2768FD22E9F0C2A1EEDD1B4DADA051455654FE405425EB73BF3536DB3B7FD9898F562EDF0BD5DA0EC15379CAEB4CFA2E2B4745D496617503427274AB3D9DBEDFFDCB5B7DC263E9F743A17FB094AE65E546468D398F0F5E3FCAF12B9799DEFDAFCB765F8AAF5D8B6BA2C24E1E1969339991AC01C542F56528446B5233819724F6CFE2E7B5797E4910993FF0EE87A1C696D60CB70EE6BCF27FC18E0B0BAF3AB97158130B0A8A1732A99A9E56713BFADC95BCD2ABD1996BF52E719441D9CFE948DF65F3BD454CF8198F43472F47F0F73703BAEF1E266B1F109AB3466B1D41E7E25AE6CA9CF42C73540245E8BE948FC620264DED7F1235A5962418BFA028C8F9657558E3A164668F9302B4A0D184DDF237275EF6C803B5DA901EA1A4E86E9FB5AACDED09EC4983A2B3089BDE76CC6D5EDE0FF746935912E63C4543A080977D92728F513A8FDEFD13F72B578B776552AAF9E7DAE4D292642762CB6F41BD9A4E668430C3C3E1CE6AE4BE5C520865E316DE2085420294EFF8D170322AB506042E08F3B621443273414FE2A9B5EB17DA967F8273999D7F1A562DD36E8827476767523F0C0BED30EBCECDD3BE963544DD22FBCFB58CAD4BCB0AF4756AAEB9B32E0302D55A30F0BE267729B831AB43BCF0F9D979EB01982BB9AD905F978B0EECC66C24FDD43E3C9A61DAD3847CD7A26573E5624ACA6497C4FC2846E743DCE94ED80CE5B85E4D94E9B04B5101CC5B93ECC5446D909EFD66B90BF9DE30B2184A762A47F850FEC2B275CBEC5F8C2D8129140345F92A62B10827FE5391D421CDDD3477525D7962802F86FB6DD776DF804BE18B
 #port=/dev/term/a
 
-  /usr/lib/{pyshared,pycentral,python-support}/**.so     mr,
+	</match>
 # Compose sequences for GEORGIAN-ACADEMY
 # @{HOMEDIRS}.
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
@@ -1018,7 +1007,6 @@ POOL=""
             <string>serif</string>
 # on a file, 2 seconds after the second failure, etc. up to this max).
 # If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
-libXvMC.so.1
 #domain-name=local
 		return
         'impl': 'launchpad',
@@ -1039,7 +1027,6 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 # Written by the Cloud Image build process
 emptyscale=magenta
 			<family>AR PL New Sung Mono</family> <!-- han (zh-cn,zh-tw) -->
-# Provides:          console-setup.sh
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
 #    This program is free software; you can redistribute it and/or
 	unload_ipmi_modules_leave_features
@@ -1092,7 +1079,7 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
 # avahi is free software; you can redistribute it and/or modify it
 
-# log = true
+server {{server}} iburst
 #
 
 X-GNOME-AutoRestart=true
@@ -1146,10 +1133,8 @@ jDÅLÒP	À‰éù[¤Ì-ßVD™¿›àb>¡X*~Â€'®ûŞŞì™ÌF_~tÃƒ´oÂ¡’â†M¼cR
 
 sysresources=/etc/X11/Xresources
 // THAT THE UPDATE-INFO MIGHT HAVE CHANGED
-/Adobe-Japan2-Bold /Japanese-Gothic-Regular-JaH ;
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
-
     if [ -e "$dmi_path" ] && read vendor < "$dmi_path"; then
 56f12ada18a3412ab1f9dcd69450be95
 z´è}zÖ£mÂ¸º÷¨íêÖ".â"îÁq›ÎìLèuŞ»lÅP x¦B»é=İ¯›îØÃeåËóäz¥½f8ö}¬ö¿M/@>çI–×|x]ıéğ­:\î}Š‘éGÒzÍ±ûÈ®Ê!Å‹sõ€xàAğ¿OëW»šéıÄ—äú¦Ü£|¿Ö¢í{0Â ÌË£õ"zûv½Äv¼›v5Ğ“¼³ìÛŠg*´«‘qšİ—õmò"Ëù]2ß7NÏğü#=««Û¡	jï×ËKT¨P=C¥õFšy÷…­²;6¤â¸÷´z"!Ò‹ˆÔô®¹üNÒÛ5jÍ×Ztì9LÀL~r&*¹Ğ,9Ò5jÔÇWk÷ñôÌès´-XGù:gÑmG	{Ø¿ {õÓHá·,Y?¬.«Ş¢Á!óÆÚó˜)iûMØo7ÎÎÎÎÎÎÎÈ>#êæD~Ò÷,¹K*Q!z(ğºS3î¼À¼ÀË‚´±*ô6ÿ4-±ï¦]ô6¹ï¯y”( T½Á‘›«aŠ«WCs5„½¨ŸjÙØ9ğ«è@@@@?1zU”y²¾.N¢âd[l£ôÕÿb—}¬cÉ
@@ -1179,7 +1164,6 @@ Q¡S2ŞÒ>’OFÿ–%ºQ[Z1^µ¡}	‰
 
 main
 	# sessions, but it also doesn't hurt to leave it running.
-NTP={% for host in servers|list + pools|list %}{{ host }} {% endfor -%}
 	û„?'/[¬öˆß§¿|L¥
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 PARAMS=""
@@ -1196,6 +1180,13 @@ XCalc*ti.button48.fromVert:		button43
 type=file
 # networking=no
 @include common-session-noninteractive
-		if ! [ -z $tablename ]; then
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 NI	-*-new century schoolbook-medium-i-normal--*-*-*-*-*-*-iso8859-1\n\
+  # SASL plugins and config
+/Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
+  /etc/vulkan/icd.d/{,*.json} r,
+    <family>SUSE Sans Mono</family>
+# If we are running the GNOME session, source ~/.gnomerc
+# Run cryptdisks initscripts at startup? Default is Yes.
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB
+
