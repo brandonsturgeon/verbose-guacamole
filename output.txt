@@ -19,7 +19,7 @@ Enabled=true
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #
 
-# Refresh AppStream cache when APT's cache is updated (i.e. apt update)
+  </its:rules>
   </match>
 TryExec=xdg-user-dirs-update
 search updates ubuntu built-in
@@ -110,7 +110,7 @@ mode="${1#'}"
 #DefaultBackend=auto
 #    This program is free software; you can redistribute it and/or
 <delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML V4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/catalog.xml"/>
-
+#FallbackNTP=ntp.ubuntu.com
 # This file should not contain commands that produce
 {
 # usb 0x4b8 0x14c
@@ -137,7 +137,6 @@ session		optional	pam_keyinit.so force revoke
 
   /usr/bin/file-roller Cxr -> sanitized_helper,
 deb {{security}} {{codename}}-security universe
-# systemd systems als /usr), place them here. iSCSI sessions that carry
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 #    This program is free software; you can redistribute it and/or
 ports=22/tcp
@@ -180,7 +179,7 @@ deb http://packages.azlux.fr/debian/ buster main
   # Nothing to do, exiting
 
 XLoad.input:			false
-deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
+# [automount]
 [fwupd Remote]
 # Compose sequences for TIS-620
 Name=GNOME Settings Daemon's USB protection plugin
@@ -190,7 +189,6 @@ name = NSS
 fi
   . "$USERXSESSIONRC"
 # Turn on Source Address Verification in all interfaces to
-# and should contain a list of modules that define tasks to be performed
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 [general]
        daily
@@ -311,7 +309,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 0x48	AF21
 }
 		<prefer>
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es+3ot67hZaz+cI7KRAxQD8n8R9m9Ekf9k/0WZDsfzCaIZokAbO1IYo6mznd3vsbkRgGqz6PPcURRgc1A= open-ssh-ca@cloudflareaccess.org
 15	ntk
 
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -424,7 +421,7 @@ deb http://packages.azlux.fr/debian/ buster main
 # ------------------------------------------------------------------
 #
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
-	do_stop
+# Compose sequences for CP1256
 # how to byte-compile (comma separated: standard, optimize)
 
 # security of the host and prevent against some network attacks
@@ -523,7 +520,6 @@ Type=Application
 
 #    . /etc/bash_completion
   #include <abstractions/dbus-strict>
-    notifempty
     # environments
 # /etc/login.defs and user settings, solving the problem of different
 
@@ -554,7 +550,7 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
 . /usr/share/bash-completion/bash_completion
  - chef
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
-# battery level.
+ÓZ¸,ã°Ë¼*m66{ÿlÚ5¡
 <!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
 #    modify it under the terms of version 2 of the GNU General Public
 *†HÎ=h0e1åiÉnÛÆ1º	Aá—øûýšâ}Éí|dÓË%‹VÙ ç^]Nƒœ[v) 	&!jb0qÒµ\ê;áx	…¨u’;È\ýHït"¨ânÅIÎÇ¼§aiñ÷;á*Ëù+óf7"debian:digicert_global_root_g3.pem8P_1X.509C0‚?0‚Å UV¼ò^¤55Ã¤Õ«Er0
@@ -574,7 +570,6 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 d /run/screen 1777 root utmp
 /Adobe-CNS1 /ShanHeiSun-Light ;
 IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
-norwegian       nb_NO.ISO-8859-1
 gtk-theme-name = Yaru
 PICTURES=Pictures
 # Compose sequences for ISO-8859-8
@@ -595,7 +590,6 @@ PICTURES=Pictures
   /usr/bin/apport-bug Cx -> sanitized_helper,
 
 # Common rules for Qt5-based applications
-    exec /usr/lib/update-notifier/update-motd-fsck-at-reboot
 vH
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
 scsi FCPA
@@ -965,7 +959,6 @@ x-scheme-handler/ftp; firefox -private-window %s; test=test -n "$DISPLAY"
 $x-display-manager gdm3
 #
 # orbit2 permissions
-
     </event>
 alias.url += ("/javascript" => "/usr/share/javascript")
 
@@ -995,14 +988,12 @@ compose '-' 'o' to 'õ'
 
 # List of modules that you want to include in your initramfs.
 
-    <allow send_destination="net.hadess.SensorProxy" send_interface="net.hadess.SensorProxy"/>
 
     permission javax.crypto.CryptoAllPermission; 
 # Don't try to change I/O priority in a vserver or OpenVZ.
 # By default, exchange time with everybody, but don't allow configuration.
 S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
 group:          files systemd
-#!/bin/sh
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
 #    This program is free software; you can redistribute it and/or
   # here
@@ -1029,7 +1020,7 @@ d /run/screen 1777 root utmp
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
 # run rsyncd at a nice level?
 
-# Description:       Zeroconf daemon for configuring your network 
+</catalog>
 /dev/scanner
 # cloud-init. They are read in lexical order. Later files overwrite values in
 export PATH
@@ -1100,7 +1091,6 @@ LETTERHOMES=no
 run_im default
 [firefox]
   /etc/xulrunner-2.0*/ r,
-     o Notation declarations.  For example:
       This configuration is available on the major desktop environments.
 # netboot - Add the base modules, network modules, but skip block devices.
 
@@ -1112,7 +1102,6 @@ run_im default
 has led to the following conventions in usage:
 *fieldBox*field0.Label:	fndry
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
-! load color-specific resources for clients that have them
 [Desktop Entry]
 #    Use the ip command to remove all the addresses of an interface.
 #    modify it under the terms of version 2 of the GNU General Public
@@ -1184,9 +1173,25 @@ DESC="unattended package upgrades shutdown"
 # The possible arguments are:
 @{flatpak_exports_root} = {flatpak/exports,flatpak/{app,runtime}/*/*/*/*/export}
     minsize 1M
-  ;; separate autoconf-el package, we don't byte-compile the .el
 # To that end, the default is to set the PTRACE scope to "1".  This value
 XLogo*baseTranslations: #override \
  </selectfont>
 # Protect the zero page of memory from userspace mmap to prevent kernel
 auto
+# Compose sequences for KOI8-U
+
+
+  @{HOME}/** r,
+user-db:user
+  @{PROC}/sys/crypto/fips_enabled r,
+    // For request/response body processors, fromFile, asFile
+deb http://packages.azlux.fr/debian/ buster main
+LC_CTYPE=C.UTF-8
+€
+  </policy>
+quote-names
+
+	bootdir=$(dirname "$2")
+#
+#1	inr.ruhep
+  dbus (receive, send)
