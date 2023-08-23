@@ -7,7 +7,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
   # indicator
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
     user_friendly_names yes
-
 # Here is the list of possible values:
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
@@ -24,7 +23,7 @@ driftfile /var/lib/chrony/chrony.drift
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
   dbus send
 	[ -z "$AWKLIBPATH" ] && 
-     <xs:sequence>
+# helpful to be able to examine where in memory the kernel, modules,
 # <target name>	<source device>		<key file>	<options>
      Define aliasing and other fontconfig settings for
 #    modify it under the terms of version 2 of the GNU General Public
@@ -145,7 +144,7 @@ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 # Default is yes
 # using the ${string} syntax and (possibly non-existent) PAM_ITEMs may
 
-    [ -x /sbin/restorecon ] && /sbin/restorecon -R /dev
+#      Default for this property is true. (Case for true/false ignored)
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
 # Case-sensitive behavior is defined by the operating system.
        not necessary for user PulseAudio instances. -->
@@ -167,7 +166,7 @@ trusted.SGI_DMI_*		skip		# xfs specific
 # symbolic names for networks, see networks(5) for more information
 swedish         sv_SE.ISO-8859-1
 XClock.input: false
-  #
+    modprobe $module $args || true
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
 
@@ -226,7 +225,6 @@ Wants=network.target
 ## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
 # For more details, please see /etc/apparmor.d/local/README.
 fi
-# append to the history file, don't overwrite it
 /dev/scanner
   <mime type="application/x-tar" description="Tar archive" priority="100" pattern="*.tar" />
 };
@@ -243,7 +241,7 @@ fi
    formatter=simpleFormatter
 
 # the terms of the GNU General Public License as published by the Free Software
-
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 		exit 0
 #  (at your option) any later version.
  -->
@@ -302,7 +300,7 @@ scsi "B&H SCSI"
 #           currently-running release.
 #!/bin/sh
 # DO NOT EDIT OR REMOVE
-These files are normally installed in /usr/share/fontconfig/conf.avail
+
       may simply works to avoid it.
     The Real-time kernel meets stringent preemption specifications and is suitable for
 # Compose sequences for ISO-8859-11
@@ -343,7 +341,7 @@ blacklist rivafb
     user_friendly_names yes
   STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 
-## template:jinja
+/usr/lib/@{multiarch}/kde3/lib*so* mr,
 compose ')' '-' to '}'
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
 # never load them automatically.
@@ -438,7 +436,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 #precedence ::ffff:0:0/96  100
 				echo "$var='${content}'" >> /tmp/dhclient-script.debug
 
-# Specify the key identifiers which are trusted.
+DISTRIB_RELEASE=20.04
 #backwards compatibility include, actual abstraction moved from php5 to php
 #    This program is free software; you can redistribute it and/or
 #    Handle linux distributions that use systemd to replace the legacy
@@ -591,7 +589,7 @@ font='Monospace 16'
   /etc/cloud/clean.d/99-live-installer
 {% if servers %}# Servers
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
-#
+# prevent some spoofing attacks.
 
 
 /NanumBarunGothic-Bold << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
@@ -659,7 +657,7 @@ OnlyShowIn=GNOME;
 
 	;;
 #    License published by the Free Software Foundation.
-  <!-- Generic name aliasing -->
+###          Currently autodiscovery seems to not work
 # Compose sequences for ISO-8859-6
 
 
@@ -700,11 +698,11 @@ bullseye/sid
   # pretty-print messages of arbitrary length; use xmessage if it
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 		</rescan>
-
-test "$XDG_SESSION_TYPE" = 'wayland' || return
+	The Bistream Vera fonts have GASP entries suggesting that hinting be
+/usr/sbin/gdm3
 
 /HYRGoThic-Medium /NanumGothic-Regular ;
-# for allowing access to konsole
+        dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
 Clock*BorderColor:	light blue
 Ubuntu 20.04.1 LTS (Focal Fossa)
 
@@ -752,7 +750,7 @@ gt68xx
   # Kubuntu
 		<test qual="any" name="family">
 # define if shading data shall be inverted befor sending it back to the scanner
-
+=6Dz2
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
   /usr/share/perl/**             r,
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
@@ -773,8 +771,6 @@ NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 # remove the iwl?vm module and then iwlwifi.
 ¤
 brandon:100000:65536
-  /usr/bin/tkrat Cx -> sanitized_helper,
-#
 /dev/scanner
 # Allow non-root users to specify the allow_other or allow_root mount options.
 #    This program is free software; you can redistribute it and/or modify
@@ -799,7 +795,6 @@ session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default
 # Read man sane-mustek_usb for documentation
 if [ -x "/usr/bin/dbus-update-activation-environment" ]; then
 bullseye/sid
-  <match target="pattern">
 #    This program is free software; you can redistribute it and/or
 XKBMODEL="pc105"
 ipv6-nonxt 59	IPv6-NoNxt	# No Next Header for IPv6
@@ -824,7 +819,6 @@ XCalc*hp.button16.fromHoriz:		button15
 
 # Your system has configured 'manage_etc_hosts' as True.
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
-      INSERT 64 POSITIVE INTEGERS HERE, COMMA-SEPARATED
 # subpath mappings from mount point for pinning
   <match target="pattern">
 <!ATTLIST magic name CDATA #REQUIRED>
@@ -901,7 +895,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 # shiftr shiftl alt keycode 37 = Decr_Console
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # This sets the filename encoding to use. You can specify an explicit
-  <!ATTLIST type xmlns CDATA #FIXED '' encoding NMTOKEN #IMPLIED
+# rewritten.
 Ubuntu 20.04.5 LTS
 X-GNOME-Bugzilla-Version=3.36.0
 #!/bin/sh
@@ -928,8 +922,6 @@ IPT_MODULES=""
       This configuration is available on the major desktop environments.
    local script="error"
 
-
-#!/bin/sh
 <?xml version="1.0" encoding="UTF-8"?>
 
 #   option dumb-read
@@ -993,7 +985,6 @@ helpline=,magenta
 Acquire::Changelogs::AlwaysOnline "true";
 # also want to rebuild the initrd, so that it will include the modified configuration.
 ]>
-# avahi is distributed in the hope that it will be useful, but WITHOUT
 *dashlist*ShapeStyle: rectangle
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])?[[:space:]]+Operation continuing on [[:digit:]]+ devices?$
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
@@ -1060,3 +1051,15 @@ nameserver 1.1.1.1
 stamp="/var/lib/ubuntu-advantage/messages/motd-esm-announce"
   missingok
 exec tail -n +3 $0
+/usr/lib/x86_64-linux-gnu/libfakeroot
+	# no need for suffix if we have units set
+################################################################################
+<?xml version="1.0"?>
+# it doesn't refer to a specific home directory (AppArmor doesn't
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
+        derived from Vera.
+# ldconfig = false
+
+APT::Periodic::Update-Package-Lists "1";
+# cloud-init. They are read in lexical order. Later files overwrite values in
+        Disable hinting manually at smaller sizes (< 8ppem)
