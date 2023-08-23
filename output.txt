@@ -121,7 +121,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 # vim:syntax=apparmor
 c0582bt_.pfb -bitstream-courier 10 pitch-medium-i-normal--0-0-0-0-m-0-iso8859-1
 
-XCalc*hp.button19.label:	6
+gdm:x:121:129:Gnome Display Manager:/var/lib/gdm3:/bin/false
 # ------------------------------------------------------------------
 search updates ubuntu built-in
 20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
@@ -265,7 +265,6 @@ swedish         sv_SE.ISO-8859-1
 www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 
 </fontconfig>
-# settings when they do exist.
 XClock.input: false
   #
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
@@ -301,7 +300,6 @@ set -e
 }
 #net.ipv4.tcp_syncookies=1
 QUIET=0
-    case "$1:$2" in
   monthly
 
 #
@@ -401,7 +399,7 @@ Parent: Debian
 QT_ACCESSIBILITY=1
 " This happens after /etc/vim/vimrc(.local) are loaded, so it will override
 #
-	vgs_cols_full="vg_name,vg_uuid,vg_fmt,vg_size,vg_free,vg_sysid,vg_extent_size,vg_extent_count,vg_free_count,vg_profile,max_lv,max_pv,pv_count,lv_count,snap_count,vg_seqno,vg_mda_count,vg_mda_free,vg_mda_size,vg_mda_used_count,vg_attr,vg_tags"
+
 w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
 
 
@@ -436,7 +434,6 @@ makestep 1.0 3
 gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
 
 *editMenu.copy.label:			Copy (Meta-W)
-compose '^' 'y' to '˛'
   /opt/novell/lib/libpthread_ext*.so* mr,
 
 
@@ -454,7 +451,6 @@ additional configuration artifact cleanup from the filesystem when
 # or removing a feature will be allowed.
 # Compose sequences for ISO-8859-11
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
-[DEFAULT]
 #
 *showGrip:			FALSE
 fi
@@ -469,7 +465,7 @@ allocation {
   # Include additions to the abstraction
 America/Los_Angeles
   rotate 6
-#
+#parport0
 # Kernel Image management overrides
 
 scsi "B&H SCSI"
@@ -490,7 +486,6 @@ XCalc*.bevel.borderWidth:		1
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? raid[[:digit:]]+: Disk failure on [[:alnum:]]+, disabling device\.$
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] exiting on signal [0-9]+.$
-# vim:syntax=apparmor
 [fwupd Remote]
 brandon:100000:65536
   # Executables
@@ -578,7 +573,6 @@ compose ',' 'a' to '±'
 
 <!--  Enable sub-pixel rendering --> 
 # * Be careful about changing the environment since this is sourced
-Mode: 644
 
 data {yes
   <edit name="scalingnotneeded" mode="assign">
@@ -606,7 +600,6 @@ set -- $IF_ETHERNET_WOL
 13  ip6fw
   audit deny @{HOME}/.local/share/thumbnailers/{,**} wl,
 chip "w83627uhg-*"
-
 remove iwlwifi 
 fi
 #
@@ -614,7 +607,7 @@ fi
   abi <abi/3.0>,
         %fixedAttr;
 # Compose sequences for VISCII
-URLS="https://motd.ubuntu.com"
+#
 
 include if exists <tunables/etc.d>
 {% endif %}
@@ -648,7 +641,6 @@ change_hat {yes
   # Iceweasel
 #  * there is no space around the "="
 //Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
-wifi.powersave = 3
 631	# cups
 alias net-pf-19 off
 usb 0x04e8 0x3455
@@ -684,7 +676,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 eval $(/usr/bin/locale-check C.UTF-8)
 #    Copyright (C) 2002-2009 Novell/SUSE
 X-Ubuntu-Gettext-Domain=xdg-user-dirs
-}
 
   include if exists <abstractions/dbus-accessibility-strict.d>
   # User files
@@ -723,7 +714,7 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 *fileDialog.accept.bottom:		ChainBottom
-  # Other executables
+  <policy user="root">
 twm
 *form.floodFill.label:			Flood Fill
 esac
@@ -842,7 +833,6 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 # Some "catch-all" log files.
 # Compose sequences for ISO-8859-16
 0	unspec
-[fwupd]
 #NTP=
 ®â 9©`Ÿl’ >D∂∞!£j[~=‡g·%1¯Å_á¸T0T+–ƒfüﬁ¥Çe≥èR·Cdˇ¥!£j[~=‡g·%1¯Å_á¸T0,W†MfÇ‰¨Ç˙®Õ5œ~∞°G~p¸z¿œ¬Kbø˘©`X~Ég"ﬂ˙¯|∆dE»rüPÿˇùg?Ÿ–√ö≠x=!^>Éx¡K≥Ú:π€ÀUÀ¬uÉT∏Ÿ2™∂Ö‡◊~^É¯u»OCıù@ê*X6ã§¬á»Œm»®⁄Ç_¯YxI~‡◊!?ÁboÄﬂ¬`‰Ä¯L≤	É$Jb5Òd?øé¯ï¡–à`ËNyÊÄ¯Ómí—ªΩœ?Ìíú,Ø¢µ‡æ‡æOÑØ
 do_bootloader = no
@@ -850,7 +840,7 @@ do_bootloader = no
 ## Add external Servers using
 
 
-  /usr/{local/,}share/glib-[0-9]*/schemas/** r,
+	fwsetup
 # abstraction for allowing access to graphical browsers in Ubuntu
             bindkey -M "$i" "$sequence" "$widget"
 
@@ -893,7 +883,7 @@ unset SUBMITURLS
 						;;
      It is enabled by default with Ubuntu Pro. You can find out more about
     done
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: Kernel logging \(proc\) stopped.$
+^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])? md: md[[:digit:]]+: (data-check|requested-resync|resync|reshape|recovery) done.$
 ˝h#0£#e§íìèπÖ(1∑PtA¸·Û≈ßmZ&õÙ°Öﬂ±˚ã7Ω⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷4B˙4-±Ô¶.ÜP¸ç=1˙¿ÜæâhµVÇ6uƒDLƒSuVA˘&⁄≥¯Ë∏êJÜ4s·Tˇ¯|ù"KŸÖ›‡dAõˆhõΩ∫û˚€•B@D@S’t )ç$\∏’._)ËN+eµy≥mu=˘sw©–T©NI#Ó‘UµÓ≠†V∆’ÊÕ{¥5Ùt=˘Ûv©–T©NI#„UWuT˜÷†;´¢Wõ?È—÷–◊ı‰œﬂ•B@D@S•:%ç8[T]’—nètÁUÙjÛùm]O˛Ç]*D@4U™S“H´E’UÌˆXAoR˝¨VõÔˆhk8’ı‰o∫KÖÄàÄ¶JuJÒµ®∫™£›+Ë9UÙjÛΩmC]O˛¬]*D@4U™S“»û›"´Ó≠Aœ≠¢WõÔ˜hk8”ı‰o∂KÖÄàÄ¶JuJaµ†[d’Ω5Ë—S°jÛÉmÁ∫û¸Õw©–T©N9„É™æÍjØPÙ¸*<=öˆhõﬂ‡ân¿=jª∫µàã∏à{p\’ôi$–/€ï)‘=⁄±8‰X00˘…ô4…%§MÁqû•©∞8ø…æ]|b´,¯ªNäíÂ≈˜fÁeT≤ˆÓ>º√”S`4ç@#–4bD‚ÍG√Û·CQ–ÔP®…FqJKW€ÕåN·tßÍ¢u≈E;:”d£¨fFßp:ÜSu—z‚¢ùãÇùk≤QàV3£ÄS8√©∫h}q—ûo/À<äÀ&GgΩ⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷Ú€fæ((àØ…F!~¨fFßp:ÜSu—N≈EàÇ4Ÿ(D´ôQ¿)úé·T]¥°∏hß¢†Cßöl"Ç’Ã(‡N«p™.⁄ô∏hOóÀ∫¢√ﬂ˚vU˚⁄#¢u4’˘Ê¢Û9¢ 7é&ÖËﬁV3£ÄS8√is—Œ&‚¢uEAá∫öl"Ç’Ã(‡N«p™.Z˘F€Íi≤QàV3£ÄS8√©∫hÂÌâ(Ë–â&Öà`53
 0x70	AF32
   <description>Set hintfull to hintstyle</description>
@@ -934,7 +924,7 @@ enabled=1
 
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
 <!DOCTYPE typemap [
-    IM_CONFIG_PREFERRED_RULE="zh_CN,fcitx:zh_TW,fcitx:zh_HK,fcitx:zh_SG,fcitx:ja_JP,fcitx:ko_KR,fcitx:vi_VN,fcitx"
+127.0.0.1	tattoo-heute.com
       <enumeration value="maxExclusive"/>
 254	main
 *replace.accelerators:#augment\
@@ -947,7 +937,7 @@ ipcomp	108	IPCOMP		# IP Payload Compression Protocol
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 ;; Created on: Fri Oct 22 09:48:21 CEST 1999
-
+XClock.Clock.secondColor:	rgba:00/00/ff/80
 XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
 #
 /dev/scanner
@@ -998,7 +988,7 @@ OÙÑ=i£ã≠Ÿ;'´ºMrFÇT=pnŸva∑[ª⁄’Ãﬁwº?^Á§?∆ö∑C√‹<7⁄(bb_«K˝=¥´Å=…;Knc$HæP¢]ç
 fs.protected_hardlinks = 1
 allocation {
 #
-# update_initramfs [ yes | all | no ]
+system.posix_acl_access		permissions
     <!--
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 }
@@ -1022,3 +1012,17 @@ compose '*' '0' to '∞'
 	;;
 
   <!-- Generic name aliasing -->
+  <!-- Allow everything, including access to SetHostName to users of the group "netdev" -->
+
+<!ELEMENT %sequence; ((%annotation;)?, (%element;| %group;| %cs; | %any;)*)>
+[network]
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
+# NTP authentication.
+	rotate 4
+
+		<allow own="uk.org.thekelleys.dnsmasq"/>
+    family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
+#  if no sources are feeding it, so this may help when apps use more than the
+
+# ctrll shiftr alt keycode 37 = Decr_Console
+	<!-- Prefer to match color emoji font. -->
