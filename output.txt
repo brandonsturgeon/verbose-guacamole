@@ -36,7 +36,6 @@ driftfile /var/lib/chrony/chrony.drift
 
 # to update this file, run dpkg-reconfigure cloud-init
 *text.scrollHorizontal:		Never
-			log_warning_msg "Docker already stopped - file $DOCKER_SSD_PIDFILE not found."
 	si_unit_consistency=1
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 @include common-session
@@ -76,7 +75,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 #keyfile /etc/chrony.keys
   /usr/bin/emacsclient.emacs2[2-9] Cxr -> sanitized_helper,
 SOCKET_DIR=.X11-unix
-# Allow writing cache for Qt5 "platforminputcontexts" plugins
+deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
 *text.baseTranslations:		#override\
 #MaxRetentionSec=
@@ -90,7 +89,6 @@ binary::apt::AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap a
 APT::Archives::MinAge "2";
 {#
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] exiting on signal [0-9]+.$
-
 
 
 #    Copyright (C) 2006 Novell/SUSE
@@ -122,7 +120,7 @@ session		required	pam_unix.so
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 # Compose sequences for ISO-8859-16
 
-overlayroot_cfgdisk=LABEL=OROOTCFG
+# Scripts in this directory are executed as root when a user log out from
 server {{server}} iburst
 # Step the system clock instead of slewing it if the adjustment is larger than
 #
@@ -133,7 +131,6 @@ server {{server}} iburst
 # Default is no
 #ifdef COLOR
 			<family>Artsounk</family> <!-- armenian -->
-# Note that /etc/iscsi/iscsi.initramfs must exist for this option to
 
 # dpkg configuration file
 #    modify it under the terms of version 2 of the GNU General Public
@@ -144,7 +141,7 @@ server {{server}} iburst
 ¿W¸	Ú1­ÌGtf˜nëjõ'mJy°ÂJ€“Mé(1®V´åRäq–êg,Ã©‡nı£ÀJ°å¼lrâ’‰°ymC>¦ªS²Ö¨XBo‘ 2Qæ£V,Ò£ö¢Öæœ7É7°vn¨Ù8LÃ©V?i/ÀÈx‚íŠ£'ù'ËKB©€È1ª
 XCalc*hp.button19.label:	6
 # ------------------------------------------------------------------
-
+search updates ubuntu built-in
 20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
     else
 # --launch gpg-agent"
@@ -154,7 +151,6 @@ PATH=/sbin:/bin
 # that will become kernel vars at some point
 
     exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
-X-GNOME-AutoRestart=true
    fi
   # Include additions to the abstraction
   include if exists <abstractions/user-download.d>
@@ -221,7 +217,6 @@ XL3IlFx/6OUpBA==
 *form.invert.label:			Invert
 	"kfreebsd-.*";
 ;; -*-emacs-lisp-*-
-#   ForwardX11 no
       <string>DejaVu LGC Sans</string>
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main
 # so please ensure that:
@@ -306,7 +301,7 @@ www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 # Compose sequences for KOI8-U
 
 </fontconfig>
-  eval $($DBUSLAUNCH --exit-with-session --sh-syntax)
+# settings when they do exist.
 XClock.input: false
   #
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
@@ -363,7 +358,6 @@ Name=Certificate and Key Storage
 
 # Compose sequences for IBM1133
 LAPTOP-5TIN5O4V
-find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/update-notifier/notify-updates-outdated
 SETTINGS="\
 # dmesg_restrict defaults to 1 via CONFIG_SECURITY_DMESG_RESTRICT, only
 
@@ -456,7 +450,7 @@ account     required    pam_shells.so
  -->
 Parent: Debian
 @include common-session
-    DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+" Vim will load $VIMRUNTIME/defaults.vim if the user does not have a vimrc.
 # default location for the meta-release file
 [Configuration]
 # $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
@@ -472,8 +466,7 @@ fi
 
   /var/log/**                   rw,
 # ctrll shiftr alt keycode 36 = Incr_Console
-  compress
-# Default settings for openssh-server. This file is sourced by /bin/sh from
+z´è}zÖ£mÂ¸º÷¨íêÖ".â"îÁq›ÎìLèuŞ»lÅP x¦B»é=İ¯›îØÃeåËóäz¥½f8ö}¬ö¿M/@>çI–×|x]ıéğ­:}Š‘éGÒzÍ±ûÈ®Ê!Å‹sõ€xàAğ¿OëW»šéıÄ—äú¦Ü£|¿Ö¢í{0Â ÌË£õ"zûv½Äv¼›v5Ğ“¼³ìÛŠg*´«‘qšİ—õmò"Ëù]2ß7NÏğü#=««Û¡	jï×ËKT¨P=C¥õFšy÷…­²;6¤â¸÷´z"!Ò‹ˆÔô®¹üNÒÛ5jÍ×Ztì9LÀL~r&*¹Ğ,9Ò5jÔÇWk÷ñôÌès´-XGù:gÑmG	{Ø¿ {õÓHá·,Y?¬.«Ş¢Á!óÆÚó˜)iûMØo7ÎÎÎÎÎÎÎÈ>#êæD~Ò÷,¹K*Q!z(ğºS3î¼À¼ÀË‚´±*ô6ÿ4-±ï¦]ô6¹ï¯y”( T½Á‘›«aŠ«WCs5„½¨ŸjÙØ9ğ«è@@@@?1zU”y²¾.N¢âd[l£ôÕÿb—}¬cÉ
 
 logdir /var/log/chrony
 fi
@@ -640,7 +633,6 @@ FileDescriptorName=unix
 
 # Example configuration file for the GTK+ Multipress Input Method
 suffix (dbus vs. dbus.service). Needrestart uses the systemctl/service
-	if [ -f /etc/iscsi/iscsi.initramfs ] ||
 # shellcheck source=/dev/null
 	thin_pool_chunk_size_policy = "performance"
 	cache_pool_chunk_size = 64
@@ -673,7 +665,6 @@ compose ',' 'a' to '±'
 Mode: 644
 
 data {yes
-		</prefer>
   <edit name="scalingnotneeded" mode="assign">
   /etc/profile.d/                  r,
 
@@ -781,7 +772,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
   abi <abi/3.0>,
 -->
 
-# @{PROC} is the location where procfs is mounted.
+#
 # Compose sequences for CP1256
 # Specify the key identifiers which are trusted.
 #backwards compatibility include, actual abstraction moved from php5 to php
@@ -795,7 +786,7 @@ eval $(/usr/bin/locale-check C.UTF-8)
 X-Ubuntu-Gettext-Domain=xdg-user-dirs
   <match target="pattern">
 }
-# example via package removal (e.g. wine, dosemu).  Therefore, this value
+
   include if exists <abstractions/dbus-accessibility-strict.d>
   # User files
 #5	russia
@@ -837,7 +828,7 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 *fileDialog.accept.bottom:		ChainBottom
-XClock.input: false
+# USB-scanners supported by the hp-backend
 #! /bin/sh
 Parent: Debian
 *form.floodFill.label:			Flood Fill
@@ -887,7 +878,7 @@ compose 'v' 'Z' to '´'
 #stv680.conf
 fi
 fi
-for svc in $RESTART_CHK; do
+scsi RICOH IS60
   abi <abi/3.0>,
 	<alias>
 # The PAM configuration file for the Shadow `passwd' service
@@ -910,7 +901,7 @@ fi
 
 
   # System devices
-0	default
+
 Chef::Log::Formatter.show_time = true
   /usr/bin/gxmms Cxr -> sanitized_helper,
 alias net-pf-36 off
@@ -950,7 +941,7 @@ Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-se
 ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
 		https://*)
 GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
-  # User files
+
 #    License published by the Free Software Foundation.
 	vdo_write_policy="auto"
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
@@ -991,7 +982,6 @@ do_bootloader = no
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
 
 		;;
-# The next line enables the network backend; comment it out if you don't
 # install the apport exception handler if available
 #    Copyright (C) 2015 Canonical Ltd.
 camera=Kodak DC240
@@ -1024,3 +1014,15 @@ DBUSLAUNCH=/usr/bin/dbus-launch
 datasource meta-data and user-data.
 start_it_up()
 [Mount]
+
+# on this system.
+						;;
+     It is enabled by default with Ubuntu Pro. You can find out more about
+    done
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: Kernel logging \(proc\) stopped.$
+ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
+0x70	AF32
+  <description>Set hintfull to hintstyle</description>
+link-local 169.254.0.0
+  #include <abstractions/gnome>
+
