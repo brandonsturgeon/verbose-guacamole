@@ -8,7 +8,6 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 # ------------------------------------------------------------------
 # /etc/passwd file.
 required in any way by the specification).  The information may be useful in
-*JumpScroll:			1
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 /usr/lib/x86_64-linux-gnu
 # <target name>	<source device>		<key file>	<options>
@@ -39,7 +38,7 @@ Comment=GNOME Keyring: SSH Agent
 
 # Compose sequences for ISO-8859-11
 if [[ -z "$PATH" || "$PATH" == "/bin:/usr/bin" ]]
-compose '"' 'A' to 'ƒ'
+# Refresh AppStream cache when APT's cache is updated (i.e. apt update)
 #*)
   </match>
 # Unlike any other crontab you don't have to run the `crontab'
@@ -125,7 +124,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
 [ -d /var/crash ] || exit 0
-			<family>DejaVu Sans</family>
 
    formatter=simpleFormatter
     export CLUTTER_IM_MODULE
@@ -211,7 +209,6 @@ if [ "$INITRD" = 'No' ]; then
 	#   0 if daemon has been stopped
 
 find /var/crash/. ! -name . -prune -type f ( ( -size 0 -a ! -name '*.upload*' -a ! -name '*.drkonqi*' ) -o -mtime +7 ) -exec rm -f -- '{}' ;
-
 
 
 ctl.!default {
@@ -313,7 +310,7 @@ OK		ATDTT
 #
 # DO NOT EDIT OR REMOVE
 
-	<policy user="root">
+usb 0x05da 0x30d4
 
 # vim:syntax=apparmor
 
@@ -361,7 +358,7 @@ Title=Enable UEFI capsule updates on Dell systems
 #           the currently-running release is not itself an LTS release the
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 # msgs, from, etc.)
-	The Bistream Vera fonts have GASP entries suggesting that hinting be
+# the file system.
 /usr/sbin/gdm3
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
 Clock*BorderColor:	light blue
@@ -406,7 +403,6 @@ LP-PPA-ubuntu-mozilla-daily
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
 bookman_light_italic.latin1.plain=Bookman-LightItalic
     <alias>
-NoDisplay=true
   # User files
 letter
   </rejectfont>
@@ -422,7 +418,6 @@ option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
 # subpath mappings from mount point for pinning
   <match target="pattern">
 Acquire::Changelogs::AlwaysOnline "true";
-		<family>Nimbus Sans L</family>
 ### that look up the default sink/source get the right value
     # pivoting into a whitelisted path.
 				/bin/plymouth message --text="${TEXT}"
@@ -453,7 +448,7 @@ Name=GNOME Settings Daemon's power plugin
 	daytime_hosts => [ qw {} ],
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 SHELL=/bin/sh
-# This mechanism that does not depend on a system service to operate.
+disable_flash_pq_bg_color=1
     <match target="pattern">
 # banner-message-text='Welcome'
                                   (symbol-name debian-emacs-flavor)
@@ -548,7 +543,6 @@ test -f $DAEMON || exit 0
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 email_format=text
 #
-# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 #
 session		required	pam_unix.so
 # You should have received a copy of the GNU Lesser General Public License
@@ -659,7 +653,6 @@ scsi RICOH IS60
 
 #
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-_log:
 disable_root: true
 # Compose sequences for GEORGIAN-PS
 man:x:12:
@@ -693,7 +686,6 @@ restrict 127.0.0.1
 // grant codeBase "jrt:/com.greetings" {
 # set trimblanks
 
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 kbd_mode '-u' < '/dev/tty3' 
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
 title=Secure shell server, an rshd replacement
@@ -717,7 +709,7 @@ speed=115200
 #    (at your option) any later version.
     echo "updates of cacerts keystore disabled."
 # files; in other words, files such as a sample .profile that will be
-## or updates from the Ubuntu security team.
+# vim:syntax=apparmor
 # vim:syntax=apparmor
   #include <abstractions/opencl-nvidia>
   # do not use ux or PUx here. Use at a minimum ix
@@ -726,7 +718,6 @@ speed=115200
 XCalc*ti.button37.label:	7
 . /usr/share/bash-completion/bash_completion
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-S|≤«ó?=“r˙€têK-mänì6Ñ]9ˆπéF’2˛€âO≠äó
 #  address = "/run/containerd/debug.sock"
 
 
@@ -744,13 +735,13 @@ XClock.input: false
 # Dell A920
 # IPMI_OS_Boot_A_Boot_Completed                          Nominal
 # This file contains the names of kernel modules that should be loaded
-@include common-auth
+	;OÊ¨¿≤2]~ë‘tÆû`Ãâr±Oﬂ"óµF2ñáDœﬂñäô¥·añgT»4ÍÙxª¡SBg&iÀŸr$√≈óãBaX—z7Ù+IOºq—°;∑¢GU@ûŒs[…Œ=ÖpïR]d≥öË˘ÑÂe’^ô<π0<ænë;j“€{ƒÌM)BU~‘eW1a¯d∏⁄Bœ”õºΩ^©6Ì|·b„ö !—Í«3„?ıöºÈlÓ%-G≈tz9Ä¬ﬂˆê_∞±a=LC0¸Ûõú{dós—1gS[∑“B€•|ÈØo…	Î˙1˜<S-xÁÉ÷ÚVOF•”E1†iJ£´&h≤¸gè›ôÊ0Hõ]„T/y`∑XÂUø√à¶àôp>¸àY∏†H‰JÕn–V¡ºëèxv…°ß4ëÉ)‘¯
 # raid1
         %facetAttr;
 
 # Insert here your local magic data. Format is described in magic(5).
 
-
+# This is only used for network scanners.
   /usr/bin/iconv rm,
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
         </policy>
@@ -817,7 +808,6 @@ GRUB_CMDLINE_LINUX=""
 # installation of packages available from the repository
 /usr/sbin/gdm3
 # Specify command line options here. This config file is used
-[METARELEASE]
 <!DOCTYPE colormap [
 
 X-GNOME-Autostart-Phase=Initialization
@@ -855,7 +845,7 @@ account     required    pam_shells.so
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 # If set to all update-initramfs will update all initramfs
 # RFC 2598
-# subpath mappings from mount point for pinning
+
 
 # This file is sourced only for login shells. It
 
@@ -1054,7 +1044,7 @@ LANG=C.UTF-8
   # Scanning for USB devices
 <!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
 #    modify it under the terms of version 2 of the GNU General Public
-# ------------------------------------------------------------------
+
       126 138 170 195 220 236 248 253 254 245 233 217 193 169 137 125
 *ÜHŒ=h0e1Âi…n€∆1∫	A·ó¯˚˝ö‚}…Ì|d”À%ãVŸ†Á^]NÉú[v)†	&!jb0q“µè\Í;·x	Ö®uí;»\˝HÔt"®‚n≈IŒ«ºßaiÒ˜;·*À˘+Ûfê7"debian:digicert_global_root_g3.pem8P_1X.509C0Ç?0Ç≈†UVºÚ^§55√§’´Er0
 
@@ -1170,3 +1160,18 @@ mozilla/GTS_Root_R1.crt
 # Magic local data for file(1) command.
 Acquire::Changelogs::AlwaysOnline "true";
 0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255
+
+  /usr/bin/conkeror Cx -> sanitized_helper,
+  # StackGuard, FormatGuard, etc., alerts can be properly logged.
+# password.
+fi
+
+#    with this program; if not, write to the Free Software Foundation, Inc.,
+#               -> put the port that you use instead of '88'.
+# $ systemctl edit --full cron.service
+#dumpinquiry
+#udev_log=info
+scsi CANON IX
+build_name: server
+  audit deny @{HOME}/.evolution/{,**} mrwkl,
+deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
