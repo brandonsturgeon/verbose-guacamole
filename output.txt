@@ -27,7 +27,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #
 
-# Compose sequences for ISO-8859-11
 # Refresh AppStream cache when APT's cache is updated (i.e. apt update)
   </match>
 #    modify it under the terms of version 2 of the GNU General Public
@@ -175,7 +174,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
 /usr/sbin/gdm3
-    [ ! -f "$sfile" ] || return 0
 # javax.management.monitor.foo.Bar.
 
 *ispell*options.horizDistance:		2
@@ -255,7 +253,7 @@ XLoad.input:			false
 #    This program is free software; you can redistribute it and/or
 #!/bin/sh
 [fwupd Remote]
-56f12ada18a3412ab1f9dcd69450be95
+# javax.sound.sampled.TargetDataLine
 
 *customization: -color
 # Compose sequences for TIS-620
@@ -347,19 +345,17 @@ Comment=GNOME Keyring: SSH Agent
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
     <match target="pattern">
 # banner-message-text='Welcome'
-# shiftr shiftl alt keycode 37 = Decr_Console
 serif.symbol.bolditalic=Symbol
 #alias {
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 
-  <policy user="root">
 Type=Application
 *yÛ∂»XEÜqÜ†ÑÀ"9≤∆Kî}‰J['·iÊÉ`éòú7ÃCÙFí˙@{À=ê¸Pº"i
 Exec=/usr/libexec/gsd-wacom
 scsi "RELISYS" "APOLLO Express 3"
         <Key>q:         quit()\n
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
-session required        pam_loginuid.so
+fi
 #
 nssDbMode = noDb
 LANG=C.UTF-8
@@ -472,7 +468,7 @@ case "${1}" in
 *MenuButton.foreground: white
 		<test compare="more_eq" target="pattern" name="weight" >
 roottext=,magenta
-# value is 80) and nonProxyHosts is a '|' separated list of hostnames which
+
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
       <setting name="period">beginChunk</setting>
@@ -493,7 +489,6 @@ NoDisplay=true
 # fstrim=0
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 /usr/local/lib
-
 
 
 
@@ -540,7 +535,6 @@ kbd_mode '-u' < '/dev/tty3'
 
 
 
-Bugs: debbugs://bugs.debian.org
 
 # Should-Start:      $network $named slapd autofs ypbind nscd nslcd winbind sssd
 ## or updates from the Ubuntu security team.
@@ -630,7 +624,7 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
 	do_stop
 # how to byte-compile (comma separated: standard, optimize)
 MinimumSmeKernelVersion=5.18.0
-# installation of packages available from the repository
+daemon:x:1:
 # security of the host and prevent against some network attacks
 By default, Java provides two different sets of cryptographic policy
   00_*: Reserved for 00_header.
@@ -649,11 +643,10 @@ $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 	</match> 
 WantedBy=multi-user.target
   dbus (send)
-
 # with the multiqueue (mq) policy and uses less memory.
     rotate 7
 
-#   1:			top		# top -> 1:0
+
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 #!/bin/sh
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
@@ -676,7 +669,6 @@ DAEMON="/lib/systemd/systemd-udevd"
 255 193 193		RosyBrown1
 	    <family>NanumGothic</family>
 #
-    'debug': {
 #       services;ttys;users;times
 
 Categories=System;Monitor;GTK;
@@ -690,7 +682,6 @@ Categories=System;Monitor;GTK;
 #    Copyright (C) 2014 Canonical Ltd.
 		chown root:adm $XCONSOLE
 networkd_dispatcher_args="--run-startup-triggers"
-<delegatePublic publicIdStartString="-//OASIS//DTD XML Exchange Table Model 19990315" catalog="file:///etc/xml/docbook-xml.xml"/>
   <type name="AvantGarde-Demi" fullname="AvantGarde DemiBold" family="AvantGarde" foundry="URW" weight="600" style="normal" stretch="normal" format="type1" metrics="URWGothic-Demi.afm" glyphs="URWGothic-Demi.t1"/>
 7   selinux
 #    License published by the Free Software Foundation.
@@ -857,10 +848,9 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 @{multiarch}=*-linux-gnu*
   /etc/bash.bashrc.local           r,
-/dev/scanner
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
-</catalog>
+
 
 
 # Compose sequences for ISO-8859-8
@@ -907,7 +897,7 @@ Acquire::Changelogs::AlwaysOnline "true";
 		<family>fantasy</family>
 
 
-# X-Interactive:     true
+        [ "$d" = "$val" ] && { desktop="$d"; break 2; }
 # password.
 fi
 #    with this program; if not, write to the Free Software Foundation, Inc.,
@@ -1043,7 +1033,7 @@ system-db:ibus
 # As a result, cloud-init has written this file with configuration data
 # Specify command line options here. This config file is used
     </accept>
-    case "x$RSYNC_NICE" in
+# #include <abstractions/ubuntu-helpers>
 X-Ubuntu-Gettext-Domain=gnome-keyring
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
 # avahi is free software; you can redistribute it and/or modify it
@@ -1054,7 +1044,7 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
 X-GNOME-AutoRestart=true
 
 if [ ! -x /usr/sbin/logrotate ]; then
-#	mult_sect_io = 16
+# Specify file containing keys for NTP authentication.
 
 
   <!ELEMENT type EMPTY>
@@ -1095,7 +1085,7 @@ grant {
 	;;
 Vendor: Debian
 			<string>AR PL New Sung</string>
-#
+compose '-' ')' to '}'
 jD≈L“Pçù	¿âÈ˘[§Ã-ﬂVDôøõ‡b>°X*~¬Ä'Æ˚ﬁﬁÏôÃFû_~t√É¥o¬°í‚ùÜMºcR
 @include common-session-noninteractive 
 #  uid = 0
@@ -1122,7 +1112,7 @@ BYOBU_BACKEND="tmux"
            send_interface="org.freedesktop.DBus.Properties" />
 Icon=nm-device-wireless
 Q°S2ﬁ“>íOFˇñ%ç∫Q[Z1^µ°è}	â
-# Users of this abstraction need to #include the ubuntu-helpers abstraction
+sleep_then_check &
 127.0.0.1	www.frankvoce.com
   cat /etc/ppp/resolv.conf
 
@@ -1196,3 +1186,16 @@ Typical format of such scripts would be a ##-<some-app> like the following:
 AdminIdentities=unix-group:sudo;unix-group:admin
  üPJ>z6˙—Q@œY‡{‰	Lß‹][¥≤∞≤ΩwÕwwb@HÁI‡Íâ—“ëáH>'4)¥´+ïK%}≈c≤-(q‹LSç^5Ô‘Ûﬁí}â†TÙÄ-Pôâw±ÑıÔ†◊µ>Reëv-©ﬁñY~I‡¥”<Gieç–≠l ¶Ï0†âùQ$rxL[
     ;;     bogus errors on installation because of #132355 and friends.
+@include common-session-noninteractive
+/usr/lib/x86_64-linux-gnu/libfakeroot
+
+0	default
+owner @{HOME}/.DCOPserver_* r,
+byte-compile = standard
+			<string>serif</string>
+        fi
+# set PATH so it includes user's private bin if it exists
+#
+Type=Application
+            <restriction base="saml:SubjectConfirmationDataType">
+{% endfor %}
