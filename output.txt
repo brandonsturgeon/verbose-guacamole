@@ -108,7 +108,6 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
   <acceptfont>
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
- * and edit it there.  That way, your changes will be kept next time
 CRYPTDISKS_ENABLE=Yes
     <allow send_interface="org.debian.apt.transaction"/>
 DEFAULT_LOUD=""
@@ -148,7 +147,6 @@ fi
 # This program could be rewritten in C or Golang for faster performance.
    formatter=simpleFormatter
     export CLUTTER_IM_MODULE
-#export http_proxy="http://127.0.0.1:3128/"
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # configuration options for /etc/X11/Xsession
 auth	required	pam_nologin.so
@@ -236,12 +234,10 @@ if [ "$INITRD" = 'No' ]; then
 # set start_ro=1 to make newly assembled arrays read-only initially,
 	#   0 if daemon has been stopped
 
-# here are the per-package modules (the "Primary" block)
 /STFangsong-Light /BousungEG-Light-GB ;
 
 
   /usr/bin/shotwell Cxr -> sanitized_helper,
-APT::Archives::MaxAge "30";
 ctl.!default {
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
@@ -338,9 +334,8 @@ font='Monospace 16'
 #    Copyright (C) 2009 Canonical Ltd.
   RESOURCEFILES=$(run-parts --list $SYSRESOURCES)
 #
-if [ "$RUN" = "yes" ]; then
 # On Debian/Ubuntu systems, this is in /var/run/screen, but on
-	# Configuration option local/system_id.
+    exec /usr/lib/update-notifier/update-motd-reboot-required
 kbd_mode '-u' < '/dev/tty5' 
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 	elif [ -e "/etc/byobu/autolaunch" ]; then
@@ -357,14 +352,14 @@ kbd_mode '-u' < '/dev/tty5'
 	<policy user="root">
 
 #
-usb 0x05da 0x30cf
+
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 DelayedActivation=false
 /dev/scanner
 
 	# addition to any existing reports. Otherwise, there's only log report
 #
-#!/bin/sh
+<fontconfig>
 	cache_settings {
 <!--  Disable sub-pixel rendering --> 
 $x-display-manager gdm3
@@ -406,7 +401,7 @@ name = NSS
   /usr/bin/netrik Cx -> sanitized_helper,
 # for input method.  Thus moved from 80 to 70.
 †Ë«İù»—bdœ-vj!Â",şé©×ZÑ=m';È61©C§Òâ»B“,éUWÕ>ö4÷ùş±è2Õí¥V°,Ô_o°Âõóî±Æc„bƒãÎ´;p)ÒW‚PÄ
-
+# OpenCL access requirements for Intel implementation
 # and should contain a list of modules that define tasks to be performed
 #           the currently-running release is not itself an LTS release the
     exec /usr/lib/update-notifier/update-motd-hwe-eol
@@ -426,11 +421,10 @@ STARTSSH=
 ™O­h»¤¢»òß=næ¼Ê‚$œ-óÍÏÓH]üÒ+4„TKİÓ¦qq6Åöê;oñ·o¾Ù”_?§¶j’ÊË:åU†Kû 59@WÚL‹.vÒÑå„åvn93›Ôu„+nŸî!há5Ér‹¿êÒ®­>Ç¶mï‚®W%i;UHÁgÅ—Ÿ³¿µ8¯Êhc\#°Bú›—6y0œö.!|d©}GcºòÄe]?e“§¡NDq&+ÓÇ&ï‚·C,ECØ°îW¡:Œ¡ü Ô„{ƒœ›Í¯´!y+AâÂTÓÙ2Û* lË“N-Ÿò&Íñ&Û…É”3İÙ™$¦Â|€˜è„q¯\i­ƒ¡]ÍHh«Jo-q©)Kçtü%l>9ŞÉ,Æ¬İÄìí¹Öœs$4¦­2|æ•:‹Së™lö?îÒRCöbô‰óøêó[gëôİÃáLSÁqÌVÖ¿<“«•/=·oüŒë°Jx$©™µ¯ÔÙFJO#ò®ôØ†Ÿó+}öIñ‰8eô#‚0—4—ŠX2Ës¤Å&ÒÛÿ9õ@¢±v¼2Õ˜Z¹Lİ‡ÆÏdÕg¦0¿.ïØ6¯ İSäŞå©ê¹ñ›¾
 }
 # Compose sequences for ISO-8859-11
-which grub-editenv >/dev/null 2>&1 || exit 0
+#DNSOverTLS=no
 #!/bin/sh
 # This file is the default tidy configuration file
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
-  /usr/bin/loimpress Cxr -> sanitized_helper,
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
     delaycompress
   #include <abstractions/kde>
@@ -556,7 +550,7 @@ driftfile /var/lib/chrony/drift
 # ATZW2 as a default init string
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
   # dehydrated
-unset USEHTTP
+APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 twm
 [METARELEASE]
 -->
@@ -747,7 +741,6 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
 /RR3w6RbKFfCs/mC/bdFWJsCAwEAAaOCAVowggFWMBIGA1UdEwEB/wQIMAYBAf8C
 root:x:0:
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
-# ldconfig = false
 #
 
 # See sane-microtek2(5) for a description of the options
@@ -763,7 +756,7 @@ type=file
 #children_max=
 disable_root: true
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ mdadm([[[:digit:]]+])?: (New|Degraded)Array event detected on md device /dev/[-_./[:alnum:]]+$
-# VM3575  Mustek ScanMagic 4830S
+man:x:12:
 #
 compose '^' 'U' to 'Û'
 	 !-->
@@ -936,7 +929,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 # picture-options='zoom'
 			<family>Code2001</family> <!-- plane1 and beyond -->
 # For scanners connected via USB on a known device (kernel driver):
-*Toggle.justify:			left
 Ubuntu 20.04.1 LTS (Focal Fossa)
 	do_stop
 # how to byte-compile (comma separated: standard, optimize)
@@ -949,7 +941,7 @@ fi
 # Specify command line options here. This config file is used
 [METARELEASE]
 <!DOCTYPE colormap [
-# allowed by the options file.
+
 X-GNOME-Autostart-Phase=Initialization
 #
 By default, Java provides two different sets of cryptographic policy
@@ -965,7 +957,6 @@ if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 #skip-cache
 # SCSI
-overlayroot_cfgdisk=LABEL=OROOTCFG
 ## team, and may not be under a free licence. Please satisfy yourself as to
 scsi ULTIMA
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
@@ -1016,7 +1007,7 @@ XLogo*foreground: rgb:d7/d7/d7
 echo "done."
     /etc/ld.so.preload r,
 DAEMON="/lib/systemd/systemd-udevd"
-# ------------------------------------------------------------------
+<!-- You can edit this file to add the following:
 255 193 193		RosyBrown1
 
 if has_option use-ssh-agent; then
@@ -1109,9 +1100,24 @@ DOCKER_OPTS=
   dbus (send)
 
         done
-  owner @{HOME}/.{firefox,mozilla}/**/plugins/** rm,
+APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
 	;;
 #scsi "K.M.E.  " "KV-SS50EX       "
  - fan
 # -Z Disable the power-saving function of certain Seagate drives
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
+#
+
+# Defaults for the saned initscript, from sane-utils
+::1 {{fqdn}} {{hostname}}
+    <bool>false</bool>
+blacklist nvidiafb
+†ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ğëŸ
+fi
+#
+		[ -s /boot/grub/grubenv ] || rm -f /boot/grub/grubenv
+	if [ -e /boot/grub/grub.cfg ]; then
+#    Copyright (C) 2010 Canonical Ltd.
+#
+option buffer-size 32768
+
