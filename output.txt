@@ -34,7 +34,6 @@ LANG=C.UTF-8
      Define aliasing and other fontconfig settings for
 #    modify it under the terms of version 2 of the GNU General Public
   <!-- Read in overrides and child menus from applications-merged/ -->
-#	franc,ais	fr_FR.ISO-8859-1
 fi
 mail.*				-/var/log/mail.log
 
@@ -153,7 +152,7 @@ lock
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
 *form.invert.label:			Invert
-      <string>DejaVu LGC Sans</string>
+test -r /usr/share/im-config/xinputrc.common || return
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main
 # so please ensure that:
 
@@ -188,7 +187,6 @@ CATALOG /usr/share/xml/docutils/catalog
 # raid1
 #select-timeout 5;
 # Compose sequences for ISO-8859-6
-#   "SANE_STATUS_UNSUPPORTED",
 ª}Nz◊ÂÀâF¥Õ{S B‘á&ù∂çöüXÈÅPjàj‡gß]â8ã
 ${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
 
@@ -197,7 +195,6 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 # console I usually leave idle.
 #
 
-# Compose sequences for ISO-8859-5
   . "$USERXSESSIONRC"
   </its:rules>
 trusted.SGI_DMI_*		skip		# xfs specific
@@ -217,7 +214,6 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
   <acceptfont>
   # I think this is adaptive memory management
-# Please consider joining the pool (http://www.pool.ntp.org/join.html).
 driftfile /var/lib/chrony/chrony.drift
 # ------------------------------------------------------------------
 fi
@@ -235,7 +231,6 @@ URI_UNSTABLE_POSTFIX = -development
 
     /etc/modprobe.d/{,*.conf} r,
 
-#net.ipv4.tcp_syncookies=1
 QUIET=0
 
 #
@@ -247,7 +242,7 @@ compose ''' 'i' to 'Ì'
 
 # Compose sequences for IBM1133
 LAPTOP-5TIN5O4V
-SETTINGS="\
+## user 'morgan' gets the CAP_SETFCAP inheritable capability (commented out!)
 
 
 pool {{pool}} iburst
@@ -279,7 +274,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 # Try to rerun any package data downloads that failed at package install time.
 #
 # Local users may interrogate the ntp server more closely.
-/lib32
 America/Los_Angeles
 	cat <<-EOF
 Wants=network.target
@@ -415,7 +409,6 @@ unicode-hotkey=['<Control><Shift>u']
 # raid1
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 ## Add external Servers using
-/Adobe-Japan2-Bold /Japanese-Gothic-Regular-JaH ;
 #
 
 #  terms of the GNU Lesser General Public License as published by the Free
@@ -436,7 +429,7 @@ AutomaticSecurityReports=false
 # This script can be used to override the .d files supplied by other packages.
 . /usr/share/bash-completion/bash_completion
 <fontconfig>
-	AºtattooUTPK!!{Yl	àºtaxUTPK!“w0	…ºtaxiUTPK!~ÒØ	ΩtcUTPK!_å<	WΩtciUTPK!°äJ	òΩtdUTPK!X¯}	‚ΩtdkUTPK!√y~}%	#æteamUTPK!Uù∂	|ætechUTPK!ò˙#F
+    #alias vdir='vdir --color=auto'
 
 blacklist rivafb
 ## extensively as that contained in the main release, although it includes
@@ -457,7 +450,6 @@ compose ')' '-' to '}'
 	cache_pool_chunk_size = 64
 # The following lines are desirable for IPv4 capable hosts
 # Required-Start:    $remote_fs
-# enable xtrace if we should be verbose
   )
        containing collections of any of the above.  For example:
 # interpreted by the kernel to help with debugging. The kernel will respond
@@ -500,7 +492,6 @@ chip "w83627uhg-*"
 remove iwlwifi 
 fi
 #
-# linux-image-* postinst calls postinst.d with DEB_MAINT_PARAMS set
   abi <abi/3.0>,
         %fixedAttr;
 # Compose sequences for VISCII
@@ -553,7 +544,6 @@ compose ',' 'A' to '°'
 fi
 
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
-
 	compress
 X-GNOME-Autostart-Phase=PreDisplayServer
 #precedence ::ffff:0:0/96  100
@@ -599,7 +589,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6Ax
 *fileDialog.accept.bottom:		ChainBottom
   <policy user="root">
 twm
-*form.floodFill.label:			Flood Fill
+type=file
 esac
 iLeGMSzZBGE0ioJ82PZzsHelrrObDP1mMre1jQ6zxLlnYUlLvtJpydAfeBxU+6yL
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
@@ -620,9 +610,7 @@ X-GNOME-Autostart-Phase=Initialization
 for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; do
 # The PAM configuration file for the Shadow 'newusers' service
 #
-# Compose sequences for ISO-8859-10
 if enabled in cloud-config.  Specifically, in order to enable it
-#        directory before $MAIL_FILE
   /usr/bin/file-roller Cxr -> sanitized_helper,
 #    modify it under the terms of version 2 of the GNU General Public
   </its:rules>
@@ -669,7 +657,7 @@ alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIB
 20  rdma
 # Don't try to change I/O priority in a vserver or OpenVZ.
 APT::Archives::MaxSize "500";
-	elif [ -e "/etc/byobu/autolaunch" ]; then
+
 
 
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
@@ -714,7 +702,6 @@ X-GNOME-HiddenUnderSystemd=true
 # install the apport exception handler if available
 camera=Kodak DC240
 X-GNOME-Autostart-Notify=true
-deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
  *
 # These variables are for the use of the scripts run by run-parts.
  * and edit it there.  That way, your changes will be kept next time
@@ -759,7 +746,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 #
 <!-- Begin PGPData -->
 
-
+		-->
 
 /NanumBarunGothic-Bold << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
 =RFA4
@@ -779,7 +766,6 @@ audio:x:29:brandon,pulse
 
 #  1. command line options
 ipcomp	108	IPCOMP		# IP Payload Compression Protocol
-  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 ;; Created on: Fri Oct 22 09:48:21 CEST 1999
 XClock.Clock.secondColor:	rgba:00/00/ff/80
@@ -979,7 +965,6 @@ blacklist raw1394
 
 fi
 # Compose sequences for GEORGIAN-PS
-XClock.input: false
 NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 # remove the iwl?vm module and then iwlwifi.
 §
@@ -988,7 +973,7 @@ brandon:100000:65536
 #
 #
 #  never  - Never check for, or allow upgrading to, a new release.
-  /usr/bin/nvidia-modprobe Px -> nvidia_modprobe,
+
 # modem initialization string.
 #
 /dev/scanner
@@ -1028,7 +1013,7 @@ bullseye/sid
 XKBMODEL="pc105"
 ipv6-nonxt 59	IPv6-NoNxt	# No Next Header for IPv6
 }
-    <!--
+#DUIDType=vendor
 # Also, include files in tunables/multiarch.d for site and packaging
 #      to bind the RMIServer remote object is protected with SSL/TLS
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -1060,3 +1045,15 @@ constraint from "9.9.9.9"              # quad9 v4 without DNS
 *Toggle.background: purple
 <!ATTLIST magic name CDATA #REQUIRED>
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+Acquire::Changelogs::AlwaysOnline "true";
+hanzigb24st "-isas-song ti-medium-r-normal--24-240-72-72-c-240-gb2312.1980-0"
+/var/log/alternatives.log {
+
+
+/usr/bin/wine-preloader
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+        cat "$warning"
+				/bin/plymouth message --text="${TEXT}"
+#children_max=
+      This configuration is available on the major desktop environments.
+  owner @{HOME}/.cache/ rw,
