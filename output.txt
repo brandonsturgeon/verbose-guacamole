@@ -23,7 +23,7 @@ required in any way by the specification).  The information may be useful in
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # Specify directory for log files.
       <family>Noto Mono</family>
-<?xml version="1.0"?>
+#    Copyright (C) 2011 Novell/SUSE
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #
 
@@ -161,7 +161,7 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 €šdGh•E^q§ì5¹õ·&nÀ„àòU0tÿz,é#í=°—¤¼ªëğc×Ê¹m		<4Å®MïÜ¶ÜšZqöÅ–ä‚š@˜µÒÆ¯3ÆòÔ¥èIÛÎZ`^Uy³»	åùPŞ|sîúç˜ÉîÑT‡I<‚¾eRÁ==©hLçÏ:îÃùØ¿~œæmbæwys€ÎYÊ
 # ------------------------------------------------------------------
-
+# As the snmp packages come without MIB files due to license reasons, loading
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 # How many usec (1,000,000ths of a) between sending the "back to default" break
 X-GNOME-Autostart-Phase=PreDisplayServer
@@ -169,21 +169,17 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 #    Handle linux distributions that use systemd to replace the legacy
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
-scsi RICOH
 # javax.management.monitor.foo.Bar.
 
 *ispell*options.horizDistance:		2
 [fwupd Remote]
 type=file
-QT_ACCESSIBILITY=1
 
 	        # check because c-n-f could've been removed in the meantime
 # This file is sourced by Xsession(5), not executed.
 esac
-0xD9 'Ã™'
 
   /usr/bin/file-roller Cxr -> sanitized_helper,
-#    modify it under the terms of version 2 of the GNU General Public
 deb {{security}} {{codename}}-security universe
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
@@ -205,7 +201,7 @@ Before=snapd.service
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 [Sleep]
 	daytime_hosts => [ qw {} ],
-        . $IM_CONFIG_XINPUTRC_USR
+#    Copyright (C) 2012 Canonical Ltd.
                     Schema Recommendation</a> forbids the declaration of
 
 # pam-auth-update to manage selection of other modules.  See
@@ -218,7 +214,7 @@ rocks_trees = {
 /Adobe-Japan2 /Japanese-Mincho-Regular-JaH ;
 font='Monospace 16'
 15	ntk
-# On Debian/Ubuntu systems, this is in /var/run/screen, but on
+PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 Exec=/usr/libexec/gnome-shell-overrides-migration.sh
@@ -254,7 +250,6 @@ XLoad.input:			false
 *customization: -color
 # Compose sequences for TIS-620
 Name=GNOME Settings Daemon's USB protection plugin
-}
 # install prefixes.
 Vendor-URL: http://www.ubuntu.com/
 MANPATH_MAP	/opt/sbin		/opt/man
@@ -288,7 +283,6 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
 # Any customisation or reliance on the existence of this file and its
 #usb VENDORID PRODUCTID
-
 
 
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
@@ -391,7 +385,6 @@ switch($TERM)
 
 	<alias>
 
-#
 #       from the USB subsystem. If you're not using the
 	Œö:ÓğoÆY$ÿwº>hÇpW:ÿ‰¿ØÛ6ä_£ V2FÚO“Çùfxá0}
   # User files
@@ -430,7 +423,7 @@ create_machineid() {
 # exit if custom kernel does not need an initramfs
 
 
-
+allow-deletion=false
 # ------------------------------------------------------------------
         </test>
 		<test qual="any" name="family">
@@ -495,7 +488,7 @@ fi
     else
 # WiFi source configuration options
 #    Copyright (C) 2009 Canonical Ltd.
-application/x-texinfo				texinfo texi
+# Additional mounts to exclude at shutdown.
 scsi RICOH IS60
 #
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
@@ -621,7 +614,7 @@ mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
   /usr/bin/apport-bug Cx -> sanitized_helper,
 Options=nodev,ro,x-gdu.hide
 
-
+#net.ipv6.conf.all.forwarding=1
 scsi ULTIMA
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
@@ -779,7 +772,7 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
 		;;
 Ù×›ğ¢škÃJíA`0ÑªBnÓ#ÆeİİRwÚk²¨ú8¹–ê*lg—‰”¼áTÕäjxïJ½+š=@~ÆÀuÒnûh0ìì‹ùI5š,Ù³•9Õ’÷¦¹e/å=m:HLÜä((¾}5à~j×>×ü-u²ÁÕ#Û[o>x/Ş3·Hçƒš{ÁCMU8JQÕY¢‰tÓŸ¾K×Æm·ˆ$o`‘¤‚…[VA¼ĞD«j¾Ñ,X·3X²7cÜõ”?@QõOõ:íÈÅëÂ•zÇ~Bq“nK·0ßªíW…H¬jİ9iäáyx¾Î¿¡÷€{!g'0YBdebian:hellenic_academic_and_research_institutions_rootca_2015.pem8P_XX.5090‚0‚ó 0	*†H†÷0¦10	UGR10UAthens1D0BU
 # specify the provider and priority in the format
-# $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
+
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 . /usr/share/bash-completion/bash_completion
  - chef
@@ -800,7 +793,7 @@ commands scan this directory processing all files that end in '.conf'.
 
 #
 compose '-' '-' to '­'
-em+([0-9])?(_+([0-9]))*
+# Assumes that your IP address is allocated dynamically by the ISP.
 #
 
 /NanumBarunGothic-Regular << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
@@ -880,7 +873,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 		<family>fantasy</family>
 
 
-        [ "$d" = "$val" ] && { desktop="$d"; break 2; }
 # password.
 fi
 #    with this program; if not, write to the Free Software Foundation, Inc.,
@@ -896,7 +888,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 # in the toplevel profile. Eg:
 
 
-
+#
 . /usr/share/bash-completion/bash_completion
 SHELL=/bin/sh
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
@@ -961,14 +953,12 @@ POOL=""
 
   owner @{HOME}/.config/kdeglobals.lock rwk,
 # mountpoins which are configured in /etc/fstab as arguments. Separate
-			XawPositionSimpleMenu(optionMenu) 
 # This file is a simple placeholder to keep dpkg from removing this directory
 deb {{mirror}} {{codename}} multiverse
 #DefaultLimitRTPRIO=
 Terminal=false
 #  elif [ -f /etc/bash_completion ]; then
-#
-ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
+    do_status
 # Written by the Cloud Image build process
 emptyscale=magenta
 			<family>AR PL New Sung Mono</family> <!-- han (zh-cn,zh-tw) -->
@@ -1006,7 +996,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 X-Ubuntu-Gettext-Domain=gnome-keyring
     <Menu>
     exec /usr/lib/update-notifier/update-motd-hwe-eol
-exec /usr/bin/X -nolisten tcp "$@"
+awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
   # acmetool
         stop|status)
 system-db:ibus
@@ -1188,7 +1178,7 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
   # paths (man ld.so)).
 
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
-	<MapNotify>:		Deiconified()	\n\
+# ------------------------------------------------------------------
 # ISSUE_FILE option from login.defs). Uncomment for use
 # /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
 . /usr/share/bash-completion/bash_completion
@@ -1201,3 +1191,14 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 #
   /usr/bin/emacsclient.emacs-snapshot Cxr -> sanitized_helper,
   <!-- <color name="yellow" color="rgb(255,255,0)" compliance="SVG, X11, XPM"/> -->
+Where=/snap/lxd/18150
+# It contains all configuration settings that are customizable by metadata
+# that a module could execute code in the wrong domain.
+deb http://packages.azlux.fr/debian/ buster main
+*popupMenu.openFile.label:	Open File
+/var/log/ufw.log
+#
+      for file in $(find $i -type f -print | LC_ALL=C sort)
+  owner @{HOME}/** w,
+  format and its respective coder module is defined in this configuration
+
