@@ -83,7 +83,6 @@ exec /usr/bin/X -nolisten tcp "$@"
 esac
 
 # Case-sensitive behavior is defined by the operating system.
-#include <tunables/share>
 Acquire::Changelogs::AlwaysOnline "true";
 
        search:
@@ -99,7 +98,6 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 CRYPTDISKS_ENABLE=Yes
     <allow send_interface="org.debian.apt.transaction"/>
-DEFAULT_LOUD=""
 Bugs: debbugs://bugs.debian.org
 
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
@@ -142,7 +140,6 @@ auth	required	pam_nologin.so
 	<match target="font">
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 application/vnd.anser-web-funds-transfer-initiation
-‹]ÒÇj[A†á½¯b°Z·GŽ³±§A¼ÓæH:‰¶Ž#’àÒ{ï½÷Þ{ÌåÿÞì²xg`àY|Cn[Ù-{E¿l»­½jÑÍmI#ýÅ¥…Ñz³Óít]s×¦!·bÇ¹ó…ÒõÊ¢í
 #  * and that the path value is quoted
 # should not normally be necessary (under Linux at least).
 # shells invoked with the -l flag.)
@@ -184,7 +181,7 @@ blacklist rivafb
 "ee[C": forward-word
   STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 
-compose ')' '-' to '}'
+Include /etc/ssh/sshd_config.d/*.conf
 
 
            "booktitles.ent">
@@ -239,7 +236,7 @@ session		optional	pam_keyinit.so force revoke
 /usr/sbin/gdm3
 
 # definitions of existing MD arrays
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
+    [ ! -f "$sfile" ] || return 0
 # javax.management.monitor.foo.Bar.
 # Uncomment following line to disable "clever precalibration" routines...
 *ispell*options.horizDistance:		2
@@ -482,7 +479,7 @@ Exec=/usr/libexec/gsd-wacom
 #
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 <?xml version="1.0" encoding="UTF-8"?>
-
+session required        pam_loginuid.so
 # PPP up hook script for resolvconf
 fi
 nssDbMode = noDb
@@ -549,7 +546,6 @@ fax:x:21:
 exec tail -n +3 $0
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
   convenient to refer to a color by name (e.g. white) rather than by hex
-# it doesn't refer to a specific home directory (AppArmor doesn't
 test -f $DAEMON || exit 0
   (debian-pkg-add-load-path-item
 # ldconfig = false
@@ -632,10 +628,10 @@ roottext=,magenta
 56f12ada18a3412ab1f9dcd69450be95
  97  97  97 		grey38
   # NIS rules
-# List your classid definitions here:
+# The following is a space-separated list of where additional user home
 #    exitCode may be incremented.
 /usr/local/lib/i686-linux-gnu
-    <allow send_destination="org.gnome.DisplayManager"
+# ---------------------------------------------------------------------------#
 
 
 0x80	CS4
@@ -756,7 +752,6 @@ session optional pam_systemd.so
 
 AUFS_MAX_NAMELEN=242
 /dev/scanner
-
 XClock.input: false
 # Dell A920
 # IPMI_OS_Boot_A_Boot_Completed                          Nominal
@@ -850,7 +845,7 @@ account	required			pam_permit.so
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
   echo $0 $@
-   [[/usr/local]]
+Options=nodev,ro,x-gdu.hide
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 #skip-cache
 # SCSI
@@ -876,7 +871,6 @@ account     required    pam_shells.so
 
 export QT_ACCESSIBILITY
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
-## rather simple script, so please follow the following guidelines :)
 # If set to all update-initramfs will update all initramfs
 # RFC 2598
 # subpath mappings from mount point for pinning
@@ -956,9 +950,7 @@ application/vnd.intu.qfx
  10 through 19		system rendering defaults (AA, etc)
                 mask=$(awk '/^UMASK/{gsub("#.*$", "", $2); print $2; exit}' /etc/login.defs)
   /etc/X11/cursors/**             r,
-multi on
 grant {
-[Network]
      format="ttf"
 /dev/scanner
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
@@ -974,7 +966,6 @@ Type=Application
 deb {{mirror}} {{codename}}-updates multiverse
   /usr/share/myspell/**                            r,
 |y+ÃÉ?4O›¶Þ¦°òãÿ*-¸Š·ÙJ-º7ªå¸Îí0KO›Ñ„=ûºëÈHÑ`.‹íZ"MAM„s¶ÌS®¼y£6ÄÎÁÅWm"ŽÀÔ‘‘ÅßÝÍç]²{ÄÙ {§¦;Ö[AçŒm»Hºun¯‰³CÍoào*gƒOÍºÖU¡BÐñ	û×t ãhHZš%’½›½{¢¿KGC!3E´,Launchpad PPA for Roberto Mier EscandÃ³n îƒ¿‰8"ZÂfS		
-DOCKER_OPTS=
 # Configuration for systemwide password quality limits
 127.0.0.1 localhost4.localdomain4 localhost4
   dbus (send)
@@ -990,7 +981,7 @@ MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 
 # Defaults for the saned initscript, from sane-utils
 ::1 {{fqdn}} {{hostname}}
-    <bool>false</bool>
+  /usr/lib{,64,/@{multiarch}}/qt5/qml/** r,
 blacklist nvidiafb
 †ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ðëŸ
 fi
@@ -1063,7 +1054,6 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
         killproc -p $PIDFILE $DAEMON
 	  <accept>
 <?xml version="1.0"?>
-#    This program is free software; you can redistribute it and/or modify
 #if /etc/pam.d/cron  specifies no session modules but cron calls
 		;;
 # "/path/to/statechange.sh suspend-vm" rather than having to install
@@ -1143,7 +1133,7 @@ Name=GNOME Settings Daemon's Wwan plugin
 
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ý^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTÝê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòÝ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùÞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòý äûIÉ÷‹’ï·Ê›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|¶¿¿„¤ù>©
   if [ ! -d $PIDDIR ]; then
-::1 localhost ip6-localhost ip6-loopback
+zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
 </catalog>
 
 #   that it contains both keys with /proto and without /proto for both
@@ -1157,3 +1147,20 @@ Name=GNOME Settings Daemon's Wwan plugin
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
 #Username=
 /GothicBBB-Medium /Japanese-Gothic-Regular ;
+
+#%PAM-1.0
+# set this to 0 to disable apport, or to 1 to enable it
+video:x:44:brandon
+  /usr/bin/apport-bug Cx -> sanitized_helper,
+*internalBorderWidth:			0
+r16          -sony-fixed-medium-r-normal--16-*-*-*-*-*-jisx0201.1976-0
+# Compose sequences for ISO-8859-5
+# Common rules for Qt5-based applications
+
+  <description>Disable hinting</description>
+/dev/scanner
+#    modify it under the terms of version 2 of the GNU General Public
+# applications have "Help -> Switch Application Language..." option, that needs
+/HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
+scsi FCPA
+#DefaultLimitNPROC=
