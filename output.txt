@@ -8,7 +8,6 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 # ------------------------------------------------------------------
 # /etc/passwd file.
-# Make sure the locale variables are set to valid values.
 required in any way by the specification).  The information may be useful in
 *JumpScroll:			1
 @include common-session-noninteractive
@@ -21,7 +20,6 @@ required in any way by the specification).  The information may be useful in
 mail.*				-/var/log/mail.log
 options md_mod start_ro=1
 
-of the file, anything will work. See sysctl.conf(8) man page for details
 APT::Periodic::AutocleanInterval "0";
 # This file is a simple placeholder to keep dpkg from removing this directory
 	monthly
@@ -80,7 +78,7 @@ xterm
 # This file is a simple placeholder to keep dpkg from removing this directory
 ## possibly not what you want... On first reading, you might think this
  			<family>AR PL Zenkai Uni</family>
-Type=Application
+scsi DEVCOM * Scanner
 test -r /usr/share/im-config/xinputrc.common || return
 gtk-icon-sizes = panel-menu-bar=24,24
 # so please ensure that:
@@ -159,7 +157,7 @@ auth	required	pam_nologin.so
 
 #    modify it under the terms of version 2 of the GNU General Public
 
-    permission java.util.PropertyPermission "java.vendor.url", "read";
+compose '^' 'I' to 'Œ'
      <choice>
 #    Copyright (C) 2014 Canonical Ltd
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
@@ -200,7 +198,6 @@ CATALOG /usr/share/xml/qaml/catalog
 {
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 #
-         only share the location if user allows it. -->
 
 2fk6GWIY8lgxlKV/LinM5XkFDXv6Zf/o8Nv/i9bVO9Dv1bVh1ThgA3xy8WIzUQge
 
@@ -212,7 +209,7 @@ compose ')' '-' to '}'
 
 
            "booktitles.ent">
-
+setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz' 
 fi
 # See avahi.hosts(5) for more information on this configuration file!
 # Compose sequences for GEORGIAN-PS
@@ -257,7 +254,6 @@ usb 0x043d 0x007c
 /usr/lib/i686-linux-gnu
       without rebooting a machine which drastically limits the need for
     delaycompress
-<fontconfig>
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 # How many usec (1,000,000ths of a) between sending the "back to default" break
 X-GNOME-Autostart-Phase=PreDisplayServer
@@ -326,7 +322,6 @@ X-GNOME-Bugzilla-Version=3.36.x
 /var/log/apt/term.log {
 	daytime_hosts => [ qw {} ],
 # Compose sequences for ISO-8859-16
-    permission java.lang.RuntimePermission "accessUserInformation";
                     Schema Recommendation</a> forbids the declaration of
 
 # pam-auth-update to manage selection of other modules.  See
@@ -384,12 +379,11 @@ $x-display-manager gdm3
 
     done
 # Compose sequences for IBM1133
-#    Copyright (C) 2009-2011 Canonical Ltd.
+<!DOCTYPE busconfig PUBLIC
 CRYPTDISKS_MOUNT=""
 
 XLoad.input:			false
 !ïîhƒ¬«®(/‰< @Ä·	Í«h ◊¨·ãXÛ•jCBüb õøå‚[±÷£÷‹˝˝c=Î÷∂óë	zéo’c”…-AK–¥-yÆñ®˛π«9Y∏⁄∫⁄'ùÈCŒ’Êá=⁄Êõén¿=jª∫µàã∏à{pô≈g~h5Ì„^
-@include common-account
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 #    This program is free software; you can redistribute it and/or
 #!/bin/sh
@@ -430,15 +424,14 @@ name = NSS
 Clock*BorderColor:	light blue
 if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
 127.0.0.1	www.paginebiamnche.it
-# Magic local data for file(1) command.
 *Scrollbar.displayList:\
   /etc/X11/app-defaults/XTerm r,
 STARTSSH=
   /srv/www/rails/*/public/** r,
 #    Copyright (C) 2011-2013 Canonical Ltd.
 ôO≠éhª§¢ªÚﬂ=nÊº Ç$ú-ÛÕœ”H]¸“+4ÑTK›”¶qq6≈ˆÍ;oÒ∑oæŸî_?ß∂jí À:ÂUÜK˚ 59@W⁄Lã.v“—ÂÑÂvn93õ‘uÑ+nüÓ!h·5…rãøÍ“Æ≠>«∂mÔÇÆW%i;UH¡g≈óü≥øµ8Ø hc\#∞B˙õó6y0úˆ.!|d©}Gc∫Úƒe]é?eìß°NDq&+”«&ÔÇ∑C,ECÿ∞ÓW°:å°¸ ‘Ñ{ÉúõÕØ¥!y+A‚¬T”Ÿ2€* lÀìN-üÚ&ÕÒ&€Öê…î3›Ÿô$¶¬ç|ÄòËèÑqØ\i≠É°]ÕHh´Jo-q©)KÁt¸Å%l>9ﬁ…,∆¨›ƒÏÌèπ÷ús$4¶≠2|Êï:ãSÎôûlˆ?Ó“RCˆbÙâÛ¯ÍÛ[gÎÙ›√·LS¡qÃV÷ø<ì´ï/=∑ço¸åÎ∞ùJx$©ôµØ‘ŸFJO#ÚÆÙÿÜüÛ+}ˆIÒâ8eÙ#Ç0ó4óäX2Às§≈&“€ˇ9ı@¢±vº2’òZπL›á∆œd’g¶0ø.Ôÿ6Ø ›S‰ﬁÂ©ÍπÒõæ
-#DefaultLimitAS=
--dcevm KNOWN
+}
+# Compose sequences for ISO-8859-11
 which grub-editenv >/dev/null 2>&1 || exit 0
 #!/bin/sh
 # This file is the default tidy configuration file
@@ -542,7 +535,7 @@ serif.symbol.bolditalic=Symbol
 #    modify it under the terms of version 2 of the GNU General Public
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
-
+EnumerateAllDevices=false
 [Sources]
 }
   /etc/OpenCL/** r,
@@ -567,7 +560,7 @@ LANG=C.UTF-8
 driftfile /var/lib/chrony/drift
   <type name="NewCenturySchlbk-BoldItalic" fullname="New Century Schoolbook Bold Italic" family="NewCenturySchlbk" foundry="URW" weight="700" style="italic" stretch="normal" format="type1" metrics="C059-BdIta.afm" glyphs="C059-BdIta.t1"/>
 # Compose sequences for ISO-8859-8
-     export XDG_DATA_DIRS
+# ATZW2 as a default init string
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
   # dehydrated
          ;;
@@ -576,7 +569,6 @@ twm
 [METARELEASE]
 -->
 # eliminate DISABLE
-#          knowledge.  This is because code on that filesystem is executed
 XClock.input: false
 #
     import apport_python_hook
@@ -615,7 +607,7 @@ done
 #       from the USB subsystem. If you're not using the
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
 # You can even override a supported extension:
-#
+		<test name="pixelsize" compare="less">
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 esac
 #
@@ -784,7 +776,7 @@ type=file
 disable_root: true
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ mdadm([[[:digit:]]+])?: (New|Degraded)Array event detected on md device /dev/[-_./[:alnum:]]+$
 # VM3575  Mustek ScanMagic 4830S
-
+#
 compose '^' 'U' to '€'
 	 !-->
 compose '`' 'a' to '‡'
@@ -961,7 +953,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 *Toggle.justify:			left
 Ubuntu 20.04.1 LTS (Focal Fossa)
 	do_stop
-*form.circle.label:			Circle
 # how to byte-compile (comma separated: standard, optimize)
 GRUB_CMDLINE_LINUX=""
 # For an IEEE 1394 scanner, use the SBP2 protocol (under Linux, use the
@@ -975,7 +966,6 @@ fi
 # allowed by the options file.
 X-GNOME-Autostart-Phase=Initialization
 #
-"\e[1~": beginning-of-line
 By default, Java provides two different sets of cryptographic policy
 #option modelname "Prima PagePartner"
   00_*: Reserved for 00_header.
@@ -1003,7 +993,7 @@ rq0t2YjXglIBHRDiJlOTAR3if37OCDKCcHOOODqYrsN7wNleez+ulkDyP7C7ZTbm
   dbus (send)
 	;;
 # with the multiqueue (mq) policy and uses less memory.
-  # connection information
+title=Secure shell server, an rshd replacement
   <policy context="default">
 # javax.sound.sampled.Port
 #   1:			top		# top -> 1:0
@@ -1015,7 +1005,7 @@ account     required    pam_shells.so
 export QT_ACCESSIBILITY
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 ## rather simple script, so please follow the following guidelines :)
-UUIDD_GROUP=uuidd
+/Adobe-Japan1 /Japanese-Mincho-Regular ;
 # If set to all update-initramfs will update all initramfs
 
 # RFC 2598
@@ -1034,7 +1024,6 @@ if [ "$BASESTARTUP" = x-session-manager ]; then
 XLogo*foreground: rgb:d7/d7/d7
 # Insert here your local magic data. Format is described in magic(5).
   /usr/bin/mousepad Cxr -> sanitized_helper,
-
 
 
 
@@ -1095,13 +1084,10 @@ fi
 #mult_sect_io = 32
 # Compose sequences for ISO-8859-5
     permission javax.crypto.CryptoAllPermission; 
-
 usb 0x04e8 0x3455
-dumpinquiry
 # The default is 1000.
 # (some code taken from cron-apt, thanks)
 # kdenetwork
-# <target name>	<source device>		<key file>	<options>
   # abstract path in ibus >= 1.5.22 uses $XDG_CACHE_HOME (ie, @{HOME}/.cache)
 }
 [OpenSSH]
@@ -1111,3 +1097,12 @@ brandon:100000:65536
 application/vnd.intu.qfx
       <setting name="period">beginChunk</setting>
  10 through 19		system rendering defaults (AA, etc)
+                mask=$(awk '/^UMASK/{gsub("#.*$", "", $2); print $2; exit}' /etc/login.defs)
+  /etc/X11/cursors/**             r,
+multi on
+grant {
+[Network]
+/etc/pulse/** r,
+/dev/scanner
+token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
+  reload)
