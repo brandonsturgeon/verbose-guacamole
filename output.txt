@@ -33,7 +33,7 @@ APT::Periodic::AutocleanInterval "0";
 #
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # Specify directory for log files.
-
+      <family>Noto Mono</family>
 <?xml version="1.0"?>
 Comment=GNOME Keyring: SSH Agent
 #
@@ -89,7 +89,6 @@ esac
   #include <abstractions/fcitx-strict>
 # Case-sensitive behavior is defined by the operating system.
 #include <tunables/share>
-»}Nz×åË‰F´Í{SÊBÔ‡&¶šŸXéPjˆjàg§]‰8‹
 Acquire::Changelogs::AlwaysOnline "true";
 
        search:
@@ -136,7 +135,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 	cat <<-EOF
 audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
-fi
 /dev/scanner
 			<family>DejaVu Sans</family>
 
@@ -162,7 +160,7 @@ Vendor: Ubuntu
 # vim:syntax=apparmor
 # If you want to globally change where snmp libraries, commands and daemons
 turkish         tr_TR.ISO-8859-9
-<!ELEMENT magicmap (magic)+>
+    <policy domain="coder" rights="read|write" pattern="{GIF,JPEG,PNG,WEBP}" />
 
 # [automount]
 	</alias>
@@ -229,7 +227,7 @@ if [ "$INITRD" = 'No' ]; then
 find /var/crash/. ! -name . -prune -type f ( ( -size 0 -a ! -name '*.upload*' -a ! -name '*.drkonqi*' ) -o -mtime +7 ) -exec rm -f -- '{}' ;
 
 
-  /usr/bin/shotwell Cxr -> sanitized_helper,
+
 ctl.!default {
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
@@ -279,7 +277,7 @@ esac
 # Specify command line options here. This config file is used
 # Compose sequences for ISO-8859-5
 ports=22/tcp
-
+# this remote provides metadata and firmware marked as 'testing' from the LVFS
 		echo "autospawn=yes" > /run/pulseaudio-enable-autospawn
 # Multiarch support
 previous-engine=@as []
@@ -403,7 +401,7 @@ twm
 ™O­h»¤¢»òß=næ¼Ê‚$œ-óÍÏÓH]üÒ+4„TKİÓ¦qq6Åöê;oñ·o¾Ù”_?§¶j’ÊË:åU†Kû 59@WÚL‹.vÒÑå„åvn93›Ôu„+nŸî!há5Ér‹¿êÒ®­>Ç¶mï‚®W%i;UHÁgÅ—Ÿ³¿µ8¯Êhc\#°Bú›—6y0œö.!|d©}GcºòÄe]?e“§¡NDq&+ÓÇ&ï‚·C,ECØ°îW¡:Œ¡ü Ô„{ƒœ›Í¯´!y+AâÂTÓÙ2Û* lË“N-Ÿò&Íñ&Û…É”3İÙ™$¦Â|€˜è„q¯\i­ƒ¡]ÍHh«Jo-q©)Kçtü%l>9ŞÉ,Æ¬İÄìí¹Öœs$4¦­2|æ•:‹Së™lö?îÒRCöbô‰óøêó[gëôİÃáLSÁqÌVÖ¿<“«•/=·oüŒë°Jx$©™µ¯ÔÙFJO#ò®ôØ†Ÿó+}öIñ‰8eô#‚0—4—ŠX2Ës¤Å&ÒÛÿ9õ@¢±v¼2Õ˜Z¹Lİ‡ÆÏdÕg¦0¿.ïØ6¯ İSäŞå©ê¹ñ›¾
 }
 # Compose sequences for ISO-8859-11
-#DNSOverTLS=no
+[connection]
 #!/bin/sh
 # This file is the default tidy configuration file
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
@@ -500,7 +498,6 @@ serif.symbol.bolditalic=Symbol
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 EnumerateAllDevices=false
-       notifempty
 }
   /etc/OpenCL/** r,
 Type=Application
@@ -597,7 +594,6 @@ email_format=text
 #
 session		required	pam_unix.so
 # You should have received a copy of the GNU Lesser General Public License
-  </complexType>
 # polyinstantiation.
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 <?xml version="1.0"?>
@@ -676,7 +672,6 @@ roottext=,magenta
   # NIS rules
 # List your classid definitions here:
 #    exitCode may be incremented.
-stop_watchdog_quiet()
   if [ -z "$XDG_CONFIG_DIRS" ]; then
     <allow send_destination="org.gnome.DisplayManager"
 
@@ -691,7 +686,6 @@ type=file
 # fstrim=0
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
 /usr/local/lib
-254	main
 /usr/bin/wine-preloader
 
 
@@ -701,7 +695,6 @@ BRIDGE_HOTPLUG=no
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
 
 
-    force-reload|restart)
 
 XClock.Clock.hourColor:		rgba:7f/00/00/c0
 # does not work or could not work correctly
@@ -737,7 +730,7 @@ Acquire::Changelogs::AlwaysOnline "true";
 group:          files systemd
 
 #!/bin/sh
-@include common-password
+  /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/*-linux/**.so mr,
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 
 # to allow your remote connection before starting ufw. Eg: 'ufw allow 22/tcp'
@@ -803,7 +796,7 @@ XClock.Clock.majorColor:	rgba:7f/00/00/c0
 [service]
 # The format of port-name is dependant on your OS version.
   /var/log/lastlog  rwk,
-
+#!/bin/sh
 /dev/scanner
 
 AUFS_MAX_NAMELEN=242
@@ -838,7 +831,6 @@ deb http://packages.azlux.fr/debian/ buster main
 GenericName=Demo geoclue agent
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
-search updates ubuntu built-in
   </match>
 
 # /etc/xdg/user-dirs.defaults)
@@ -884,7 +876,6 @@ encryption=luks1
 scsi "KINPO   " "Vividscan S120  "
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-/dev/scanner
 # picture-options='zoom'
 			<family>Code2001</family> <!-- plane1 and beyond -->
 # For scanners connected via USB on a known device (kernel driver):
@@ -905,7 +896,6 @@ X-GNOME-Autostart-Phase=Initialization
 By default, Java provides two different sets of cryptographic policy
 [ ! -r "$stamp" ] || cat "$stamp"
   00_*: Reserved for 00_header.
-MODULES="${MODULES_INTERFACES} ${MODULES_FEATURES} ${MODULES_HW} ${MODULES_BASE}"
 account	required			pam_permit.so
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
@@ -1002,7 +992,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
   capability            setuid,
 
 
-
 quick
 # NIS (man nsswitch) as well as normal /etc/passwd and
 fi
@@ -1010,11 +999,10 @@ fi
 #mult_sect_io = 32
 # Compose sequences for ISO-8859-5
     permission javax.crypto.CryptoAllPermission; 
-usb 0x04e8 0x3455
 # The default is 1000.
 # (some code taken from cron-apt, thanks)
 # kdenetwork
-  # abstract path in ibus >= 1.5.22 uses $XDG_CACHE_HOME (ie, @{HOME}/.cache)
+brandon:100000:65536
 }
 [OpenSSH]
 brandon:100000:65536
@@ -1102,7 +1090,6 @@ arch=`dpkg --print-architecture`
 DISTRIB_ID=Ubuntu
 # This file is sourced by Xsession(5), not executed.
 # Set the maximum number of FUSE mounts allowed to non-root users.
-	# Configuration option local/host_id.
 <fontconfig/>
 order hosts,bind
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
@@ -1145,4 +1132,16 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 	run_sdptool || :
 # Compose sequences for ISO-8859-8
-#   scsi SIEMENS "ST 400" Scanner * * 3 *
+			<string>AR PL UMing CN</string>
+. /usr/share/bash-completion/bash_completion
+ - chef
+& stop
+LANG=C.UTF-8
+    <allow own="org.pulseaudio.Server"/>
+
+<fontconfig>
+0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
+  # Scanning for USB devices
+<!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
+#    modify it under the terms of version 2 of the GNU General Public
+# ------------------------------------------------------------------
