@@ -147,7 +147,6 @@ PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
   deny @{HOME}/.mutt** mrwkl,
 =RFA4
-    <test name="pixelsize" compare="less_eq">
 
 
 *status.fromHoriz:			editButton
@@ -188,14 +187,12 @@ net.ipv4.conf.all.rp_filter=2
 
 # ldconfig = false
 LP-PPA-ubuntu-mozilla-daily
-/dev/scanner
 eval $(/usr/bin/locale-check C.UTF-8)
 letter
 d /run/screen 1777 root utmp
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
 XClock.Clock.secondColor:	rgba:00/00/ff/80
-		AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`
   # Apport
 ### that look up the default sink/source get the right value
 #
@@ -262,7 +259,6 @@ KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
     permission javax.crypto.CryptoPermission *, 128;
 email_format=text
 #
-
 APT::Periodic::Unattended-Upgrade "1";
   <!-- Allow anyone to invoke methods on the interfaces -->
 What=/var/lib/snapd/snaps/snapd_8542.snap
@@ -416,7 +412,7 @@ APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || 
 #
 DAEMON="/lib/systemd/systemd-udevd"
 <!-- You can edit this file to add the following:
-255 193 193		RosyBrown1
+			<string>serif</string>
 	    <family>NanumGothic</family>
 #
 # Add an "alert" alias for long running commands.  Use like so:
@@ -470,7 +466,7 @@ auth		sufficient	pam_rootok.so
 
 scsi RICOH
 
-[Desktop Entry]
+	    exit 3;
 #
 Type=Application
 
@@ -488,7 +484,7 @@ Each file in this directory is an rt_tables configuration file. iproute2
 #       browsers) do not have to be bound to agents.
 
 
-#
+<delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/" catalog="file:///etc/xml/docbook-xml.xml"/>
 # The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
 #
@@ -517,7 +513,7 @@ CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
 
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 #    modify it under the terms of version 2 of the GNU General Public
-{
+#
 # If you're going to protect the portmapper use the name "rpcbind" for the
 /Adobe-CNS1 /ShanHeiSun-Light ;
 IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
@@ -529,7 +525,6 @@ PICTURES=Pictures
 *search*manualPage.Label:	Manual Page
   /etc/bash.bashrc.local           r,
 /MKai-Medium /ZenKai-Medium ;
-# Disallows other than root logins when /etc/nologin exists
 
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 
@@ -582,7 +577,7 @@ usb 0x1083 0x1622
 /Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 			<family>FreeMono</family>
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
-AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
+	</alias>
 # - What to do after sleep-inactive-ac-timeout
 # This sets the IM variables on Wayland.
 #port=/dev/term/a
@@ -612,7 +607,6 @@ deb {{mirror}} {{codename}} multiverse
     do_status
 # Written by the Cloud Image build process
 	notifempty
-#broadcast 224.0.1.1 autokey		# multicast server
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 			<string>sans</string>
   the ImageMagick option
@@ -648,7 +642,7 @@ type=file
 
 deb {{mirror}} {{codename}}-updates main
 # dpkg configuration file
-Ïˇò“Øq≥¥SüNáÔíºΩÏO20àK^WƒS¬ˆóçŸb+ø$bçﬂ√∏)KIx<ì`à"¸ô⁄6»¬¢‘,Tg5nsøX§›Â∞¢&z ‡6•ı˝∑ÔÆ?@ımZ˝Œ4 $‹t#]3]ƒ%ˆ0›]ü‡’GΩ¥Î°ªIIÿü[Ûä‰$ê‰bOO¡Øãt®—ràjzIÃ¥Fy∆±⁄òY˙u!Öe›êVŒ˚´•`ùƒù˘R∞ãΩá˘è+#
+B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
 if [ -n "$STARTDBUS" ]; then
 # 0 means default behaviour as specified in the internal tables
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
@@ -802,7 +796,6 @@ Icon=appointment-soon
         fi
 DAEMON=/sbin/lvmpolld
 Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
-
   Associate an image format with a unique identifier. 
 OnlyShowIn=GNOME;
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
@@ -847,7 +840,7 @@ test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 
 # Syntax:  module_name [args ...]
 }; 
-# orbit2 permissions
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 #/dev/scanner
 # Compose sequences for CP1251
     <!--
@@ -856,7 +849,7 @@ test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 
 
 #    License published by the Free Software Foundation.
-FcslpYqtjj4fgUswQ/cY/a1UcAX5zCnVqFbU7oJH2uTNewKuaZ2wgPbnzvwx8JYl
+#fi-6130Z
 #############################################################################
 
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
@@ -887,8 +880,7 @@ NoDisplay=true
 {% for server in servers -%}
 # restore the kernel default if the value is changed during runtime; for
 rocks_trees = {
-  *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
-#       "readwrite" grants access to read and write attributes of MBeans,
+#    Copyright (C) 2009-2012 Canonical Ltd.
    ADDRESS_FAMILIES=""
 #    the "FSU light dispersion error" does not cause the abortion
             . /usr/share/bash-completion/bash_completion
@@ -900,7 +892,7 @@ rocks_trees = {
 # Don't try to change I/O priority in a vserver or OpenVZ.
 # By default, exchange time with everybody, but don't allow configuration.
 S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
-group:          files systemd
+
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
 #    This program is free software; you can redistribute it and/or
 Description=Service for snap application lxd.activate
@@ -922,7 +914,6 @@ directory and its contents.
 #
 d /run/screen 1777 root utmp
 #   https://bugs.debian.org/858528
-  /usr/share/vulkan/{explicit,implicit}_layer.d/{,*.json} r,
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
 # run rsyncd at a nice level?
 
@@ -948,7 +939,6 @@ c0583bt_.pfb -bitstream-courier 10 pitch-bold-r-normal--0-0-0-0-m-0-iso8859-1
 			<family>Noto Sans CJK HK</family>
 auto
 [connection]
-
 /lib/x86_64-linux-gnu
   @{sys}/class/video4linux r,
   dbus (send)
@@ -959,7 +949,6 @@ X-Meego-Priority=Low
 1C5E6985ACC09221DBD1A4B7BBC6D3A8C3F8540D19F20763A9537FDD42B4FFE7
 191 191 191 		gray75
   owner /net/** w,
-nameserver 1.1.1.1
 # Compose sequences for ISIRI-3342
 Please read the update-alternatives(1) man page for information on this
 [Desktop Entry]
@@ -1014,7 +1003,6 @@ Type=Application
 
 #	        done
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
-  owner @{HOME}/.config/QtProject.conf.?????? rwl -> @{HOME}/.config/#[0-9]*[0-9],
 # Serial port where the camera is connected
 DESKTOP-OFJN9OT
 </busconfig>
@@ -1094,7 +1082,7 @@ brandon:100000:65536
        <!NOTATION chicken-scratch SYSTEM>
 usb 0x04f9 0x2038
 /dev/scanner
-  owner @{HOME}/@{XDG_DOCUMENTS_DIR}/**   rwl,
+# X-Start-Before:    $network
 # System-wide GDB initialization file.
 XClock.Clock.secondColor:	rgba:00/00/ff/80
 •'ÿ≥_”ENr÷N2Úrä˜É–jÄÄE∞«ÁöøW'£h/
@@ -1127,8 +1115,8 @@ Ubuntu 20.04.5 LTS \n \l
 8EDz9oR8HBPbxbd4i2dBfziY7TW4o/VgZKTGWA39JfwWNc5RxaYzBhBmg5nRcVFs
 fi
     enabled: false
-# it under the terms of the GNU General Public License as published by
-
+#    This program is free software; you can redistribute it and/or
+OK		ATD*99#
            send_member="SetSuplServer"/>
 
       <family>DejaVu LGC Serif</family>
@@ -1186,3 +1174,13 @@ rpc:            db files
 
 XClipboard.baseTranslations: #augment\n\
 	# The checks LVM should use to detect MD component devices.
+	rotate 12
+  /usr/bin/nautilus Cxr -> sanitized_helper,
+APT::Update::Post-Invoke-Success {
+blacklist vfb
+[mysql]
+
+# coolscan3.conf: sample configuration file for coolscan3 backend
+
+DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
+       interface=org.freedesktop.DBus
