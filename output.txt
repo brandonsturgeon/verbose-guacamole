@@ -1,5 +1,4 @@
 /var/log/auth.log
-Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 # 0 means leave lamp-status untouched, not 0 means switch off
 #%PAM-1.0
@@ -12,7 +11,7 @@ required in any way by the specification).  The information may be useful in
 # <target name>	<source device>		<key file>	<options>
 @include common-account
 #    modify it under the terms of version 2 of the GNU General Public
-compose '-' 'U' to 'Û'
+
 options md_mod start_ro=1
 
 APT::Periodic::AutocleanInterval "0";
@@ -78,11 +77,10 @@ exec /usr/bin/X -nolisten tcp "$@"
 esac
 
 # Case-sensitive behavior is defined by the operating system.
-Acquire::Changelogs::AlwaysOnline "true";
+/dev/scanner
 
        search:
 
-# $ sudo dpkg-reconfigure apparmor
 
 swedish         sv_SE.ISO-8859-1
 [DHCP]
@@ -208,7 +206,7 @@ find /var/crash/. ! -name . -prune -type f ( ( -size 0 -a ! -name '*.upload*' -a
 
 
 ctl.!default {
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
+# Placeholder for user id until kernel var is implemented to match
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 ## invoking user was bestowed with some inheritable capabilities by a
 €šdGh•E^q§ì5¹õ·&nÀ„àòU0tÿz,é#í=°—¤¼ªëğc×Ê¹m		<4Å®MïÜ¶ÜšZqöÅ–ä‚š@˜µÒÆ¯3ÆòÔ¥èIÛÎZ`^Uy³»	åùPŞ|sîúç˜ÉîÑT‡I<‚¾eRÁ==©hLçÏ:îÃùØ¿~œæmbæwys€ÎYÊ
@@ -230,12 +228,11 @@ session		optional	pam_keyinit.so force revoke
 # javax.management.monitor.foo.Bar.
 # Uncomment following line to disable "clever precalibration" routines...
 *ispell*options.horizDistance:		2
-  <type name="Bookman-Old-Style-Italic" fullname="Bookman Old Style Italic" family="Bookman Old Style" weight="400" style="italic" stretch="normal" glyphs="boookosi.ttf"/>
+[fwupd Remote]
 type=file
 esac
 
 #
-# Record the rate at which the system clock gains/losses time.
 	        # check because c-n-f could've been removed in the meantime
 # This file is sourced by Xsession(5), not executed.
 esac
@@ -245,7 +242,7 @@ esac
 #    modify it under the terms of version 2 of the GNU General Public
     </event>
 # systemd systems als /usr), place them here. iSCSI sessions that carry
-
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 ¡S„ú:6ïE¬Æ—v 9è³=y‘–3-QKmgFeÎI°"µ"½·Å<?ŸÉ×ëˆuó³e? ¡Ê-í£­ö’ûÌ‘eDåo¶“e‘p»¾F8à‚,aÂ ~2ïÀñ7øW¦şbšRãŠ¼õk3ä/c²ÍHçßHî’–Ì½¢+M×ÄßÙÂî•Q´7Microsoft (Release signing) <gpgsecurity@microsoft.com>‰5V1XŒ	€
 # Specify command line options here. This config file is used
 # Compose sequences for ISO-8859-5
@@ -286,7 +283,7 @@ rocks_trees = {
 # Compose sequences for GEORGIAN-ACADEMY
 
 font='Monospace 16'
-
+15	ntk
   RESOURCEFILES=$(run-parts --list $SYSRESOURCES)
 #
 # On Debian/Ubuntu systems, this is in /var/run/screen, but on
@@ -355,7 +352,7 @@ Title=Enable UEFI capsule updates on Dell systems
 # the file system.
 /usr/sbin/gdm3
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
-Clock*BorderColor:	light blue
+compose '-' '(' to '{'
 twm
 127.0.0.1	www.paginebiamnche.it
 #ºÿ¸ædJ´
@@ -374,7 +371,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
   #include <abstractions/kde>
     #@VERBATIM_LIBEXECDIR_SNAP_CONFINE@ mr,
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
-  # the unix socket to use to connect to the display
+# a downgrade in the UPnP device versions
 NotShowIn=KDE;GNOME;Cinnamon;LXDE;Unity;
 # Compose sequences for CP1255
 # Any customisation or reliance on the existence of this file and its
@@ -385,7 +382,7 @@ NotShowIn=KDE;GNOME;Cinnamon;LXDE;Unity;
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 <!DOCTYPE typemap [
 # vim:set ai et sts=2 sw=2 tw=80:
-check_config() {
+# switches to the higher rate
 
 *insertFile*text.?.pieceSize:		256
 # Compose sequences for GEORGIAN-PS
@@ -466,7 +463,6 @@ session required        pam_loginuid.so
 # PPP up hook script for resolvconf
 fi
 nssDbMode = noDb
-#/dev/usb/scanner0
 LANG=C.UTF-8
       <const>lcddefault</const>
 # which broke applications in UTF-8 locales.  See:
@@ -541,7 +537,7 @@ email_format=text
 session		required	pam_unix.so
 # You should have received a copy of the GNU Lesser General Public License
 # polyinstantiation.
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
+			<string>WenQuanYi Zen Hei Mono</string>
 <?xml version="1.0"?>
   <!-- Allow anyone to invoke methods on the interfaces -->
 What=/var/lib/snapd/snaps/snapd_8542.snap
@@ -737,7 +733,6 @@ XClock.input: false
   /usr/bin/iconv rm,
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
         </policy>
-#
 SETTINGS="$(gather_settings HARDWARE_DMA_RING_)"
 # Configuration file for the hp4200 backend
   <!-- Generic name aliasing -->
@@ -752,7 +747,6 @@ X-GNOME-Autostart-Phase=Initialization
   </match>
 
 # /etc/xdg/user-dirs.defaults)
-# that should be loaded into the Java VM when the AWT is initailized.
       <bool>false</bool>
     <allow own="org.freedesktop.GeoClue2"/>
 # be polyinstantiated based on the MLS level part of the security context as well as user
@@ -783,7 +777,6 @@ encryption=luks1
     <accept>
 
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
-    <family>Verajja Serif</family>
 # Compose sequences for KOI8-U
 \w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
 	    linux_entry "${OS}" "${version}" "${xen_version}" recovery \
@@ -844,7 +837,7 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
             . /usr/share/bash-completion/bash_completion
 ## Commands metadata files.
 EnumerateAllDevices=false
-if [ "$BASESTARTUP" = x-session-manager ]; then
+            <string>zh-hk</string>
 # enforce discretionary access controls) it can be used as if it did
 <?xml version="1.0"?>
 # Insert here your local magic data. Format is described in magic(5).
@@ -939,7 +932,7 @@ APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || 
 # -Z Disable the power-saving function of certain Seagate drives
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 #
-
+@include common-session-noninteractive
 # Defaults for the saned initscript, from sane-utils
 ::1 {{fqdn}} {{hostname}}
   /usr/lib{,64,/@{multiarch}}/qt5/qml/** r,
@@ -1068,7 +1061,7 @@ scsi ACROSS * Scanner * * * 0
 {
 @include common-session-noninteractive 
     /usr/bin/env ix,
-250 250 210		light goldenrod yellow
+/Adobe-CNS1 /ShanHeiSun-Light ;
 #
 compose 'c' 'o' to '©'
 
@@ -1076,7 +1069,6 @@ compose 'c' 'o' to '©'
 #
 PICTURES=Pictures
 Enabled=true
-
 scsi Nikon * Scanner
     # locale: Cannot set LC_SOMETHING to default locale
 
@@ -1109,7 +1101,6 @@ zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
 
 #%PAM-1.0
 # set this to 0 to disable apport, or to 1 to enable it
-video:x:44:brandon
   /usr/bin/apport-bug Cx -> sanitized_helper,
 *internalBorderWidth:			0
 r16          -sony-fixed-medium-r-normal--16-*-*-*-*-*-jisx0201.1976-0
@@ -1122,18 +1113,17 @@ mQENBFWt/98BCADZ4+lUHSp4OMlzVf4HlJNLJ7Ks5QxGwL/hy2wChoNLuA/j4GNM
 # applications have "Help -> Switch Application Language..." option, that needs
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
 scsi FCPA
-#DefaultLimitNPROC=
+<?xml version="1.0"?>
 Acquire::Changelogs::AlwaysOnline "true";
 # vim:syntax=apparmor
 compose 'N' 'G' to '½'
 			<string>HYSong</string>
-  # portmapper may ask root processes to do nis/ldap at low ports
 rocks_trees = {
 # The PAM configuration file for the Shadow 'newusers' service
   /usr/bin/konsole ix,
   owner /var/run/user/*/weston-shared-* rw,
 #verify = yes
-  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+
 #scsi /dev/scanner
 # DO NOT EDIT OR REMOVE
 ## saned hosts
@@ -1177,3 +1167,13 @@ GRp¢£ªmÒK>'ÀüË]‚Ø¯æç9,åç>;$¾İ`£s“(nõ4 <ô›â3ÄÓ²Ä]Iëà$‚	¥« {C‘»w ÄÄe±‰
 create
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
   # include the programs that actually parse input data in a non-trivial
+löÿKyá˜¶`&`ò3)ƒË”ÍhºÒ$Šx‹ëäöò-Ù$é=—ß“a–“4«V»Èıœ<,®“÷XêBF'Ğ	t@'NH\ıhùzş)OØïĞTÃFò‚}z¾¹š‘À(ŒÂ¨ºh]~ÑÎxÂšÎ4l$ÜCc5#Q=…QuÑøE;ç	k:×°‘pÕŒFaôFÕEëñ‹öbw•§~?™¡³Zí¡òi­38ƒ38÷€³
+
+# escape the unprintable characters, mainly for grep-ping /proc/mounts
+    /{,usr/}lib{,32,64,x32}/{,@{multiarch}/}libgcc_s.so* mr,
+
+<!-- File dbgenent.mod .................................................... -->
+			<family>Noto Serif CJK TC</family>
+compose '`' 'u' to 'ù'
+  owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
+ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
