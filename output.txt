@@ -18,7 +18,6 @@ Enabled=true
 
 # install the apport exception handler if available
 TryExec=xdg-user-dirs-update
-search updates ubuntu built-in
 	€
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
            "booktitles.ent">
@@ -157,7 +156,6 @@ PICTURES=Pictures
 =RFA4
     <test name="pixelsize" compare="less_eq">
 
-# vim:syntax=apparmor
 
 *status.fromHoriz:			editButton
 X-GNOME-Autostart-Phase=PreDisplayServer
@@ -305,7 +303,6 @@ case "${1}" in
 *MenuButton.foreground: white
 [upower]
 scsi APPLE
-LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
 # device group names
@@ -353,7 +350,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es+3ot67hZaz+cI7KRAxQD8n8R9m9Ekf9k/0WZDsfzCaIZokAbO1IYo6mznd3vsbkRgGqz6PPcURRgc1A= open-ssh-ca@cloudflareaccess.org
 speed=115200
               ;;
-# Compose sequences for ISO-8859-5
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
     echo "updates of cacerts keystore disabled."
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
@@ -447,7 +443,7 @@ Categories=System;Monitor;GTK;
   dbus (receive)
 		chown root:adm $XCONSOLE
 networkd_dispatcher_args="--run-startup-triggers"
-7   selinux
+
 #    License published by the Free Software Foundation.
 # This file is a simple placeholder to keep dpkg from removing this directory
 # minclass = 0
@@ -501,7 +497,7 @@ Type=Application
 
 
 0lQIZgahmcUt1qm6VW94VAio+SDCdqTx73wUsgM3t9sAwKxkEdJQQoO8PqYHV3uK
-*showGrip:			FALSE
+# Required-Start:    $local_fs $remote_fs
 Each file in this directory is an rt_tables configuration file. iproute2
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
@@ -620,13 +616,12 @@ StartupNotify=false
 # See sane-microtek2(5) for a description of the options
 . /usr/share/bash-completion/bash_completion
 # You can change settings by editing this file.
-#
+#pam_deny.so as appropriate.
 # avoid running multiple times
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   /srv/www/vhosts/** r,
 # on a file, 2 seconds after the second failure, etc. up to this max).
-# If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
 #   distributed under the License is distributed on an "AS IS" BASIS,
 
 			<family>padmaa</family> <!-- gujarati -->
@@ -646,7 +641,6 @@ deb {{mirror}} {{codename}} multiverse
   the ImageMagick option
 # clean all crash reports which are older than a week.
 alias.url += ("/javascript" => "/usr/share/javascript")
-  # (src/intel/perf/gen_perf.c, load_oa_metrics())
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 // Notify all clients to reload the cache
@@ -681,7 +675,7 @@ deb {{mirror}} {{codename}}-updates main
 if [ -f /run/motd.d/85-fwupd ]; then
 ìÿ˜Ò¯q³´SŸN‡ï’¼½ìO20ˆK^WÄSÂö—Ùb+¿$bßÃ¸)KIx<“`ˆ"ü™Ú6ÈÂ¢Ô,Tg5ns¿Xğ¤İå°¢&zÊà6¥õı·ï®?@õmZıÎ4Ê$Üt#]3]Ä%ö0İ]ŸàÕG½´ë¡»IIØŸ[óŠä$äbOOÁ¯‹t¨ÑrˆjzIÌ´FyÆ±Ú˜Yúu!…eİVÎû«¥`ÄùR°‹½‡ù+#
 if [ -n "$STARTDBUS" ]; then
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+# 0 means default behaviour as specified in the internal tables
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
 java.util.logging.ConsoleHandler.formatter = java.util.logging.SimpleFormatter
@@ -698,7 +692,6 @@ compose '-' ')' to '}'
 #  uid = 0
   <type name="NewCenturySchlbk-Bold" fullname="New Century Schoolbook Bold" family="NewCenturySchlbk" foundry="URW" weight="700" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/c059016l.afm" glyphs="/usr/share/fonts/type1/gsfonts/c059016l.pfb"/>
 sysresources=/etc/X11/Xresources
-// THAT THE UPDATE-INFO MIGHT HAVE CHANGED
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
     if [ -e "$dmi_path" ] && read vendor < "$dmi_path"; then
@@ -710,7 +703,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 BYOBU_BACKEND="tmux"
   /usr/bin/epiphany-webkit Cx -> sanitized_helper,
   . "$USERXSESSIONRC"
-#
+# statechange.sh
            send_interface="org.freedesktop.DBus.Properties" />
 ## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
 127.0.0.1	www.frankvoce.com
@@ -790,7 +783,6 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 esac
 fi
 		done
-APT::Periodic::Unattended-Upgrade "1";
   <!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
 #
 gtk-icon-sizes = panel-menu-bar=24,24
@@ -816,7 +808,6 @@ messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
 #    Copyright (C) 2016 Canonical Ltd.
 #statistics clockstats cryptostats loopstats peerstats
-# #include <abstractions/ubuntu-helpers>
 
     else
 # Global Order: zshenv, zprofile, zshrc, zlogin
@@ -863,7 +854,7 @@ encap	98	ENCAP		# Yet Another IP encapsulation [RFC1241]
 #    modify it under the terms of version 2 of the GNU General Public
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
   /usr/bin/xmms Cxr -> sanitized_helper,
-[Network]
+;; -*-emacs-lisp-*-
 # If this option is given, pppd will presume the peer to be dead if n
 # interpreted by the kernel to help with debugging. The kernel will respond
 # ------------------------------------------------------------------
@@ -879,7 +870,6 @@ order hosts,bind
         fi
 #endif
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
-	)
 /dev/scanner
 test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 <?xml version="1.0"?>
@@ -901,7 +891,6 @@ FcslpYqtjj4fgUswQ/cY/a1UcAX5zCnVqFbU7oJH2uTNewKuaZ2wgPbnzvwx8JYl
 #############################################################################
 
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
-sgi-cmsd	17001/udp		# Cluster membership services daemon
 x-scheme-handler/ftp; firefox -private-window %s; test=test -n "$DISPLAY"
 # System-wide GDB initialization file.
  * The search path for include files is:
@@ -953,10 +942,9 @@ Type=Application
 #
 
 
-/usr/bin/wine-preloader
 *Command.highlightThickness:	1
       This configuration is available on the major desktop environments.
-		--exec $DAEMON
+## invoking user was bestowed with some inheritable capabilities by a
 			<family>STIX Two Math</family> <!-- AMS -->
 Acquire::http::User-Agent-Non-Interactive "true";
 CATALOG /usr/share/xml/docutils/catalog
@@ -1052,7 +1040,7 @@ Type=Application
 # or simply
 # Setup file rotation - keep 3 files
 #
-autoload -Uz compinit
+
 
   /usr/bin/ooimpress Cxr -> sanitized_helper,
 	thin_pool_discards="passdown"
@@ -1062,7 +1050,7 @@ autoload -Uz compinit
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
   owner @{HOME}/.config/QtProject.conf.?????? rwl -> @{HOME}/.config/#[0-9]*[0-9],
 # Serial port where the camera is connected
-        derived from Vera.
+DESKTOP-OFJN9OT
 </busconfig>
 # uncomment to set the default look and feel to GTK
 exit 0
@@ -1079,7 +1067,6 @@ $x-display-manager gdm3
 
 #
 # the number of seconds you want Wget to wait.
-# Default settings for user directories
   dbus bus=accessibility,
      format="ttf"
 # Insert here your local magic data. Format is described in magic(5).
@@ -1192,7 +1179,7 @@ fi
 # X-Stop-After:      umountfs
 #    modify it under the terms of version 2 of the GNU General Public
 
-		<family>ZYSong18030</family>
+DISTRIB_DESCRIPTION="Ubuntu 20.04.5 LTS"
 # For more details, please see /etc/apparmor.d/local/README.
 
 ## template:jinja
@@ -1200,3 +1187,14 @@ APT::Archives::MinAge "2";
        interface=org.a11y.atspi*,
 # other distros, it might be elsewhere, such as /tmp/screens
       bus=session
+DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
+# ------------------------------------------------------------------
+115200
+#
+  @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
+
+-client IGNORE
+APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
+    $primeswitch
+<!ATTLIST type version CDATA #IMPLIED>
+# device connections. Several older mice have been known for not supporting
