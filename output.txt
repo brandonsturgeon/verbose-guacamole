@@ -1,6 +1,6 @@
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 		exec update-grub
-# /etc/passwd file.
+   [[/usr/local]]
 required in any way by the specification).  The information may be useful in
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 /usr/lib/x86_64-linux-gnu
@@ -8,7 +8,6 @@ scsi AdLib * Scanner
 @include common-account
 
 
-# This file is a simple placeholder to keep dpkg from removing this directory
 	monthly
 #    This program is free software; you can redistribute it and/or
 #    the precedence of IPv6 over IPv4 (see below) on machines having only
@@ -16,7 +15,7 @@ scsi AdLib * Scanner
 •3•D•k•|•£•³•È•×•î•ı•"–1–T–c–y–˜–Í–Ø–ù–—+—9—[—e—…——­—º—İ—é—˜˜G˜R˜s˜„˜«˜»˜á˜ï˜™$™K™Y™}™Š™­™¹™Û™ì™š*šWšfš‹š›šÁšÎšñšÿš#›3›Y›i››Ÿ›Ã›Ò›÷›
 <fontconfig>
 # This file is sourced on all invocations of the shell.
-#
+</fontconfig>
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # Specify directory for log files.
       <family>Noto Mono</family>
@@ -31,7 +30,6 @@ search updates ubuntu built-in
     user
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
     </alias>
-deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # DO NOT EDIT OR REMOVE
 # This file is a simple placeholder to keep dpkg from removing this directory
 
@@ -68,7 +66,6 @@ Title=Vendor
 ## Digital UNIX
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
-Comment[as]=PulseAudio à¦¶à¦¬à§à¦¦ à¦¬à§à¦¯à§±à¦¸à§à¦¥à¦¾ à¦†à§°à¦®à§à¦­ à¦•à§°à¦¾ à¦¹'à¦¬
 checkbox=,magenta
 # Compose sequences for ISO-8859-8
 # Compose sequences for ARMSCII-8
@@ -157,7 +154,7 @@ session		optional	pam_keyinit.so force revoke
 
 	        # check because c-n-f could've been removed in the meantime
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
-esac
+#
 
   /usr/bin/file-roller Cxr -> sanitized_helper,
 deb {{security}} {{codename}}-security universe
@@ -210,7 +207,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
     <allow send_destination="net.hadess.SensorProxy" send_interface="org.freedesktop.DBus.Peer" send_path="/net/hadess/SensorProxy/Compass"/>
 *internalBorderWidth:		0
 
-  #include <abstractions/fcitx-strict>
+
 
 XLoad.input:			false
 #
@@ -231,7 +228,7 @@ fi
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 # msgs, from, etc.)
        daily
-/usr/sbin/gdm3
+# ------------------------------------------------------------------
   <delegate decode="hpg" command="&quot;hp2xx&quot; -sstdout=%%stderr -m eps -f `basename &quot;%o&quot;` &quot;%i&quot;;     /bin/mv -f `basename &quot;%o&quot;` &quot;%o&quot;"/>
 <?xml version="1.0" encoding="UTF-8"?>
   /etc/X11/app-defaults/XTerm r,
@@ -362,7 +359,6 @@ email_format=text
 APT::Periodic::Unattended-Upgrade "1";
   <!-- Allow anyone to invoke methods on the interfaces -->
 What=/var/lib/snapd/snaps/snapd_8542.snap
-create_machineid() {
         if [ -x "$STARTUPFILE" ]; then
 # This file is sourced by Xsession(5), not executed.
 
@@ -432,7 +428,6 @@ fi
 #    Copyright (C) 2009 Canonical Ltd.
 # Additional mounts to exclude at shutdown.
 scsi RICOH IS60
-#
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
 /dev/camera
@@ -500,7 +495,6 @@ blacklist rivafb
 #!/bin/sh
 compose '"' 'O' to 'Ö'
   </match>
-           send_member="Transfer"/>
 # /etc/xdg/user-dirs.defaults)
       <bool>false</bool>
     <allow own="org.freedesktop.GeoClue2"/>
@@ -605,7 +599,6 @@ fi
 # kdenetwork
 
 [OpenSSH]
- 10 through 19		system rendering defaults (AA, etc)
 grant {
 #    Copyright (C) 2015 Canonical Ltd.
 /dev/scanner
@@ -689,10 +682,8 @@ LANG=C.UTF-8
 #  * and that the path value is quoted
 # Compose sequences for ISO-8859-16
 AdminIdentities=unix-group:sudo;unix-group:admin
+[Desktop Entry]
 
-#
-compose '-' '-' to '­'
-# Assumes that your IP address is allocated dynamically by the ISP.
 #
 
 # this remote provides metadata shipped with the fwupd package
@@ -806,7 +797,7 @@ fi
 14E6D2764A4B06701C6CBC376A253775F79C782FBCB6C0EE6F99DE4BA1024ADD
 #port=/dev/term/a
 #
-# Compose sequences for GEORGIAN-ACADEMY
+NoDisplay=true
 # @{HOMEDIRS}.
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 StartupNotify=false
@@ -815,7 +806,6 @@ StartupNotify=false
 !ŠÅÉù=7a©|ªg¢_Çû¢ÿÎ$êï1×hègõöÛë™LÏÆŸÖòïÏÙ¸aƒ•.W,V«Í*ÎIš&ÊÕê`¿’3‰şA;Ø/Äq5ë;OÖ_?©À¡Q¾×?C¹v¿ô
 # ----
 #
-# Compose sequences for IBM1133
 # avoid running multiple times
 
 # Defaults can be restored by simply deleting this file.
@@ -886,13 +876,12 @@ if [ ! -x /usr/sbin/logrotate ]; then
 # Specify file containing keys for NTP authentication.
 
   <!ELEMENT type EMPTY>
-# on this system.
+    %d   domain
 
 /dev/scanner
 
 type=file
       <family>DejaVu LGC Sans Mono</family>
-#
 *Scrollbar.width:		14
 rtcsync
 
@@ -953,7 +942,7 @@ sleep_then_check &
 # the management config file $JRE/conf/management/management.properties
   /srv/www/htdocs/ r,
 # modify the hostname appropriately:
-
+^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).$
 main
 	# sessions, but it also doesn't hurt to leave it running.
 	û„?'/[¬öˆß§¿|L¥
@@ -1141,7 +1130,6 @@ you need to add the following to config:
 #frequency =
 
 	exit 0
-# Compose sequences for ISO-8859-10
 # This file is a simple placeholder to keep dpkg from removing this directory
 LP-PPA-ubuntu-mozilla-daily
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
@@ -1176,7 +1164,7 @@ enabled=1
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
 	;;
-/lib32
+}; 
 # orbit2 permissions
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 #/dev/scanner
@@ -1204,3 +1192,15 @@ Type=Application
 $x-display-manager gdm3
 esac
 #
+/dev/scanner
+session required        pam_env.so readenv=1
+# Uncomment the following line if you'd like all of your users'
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
+
+#baud=115200
+
+        done
+After=snap-lxd-18150.mount network.target snapd.apparmor.service
+  (setq auto-mode-alist
+
+/usr/lib/x86_64-linux-gnu
