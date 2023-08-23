@@ -15,14 +15,14 @@ required in any way by the specification).  The information may be useful in
 # <target name>	<source device>		<key file>	<options>
 @include common-account
 #    modify it under the terms of version 2 of the GNU General Public
-mail.*				-/var/log/mail.log
+compose '-' 'U' to 'Û'
 options md_mod start_ro=1
 
 APT::Periodic::AutocleanInterval "0";
 # This file is a simple placeholder to keep dpkg from removing this directory
 	monthly
 #    This program is free software; you can redistribute it and/or
-  /usr/local/share/ r,
+usb 0x04e8 0x3441
 {% for pool in pools -%}
 •3•D•k•|•£•³•È•×•î•ı•"–1–T–c–y–˜–Í–Ø–ù–—+—9—[—e—…——­—º—İ—é—˜˜G˜R˜s˜„˜«˜»˜á˜ï˜™$™K™Y™}™Š™­™¹™Û™ì™š*šWšfš‹š›šÁšÎšñšÿš#›3›Y›i››Ÿ›Ã›Ò›÷›
 <fontconfig>
@@ -54,7 +54,6 @@ search updates ubuntu built-in
     else
      done
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
-
     </alias>
         # This line will fix the labeling on all newly created directories
 
@@ -80,11 +79,10 @@ Alias /javascript /usr/share/javascript/
 # and users home directories will reside within the directories that
 
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
-      will change accordingly; the version at
+!mozilla/Sonera_Class_2_Root_CA.crt
 exec /usr/bin/X -nolisten tcp "$@"
 esac
 
-  #include <abstractions/fcitx-strict>
 # Case-sensitive behavior is defined by the operating system.
 #include <tunables/share>
 Acquire::Changelogs::AlwaysOnline "true";
@@ -185,7 +183,7 @@ a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 2fk6GWIY8lgxlKV/LinM5XkFDXv6Zf/o8Nv/i9bVO9Dv1bVh1ThgA3xy8WIzUQge
 
 blacklist rivafb
-
+"ee[C": forward-word
   STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 
 compose ')' '-' to '}'
@@ -201,7 +199,7 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
         stop|status)
      because at the Infoset level where schemas operate,
 # Default-Start: 2 3 4 5
-
+    DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
 # following line is sufficient. This however assumes that the connected scanner (or to be more
     fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
@@ -243,8 +241,7 @@ session		optional	pam_keyinit.so force revoke
 /usr/sbin/gdm3
 
 # definitions of existing MD arrays
-[usb]
-           send_interface="org.gnome.DisplayManager.Display"/>
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
 # javax.management.monitor.foo.Bar.
 # Uncomment following line to disable "clever precalibration" routines...
 *ispell*options.horizDistance:		2
@@ -259,7 +256,6 @@ esac
 esac
 0xD9 'Ã™'
 
-^w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: no dictionary update necessary.$
   /usr/bin/file-roller Cxr -> sanitized_helper,
 #    modify it under the terms of version 2 of the GNU General Public
     </event>
@@ -332,7 +328,6 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 DelayedActivation=false
 /dev/scanner
 ÛOg·÷µ÷ÙëÍ¼ÂšÆ†B°ßUf³v°·yº¼£#V>'•9àöZ¨ıš´Şf‹¹‹ıõÊÛ­Äö#ÑıJTVVÍ–U~{ÿ¢ÒÛr1&3l#ç+õ=[Vùm¹Xœ|Sç½÷üóµÛ©šû"[ÎÅö3ªşñó—gÃc
-  /etc/X11/app-defaults/XTerm r,
 #
 <fontconfig>
 	cache_settings {
@@ -370,7 +365,6 @@ Title=Enable UEFI capsule updates on Dell systems
 # Turn on Source Address Verification in all interfaces to
 # for input method.  Thus moved from 80 to 70.
 †Ë«İù»—bdœ-vj!Â",şé©×ZÑ=m';È61©C§Òâ»B“,éUWÕ>ö4÷ùş±è2Õí¥V°,Ô_o°Âõóî±Æc„bƒãÎ´;p)ÒW‚PÄ
-# OpenCL access requirements for Intel implementation
 # and should contain a list of modules that define tasks to be performed
 #           the currently-running release is not itself an LTS release the
     exec /usr/lib/update-notifier/update-motd-hwe-eol
@@ -412,7 +406,7 @@ check_config() {
 
 *insertFile*text.?.pieceSize:		256
 # Compose sequences for GEORGIAN-PS
-	prepare_grub_to_access_device `${grub_probe} --target=device "$GRUB_THEME"`
+Options=nodev,ro,x-gdu.hide
 # suspend and power-off, the end user's execute before VMware's.  (This way,
       awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
 #    This program is free software; you can redistribute it and/or modify
@@ -422,7 +416,7 @@ bookman_light_italic.latin1.plain=Bookman-LightItalic
     <alias>
 NoDisplay=true
   # User files
-<?xml version="1.0"?>
+letter
   </rejectfont>
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 # local modules either before or after the default block, and use
@@ -471,7 +465,7 @@ Name=GNOME Settings Daemon's power plugin
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 SHELL=/bin/sh
 # This mechanism that does not depend on a system service to operate.
-# Uncomment the following if your scanner is connected by USB,
+    <match target="pattern">
   exec /etc/ppp/ipv6-down.local "$@"
 #AllowHibernation=yes
                                   (symbol-name debian-emacs-flavor)
@@ -554,7 +548,7 @@ esac
 	# the local host, which is determined by system_id_source.)
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 fax:x:21:
-  deny @{HOME}/.zshenv mrk,
+		1) log_progress_msg "already stopped"
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
 exec tail -n +3 $0
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
@@ -617,8 +611,6 @@ XLogo*background: rgb:d2/22/32
 		<prefer>
 America/Los_Angeles
 OK           ATDT<put phone number here>
-# reserved values
-#          will be killed on logout
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 /var/log/btmp {
 
@@ -661,7 +653,6 @@ type=file
 # fstrim=0
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
 /usr/local/lib
-/usr/bin/wine-preloader
 
 
 
@@ -752,7 +743,6 @@ compose '\'' 'n' to 'ñ'
 # vim:syntax=apparmor
   #include <abstractions/opencl-nvidia>
   # do not use ux or PUx here. Use at a minimum ix
-
 # Compose sequences for ISO-8859-6
 
 XCalc*ti.button37.label:	7
@@ -779,7 +769,7 @@ XClock.input: false
 # This file contains the names of kernel modules that should be loaded
 @include common-auth
 # raid1
-31C8FD37DB9B56E708B03D1F01848B068C6DA66F36FB5D82C008C6040FA3E133
+        %facetAttr;
 
 # Insert here your local magic data. Format is described in magic(5).
 
@@ -810,7 +800,7 @@ X-GNOME-Autostart-Phase=Initialization
 # be polyinstantiated based on the MLS level part of the security context as well as user
 # 'keyscript=' option.  In that case, the field is not treated as a file
 # a minimum a blank line following it).
-MIIElDCCA3ygAwIBAgIQAf2j627KdciIQ4tyS8+8kTANBgkqhkiG9w0BAQsFADBh
+	monthly
 deb http://packages.azlux.fr/debian/ buster main
 
 inode/directory
@@ -894,7 +884,6 @@ account     required    pam_shells.so
 export QT_ACCESSIBILITY
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 ## rather simple script, so please follow the following guidelines :)
-/Adobe-Japan1 /Japanese-Mincho-Regular ;
 # If set to all update-initramfs will update all initramfs
 # RFC 2598
 # subpath mappings from mount point for pinning
@@ -964,7 +953,7 @@ fi
 # Compose sequences for ISO-8859-5
     permission javax.crypto.CryptoAllPermission; 
 # The default is 1000.
-# (some code taken from cron-apt, thanks)
+*Panner.background:			gray70
 # kdenetwork
 brandon:100000:65536
 }
@@ -1056,7 +1045,7 @@ order hosts,bind
 @include common-password
 # real-time clock. Note that it canâ€™t be used along with the 'rtcfile' directive.
 
-			<family>FreeSerif</family>
+#
 #port=/dev/tty01
 /usr/bin/wine-preloader
 
@@ -1152,3 +1141,13 @@ scsi Nikon * Scanner
 Name=GNOME Settings Daemon's Wwan plugin
 
 
+  /usr/bin/basename ixr,
+/lib32
+#
+# ---------------------------------------------------------------------------#
+
+  /etc/bash.bashrc.local           r,
+
+×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
+  if [ ! -d $PIDDIR ]; then
+::1 localhost ip6-localhost ip6-loopback
