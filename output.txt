@@ -46,7 +46,7 @@ Comment=GNOME Keyring: SSH Agent
 #
 
 # Compose sequences for ISO-8859-11
-{
+if [[ -z "$PATH" || "$PATH" == "/bin:/usr/bin" ]]
 # The PAM configuration file for the Shadow 'newusers' service
 # This file contains common DRI-specific rules useful for GUI applications that
 compose '"' 'A' to 'ƒ'
@@ -103,7 +103,6 @@ exec /usr/bin/X -nolisten tcp "$@"
 
   #include <abstractions/fcitx-strict>
 # Case-sensitive behavior is defined by the operating system.
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 #select-timeout 5;
 ª}Nz◊ÂÀâF¥Õ{S B‘á&ù∂çöüXÈÅPjàj‡gß]â8ã
 Acquire::Changelogs::AlwaysOnline "true";
@@ -111,7 +110,6 @@ Acquire::Changelogs::AlwaysOnline "true";
        search:
 ## template:jinja
 # $ sudo dpkg-reconfigure apparmor
-			<family>Code2000</family> <!-- almost everything; serif actually -->
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 swedish         sv_SE.ISO-8859-1
@@ -253,7 +251,6 @@ fi
 #  privileged clients.  Instead the passwd.adjunct.byname table is
 #           will attempt to upgrade to the first LTS release available after
 # * Be careful about changing the environment since this is sourced
-		      $iosched_idle 
 # at bash-completion startup for now, to ease the transition to a
 
 # Default-Start: 2 3 4 5
@@ -268,7 +265,6 @@ if [ "$INITRD" = 'No' ]; then
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 [localization]
 # Default-Stop:
-fi
 <Key>Escape: quit()
   </policy>
 *customization: -color
@@ -337,7 +333,6 @@ esac
 #    modify it under the terms of version 2 of the GNU General Public
     </event>
 # systemd systems als /usr), place them here. iSCSI sessions that carry
-}
 
   /usr/lib/@{multiarch}/gdk-pixbuf-*/** mr,
   abi <abi/3.0>,
@@ -389,10 +384,9 @@ KpPDkC55gIDvEwRqFDu1m5K+wgdlTvza/P96rtxcflUxDOg5B6TXvi/TC2rSsd9f
 	# Configuration option local/extra_system_ids.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
 <fontconfig>
-# since the modules above will each just jump around
 
 font='Monospace 16'
-    done
+#    Copyright (C) 2009 Canonical Ltd.
   RESOURCEFILES=$(run-parts --list $SYSRESOURCES)
 #
 if [ "$RUN" = "yes" ]; then
@@ -411,7 +405,6 @@ kbd_mode '-u' < '/dev/tty5'
 #
 # DO NOT EDIT OR REMOVE
 
-				fi
 	<policy user="root">
 
 #
@@ -608,10 +601,9 @@ SHELL=/bin/sh
 #    modify it under the terms of version 2 of the GNU General Public
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
-	missingok
 
 [Sources]
-
+}
   /etc/OpenCL/** r,
 # in the toplevel profile. Eg:
 # should not normally be necessary (under Linux at least).
@@ -662,7 +654,6 @@ application/x-zip=org.gnome.FileRoller.desktop
     then
 DEFAULT_OUTPUT_POLICY="ACCEPT"
 APT::Archives::MinAge "2";
-set runtimepath=~/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim90,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,~/.vim/after
 helpline=,magenta
 # Compose sequences for ISO-8859-11
 
@@ -706,7 +697,7 @@ done
 fax:x:21:
   deny @{HOME}/.zshenv mrk,
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
-This directory is provided for third party applications which need
+    <allow send_interface="org.debian.apt"/>
   missingok
 exec tail -n +3 $0
 /usr/lib/x86_64-linux-gnu/libfakeroot
@@ -793,7 +784,6 @@ OK           ATDT<put phone number here>
 				wep_key3 wpa-wep-key3
 # XDG_DATA_DIRS or XDG_DATA_HOME, and are the parent directory
 
-  # system library
 #  option routers 192.33.137.250;
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # Defaults can be restored by simply deleting this file.
@@ -829,7 +819,6 @@ roottext=,magenta
   # NIS rules
 # List your classid definitions here:
 #    exitCode may be incremented.
-# Site-wide defaults for some commonly used options.  For a comprehensive
 stop_watchdog_quiet()
   if [ -z "$XDG_CONFIG_DIRS" ]; then
     <allow send_destination="org.gnome.DisplayManager"
@@ -922,7 +911,6 @@ restrict 127.0.0.1
 <delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///usr/share/xml/svg/catalog.xml"/>
 
 // grant codeBase "jrt:/com.greetings" {
-deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 # set trimblanks
 ôV1Xå¿*ÜafRq—ñŒ•~‘·µ∆$¢å
   </match>
@@ -947,15 +935,15 @@ speed=115200
 compose '\'' 'n' to 'Ò'
 # DO NOT EDIT OR REMOVE
        bus=session
-# im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
+
 # Compose sequences for GEORGIAN-PS
-Description=Mount unit for snapd, revision 9721
+[OpenSSH]
 
 #    corresponding bits set to one in this mask will not have any
     missingok
 
     echo "updates of cacerts keystore disabled."
-X-GNOME-Bugzilla-Bugzilla=GNOME
+# files; in other words, files such as a sample .profile that will be
 ## or updates from the Ubuntu security team.
 # vim:syntax=apparmor
         <hfp:hasFacet name="maxInclusive"/>
@@ -964,7 +952,6 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 QT_ACCESSIBILITY=1
 
 
-HOMEHOST <system>
 allow-failsafe
 
 XCalc*ti.button37.label:	7
@@ -1059,10 +1046,10 @@ deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.co
 # To use a specific scsi device
 #
 
-        mv ${TIMESYNCD_CONF}.new ${TIMESYNCD_CONF}
-			<bool>false</bool>
+# deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
+
 #
-printf '%%G' 
+requestkey 1			# key (7) for accessing server variables
 encryption=luks1
     <accept>
 
@@ -1106,3 +1093,14 @@ MODULES="${MODULES_INTERFACES} ${MODULES_FEATURES} ${MODULES_HW} ${MODULES_BASE}
   <!ATTLIST typemap xmlns CDATA #FIXED ''>
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
+{% endif %}
+   [[/usr/local]]
+if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
+
+#skip-cache
+# SCSI
+overlayroot_cfgdisk=LABEL=OROOTCFG
+## team, and may not be under a free licence. Please satisfy yourself as to
+scsi ULTIMA
+  capability ipc_lock,
+ôSMã≈¥∑?˜i¸«Yõ˚Q`P$ˇZ∂Aıß_Ëïò#XÁTã»¡ûAê(Fì\Z˘—ﬁoéYJ±üÂgcPâ?DG	¸⁄ÑBá*ÒUQ8˝‘Ù`[T≥"F±mÍ3é˝ê∆8l¸Òw#h˙F)yQó∂‹‚aa∂;%Ä=3’X9’EΩŸ—_d>Fv	eﬂnhd6D¨a5√çò{P5Æ&˛t}ÈÈÏkV`Å˚î1Òæ"6K&!z£˙Lh˛I|Ñ?[8ÀfpãÄ8È'–‹Ÿ(ˇæq§èµ Ñ9ûO¢5ùZ⁄œ:m˛≥∑FHKƒÿÆ™^s[yï’9:Ü6Â[œóπQˇò∆÷)oïPÂwRR≠É‚˜∂ÍYcMÆCì^ÍˆÛºÒ≤◊¶…âÿò^ÃJù2ûÌ'˚àõ«Ö‡IãŸﬂpÚ÷o’gc{≤ÜÓ_Pjc^bm:’ÛM0¬‚±)ËöPZΩV27ÿ/Ã€n–vZ^≈¿0èÿd)hE~&ÂC¿—Æ†u´ckﬁ0√¸:5 ˝º*[\p“'<.#c—)ÏÎm1À]±ÂÔ1≤@Èeôµeˆ25Ì©7À\R¯aﬁTäb“-…‰Lt&GPéôKŸYÿÌ<IFƒˇ)ÙYª”˚éFqÏ'CÚ¨I3çñ)Ñ3∑[Ó< !w9¥Launchpad PPA for Raelâ8"SMã		
