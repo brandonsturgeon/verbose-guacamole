@@ -28,7 +28,6 @@ search updates ubuntu built-in
            "booktitles.ent">
 # DO NOT EDIT OR REMOVE
 /bin/sh
-
         <policy user="root">
 # This file is a simple placeholder to keep dpkg from removing this directory
 
@@ -108,7 +107,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 /dev/scanner
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # Compose sequences for GEORGIAN-PS
-#           will attempt to upgrade to the first LTS release available after
+# deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
     permission javax.crypto.CryptoPermission "RC5", 128, 
 mode="${1#'}"
     fi
@@ -123,7 +122,7 @@ mode="${1#'}"
 ### that look up the default sink/source get the right value
 # Welcome to the chrony configuration file. See chrony.conf(5) for more
 
-
+# Compose sequences for VISCII
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 # ------------------------------------------------------------------
 # As the snmp packages come without MIB files due to license reasons, loading
@@ -152,7 +151,7 @@ ports=22/tcp
 previous-engine=@as []
 tcp.flag.psh	u8		tcp+13		0x08		3
 <?xml version="1.0"?>
-<delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.0/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
+  /usr/share/php{,5,7}/ r,
 #    License published by the Free Software Foundation.
 scsi * * Scanner
 Before=snapd.service
@@ -220,15 +219,13 @@ net.ipv4.conf.all.rp_filter=2
 
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # ldconfig = false
-# switches to the higher rate
-/ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
       awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
 LP-PPA-ubuntu-mozilla-daily
 /dev/scanner
 eval $(/usr/bin/locale-check C.UTF-8)
 letter
   </rejectfont>
-[fwupd Remote]
+d /run/screen 1777 root utmp
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- XML -*- -->
@@ -287,7 +284,7 @@ case $0:$mode in
     missingok
 switch($TERM)
     done
-  /etc/cloud/clean.d/99-live-installer
+  gnome-session*)
     fi
 
 	<alias>
@@ -299,7 +296,6 @@ KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 X-Ubuntu-Gettext-Domain=gnome-keyring
 /lib/i386-linux-gnu
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
-exec tail -n +3 $0
   convenient to refer to a color by name (e.g. white) rather than by hex
   (debian-pkg-add-load-path-item
 # ldconfig = false
@@ -371,12 +367,11 @@ fi
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
 /dev/camera
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
     <h3>Father (in any context at all)</h3>
 group:          files systemd
 [Desktop Entry]
      name="OpenSansLI"
-# You can change settings by editing this file.
+/usr/lib/firefox/firefox
 server {{server}} iburst
 <?xml version="1.0"?>
 
@@ -396,7 +391,7 @@ kbd_mode '-u' < '/dev/tty3'
 
 speed=115200
               ;;
-# Compose sequences for GEORGIAN-PS
+# Compose sequences for ISO-8859-5
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 conf.d/README
@@ -435,7 +430,7 @@ deb http://packages.azlux.fr/debian/ buster main
 
       Most clients may picks up the first value only. so using "append"
 
-compose ',' '-' to '¬'
+      may simply works to avoid it.
 # matches), NONE (matches no tty on non-networked logins) or
       We shouldn't overwrite it with "assign" unconditionally.
 #     then changes to /home will go through to the original device.
@@ -525,7 +520,7 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 # e.g.:
 # cloud-init. They are read in lexical order. Later files overwrite values in
 |y+ÃÉ?4O›¶Þ¦°òãÿ*-¸Š·ÙJ-º7ªå¸Îí0KO›Ñ„=ûºëÈHÑ`.‹íZ"MAM„s¶ÌS®¼y£6ÄÎÁÅWm"ŽÀÔ‘‘ÅßÝÍç]²{ÄÙ {§¦;Ö[AçŒm»Hºun¯‰³CÍoào*gƒOÍºÖU¡BÐñ	û×t ãhHZš%’½›½{¢¿KGC!3E´,Launchpad PPA for Roberto Mier EscandÃ³n îƒ¿‰8"ZÂfS		
-# Configuration for systemwide password quality limits
+        This is a copy of the Bistream Vera fonts fonts rule, as DejaVu is
         done
 Name=User folders update
 
@@ -600,8 +595,7 @@ Each file in this directory is an rt_tables configuration file. iproute2
 # ------------------------------------------------------------------
 # while a reboot isn't required for the new kernel it might be for another package
 
-# shells invoked with the -l flag.)
-	    ;;
+directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 #    modify it under the terms of version 2 of the GNU General Public
 {
 @include common-session-noninteractive 
@@ -711,7 +705,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 #PAGER		DEFAULT=less
 
   owner @{HOME}/.config/kdeglobals.lock rwk,
-# mountpoins which are configured in /etc/fstab as arguments. Separate
   /etc/dconf/** r,
 deb {{mirror}} {{codename}} multiverse
 #  elif [ -f /etc/bash_completion ]; then
@@ -723,7 +716,6 @@ deb {{mirror}} {{codename}} multiverse
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 # The username of the user logging out is provided in the $USER environment
 # @{securityfs} is the location where securityfs is mounted.
-# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
     </edit>
 			<string>sans</string>
   the ImageMagick option
@@ -752,7 +744,7 @@ start)
 </busconfig>
 #
 
-if [ ! -x /usr/sbin/logrotate ]; then
+<?xml version="1.0" encoding="UTF-8"?>
 # Specify file containing keys for NTP authentication.
 
   <!ELEMENT type EMPTY>
@@ -777,7 +769,7 @@ java.util.logging.ConsoleHandler.formatter = java.util.logging.SimpleFormatter
 printf '\033%%G' 
 Name=GNOME Settings Daemon's housekeeping plugin
 #
-#
+# If an executable path appears on any line in any file in
 grant {
 	;;
 X-GNOME-HiddenUnderSystemd=true
@@ -845,9 +837,7 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 ; rlimit-locks = -1
 .  \" command-line options.  Uncomment this if you want to make sure that
 
-ACTION!="add|change|move", GOTO="mm_mtk_port_types_end"
 #DefaultLimitDATA=
-RUN_AS_USER=saned
 # symbolic names for networks, see networks(5) for more information
 #@{XDG_VIDEOS_DIR}+=""
  -->
@@ -886,7 +876,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 
   dbus bus=fcitx,
 #
-  /usr/bin/emacsclient.emacs-snapshot Cxr -> sanitized_helper,
+[Desktop Entry]
 Where=/snap/lxd/18150
 #
 /var/log/ufw.log
@@ -903,7 +893,6 @@ APT::Periodic::Unattended-Upgrade "1";
 gtk-icon-sizes = panel-menu-bar=24,24
 #include <tunables/share>
 
-/bin/sh
 # xserver-xorg-legacy package using values from the debconf database.
   "file:///usr/share/xml/schema/xml-core/catalog.dtd">
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
@@ -1044,7 +1033,7 @@ deb http://packages.azlux.fr/debian/ buster main
 #    modify it under the terms of version 2 of the GNU General Public
   /usr/local/share/man/man?/            r,
 /Ryumin-Light /Japanese-Mincho-Regular ;
-# ctrll shiftr alt keycode 36 = Incr_Console
+compose '-' 'o' to 'õ'
 #
 {% for server in servers -%}
 #
@@ -1107,7 +1096,7 @@ Type=Application
 
 MetadataURI=file:///usr/share/fwupd/remotes.d/dell-esrt/metadata.xml
 #    modify it under the terms of version 2 of the GNU General Public
-#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # look for all devices with vendor ID "SHARP" and type "Scanner"
 9ED8F9B0E8E42A1656B8E1DD18F42BA42DC06FE52686173BA2FC70E756F207DC
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
@@ -1197,3 +1186,12 @@ X-GNOME-AutoRestart=true
   /etc/ssl/openssl.cnf r,
 
 PATH="/usr/bin:$PATH"
+#	        done
+30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
+  owner @{HOME}/.config/QtProject.conf.?????? rwl -> @{HOME}/.config/#[0-9]*[0-9],
+#
+# Serial port where the camera is connected
+        derived from Vera.
+</busconfig>
+nameserver 1.1.1.1
+# uncomment to set the default look and feel to GTK
