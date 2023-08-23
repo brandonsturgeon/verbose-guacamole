@@ -15,7 +15,7 @@ APT::Periodic::AutocleanInterval "0";
 # This file is a simple placeholder to keep dpkg from removing this directory
 	monthly
 #    This program is free software; you can redistribute it and/or
-usb 0x04e8 0x3441
+#    the precedence of IPv6 over IPv4 (see below) on machines having only
 {% for pool in pools -%}
 ï3ïDïkï|ï£ï≥ï»ï◊ïÓï˝ï"ñ1ñTñcñyñòñÕñÿñ˘ñó+ó9ó[óeóÖóèó≠ó∫ó›óÈóòòGòRòsòÑò´òªò·òÔòô$ôKôYô}ôäô≠ôπô€ôÏôö*öWöföãöõö¡öŒöÒöˇö#õ3õYõiõèõüõ√õ“õ˜õ
 <fontconfig>
@@ -128,14 +128,14 @@ application/vnd.anser-web-funds-transfer-initiation
 # If you want to globally change where snmp libraries, commands and daemons
 turkish         tr_TR.ISO-8859-9
 
-# [automount]
 	</alias>
 
                 . /lib/lsb/init-functions
 	    if test -f $PIDFILE; then exit 2; fi
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
 		mkdir -p /boot/grub
-[storage]
+	<Btn1Up>:	notify() reset()
+
 
 brandon:100000:65536
 LazyUnmount=yes
@@ -150,7 +150,7 @@ compose ''' 'O' to '”'
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 #
 
-# Compose sequences for CP1251
+[Desktop Entry]
 
 blacklist rivafb
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
@@ -180,7 +180,6 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
   </policy>
 *customization: -color
 			<string>AR PL UMing HK</string>
-# Turn on Source Address Verification in all interfaces to
 # usb 0x4b8 0x14c
 # set start_ro=1 to make newly assembled arrays read-only initially,
 	#   0 if daemon has been stopped
@@ -190,7 +189,7 @@ find /var/crash/. ! -name . -prune -type f ( ( -size 0 -a ! -name '*.upload*' -a
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 ÄödGhïE^qßÏ5πı∑&n¿Ñ‡ÚU0tˇz,È#Ì=∞ó§º™Îc◊ πm		<4≈ÆMÔ‹∂‹ûöZqˆ≈ñ‰ÇÅö@òµ“∆Ø3∆Ú‘•ËI€ŒéZ`^Uy≥ª	Â˘Pﬁ|sèÓ˙Áò…Ó—TáI<ÇæeR¡==©hLÁêœ:Ó√˘ÿø~éúÊmbÊwysÄŒY 
 # ------------------------------------------------------------------
-      without rebooting a machine which drastically limits the need for
+
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 # How many usec (1,000,000ths of a) between sending the "back to default" break
 X-GNOME-Autostart-Phase=PreDisplayServer
@@ -216,7 +215,7 @@ esac
 
   /usr/bin/file-roller Cxr -> sanitized_helper,
 #    modify it under the terms of version 2 of the GNU General Public
-    </event>
+deb {{security}} {{codename}}-security universe
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # Defines whether the mail spool should be created while
@@ -227,7 +226,7 @@ ports=22/tcp
 previous-engine=@as []
 tcp.flag.psh	u8		tcp+13		0x08		3
 <?xml version="1.0"?>
-overlayroot_cfgdisk=LABEL=OROOTCFG
+# Compose sequences for GEORGIAN-PS
 	rm -f "$TEXT_FILE"
 #    License published by the Free Software Foundation.
 session optional pam_systemd.so
@@ -264,7 +263,6 @@ OK		ATDTT
 	elif [ -e "/etc/byobu/autolaunch" ]; then
   /etc/cloud/clean.d/99-live-installer
 
-            <family>Sazanami Gothic</family>
   deny @{HOME}/.mutt** mrwkl,
 =RFA4
   #include <abstractions/base>
@@ -290,7 +288,7 @@ SECTION		1 n l 8 3 2 3posix 3pm 3perl 3am 5 4 9 6 7
 
 XLoad.input:			false
 #
-# deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
+}
 #    This program is free software; you can redistribute it and/or
 #!/bin/sh
 # Insert here your local magic data. Format is described in magic(5).
@@ -343,7 +341,7 @@ NotShowIn=KDE;GNOME;Cinnamon;LXDE;Unity;
 #usb VENDORID PRODUCTID
 
 
-  /usr/share/perl/**             r,
+
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 <!DOCTYPE typemap [
 # vim:set ai et sts=2 sw=2 tw=80:
@@ -399,7 +397,6 @@ Name=GNOME Settings Daemon's power plugin
 # Required-Start:    $local_fs
   # kindof required
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
-SHELL=/bin/sh
     <match target="pattern">
 # banner-message-text='Welcome'
                                   (symbol-name debian-emacs-flavor)
@@ -463,7 +460,7 @@ rtcsync
 
 	<alias>
 
-                    <a href="http://www.w3.org/TR/xmlschema-1/#no-xsi">the XML
+# Compose sequences for CP1255
 #
 #       from the USB subsystem. If you're not using the
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
@@ -491,7 +488,7 @@ email_format=text
 ##     or do the same in user-data
 # You should have received a copy of the GNU Lesser General Public License
 # polyinstantiation.
-			<string>WenQuanYi Zen Hei Mono</string>
+APT::Periodic::Unattended-Upgrade "1";
   <!-- Allow anyone to invoke methods on the interfaces -->
 What=/var/lib/snapd/snaps/snapd_8542.snap
 create_machineid() {
@@ -610,7 +607,7 @@ restrict 127.0.0.1
 <delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///usr/share/xml/svg/catalog.xml"/>
 	rm -rf "${RUN_DIR}/interface/*"
 // grant codeBase "jrt:/com.greetings" {
-# set trimblanks
+  /usr/lib/NetworkManager/nm-dhcp-client.action   Pxrm,
 
 kbd_mode '-u' < '/dev/tty3' 
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
@@ -710,7 +707,6 @@ encryption=luks1
 scsi "KINPO   " "Vividscan S120  "
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-# For scanners connected via USB on a known device (kernel driver):
 Ubuntu 20.04.1 LTS (Focal Fossa)
 	do_stop
 # how to byte-compile (comma separated: standard, optimize)
@@ -718,7 +714,6 @@ MinimumSmeKernelVersion=5.18.0
 # installation of packages available from the repository
 /usr/sbin/gdm3
 
-X-GNOME-Autostart-Phase=Initialization
 By default, Java provides two different sets of cryptographic policy
 [ ! -r "$stamp" ] || cat "$stamp"
   00_*: Reserved for 00_header.
@@ -786,7 +781,6 @@ ipv6-icmp 58	IPv6-ICMP	# ICMP for IPv6
 /usr/bin/wine-preloader
 		chown root:adm $XCONSOLE
 # By default, exchange time with everybody, but don't allow configuration.
-    . $SESSIONFILE
 <delegatePublic publicIdStartString="-//OASIS//DTD XML Exchange Table Model 19990315" catalog="file:///etc/xml/docbook-xml.xml"/>
   <type name="AvantGarde-Demi" fullname="AvantGarde DemiBold" family="AvantGarde" foundry="URW" weight="600" style="normal" stretch="normal" format="type1" metrics="URWGothic-Demi.afm" glyphs="URWGothic-Demi.t1"/>
 7   selinux
@@ -871,7 +865,6 @@ fi
 search updates ubuntu built-in
 # X-Start-Before:    checkfs mountall
 /usr/lib/x86_64-linux-gnu/libfakeroot
-# The possible arguments are:
 APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
 #    Copyright (C) 2011 Canonical Ltd.
 arch=`dpkg --print-architecture`
@@ -1038,7 +1031,7 @@ Acquire::Changelogs::AlwaysOnline "true";
 		<family>fantasy</family>
 
 
-  # StackGuard, FormatGuard, etc., alerts can be properly logged.
+# X-Interactive:     true
 # password.
 fi
 ! The App-defaults file for Bitmap.
@@ -1098,7 +1091,6 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 
   /usr/lib/{pyshared,pycentral,python-support}/**.so     mr,
 # Compose sequences for GEORGIAN-ACADEMY
-#                   See the manual pages hosts_access(5) and hosts_options(5).
 # @{HOMEDIRS}.
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 StartupNotify=false
@@ -1145,7 +1137,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 # Written by the Cloud Image build process
 emptyscale=magenta
 			<family>AR PL New Sung Mono</family> <!-- han (zh-cn,zh-tw) -->
-		status_of_proc -p "$DOCKER_SSD_PIDFILE" "$DOCKERD" "$DOCKER_DESC"
+# Provides:          console-setup.sh
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
 #    This program is free software; you can redistribute it and/or
 ## Add external Servers using
@@ -1168,7 +1160,6 @@ SHELL=/bin/sh
 <!--
 #port=/dev/ttyd1
 # ldconfig = false
-# image.  The associated devices can then be unlocked without manual
   the ImageMagick option
 #include <tunables/home.d>
 # consist of one or more characters each.  The backslash "\" is used to escape
@@ -1192,3 +1183,15 @@ exec /usr/bin/X -nolisten tcp "$@"
   # acmetool
         stop|status)
 system-db:ibus
+# As a result, cloud-init has written this file with configuration data
+# Specify command line options here. This config file is used
+    </accept>
+    case "x$RSYNC_NICE" in
+X-Ubuntu-Gettext-Domain=gnome-keyring
+# As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
+# avahi is free software; you can redistribute it and/or modify it
+
+# log = true
+#
+
+X-GNOME-AutoRestart=true
