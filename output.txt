@@ -35,11 +35,8 @@ driftfile /var/lib/chrony/chrony.drift
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 LANG=C.UTF-8
   dbus send
-1	cmp
 
-RESTART_CHK="NetworkManager.service"
      <xs:sequence>
-  owner @{HOME}/@{XDG_DESKTOP_DIR}/*	rwl,
 # <target name>	<source device>		<key file>	<options>
      Define aliasing and other fontconfig settings for
 #    modify it under the terms of version 2 of the GNU General Public
@@ -83,7 +80,6 @@ APT::Archives::MinAge "2";
   /var/lib/acme/live/* r,
   </alias>
 <?xml version="1.0"?>
-.    char \- \N'45'
   # shared python paths
 		</test>
 #
@@ -112,7 +108,6 @@ compose '"' 'A' to 'ƒ'
 üáÃıº¢/4¢¥-üL0À+/¯‰¬‹Å
 		</rejectfont>
 #ifdef COLOR
-			<family>Artsounk</family> <!-- armenian -->
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # dpkg configuration file
 #    modify it under the terms of version 2 of the GNU General Public
@@ -243,7 +238,6 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 
 	else
 # Compose sequences for ISO-8859-5
-restrict -6 default kod nomodify notrap nopeer noquery
   . "$USERXSESSIONRC"
 #  address = "/run/containerd/debug.sock"
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
@@ -332,7 +326,6 @@ if [ -f /bin/setupcon ]; then
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
 DISTRIB_CODENAME=jammy
 label=magenta,
-modify any previously set config option.
 	Ä
 
 # Defaults can be restored by simply deleting this file and all drop-ins.
@@ -340,7 +333,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
         log_daemon_msg "Starting open-vm daemon" "vmtoolsd"
 # Try to rerun any package data downloads that failed at package install time.
 scsi APPLE
-#   permissions - copy when trying to preserve permissions.
+#
 # Local users may interrogate the ntp server more closely.
 /lib32
 America/Los_Angeles
@@ -441,14 +434,13 @@ version="$1"
 additional configuration artifact cleanup from the filesystem when
 # or removing a feature will be allowed.
         <xs:extension base="xs:annotated">
-APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 #
 *showGrip:			FALSE
 fi
 
 Each file in this directory is an rt_tables configuration file. iproute2
 {% endif %}
-disable_flash_pq_bg_color=1
+esp	50	IPSEC-ESP	# Encap Security Payload [RFC2406]
 allocation {
 # Benq/Acer 5300
 # UMAX Astra 4500 and Avision iVina 1600
@@ -456,7 +448,6 @@ allocation {
   # Include additions to the abstraction
 America/Los_Angeles
   rotate 6
-#parport0
 # Kernel Image management overrides
 
 scsi "B&H SCSI"
@@ -618,7 +609,6 @@ Ubuntu 22.04.2 LTS
 bookworm/sid
 
 
-
   /usr/bin/shotwell Cxr -> sanitized_helper,
 compose ''' 'e' to 'È'
 #
@@ -661,7 +651,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 #    Handle linux distributions that use systemd to replace the legacy
 eval $(/usr/bin/locale-check C.UTF-8)
 #    Copyright (C) 2002-2009 Novell/SUSE
-X-Ubuntu-Gettext-Domain=xdg-user-dirs
+ExecStop=/usr/bin/snap run --command=stop lxd.daemon
 
   include if exists <abstractions/dbus-accessibility-strict.d>
   # User files
@@ -692,7 +682,6 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 };
         cat /run/motd.d/85-fwupd
      </choice>
-  # readd default if was empty
 	vdo_use_sparse_index=0
 *ispell*options.horizDistance:		2
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
@@ -745,7 +734,6 @@ fi
 fi
 }
   abi <abi/3.0>,
-# The PAM configuration file for the Shadow `passwd' service
   include <abstractions/consoles>
 #dateext
 ### END INIT INFO
@@ -770,7 +758,6 @@ alias net-pf-36 off
 # DO NOT EDIT OR REMOVE
 
     while(<$plist>) {
-# prefixes are stored, each should not have a trailing '/'. Directories
 #    exitCode may be incremented.
   	if [ -r $CACHE ]; then
 
@@ -803,7 +790,6 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 	vdo_write_policy="auto"
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 *help.Label:			Help
-# @{PROC} is the location where procfs is mounted.
 # It's important that all backports from this kernel have been
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 X-Snappy=yes
@@ -891,7 +877,7 @@ scan-data-timeout 15000
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 #
 <!-- Begin PGPData -->
-America/Los_Angeles
+
 #  about not starting rsyncd (you still need to modify inetd's config yourself).
 
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
@@ -913,7 +899,7 @@ enabled=1
 *replace.accelerators:#augment\
 # battery than letting it rest for example).
 
-    echo ""
+/NimbusSanL-Bold (/usr/share/fonts/type1/gsfonts/n019004l.pfb) ;
 scsi FCPA
 #  1. command line options
 ipcomp	108	IPCOMP		# IP Payload Compression Protocol
@@ -939,7 +925,6 @@ X-GNOME-Autostart-Phase=Initialization
 #
 #    License published by the Free Software Foundation.
 blacklist tdfxfb
-<codermap>
 scsi "B&H SCSI"
 // Country-specific policy file for countries with no limits on crypto strength.
 	result=0
@@ -1043,3 +1028,18 @@ XCalc*hp.button36.background:	white
 [mysqldump]
     exec /usr/lib/update-notifier/update-motd-hwe-eol
   # pretty-print messages of arbitrary length; use xmessage if it
+  fi
+scsi TAMARACK
+		</rescan>
+
+	</alias>
+test "$XDG_SESSION_TYPE" = 'wayland' || return
+
+/HYRGoThic-Medium /NanumGothic-Regular ;
+# for allowing access to konsole
+Clock*BorderColor:	light blue
+"
+Ubuntu 20.04.1 LTS (Focal Fossa)
+
+  stop)
+if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
