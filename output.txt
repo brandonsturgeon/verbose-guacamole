@@ -29,7 +29,7 @@ driftfile /var/lib/chrony/chrony.drift
 #    modify it under the terms of version 2 of the GNU General Public
   <!-- Read in overrides and child menus from applications-merged/ -->
 mail.*				-/var/log/mail.log
-
+application/pkcs10; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
 
 {#
 
@@ -73,11 +73,9 @@ Vendor-URL: https://www.debian.org/
 #option disable-calibration
 compose '"' 'A' to 'ƒ'
 #
-		<Btn1Down>,<Btn1Up>: Next16() unset()
   </match>
 # command line option.
 üáÃıº¢/4¢¥-üL0À+/¯‰¬‹Å
-		</rejectfont>
 #ifdef COLOR
 scsi FCPA
 # dpkg configuration file
@@ -85,7 +83,6 @@ scsi FCPA
 # vim:syntax=apparmor
 c0582bt_.pfb -bitstream-courier 10 pitch-medium-i-normal--0-0-0-0-m-0-iso8859-1
 
-gdm:x:121:129:Gnome Display Manager:/var/lib/gdm3:/bin/false
 search updates ubuntu built-in
 
 20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
@@ -109,7 +106,6 @@ commands scan this directory processing all files that end in '.conf'.
 password	include		su
 
 # As a result, cloud-init has written this file with configuration data
-MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 .  " rather than letting it be rendered as "&minus;".
   abi <abi/3.0>,
 # shellcheck disable=SC2086
@@ -172,7 +168,7 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
 
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
   <acceptfont>
-::1 {{fqdn}} {{hostname}}
+            echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 
@@ -308,7 +304,7 @@ scsi "B&H SCSI"
 XCalc*.bevel.borderWidth:		1
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? raid[[:digit:]]+: Disk failure on [[:alnum:]]+, disabling device\.$
 
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] exiting on signal [0-9]+.$
+
 brandon:100000:65536
 # @{securityfs} is the location where securityfs is mounted.
   set -e
@@ -322,7 +318,6 @@ Type=Application
 ## Add external Servers using
 #
 
-#  terms of the GNU Lesser General Public License as published by the Free
 {
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 mode="${mode%'}"
@@ -451,7 +446,7 @@ APT::Archives::MaxSize "500";
 # Allow any user to opt into auto-launching byobu by setting LC_BYOBU=1
 #    Copyright (C) 2012 Canonical Ltd.
 
-# don't do anything if im-config was removed but not purged
+# definitions of existing MD arrays
 			Ctrl<Key>r:	do-resize()
 #!/bin/sh
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
@@ -472,21 +467,20 @@ esac
 # OpenCL access requirements for Intel implementation
 DNS={% for server in nameservers %}{{server}} {% endfor %}
 # ctrll alt keycode 36 = Incr_Console
-  <delegate decode="html" command="&quot;html2ps&quot; -U -o &quot;%o&quot; &quot;%i&quot;"/>
 		<rejectfont>
 # Record the rate at which the system clock gains/losses time.
 auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
 	        # check because c-n-f could've been removed in the meantime
 	<alias>
 X-GNOME-Autostart-Phase=Initialization
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
+the exact distribution terms for each program are described in the
 0xD9 '√ô'
 # symbolic names for networks, see networks(5) for more information
 
 #
   /usr/bin/file-roller Cxr -> sanitized_helper,
 #    modify it under the terms of version 2 of the GNU General Public
-  </its:rules>
+    </event>
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 }
 
@@ -572,7 +566,7 @@ font='Monospace 16'
 
 	case "$REPORT_ABSENT_SYMLINK" in
 
-
+  # gnome is already added if gnome-session installed
 						;;
     done
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])? md: md[[:digit:]]+: (data-check|requested-resync|resync|reshape|recovery) done.$
@@ -603,11 +597,11 @@ eval $(/usr/bin/locale-check C.UTF-8)
 
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
 <!DOCTYPE typemap [
-127.0.0.1	tattoo-heute.com
+{%- if servers %}# servers
 	<policy user="root">
 # battery than letting it rest for example).
 #
-#  1. command line options
+usb 0x05da 0x30cf
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 ;; Created on: Fri Oct 22 09:48:21 CEST 1999
 /dev/scanner
@@ -730,7 +724,6 @@ gt68xx
       interface="com.canonical.Unity.LauncherEntry"
 #!/bin/sh
 # This file is the default tidy configuration file
-  /usr/bin/dbus-launch ix,
 
 		;;
 
@@ -761,7 +754,6 @@ system-db:ibus
 check_config() {
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 *insertFile*text.?.pieceSize:		256
-#user_allow_other
 blacklist raw1394
 
 
@@ -778,7 +770,7 @@ brandon:100000:65536
 # vim:set ai et sts=2 sw=2 tw=80:
 compose '|' '|' to '¶'
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
-	cache_pool_chunk_size = 64
+
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
 DPkg::Pre-Install-Pkgs { "/usr/bin/apt-listchanges --apt || test $? -lt 10"; };
 ### END INIT INFO
@@ -793,7 +785,6 @@ session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default
     monthly
 Ëç_âD´Æ»æEüƒd˘WMØµ0Lí∆>?Üê¥Ÿ◊Ñè[˛öfô6∆¸‹Ñ	*ánçµ9ê+›K¯¢∑|#Ô17WÌ§÷&J˜1ÒÈg‹~÷≈=¿æcC°“5∞ÿaè
 # Read man sane-mustek_usb for documentation
-if [ -x "/usr/bin/dbus-update-activation-environment" ]; then
 bullseye/sid
 #    This program is free software; you can redistribute it and/or
 XKBMODEL="pc105"
@@ -804,7 +795,7 @@ ipv6-nonxt 59	IPv6-NoNxt	# No Next Header for IPv6
 # the default is 1, n, l, 8, 3, 0, 2, 5, 4, 9, 6, 7. Multiple SECTION
      o Declarations for and references to external parameter entities
 # generate the popularity contest data
-	çÅÄ<øÕà≤…˛$£Øî4&6˘¸_ï”w§QiA˜ﬁEÿ^´ìËŸ%»íÏM†Lô™º ù¥é&5Å¬HF1#ö´qÖyb•˝?Øä£ÎËŒé'±Â,Òˇ48®Ω¢OµéF†‹∏$éâÚQˇ[¬’±ù9-∆0s·Ö≈{±@¥/úUók,®ØùüOƒDgô˘›ÊÈ˙úwënÓúl™mP2π4øß<àÑﬂöπ:·É8J‘$°|g3¸FW¢ıKsÍüO]àïi◊µ>*4fML›-G„K˛Å©ﬂ`ÖG.{¸5UnâCeFaëÁfÔR≥ÄZ‰à=?@Ë*È µ~>§–Oë1‰uö∏‹íN@ò€≈„n#Lô <É7?w•Ü}7XfƒÆ5ÕŸ„Ó‹€~ê#|V%ÛOuF◊E†0á/˙≠4Öo<
+	}
 /CenturySchL-BoldItal (/usr/share/fonts/type1/gsfonts/c059036l.pfb) ;
 # IPMI_Platform_Alert_State_Asserted     Critical
 scsi Nikon * Scanner
@@ -832,7 +823,7 @@ session	optional	pam_systemd.so
       This configuration is available on the major desktop environments.
   owner @{HOME}/.cache/ rw,
 # for allowing access to xterm
-# This module parses environment configuration file(s)
+//  the file /var/run/reboot-required is found after the upgrade
 # minclass = 0
 #include <tunables/global>
 
@@ -853,7 +844,7 @@ LANG=C.UTF-8
 
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 
-# Short-Description: Configure kernel parameters at boottime
+
 esac
 option skipDarkStrip 0
 rk0JgVoRzG3BT5yYfuxHIe4H4Axh95tW9i6urzyQkXRz14twwwcEDvl5ALrBLNJJ
@@ -861,7 +852,6 @@ rk0JgVoRzG3BT5yYfuxHIe4H4Axh95tW9i6urzyQkXRz14twwwcEDvl5ALrBLNJJ
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 PPP_DISC	8863		# PPP over Ethernet discovery stage
       may simply works to avoid it.
-
 
 # To use a specific scsi device
 
@@ -874,7 +864,6 @@ X-GNOME-Autostart-Phase=Initialization
 option artecFirmwareFile /usr/share/sane/artec_eplus48u/Artec48.usb
 #
 # Required-Start:    $local_fs
-
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 # For more details, please see /etc/apparmor.d/local/README.
 # real-time clock. Note that it can‚Äôt be used along with the 'rtcfile' directive.
@@ -899,7 +888,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 Ubuntu 20.04.5 LTS
 X-GNOME-Bugzilla-Version=3.36.0
 #!/bin/sh
-  . "$USERXSESSIONRC"
+
 usb 0x05d8 0x4010
 
 
@@ -921,7 +910,7 @@ IPT_MODULES=""
 
       This configuration is available on the major desktop environments.
    local script="error"
-
+8EDz9oR8HBPbxbd4i2dBfziY7TW4o/VgZKTGWA39JfwWNc5RxaYzBhBmg5nRcVFs
 <?xml version="1.0" encoding="UTF-8"?>
 
 #   option dumb-read
@@ -991,7 +980,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 
   /usr/share/drirc.d/{,*.conf}    r,
 DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
-# Side effects:
 #
 
      declaration that uses the public identifier shown below:
@@ -1063,3 +1051,11 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 APT::Periodic::Update-Package-Lists "1";
 # cloud-init. They are read in lexical order. Later files overwrite values in
         Disable hinting manually at smaller sizes (< 8ppem)
+#hpsj5s.conf
+#  the Free Software Foundation; either version 2.1 of the License, or
+
+    unset XDG_SESSION_ID
+# Compose sequences for GEORGIAN-ACADEMY
+# clean all crash reports which are older than a week.
+  <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
+    permission javax.crypto.CryptoPermission *, 128;
