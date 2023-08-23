@@ -1,4 +1,3 @@
-Ubuntu 22.04 LTS (Jammy Jellyfish)
 /var/log/auth.log
 Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
@@ -118,7 +117,7 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
  * and edit it there.  That way, your changes will be kept next time
-Description=Mount unit for snapd, revision 15904
+CRYPTDISKS_ENABLE=Yes
     <allow send_interface="org.debian.apt.transaction"/>
 DEFAULT_LOUD=""
 Bugs: debbugs://bugs.debian.org
@@ -221,7 +220,6 @@ blacklist rivafb
 compose ')' '-' to '}'
 
 
-# Required-Start:    $remote_fs
            "booktitles.ent">
 # interpreted by the kernel to help with debugging. The kernel will respond
 
@@ -254,7 +252,7 @@ if [ "$INITRD" = 'No' ]; then
 	#   0 if daemon has been stopped
 
 # here are the per-package modules (the "Primary" block)
-bookworm/sid
+/STFangsong-Light /BousungEG-Light-GB ;
 
 
   /usr/bin/shotwell Cxr -> sanitized_helper,
@@ -450,7 +448,6 @@ STARTSSH=
   /srv/www/rails/*/public/** r,
 #    Copyright (C) 2011-2013 Canonical Ltd.
 ™O­h»¤¢»òß=næ¼Ê‚$œ-óÍÏÓH]üÒ+4„TKİÓ¦qq6Åöê;oñ·o¾Ù”_?§¶j’ÊË:åU†Kû 59@WÚL‹.vÒÑå„åvn93›Ôu„+nŸî!há5Ér‹¿êÒ®­>Ç¶mï‚®W%i;UHÁgÅ—Ÿ³¿µ8¯Êhc\#°Bú›—6y0œö.!|d©}GcºòÄe]?e“§¡NDq&+ÓÇ&ï‚·C,ECØ°îW¡:Œ¡ü Ô„{ƒœ›Í¯´!y+AâÂTÓÙ2Û* lË“N-Ÿò&Íñ&Û…É”3İÙ™$¦Â|€˜è„q¯\i­ƒ¡]ÍHh«Jo-q©)Kçtü%l>9ŞÉ,Æ¬İÄìí¹Öœs$4¦­2|æ•:‹Së™lö?îÒRCöbô‰óøêó[gëôİÃáLSÁqÌVÖ¿<“«•/=·oüŒë°Jx$©™µ¯ÔÙFJO#ò®ôØ†Ÿó+}öIñ‰8eô#‚0—4—ŠX2Ës¤Å&ÒÛÿ9õ@¢±v¼2Õ˜Z¹Lİ‡ÆÏdÕg¦0¿.ïØ6¯ İSäŞå©ê¹ñ›¾
-  <type name="Verdana" fullname="Verdana" family="Verdana" weight="400" style="normal" stretch="normal" glyphs="verdana.ttf"/>
 #DefaultLimitAS=
 -dcevm KNOWN
 which grub-editenv >/dev/null 2>&1 || exit 0
@@ -488,7 +485,7 @@ Comment=GNOME Keyring: SSH Agent
 #    This program is free software; you can redistribute it and/or modify
 LP-PPA-ubuntu-mozilla-daily
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
-
+bookman_light_italic.latin1.plain=Bookman-LightItalic
 ### END INIT INFO
     <alias>
 NoDisplay=true
@@ -531,7 +528,7 @@ LANG=C.UTF-8
 17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
 -server KNOWN
          cloud-init dhclient-hook down "$interface";;
-     Corporation, Norman Walsh, Sun Microsystems, Inc., and the
+
 PPP_DISC	8863		# PPP over Ethernet discovery stage
 
 
@@ -572,7 +569,7 @@ Exec=/usr/libexec/gsd-wacom
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 <?xml version="1.0" encoding="UTF-8"?>
 
-#   option dumb-read
+# PPP up hook script for resolvconf
 compose '\'' 'o' to 'ó'
 nssDbMode = noDb
 #/dev/usb/scanner0
@@ -637,7 +634,6 @@ esac
 #
 	# the local host, which is determined by system_id_source.)
     <accept>
-      Most clients may picks up the first value only. so using "append"
 # udevd is also started in the initrd.  When this file is modified you might
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 <!ENTITY % allAttrs ''>
@@ -645,7 +641,6 @@ fax:x:21:
   deny @{HOME}/.zshenv mrk,
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
     <allow send_interface="org.debian.apt"/>
-  missingok
 exec tail -n +3 $0
 /usr/lib/x86_64-linux-gnu/libfakeroot
 	# no need for suffix if we have units set
@@ -731,7 +726,6 @@ OK           ATDT<put phone number here>
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # Defaults can be restored by simply deleting this file.
 
-# set convert-meta off
 
 case "${1}" in
 @{securityfs}=@{sys}/kernel/security/
@@ -748,7 +742,7 @@ roottext=,magenta
     <alias>
 # value is 80) and nonProxyHosts is a '|' separated list of hostnames which
 # cloud-init. They are read in lexical order. Later files overwrite values in
-  #include <abstractions/private-files>
+# Compose sequences for ISO-8859-5
   #include <abstractions/opencl-mesa>
   -->
 #  normal - Check to see if a new release is available.  If more than one new
@@ -764,12 +758,10 @@ stop_watchdog_quiet()
 # vim:syntax=apparmor
 
 #bind ^P curpos main
-letter
 
 	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
 NoDisplay=true
 logfile   /var/log/ntp		# alternate log file
-
 			<string>AR PL UKai TW</string>
 type=file
 	}
@@ -786,7 +778,7 @@ BRIDGE_HOTPLUG=no
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
 
 
-                <allow send_interface="fi.epitest.hostap.WPASupplicant"/>
+    force-reload|restart)
 
 XClock.Clock.minorColor:	rgba:00/7f/7f/c0
 XClock.Clock.hourColor:		rgba:7f/00/00/c0
@@ -947,7 +939,7 @@ Ubuntu 20.04.5 LTS \n \l
 # be polyinstantiated based on the MLS level part of the security context as well as user
 # 'keyscript=' option.  In that case, the field is not treated as a file
 # a minimum a blank line following it).
-# another usb section here.
+           send_interface="org.gnome.DisplayManager.Display"
 MIIElDCCA3ygAwIBAgIQAf2j627KdciIQ4tyS8+8kTANBgkqhkiG9w0BAQsFADBh
 deb http://packages.azlux.fr/debian/ buster main
 
@@ -1029,7 +1021,6 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 ## team, and may not be under a free licence. Please satisfy yourself as to
 scsi ULTIMA
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
-#@{HOMEDIRS}+=
 $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
 #
@@ -1048,7 +1039,7 @@ rq0t2YjXglIBHRDiJlOTAR3if37OCDKCcHOOODqYrsN7wNleez+ulkDyP7C7ZTbm
 
 account     required    pam_shells.so
 #include <abstractions/ubuntu-browsers.d/kde>
-  <!-- In case Verajja Serif stops declaring itself as DejaVu Serif -->
+
 
 export QT_ACCESSIBILITY
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
@@ -1079,7 +1070,7 @@ XLogo*foreground: rgb:d7/d7/d7
   # python build configuration and headers
 echo "done."
     /etc/ld.so.preload r,
-PARA2=$(gettext 'As a result the session will not be configured correctly.
+DAEMON="/lib/systemd/systemd-udevd"
 # ------------------------------------------------------------------
 255 193 193		RosyBrown1
 
@@ -1114,3 +1105,18 @@ alias gawklibpath_append 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIBP
 port=/dev/ttyS0
 
 # This file is a simple placeholder to keep dpkg from removing this directory
+run_im default
+post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
+
+#
+
+[xdmcp]
+    status="$(/usr/sbin/update-cracklib)"
+  capability            setuid,
+
+
+
+quick
+# NIS (man nsswitch) as well as normal /etc/passwd and
+fi
+      This configuration is available on the major desktop environments.
