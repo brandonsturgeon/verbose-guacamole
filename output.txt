@@ -15,7 +15,7 @@ Enabled=true
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
 # Specify directory for log files.
       <family>Noto Mono</family>
-#    Copyright (C) 2011 Novell/SUSE
+
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #
 
@@ -27,7 +27,7 @@ search updates ubuntu built-in
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
            "booktitles.ent">
 # DO NOT EDIT OR REMOVE
-
+/bin/sh
 
         <policy user="root">
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -67,7 +67,6 @@ checkbox=,magenta
 # Compose sequences for ARMSCII-8
 # option stop_on_fsu_error: should be 0 or 1. If set to 0,
 
-post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 # how to byte-compile (comma separated: standard, optimize)
 
 audio/x-mpegurl=rhythmbox.desktop
@@ -187,7 +186,6 @@ PICTURES=Pictures
 X-GNOME-Autostart-Phase=PreDisplayServer
 /dev/scanner
 ÛOg·÷µ÷ÙëÍ¼ÂšÆ†B°ßUf³v°·yº¼£#V>'•9àöZ¨ıš´Şf‹¹‹ıõÊÛ­Äö#ÑıJTVVÍ–U~{ÿ¢ÒÛr1&3l#ç+õ=[Vùm¹Xœ|Sç½÷üóµÛ©šû"[ÎÅö3ªşñó—gÃc
-<fontconfig>
 	cache_settings {
 # Autodetect the Canon CanoScan FB630u
 deb http://packages.azlux.fr/debian/ buster main
@@ -215,10 +213,9 @@ fi
 <?xml version="1.0" encoding="UTF-8"?>
   /etc/X11/app-defaults/XTerm r,
 max_allowed_packet	= 16M
-# Compose sequences for ARMSCII-8
+        else
 # in the toplevel profile. Eg:
 [connection]
-video/x-ms-wmx					wmx
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
     delaycompress
@@ -230,7 +227,6 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # ldconfig = false
 # switches to the higher rate
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-# Compose sequences for GEORGIAN-PS
       awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
 LP-PPA-ubuntu-mozilla-daily
 /dev/scanner
@@ -378,7 +374,6 @@ fi
 # See sane-microtek2(5) for a description of the options
     else
 # Additional mounts to exclude at shutdown.
-scsi RICOH IS60
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
 /dev/camera
@@ -408,7 +403,7 @@ kbd_mode '-u' < '/dev/tty3'
 speed=115200
               ;;
 # Compose sequences for GEORGIAN-PS
-[OpenSSH]
+^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 conf.d/README
     echo "updates of cacerts keystore disabled."
@@ -455,7 +450,7 @@ compose ',' '-' to '¬'
 # Read man sane-mustek_usb for documentation
 #
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-#
+}
 -session	optional	pam_systemd.so
 encryption=luks1
     <accept>
@@ -569,15 +564,14 @@ search updates ubuntu built-in
 #    . /etc/bash_completion
   #include <abstractions/dbus-strict>
 #    Copyright (C) 2011 Canonical Ltd.
-arch=`dpkg --print-architecture`
+    # environments
 # /etc/login.defs and user settings, solving the problem of different
 
 
 0lQIZgahmcUt1qm6VW94VAio+SDCdqTx73wUsgM3t9sAwKxkEdJQQoO8PqYHV3uK
 <fontconfig/>
-order hosts,bind
+Each file in this directory is an rt_tables configuration file. iproute2
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
-@include common-password
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
        path="/com/canonical/hud",
 #     /etc/cloud/cloud.cfg or cloud-config from user-data
@@ -606,9 +600,8 @@ order hosts,bind
 *†HÎ=h0e1åiÉnÛÆ1º	Aá—øûıšâ}Éí|dÓË%‹VÙ ç^]Nƒœ[v) 	&!jb0qÒµ\ê;áx	…¨u’;È\ıHït"¨ânÅIÎÇ¼§aiñ÷;á*Ëù+óf7"debian:digicert_global_root_g3.pem8P_1X.509C0‚?0‚Å UV¼ò^¤55Ã¤Õ«Er0
 
 #
-#  * and that the path value is quoted
 #    exitCode may be incremented.
-AdminIdentities=unix-group:sudo;unix-group:admin
+	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true";
 [Desktop Entry]
 #
 
@@ -889,7 +882,7 @@ AdminIdentities=unix-group:sudo;unix-group:admin
 	log_action_begin_msg "Setting up resolvconf"
 
 0	default
-  start)
+	create 644 root root
 byte-compile = standard
         fi
 # set PATH so it includes user's private bin if it exists
@@ -898,7 +891,6 @@ byte-compile = standard
 {% endfor %}
 BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
 }
-#@{HOMEDIRS}+=/srv/nfs/home/ /mnt/home/
 foreground	gray90;\
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 # The example configuration below imitates the behavior of a standard mobile
@@ -914,13 +906,11 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 #
   /usr/bin/emacsclient.emacs-snapshot Cxr -> sanitized_helper,
 Where=/snap/lxd/18150
-# It contains all configuration settings that are customizable by metadata
 #
 /var/log/ufw.log
       for file in $(find $i -type f -print | LC_ALL=C sort)
 #kdebug n
   format and its respective coder module is defined in this configuration
-
 esac
 
 fi
@@ -980,7 +970,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 Icon=appointment-soon
         fi
 DAEMON=/sbin/lvmpolld
-session    required   pam_limits.so
 Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
 
   Associate an image format with a unique identifier. 
@@ -1030,7 +1019,6 @@ order hosts,bind
 	)
 /dev/scanner
 test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
-enabled=1
 <?xml version="1.0"?>
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
@@ -1183,7 +1171,7 @@ search updates ubuntu built-in
   xterm*|vte*)
 #            export PHASE="pre-up"
 auth		sufficient	pam_rootok.so
-# in /etc/passwd and ignore centralized (AD, IdM, LDAP, etc.) users.
+COMPRESS=lz4
 X-GNOME-Bugzilla-Component=nm-applet
 /HYGoThic-Medium /NanumBarunGothic-Regular ;
 /dev/scanner
@@ -1199,3 +1187,16 @@ attributes = compatibility
 LETTERHOMES=no
 run_im default
 [firefox]
+  /usr/bin/xarchiver Cxr -> sanitized_helper,
+  /etc/xulrunner-2.0*/ r,
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+     o Notation declarations.  For example:
+      This configuration is available on the major desktop environments.
+# netboot - Add the base modules, network modules, but skip block devices.
+
+#
+# network scanning.
+/dev/camera
+# Timeout for the initial connection to saned. This will prevent the backend
+
+has led to the following conventions in usage:
