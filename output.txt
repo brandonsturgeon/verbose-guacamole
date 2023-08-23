@@ -13,7 +13,7 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 # ------------------------------------------------------------------
 # Make sure the locale variables are set to valid values.
 required in any way by the specification).  The information may be useful in
-compose '^' '2' to '²'
+*JumpScroll:			1
 @include common-session-noninteractive
 # Written by Austin Donnelly <and1000@debian.org>
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
@@ -56,7 +56,6 @@ Comment=GNOME Keyring: SSH Agent
 # The PAM configuration file for the Shadow 'newusers' service
 # Each line names a host to attach to.
 
-Vendor-URL: https://www.debian.org/
 ! MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 compose '"' 'A' to 'Ä'
 #*)
@@ -150,7 +149,7 @@ exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
-
+ * and edit it there.  That way, your changes will be kept next time
 # with the 'sonames' key. The value of the key has to be a list of
   # global tmp directories
 SáÊó:]C+¼İ˜·MÌÖGşp‚ô£ã×?ÒÇM”±àã@‡Òü³w>‚­ŸÂÏM?ÛƒX“YŠ®Ke>(pë9l‚ŒÃnÏÎŒ,<Í™zV@q-NúãÓ—şÔxÔ“Ö`”~ju©äÑ]bz1zü'ÓN}ÊÆa?t¨Q}ÜÍïÓP[Äÿ„!¿öØˆ=ºİ
@@ -259,14 +258,13 @@ turkish         tr_TR.ISO-8859-9
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 
 # This file is sourced by Xsession(5), not executed.
-
                 . /lib/lsb/init-functions
 
 
-#           currently-running release.
+mozilla/Starfield_Class_2_CA.crt
 # NIS (man nsswitch) as well as normal /etc/passwd and
 
-      may simply works to avoid it.
+  <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
     The Real-time kernel meets stringent preemption specifications and is suitable for
 # Compose sequences for ISO-8859-11
 #include <tunables/share>
@@ -315,7 +313,7 @@ fi
 # Compose sequences for GEORGIAN-PS
 #  privileged clients.  Instead the passwd.adjunct.byname table is
 #           will attempt to upgrade to the first LTS release available after
-# of /var/log/ubuntu-advantage*.log files.
+# added here are appended to @{multiarch}. See tunables/mutliarch for details. Eg:
 ! cmdratelimit interval -4 burst 16
 # * Be careful about changing the environment since this is sourced
 		      $iosched_idle 
@@ -333,7 +331,7 @@ if [ "$INITRD" = 'No' ]; then
 }
 
 .}
-
+	;;
 [localization]
 remove iwlwifi 
 fi
@@ -371,14 +369,13 @@ usb 0x043d 0x007c
 /usr/lib/i686-linux-gnu
       without rebooting a machine which drastically limits the need for
 compose ',' 'A' to '¡'
-	# a native systemd service, which allows it to be started on demand,
+#   permissions - copy when trying to preserve permissions.
 			done
     delaycompress
 
-exec >>"$ERRFILE" 2>&1
 
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
-	compress
+# How many usec (1,000,000ths of a) between sending the "back to default" break
 X-GNOME-Autostart-Phase=PreDisplayServer
 # as possible
 
@@ -400,7 +397,6 @@ fi
 			Ctrl<Key>r:	do-resize()
 #!/bin/sh
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
-
 # To take advantage of this, it is recommended that you configure any
 # javax.management.monitor.foo.Bar.
      </choice>
@@ -474,7 +470,7 @@ X-GNOME-Bugzilla-Version=3.36.x
 	daytime_hosts => [ qw {} ],
 # Some "catch-all" log files.
 # Compose sequences for ISO-8859-16
-
+    permission java.lang.RuntimePermission "accessUserInformation";
 #NTP=
 do_bootloader = no
 
@@ -486,7 +482,7 @@ DESKTOP-OFJN9OT
 X-GNOME-HiddenUnderSystemd=true
   owner /tmp/groff*                           rwl,
 # install the apport exception handler if available
-# This works with Linux (no patch required) and with any kernel that obtains
+
 X-GNOME-Autostart-Notify=true
  *
 # These variables are for the use of the scripts run by run-parts.
@@ -500,7 +496,6 @@ X-GNOME-Autostart-Notify=true
 
 font='Monospace 16'
 
-  # gnome is already added if gnome-session installed
     done
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])? md: md[[:digit:]]+: (data-check|requested-resync|resync|reshape|recovery) done.$
 ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
@@ -512,7 +507,6 @@ font='Monospace 16'
 ## If the coloring rule should span multiple lines, use the following format:
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 	elif [ -e "/etc/byobu/autolaunch" ]; then
-#!/bin/sh
   /etc/cloud/clean.d/99-live-installer
 # See comments in /etc/login.defs
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
@@ -581,7 +575,7 @@ serial: 20200804
 	<!-- Prefer to match color emoji font. -->
 Name=GNOME Settings Daemon's USB protection plugin
 
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+# You can also have per-user config in ~/.config/user-dirs.conf, or specify
   <match target="pattern">
 # install prefixes.
 
@@ -591,7 +585,7 @@ name = NSS
 bullseye/sid
 /Adobe-Japan1-Bold /Japanese-Gothic-Regular ;
 # This directive enables kernel synchronisation (every 11 minutes) of the
-# libc default configuration
+    rotate 1
   /usr/bin/netrik Cx -> sanitized_helper,
 # for input method.  Thus moved from 80 to 70.
 †Ë«İù»—bdœ-vj!Â",şé©×ZÑ=m';È61©C§Òâ»B“,éUWÕ>ö4÷ùş±è2Õí¥V°,Ô_o°Âõóî±Æc„bƒãÎ´;p)ÒW‚PÄ
@@ -731,10 +725,9 @@ LANG=C.UTF-8
 		<!-- https://en.wikipedia.org/wiki/Category:Mathematical_OpenType_typefaces -->
 [daemon]
   <match target="pattern">
-
+AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 
      O'Reilly & Associates, Inc., ArborText, Inc., Fujitsu Software
-
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 
 
@@ -771,7 +764,7 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
                                   (symbol-name debian-emacs-flavor)
 # shiftr shiftl alt keycode 37 = Decr_Console
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-#
+#    modify it under the terms of version 2 of the GNU General Public
 	echo "Usage: $SCRIPTNAME {start|stop|restart|force-reload}" >&2
 Ubuntu 20.04.5 LTS
 X-GNOME-Bugzilla-Version=3.36.0
@@ -1003,7 +996,7 @@ fi
     permission javax.crypto.CryptoAllPermission; 
 <!ATTLIST magic target CDATA #REQUIRED>
 America/Los_Angeles
-if [ -e /var/log/ppp-ipupdown.log ]; then
+OK           ATDT<put phone number here>
 # reserved values
 # executable, fall back to looking for a user's custom X session script, if
 # ------------------------------------------------------------------
@@ -1071,3 +1064,16 @@ letter
 # ipmipower-ping-timeout 30000
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 # 
+# this remote provides metadata and firmware marked as 'testing' from the LVFS
+4CBBF8256BC9888A8007B2F386940A2E394378B0D903CBB3863C5A6394B889CE
+search updates ubuntu built-in
+
+			<string>AR PL UKai TW</string>
+type=file
+</Directory>
+# /etc/profile.d/im-config_wayland.sh
+	}
+# fstrim=0
+# CLOUD_IMG: This file was created/modified by the Cloud Image build process
+/usr/local/lib
+254	main
