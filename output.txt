@@ -6,7 +6,6 @@ Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
   # indicator
-      <element ref="ds:KeyInfo" minOccurs="0"/>
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
     user_friendly_names yes
 
@@ -33,7 +32,6 @@ LANG=C.UTF-8
      Define aliasing and other fontconfig settings for
 #    modify it under the terms of version 2 of the GNU General Public
   <!-- Read in overrides and child menus from applications-merged/ -->
-fi
 mail.*				-/var/log/mail.log
 
 
@@ -126,10 +124,8 @@ password	include		su
 *ispell*look.label:			Look
 .  " rather than letting it be rendered as "&minus;".
 PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
-#!/bin/sh
   abi <abi/3.0>,
 # shellcheck disable=SC2086
-#    License published by the Free Software Foundation.
 # Compose sequences for IBM1133
 #!/bin/sh
 
@@ -174,7 +170,6 @@ session    required   pam_env.so readenv=1 user_readenv=0
     [ -x /sbin/restorecon ] && /sbin/restorecon -R /dev
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
 blacklist dv1394
-compose '`' 'u' to 'ù'
 # Case-sensitive behavior is defined by the operating system.
 CATALOG /usr/share/xml/docutils/catalog
        not necessary for user PulseAudio instances. -->
@@ -250,7 +245,7 @@ pool {{pool}} iburst
 # ------------------------------------------------------------------
 # This directive specifies the file into which chronyd will store the rate
 }
-     export XDG_DATA_DIRS
+# <target name>	<source device>		<key file>	<options>
 	inet_domain => undef,
 
 # Scripts in this directory are executed as root when a user log out from
@@ -310,7 +305,6 @@ QT_ACCESSIBILITY=1
 " This happens after /etc/vim/vimrc(.local) are loaded, so it will override
 #
 
-w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
 
 
   /var/log/**                   rw,
@@ -321,7 +315,6 @@ fi
     permission java.util.PropertyPermission "java.vendor.url", "read";
 }
 #    Copyright (C) 2014 Canonical Ltd
-brandon:100000:65536
 
 # deb-src {{security}} {{codename}}-security multiverse
     import apport_python_hook
@@ -352,7 +345,6 @@ additional configuration artifact cleanup from the filesystem when
 # or removing a feature will be allowed.
         <xs:extension base="xs:annotated">
 #
-
 fi
 TryExec=im-launch
 {% endif %}
@@ -413,7 +405,6 @@ KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 Acquire::Changelogs::AlwaysOnline "true";
 . /usr/share/bash-completion/bash_completion
 AutomaticSecurityReports=false
-    missingok
 # This script can be used to override the .d files supplied by other packages.
 . /usr/share/bash-completion/bash_completion
 
@@ -513,7 +504,6 @@ change_hat {yes
 	<match target="font" >
 
 session		optional	pam_keyinit.so force revoke
-# /usr/bin/gvfs-open rPx -> foo//gvfs-open,
 BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
   abi <abi/3.0>,
   # mouse themes
@@ -567,7 +557,7 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 *ispell*options.horizDistance:		2
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 *fileDialog.accept.bottom:		ChainBottom
-  <policy user="root">
+# ------------------------------------------------------------------
 twm
 type=file
 esac
@@ -624,7 +614,7 @@ alias net-pf-36 off
   LABEL="UEFI Firmware Settings"
   	if [ -r $CACHE ]; then
 tcp.flag.psh	u8		tcp+13		0x08		3
-#!/bin/sh
+*form.fold.width:			36
   </match>
 			<Key>q:set()notify()unset()
 
@@ -633,7 +623,7 @@ alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIB
 20  rdma
 # Don't try to change I/O priority in a vserver or OpenVZ.
 APT::Archives::MaxSize "500";
-
+  unix (connect, receive, send) type=stream peer=(addr="@tmp/.mozc.*"),
 
 
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
@@ -648,7 +638,7 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 	vdo_write_policy="auto"
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
 *help.Label:			Help
-# It's important that all backports from this kernel have been
+PPP_LOCAL="$4"
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
 X-Snappy=yes
   </alias>
@@ -679,7 +669,6 @@ X-GNOME-Autostart-Notify=true
  *
 # These variables are for the use of the scripts run by run-parts.
  * and edit it there.  That way, your changes will be kept next time
-
 	# Configuration option local/extra_system_ids.
 # This file contains a list of port numbers between 600 and 1024,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
@@ -708,7 +697,6 @@ audio/x-pn-aiff=org.gnome.Totem.desktop
   #include <abstractions/gnome>
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
   <type name="Arial-Narrow" fullname="Arial Narrow" family="Arial Narrow" weight="400" style="normal" stretch="condensed" glyphs="arialn.ttf"/>
-.  if !'\*[.T]'utf8' \
   #
 ## If the coloring rule should span multiple lines, use the following format:
         fi
@@ -750,7 +738,7 @@ image/jpg=org.gnome.eog.desktop
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
 #
-blacklist tdfxfb
+/dev/scanner
 scsi "B&H SCSI"
 // Country-specific policy file for countries with no limits on crypto strength.
 	result=0
@@ -772,7 +760,7 @@ generateResolvConf = false
 # http://ppp.samba.org/, which is packaged for DKMS as kernel_ppp_mppe.
 
 <delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML" catalog="file:///etc/xml/docbook-xml.xml"/>
-int   SYS_listxattr(string,addr,uint);
+XLoad.input:			false
 Oğô„=i£‹­Ù;'«¼MrF‚T=pnÙva·[»ÚÕÌŞw¼?^ç¤?Æš·CÃÜ<7Ú(bb_ÇKı=´«=É;Knc$H¾P¢]ÅÖä.—·É‹$-î’‹²Ó$°ËŸÓ²ºº‡lÁÛqFÒ2d_ ÓF#[É÷l’Ò&+&„X¯mx‚§'á©]s±ïÒë˜Í*¶şka)o#ÓLÀL¾q&*¸°'Xb¦!räÈû—k÷ñì™Ñ;—Kú2%şÚ’¢>ê?¡úê§‘†_“pyq¿¹¢£EÛ¬8UÉc–¸¶Tâ°bœœœœœœœ‘Ï|FÔÍ‰Ø"ø,¼	)T{(ğÒªi+o¼À¼À«AÒæª°·ù/¢Gíj`o“ëşšGŠ´©î±±±¼&¸p5”WÃ´ö5Dˆ!BìXÔ¢ñğÈ]Ö!A‚é–eyÆ3ÇÏœ]¶ó£gr~¹&NÄ9‰s'Y9ùu˜9«0"ÎmEÎqüí–ÄK²tò„j‰³»8‘ŸìòçÂÆ*‰¢ä–Zw¨?vÈ¿ÙR3×É-k¹ñ×„İÿ»“İ†yp]˜ãc¶xèOŒEñ†Æ—EÍµ^“VÛ¦ä&Lv™¬øümô!’Í†‘ÏˆÂ˜Ğ$©sÆ»»çós’‡¡ÕüÜ!7$½§]-ØR+)ÙFaàç´—¬‰O{¾M²,¼¢tnühGMç†8›d®B’fNv®òè¯<O©Æ;ÈSÚöÏ\W”pµã§„raÿcšì¶™3|şÜcv{ó’Ue§ hf¼*í÷*¼+Ü^¥ÉšÄÎ+›'ÁÚ¹½¦¨èYyÚh«0.ÎHXüâQ¦ä/Å9òé_&òwp4)–f©•ÕT/Ù¶©–¶­ÖÒ(ïq»Z™lÉöAåvÌ3ÊşÌÓ·z¨9£uÕÒ¶ÕZµœÑÚZ™lÉ¶ñŒVÚĞF:*ØuùBGc¶£’ØY¤„¼¼8svûFùß™g@ÿ§ç»ß¿sXöS‘Å‘£gYjÙóŠÛ˜²ÆknãM‘İä–myãmÿNı‚Ş
 #DefaultLimitNICE=
 fs.protected_hardlinks = 1
@@ -828,7 +816,7 @@ bullseye/sid
 # This directive enables kernel synchronisation (every 11 minutes) of the
 #Samsung MFP-560 Series
 # libc default configuration
-		[ ! "$interface" ] || /sbin/resolvconf -d "${interface}.dhclient"
+  /usr/bin/netrik Cx -> sanitized_helper,
 
 †Ë«İù»—bdœ-vj!Â",şé©×ZÑ=m';È61©C§Òâ»B“,éUWÕ>ö4÷ùş±è2Õí¥V°,Ô_o°Âõóî±Æc„bƒãÎ´;p)ÒW‚PÄ
 
@@ -1042,3 +1030,17 @@ compose '_' '^' to '¯'
 option skipDarkStrip 0
 rk0JgVoRzG3BT5yYfuxHIe4H4Axh95tW9i6urzyQkXRz14twwwcEDvl5ALrBLNJJ
 
+Exec=/usr/bin/snap userd --autostart
+     Corporation, Norman Walsh, Sun Microsystems, Inc., and the
+PPP_DISC	8863		# PPP over Ethernet discovery stage
+		</test>
+deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
+
+  # unprivileged mir socket for clients
+# To use a specific scsi device
+
+#    modify it under the terms of version 2 of the GNU General Public
+! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
+X-GNOME-Autostart-Notify=true
+#
+# Provides:          gdm3
