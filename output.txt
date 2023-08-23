@@ -4,7 +4,7 @@ Ubuntu 22.04 LTS (Jammy Jellyfish)
 Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-  # indicator
+  </alias>
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
     user_friendly_names yes
 # Here is the list of possible values:
@@ -82,7 +82,6 @@ search updates ubuntu built-in
     else
 # Compose sequences for ISO-8859-16
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
-# that will become kernel vars at some point
 
     </alias>
   include if exists <abstractions/user-download.d>
@@ -106,7 +105,7 @@ password	include		su
 
 *scrollMenu.vertical.label:		Vertical
 session		include		runuser
-deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
+auth		include		runuser
 xterm
 #!/bin/sh
 
@@ -140,7 +139,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 # raid1
 #select-timeout 5;
 ª}Nz◊ÂÀâF¥Õ{S B‘á&ù∂çöüXÈÅPjàj‡gß]â8ã
-${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
 Acquire::Changelogs::AlwaysOnline "true";
 
        search:
@@ -215,7 +213,7 @@ fi
 };
 #
 # Each line contains either:
-fi
+
 			<family>DejaVu Sans</family>
 @{XDG_PUBLICSHARE_DIR}="Public"
 ## Uncomment the following two lines to add software from Canonical's
@@ -235,7 +233,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # x25
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
 # vim:syntax=apparmor
-#
+smproxy
 
 
 @include common-password
@@ -251,7 +249,7 @@ fi
     import apport_python_hook
 /usr/lib/update-notifier/package-data-downloader
             . "${XDG_CONFIG_HOME:-$HOME/.config}/bash_completion"
-  /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/ r,
+ã]“«j[AÜ·ΩØb∞Z∑Gé≥±ßAº”ÊH:â∂é#í‡“{ÔΩ˜ﬁ{ÅÃçÂˇﬁÏ≤xg`‡Y|Cn[Ÿ-{Eølª≠Ωj—ÕmI#˝≈•Ö—z≥”Ìt]s◊¶Å!∑b«πÛùÖ“ı ¢Ì
 XKBLAYOUT="us"
 X-GNOME-Bugzilla-Bugzilla=GNOME
 
@@ -302,7 +300,7 @@ Type=Application
 #/dev/usb/scanner0
 ## Add external Servers using
 #
-
+CATALOG /usr/share/xml/qaml/catalog
 {
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 mode="${mode%'}"
@@ -329,7 +327,7 @@ compose ')' '-' to '}'
 # Required-Start:    $remote_fs
   )
 # interpreted by the kernel to help with debugging. The kernel will respond
-
+SCRIPTNAME=/etc/init.d/$NAME
 
 fi
 # See avahi.hosts(5) for more information on this configuration file!
@@ -355,14 +353,13 @@ if [ "$INITRD" = 'No' ]; then
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 }
 
-
 .}
 
 [localization]
 remove iwlwifi 
 fi
 #
-        %fixedAttr;
+
   </policy>
 *customization: -color
         if shopt -q progcomp && [ -r /usr/share/bash-completion/bash_completion ]; then
@@ -372,7 +369,6 @@ Terminal=false
 # directories are stored, each must have a trailing '/'. Directories added
 deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # set start_ro=1 to make newly assembled arrays read-only initially,
-[PStore]
     <Directory>X-GNOME-Other.directory</Directory>
 
 
@@ -462,14 +458,12 @@ the exact distribution terms for each program are described in the
 
 #fudge 127.127.8.1 time1 0.0042        # relative to PPS for my hardware
   /usr/lib/@{multiarch}/gdk-pixbuf-*/** mr,
-
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 # authentication via PAP, CHAP and similar protocols.
   abi <abi/3.0>,
 #dateext
 ### END INIT INFO
-# cloud-init generated file
 # Specify command line options here. This config file is used
-fi
 bazaar-properties.desktop
 # Compose sequences for ISO-8859-5
 ports=22/tcp
@@ -498,7 +492,7 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 # This file is a simple placeholder to keep dpkg from removing this directory
 # The following may be used to add additional entries such as for
 PPP_LOCAL="$4"
-◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
+if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && 
   </alias>
 [Sleep]
 X-GNOME-Bugzilla-Version=3.36.x
@@ -568,17 +562,16 @@ eval $(/usr/bin/locale-check C.UTF-8)
 #
 usb 0x05da 0x30cf
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
-;; Created on: Fri Oct 22 09:48:21 CEST 1999
+	propertiesUTc(( /H-*…L-ÊPK2Â'PK!	propertyUTc(( /H-*©‰PKÑw¥V
 /dev/scanner
 #@{XDG_PUBLICSHARE_DIR}+=""
 
 image/jpg=org.gnome.eog.desktop
         </edit>
-12	bird
 #
 #!/bin/sh
 scsi "B&H SCSI"
-// Country-specific policy file for countries with no limits on crypto strength.
+}
 	result=0
 
 0xA5 '¬•'
@@ -605,7 +598,6 @@ OnlyShowIn=GNOME;
 # This file is sourced by Xsession(5), not executed.
 # installkernel must call postinst.d with two args, version & image_path
 
-	;;
 [fwupd Remote]
 ###          Currently autodiscovery seems to not work
 # Compose sequences for ISO-8859-6
@@ -731,7 +723,7 @@ NoDisplay=true
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
     monthly
 Ëç_âD´Æ»æEüƒd˘WMØµ0Lí∆>?Üê¥Ÿ◊Ñè[˛öfô6∆¸‹Ñ	*ánçµ9ê+›K¯¢∑|#Ô17WÌ§÷&J˜1ÒÈg‹~÷≈=¿æcC°“5∞ÿaè
-bullseye/sid
+  # User files
 #    This program is free software; you can redistribute it and/or
 XKBMODEL="pc105"
 ipv6-nonxt 59	IPv6-NoNxt	# No Next Header for IPv6
@@ -837,7 +829,7 @@ X-GNOME-Bugzilla-Version=3.36.0
 # should not normally be necessary (under Linux at least).
 # and the kernel MPPE module available from the CVS repository also on
 # troubles on misconfigured networks
-APT::Archives::MaxSize "500";
+scsi IBM 2456
   # changehat itself
 IPT_MODULES=""
 		<default><family>emoji</family></default>
@@ -860,7 +852,7 @@ nssDbMode = noDb
         [ -x /sbin/restorecon ] && /sbin/restorecon "$1"
 }
 *ispell*terse.internalWidth:	10
-*Tree*List.BorderWidth: 		0
+<delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 /Adobe-Korea1 /NanumBarunGothic-Regular ;
 # NIS (man nsswitch) as well as normal /etc/passwd and
 
@@ -925,7 +917,7 @@ if [ -x /usr/lib/update-notifier/update-motd-hwe-eol ]; then
 : > "$TMPFILE"
 #
 *Background:			RoyalBlue4
-#    modify it under the terms of version 2 of the GNU General Public
+rtcsync
 done
 # Entries in this file show the compile time defaults.
 
@@ -1016,7 +1008,6 @@ mßlj'ã©ZjUJü§mìôÃbπ¸G´πÙOÎ•ﬂØ7DÚˆ
 <fontconfig>
 #    Copyright (C) 2014 Canonical Ltd.
 #
-iDeWIFqaM/S+DXMF3bgqvqRZq1U2RwT2oxapAuaG/0I5JaKKpb3HqMCXfOUxpFPk
         if [ -x "$STARTUPFILE" ]; then
 # DO NOT EDIT OR REMOVE
 session		optional	pam_keyinit.so force revoke
@@ -1052,7 +1043,7 @@ commands scan this directory processing all files that end in '.conf'.
 :Œîå‰gvwbNB3Ù‚3‰œiKœœ\§?¯€B±ˆ†Yg„we7å6©Äªù	¬jQ:‹⁄(q∫îÈ]ÿ±Á1ºy:ˇBQ%Ø~2±,≥ﬂ5‡í⁄êã‹áÑ#ôË∂a‘ÍÃÈ.à;˜}uY…»¢[U¸Wû«®b•kG=ïUµ‰põ†x–MﬁW‘AhÆ«û≤úï0…8‘Ã{@ù‚ r‘ﬁ•LJÓ…t—O=]m-bÃ˝Fb¸Ùaiõ¬ÛLp:∞Um>oŸî–óË˝WÃú+ø∞“@†˙iAAE˛9·	Ú‘‰ëˇLîèQÿ|?∆1Tπ·Äæi0„i¶•„/ós'ºb;äj`ø”√cTB\‰2èk]¥¨ÿo˛ìˆ!∏jéÅÚÀà{e
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
-
+# 
 [Desktop Entry]
 
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
@@ -1071,3 +1062,12 @@ fi
 <!ATTLIST magic target CDATA #REQUIRED>
 America/Los_Angeles
 if [ -e /var/log/ppp-ipupdown.log ]; then
+# reserved values
+Restart=no
+# ------------------------------------------------------------------
+				wep_key3 wpa-wep-key3
+# XDG_DATA_DIRS or XDG_DATA_HOME, and are the parent directory
+
+  # system library
+.96H¸ißXˆnCF’∂¸z¿œ¬Kbø˘©`8/É°‹MÑT∞l7H|Fœ~∂!£j[~=‡g·%1¯Å_á¸ `8Vﬂºëªê,+xﬂóæ
+AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
