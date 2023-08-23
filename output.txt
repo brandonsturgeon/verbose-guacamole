@@ -41,7 +41,6 @@ Alias /javascript /usr/share/javascript/
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 Title=Vendor
     <allow send_interface="org.debian.apt.transaction"/>
-
     // There is no restriction to any algorithms.
 
 [Configuration]
@@ -111,7 +110,7 @@ SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 
 [Desktop Entry]
-CATALOG /usr/share/xml/docutils/catalog
+X-GNOME-AutoRestart=false
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
 # javax.management.monitor.foo.Bar.
@@ -130,7 +129,6 @@ ports=22/tcp
 previous-engine=@as []
 tcp.flag.psh	u8		tcp+13		0x08		3
 <?xml version="1.0"?>
-  /usr/share/php{,5,7}/ r,
 #    License published by the Free Software Foundation.
 scsi * * Scanner
 Before=snapd.service
@@ -141,7 +139,6 @@ Before=snapd.service
 
 rocks_trees = {
 
-<?xml version="1.0"?>
 PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
   deny @{HOME}/.mutt** mrwkl,
@@ -160,9 +157,8 @@ deb http://packages.azlux.fr/debian/ buster main
 
 XLoad.input:			false
 # [automount]
-[fwupd Remote]
 # Compose sequences for TIS-620
-Name=GNOME Settings Daemon's USB protection plugin
+
 #
 MANPATH_MAP	/opt/sbin		/opt/man
 name = NSS
@@ -180,7 +176,7 @@ max_allowed_packet	= 16M
 alias.url += ("/javascript" => "/usr/share/javascript")
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
   #include <abstractions/kde>
-ú3ú@úcúsúôú™ú—ú·úùùAùSù{ùâù≠ùΩù„ùÒùû#ûGûXûûéû≥û¡ûÂûıûü,üSücüâüöü¡ü—ü˜ü†)†6†Y†e†á†ï†π†∆†È†¸†%°3°W°j°ì°ƒ°¢ ¢K¢d¢ì¢®¢”¢Ì¢£6£e£Ä£±£∆£Ò£§5§H§q§Ä§•§∏§·§Ó§••/•:•[•f•Ö•ê•¢•´•º•≈•‰•Ì•˝•¶1¶A¶g¶v¶õ¶©¶Õ¶ﬁ¶ßß+ß:ß_ßnßëß†ß∂ß√ßÿßÂß®®)®:®a®r®ô®™®—®‡®©©=©L©q©~©°©≤©À©‹©™™,™=™d™t™ö™Æ™ÿ™Ë™´#´N´_´Ü´õ´ø´Ò´9¨h¨≠¨ø¨Á¨ı¨≠'≠I≠^≠â≠û≠«≠„≠Æ%Æ=ÆMÆsÆÉÆßÆ∑ÆŒÆ‹ÆÚÆØ$Ø2ØGØWØ}ØâØ´ØπØ›ØÔØ∞&∞K∞V∞w∞Ä∞ü∞±∞Ÿ∞Ê∞	±"±Q±h±ï±§±…±’±˜±≤E≤]≤ã≤£≤—≤ﬂ≤≥≥1≥<≥]≥n≥ï≥¶≥Õ≥·≥¥¥A¥Q¥w¥à¥Ø¥æ¥„¥¥µ"µGµTµwµàµØµøµÂµ˜µ∂/∂U∂e∂ã∂ô∂Ω∂ ∂Ì∂¯∂∑(∑M∑Z∑}∑ç∑•∑µ∑€∑Î∑∏∏6∏H∏p∏|∏û∏≠∏“∏·∏ππNπ\πÄπïπ¿π’π∫∫D∫V∫~∫ç∫≤∫ø∫‚∫∫ª ªBªOªrªÉª™ª∂ªÿªÚª"º2ºXºmºòº®ºΩºÀºﬁºÔºΩΩ(Ω5ΩXΩcΩÑΩîΩ∫Ω ΩΩæ4æKæxæáæ¨æ∆æˆæø&ø2øTø`øÄøäø™ø∫ø€øÚø¿5¿a¿s¿ñ¿¨¿”¿Á¿¡¡=¡J¡m¡¡ß¡≤¡”¡‚¡¬¬E¬Y¬u¬â¬≥¬«¬Ô¬√√0√J√\√Ñ√ñ√Ø√ø√◊√Á√ƒƒAƒQƒhƒvƒåƒöƒæƒÃƒ·ƒ˚ƒ+≈=≈e≈≈Ø≈¡≈È≈∆1∆B∆i∆|∆ó∆™∆”∆Ê∆« «:«K«d«u«ú«≠«≈«◊«Ò«»+»=»c»u»é»û»∂»∆»Ï»¸»…#…;…K…q…Å…•…µ…Ã…⁄……˛…" 0 E X s Ü Ø ¬ È ¸ À'À@ÀQÀxÀâÀ°À≠ÀœÀ€ÀÔÀ˚ÀÃ)ÃIÃUÃhÃrÃÑÃéÃÆÃ∏Ã…Ã◊Ã˚ÃÕ+Õ:Õ_ÕlÕèÕõÕΩÕ»ÕÈÕ¯ÕŒ2Œ]ŒqŒõŒ¨Œ”Œ‚ŒœœAœQœwœÜœ´œ¡œÌœ–-–E–s–â–µ–∆–Ì–ˇ–'—7—L—h—ö—©—Œ—⁄—¸—“<“L“r“Ü“∞“º“ﬁ“Ô“”&”L”g”ò”≠”ÿ”Í”‘!‘F‘S‘h‘u‘ò‘£‘∂‘¡‘‚‘Û‘’,’C’S’h’v’ö’©’Œ’ﬁ’÷÷8÷E÷h÷v÷ö÷¶÷»÷›÷˜÷
+#
 net.ipv4.conf.all.rp_filter=2
 constraint from "2620:fe::fe"          # quad9 v6 without DNS
 
@@ -209,7 +205,6 @@ fi
 <?xml version="1.0"?>
 esac
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
-    <match target="pattern">
 # banner-message-text='Welcome'
 <!ELEMENT br ANY>
 #
@@ -220,7 +215,7 @@ fi
 LANG=C.UTF-8
 # which broke applications in UTF-8 locales.  See:
 driftfile /var/lib/chrony/drift
-	;;
+compose '`' 'U' to 'Ÿ'
 # fails to use it it will not abort.
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
 
@@ -299,7 +294,7 @@ scsi APPLE
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 /usr/local/lib
 
-#
+  owner @{HOME}/.config/#[0-9]* rw,
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
 <!ENTITY % formValues '(qualified|unqualified)'>
 
@@ -358,12 +353,11 @@ compose '"' 'O' to '÷'
   </match>
 # /etc/xdg/user-dirs.defaults)
 
-#disable = rpm, selinux, dovecot
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 deb http://packages.azlux.fr/debian/ buster main
 
       Most clients may picks up the first value only. so using "append"
-
+       bus=session
       may simply works to avoid it.
 # matches), NONE (matches no tty on non-networked logins) or
       We shouldn't overwrite it with "assign" unconditionally.
@@ -412,7 +406,7 @@ DAEMON="/lib/systemd/systemd-udevd"
 			<string>serif</string>
 	    <family>NanumGothic</family>
 #
-# Add an "alert" alias for long running commands.  Use like so:
+PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_lts_contract.py
 
 Categories=System;Monitor;GTK;
 	rotate 4
@@ -433,7 +427,6 @@ fi
 # Compose sequences for ISO-8859-5
 	<alias>
 *Panner.background:			gray70
-# kdenetwork
 
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
@@ -518,13 +511,12 @@ PICTURES=Pictures
     # locale: Cannot set LC_SOMETHING to default locale
 
 *search*manualPage.Label:	Manual Page
-  /etc/bash.bashrc.local           r,
 /MKai-Medium /ZenKai-Medium ;
 
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 
 {% for server in servers -%}# servers
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
+Each file in this directory is an rt_protos configuration file. iproute2
 <fontconfig>
 # set this to 0 to disable apport, or to 1 to enable it
   /usr/bin/apport-bug Cx -> sanitized_helper,
@@ -557,7 +549,6 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 
 
 #
- 80 through 89		match target="scan" (modify scanned patterns)
 SHELL=/bin/sh
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
@@ -578,7 +569,6 @@ usb 0x1083 0x1622
 #port=/dev/term/a
 #
 NoDisplay=true
-# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 StartupNotify=false
     start-stop-daemon --start --pidfile /dev/null \
 # See sane-microtek2(5) for a description of the options
@@ -594,7 +584,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 			<family>padmaa</family> <!-- gujarati -->
             savelog -c 7 "dpkg.$db" >/dev/null
 #PAGER		DEFAULT=less
-
   owner @{HOME}/.config/kdeglobals.lock rwk,
   /etc/dconf/** r,
 deb {{mirror}} {{codename}} multiverse
@@ -664,7 +653,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 #!/bin/sh -e
 }
 BYOBU_BACKEND="tmux"
-  /usr/bin/epiphany-webkit Cx -> sanitized_helper,
+	if is_path_readable_by_grub "${1}"; then
   . "$USERXSESSIONRC"
 # statechange.sh
            send_interface="org.freedesktop.DBus.Properties" />
@@ -682,7 +671,7 @@ main
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 
 -----END PGP PUBLIC KEY BLOCK-----
-X-Ubuntu-Gettext-Domain=gnome-settings-daemon
+  /usr/bin/mailody Cx -> sanitized_helper,
 restrict -6 default notrap nomodify nopeer noquery
 *directoryFontNormal:		-*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
 }
@@ -772,7 +761,6 @@ messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
 # Global Order: zshenv, zprofile, zshrc, zlogin
 # For more details, please see /etc/apparmor.d/local/README.
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
-# or on the command line.
   00_*: Reserved for 00_header.
 modules=*
     user_friendly_names yes
@@ -937,7 +925,7 @@ auto
 		exit 1
 X-Meego-Priority=Low
   # 'r' is needed when using imfile
-1C5E6985ACC09221DBD1A4B7BBC6D3A8C3F8540D19F20763A9537FDD42B4FFE7
+
 191 191 191 		gray75
   owner /net/** w,
 # Compose sequences for ISIRI-3342
@@ -1178,3 +1166,14 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
   </match>
 #baud=115200
 encryption=luks1
+session	required			pam_permit.so
+# Defaults to false to maximize device compatibility.
+# result. 125000 seems to be the lowest I could go reliably.
+& stop
+user-db:user
+#  the Free Software Foundation; either version 2.1 of the License, or
+#!/bin/sh
+  owner @{HOME}/.gnupg/pubring.kbx r,
+/var/log/dpkg.log {
+
+# /etc/default/bridge-utils
