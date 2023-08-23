@@ -8,7 +8,7 @@ auth		sufficient	pam_rootok.so
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 143 188 143		DarkSeaGreen
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
-# libc default configuration
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
   # indicator
       <element ref="ds:KeyInfo" minOccurs="0"/>
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
@@ -52,7 +52,7 @@ fi
 mail.*				-/var/log/mail.log
 
 -#}
-  notifempty
+
 # The following is a space-separated list of where additional user home
 
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
@@ -95,7 +95,7 @@ APT::Archives::MinAge "2";
 # EDAC driver for amd76x clashes with the agp driver preventing the aperture
 
   @{etc_ro}/libnl-*/classid r,
-#
+/var/log/btmp {
 WantedBy=multi-user.target
 
   exit 0
@@ -103,7 +103,7 @@ WantedBy=multi-user.target
 # Compose sequences for ISO-8859-11
  			<family>Lohit Gujarati</family>
                 chown -R "$user":"$gid" "$homedir"
-
+# Each line names a host to attach to.
 
 Vendor-URL: https://www.debian.org/
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
@@ -171,7 +171,6 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 # @{PROC} is the location where procfs is mounted.
 
 *scrollMenu.vertical.label:		Vertical
-        'bug_pattern_url': '/tmp/bugpatterns.xml',
 		<edit name="family" mode="prepend" binding="strong">
 session		include		runuser
 
@@ -180,7 +179,6 @@ compose '/' '<' to '\\'
 		<default><family>monospace</family></default>
 #
 binary::apt::AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
-CATALOG /usr/share/xml/docutils/catalog
 LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
 
 #%PAM-1.0
@@ -240,7 +238,6 @@ global {
 
 
 # raid1
-# ------------------------------------------------------------------
 #select-timeout 5;
 # Compose sequences for ISO-8859-6
 #
@@ -325,7 +322,6 @@ Options=nodev,ro,x-gdu.hide,x-gvfs-hide
 # no packages own wtmp -- we'll rotate it here
 title=Secure shell server, an rshd replacement
 
-
 # Compose sequences for IBM1133
 LAPTOP-5TIN5O4V
 SETTINGS="\
@@ -353,7 +349,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
 if [ -f /bin/setupcon ]; then
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
-systemd=false
 DISTRIB_CODENAME=jammy
 label=magenta,
   unix (connect, receive, send)
@@ -391,7 +386,7 @@ fi
     if [ -f "$HOME/.bashrc" ]; then
 auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
   <xs:annotation>
-XLogo*iconPixmap:    xlogo32
+## Uncomment the following two lines to add software from Canonical's
 
 # Compose sequences for ISIRI-3342
   /etc/gnome/defaults.list r,
@@ -416,7 +411,6 @@ Parent: Debian
 @include common-session
 " Vim will load $VIMRUNTIME/defaults.vim if the user does not have a vimrc.
 # default location for the meta-release file
-[Configuration]
 # $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
 # x25
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
@@ -461,7 +455,6 @@ gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologi
 *editMenu.copy.label:			Copy (Meta-W)
 compose '^' 'y' to 'þ'
   /opt/novell/lib/libpthread_ext*.so* mr,
-
 
 
 
@@ -517,9 +510,8 @@ XCalc*.bevel.borderWidth:		1
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] exiting on signal [0-9]+.$
 compose '^' '-' to '¯'
-
+[fwupd Remote]
 brandon:100000:65536
-# symbolic names for networks, see networks(5) for more information
   # Executables
 # @{securityfs} is the location where securityfs is mounted.
   set -e
@@ -536,7 +528,7 @@ XKBOPTIONS=""
 
 {% endif %}
 ## Add external Servers using
-contract_url: https://contracts.canonical.com
+/Adobe-Japan2-Bold /Japanese-Gothic-Regular-JaH ;
 #
 
 #  terms of the GNU Lesser General Public License as published by the Free
@@ -559,11 +551,10 @@ AutomaticSecurityReports=false
 #label ::/96         3
 . /usr/share/bash-completion/bash_completion
 <fontconfig>
-    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
+	A¼tattooUTPK!!{Yl	ˆ¼taxUTPK!Òw0	É¼taxiUTPK!~ñ¯	½tcUTPK!_Œ<	W½tciUTPK!¡ŠJ	˜½tdUTPK!Xø}	â½tdkUTPK!Ãy~}%	#¾teamUTPK!U¶	|¾techUTPK!˜ú#F
 
 	û„?'/[¬öˆß§¿|L¥
 ## extensively as that contained in the main release, although it includes
-# ------------------------------------------------------------------
 
     user_friendly_names yes
 221 160 221		plum
@@ -602,9 +593,8 @@ Znd1cGQub3JnMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA8GA1UdDwEB/wQFAwMHBgAw
 compose ',' 'a' to '±'
 # Compose sequences for GEORGIAN-PS
 _ÕOÊRÖaBOí”tcôRó%7-Ñ¡g[õ´AUbuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>‰7
-    install -d -o man -g man -m 0755 /var/cache/man
+# ~/.bash_logout: executed by bash(1) when login shell exits.
 # of /var/log/ubuntu-advantage*.log files.
-# problems supporting passive transfer.  If you are in such
 
 <!--  Enable sub-pixel rendering --> 
 # * Be careful about changing the environment since this is sourced
@@ -652,7 +642,6 @@ include if exists <tunables/etc.d>
 
 *customization: -color
 # install the apport exception handler if available
-#
 # Make sure the locale variables are set to valid values.
 
 Terminal=false
@@ -767,7 +756,7 @@ ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 # OpenCL access requirements for Intel implementation
 DNS={% for server in nameservers %}{{server}} {% endfor %}
 # ctrll alt keycode 36 = Incr_Console
-
+.  if 'V[GROFF_SGR]'' 
 }
 		<rejectfont>
 # Record the rate at which the system clock gains/losses time.
@@ -838,7 +827,7 @@ alias net-pf-36 off
 tcp.flag.psh	u8		tcp+13		0x08		3
 DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
   </match>
-	exit 0
+session required        pam_loginuid.so
 			<Key>q:set()notify()unset()
 
 alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIBPATH == "") then; unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWKLIBPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKLIBPATH "\!*"":$AWKLIBPATH"'
@@ -902,7 +891,6 @@ camera=Kodak DC240
 X-GNOME-Autostart-Notify=true
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # If this is an xterm set the title to user@host:dir
-  # for gnome 1 applications
 # information about usuable directives.
  * and edit it there.  That way, your changes will be kept next time
 
@@ -959,7 +947,6 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 America/Los_Angeles
 #  about not starting rsyncd (you still need to modify inetd's config yourself).
 
-#
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 #!/bin/sh
 
@@ -981,10 +968,9 @@ enabled=1
 # PercentageLow=10
 
     echo ""
-  audit deny @{HOME}/.evolution/{,**} mrwkl,
+scsi FCPA
 #  1. command line options
 ipcomp	108	IPCOMP		# IP Payload Compression Protocol
-<!--
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 ;; Created on: Fri Oct 22 09:48:21 CEST 1999
@@ -1013,3 +999,11 @@ scsi "B&H SCSI"
 	result=0
 
 
+0xA5 'Â¥'
+#    Copyright (C) 2015 Canonical, Ltd.
+ManagerResetTimeout=1800
+  # global tmp directories
+# Where to place spool and state files
+byte-compile = standard
+  <type name="DejaVu-Serif-Book" fullname="DejaVu Serif Book" family="DejaVu Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuSerif.ttf"/>
+failure_action = ignore
