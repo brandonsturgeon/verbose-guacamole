@@ -97,7 +97,7 @@ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
       will change accordingly; the version at
 exec /usr/bin/X -nolisten tcp "$@"
 # Default is yes
-
+esac
 
   #include <abstractions/fcitx-strict>
 # Case-sensitive behavior is defined by the operating system.
@@ -170,7 +170,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 ## form 127.127.t.u, where t is the clock type and u is a unit 
 # configuration options for /etc/X11/Xsession
 # vim:syntax=apparmor
-
+auth	required	pam_nologin.so
 
 #    modify it under the terms of version 2 of the GNU General Public
 restrict default kod nomodify notrap nopeer noquery
@@ -186,7 +186,6 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 # shells invoked with the -l flag.)
 
 #  As rsync is often used for backups which aren't all that time-critical,
-
 #pnm
 # vim:syntax=apparmor
 # If you want to globally change where snmp libraries, commands and daemons
@@ -206,7 +205,6 @@ turkish         tr_TR.ISO-8859-9
 #include <tunables/share>
 [storage]
 
-scsi CANON IX
 brandon:100000:65536
 LazyUnmount=yes
   set -e
@@ -308,7 +306,6 @@ max_allowed_packet	= 16M
 type=file
 esac
 
-# OpenCL access requirements for Intel implementation
 # the option, separated by whitespace and/or an `=' sign.
 # ctrll alt keycode 36 = Incr_Console
 # Record the rate at which the system clock gains/losses time.
@@ -363,7 +360,7 @@ udplite	136	UDPLite		# UDP-Lite [RFC3828]
 
 # abstraction for allowing access to graphical browsers in Ubuntu
 
-X-GNOME-HiddenUnderSystemd=true
+
 # install the apport exception handler if available
 
 X-GNOME-Autostart-Notify=true
@@ -378,7 +375,7 @@ font='Monospace 16'
   RESOURCEFILES=$(run-parts --list $SYSRESOURCES)
 #
 if [ "$RUN" = "yes" ]; then
-  #include <abstractions/gnome>
+# On Debian/Ubuntu systems, this is in /var/run/screen, but on
 	# Configuration option local/system_id.
 kbd_mode '-u' < '/dev/tty5' 
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
@@ -413,7 +410,7 @@ $x-display-manager gdm3
     <allow send_destination="net.hadess.SensorProxy" send_interface="org.freedesktop.DBus.Peer" send_path="/net/hadess/SensorProxy/Compass"/>
 failure_action = ignore
 
-# Comma separated list of modules to load.
+    done
 # Compose sequences for IBM1133
 #    Copyright (C) 2009-2011 Canonical Ltd.
 CRYPTDISKS_MOUNT=""
@@ -455,7 +452,6 @@ name = NSS
 #           the currently-running release is not itself an LTS release the
     exec /usr/lib/update-notifier/update-motd-hwe-eol
   # pretty-print messages of arbitrary length; use xmessage if it
-#
 	The Bistream Vera fonts have GASP entries suggesting that hinting be
 /usr/sbin/gdm3
 /HYRGoThic-Medium /NanumGothic-Regular ;
@@ -519,7 +515,6 @@ NoDisplay=true
   # User files
 <?xml version="1.0"?>
 
-    monthly
 XKBMODEL="pc105"
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 # local modules either before or after the default block, and use
@@ -569,7 +564,6 @@ Name=GNOME Settings Daemon's power plugin
 #
 # Required-Start:    $local_fs
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
-# For more details, please see /etc/apparmor.d/local/README.
   /usr/bin/m4 ixr,
 	daytime_hosts => [ qw {} ],
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
@@ -627,7 +621,7 @@ XClock.input: false
 #
 application/x-zip=org.gnome.FileRoller.desktop
 /usr/lib/x86_64-linux-gnu/libfakeroot
-@include common-password
+if ls /dev/fb* >/dev/null 2>/dev/null; then
 # inclusion by distributed profiles to aid in packaging AppArmor for
 {% endif %}
 <!ATTLIST %element;
@@ -667,7 +661,6 @@ done
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 #
 	# the local host, which is determined by system_id_source.)
-{¶Ç.@ÀBG‡¿yóØXP¿j±˜ó”nÒGí¥/©püµ‡æ§İo¿7eœ„îÿí™Àm×£[ÈM¨Ù–šüŞØG£Ş-£ªÎ£[Âxo”üédÙÏ@CÍ >MEÆu}üèDÎtKZCAù~ûivÎî¦UZ§Ş«+¤@Øÿ¹ØxâÊ†vF”/âöÜÄn1#À´Ç×¨Š·Æ‡×~5üüAóÒ¡…êCÕÇFĞÕ[Æ«ÖÏË¾pn"Xo4>•ùR¤CkÀ^«—'±´1öl:;y>…óYeP+¶]µ°û3WŒbLîMGäœ²ª‘ñdõ=]^X~1&ëò¢ñöøÈÅd•>”½Ô–=SÕ±eÕº¸½Â5¦¯fÿbìOw½>¡ö;§…íÇO1&ûõä\LŸ*Ş–}{ım•æå{#¯)µàR;cÚı	VŞê.¬ÇD°@ªïGÆ›5G‚şûGÉ¶>ış¾¯d»şËÖÚóKIQ{›Ot:E05õnÀ’½	ÏPÕåç´_TVĞŸ…ÑbwwÇÜBm%gg÷¬«ZåÙù³Ùb±^,f³¾\W¯Ø¿ÜPˆşİµ1úç•fÙ“ÔÔîC{F×Õß¶şÛrQYÕ*”½Ô“Úoô­÷¯Mz®sn¶¿şªı¸Ê£i^½ŞT²¯Ÿ ı¬@™Æê?3¶÷kÅ„V<}tÅ­x~;¾,Ğ¡õmÚû!µ?	í›SC,µ¡efÿäºŞ­dÙR°¾ø-´í¯†j$
     <accept>
       Most clients may picks up the first value only. so using "append"
 # udevd is also started in the initrd.  When this file is modified you might
@@ -691,7 +684,6 @@ test -f $DAEMON || exit 0
 APT::Periodic::Update-Package-Lists "1";
 # cloud-init. They are read in lexical order. Later files overwrite values in
         Disable hinting manually at smaller sizes (< 8ppem)
-#  the Free Software Foundation; either version 2.1 of the License, or
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
     permission javax.crypto.CryptoPermission *, 128;
 	missingok
@@ -745,7 +737,7 @@ commands scan this directory processing all files that end in '.conf'.
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 # mdadm module configuration file
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG network certificate management daemon.$
-en+([bcosxpP])*([^.]).@(dhclient|dhcpcd|pump|udhcpc)
+
 KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 <Key>q: quit() \n\
 # For using an SSL/TLS protected RMI registry use the following line
@@ -805,7 +797,7 @@ stop_watchdog_quiet()
 letter
 
 	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
-PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+NoDisplay=true
 logfile   /var/log/ntp		# alternate log file
 
 			<string>AR PL UKai TW</string>
@@ -959,7 +951,7 @@ XClock.input: false
 
 #  under the terms of the GNU Lesser General Public License as published by
 
-  # a user-session socket has already been set up.
+#
   /usr/bin/iconv rm,
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
         </policy>
@@ -1014,7 +1006,7 @@ USERXSESSIONRC=$HOME/.xsessionrc
 # if running bash
 # If an executable path appears on any line in any file in
 # Read man sane-mustek_usb for documentation
-[ ! -r "$stamp" ] || cat "$stamp"
+  <type name="DejaVu-LGC-Serif-Condensed-Italic" fullname="DejaVu LGC Serif -Condensed Italic" family="DejaVuGC Serif" style="Italic" stretch="SemiCondensed" weight="400" glyphs="DejaVuLGCSerifCondensed-Italic.ttf"/>
 deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # To use a specific scsi device
 #
@@ -1046,7 +1038,6 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
 *form.circle.label:			Circle
 # how to byte-compile (comma separated: standard, optimize)
 GRUB_CMDLINE_LINUX=""
-
 # For an IEEE 1394 scanner, use the SBP2 protocol (under Linux, use the
 
 # installation of packages available from the repository
@@ -1075,7 +1066,6 @@ if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 overlayroot_cfgdisk=LABEL=OROOTCFG
 ## team, and may not be under a free licence. Please satisfy yourself as to
 scsi ULTIMA
-  capability ipc_lock,
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 #@{HOMEDIRS}+=
 $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
@@ -1098,3 +1088,18 @@ account     required    pam_shells.so
 #include <abstractions/ubuntu-browsers.d/kde>
   <!-- In case Verajja Serif stops declaring itself as DejaVu Serif -->
 
+export QT_ACCESSIBILITY
+find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
+## rather simple script, so please follow the following guidelines :)
+UUIDD_GROUP=uuidd
+# If set to all update-initramfs will update all initramfs
+
+# RFC 2598
+# subpath mappings from mount point for pinning
+		<default><family>sans-serif</family></default>
+
+# This file is sourced only for login shells. It
+
+
+
+            . /usr/share/bash-completion/bash_completion
