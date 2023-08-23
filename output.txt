@@ -125,7 +125,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # configuration options for /etc/X11/Xsession
 auth	required	pam_nologin.so
 #    modify it under the terms of version 2 of the GNU General Public
-
+# An integer and % (e.g. 50 %) - use a percentage of the amount of RAM.
 #parport0
      <choice>
 	<match target="font">
@@ -227,9 +227,8 @@ session		optional	pam_keyinit.so force revoke
 *ispell*options.horizDistance:		2
 [fwupd Remote]
 type=file
-esac
+QT_ACCESSIBILITY=1
 
-#
 	        # check because c-n-f could've been removed in the meantime
 # This file is sourced by Xsession(5), not executed.
 esac
@@ -240,14 +239,13 @@ esac
     </event>
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
-°SÑ˙:6ÔE¨∆óv†9Ë≥=yëñ3-QKmgFeŒI∞"µ"Ω∑≈<?üÅ…◊ÎàuÛ≥e?†° -Ì£≠ˆí˚ÃëeDÂo∂ìeëpªæF8‡Ç,a¬ ~2Ô¿Ò7¯W¶˛böR„äºık3‰/c≤ÕHÁﬂHÓíñÃΩ¢+M◊ƒﬂŸ¬ÓïQ¥7Microsoft (Release signing) <gpgsecurity@microsoft.com>â5V1Xå	Ä
+
 # Specify command line options here. This config file is used
 # Compose sequences for ISO-8859-5
 ports=22/tcp
 # this remote provides metadata and firmware marked as 'testing' from the LVFS
 previous-engine=@as []
 tcp.flag.psh	u8		tcp+13		0x08		3
-  </match>
 <?xml version="1.0"?>
 overlayroot_cfgdisk=LABEL=OROOTCFG
 	rm -f "$TEXT_FILE"
@@ -262,7 +260,6 @@ PPP_LOCAL="$4"
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 passwd:         files systemd
 [Sleep]
-X-GNOME-Bugzilla-Version=3.36.x
 /var/log/apt/term.log {
 	daytime_hosts => [ qw {} ],
         . $IM_CONFIG_XINPUTRC_USR
@@ -298,7 +295,6 @@ OK		ATDTT
 # DO NOT EDIT OR REMOVE
 
 usb 0x05da 0x30d4
-
 # vim:syntax=apparmor
 
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -434,7 +430,6 @@ Name=GNOME Settings Daemon's power plugin
 	daytime_hosts => [ qw {} ],
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 SHELL=/bin/sh
-disable_flash_pq_bg_color=1
     <match target="pattern">
 # banner-message-text='Welcome'
                                   (symbol-name debian-emacs-flavor)
@@ -630,7 +625,7 @@ if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 # password.
 # See sane-microtek2(5) for a description of the options
     else
-
+# WiFi source configuration options
 #    Copyright (C) 2009 Canonical Ltd.
 application/x-texinfo				texinfo texi
 scsi RICOH IS60
@@ -653,7 +648,7 @@ group:          files systemd
 
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/*-linux/**.so mr,
 
-# to allow your remote connection before starting ufw. Eg: 'ufw allow 22/tcp'
+[OpenSSH]
 # You can change settings by editing this file.
 server {{server}} iburst
 <?xml version="1.0"?>
@@ -702,7 +697,6 @@ XCalc*ti.button37.label:	7
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 #  address = "/run/containerd/debug.sock"
 
-
 Name=GNOME Settings Daemon's housekeeping plugin
 session optional pam_systemd.so
 # The format of port-name is dependant on your OS version.
@@ -714,8 +708,7 @@ AUFS_MAX_NAMELEN=242
 /dev/scanner
 XClock.input: false
 # Dell A920
-# IPMI_OS_Boot_A_Boot_Completed                          Nominal
-	;OÊ¨¿≤2]~ë‘tÆû`Ãâr±Oﬂ"óµF2ñáDœﬂñäô¥·añgT»4ÍÙxª¡SBg&iÀŸr$√≈óãBaX—z7Ù+IOºq—°;∑¢GU@ûŒs[…Œ=ÖpïR]d≥öË˘ÑÂe’^ô<π0<ænë;j“€{ƒÌM)BU~‘eW1a¯d∏⁄Bœ”õºΩ^©6Ì|·b„ö !—Í«3„?ıöºÈlÓ%-G≈tz9Ä¬ﬂˆê_∞±a=LC0¸Ûõú{dós—1gS[∑“B€•|ÈØo…	Î˙1˜<S-xÁÉ÷ÚVOF•”E1†iJ£´&h≤¸gè›ôÊ0Hõ]„T/y`∑XÂUø√à¶àôp>¸àY∏†H‰JÕn–V¡ºëèxv…°ß4ëÉ)‘¯
+ "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 # raid1
         %facetAttr;
 
@@ -728,7 +721,6 @@ SETTINGS="$(gather_settings HARDWARE_DMA_RING_)"
 # Configuration file for the hp4200 backend
   <!-- Generic name aliasing -->
 
-		</test>
 
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
 
@@ -752,7 +744,7 @@ Type=Application
   /usr/bin/seamonkey Cx -> sanitized_helper,
         *:down) exec cloud-init dhclient-hook down "$1";;
 /Courier-Bold /NimbusMonL-Bold ;
-
+## (create soft link /dev/refclock-0 to the particular ttyS?)
       We shouldn't overwrite it with "assign" unconditionally.
 #     then changes to /home will go through to the original device.
         machine_id=$(cat "${etc_dir}/machine-id")
@@ -797,7 +789,7 @@ mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
 /lib/x86_64-linux-gnu
 Options=nodev,ro,x-gdu.hide
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
-#skip-cache
+
 ## team, and may not be under a free licence. Please satisfy yourself as to
 scsi ULTIMA
 ôSMã≈¥∑?˜i¸«Yõ˚Q`P$ˇZ∂Aıß_Ëïò#XÁTã»¡ûAê(Fì\Z˘—ﬁoéYJ±üÂgcPâ?DG	¸⁄ÑBá*ÒUQ8˝‘Ù`[T≥"F±mÍ3é˝ê∆8l¸Òw#h˙F)yQó∂‹‚aa∂;%Ä=3’X9’EΩŸ—_d>Fv	eﬂnhd6D¨a5√çò{P5Æ&˛t}ÈÈÏkV`Å˚î1Òæ"6K&!z£˙Lh˛I|Ñ?[8ÀfpãÄ8È'–‹Ÿ(ˇæq§èµ Ñ9ûO¢5ùZ⁄œ:m˛≥∑FHKƒÿÆ™^s[yï’9:Ü6Â[œóπQˇò∆÷)oïPÂwRR≠É‚˜∂ÍYcMÆCì^ÍˆÛºÒ≤◊¶…âÿò^ÃJù2ûÌ'˚àõ«Ö‡IãŸﬂpÚ÷o’gc{≤ÜÓ_Pjc^bm:’ÛM0¬‚±)ËöPZΩV27ÿ/Ã€n–vZ^≈¿0èÿd)hE~&ÂC¿—Æ†u´ckﬁ0√¸:5 ˝º*[\p“'<.#c—)ÏÎm1À]±ÂÔ1≤@Èeôµeˆ25Ì©7À\R¯aﬁTäb“-…‰Lt&GPéôKŸYÿÌ<IFƒˇ)ÙYª”˚éFqÏ'CÚ¨I3çñ)Ñ3∑[Ó< !w9¥Launchpad PPA for Raelâ8"SMã		
@@ -806,7 +798,7 @@ $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 # Compose sequences for IBM1133
 # IPMI_Chip_Set_Transition_Severity_Informational                                    Nominal
 	</match> 
-rq0t2YjXglIBHRDiJlOTAR3if37OCDKCcHOOODqYrsN7wNleez+ulkDyP7C7ZTbm
+# here's the fallback if no module succeeds
   dbus (send)
 	;;
 # with the multiqueue (mq) policy and uses less memory.
@@ -921,7 +913,7 @@ APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || 
 # -Z Disable the power-saving function of certain Seagate drives
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 #
-@include common-session-noninteractive
+	notifempty
 # Defaults for the saned initscript, from sane-utils
 ::1 {{fqdn}} {{hostname}}
   /usr/lib{,64,/@{multiarch}}/qt5/qml/** r,
@@ -940,7 +932,6 @@ option buffer-size 32768
 CATALOG /usr/share/xml/docutils/catalog
 			<string>AR PL UKai HK</string>
 <?xml version="1.0"?>
-; rlimit-rss = -1
 Subsystem	sftp	/usr/lib/openssh/sftp-server
 /dev/scanner
   </its:rules>
@@ -983,9 +974,7 @@ order hosts,bind
 # User "root" should get access from network 192.168.201.
 @include common-account
 
-mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt
 # ctrll shiftl alt keycode 36 = Incr_Console
-12	bird
 	</match>
 # vim:syntax=apparmor
 #
@@ -994,7 +983,6 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
 			<family>Arial Unicode</family>
 /dev/scanner
         killproc -p $PIDFILE $DAEMON
-	  <accept>
 <?xml version="1.0"?>
 #if /etc/pam.d/cron  specifies no session modules but cron calls
 		;;
@@ -1112,7 +1100,6 @@ rocks_trees = {
   owner /var/run/user/*/weston-shared-* rw,
 #verify = yes
 
-#scsi /dev/scanner
 # DO NOT EDIT OR REMOVE
 ## saned hosts
 
@@ -1176,3 +1163,13 @@ Title=Vendor
 			<string>AR PL UKai HK</string>
   </match>
 #
+    // There is no restriction to any algorithms.
+			<family>FreeMono</family>
+#   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
+# data_portrange = 10000 - 10100
+AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
+# Ubuntu Pro Client config file.
+#    Copyright (C) 2012 Canonical Ltd.
+PIDDIR=/var/run/dbus
+# - What to do after sleep-inactive-ac-timeout
+        'distro': 'ubuntu',
