@@ -82,7 +82,7 @@ esac
 
 swedish         sv_SE.ISO-8859-1
 [DHCP]
-exec xprop -root -format AT_SPI_BUS 8s -set AT_SPI_BUS "$ADDR"
+#
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
 #noprecal
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
@@ -92,7 +92,6 @@ CRYPTDISKS_ENABLE=Yes
 Bugs: debbugs://bugs.debian.org
 
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
-            COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
     // There is no restriction to any algorithms.
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
@@ -127,7 +126,6 @@ auth	required	pam_nologin.so
 #parport0
      <choice>
 	<match target="font">
-	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 application/vnd.anser-web-funds-transfer-initiation
 #  * and that the path value is quoted
 #!/bin/sh
@@ -255,7 +253,7 @@ Before=snapd.service
 		https://*)
 # The following may be used to add additional entries such as for
 PPP_LOCAL="$4"
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 passwd:         files systemd
 [Sleep]
 /var/log/apt/term.log {
@@ -372,7 +370,6 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 <!DOCTYPE typemap [
 # vim:set ai et sts=2 sw=2 tw=80:
 # switches to the higher rate
-
 *insertFile*text.?.pieceSize:		256
 # Compose sequences for GEORGIAN-PS
 Options=nodev,ro,x-gdu.hide
@@ -434,7 +431,7 @@ serif.symbol.bolditalic=Symbol
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 EnumerateAllDevices=false
-}
+
   /etc/OpenCL/** r,
 Type=Application
 *yÛ∂»XEÜqÜ†ÑÀ"9≤∆Kî}‰J['·iÊÉ`éòú7ÃCÙFí˙@{À=ê¸Pº"i
@@ -453,7 +450,7 @@ LANG=C.UTF-8
       <const>lcddefault</const>
 # which broke applications in UTF-8 locales.  See:
 driftfile /var/lib/chrony/drift
-  <type name="NewCenturySchlbk-BoldItalic" fullname="New Century Schoolbook Bold Italic" family="NewCenturySchlbk" foundry="URW" weight="700" style="italic" stretch="normal" format="type1" metrics="C059-BdIta.afm" glyphs="C059-BdIta.t1"/>
+	;;
 # fails to use it it will not abort.
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
@@ -490,7 +487,7 @@ case $0:$mode in
   /etc/cloud/clean.d/99-live-installer
     fi
 rtcsync
-done
+
 	<alias>
 
                     <a href="http://www.w3.org/TR/xmlschema-1/#no-xsi">the XML
@@ -512,7 +509,6 @@ exec tail -n +3 $0
 test -f $DAEMON || exit 0
   (debian-pkg-add-load-path-item
 # ldconfig = false
-
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
     permission javax.crypto.CryptoPermission *, 128;
 	missingok
@@ -524,7 +520,6 @@ session		required	pam_unix.so
 # You should have received a copy of the GNU Lesser General Public License
 # polyinstantiation.
 			<string>WenQuanYi Zen Hei Mono</string>
-<?xml version="1.0"?>
   <!-- Allow anyone to invoke methods on the interfaces -->
 What=/var/lib/snapd/snaps/snapd_8542.snap
 create_machineid() {
@@ -618,7 +613,6 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
 root:x:0:
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 #
-# password.
 # See sane-microtek2(5) for a description of the options
     else
 # WiFi source configuration options
@@ -650,7 +644,6 @@ server {{server}} iburst
 
  - locale
   owner @{HOME}/@{XDG_DOCUMENTS_DIR}/**   rwl,
-/dev/scanner
 HuaweiAltModeGlobal=0
 restrict 127.0.0.1
 <delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///usr/share/xml/svg/catalog.xml"/>
@@ -669,8 +662,7 @@ Bugs: debbugs://bugs.debian.org
 ## or updates from the Ubuntu security team.
 #option modelname "Prima PagePartner"
 speed=115200
-!ä≈…˘=7a©|™g¢_«˚¢ˇŒ$ÍÔ1◊hËgıˆ€ÎôLœ∆çü÷ÚÔœŸ∏aÉï.W,V´Õ*ŒIö& ’Í`øí3â˛A;ÿ/ƒq5Î;O÷_?©¿°Qæ◊?CπvøÙ
-    set in0_max   3.3 * 1.10
+Name=Geoclue Demo agent
        bus=session
 
 # Compose sequences for GEORGIAN-PS
@@ -712,7 +704,7 @@ XClock.input: false
 # This is only used for network scanners.
   /usr/bin/iconv rm,
         </policy>
-SETTINGS="$(gather_settings HARDWARE_DMA_RING_)"
+  # for networking
 # Configuration file for the hp4200 backend
   <!-- Generic name aliasing -->
 
@@ -727,7 +719,7 @@ X-GNOME-Autostart-Phase=Initialization
 # /etc/xdg/user-dirs.defaults)
       <bool>false</bool>
     <allow own="org.freedesktop.GeoClue2"/>
-# be polyinstantiated based on the MLS level part of the security context as well as user
+#disable = rpm, selinux, dovecot
 # 'keyscript=' option.  In that case, the field is not treated as a file
 # a minimum a blank line following it).
 
@@ -774,7 +766,6 @@ MinimumSmeKernelVersion=5.18.0
   <type name="Helvetica-Narrow-BoldOblique" fullname="Helvetica Narrow Bold Oblique" family="Helvetica Narrow" foundry="URW" weight="700" style="oblique" stretch="condensed" format="type1" metrics="nNimbusSansNarrow-BdOblique.afm" glyphs="NimbusSansNarrow-BdOblique.t1"/>
 
 X-GNOME-Autostart-Phase=Initialization
-#
 By default, Java provides two different sets of cryptographic policy
 [ ! -r "$stamp" ] || cat "$stamp"
   00_*: Reserved for 00_header.
@@ -795,7 +786,7 @@ $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 	</match> 
 # here's the fallback if no module succeeds
   dbus (send)
-	;;
+
 # with the multiqueue (mq) policy and uses less memory.
     rotate 7
 
@@ -863,7 +854,6 @@ port=/dev/ttyS0
 
 [xdmcp]
 
-
 quick
 # NIS (man nsswitch) as well as normal /etc/passwd and
 fi
@@ -900,7 +890,7 @@ deb {{mirror}} {{codename}}-updates multiverse
   dbus (send)
 
         done
-APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
+Name=User folders update
 
 #scsi "K.M.E.  " "KV-SS50EX       "
  - fan
@@ -1129,7 +1119,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 
 
 
- *   /etc/calendar
+. /usr/share/bash-completion/bash_completion
 SHELL=/bin/sh
 GRp¢£™m“K>'¿¸À]ÇèÿØÊÁ9,ÂÁ>;$æ›`£sì(nı4†<êÙõ‚3ƒç”≤ƒ]IÎ‡ç$Ç	•´é†{Cëªw†ƒƒe±â_ïk]âß¯¶_sı6.ãbÒñÜÊsµ6ò¥_jB^Up»»À‚a)‹<
 
@@ -1181,3 +1171,16 @@ StartupNotify=false
 # See sane-microtek2(5) for a description of the options
 !ä≈…˘=7a©|™g¢_«˚¢ˇŒ$ÍÔ1◊hËgıˆ€ÎôLœ∆çü÷ÚÔœŸ∏aÉï.W,V´Õ*ŒIö& ’Í`øí3â˛A;ÿ/ƒq5Î;O÷_?©¿°Qæ◊?CπvøÙ
 # ----
+/URWGothicL-BookObli (/usr/share/fonts/type1/gsfonts/a010033l.pfb) ;
+brandon:100000:65536
+  "file:///usr/share/xml/schema/xml-core/catalog.dtd">
+    if [ -x /sbin/restorecon ]; then
+
+
+#          4 - enable control of keyboard (SAK, unraw)
+# Scripts in this directory are executed as root when a user log out from
+# specifically which process will be using PTRACE on the debugee:
+
+#log measurements statistics tracking
+# deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
+# If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
