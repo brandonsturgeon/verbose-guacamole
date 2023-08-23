@@ -42,7 +42,7 @@ CRYPTDISKS_ENABLE=Yes
 # Compose sequences for ISO-8859-8
     # locale: Cannot set LC_SOMETHING to default locale
 
-# -k disable/enable the "keep_settings_over_reset" flag for this drive
+
 # Compose sequences for GEORGIAN-ACADEMY
 # This file is sourced on all invocations of the shell.
 #
@@ -60,9 +60,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 # Each line names a host to attach to.
 
 Vendor-URL: https://www.debian.org/
-	echo >&2 "W: initramfs-tools: ${DPKG_MAINTSCRIPT_PACKAGE:-kernel package} did not pass a version number"
 ! MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-#option disable-calibration
 compose '"' 'A' to 'Ä'
 #
   </match>
@@ -105,7 +103,7 @@ password	include		su
 auth		include		runuser
 xterm
 #!/bin/sh
-
+  # do not use ux or PUx here. Use at a minimum ix
 lock
 
 	log_begin_msg "Stopping $DESC" "$NAME"
@@ -162,7 +160,7 @@ if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 SáÊó:]C+¼İ˜·MÌÖGşp‚ô£ã×?ÒÇM”±àã@‡Òü³w>‚­ŸÂÏM?ÛƒX“YŠ®Ke>(pë9l‚ŒÃnÏÎŒ,<Í™zV@q-NúãÓ—şÔxÔ“Ö`”~ju©äÑ]bz1zü'ÓN}ÊÆa?t¨Q}ÜÍïÓP[Äÿ„!¿öØˆ=ºİ
 Description=Mount unit for snapd, revision 15904
     <allow send_interface="org.debian.apt.transaction"/>
-# For some Atheros 5K RF MACs, the madwifi driver loads buts fails to
+DEFAULT_LOUD=""
 
 Bugs: debbugs://bugs.debian.org
 
@@ -252,7 +250,7 @@ makestep 1.0 3
 #  As rsync is often used for backups which aren't all that time-critical,
 
 #pnm
-  /tmp/.X11-unix/* rw,
+# vim:syntax=apparmor
 version="$1"
 # If you want to globally change where snmp libraries, commands and daemons
 {% for pool in pools -%}
@@ -267,7 +265,7 @@ turkish         tr_TR.ISO-8859-9
 
 # This file is sourced by Xsession(5), not executed.
 
-scsi "B&H SCSI"
+                . /lib/lsb/init-functions
 
 
 #           currently-running release.
@@ -300,7 +298,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 mode="${mode%'}"
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 #
-PK!	questUTc(,M-.áPKqêé	PK!	racingUTc(JLÎÌKçPKÔ…áÍ
 Acquire::Changelogs::AlwaysOnline "true";
 
 # Set the default output policy to ACCEPT, DROP, or REJECT. Please note that if
@@ -308,7 +305,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 . /usr/share/bash-completion/bash_completion
 
 blacklist rivafb
-## extensively as that contained in the main release, although it includes
 #net.ipv4.ip_forward=1
     user_friendly_names yes
   STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
@@ -329,7 +325,6 @@ fi
 #  privileged clients.  Instead the passwd.adjunct.byname table is
 #           will attempt to upgrade to the first LTS release available after
 # of /var/log/ubuntu-advantage*.log files.
-
 ! cmdratelimit interval -4 burst 16
 # * Be careful about changing the environment since this is sourced
 		      $iosched_idle 
@@ -371,7 +366,8 @@ bookworm/sid
 
   /usr/bin/shotwell Cxr -> sanitized_helper,
 APT::Archives::MaxAge "30";
-compose 'r' 'o' to '®'
+		Shift<Btn4Down>,<Btn4Up>: Page(Line,-1) 
+
 185 211 238		SlateGray2
 change_hat {yes
             <extension base="saml:StatementAbstractType">
@@ -528,7 +524,7 @@ font='Monospace 16'
 #
 {% endfor %}
   #include <abstractions/gnome>
-       <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
+	# Configuration option local/system_id.
   <type name="Arial-Narrow" fullname="Arial Narrow" family="Arial Narrow" weight="400" style="normal" stretch="condensed" glyphs="arialn.ttf"/>
 ## If the coloring rule should span multiple lines, use the following format:
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
@@ -538,7 +534,6 @@ font='Monospace 16'
 # See comments in /etc/login.defs
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # prevent some spoofing attacks.
-
 
 /NanumBarunGothic-Bold << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
 =RFA4
@@ -581,7 +576,6 @@ CRYPTDISKS_MOUNT=""
 
 XLoad.input:			false
 Oğô„=i£‹­Ù;'«¼MrF‚T=pnÙva·[»ÚÕÌŞw¼?^ç¤?Æš·CÃÜ<7Ú(bb_ÇKı=´«=É;Knc$H¾P¢]ÅÖä.—·É‹$-î’‹²Ó$°ËŸÓ²ºº‡lÁÛqFÒ2d_ ÓF#[É÷l’Ò&+&„X¯mx‚§'á©]s±ïÒë˜Í*¶şka)o#ÓLÀL¾q&*¸°'Xb¦!räÈû—k÷ñì™Ñ;—Kú2%şÚ’¢>ê?¡úê§‘†_“pyq¿¹¢£EÛ¬8UÉc–¸¶Tâ°bœœœœœœœ‘Ï|FÔÍ‰Ø"ø,¼	)T{(ğÒªi+o¼À¼À«AÒæª°·ù/¢Gíj`o“ëşšGŠ´©î±±±¼&¸p5”WÃ´ö5Dˆ!BìXÔ¢ñğÈ]Ö!A‚é–eyÆ3ÇÏœ]¶ó£gr~¹&NÄ9‰s'Y9ùu˜9«0"ÎmEÎqüí–ÄK²tò„j‰³»8‘ŸìòçÂÆ*‰¢ä–Zw¨?vÈ¿ÙR3×É-k¹ñ×„İÿ»“İ†yp]˜ãc¶xèOŒEñ†Æ—EÍµ^“VÛ¦ä&Lv™¬øümô!’Í†‘ÏˆÂ˜Ğ$©sÆ»»çós’‡¡ÕüÜ!7$½§]-ØR+)ÙFaàç´—¬‰O{¾M²,¼¢tnühGMç†8›d®B’fNv®òè¯<O©Æ;ÈSÚöÏ\W”pµã§„raÿcšì¶™3|şÜcv{ó’Ue§ hf¼*í÷*¼+Ü^¥ÉšÄÎ+›'ÁÚ¹½¦¨èYyÚh«0.ÎHXüâQ¦ä/Å9òé_&òwp4)–f©•ÕT/Ù¶©–¶­ÖÒ(ïq»Z™lÉöAåvÌ3ÊşÌÓ·z¨9£uÕÒ¶ÕZµœÑÚZ™lÉ¶ñŒVÚĞF:*ØuùBGc¶£’ØY¤„¼¼8svûFùß™g@ÿ§ç»ß¿sXöS‘Å‘£gYjÙóŠÛ˜²ÆknãM‘İä–myãmÿNı‚Ş
-#DefaultLimitNICE=
 allocation {
 *form.move.radioGroup:			copy
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
@@ -665,7 +659,6 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 	then
   #include <abstractions/kde>
   </its:rules>
-# NULL-dereference attacks against potential future kernel security
 # Microtek ScanMaker 3840 ID
 #
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
@@ -678,7 +671,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 #VIDEOS=Documents/Videos
 # define if shading data shall be inverted befor sending it back to the scanner
 =6Dz2
-<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+
   /usr/share/perl/**             r,
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # the root account (the options `even_deny_root>` and
@@ -714,8 +707,6 @@ NoDisplay=true
 <?xml version="1.0"?>
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
     monthly
-è_‰D«®È¾EŸÄdùWM¯µ0L’Æ>?†´Ù×„[şšf™6ÆüÜ„	*‡nµ9+İKø¢·|#ï17Wí¤Ö&J÷1ñégÜ~ÖÅ=À¾cC¡Ò5°Øa
-  # User files
 #    This program is free software; you can redistribute it and/or
 XKBMODEL="pc105"
 ipv6-nonxt 59	IPv6-NoNxt	# No Next Header for IPv6
@@ -777,7 +768,6 @@ rk0JgVoRzG3BT5yYfuxHIe4H4Axh95tW9i6urzyQkXRz14twwwcEDvl5ALrBLNJJ
 
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 PPP_DISC	8863		# PPP over Ethernet discovery stage
-      may simply works to avoid it.
 
 
 #    modify it under the terms of version 2 of the GNU General Public
@@ -785,7 +775,6 @@ Name=GNOME Settings Daemon's power plugin
 X-GNOME-Autostart-Notify=true
 # Provides:          gdm3
 /dev/scanner
-X-GNOME-Autostart-Phase=Initialization
 option artecFirmwareFile /usr/share/sane/artec_eplus48u/Artec48.usb
 #
 # Required-Start:    $local_fs
@@ -845,7 +834,6 @@ nssDbMode = noDb
 *ispell*terse.internalWidth:	10
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 /Adobe-Korea1 /NanumBarunGothic-Regular ;
-
 X-GNOME-AutoRestart=true
 # HP Scanjet 3800
 # Default-Start:     S
@@ -933,7 +921,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
       Most clients may picks up the first value only. so using "append"
 
                     attributes in this namespace</p>
-
 <!ENTITY % allAttrs ''>
 #   /etc/cron.daily/mdadm.
 generateResolvConf = false
@@ -960,7 +947,6 @@ APT::Periodic::Update-Package-Lists "1";
 #  the Free Software Foundation; either version 2.1 of the License, or
 
     unset XDG_SESSION_ID
-# Compose sequences for GEORGIAN-ACADEMY
 # clean all crash reports which are older than a week.
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
     permission javax.crypto.CryptoPermission *, 128;
@@ -996,14 +982,14 @@ m§lj'‹©ZjUJŸ¤m“™Ìb¹üG«¹ôOë¥ß¯7Dòö
 #    Copyright (C) 2014 Canonical Ltd.
 #
         if [ -x "$STARTUPFILE" ]; then
-# DO NOT EDIT OR REMOVE
+	# 
 session		optional	pam_keyinit.so force revoke
 # vim:syntax=apparmor
 
   /usr/lib{,32,64}/python{2.[4-7],3.[0-9]}/{site,dist}-packages/ r,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 # /etc/shells: valid login shells
- (message "cmake-data removed but not purged, skipping setup"))
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
 ApprovedFirmware=
 
     <edit name="hinting" mode="append"><bool>false</bool></edit>
@@ -1068,3 +1054,12 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 
 @{securityfs}=@{sys}/kernel/security/
 # Policy for warnings and action based on battery levels
+deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
+# Site-specific additions and overrides for usr.bin.firefox.
+# HP Scanjet G2710
+# These variables are for the use of the scripts run by run-parts.
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+run_im default
+# value to be assigned to the environment variable.
+# This file should be world readable but not world writable.
+blacklist dv1394
