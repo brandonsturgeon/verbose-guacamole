@@ -8,7 +8,6 @@ required in any way by the specification).  The information may be useful in
 # <target name>	<source device>		<key file>	<options>
 @include common-account
 
-options md_mod start_ro=1
 
 # This file is a simple placeholder to keep dpkg from removing this directory
 	monthly
@@ -95,7 +94,6 @@ audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
 [ -d /var/crash ] || exit 0
     minsize 1M
-   formatter=simpleFormatter
     export CLUTTER_IM_MODULE
 // Pre-configure all packages with debconf before they are installed.
 # configuration options for /etc/X11/Xsession
@@ -149,7 +147,6 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 #           will attempt to upgrade to the first LTS release available after
 
         stop|status)
-# Default-Start: 2 3 4 5
 . /etc/popularity-contest.conf
 # following line is sufficient. This however assumes that the connected scanner (or to be more
     fi
@@ -179,10 +176,9 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
 /usr/sbin/gdm3
-
     [ ! -f "$sfile" ] || return 0
 # javax.management.monitor.foo.Bar.
-# Uncomment following line to disable "clever precalibration" routines...
+
 *ispell*options.horizDistance:		2
 [fwupd Remote]
 type=file
@@ -275,14 +271,13 @@ fi
     rotate 1
 # Turn on Source Address Verification in all interfaces to
 # for input method.  Thus moved from 80 to 70.
-†Ë«İù»—bdœ-vj!Â",şé©×ZÑ=m';È61©C§Òâ»B“,éUWÕ>ö4÷ùş±è2Õí¥V°,Ô_o°Âõóî±Æc„bƒãÎ´;p)ÒW‚PÄ
 # and should contain a list of modules that define tasks to be performed
 #           the currently-running release is not itself an LTS release the
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 # msgs, from, etc.)
 # the file system.
 /usr/sbin/gdm3
-exec tail -n +3 $0
+  <delegate decode="hpg" command="&quot;hp2xx&quot; -sstdout=%%stderr -m eps -f `basename &quot;%o&quot;` &quot;%i&quot;;     /bin/mv -f `basename &quot;%o&quot;` &quot;%o&quot;"/>
 127.0.0.1	www.paginebiamnche.it
 #ºÿ¸ædJ´
   /etc/X11/app-defaults/XTerm r,
@@ -299,9 +294,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
   #include <abstractions/kde>
     #@VERBATIM_LIBEXECDIR_SNAP_CONFINE@ mr,
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
-# a downgrade in the UPnP device versions
 NotShowIn=KDE;GNOME;Cinnamon;LXDE;Unity;
-# Compose sequences for CP1255
 # Any customisation or reliance on the existence of this file and its
 #usb VENDORID PRODUCTID
 
@@ -332,7 +325,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
   <match target="pattern">
 8MXW5dRNJ2Srm8c+cftIl7gzbckTB+6WohsYFfZcTEDts8Ls/3HB40f/1LkAtDdC
 ### that look up the default sink/source get the right value
-    # pivoting into a whitelisted path.
+#
     log_action_begin_msg "Synthesizing the initial hotplug events (subsystems)"
 Comment=GNOME Keyring: SSH Agent
      %dbgenent;
@@ -348,7 +341,7 @@ Comment=GNOME Keyring: SSH Agent
 
 
 
-#    modify it under the terms of version 2 of the GNU General Public
+# device group names
     // There is no restriction to any algorithms.
 # Provides:          gdm3
 #
@@ -387,7 +380,7 @@ twm
 -->
 # eliminate DISABLE
 #    Copyright (C) 2014 Canonical Ltd.
-#
+echo
 if ls /dev/fb* >/dev/null 2>/dev/null; then
 # inclusion by distributed profiles to aid in packaging AppArmor for
 {% endif %}
@@ -465,13 +458,12 @@ create_machineid() {
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 
 KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
-<Key>q: quit() \n\
 # libc default configuration
 }
 		<prefer>
 America/Los_Angeles
 OK           ATDT<put phone number here>
-[ -r /etc/lsb-release ] && . /etc/lsb-release
+15	ntk
 /var/log/btmp {
 
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -728,7 +720,6 @@ XClock.input: false
 
 }
 [OpenSSH]
-brandon:100000:65536
 application/vnd.intu.qfx
  10 through 19		system rendering defaults (AA, etc)
 grant {
@@ -753,7 +744,7 @@ Name=User folders update
 #scsi "K.M.E.  " "KV-SS50EX       "
  - fan
 # -Z Disable the power-saving function of certain Seagate drives
-#
+-->
 	notifempty
 ### END INIT INFO
 †ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ğëŸ
@@ -823,12 +814,10 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
 # specify the provider and priority in the format
 # $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
-# Compose sequences for ISO-8859-8
 . /usr/share/bash-completion/bash_completion
  - chef
 LANG=C.UTF-8
     <allow own="org.pulseaudio.Server"/>
-<fontconfig>
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
   # Scanning for USB devices
 <!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
@@ -838,7 +827,6 @@ LANG=C.UTF-8
 
 #
 @include common-session
-    (if (file-exists-p
 # Compose sequences for ISO-8859-16
 AdminIdentities=unix-group:sudo;unix-group:admin
 commands scan this directory processing all files that end in '.conf'.
@@ -960,7 +948,7 @@ SHELL=/bin/sh
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
 usb 0x1083 0x1622
   #
-# so please ensure that:
+    <!--
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 Title=Vendor
 #
@@ -975,7 +963,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 # Ubuntu Pro Client config file.
 # deb-src {{security}} {{codename}}-security main restricted
 # - What to do after sleep-inactive-ac-timeout
-        'distro': 'ubuntu',
+fi
 14E6D2764A4B06701C6CBC376A253775F79C782FBCB6C0EE6F99DE4BA1024ADD
 20190502160005 2 6 100 6143 2 D775D98222C19B71B1640F95F44179182E462E941B1ED2AABD7B9A92A387C5A10014F3150A4E2F48FAA83BBA757A7AFAD52FFBA351FF9DCED93B94669353E737D5DC74052A46299579F2F942AB66574E855A7E915834BD378408F0932BE8537F9863EF3EF0072EAC02EFD86A91573B63E45009CDAC495E6AAE87A2FD70395EC22F249492AFD7D007CF1718799D821E220AA90AB881E64096726963959F094A6ACE215A417B8163EAECEACA5B5454951324DB52FA2768FD22E9F0C2A1EEDD1B4DADA051455654FE405425EB73BF3536DB3B7FD9898F562EDF0BD5DA0EC15379CAEB4CFA2E2B4745D496617503427274AB3D9DBEDFFDCB5B7DC263E9F743A17FB094AE65E546468D398F0F5E3FCAF12B9799DEFDAFCB765F8AAF5D8B6BA2C24E1E1969339991AC01C542F56528446B5233819724F6CFE2E7B5797E4910993FF0EE87A1C696D60CB70EE6BCF27FC18E0B0BAF3AB97158130B0A8A1732A99A9E56713BFADC95BCD2ABD1996BF52E719441D9CFE948DF65F3BD454CF8198F43472F47F0F73703BAEF1E266B1F109AB3466B1D41E7E25AE6CA9CF42C73540245E8BE948FC620264DED7F1235A5962418BFA028C8F9657558E3A164668F9302B4A0D184DDF237275EF6C803B5DA901EA1A4E86E9FB5AACDED09EC4983A2B3089BDE76CC6D5EDE0FF746935912E63C4543A080977D92728F513A8FDEFD13F72B578B776552AAF9E7DAE4D292642762CB6F41BD9A4E668430C3C3E1CE6AE4BE5C520865E316DE2085420294EFF8D170322AB506042E08F3B621443273414FE2A9B5EB17DA967F8273999D7F1A562DD36E8827476767523F0C0BED30EBCECDD3BE963544DD22FBCFB58CAD4BCB0AF4756AAEB9B32E0302D55A30F0BE267729B831AB43BCF0F9D979EB01982BB9AD905F978B0EECC66C24FDD43E3C9A61DAD3847CD7A26573E5624ACA6497C4FC2846E743DCE94ED80CE5B85E4D94E9B04B5101CC5B93ECC5446D909EFD66B90BF9DE30B2184A762A47F850FEC2B275CBEC5F8C2D8129140345F92A62B10827FE5391D421CDDD3477525D7962802F86FB6DD776DF804BE18B
 #port=/dev/term/a
@@ -1007,7 +995,6 @@ POOL=""
 # Agent configuration options
 option lampOff   -1
 
-	# behavior defined here.
   owner @{HOME}/.config/kdeglobals.lock rwk,
 # mountpoins which are configured in /etc/fstab as arguments. Separate
 			XawPositionSimpleMenu(optionMenu) 
@@ -1024,7 +1011,6 @@ emptyscale=magenta
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
 ù”`ŞÉVF2eEÆÇ …›wñÄ#5¾mz·¿b¢¾¸è^|µR-	Lå­&‰3
 	unload_ipmi_modules_leave_features
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 
     permission javax.crypto.CryptoPermission *, 128;
   # dbus-strict abstraction for fine-grained bus mediation.
@@ -1059,7 +1045,6 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
 X-Ubuntu-Gettext-Domain=gnome-keyring
     <Menu>
-OnlyShowIn=GNOME;
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 exec /usr/bin/X -nolisten tcp "$@"
   # acmetool
@@ -1177,7 +1162,6 @@ type=file
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 NI	-*-new century schoolbook-medium-i-normal--*-*-*-*-*-*-iso8859-1\n\
   # SASL plugins and config
-/Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
   /etc/vulkan/icd.d/{,*.json} r,
     <family>SUSE Sans Mono</family>
 # If we are running the GNOME session, source ~/.gnomerc
@@ -1201,3 +1185,12 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 
 ACTION!="add|change|move", GOTO="mm_mtk_port_types_end"
 ## (create soft link /dev/refclock-0 to the particular ttyS?)
+# interpreted by the kernel to help with debugging. The kernel will respond
+#DefaultLimitDATA=
+datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltCloud, OVF, MAAS, GCE, OpenStack, CloudSigma, SmartOS, Bigstep, Scaleway, AliYun, Ec2, CloudStack, Hetzner, IBMCloud, Oracle, Exoscale, RbxCloud, None ]
+# symbolic names for networks, see networks(5) for more information
+Typical format of such scripts would be a ##-<some-app> like the following:
+[mysql]
+#@{XDG_VIDEOS_DIR}+=""
+	;;
+       path=/org/freedesktop/DBus
