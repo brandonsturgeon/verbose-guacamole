@@ -28,7 +28,6 @@ search updates ubuntu built-in
            "booktitles.ent">
 # DO NOT EDIT OR REMOVE
 /bin/sh
-        <policy user="root">
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 
@@ -107,7 +106,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # Compose sequences for GEORGIAN-PS
 # deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
-    permission javax.crypto.CryptoPermission "RC5", 128, 
+
 mode="${1#'}"
     fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
@@ -136,7 +135,6 @@ session		optional	pam_keyinit.so force revoke
 @{multiarch}=*-linux-gnu*
 [fwupd Remote]
 
-    "dns": ["1.1.1.1", "1.0.0.1", "8.8.8.8", "4.4.4.4"]
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
 #
 
@@ -163,7 +161,6 @@ Before=snapd.service
 rocks_trees = {
 
 
-  /dev/console rw,
 japanese.euc	ja_JP.eucJP
 PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
@@ -171,7 +168,7 @@ PICTURES=Pictures
 
   deny @{HOME}/.mutt** mrwkl,
 =RFA4
-{% endif %}
+    <test name="pixelsize" compare="less_eq">
 
 # vim:syntax=apparmor
 
@@ -183,7 +180,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 # Autodetect the Canon CanoScan FB630u
 deb http://packages.azlux.fr/debian/ buster main
 
-
+  # Nothing to do, exiting
 
 XLoad.input:			false
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
@@ -209,7 +206,6 @@ max_allowed_packet	= 16M
         else
 # in the toplevel profile. Eg:
 [connection]
-   "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
 user-db:user
   #include <abstractions/kde>
@@ -239,9 +235,8 @@ scsi Nikon * Scanner
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 # their current one is listed in /etc/shells. This keeps
 0x38	AF13
-/libx32
 
-CATALOG /usr/share/xml/docutils/catalog
+fi
 
 # This file should be world readable but not world writable.
 <?xml version="1.0"?>
@@ -328,7 +323,6 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es
 # Defaults can be restored by simply deleting this file.
 # Autodetect 1200 UB and Trust Compact Scan USB 19200
 case "${1}" in
-@{securityfs}=@{sys}/kernel/security/
 	<match target="pattern">
 *MenuButton.foreground: white
 [upower]
@@ -448,7 +442,6 @@ By default, Java provides two different sets of cryptographic policy
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
 # Compose sequences for GEORGIAN-PS
 
-
 scsi FCPA
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
@@ -467,7 +460,7 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
 # This file is sourced only for login shells. It
 
             . /usr/share/bash-completion/bash_completion
-## Commands metadata files.
+APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
 #broadcast 192.168.1.255 autokey	# broadcast server
 #    10-help-text - print the help text associated with the distro
 
@@ -578,7 +571,6 @@ Each file in this directory is an rt_tables configuration file. iproute2
 *†HÎ=h0e1åiÉnÛÆ1º	Aá—øûıšâ}Éí|dÓË%‹VÙ ç^]Nƒœ[v) 	&!jb0qÒµ\ê;áx	…¨u’;È\ıHït"¨ânÅIÎÇ¼§aiñ÷;á*Ëù+óf7"debian:digicert_global_root_g3.pem8P_1X.509C0‚?0‚Å UV¼ò^¤55Ã¤Õ«Er0
 
 #
-#    exitCode may be incremented.
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true";
 [Desktop Entry]
 #
@@ -628,9 +620,8 @@ Comment=GNOME Keyring: SSH Agent
 
 #
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
-Exec=/usr/bin/snap userd --autostart
+# default location for the meta-release file
 [Desktop Entry]
-# be found in /usr/share/fwupd/remotes.d/vendor/firmware
 #
     </event>
 Acquire::Changelogs::AlwaysOnline "true";
@@ -642,7 +633,7 @@ Acquire::Changelogs::AlwaysOnline "true";
 #    with this program; if not, write to the Free Software Foundation, Inc.,
 #               -> put the port that you use instead of '88'.
 # $ systemctl edit --full cron.service
-#dumpinquiry
+#!/bin/sh
 # 
 ;Hellenic Academic and Research Institutions Cert. Authority1D0BU;Hellenic Academic and Research Institutions ECC RootCA 20150150707103712Z400630103712Z0ª10	UGR10UAthens1D0BU
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -746,7 +737,7 @@ type=file
 
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
 if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
-Clock*jewel:		yellow
+
 session		optional	pam_keyinit.so force revoke
 if [ -f /run/motd.d/85-fwupd ]; then
 ìÿ˜Ò¯q³´SŸN‡ï’¼½ìO20ˆK^WÄSÂö—Ùb+¿$bßÃ¸)KIx<“`ˆ"ü™Ú6ÈÂ¢Ô,Tg5ns¿Xğ¤İå°¢&zÊà6¥õı·ï®?@õmZıÎ4Ê$Üt#]3]Ä%ö0İ]ŸàÕG½´ë¡»IIØŸ[óŠä$äbOOÁ¯‹t¨ÑrˆjzIÌ´FyÆ±Ú˜Yúu!…eİVÎû«¥`ÄùR°‹½‡ù+#
@@ -798,7 +789,6 @@ BYOBU_BACKEND="tmux"
 # modify the hostname appropriately:
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).$
 main
-	# sessions, but it also doesn't hurt to leave it running.
 	û„?'/[¬öˆß§¿|L¥
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 
@@ -815,8 +805,7 @@ type=file
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 APT::Periodic::Download-Upgradeable-Packages "0";
 stamp="/var/lib/ubuntu-advantage/messages/motd-esm-announce"
-deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
-# If we are running the GNOME session, source ~/.gnomerc
+
 	if ! test -d $UUIDD_DIR; then
 deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 
@@ -838,7 +827,7 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 [Distro]
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
 
-AdminIdentities=unix-group:sudo;unix-group:admin
+#    Copyright (C) 2012 Canonical Ltd.
 multi on
 # Compose sequences for ISO-8859-6
 
@@ -851,7 +840,6 @@ byte-compile = standard
 # set PATH so it includes user's private bin if it exists
 #
 	<alias>
-{% endfor %}
 BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
 }
 CATALOG /usr/share/xml/docutils/catalog
@@ -861,7 +849,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 # ISSUE_FILE option from login.defs). Uncomment for use
 # /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
 . /usr/share/bash-completion/bash_completion
-
+    STARTUP=x-terminal-emulator
    case "$reason" in
 # Compose sequences for IBM1133
 
@@ -879,7 +867,7 @@ fi
 		done
 APT::Periodic::Unattended-Upgrade "1";
   <!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
-#dumpinquiry
+#
 gtk-icon-sizes = panel-menu-bar=24,24
 #include <tunables/share>
 
@@ -1003,7 +991,6 @@ x-scheme-handler/ftp; firefox -private-window %s; test=test -n "$DISPLAY"
  * The search path for include files is:
 Type=Application
 $x-display-manager gdm3
-esac
 #
 # orbit2 permissions
 
@@ -1191,3 +1178,13 @@ Ubuntu 20.04.5 LTS \n \l
 deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # orbit2 permissions
 )—É¸¦F|O#e×p"^ıL–@hNnW.§Ÿ‰„÷I·R1ãCë¯èÇ§rİºe3Zª‰´JŞå|"ôŸ“î(ÖjMÇqüOW*•ñD"aâód·ú»I'Ôƒ]%+^…Ëäwú"57Õä ¹´'ãfRN"ÒúPI’JX'è_Õ?C›†‡‡×¹ñù¢eUw¯şãA~ZX	ê»³¦õWÛiµ_¥hÆäŠ•]8^U^ïsş÷ÊføúúŸïx®VóõQ­Õ×Œ¬¯×üôãš¦¼±±Í›Ãòª££ÃÃCCƒƒÕP¿öüóÚ­Ÿr›ÇJÉ0¾^«UÃü•Ştb
+cmdrespause=125000
+  /tmp/.ZendSem.* rwlk,
+$x-display-manager gdm3
+
+#
+# the number of seconds you want Wget to wait.
+# Default settings for user directories
+  dbus bus=accessibility,
+     format="ttf"
+# Insert here your local magic data. Format is described in magic(5).
