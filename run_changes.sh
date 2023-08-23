@@ -1,6 +1,6 @@
 #!/bin/bash
 
-random_number=$(( ( RANDOM % 5 )  + 1 ))
+random_number=$(( ( RANDOM % 10 )  + 1 ))
 random_text() {
     head -c 500 /dev/urandom | tr -dc 'a-zA-Z0-9~!@#$%^&*_-' | fold -w 75 | head -n 1
 }
