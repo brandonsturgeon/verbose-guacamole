@@ -49,7 +49,6 @@ Comment=GNOME Keyring: SSH Agent
 {
 # The PAM configuration file for the Shadow 'newusers' service
 # Each line names a host to attach to.
-
 compose '"' 'A' to 'ƒ'
 #*)
   </match>
@@ -143,7 +142,7 @@ Bugs: debbugs://bugs.debian.org
 
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
-# and thus you'll know about Linux's capability support.
+    // There is no restriction to any algorithms.
 
 # Compose sequences for IBM1133
 scsi "LEO" "LEOScan-S3"
@@ -278,7 +277,6 @@ fi
 
 description=OpenSSH is a free implementation of the Secure Shell protocol.
 # ~/.bash_logout: executed by bash(1) when login shell exits.
-fs.protected_symlinks = 1
 if [ "$INITRD" = 'No' ]; then
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 }
@@ -287,7 +285,7 @@ if [ "$INITRD" = 'No' ]; then
 [localization]
 # Default-Stop:
 fi
-
+<Key>Escape: quit()
   </policy>
 *customization: -color
 			<string>AR PL UMing HK</string>
@@ -326,7 +324,7 @@ DISTRIB_RELEASE=20.04
 #    Handle linux distributions that use systemd to replace the legacy
 fi
 _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ¬}|·Aÿè¡~xûÑß‡yx^”®¡ÀÑ^ÅW·5q0o^∆…õ»ﬂÇo√w‡{ºﬂáw‡á3¯¸|ÑˇÉN òΩ∞ŒÉÛa∂¬u–ÑgÈëw!G+Ê¿√<ËÑU–wCb⁄Î‘/9Ì¸6Úi8⁄a&‰`éZÉ‡HX˝p"îa™p‘‡d®√∞ŒÇ≥a3ú¿E1¯8◊¿µ0ÆæG›Á¿ëºo√;ê"~:ÃÄC Û‘ö]P	G¡Ò∞ŒÖK·£p9Ê,s7	3‡ËÑ˘PÅMp&å¿V∏˛˛>	ÔÉ†åiêÖ√`6X=∞éÖ%∞V¬	PÇ50k·Tÿg¬6∏vÄP=§·PòG@Ê¿ëp,Ü£·8ñ¿RX«¡JËÉU–'@	NÑ’p2úk·TXß¡zÜ”·8∂¿πpúª‡&¯$≥ÁSp¸%|˛
-deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
+CATALOG /usr/share/sgml/dtd/xml-core/catalog
  -->
 /usr/sbin/gdm3
 #MaxLevelSyslog=debug
@@ -339,7 +337,7 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 # To take advantage of this, it is recommended that you configure any
 # javax.management.monitor.foo.Bar.
      </choice>
-	vdo_use_sparse_index=0
+systemd-network:x:102:
 *ispell*options.horizDistance:		2
 max_allowed_packet	= 16M
 type=file
@@ -352,7 +350,7 @@ esac
 # Record the rate at which the system clock gains/losses time.
 auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
 	        # check because c-n-f could've been removed in the meantime
-X-GNOME-Autostart-Phase=Initialization
+# This file is sourced by Xsession(5), not executed.
 esac
 0xD9 '√ô'
 
@@ -370,7 +368,7 @@ esac
 # Compose sequences for ISO-8859-5
 ports=22/tcp
 
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
+		echo "autospawn=yes" > /run/pulseaudio-enable-autospawn
 # Multiarch support
   LABEL="UEFI Firmware Settings"
 previous-engine=@as []
@@ -404,7 +402,6 @@ udplite	136	UDPLite		# UDP-Lite [RFC3828]
 
 	çÅÄ<øÕà≤…˛$£Øî4&6˘¸_ï”w§QiA˜ﬁEÿ^´ìËŸ%»íÏM†Lô™º ù¥é&5Å¬HF1#ö´qÖyb•˝?Øä£ÎËŒé'±Â,Òˇ48®Ω¢OµéF†‹∏$éâÚQˇ[¬’±ù9-∆0s·Ö≈{±@¥/úUók,®ØùüOƒDgô˘›ÊÈ˙úwënÓúl™mP2π4øß<àÑﬂöπ:·É8J‘$°|g3¸FW¢ıKsÍüO]àïi◊µ>*4fML›-G„K˛Å©ﬂ`ÖG.{¸5UnâCeFaëÁfÔR≥ÄZ‰à=?@Ë*È µ~>§–Oë1‰uö∏‹íN@ò€≈„n#Lô <É7?w•Ü}7XfƒÆ5ÕŸ„Ó‹€~ê#|V%ÛOuF◊E†0á/˙≠4Öo<
 
-#
 # abstraction for allowing access to graphical browsers in Ubuntu
 
 X-GNOME-HiddenUnderSystemd=true
@@ -422,7 +419,6 @@ font='Monospace 16'
 #    memory for data transfer between the reader process
     done
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])? md: md[[:digit:]]+: (data-check|requested-resync|resync|reshape|recovery) done.$
-˝h#0£#e§íìèπÖ(1∑PtA¸·Û≈ßmZ&õÙ°Öﬂ±˚ã7Ω⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷4B˙4-±Ô¶.ÜP¸ç=1˙¿ÜæâhµVÇ6uƒDLƒSuVA˘&⁄≥¯Ë∏êJÜ4s·Tˇ¯|ù"KŸÖ›‡dAõˆhõΩ∫û˚€•B@D@S’t )ç$\∏’._)ËN+eµy≥mu=˘sw©–T©NI#Ó‘UµÓ≠†V∆’ÊÕ{¥5Ùt=˘Ûv©–T©NI#„UWuT˜÷†;´¢Wõ?È—÷–◊ı‰œﬂ•B@D@S•:%ç8[T]’—nètÁUÙjÛùm]O˛Ç]*D@4U™S“H´E’UÌˆXAoR˝¨VõÔˆhk8’ı‰o∫KÖÄàÄ¶JuJÒµ®∫™£›+Ë9UÙjÛΩmC]O˛¬]*D@4U™S“»û›"´Ó≠Aœ≠¢WõÔ˜hk8”ı‰o∂KÖÄàÄ¶JuJaµ†[d’Ω5Ë—S°jÛÉmÁ∫û¸Õw©–T©N9„É™æÍjØPÙ¸*<=öˆhõﬂ‡ân¿=jª∫µàã∏à{p\’ôi$–/€ï)‘=⁄±8‰X00˘…ô4…%§MÁqû•©∞8ø…æ]|b´,¯ªNäíÂ≈˜fÁeT≤ˆÓ>º√”S`4ç@#–4bD‚ÍG√Û·CQ–ÔP®…FqJKW€ÕåN·tßÍ¢u≈E;:”d£¨fFßp:ÜSu—z‚¢ùãÇùk≤QàV3£ÄS8√©∫h}q—ûo/À<äÀ&GgΩ⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷Ú€fæ((àØ…F!~¨fFßp:ÜSu—N≈EàÇ4Ÿ(D´ôQ¿)úé·T]¥°∏hß¢†Cßöl"Ç’Ã(‡N«p™.⁄ô∏hOóÀ∫¢√ﬂ˚vU˚⁄#¢u4’˘Ê¢Û9¢ 7é&ÖËﬁV3£ÄS8√is—Œ&‚¢uEAá∫öl"Ç’Ã(‡N«p™.Z˘F€Íi≤QàV3£ÄS8√©∫hÂÌâ(Ë–â&Öà`53
 #
 {% endfor %}
   #include <abstractions/gnome>
@@ -442,7 +438,7 @@ eval $(/usr/bin/locale-check C.UTF-8)
 
 				fi
 	<policy user="root">
-# battery than letting it rest for example).
+
 #
 usb 0x05da 0x30cf
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -454,7 +450,6 @@ DelayedActivation=false
 #
 #!/bin/sh
 scsi "B&H SCSI"
-}
 	result=0
 
 <!--  Disable sub-pixel rendering --> 
@@ -490,7 +485,6 @@ OnlyShowIn=GNOME;
 	<!-- Prefer to match color emoji font. -->
 Name=GNOME Settings Daemon's USB protection plugin
 
-# You can also have per-user config in ~/.config/user-dirs.conf, or specify
 }
 # install prefixes.
 
@@ -513,7 +507,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 #
 	The Bistream Vera fonts have GASP entries suggesting that hinting be
 /usr/sbin/gdm3
-</fontconfig>
 /HYRGoThic-Medium /NanumGothic-Regular ;
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
 Clock*BorderColor:	light blue
@@ -524,7 +517,6 @@ if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ];
 *Scrollbar.displayList:\
   /etc/X11/app-defaults/XTerm r,
 STARTSSH=
-  # system library
 root=,magenta
 gt68xx
 update-hostname=true
@@ -559,7 +551,6 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # the root account (the options `even_deny_root>` and
 # vim:set ai et sts=2 sw=2 tw=80:
-system-db:ibus
 check_config() {
 
 *insertFile*text.?.pieceSize:		256
@@ -676,7 +667,7 @@ Exec=/usr/libexec/gsd-wacom
         <Key>q:         quit()\n
 #
       This configuration is available on the major desktop environments.
-   local script="error"
+# a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 <?xml version="1.0" encoding="UTF-8"?>
 
 #   option dumb-read
@@ -691,7 +682,6 @@ LANG=C.UTF-8
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 }
   # for -z
-# Default-Start:     S
 # Compose sequences for ISO-8859-8
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
      export XDG_DATA_DIRS
@@ -726,9 +716,8 @@ helpline=,magenta
 *dashlist*ShapeStyle: rectangle
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 #
-  /usr/share/drirc.d/{,*.conf}    r,
 #
-// This system policy file grants a set of default permissions to all domains
+case $0:$mode in
 # Compose sequences for TIS-620
 # The page set here should explain how to add new software repositories if required.
 	Options FollowSymLinks MultiViews
@@ -767,7 +756,7 @@ done
   <mime type="application/x-bzip" description="Bzip archive" priority="100" pattern="*.bz" />
   deny @{HOME}/.zshenv mrk,
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
-#    License published by the Free Software Foundation.
+This directory is provided for third party applications which need
   missingok
 exec tail -n +3 $0
 /usr/lib/x86_64-linux-gnu/libfakeroot
@@ -821,7 +810,7 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
     <edit name="hinting" mode="append"><bool>false</bool></edit>
 ## template:jinja
   if [ -x $UUIDGEN ]; then
-
+	if test "$HID2HCI_ENABLED" = 1; then
 
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 #0x2eb
@@ -878,14 +867,14 @@ run_im default
 blacklist dv1394
 #    modify it under the terms of version 2 of the GNU General Public
 roottext=,magenta
-            KERNEL_UPGRADED=1
+<?xml version="1.0"?>
     <alias>
 # value is 80) and nonProxyHosts is a '|' separated list of hostnames which
 /var/log/apt/term.log {
   #include <abstractions/private-files>
   #include <abstractions/opencl-mesa>
   -->
-# need this to enable the arrow keys.
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 # This file is a simple placeholder to keep dpkg from removing this directory
 #  normal - Check to see if a new release is available.  If more than one new
 56f12ada18a3412ab1f9dcd69450be95
@@ -921,7 +910,6 @@ compose '`' 'O' to '“'
 # Compose sequences for IBM1133
 	$0 stop
 BRIDGE_HOTPLUG=no
-# ------------------------------------------------------------------
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
 
@@ -946,13 +934,12 @@ Requires=snap-lxd-18150.mount
 /dev/camera
 #    Copyright (C) 2009 Canonical Ltd.
 application/x-texinfo				texinfo texi
-# be polyinstantiated based on the MLS level part of the security context as well as user
+scsi RICOH IS60
 
 #
 type=file
 # type and run a series of external commands (fortune,
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-   "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/ r,
 #children_max=
 disable_root: true
@@ -1074,3 +1061,11 @@ XClock.input: false
 Á,A%§
 # Insert here your local magic data. Format is described in magic(5).
 
+URI = https://changelogs.ubuntu.com/meta-release
+
+  # a user-session socket has already been set up.
+  /usr/bin/iconv rm,
+FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
+        </policy>
+#
+SETTINGS="$(gather_settings HARDWARE_DMA_RING_)"
