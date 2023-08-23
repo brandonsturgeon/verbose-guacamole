@@ -3,7 +3,6 @@ Ubuntu 22.04 LTS (Jammy Jellyfish)
 #Source user defined xsessionrc (locales and other environment variables)
 #
 /var/log/auth.log
-	export AWKPATH="$*:$AWKPATH"
 Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
@@ -73,13 +72,12 @@ APT::Archives::MinAge "2";
   if [ "$add_etc_modules" ]; then
 188	ospf
   /var/lib/acme/live/* r,
-  </alias>
 <?xml version="1.0"?>
   # shared python paths
 		</test>
 #
 # EDAC driver for amd76x clashes with the agp driver preventing the aperture
-# ~/calendar files to be checked daily.  Calendar will send them mail
+# unprivileged users cannot use them by default. System owners can still
 /var/log/btmp {
 # It has been reported that passwords should be enclosed with ticks/quotes
 
@@ -91,7 +89,7 @@ APT::Archives::MinAge "2";
 
 Vendor-URL: https://www.debian.org/
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-
+! MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 #option disable-calibration
 compose '"' 'A' to 'Ä'
 #
@@ -159,7 +157,6 @@ xterm
 #%PAM-1.0
 lock
 
-{% for server in servers -%}
 	log_begin_msg "Stopping $DESC" "$NAME"
 /var/log/boot.log
 #
@@ -171,7 +168,6 @@ XL3IlFx/6OUpBA==
       <string>DejaVu LGC Sans</string>
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main
 # so please ensure that:
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '''s/^s*[0-9]+s*//;s/[;&|]s*alert$//''')"'
 
 # Should-Start:       cgroupfs-mount cgroup-lite
 ONLY_IF_EMPTY = 0
@@ -197,11 +193,10 @@ auth    requisite       pam_nologin.so
 blacklist dv1394
 compose '`' 'u' to 'ù'
 # Case-sensitive behavior is defined by the operating system.
-# conf_force_conffold=YES
+# For more information see the dpkg-shlibdeps(1) manual page. 
        not necessary for user PulseAudio instances. -->
   owner @{HOME}/mbox          rw,
 # Compose sequences for IBM1133
-
 
 # raid1
 #select-timeout 5;
@@ -266,10 +261,10 @@ QUIET=0
 
 #
 compose ''' 'i' to 'í'
-Options=nodev,ro,x-gdu.hide,x-gvfs-hide
+0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
             COMPREPLY=( $( compgen -W "$dashoptions" -- $cur ) )
 #!/bin/sh
-title=Secure shell server, an rshd replacement
+
 
 # Compose sequences for IBM1133
 LAPTOP-5TIN5O4V
@@ -305,7 +300,6 @@ label=magenta,
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
         log_daemon_msg "Starting open-vm daemon" "vmtoolsd"
 # Try to rerun any package data downloads that failed at package install time.
-scsi APPLE
 #
 # Local users may interrogate the ntp server more closely.
 /lib32
@@ -325,14 +319,13 @@ fi
 # for it. Matches are exact only at the moment (no globbing etc.).
 #    This program is free software; you can redistribute it and/or
 			<family>DejaVu Sans</family>
-  /usr/share/dpkg/** r,
     if [ -f "$HOME/.bashrc" ]; then
 auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
 @{XDG_PUBLICSHARE_DIR}="Public"
 ## Uncomment the following two lines to add software from Canonical's
 
 # Compose sequences for ISIRI-3342
-  /etc/gnome/defaults.list r,
+<?xml version="1.0"?>
 rexd		100017	rex
    formatter=simpleFormatter
 application/ibe-pkg-reply+xml
@@ -511,7 +504,6 @@ compose ',' 'a' to '±'
 <!--  Enable sub-pixel rendering --> 
 # * Be careful about changing the environment since this is sourced
 
-data {yes
   <edit name="scalingnotneeded" mode="assign">
   /etc/profile.d/                  r,
 
@@ -613,7 +605,7 @@ ExecStop=/usr/bin/snap run --command=stop lxd.daemon
   include if exists <abstractions/dbus-accessibility-strict.d>
   # User files
 #5	russia
-  <complexType name="EncryptionPropertiesType">
+/usr/sbin/gdm3
 
 # no matching entries are found elsewhere.  For more information see the
 # Allow any user to opt into auto-launching byobu by setting LC_BYOBU=1
@@ -622,12 +614,10 @@ set -e
 
 #    Copyright (C) 2012 Canonical Ltd.
 
-# Legacy biarch compatibility support
 			<string>farsiweb</string>
 
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPgz4pnxGhnRPbzreFbZerylDneftGZKsHIMpC8KatK7pqmHPjs4EKWjSn8XoIk/uA5NccoESmo/ao5YVw= root@LAPTOP-5TIN5O4V
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
     done
 # set start_ro=1 to make newly assembled arrays read-only initially,
@@ -697,7 +687,6 @@ LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 # cloud-init generated file
 # Specify command line options here. This config file is used
 fi
-  # Note that anything that is D-Bus-activated between here and
 fi
 bazaar-properties.desktop
 
@@ -803,7 +792,6 @@ audio/x-pn-aiff=org.gnome.Totem.desktop
   <description>Set hintfull to hintstyle</description>
 # Short-Description: Configure kernel parameters at boottime
   #include <abstractions/gnome>
-
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
 <!-- File dbgenent.mod .................................................... -->
   <type name="Arial-Narrow" fullname="Arial Narrow" family="Arial Narrow" weight="400" style="normal" stretch="condensed" glyphs="arialn.ttf"/>
@@ -845,7 +833,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 ;; Created on: Fri Oct 22 09:48:21 CEST 1999
 XClock.Clock.secondColor:	rgba:00/00/ff/80
 XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
-#
+# The default Management Configuration file is:
 /dev/scanner
 #
 
@@ -907,12 +895,12 @@ compose '*' '0' to '°'
 #
 # Same as USERS_GID in adduser
 
-# ------------------------------------------------------------------
+
 rocks_trees = {
 	;;
 
   <!-- Generic name aliasing -->
-  <!-- Allow everything, including access to SetHostName to users of the group "netdev" -->
+# Compose sequences for ISO-8859-6
 
 <!ELEMENT %sequence; ((%annotation;)?, (%element;| %group;| %cs; | %any;)*)>
 [network]
@@ -986,7 +974,7 @@ STARTSSH=
   # system library
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 gt68xx
-  /usr/bin/Dooble Cx -> sanitized_helper,
+    <edit name="hinting">
 #    Copyright (C) 2014 Canonical Ltd.
   <!-- This configuration file specifies the required security policies
 #
@@ -1032,3 +1020,15 @@ X-GNOME-AutoRestart=true
 *MenuButton.leftBitmap:		None
 NoDisplay=true
   # Kubuntu
+		<test qual="any" name="family">
+# define if shading data shall be inverted befor sending it back to the scanner
+
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+  /usr/share/perl/**             r,
+CATALOG /usr/share/xml/qaml/catalog
+# the root account (the options `even_deny_root>` and
+# vim:set ai et sts=2 sw=2 tw=80:
+# SCSI
+system-db:ibus
+check_config() {
+# double-lockout scenario where a user is locked out locally and
