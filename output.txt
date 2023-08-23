@@ -14,7 +14,7 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 # Make sure the locale variables are set to valid values.
 required in any way by the specification).  The information may be useful in
 compose '^' '2' to '≤'
-    permission javax.crypto.CryptoAllPermission; 
+@include common-session-noninteractive
 # Written by Austin Donnelly <and1000@debian.org>
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 </fontconfig>
@@ -47,7 +47,7 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 #    Copyright (C) 2006 Novell/SUSE
   /var/lib/acme/live/* r,
 <?xml version="1.0"?>
-};
+Comment=GNOME Keyring: SSH Agent
 		</test>
 #
 
@@ -269,7 +269,7 @@ turkish         tr_TR.ISO-8859-9
       may simply works to avoid it.
     The Real-time kernel meets stringent preemption specifications and is suitable for
 # Compose sequences for ISO-8859-11
-
+#include <tunables/share>
 [storage]
 
 scsi CANON IX
@@ -381,7 +381,6 @@ exec >>"$ERRFILE" 2>&1
 	compress
 X-GNOME-Autostart-Phase=PreDisplayServer
 # as possible
-				echo "$var='${content}'" >> /tmp/dhclient-script.debug
 
 DISTRIB_RELEASE=20.04
 #backwards compatibility include, actual abstraction moved from php5 to php
@@ -403,7 +402,7 @@ fi
 XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 
 # To take advantage of this, it is recommended that you configure any
-        cat /run/motd.d/85-fwupd
+# javax.management.monitor.foo.Bar.
      </choice>
 	vdo_use_sparse_index=0
 *ispell*options.horizDistance:		2
@@ -444,7 +443,7 @@ bazaar-properties.desktop
 # Compose sequences for ISO-8859-5
 ports=22/tcp
 
-session		required	pam_unix.so
+# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 # Set the maximum number of FUSE mounts allowed to non-root users.
   LABEL="UEFI Firmware Settings"
   	if [ -r $CACHE ]; then
@@ -495,7 +494,6 @@ X-GNOME-Autostart-Notify=true
 	# Configuration option local/extra_system_ids.
 # This file contains a list of port numbers between 600 and 1024,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
-
 <fontconfig>
 
 # since the modules above will each just jump around
@@ -581,14 +579,13 @@ serial: 20200804
 #  if no sources are feeding it, so this may help when apps use more than the
 # System-wide GDB initialization file.
 	<!-- Prefer to match color emoji font. -->
-    label in4 "+12V"
+Name=GNOME Settings Daemon's USB protection plugin
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
   <match target="pattern">
 # install prefixes.
 
 Vendor-URL: http://www.ubuntu.com/
-
 # the value 'auto' will make the backend find the correct value
 name = NSS
 bullseye/sid
@@ -679,7 +676,6 @@ LP-PPA-ubuntu-mozilla-daily
 compose '|' '|' to '¶'
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
 
-       <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
 ### END INIT INFO
     <alias>
     echo "Usage: /etc/init.d/atd {start|stop|restart|force-reload|status}"
@@ -819,10 +815,9 @@ X-GNOME-AutoRestart=true
 # Default-Start:     S
 # Compose sequences for ISO-8859-8
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-X-GNOME-AutoRestart=true
+  <description>Load local customization file</description>
 #   TunnelDevice any:any
 SHELL=/bin/sh
-# This is the configuration file for pam_env, a PAM module to load in
   /usr/lib/nspluginwrapper/i386/linux/npviewer{,.bin} ixr,
 deb http://packages.azlux.fr/debian/ buster main
 unset USEHTTP
@@ -843,7 +838,7 @@ application/x-zip=org.gnome.FileRoller.desktop
 
 <!ATTLIST %element;
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.2/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.2/catalog.xml"/>
-#
+# Uncomment the following line if you'd like all of your users'
 DEFAULT_OUTPUT_POLICY="ACCEPT"
 # Set up the prompt
 Zaz+ortKsugmTmzsF4DlRhq0Ok0VWuq0rzWndpFyFvIewwARAQABiQI+BBgBAgAJ
@@ -886,7 +881,6 @@ XClock.Clock.minorColor:	rgba:00/7f/7f/c0
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
 [mysqldump]
 # You can even override a supported extension:
-deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 #
   <!-- <policy domain="system" name="precision" value="6"/> -->
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
@@ -925,7 +919,7 @@ APT::Periodic::Update-Package-Lists "1";
 #  the Free Software Foundation; either version 2.1 of the License, or
 
     unset XDG_SESSION_ID
-# clean all crash reports which are older than a week.
+# Set to the user saned should run as
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
     permission javax.crypto.CryptoPermission *, 128;
 	missingok
@@ -986,26 +980,25 @@ show-im-name=false
 <?xml version="1.0"?>
 commands scan this directory processing all files that end in '.conf'.
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
-# Options to pass to sshd
 # ------------------------------------------------------------------
 # vim:syntax=apparmor
   </its:rules>
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
 # 
-[Desktop Entry]
+# be able to allow access to files that are explicitly denied by the shipped
 
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 # mdadm module configuration file
 #
-    %e   event
+^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG network certificate management daemon.$
 # Uncomment and edit /etc/security/access.conf if you need to set complex
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 <Key>q: quit() \n\
 fi
 # For using an SSL/TLS protected RMI registry use the following line
 	ŸJ£Ô‚íH@âçñW∏õ2∞∏ıûv,f*IÇÖyπÛ"ÿ¥2LÜ)T¸N¯ïH‹p…õCàÙ“(S`Ö˛-Ω⁄ºôÂJï†õœ;ÜÊ;Ë°HóBeG_](3\7˘èpI…ûQç»Ö;pàVÅ&æìg¥o98?•¥4¸Ò6Y°ª™&t€yúóf;:F5=ò1à∂ü§qÿÔ‡rT≥Üè)8£];”iƒÒÅ>v,HÄ0Î¥ÒÜÆbt‹lZõù*ØI’Ú‡úL˚ã–	PÁı⁄»=_∂o•vwBÛÊ#Ø,Dª˝årœΩ©Ê§KÎ≥|•ÓÃ·uD»o˚M#Aﬂø´xäù>Ãî{qW%ö/XÃë/Î^Ú(òºÛp04o≠≤¢'Çùﬁ-?9™œë¡Lî.{7'2Méò
-#    Copyright (C) 2014 Canonical Ltd.
+# sdr-cache-directory /my/sdr/path
 }
     permission javax.crypto.CryptoAllPermission; 
 <!ATTLIST magic target CDATA #REQUIRED>
@@ -1054,7 +1047,6 @@ scsi RICOH
 		<allow send_destination="com.redhat.PrinterDriversInstaller"
   -->
 # need this to enable the arrow keys.
-# deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # This file is a simple placeholder to keep dpkg from removing this directory
 #  normal - Check to see if a new release is available.  If more than one new
 56f12ada18a3412ab1f9dcd69450be95
@@ -1065,4 +1057,17 @@ scsi RICOH
 #    exitCode may be incremented.
 
 # Increase the minimum number of selectable sources required to adjust
-#0x2eb
+  if [ -z "$XDG_CONFIG_DIRS" ]; then
+    <allow send_destination="org.gnome.DisplayManager"
+# vim:syntax=apparmor
+
+#  AutomaticLogin = user1
+#  0x4064, /* kodak Hero 5.1 */
+#bind ^P curpos main
+letter
+
+	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
+
+# ipmipower-ping-timeout 30000
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+# 
