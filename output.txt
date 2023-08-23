@@ -64,7 +64,6 @@ APT::Archives::MinAge "2";
 #
 # unprivileged users cannot use them by default. System owners can still
 /var/log/btmp {
-# It has been reported that passwords should be enclosed with ticks/quotes
 
 
 # Compose sequences for ISO-8859-11
@@ -114,9 +113,9 @@ Comment[zh_CN]=ÂêØÂä® PulseAudio Â£∞Èü≥Á≥ªÁªü
      o General entity declarations of any kind.  For example:
 commands scan this directory processing all files that end in '.conf'.
 password	include		su
-# Your system has been configured with 'manage-resolv-conf' set to true.
+
 # As a result, cloud-init has written this file with configuration data
-*ispell*look.label:			Look
+MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 .  " rather than letting it be rendered as "&minus;".
   abi <abi/3.0>,
 # shellcheck disable=SC2086
@@ -129,7 +128,6 @@ session		include		runuser
 xterm
 		<default><family>monospace</family></default>
 #
-
 #%PAM-1.0
 lock
 
@@ -144,7 +142,6 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 # so please ensure that:
 
 # Should-Start:       cgroupfs-mount cgroup-lite
-ONLY_IF_EMPTY = 0
 NAME="plymouth-log"
 10	mrt
 <delegateSystem systemIdStartString="http://globaltranscorp.org/oasis/catalog/xml/tr9401.dtd" catalog="file:///usr/share/xml/schema/xml-core/catalog.xml"/>
@@ -167,7 +164,6 @@ CATALOG /usr/share/xml/docutils/catalog
        not necessary for user PulseAudio instances. -->
   owner @{HOME}/mbox          rw,
 # Compose sequences for IBM1133
-
 # raid1
 #select-timeout 5;
 # Compose sequences for ISO-8859-6
@@ -213,8 +209,7 @@ Description=Mount unit for snapd, revision 15904
 URI_UNSTABLE_POSTFIX = -development
 
     /etc/modprobe.d/{,*.conf} r,
-
-QUIET=0
+# For some Atheros 5K RF MACs, the madwifi driver loads buts fails to
 
 #
 /dev/scanner
@@ -224,7 +219,7 @@ QUIET=0
 # received.  Note: it is not advisable to use this option with the persist
 
 # Compose sequences for IBM1133
-## user 'morgan' gets the CAP_SETFCAP inheritable capability (commented out!)
+scsi "LEO" "LEOScan-S3"
 
 
 pool {{pool}} iburst
@@ -255,7 +250,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 # Try to rerun any package data downloads that failed at package install time.
 #
 # Local users may interrogate the ntp server more closely.
-America/Los_Angeles
 	cat <<-EOF
 Wants=network.target
 scsi ULTIMA
@@ -369,7 +363,6 @@ brandon:100000:65536
   set -e
 Type=Application
 	</policy>
-blacklist sbp2
   # System files
     label in1 "Vcore"
 #option disable-calibration
@@ -384,7 +377,7 @@ blacklist sbp2
 {
 #PermitTunnel no
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
-PK!	manUTc»MÃ„PK„÷–]PK!
+mode="${mode%'}"
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 #allow 192.168/16
@@ -454,7 +447,6 @@ chip "w83627uhg-*"
 remove iwlwifi 
 fi
 #
-  abi <abi/3.0>,
         %fixedAttr;
 # Compose sequences for VISCII
 #
@@ -473,7 +465,7 @@ deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # set start_ro=1 to make newly assembled arrays read-only initially,
 [PStore]
     <Directory>X-GNOME-Other.directory</Directory>
-Ubuntu 22.04.2 LTS
+
 
 bookworm/sid
 
@@ -572,7 +564,6 @@ for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; 
   </its:rules>
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 }
-
 
 #fudge 127.127.8.1 time1 0.0042        # relative to PPS for my hardware
 
@@ -701,7 +692,6 @@ eval $(/usr/bin/locale-check C.UTF-8)
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
 <!DOCTYPE typemap [
 127.0.0.1	tattoo-heute.com
-254	main
 do_status () {
 # battery than letting it rest for example).
 #
@@ -718,7 +708,6 @@ image/jpg=org.gnome.eog.desktop
 #
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
-#
 /dev/scanner
 scsi "B&H SCSI"
 // Country-specific policy file for countries with no limits on crypto strength.
@@ -750,7 +739,6 @@ allocation {
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
 #!/bin/sh
-  /usr/bin/citadel Cx -> sanitized_helper,
 #   2 = handle as i/o error
 #               -> put your type of protocol instead of 'https' : http or https.
 # This file is sourced by Xsession(5), not executed.
@@ -759,7 +747,6 @@ compose '*' '0' to '∞'
 #!/bin/sh
 # installkernel must call postinst.d with two args, version & image_path
 #
-# not necessary when using systemd as init system (Debian's default).
 
 
 	;;
@@ -922,7 +909,6 @@ auth    optional        pam_gnome_keyring.so
 ## IPMI_Fan_Device_Present
 $x-display-manager gdm3
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
-
     monthly
 Ëç_âD´Æ»æEüƒd˘WMØµ0Lí∆>?Üê¥Ÿ◊Ñè[˛öfô6∆¸‹Ñ	*ánçµ9ê+›K¯¢∑|#Ô17WÌ§÷&J˜1ÒÈg‹~÷≈=¿æcC°“5∞ÿaè
 # Read man sane-mustek_usb for documentation
@@ -986,7 +972,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 
 #
 # Defaults can be restored by simply deleting this file.
-#Source user defined xsessionrc (locales and other environment variables)
+#
 LANG=C.UTF-8
 		<!-- https://en.wikipedia.org/wiki/Category:Mathematical_OpenType_typefaces -->
   audit deny @{HOME}/.kde{,4}/Autostart/{,**} wl,
@@ -997,8 +983,8 @@ LANG=C.UTF-8
 
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 
-[ ! -r "$stamp" ] || cat "$stamp"
-compose '_' '^' to 'Ø'
+# Short-Description: Configure kernel parameters at boottime
+esac
 #  * default: 'disabled'
 option skipDarkStrip 0
 rk0JgVoRzG3BT5yYfuxHIe4H4Axh95tW9i6urzyQkXRz14twwwcEDvl5ALrBLNJJ
@@ -1029,7 +1015,6 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
                 }
 <fontconfig>
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
-#
 # Compose sequences for KOI8-R
 # or
 		</edit>
@@ -1045,7 +1030,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 # shiftr shiftl alt keycode 37 = Decr_Console
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # This sets the filename encoding to use. You can specify an explicit
-  #include <abstractions/winbind>
+  <!ATTLIST type xmlns CDATA #FIXED '' encoding NMTOKEN #IMPLIED
 Ubuntu 20.04.5 LTS
 /dev/camera
 X-GNOME-Bugzilla-Version=3.36.0
@@ -1055,3 +1040,13 @@ usb 0x05d8 0x4010
 
 
   /etc/OpenCL/** r,
+# in the toplevel profile. Eg:
+# should not normally be necessary (under Linux at least).
+# and the kernel MPPE module available from the CVS repository also on
+# troubles on misconfigured networks
+#   limitations under the License.
+APT::Archives::MaxSize "500";
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+IPT_MODULES=""
+		<default><family>emoji</family></default>
+#[debug]
