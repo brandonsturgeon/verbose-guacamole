@@ -24,7 +24,7 @@ options md_mod start_ro=1
 
 
 APT::Periodic::AutocleanInterval "0";
-
+# This file is a simple placeholder to keep dpkg from removing this directory
 	monthly
 #
 X-GNOME-HiddenUnderSystemd=true
@@ -48,7 +48,7 @@ Comment=GNOME Keyring: SSH Agent
 # Compose sequences for ISO-8859-11
 {
 # The PAM configuration file for the Shadow 'newusers' service
-# Each line names a host to attach to.
+# This file contains common DRI-specific rules useful for GUI applications that
 compose '"' 'A' to 'Ä'
 #*)
   </match>
@@ -85,12 +85,11 @@ password	include		su
 # Compose sequences for IBM1133
 
 xterm
-    locale
   # do not use ux or PUx here. Use at a minimum ix
 twm
 ## possibly not what you want... On first reading, you might think this
 	log_begin_msg "Stopping $DESC" "$NAME"
-/var/log/boot.log
+Type=Application
    (append '(("CMakeLists\.txt\'" . cmake-mode)
 test -r /usr/share/im-config/xinputrc.common || return
 gtk-icon-sizes = panel-menu-bar=24,24
@@ -167,7 +166,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 #
 # Local users may interrogate the ntp server more closely.
 	cat <<-EOF
-Wants=network.target
 audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
 fi
@@ -204,7 +202,7 @@ fi
 ‹]ÒÇj[A†á½¯b°Z·GŽ³±§A¼ÓæH:‰¶Ž#’àÒ{ï½÷Þ{ÌåÿÞì²xg`àY|Cn[Ù-{E¿l»­½jÑÍmI#ýÅ¥…Ñz³Óít]s×¦!·bÇ¹ó…ÒõÊ¢í
 X-GNOME-Bugzilla-Bugzilla=GNOME
 # auto, /dev/paraport* (ppdev device name)
-makestep 1.0 3
+# shells invoked with the -l flag.)
 
 #  As rsync is often used for backups which aren't all that time-critical,
 
@@ -238,7 +236,6 @@ Type=Application
 # raid1
 	</alias>
 {% if nameservers is defined %}
-#
 CATALOG /usr/share/xml/qaml/catalog
 {
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
@@ -295,7 +292,7 @@ fi
 # set start_ro=1 to make newly assembled arrays read-only initially,
 	#   0 if daemon has been stopped
 
-
+/usr/bin/wine-preloader
 bookworm/sid
 
 
@@ -306,7 +303,7 @@ APT::Archives::MaxAge "30";
 ctl.!default {
 change_hat {yes
             <extension base="saml:StatementAbstractType">
-631	# cups
+SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 ## Type:        yesno
 #!/bin/sh -e
 BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
@@ -337,13 +334,11 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 # To take advantage of this, it is recommended that you configure any
 # javax.management.monitor.foo.Bar.
      </choice>
-systemd-network:x:102:
 *ispell*options.horizDistance:		2
 max_allowed_packet	= 16M
 type=file
 esac
 
-          </Not>
 # OpenCL access requirements for Intel implementation
 # the option, separated by whitespace and/or an `=' sign.
 # ctrll alt keycode 36 = Incr_Console
@@ -592,13 +587,12 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
 # subpath mappings from mount point for pinning
   <match target="pattern">
-[Desktop Entry]
 Acquire::Changelogs::AlwaysOnline "true";
 		<family>Nimbus Sans L</family>
 session	optional	pam_systemd.so 
     # pivoting into a whitelisted path.
 				/bin/plymouth message --text="${TEXT}"
-#
+    log_action_begin_msg "Synthesizing the initial hotplug events (subsystems)"
   owner @{HOME}/.cache/ rw,
 # for allowing access to xterm
 # minclass = 0
@@ -636,7 +630,6 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 	daytime_hosts => [ qw {} ],
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 SHELL=/bin/sh
-# or
   audit deny @{HOME}/.*/ rw,
   <type name="NewCenturySchlbk-Italic" fullname="New Century Schoolbook Italic" family="NewCenturySchlbk" foundry="URW" weight="400" style="italic" stretch="normal" format="type1" metrics="C059-Italic.afm" glyphs="C059-Italic.t1"/>
 # This mechanism that does not depend on a system service to operate.
@@ -677,7 +670,7 @@ nssDbMode = noDb
 LANG=C.UTF-8
       <const>lcddefault</const>
 # which broke applications in UTF-8 locales.  See:
-}
+driftfile /var/lib/chrony/drift
 *ispell*terse.internalWidth:	10
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 }
@@ -685,7 +678,7 @@ LANG=C.UTF-8
 # Compose sequences for ISO-8859-8
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
      export XDG_DATA_DIRS
-SHELL=/bin/sh
+# For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
   # dehydrated
          ;;
 unset USEHTTP
@@ -753,7 +746,7 @@ done
 # udevd is also started in the initrd.  When this file is modified you might
                     attributes in this namespace</p>
 <!ENTITY % allAttrs ''>
-  <mime type="application/x-bzip" description="Bzip archive" priority="100" pattern="*.bz" />
+fax:x:21:
   deny @{HOME}/.zshenv mrk,
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
 This directory is provided for third party applications which need
@@ -783,7 +776,6 @@ email_format=text
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 #
 session		required	pam_unix.so
-restrict -6 ::1
 # You should have received a copy of the GNU Lesser General Public License
   </complexType>
 APT::Periodic::Update-Package-Lists "1";
@@ -908,7 +900,7 @@ compose '`' 'O' to 'Ò'
 # Step the system clock instead of slewing it if the adjustment is larger than
 
 # Compose sequences for IBM1133
-	$0 stop
+
 BRIDGE_HOTPLUG=no
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
@@ -970,7 +962,7 @@ group:          files systemd
 server {{server}} iburst
 <?xml version="1.0"?>
 
-mountd		100005	mount showmount
+ - locale
 
   /var/log/lastlog  rwk,
 scsi ABATON
@@ -1010,7 +1002,6 @@ compose '\'' 'n' to 'ñ'
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
 # Compose sequences for GEORGIAN-PS
 usb 0x043d 0x007d
-/dev/scanner
 Description=Mount unit for snapd, revision 9721
 
 #    corresponding bits set to one in this mask will not have any
@@ -1058,7 +1049,7 @@ XClock.input: false
 @include common-auth
 # raid1
 31C8FD37DB9B56E708B03D1F01848B068C6DA66F36FB5D82C008C6040FA3E133
-çð,A%¤
+
 # Insert here your local magic data. Format is described in magic(5).
 
 URI = https://changelogs.ubuntu.com/meta-release
@@ -1069,3 +1060,16 @@ FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
         </policy>
 #
 SETTINGS="$(gather_settings HARDWARE_DMA_RING_)"
+# Configuration file for the hp4200 backend
+  <!-- Generic name aliasing -->
+
+		</test>
+deb http://packages.azlux.fr/debian/ buster main
+   "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
+#OK		"AT+CPIN=1234"
+
+
+GenericName=Demo geoclue agent
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+X-GNOME-Autostart-Phase=Initialization
+  /opt/novell/xad/lib64/gss/*.so* mr,
