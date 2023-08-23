@@ -51,7 +51,6 @@ scsi DEVCOM * Scanner
 Alias /javascript /usr/share/javascript/
 #
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
-esac
 
 # Case-sensitive behavior is defined by the operating system.
 /dev/scanner
@@ -77,8 +76,7 @@ Comment[as]=PulseAudio ‡¶∂‡¶¨‡ßç‡¶¶ ‡¶¨‡ßç‡¶Ø‡ß±‡¶∏‡ßç‡¶•‡¶æ ‡¶Ü‡ß∞‡¶Æ‡ßç‡¶≠ ‡¶ï
 checkbox=,magenta
 # Compose sequences for ISO-8859-8
 # Compose sequences for ARMSCII-8
-# DO NOT EDIT OR REMOVE
-0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
+# option stop_on_fsu_error: should be 0 or 1. If set to 0,
 
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 # how to byte-compile (comma separated: standard, optimize)
@@ -109,8 +107,8 @@ turkish         tr_TR.ISO-8859-9
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
 		mkdir -p /boot/grub
 	<Btn1Up>:	notify() reset()
-
-
+[ ! -r "$stamp" ] || cat "$stamp"
+# Configuration file for the hp4200 backend
 brandon:100000:65536
 LazyUnmount=yes
 
@@ -242,7 +240,7 @@ fi
 #           the currently-running release is not itself an LTS release the
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 # msgs, from, etc.)
-# the file system.
+       daily
 /usr/sbin/gdm3
   <delegate decode="hpg" command="&quot;hp2xx&quot; -sstdout=%%stderr -m eps -f `basename &quot;%o&quot;` &quot;%i&quot;;     /bin/mv -f `basename &quot;%o&quot;` &quot;%o&quot;"/>
 <?xml version="1.0" encoding="UTF-8"?>
@@ -305,7 +303,6 @@ XCalc*ti.button30.displayList:		foreground rgb:a/9/8;segments 8,-4,-9,-4,-4,-9,-
 
 # device group names
 # Provides:          gdm3
-#
 <?xml version="1.0"?>
 esac
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
@@ -407,7 +404,7 @@ KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 # libc default configuration
 }
 		<prefer>
-
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es+3ot67hZaz+cI7KRAxQD8n8R9m9Ekf9k/0WZDsfzCaIZokAbO1IYo6mznd3vsbkRgGqz6PPcURRgc1A= open-ssh-ca@cloudflareaccess.org
 15	ntk
 
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -507,7 +504,6 @@ speed=115200
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 
 Name=GNOME Settings Daemon's housekeeping plugin
-# The format of port-name is dependant on your OS version.
   /var/log/lastlog  rwk,
 #!/bin/sh
 
@@ -542,7 +538,6 @@ X-GNOME-Autostart-Phase=Initialization
 deb http://packages.azlux.fr/debian/ buster main
 
 inode/directory
-Type=Application
 # Three-pass mode (true, false)
 
 compose ',' '-' to '¨'
@@ -782,7 +777,6 @@ APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 
 # Compose sequences for ISO-8859-8
 
-
 {% for server in servers -%}# servers
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
 /GothicBBB-Medium /Japanese-Gothic-Regular ;
@@ -816,8 +810,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 # be found in /usr/share/fwupd/remotes.d/vendor/firmware
   . "$USERXSESSIONRC"
 mozilla/GTS_Root_R1.crt
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
-# Magic local data for file(1) command.
 Acquire::Changelogs::AlwaysOnline "true";
 		<family>fantasy</family>
 
@@ -901,7 +893,6 @@ POOL=""
 # mountpoins which are configured in /etc/fstab as arguments. Separate
 # This file is a simple placeholder to keep dpkg from removing this directory
 deb {{mirror}} {{codename}} multiverse
-#DefaultLimitRTPRIO=
 Terminal=false
 #  elif [ -f /etc/bash_completion ]; then
     do_status
@@ -917,7 +908,6 @@ emptyscale=magenta
 # @{securityfs} is the location where securityfs is mounted.
 6   xfrm
 {
-# This file is auto-generated. It is recommended you update it using:
 # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
  			<family>Lohit Telugu</family>
 			<string>sans</string>
@@ -930,7 +920,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # Default to PulseAudio
 
-# video device access
+*start.Justify: left
 
 # Purpose: show user warnings on login.
 +  manage_etc_hosts: True
@@ -963,7 +953,7 @@ if [ ! -x /usr/sbin/logrotate ]; then
 
 /dev/scanner
 
-	# the local host, which is determined by system_id_source.)
+type=file
       <family>DejaVu LGC Sans Mono</family>
 #  under the terms of the GNU Lesser General Public License as published by
 *Scrollbar.width:		14
@@ -975,7 +965,7 @@ eval $(/usr/bin/locale-check C.UTF-8)
 if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
 Comment=Calendar event notifications
 Clock*jewel:		yellow
-# GRUB is free software: you can redistribute it and/or modify
+session		optional	pam_keyinit.so force revoke
 if [ -f /run/motd.d/85-fwupd ]; then
 Ïˇò“Øq≥¥SüNáÔíºΩÏO20àK^WƒS¬ˆóçŸb+ø$bçﬂ√∏)KIx<ì`à"¸ô⁄6»¬¢‘,Tg5nsøX§›Â∞¢&z ‡6•ı˝∑ÔÆ?@ımZ˝Œ4 $‹t#]3]ƒ%ˆ0›]ü‡’GΩ¥Î°ªIIÿü[Ûä‰$ê‰bOO¡Øãt®—ràjzIÃ¥Fy∆±⁄òY˙u!Öe›êVŒ˚´•`ùƒù˘R∞ãΩá˘è+#
 # filenames (generally seen as "/tmp file race" vulnerabilities).
@@ -1050,7 +1040,7 @@ type=file
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 NI	-*-new century schoolbook-medium-i-normal--*-*-*-*-*-*-iso8859-1\n\
   # SASL plugins and config
-    <family>SUSE Sans Mono</family>
+deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # If we are running the GNOME session, source ~/.gnomerc
 # Run cryptdisks initscripts at startup? Default is Yes.
 9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB
@@ -1129,7 +1119,6 @@ Where=/snap/lxd/18150
 deb http://packages.azlux.fr/debian/ buster main
 *popupMenu.openFile.label:	Open File
 /var/log/ufw.log
-#
       for file in $(find $i -type f -print | LC_ALL=C sort)
   owner @{HOME}/** w,
   format and its respective coder module is defined in this configuration
@@ -1196,7 +1185,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 #
 # usb 0x4b8 0x14c
    "URL": "https://launchpad.net/~%s/+sshkeys"
-
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
 # RSYNC_IONICE='-c3'
@@ -1207,4 +1195,15 @@ DAEMON=/sbin/lvmpolld
 session    required   pam_limits.so
 Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
   <type
-/Adobe-CNS1 /ShanHeiSun-Light ;
+else:
+  Associate an image format with a unique identifier. 
+OnlyShowIn=GNOME;
+#swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
+# HP Scanjet G2710
+# Insert here your local magic data. Format is described in magic(5).
+# Compose sequences for CP1251
+# timeout). The policy plugin should contain a sane set of values by
+QT_ACCESSIBILITY=1
+# to update this file, run dpkg-reconfigure cloud-init
+*editMenu.cut.label:			Cut (Meta-C)
+
