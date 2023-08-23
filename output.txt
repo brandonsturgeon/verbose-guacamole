@@ -19,7 +19,6 @@ APT::Periodic::AutocleanInterval "0";
 ï3ïDïkï|ï£ï≥ï»ï◊ïÓï˝ï"ñ1ñTñcñyñòñÕñÿñ˘ñó+ó9ó[óeóÖóèó≠ó∫ó›óÈóòòGòRòsòÑò´òªò·òÔòô$ôKôYô}ôäô≠ôπô€ôÏôö*öWöföãöõö¡öŒöÒöˇö#õ3õYõiõèõüõ√õ“õ˜õ
 <fontconfig>
 
-scsi Nikon * Scanner
 ##
 # This file is sourced on all invocations of the shell.
 #
@@ -222,7 +221,6 @@ tcp.flag.psh	u8		tcp+13		0x08		3
 # Compose sequences for GEORGIAN-PS
 	rm -f "$TEXT_FILE"
 #    License published by the Free Software Foundation.
-session optional pam_systemd.so
 
 Before=snapd.service
 # vim:syntax=apparmor
@@ -304,7 +302,7 @@ fi
 # msgs, from, etc.)
 # the file system.
 /usr/sbin/gdm3
-        dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
+        <test name="lang">
 compose '-' '(' to '{'
 twm
 127.0.0.1	www.paginebiamnche.it
@@ -413,7 +411,7 @@ driftfile /var/lib/chrony/drift
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
       We shouldn't overwrite it with "assign" unconditionally.
-# To take advantage of this, it is recommended that you configure any
+
 twm
 -->
 # eliminate DISABLE
@@ -490,7 +488,7 @@ create_machineid() {
 
 
 # set this to 0 to disable apport, or to 1 to enable it
-commands scan this directory processing all files that end in '.conf'.
+        </test>
 		<test qual="any" name="family">
   </its:rules>
 			[[ -x /usr/lib/command-not-found ]] || return 1
@@ -517,7 +515,6 @@ case "${1}" in
 @{securityfs}=@{sys}/kernel/security/
 #
 alias gawkpath_prepend 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") then; unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKPATH "!*"":$AWKPATH"'
-PICTURES=Pictures
 *MenuButton.foreground: white
 run_im default
 roottext=,magenta
@@ -564,7 +561,6 @@ application/x-texinfo				texinfo texi
 scsi RICOH IS60
 #
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-compose '^' 'U' to '€'
 compose '`' 'a' to '‡'
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
 Acquire::Changelogs::AlwaysOnline "true";
@@ -611,7 +607,6 @@ speed=115200
 #    (at your option) any later version.
     echo "updates of cacerts keystore disabled."
 # files; in other words, files such as a sample .profile that will be
-# vim:syntax=apparmor
 # vim:syntax=apparmor
   #include <abstractions/opencl-nvidia>
   # do not use ux or PUx here. Use at a minimum ix
@@ -728,7 +723,6 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
             . /usr/share/bash-completion/bash_completion
 ## Commands metadata files.
 EnumerateAllDevices=false
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # enforce discretionary access controls) it can be used as if it did
 <?xml version="1.0"?>
 
@@ -808,7 +802,6 @@ Name=User folders update
 #scsi "K.M.E.  " "KV-SS50EX       "
  - fan
 # -Z Disable the power-saving function of certain Seagate drives
-MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 #
 	notifempty
 ### END INIT INFO
@@ -847,7 +840,7 @@ arch=`dpkg --print-architecture`
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 
 DISTRIB_ID=Ubuntu
-# This file is sourced by Xsession(5), not executed.
+0lQIZgahmcUt1qm6VW94VAio+SDCdqTx73wUsgM3t9sAwKxkEdJQQoO8PqYHV3uK
 build_name: server
 <fontconfig/>
 order hosts,bind
@@ -864,7 +857,7 @@ order hosts,bind
 #
 AutomaticReports=false
 # User "root" should get access from network 192.168.201.
-@include common-account
+# System-wide GDB initialization file.
 
 # ctrll shiftl alt keycode 36 = Incr_Console
 	</match>
@@ -898,11 +891,11 @@ LANG=C.UTF-8
 
 #   If a pattern includes a "=", it sets a limit.
 # Compose sequences for VISCII
-         	    $PYTHON $SHUTDOWN_HELPER --stop-only
+@include common-session
     (if (file-exists-p
 # Compose sequences for ISO-8859-16
 AdminIdentities=unix-group:sudo;unix-group:admin
-rocks_trees = {
+commands scan this directory processing all files that end in '.conf'.
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
 
 #
@@ -1026,7 +1019,7 @@ create
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
 lˆˇKy·ò∂`&`Úç3)ÉÀîÕh∫“$äxçãÎ‰ˆÚ-Ÿ$È=óﬂìèañì4´Vª»˝ú<,Æì˜XÍBF'–	tù@'NH\˝h˘z˛)OÿÔ–T√FÚÇ}zæπöë¿(åû¬®∫h]~—Œx¬öŒ4l$‹Cc5#ÅQ=ÖQu—é¯E;Á	k:◊∞ëpç’åFaÙF’EÎÒãˆbwïß~ê?êô°≥ZÌ°Úi≠Å38É38˜Ä≥
 
-# escape the unprintable characters, mainly for grep-ping /proc/mounts
+# the line below. However this makes the meta key not work as a meta key,
     /{,usr/}lib{,32,64,x32}/{,@{multiarch}/}libgcc_s.so* mr,
 
 <!-- File dbgenent.mod .................................................... -->
@@ -1075,14 +1068,13 @@ POOL=""
 # set start_ro=1 to make newly assembled arrays read-only initially,
 # specifically which process will be using PTRACE on the debugee:
 
-#log measurements statistics tracking
+# that it has been provided. Cloud-init, by default, will write this file
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
 Title=Vendor
 Ubuntu 20.04.5 LTS
-#
 #scsi FCPA
-  capability sys_nice,
+libXvMC.so.1
 #domain-name=local
 		return
         'impl': 'launchpad',
@@ -1107,7 +1099,7 @@ emptyscale=magenta
 # Provides:          console-setup.sh
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
 #    This program is free software; you can redistribute it and/or
-## Add external Servers using
+	unload_ipmi_modules_leave_features
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 
 SHELL=/bin/sh
@@ -1129,7 +1121,6 @@ SHELL=/bin/sh
 # ldconfig = false
   the ImageMagick option
 #include <tunables/home.d>
-# consist of one or more characters each.  The backslash "\" is used to escape
 alias.url += ("/javascript" => "/usr/share/javascript")
   # (src/intel/perf/gen_perf.c, load_oa_metrics())
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
@@ -1198,3 +1189,18 @@ CATALOG /usr/share/xml/docutils/catalog
 
 # ------------------------------------------------------------------
     case "$(LC_ALL=C stat -c '%u %g %a %F' "$DIR")" in
+*paned.allowResize:		true
+printf '\033%%G' 
+Name=GNOME Settings Daemon's housekeeping plugin
+# of MIBs is disabled by default. If you added the MIBs you can reenable
+#
+grant {
+	;;
+Vendor: Debian
+#    Copyright (C) 2002-2005 Novell/SUSE
+			<string>AR PL New Sung</string>
+#
+jD≈L“Pçù	¿âÈ˘[§Ã-ﬂVDôøõ‡b>°X*~¬Ä'Æ˚ﬁﬁÏôÃFû_~t√É¥o¬°í‚ùÜMºcR
+@include common-session-noninteractive 
+#  uid = 0
+
