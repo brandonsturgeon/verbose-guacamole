@@ -9,7 +9,6 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
     user_friendly_names yes
 # Here is the list of possible values:
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
-NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 #
 # /etc/passwd file.
 # ------------------------------------------------------------------
@@ -27,7 +26,7 @@ compose '^' '2' to '≤'
 #    modify it under the terms of version 2 of the GNU General Public
   <!-- Read in overrides and child menus from applications-merged/ -->
 mail.*				-/var/log/mail.log
-application/pkcs10; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+options md_mod start_ro=1
 
 {#
 
@@ -37,7 +36,7 @@ APT::Periodic::AutocleanInterval "0";
 	monthly
 // If you don't like it, comment it out.
 X-GNOME-HiddenUnderSystemd=true
-/dev/scanner
+CRYPTDISKS_ENABLE=Yes
 # people's needs, but debconf's database drivers can be used to do much
 {% for pool in pools -%}
 *text.baseTranslations:		#override\
@@ -45,7 +44,7 @@ X-GNOME-HiddenUnderSystemd=true
     # locale: Cannot set LC_SOMETHING to default locale
 
 # -k disable/enable the "keep_settings_over_reset" flag for this drive
-APT::Archives::MinAge "2";
+# Compose sequences for GEORGIAN-ACADEMY
 # This file is sourced on all invocations of the shell.
 #
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
@@ -118,7 +117,7 @@ lock
    (append '(("CMakeLists\.txt\'" . cmake-mode)
 XL3IlFx/6OUpBA==
 test -r /usr/share/im-config/xinputrc.common || return
-deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared jammy main
+gtk-icon-sizes = panel-menu-bar=24,24
 # so please ensure that:
 
 NAME="plymouth-log"
@@ -136,7 +135,7 @@ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 #      Default for this property is true. (Case for true/false ignored)
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
 # Case-sensitive behavior is defined by the operating system.
-       not necessary for user PulseAudio instances. -->
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
   owner @{HOME}/mbox          rw,
 # raid1
 #select-timeout 5;
@@ -268,9 +267,9 @@ version="$1"
 turkish         tr_TR.ISO-8859-9
 # or removing a feature will be allowed.
 <!ELEMENT magicmap (magic)+>
-fi
+
 {% endif %}
-esp	50	IPSEC-ESP	# Encap Security Payload [RFC2406]
+# [automount]
 	</alias>
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 America/Los_Angeles
@@ -334,7 +333,7 @@ compose ')' '-' to '}'
 
 
 fi
-#    modify it under the terms of version 2 of the GNU General Public
+# See avahi.hosts(5) for more information on this configuration file!
 # Compose sequences for GEORGIAN-PS
 #  privileged clients.  Instead the passwd.adjunct.byname table is
 #           will attempt to upgrade to the first LTS release available after
@@ -357,7 +356,6 @@ if [ "$INITRD" = 'No' ]; then
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 }
 
-◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 
 .}
 lˆˇKy·ò∂`&`Úç3)ÉÀîÕh∫“$äxçãÎ‰ˆÚ-Ÿ$È=óﬂìèañì4´Vª»˝ú<,Æì˜XÍBF'–	tù@'NHh˘z˛)OÿÔ–T√FÚÇ}zæπöë¿(åû¬®∫h]~—Œx¬öŒ4l$‹Cc5#ÅQ=ÖQu—é¯E;Á	k:◊∞ëpç’åFaÙF’EÎÒãˆbwïß~ê?êô°≥ZÌ°Úi≠Å38É38˜Ä≥
@@ -367,7 +365,7 @@ remove iwlwifi
 fi
 #
         %fixedAttr;
-#
+  </policy>
 *customization: -color
         if shopt -q progcomp && [ -r /usr/share/bash-completion/bash_completion ]; then
 			<string>AR PL UMing HK</string>
@@ -422,7 +420,7 @@ fi
   # User files
  -->
 /usr/sbin/gdm3
-APT::Archives::MaxSize "500";
+#MaxLevelSyslog=debug
 # no matching entries are found elsewhere.  For more information see the
 #    Copyright (C) 2012 Canonical Ltd.
 
@@ -480,7 +478,6 @@ bazaar-properties.desktop
 ports=22/tcp
 
 session		required	pam_unix.so
-alias net-pf-36 off
 # Set the maximum number of FUSE mounts allowed to non-root users.
   LABEL="UEFI Firmware Settings"
   	if [ -r $CACHE ]; then
@@ -561,13 +558,13 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 
 /NanumBarunGothic-Bold << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
 =RFA4
-/Adobe-CNS1-Bold /ZenKai-Medium ;
+
 			<int>180</int>
 #
 eval $(/usr/bin/locale-check C.UTF-8)
 # extra command line arguments).
 
-# file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
+				fi
 <!DOCTYPE typemap [
 	<policy user="root">
 # battery than letting it rest for example).
@@ -596,7 +593,7 @@ failure_action = ignore
 
 # Comma separated list of modules to load.
 # Compose sequences for IBM1133
-ã]“«j[AÜ·ΩØb∞Z∑Gé≥±ßAº”ÊH:â∂é#í‡“{ÔΩ˜ﬁ{ÅÃçÂˇﬁÏ≤xg`‡Y|Cn[Ÿ-{Eølª≠Ωj—ÕmI#˝≈•Ö—z≥”Ìt]s◊¶Å!∑b«πÛùÖ“ı ¢Ì
+#    Copyright (C) 2009-2011 Canonical Ltd.
 CRYPTDISKS_MOUNT=""
 
 XLoad.input:			false
@@ -616,13 +613,12 @@ OnlyShowIn=GNOME;
 ###          Currently autodiscovery seems to not work
 # Compose sequences for ISO-8859-6
 
-n22AuKKENtgYwulgJH0VQ0lJ5k1CcFuEuZqnXk5CUIC4tStdUS6hgn+vEkaJ5dX8
+serial: 20200804
 	rotate 4
 # Compose sequences for TIS-620
 		<allow own="uk.org.thekelleys.dnsmasq"/>
     family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
 #  if no sources are feeding it, so this may help when apps use more than the
-[unsetenvironment]
 # System-wide GDB initialization file.
 	<!-- Prefer to match color emoji font. -->
     label in4 "+12V"
@@ -711,7 +707,7 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 /Japanese-Gothic-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-gothic.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 system-db:ibus
 check_config() {
-deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
+
 *insertFile*text.?.pieceSize:		256
 blacklist raw1394
 
@@ -826,7 +822,6 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
   <type name="NewCenturySchlbk-Italic" fullname="New Century Schoolbook Italic" family="NewCenturySchlbk" foundry="URW" weight="400" style="italic" stretch="normal" format="type1" metrics="C059-Italic.afm" glyphs="C059-Italic.t1"/>
 #    License published by the Free Software Foundation.
 # Uncomment the following if your scanner is connected by USB,
-  <delegate decode="ps:alpha" stealth="True" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=pngalpha&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;-f%s&quot; &quot;-f%s&quot;"/>
   exec /etc/ppp/ipv6-down.local "$@"
 [genie]
 
@@ -834,7 +829,7 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 # shiftr shiftl alt keycode 37 = Decr_Console
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 #
-# rewritten.
+	echo "Usage: $SCRIPTNAME {start|stop|restart|force-reload}" >&2
 Ubuntu 20.04.5 LTS
 X-GNOME-Bugzilla-Version=3.36.0
 #!/bin/sh
@@ -936,7 +931,6 @@ if [ -x /usr/lib/update-notifier/update-motd-hwe-eol ]; then
 #
 *Background:			RoyalBlue4
 #    modify it under the terms of version 2 of the GNU General Public
-# See kernel-img.conf(5) for details
 done
 # Entries in this file show the compile time defaults.
 
@@ -977,7 +971,7 @@ stamp="/var/lib/ubuntu-advantage/messages/motd-esm-announce"
 exec tail -n +3 $0
 /usr/lib/x86_64-linux-gnu/libfakeroot
 	# no need for suffix if we have units set
-################################################################################
+[Distro]
 <?xml version="1.0"?>
 # it doesn't refer to a specific home directory (AppArmor doesn't
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
@@ -1012,7 +1006,6 @@ restrict -6 ::1
 APT::Periodic::Update-Package-Lists "1";
 /var/log/apt/term.log {
 
-  </its:rules>
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
     "dns": ["1.1.1.1", "1.0.0.1", "8.8.8.8", "4.4.4.4"]
 ##############################################################################
@@ -1064,3 +1057,14 @@ commands scan this directory processing all files that end in '.conf'.
     </event>
 # vim:syntax=apparmor
 :Œîå‰gvwbNB3Ù‚3‰œiKœœ\§?¯€B±ˆ†Yg„we7å6©Äªù	¬jQ:‹⁄(q∫îÈ]ÿ±Á1ºy:ˇBQ%Ø~2±,≥ﬂ5‡í⁄êã‹áÑ#ôË∂a‘ÍÃÈ.à;˜}uY…»¢[U¸Wû«®b•kG=ïUµ‰põ†x–MﬁW‘AhÆ«û≤úï0…8‘Ã{@ù‚ r‘ﬁ•LJÓ…t—O=]m-bÃ˝Fb¸Ùaiõ¬ÛLp:∞Um>oŸî–óË˝WÃú+ø∞“@†˙iAAE˛9·	Ú‘‰ëˇLîèQÿ|?∆1Tπ·Äæi0„i¶•„/ós'ºb;äj`ø”√cTB\‰2èk]¥¨ÿo˛ìˆ!∏jéÅÚÀà{e
+			[[ -x /usr/lib/command-not-found ]] || return 1
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+
+[Desktop Entry]
+
+#APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
+# mdadm module configuration file
+#
+    %e   event
+# Uncomment and edit /etc/security/access.conf if you need to set complex
+KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
