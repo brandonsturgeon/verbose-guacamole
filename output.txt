@@ -136,7 +136,6 @@ CATALOG /usr/share/xml/docutils/catalog
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
 # javax.management.monitor.foo.Bar.
-
 @{multiarch}=*-linux-gnu*
 [fwupd Remote]
 
@@ -148,7 +147,6 @@ session		optional	pam_keyinit.so force revoke
 deb {{security}} {{codename}}-security universe
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
-# Defines whether the mail spool should be created while
 #    This program is free software; you can redistribute it and/or
 ports=22/tcp
 
@@ -218,7 +216,7 @@ max_allowed_packet	= 16M
 [connection]
    "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
-    delaycompress
+user-db:user
   #include <abstractions/kde>
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
 net.ipv4.conf.all.rp_filter=2
@@ -230,7 +228,7 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
       awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
 LP-PPA-ubuntu-mozilla-daily
 /dev/scanner
-start|restart|force-reload|status)
+eval $(/usr/bin/locale-check C.UTF-8)
 letter
   </rejectfont>
 [fwupd Remote]
@@ -325,7 +323,8 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 #
 # packets
 
-
+Ubuntu 20.04.5 LTS 
+ l
 # ------------------------------------------------------------------
 #
   </its:rules>
@@ -439,7 +438,6 @@ compose '"' 'O' to 'Ö'
 
 deb http://packages.azlux.fr/debian/ buster main
 
-inode/directory
       Most clients may picks up the first value only. so using "append"
 
 compose ',' '-' to '¬'
@@ -457,7 +455,6 @@ encryption=luks1
 # Compose sequences for KOI8-U
 # ------------------------------------------------------------------
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 8x13         -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 	do_stop
 # how to byte-compile (comma separated: standard, optimize)
@@ -474,7 +471,6 @@ scsi FCPA
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 
-# Compose sequences for IBM1133
 # IPMI_Chip_Set_Transition_Severity_Informational                                    Nominal
 	</match> 
 # with the multiqueue (mq) policy and uses less memory.
@@ -559,7 +555,7 @@ scsi RICOH
 
 [Desktop Entry]
 #
-# Each line can contain optional arguments separated by :
+Type=Application
 search updates ubuntu built-in
 #    . /etc/bash_completion
   #include <abstractions/dbus-strict>
@@ -631,7 +627,6 @@ PICTURES=Pictures
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 
 # attempts.
-
 {% for server in servers -%}# servers
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
 <fontconfig>
@@ -649,7 +644,6 @@ scsi FCPA
        path=/org/freedesktop/Notifications
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 Comment=GNOME Keyring: SSH Agent
-# If the configuration for your Huawei modem uses the standard switching method,
 # DO NOT EDIT OR REMOVE
 
 #
@@ -658,7 +652,7 @@ Exec=/usr/bin/snap userd --autostart
 [Desktop Entry]
 # be found in /usr/share/fwupd/remotes.d/vendor/firmware
   . "$USERXSESSIONRC"
-mozilla/GTS_Root_R1.crt
+    </event>
 Acquire::Changelogs::AlwaysOnline "true";
 		<family>fantasy</family>
 
@@ -699,12 +693,10 @@ usb 0x1083 0x1622
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # - What to do after sleep-inactive-ac-timeout
-fi
 # This sets the IM variables on Wayland.
 #port=/dev/term/a
 #
 NoDisplay=true
-# @{HOMEDIRS}.
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 StartupNotify=false
     start-stop-daemon --start --pidfile /dev/null \
@@ -735,7 +727,6 @@ deb {{mirror}} {{codename}} multiverse
 #
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
 ù”`ŞÉVF2eEÆÇ …›wñÄ#5¾mz·¿b¢¾¸è^|µR-	Lå­&‰3
-domain {{domain}}
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 # The username of the user logging out is provided in the $USER environment
 # @{securityfs} is the location where securityfs is mounted.
@@ -772,12 +763,10 @@ if [ ! -x /usr/sbin/logrotate ]; then
 # Specify file containing keys for NTP authentication.
 
   <!ELEMENT type EMPTY>
-    %d   domain
 
 
 type=file
 *Scrollbar.width:		14
-rtcsync
 
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
 if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
@@ -869,7 +858,7 @@ RUN_AS_USER=saned
 # symbolic names for networks, see networks(5) for more information
 #@{XDG_VIDEOS_DIR}+=""
  -->
-# Read man sane-pieusb for documentation
+
 # BYOBU_BACKEND can currently be "screen" or "tmux"
 # See sane-microtek2(5) for a description of the options
 [Distro]
@@ -921,7 +910,6 @@ APT::Periodic::Unattended-Upgrade "1";
 gtk-icon-sizes = panel-menu-bar=24,24
 #include <tunables/share>
 
-/var/log/wtmp {
 # The maximum credit for having digits in the new password. If less than 0
 # xserver-xorg-legacy package using values from the debconf database.
   "file:///usr/share/xml/schema/xml-core/catalog.dtd">
@@ -933,7 +921,7 @@ gtk-icon-sizes = panel-menu-bar=24,24
 
 
 # HP scanjet 4400c
-deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+
 # will be used
 fi
 # To use a specific scsi device
@@ -954,7 +942,7 @@ kernel.yama.ptrace_scope = 1
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 # or on the command line.
   00_*: Reserved for 00_header.
-<!ATTLIST color color CDATA "rgb(0,0,0)">
+	fi
 
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 #
@@ -1108,7 +1096,7 @@ CATALOG /usr/share/xml/docutils/catalog
 # This mechanism that does not depend on a system service to operate.
 #
 d /run/screen 1777 root utmp
-wifi.scan-rand-mac-address=no
+#   https://bugs.debian.org/858528
   /usr/share/vulkan/{explicit,implicit}_layer.d/{,*.json} r,
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
 # run rsyncd at a nice level?
@@ -1120,7 +1108,6 @@ export PATH
 <!ENTITY % maxLength "%p;maxLength">
 [Unit]
 	start)
-#
       Most clients may picks up the first value only. so using "append"
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf
 Type=Application
@@ -1200,3 +1187,15 @@ run_im default
 # Timeout for the initial connection to saned. This will prevent the backend
 
 has led to the following conventions in usage:
+*fieldBox*field0.Label:	fndry
+# deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
+! load color-specific resources for clients that have them
+[Desktop Entry]
+#    Use the ip command to remove all the addresses of an interface.
+#    modify it under the terms of version 2 of the GNU General Public
+  /usr/lib{,32,64}/ruby/gems/1.[89]{.[0-9],}/** r,
+# Scripts in this directory are executed as root when a user log out from
+Type=Application
+############################################################
+# or simply
+# Setup file rotation - keep 3 files
