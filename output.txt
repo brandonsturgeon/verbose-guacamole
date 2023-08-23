@@ -4,7 +4,7 @@ Ubuntu 22.04 LTS (Jammy Jellyfish)
 #
 /var/log/auth.log
 	export AWKPATH="$*:$AWKPATH"
-143 188 143		DarkSeaGreen
+Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
   # indicator
@@ -44,7 +44,7 @@ fi
 mail.*				-/var/log/mail.log
 
 
-# The following is a space-separated list of where additional user home
+{#
 
 
 # Compose sequences for GEORGIAN-PS
@@ -55,7 +55,7 @@ mail.*				-/var/log/mail.log
 QT_ACCESSIBILITY=1
 [ -x /sbin/vgchange ] || exit 0
 overlayroot_cfgdisk=LABEL=OROOTCFG
-  /usr/bin/emacsclient.emacs2[2-9] Cxr -> sanitized_helper,
+# people's needs, but debconf's database drivers can be used to do much
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
 *text.baseTranslations:		#override\
@@ -162,7 +162,7 @@ lock
 {% for server in servers -%}
 	log_begin_msg "Stopping $DESC" "$NAME"
 /var/log/boot.log
-#canon.conf
+#
 # and user name in $4.
 XL3IlFx/6OUpBA==
     if [ -f "$HOME/.bashrc" ]; then
@@ -213,7 +213,6 @@ ${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
 fi
     fi
 Acquire::Changelogs::AlwaysOnline "true";
-#bind ^G findnext all
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 # console I usually leave idle.
 #
@@ -232,7 +231,6 @@ Title=Vendor
 
 # symbolic names for networks, see networks(5) for more information
 swedish         sv_SE.ISO-8859-1
-www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 </fontconfig>
 XClock.input: false
   #
@@ -259,7 +257,6 @@ trusted.SGI_DMI_*		skip		# xfs specific
       We shouldn't overwrite it with "assign" unconditionally.
 SáÊó:]C+¼İ˜·MÌÖGşp‚ô£ã×?ÒÇM”±àã@‡Òü³w>‚­ŸÂÏM?ÛƒX“YŠ®Ke>(pë9l‚ŒÃnÏÎŒ,<Í™zV@q-NúãÓ—şÔxÔ“Ö`”~ju©äÑ]bz1zü'ÓN}ÊÆa?t¨Q}ÜÍïÓP[Äÿ„!¿öØˆ=ºİ
 Description=Mount unit for snapd, revision 15904
-# permissions for querying dconf settings; granting write access should
 URI_UNSTABLE_POSTFIX = -development
 
     /etc/modprobe.d/{,*.conf} r,
@@ -315,11 +312,11 @@ scsi APPLE
 America/Los_Angeles
 	cat <<-EOF
 Wants=network.target
-# ------------------------------------------------------------------
+scsi ULTIMA
 # For more details, please see /etc/apparmor.d/local/README.
 # Magic local data for file(1) command.
 fi
-	<alias binding="same">
+fi
   #/{,var/}run/mysqld/mysqld.sock rw,
 
   log_action_end_msg $?
@@ -344,7 +341,6 @@ X-GNOME-AutoRestart=true
 [ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
 }
 # the terms of the GNU General Public License as published by the Free Software
-#backwards compatibility include, actual abstraction moved from php5 to php
 
 		exit 0
     unset XDG_SESSION_ID
@@ -399,7 +395,6 @@ gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologi
 version="$1"
 # If you want to globally change where snmp libraries, commands and daemons
 #
-# Example (generic):
 
 #
 
@@ -478,7 +473,7 @@ AutomaticSecurityReports=false
 <fontconfig>
 	A¼tattooUTPK!!{Yl	ˆ¼taxUTPK!Òw0	É¼taxiUTPK!~ñ¯	½tcUTPK!_Œ<	W½tciUTPK!¡ŠJ	˜½tdUTPK!Xø}	â½tdkUTPK!Ãy~}%	#¾teamUTPK!U¶	|¾techUTPK!˜ú#F
 
-	û„?'/[¬öˆß§¿|L¥
+blacklist rivafb
 ## extensively as that contained in the main release, although it includes
 #net.ipv4.ip_forward=1
     user_friendly_names yes
@@ -531,7 +526,7 @@ auth		sufficient	pam_rootok.so
 # set statuscolor brightwhite,magenta
 
 if [ "$INITRD" = 'No' ]; then
-
+# Specify the key identifier to use with the ntpq utility.
 }
 
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
@@ -589,7 +584,7 @@ session		optional	pam_keyinit.so force revoke
 # /usr/bin/gvfs-open rPx -> foo//gvfs-open,
 BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
   abi <abi/3.0>,
-letter
+  # mouse themes
       without rebooting a machine which drastically limits the need for
 compose ',' 'A' to '¡'
 #
@@ -624,7 +619,6 @@ ExecStop=/usr/bin/snap run --command=stop lxd.daemon
 # Allow any user to opt into auto-launching byobu by setting LC_BYOBU=1
   # owns on removable media and filesystems.
 set -e
-
 
 #    Copyright (C) 2012 Canonical Ltd.
 
@@ -693,7 +687,7 @@ fi
 # authentication via PAP, CHAP and similar protocols.
 }
   abi <abi/3.0>,
-  include <abstractions/consoles>
+LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 #dateext
 ### END INIT INFO
 #
@@ -708,12 +702,10 @@ fi
 bazaar-properties.desktop
 
     fi
-  <description>Enable sub-pixel rendering with the vertical BGR stripes layout</description>
 
 
   <!-- <magic name="GIF" offset="0" target="GIF8"/> -->
 alias net-pf-36 off
-
 
     while(<$plist>) {
   	if [ -r $CACHE ]; then
@@ -754,7 +746,7 @@ X-Snappy=yes
 # Authors:
 #
 
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+	daytime_hosts => [ qw {} ],
 # Some "catch-all" log files.
 # Compose sequences for ISO-8859-16
 0	unspec
@@ -767,7 +759,7 @@ do_bootloader = no
 
 	fwsetup
 # abstraction for allowing access to graphical browsers in Ubuntu
-            bindkey -M "$i" "$sequence" "$widget"
+            COMPREPLY=( $( compgen -W 'IN CH HS' -- "$cur" ) )
 
 #
 # device group names
@@ -801,7 +793,7 @@ font='Monospace 16'
 start_it_up()
 audio/x-pn-aiff=org.gnome.Totem.desktop
 
-unset SUBMITURLS
+
 						;;
      It is enabled by default with Ubuntu Pro. You can find out more about
     done
@@ -809,7 +801,7 @@ unset SUBMITURLS
 ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
 0x70	AF32
   <description>Set hintfull to hintstyle</description>
-link-local 169.254.0.0
+# Short-Description: Configure kernel parameters at boottime
   #include <abstractions/gnome>
 
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
@@ -843,10 +835,9 @@ enabled=1
 127.0.0.1	tattoo-heute.com
       <enumeration value="maxExclusive"/>
 254	main
-*replace.accelerators:#augment\
+audio:x:29:brandon,pulse
 # battery than letting it rest for example).
 
-scsi FCPA
 #  1. command line options
 ipcomp	108	IPCOMP		# IP Payload Compression Protocol
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
@@ -892,7 +883,7 @@ failure_action = ignore
 generateResolvConf = false
 		<test qual="all" name="color" compare="not_eq">
 # http://ppp.samba.org/, which is packaged for DKMS as kernel_ppp_mppe.
-				R="${R}domain $new_domain_name
+
 <delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML" catalog="file:///etc/xml/docbook-xml.xml"/>
 int   SYS_listxattr(string,addr,uint);
 Oğô„=i£‹­Ù;'«¼MrF‚T=pnÙva·[»ÚÕÌŞw¼?^ç¤?Æš·CÃÜ<7Ú(bb_ÇKı=´«=É;Knc$H¾P¢]ÅÖä.—·É‹$-î’‹²Ó$°ËŸÓ²ºº‡lÁÛqFÒ2d_ ÓF#[É÷l’Ò&+&„X¯mx‚§'á©]s±ïÒë˜Í*¶şka)o#ÓLÀL¾q&*¸°'Xb¦!räÈû—k÷ñì™Ñ;—Kú2%şÚ’¢>ê?¡úê§‘†_“pyq¿¹¢£EÛ¬8UÉc–¸¶Tâ°bœœœœœœœ‘Ï|FÔÍ‰Ø"ø,¼	)T{(ğÒªi+o¼À¼À«AÒæª°·ù/¢Gíj`o“ëşšGŠ´©î±±±¼&¸p5”WÃ´ö5Dˆ!BìXÔ¢ñğÈ]Ö!A‚é–eyÆ3ÇÏœ]¶ó£gr~¹&NÄ9‰s'Y9ùu˜9«0"ÎmEÎqüí–ÄK²tò„j‰³»8‘ŸìòçÂÆ*‰¢ä–Zw¨?vÈ¿ÙR3×É-k¹ñ×„İÿ»“İ†yp]˜ãc¶xèOŒEñ†Æ—EÍµ^“VÛ¦ä&Lv™¬øümô!’Í†‘ÏˆÂ˜Ğ$©sÆ»»çós’‡¡ÕüÜ!7$½§]-ØR+)ÙFaàç´—¬‰O{¾M²,¼¢tnühGMç†8›d®B’fNv®òè¯<O©Æ;ÈSÚöÏ\W”pµã§„raÿcšì¶™3|şÜcv{ó’Ue§ hf¼*í÷*¼+Ü^¥ÉšÄÎ+›'ÁÚ¹½¦¨èYyÚh«0.ÎHXüâQ¦ä/Å9òé_&òwp4)–f©•ÕT/Ù¶©–¶­ÖÒ(ïq»Z™lÉöAåvÌ3ÊşÌÓ·z¨9£uÕÒ¶ÕZµœÑÚZ™lÉ¶ñŒVÚĞF:*ØuùBGc¶£’ØY¤„¼¼8svûFùß™g@ÿ§ç»ß¿sXöS‘Å‘£gYjÙóŠÛ˜²ÆknãM‘İä–myãmÿNı‚Ş
@@ -1033,3 +1024,11 @@ fi
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
+  /var/yp/binding/*           r,
+X-GNOME-AutoRestart=true
+    permission javax.crypto.CryptoPermission *, 128;
+# Compose sequences for CP1255
+# Any customisation or reliance on the existence of this file and its
+*MenuButton.leftBitmap:		None
+NoDisplay=true
+  # Kubuntu
