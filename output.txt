@@ -13,7 +13,7 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 ï3ïDïkï|ï£ï≥ï»ï◊ïÓï˝ï"ñ1ñTñcñyñòñÕñÿñ˘ñó+ó9ó[óeóÖóèó≠ó∫ó›óÈóòòGòRòsòÑò´òªò·òÔòô$ôKôYô}ôäô≠ôπô€ôÏôö*öWöföãöõö¡öŒöÒöˇö#õ3õYõiõèõüõ√õ“õ˜õ
 <fontconfig>
 # This file is sourced on all invocations of the shell.
-APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
+	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
 # Specify directory for log files.
       <family>Noto Mono</family>
 #    Copyright (C) 2011 Novell/SUSE
@@ -248,7 +248,7 @@ LP-PPA-ubuntu-mozilla-daily
 start|restart|force-reload|status)
 letter
   </rejectfont>
-DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
+			<string>DejaVu Sans Mono</string>
 [fwupd Remote]
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
@@ -265,7 +265,6 @@ mail.err			/var/log/mail.err
 # their current one is listed in /etc/shells. This keeps
 0x38	AF13
 /libx32
-         cloud-init dhclient-hook down "$interface";;
 
 CATALOG /usr/share/xml/docutils/catalog
 
@@ -322,10 +321,10 @@ switch($TERM)
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 X-Ubuntu-Gettext-Domain=gnome-keyring
-
+/lib/i386-linux-gnu
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
 exec tail -n +3 $0
-# CLOUD_IMG: This file was created/modified by the Cloud Image build process
+/URWGothicL-Book (/usr/share/fonts/type1/gsfonts/a010013l.pfb) ;
   convenient to refer to a color by name (e.g. white) rather than by hex
   (debian-pkg-add-load-path-item
 # ldconfig = false
@@ -350,12 +349,11 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 
 # ------------------------------------------------------------------
 # Vulkan access requirements
-		<test qual="any" name="family">
+#
   </its:rules>
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # published by the Free Software Foundation; either version 2 of the
 0x48	AF21
-KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 
 }
 		<prefer>
@@ -372,7 +370,7 @@ case "${1}" in
 *MenuButton.foreground: white
 [upower]
 roottext=,magenta
-
+LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
 # device group names
@@ -417,7 +415,6 @@ group:          files systemd
 server {{server}} iburst
 <?xml version="1.0"?>
 
-OrderBefore=lvfs,fwupd
 
 HuaweiAltModeGlobal=0
 restrict 127.0.0.1
@@ -453,7 +450,7 @@ Name=GNOME Settings Daemon's housekeeping plugin
 # Dell A920
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
-        %facetAttr;
+# Compose sequences for KOI8-U
 blacklist rivafb
 
 # inclusion by distributed profiles to aid in packaging AppArmor for
@@ -632,7 +629,6 @@ order hosts,bind
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 . /usr/share/bash-completion/bash_completion
  - chef
-[tunables]
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
   # Scanning for USB devices
 <!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
@@ -659,13 +655,12 @@ IgnorePower=false
 /Adobe-CNS1 /ShanHeiSun-Light ;
 IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
 compose 'c' 'o' to '©'
-
 gtk-theme-name = Yaru
 PICTURES=Pictures
 # Compose sequences for ISO-8859-8
     # locale: Cannot set LC_SOMETHING to default locale
 
-
+*search*manualPage.Label:	Manual Page
 @{multiarch}=*-linux-gnu*
   /etc/bash.bashrc.local           r,
 /MKai-Medium /ZenKai-Medium ;
@@ -680,7 +675,6 @@ PICTURES=Pictures
 <fontconfig>
 # set this to 0 to disable apport, or to 1 to enable it
   /usr/bin/apport-bug Cx -> sanitized_helper,
-# implementation-independent OpenCL access requirements
 
 # Common rules for Qt5-based applications
     exec /usr/lib/update-notifier/update-motd-fsck-at-reboot
@@ -746,7 +740,7 @@ usb 0x1083 0x1622
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # - What to do after sleep-inactive-ac-timeout
 fi
-14E6D2764A4B06701C6CBC376A253775F79C782FBCB6C0EE6F99DE4BA1024ADD
+# This sets the IM variables on Wayland.
 #port=/dev/term/a
 #
 NoDisplay=true
@@ -760,7 +754,6 @@ StartupNotify=false
 #
 # avoid running multiple times
 
-# Defaults can be restored by simply deleting this file.
 X-GNOME-Autostart-Notify=true
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
             <string>serif</string>
@@ -768,7 +761,7 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 # If environment variable WPA_ACTION_SCRIPT is present, wpa_cli will
 #   distributed under the License is distributed on an "AS IS" BASIS,
 
-        'impl': 'launchpad',
+			<family>padmaa</family> <!-- gujarati -->
 # Agent configuration options
 #PAGER		DEFAULT=less
 
@@ -816,7 +809,6 @@ system-db:ibus
 X-Ubuntu-Gettext-Domain=gnome-keyring
 # As of pam 1.0.1-6, this file is managed by pam-auth-update by default.
 </busconfig>
-
 #
 
 if [ ! -x /usr/sbin/logrotate ]; then
@@ -828,7 +820,6 @@ if [ ! -x /usr/sbin/logrotate ]; then
 /dev/scanner
 
 type=file
-      <family>DejaVu LGC Sans Mono</family>
 *Scrollbar.width:		14
 rtcsync
 
@@ -867,7 +858,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 56f12ada18a3412ab1f9dcd69450be95
 # symbolic names for networks, see networks(5) for more information
 #    /etc/overlayroot.local.conf
-#keyfile /etc/chrony.keys
+#!/bin/sh -e
 }
   owner @{HOME}/.fonts.cache-2          mr,
 BYOBU_BACKEND="tmux"
@@ -896,7 +887,7 @@ session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 restrict -6 default notrap nomodify nopeer noquery
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
-  <description>Load local customization file</description>
+*directoryFontNormal:		-*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
 usb 0x03f0 0x0105
 XCalc*ti.button48.fromVert:		button43
 type=file
@@ -928,7 +919,6 @@ RUN_AS_USER=saned
 # symbolic names for networks, see networks(5) for more information
 #@{XDG_VIDEOS_DIR}+=""
 	;;
-  </its:rules>
 # Read man sane-pieusb for documentation
 # BYOBU_BACKEND can currently be "screen" or "tmux"
 # See sane-microtek2(5) for a description of the options
@@ -1004,7 +994,6 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 fi
 # To use a specific scsi device
 @include common-account
-DF21016B00FC54F9FE3BC8B039911BB216E9162FAD2FD14D990AB96E951B49BE
 
 # DO NOT EDIT OR REMOVE
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
@@ -1200,3 +1189,15 @@ export PATH
       Most clients may picks up the first value only. so using "append"
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf
 Type=Application
+# It receives polydir path as $1, the instance path as $2,
+@{HOME}=@{HOMEDIRS}/*/ /root/
+# here's the fallback if no module succeeds
+
+MetadataURI=file:///usr/share/fwupd/remotes.d/dell-esrt/metadata.xml
+#    modify it under the terms of version 2 of the GNU General Public
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+# look for all devices with vendor ID "SHARP" and type "Scanner"
+9ED8F9B0E8E42A1656B8E1DD18F42BA42DC06FE52686173BA2FC70E756F207DC
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
+c0583bt_.pfb -bitstream-courier 10 pitch-bold-r-normal--0-0-0-0-m-0-iso8859-1
+            break;
