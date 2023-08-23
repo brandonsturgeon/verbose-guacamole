@@ -79,7 +79,6 @@ APT::Archives::MinAge "2";
 		</test>
 #
 # EDAC driver for amd76x clashes with the agp driver preventing the aperture
-
 # ~/calendar files to be checked daily.  Calendar will send them mail
 /var/log/btmp {
 # It has been reported that passwords should be enclosed with ticks/quotes
@@ -135,7 +134,6 @@ session		include		runuser
 #%PAM-1.0
 commands scan this directory processing all files that end in '.conf'.
 password	include		su
-[msr]
 # Your system has been configured with 'manage-resolv-conf' set to true.
 # As a result, cloud-init has written this file with configuration data
 *ispell*look.label:			Look
@@ -153,7 +151,7 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 		<edit name="family" mode="prepend" binding="strong">
 session		include		runuser
 
-compose '/' '<' to '\\'
+This file /etc/cloud/templates/hosts.suse.tmpl is only utilized
 xterm
 		<default><family>monospace</family></default>
 #
@@ -193,7 +191,6 @@ session    required   pam_env.so readenv=1 user_readenv=0
 # Default is yes
 		<test qual="any" name="family">
 
-driftfile /var/lib/chrony/drift
 auth    requisite       pam_nologin.so
     [ -x /sbin/restorecon ] && /sbin/restorecon -R /dev
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
@@ -220,7 +217,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 # console I usually leave idle.
 #
-       interface=org.freedesktop.DBus
 
 # Compose sequences for ISO-8859-5
   . "$USERXSESSIONRC"
@@ -253,7 +249,6 @@ driftfile /var/lib/chrony/chrony.drift
 fi
 
         ShortDescription "Commands-$(NATIVE_ARCHITECTURE)";
-  # per-user settings and dictionaries
 commands scan this directory processing all files that end in '.conf'.
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 
@@ -266,7 +261,6 @@ S· éÛ:]C+º›ò∑MÃ÷G˛pÇÙ£„◊?é“«ùMî±‡„@á“¸≥w>Ç≠ü¬œçèM?€ÉXèìYäÆKe>(pÎ9lÇå√nœŒå
 Description=Mount unit for snapd, revision 15904
 # permissions for querying dconf settings; granting write access should
 URI_UNSTABLE_POSTFIX = -development
-application/vnd.mobius.dis
 
     /etc/modprobe.d/{,*.conf} r,
 
@@ -353,7 +347,6 @@ X-GNOME-AutoRestart=true
 #backwards compatibility include, actual abstraction moved from php5 to php
 
 		exit 0
-    The Real-time kernel is currently incompatible with FIPS and Livepatch. 
     unset XDG_SESSION_ID
  -->
 Parent: Debian
@@ -480,7 +473,7 @@ Acquire::Changelogs::AlwaysOnline "true";
 . /usr/share/bash-completion/bash_completion
 AutomaticSecurityReports=false
     missingok
-l2tp	115	L2TP		# Layer Two Tunneling Protocol [RFC2661]
+# This script can be used to override the .d files supplied by other packages.
 . /usr/share/bash-completion/bash_completion
 <fontconfig>
 	AºtattooUTPK!!{Yl	àºtaxUTPK!“w0	…ºtaxiUTPK!~ÒØ	ΩtcUTPK!_å<	WΩtciUTPK!°äJ	òΩtdUTPK!X¯}	‚ΩtdkUTPK!√y~}%	#æteamUTPK!Uù∂	|ætechUTPK!ò˙#F
@@ -503,7 +496,6 @@ compose ')' '-' to '}'
 
 # shellcheck source=/dev/null
 	cache_pool_chunk_size = 64
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+(\[[0-9]+\])?: DIGEST-MD5 common mech free
 scsi Nikon * Scanner
 # Required-Start:    $remote_fs
 # enable xtrace if we should be verbose
@@ -547,7 +539,7 @@ if [ "$INITRD" = 'No' ]; then
 # then an administrator can adjust /etc/apparmor.d/local/usr.sbin.smbd to
 lˆˇKy·ò∂`&`Úç3)ÉÀîÕh∫“$äxçãÎ‰ˆÚ-Ÿ$È=óﬂìèañì4´Vª»˝ú<,Æì˜XÍBF'–	tù@'NHh˘z˛)OÿÔ–T√FÚÇ}zæπöë¿(åû¬®∫h]~—Œx¬öŒ4l$‹Cc5#ÅQ=ÖQu—é¯E;Á	k:◊∞ëpç’åFaÙF’EÎÒãˆbwïß~ê?êô°≥ZÌ°Úi≠Å38É38˜Ä≥
 13  ip6fw
-  audit deny @{HOME}/.local/share/thumbnailers/{,**} wl,
+alias.url += ("/javascript" => "/usr/share/javascript")
 chip "w83627uhg-*"
 remove iwlwifi 
 fi
@@ -561,7 +553,7 @@ fi
 {% endif %}
 
 *customization: -color
-# Make sure the locale variables are set to valid values.
+        if shopt -q progcomp && [ -r /usr/share/bash-completion/bash_completion ]; then
 			<string>AR PL UMing HK</string>
 Terminal=false
 loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null' 
@@ -588,7 +580,7 @@ change_hat {yes
 #[direct]
 //Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
 631	# cups
-alias net-pf-19 off
+      <bool>false</bool>
 usb 0x04e8 0x3455
 
 compose '<' 'r' to '¯'
@@ -698,7 +690,7 @@ if enabled in cloud-config.  Specifically, in order to enable it
 
 #stv680.conf
 fi
-fi
+# authentication via PAP, CHAP and similar protocols.
 }
   abi <abi/3.0>,
   include <abstractions/consoles>
@@ -721,7 +713,7 @@ bazaar-properties.desktop
 
   <!-- <magic name="GIF" offset="0" target="GIF8"/> -->
 alias net-pf-36 off
-# DO NOT EDIT OR REMOVE
+
 
     while(<$plist>) {
   	if [ -r $CACHE ]; then
@@ -786,7 +778,7 @@ do_bootloader = no
 camera=Kodak DC240
 X-GNOME-Autostart-Notify=true
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
-# If this is an xterm set the title to user@host:dir
+ *
 # These variables are for the use of the scripts run by run-parts.
  * and edit it there.  That way, your changes will be kept next time
 
@@ -803,8 +795,7 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
 
 deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 font='Monospace 16'
-[Install]
-DBUSLAUNCH=/usr/bin/dbus-launch
+
 	case "$REPORT_ABSENT_SYMLINK" in
     fi
 start_it_up()
@@ -836,16 +827,15 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 #
 <!-- Begin PGPData -->
 
-#  about not starting rsyncd (you still need to modify inetd's config yourself).
 
 
 /NanumBarunGothic-Bold << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
 =RFA4
 /Adobe-CNS1-Bold /ZenKai-Medium ;
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+#
 #
 enabled=1
-
+# Required-Start:    $remote_fs dbus udev
 ## To make sure an option is disabled, use "unset <option>".
 
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
@@ -895,7 +885,6 @@ byte-compile = standard
 failure_action = ignore
 1,222,57,255,0,118,44,204,128,255,0,255,0,255,0,255
 # Compose sequences for ISO-8859-8
-## respective vendors as a service to Ubuntu users.
 # Comma separated list of modules to load.
 # white space is ignored and lines maybe extended with '\\n' (escaped
 # Compose sequences for IBM1133
@@ -1003,7 +992,6 @@ if [ -d /var/run ]; then
 *Scrollbar.displayList:\
   /etc/X11/app-defaults/XTerm r,
 STARTSSH=
-[storage]
   # system library
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 gt68xx
@@ -1034,3 +1022,14 @@ gt68xx
 fi
 		;;
 
+	then
+  #include <abstractions/kde>
+/dev/scanner
+
+# Format:
+# NULL-dereference attacks against potential future kernel security
+# Microtek ScanMaker 3840 ID
+#
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
+
+ú3ú@úcúsúôú™ú—ú·úùùAùSù{ùâù≠ùΩù„ùÒùû#ûGûXûûéû≥û¡ûÂûıûü,üSücüâüöü¡ü—ü˜ü†)†6†Y†e†á†ï†π†∆†È†¸†%°3°W°j°ì°ƒ°¢ ¢K¢d¢ì¢®¢”¢Ì¢£6£e£Ä£±£∆£Ò£§5§H§q§Ä§•§∏§·§Ó§••/•:•[•f•Ö•ê•¢•´•º•≈•‰•Ì•˝•¶1¶A¶g¶v¶õ¶©¶Õ¶ﬁ¶ßß+ß:ß_ßnßëß†ß∂ß√ßÿßÂß®®)®:®a®r®ô®™®—®‡®©©=©L©q©~©°©≤©À©‹©™™,™=™d™t™ö™Æ™ÿ™Ë™´#´N´_´Ü´õ´ø´Ò´9¨h¨≠¨ø¨Á¨ı¨≠'≠I≠^≠â≠û≠«≠„≠Æ%Æ=ÆMÆsÆÉÆßÆ∑ÆŒÆ‹ÆÚÆØ$Ø2ØGØWØ}ØâØ´ØπØ›ØÔØ∞&∞K∞V∞w∞Ä∞ü∞±∞Ÿ∞Ê∞	±"±Q±h±ï±§±…±’±˜±≤E≤]≤ã≤£≤—≤ﬂ≤≥≥1≥<≥]≥n≥ï≥¶≥Õ≥·≥¥¥A¥Q¥w¥à¥Ø¥æ¥„¥¥µ"µGµTµwµàµØµøµÂµ˜µ∂/∂U∂e∂ã∂ô∂Ω∂ ∂Ì∂¯∂∑(∑M∑Z∑}∑ç∑•∑µ∑€∑Î∑∏∏6∏H∏p∏|∏û∏≠∏“∏·∏ππNπ\πÄπïπ¿π’π∫∫D∫V∫~∫ç∫≤∫ø∫‚∫∫ª ªBªOªrªÉª™ª∂ªÿªÚª"º2ºXºmºòº®ºΩºÀºﬁºÔºΩΩ(Ω5ΩXΩcΩÑΩîΩ∫Ω ΩΩæ4æKæxæáæ¨æ∆æˆæø&ø2øTø`øÄøäø™ø∫ø€øÚø¿5¿a¿s¿ñ¿¨¿”¿Á¿¡¡=¡J¡m¡¡ß¡≤¡”¡‚¡¬¬E¬Y¬u¬â¬≥¬«¬Ô¬√√0√J√\√Ñ√ñ√Ø√ø√◊√Á√ƒƒAƒQƒhƒvƒåƒöƒæƒÃƒ·ƒ˚ƒ+≈=≈e≈≈Ø≈¡≈È≈∆1∆B∆i∆|∆ó∆™∆”∆Ê∆« «:«K«d«u«ú«≠«≈«◊«Ò«»+»=»c»u»é»û»∂»∆»Ï»¸»…#…;…K…q…Å…•…µ…Ã…⁄……˛…" 0 E X s Ü Ø ¬ È ¸ À'À@ÀQÀxÀâÀ°À≠ÀœÀ€ÀÔÀ˚ÀÃ)ÃIÃUÃhÃrÃÑÃéÃÆÃ∏Ã…Ã◊Ã˚ÃÕ+Õ:Õ_ÕlÕèÕõÕΩÕ»ÕÈÕ¯ÕŒ2Œ]ŒqŒõŒ¨Œ”Œ‚ŒœœAœQœwœÜœ´œ¡œÌœ–-–E–s–â–µ–∆–Ì–ˇ–'—7—L—h—ö—©—Œ—⁄—¸—“<“L“r“Ü“∞“º“ﬁ“Ô“”&”L”g”ò”≠”ÿ”Í”‘!‘F‘S‘h‘u‘ò‘£‘∂‘¡‘‚‘Û‘’,’C’S’h’v’ö’©’Œ’ﬁ’÷÷8÷E÷h÷v÷ö÷¶÷»÷›÷˜÷
