@@ -153,7 +153,7 @@ auth	required	pam_nologin.so
 
 compose '^' 'I' to 'Î'
      <choice>
-#    Copyright (C) 2014 Canonical Ltd
+	<match target="font">
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 application/vnd.anser-web-funds-transfer-initiation
 ‹]ÒÇj[A†á½¯b°Z·G³±§A¼ÓæH:‰¶#’àÒ{ï½÷Ş{ÌåÿŞì²xg`àY|Cn[Ù-{E¿l»­½jÑÍmI#ıÅ¥…Ñz³Óít]s×¦!·bÇ¹ó…ÒõÊ¢í
@@ -210,7 +210,7 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 #           will attempt to upgrade to the first LTS release available after
 # * Be careful about changing the environment since this is sourced
 # at bash-completion startup for now, to ease the transition to a
-
+     because at the Infoset level where schemas operate,
 # Default-Start: 2 3 4 5
 
 
@@ -300,7 +300,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 # in the toplevel profile. Eg:
 
 Before=snapd.service
-Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
+# vim:syntax=apparmor
     else
 		https://*)
 # The following may be used to add additional entries such as for
@@ -410,7 +410,6 @@ if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ];
 127.0.0.1	www.paginebiamnche.it
 *Scrollbar.displayList:\
   /etc/X11/app-defaults/XTerm r,
-STARTSSH=
   /srv/www/rails/*/public/** r,
 #    Copyright (C) 2011-2013 Canonical Ltd.
 ™O­h»¤¢»òß=næ¼Ê‚$œ-óÍÏÓH]üÒ+4„TKİÓ¦qq6Åöê;oñ·o¾Ù”_?§¶j’ÊË:åU†Kû 59@WÚL‹.vÒÑå„åvn93›Ôu„+nŸî!há5Ér‹¿êÒ®­>Ç¶mï‚®W%i;UHÁgÅ—Ÿ³¿µ8¯Êhc\#°Bú›—6y0œö.!|d©}GcºòÄe]?e“§¡NDq&+ÓÇ&ï‚·C,ECØ°îW¡:Œ¡ü Ô„{ƒœ›Í¯´!y+AâÂTÓÙ2Û* lË“N-Ÿò&Íñ&Û…É”3İÙ™$¦Â|€˜è„q¯\i­ƒ¡]ÍHh«Jo-q©)Kçtü%l>9ŞÉ,Æ¬İÄìí¹Öœs$4¦­2|æ•:‹Së™lö?îÒRCöbô‰óøêó[gëôİÃáLSÁqÌVÖ¿<“«•/=·oüŒë°Jx$©™µ¯ÔÙFJO#ò®ôØ†Ÿó+}öIñ‰8eô#‚0—4—ŠX2Ës¤Å&ÒÛÿ9õ@¢±v¼2Õ˜Z¹Lİ‡ÆÏdÕg¦0¿.ïØ6¯ İSäŞå©ê¹ñ›¾
@@ -443,7 +442,6 @@ check_config() {
 *insertFile*text.?.pieceSize:		256
 # Compose sequences for GEORGIAN-PS
 	prepare_grub_to_access_device `${grub_probe} --target=device "$GRUB_THEME"`
-# remove the iwl?vm module and then iwlwifi.
 # suspend and power-off, the end user's execute before VMware's.  (This way,
       awk -F: '/^enable-ssh-support:/{ print $10 }')" ]; then
 Comment=GNOME Keyring: SSH Agent
@@ -473,7 +471,7 @@ option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
   <match target="pattern">
 Acquire::Changelogs::AlwaysOnline "true";
 		<family>Nimbus Sans L</family>
-lp:x:7:
+### that look up the default sink/source get the right value
     # pivoting into a whitelisted path.
 				/bin/plymouth message --text="${TEXT}"
     log_action_begin_msg "Synthesizing the initial hotplug events (subsystems)"
@@ -518,7 +516,7 @@ serif.symbol.bolditalic=Symbol
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
 if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 EnumerateAllDevices=false
-[Sources]
+       notifempty
 }
   /etc/OpenCL/** r,
 Type=Application
@@ -664,14 +662,13 @@ KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 XLogo*background: rgb:d2/22/32
 }
     permission javax.crypto.CryptoAllPermission; 
-# Please consider joining the pool (http://www.pool.ntp.org/join.html).
+    unlimited:  These policy files contain no restrictions on cryptographic
 America/Los_Angeles
 OK           ATDT<put phone number here>
 # reserved values
 #          will be killed on logout
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 /var/log/btmp {
-# XDG_DATA_DIRS or XDG_DATA_HOME, and are the parent directory
 
 #  option routers 192.33.137.250;
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
@@ -711,7 +708,6 @@ stop_watchdog_quiet()
 	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
 NoDisplay=true
 logfile   /var/log/ntp		# alternate log file
-			<string>AR PL UKai TW</string>
 type=file
 	}
 # fstrim=0
@@ -804,7 +800,7 @@ compose '\'' 'n' to 'ñ'
 
 # Compose sequences for GEORGIAN-PS
 [OpenSSH]
-
+# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 #    corresponding bits set to one in this mask will not have any
     missingok
 	  <family>URW Bookman</family>
@@ -929,7 +925,7 @@ GRUB_CMDLINE_LINUX=""
 
 # installation of packages available from the repository
 -->
-fi
+/usr/sbin/gdm3
 # Specify command line options here. This config file is used
 [METARELEASE]
 <!DOCTYPE colormap [
@@ -940,7 +936,7 @@ By default, Java provides two different sets of cryptographic policy
 [ ! -r "$stamp" ] || cat "$stamp"
   00_*: Reserved for 00_header.
 MODULES="${MODULES_INTERFACES} ${MODULES_FEATURES} ${MODULES_HW} ${MODULES_BASE}"
-  <!ATTLIST typemap xmlns CDATA #FIXED ''>
+account	required			pam_permit.so
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
 {% endif %}
@@ -1053,7 +1049,6 @@ usb 0x04e8 0x3455
   # abstract path in ibus >= 1.5.22 uses $XDG_CACHE_HOME (ie, @{HOME}/.cache)
 }
 [OpenSSH]
-
 brandon:100000:65536
 # replaced by e100
 application/vnd.intu.qfx
@@ -1064,7 +1059,7 @@ application/vnd.intu.qfx
 multi on
 grant {
 [Network]
-/etc/pulse/** r,
+		rc=1
 /dev/scanner
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
   reload)
@@ -1127,3 +1122,22 @@ fi
 {¶Ç.@ÀBG‡¿yóØXP¿j±˜ó”nÒGí¥/©püµ‡æ§İo¿7eœ„îÿí™Àm×£[ÈM¨Ù–šüŞØG£Ş-£ªÎ£[Âxo”üédÙÏ@CÍ >MEÆu}üèDÎtKZCAù~ûivÎî¦UZ§Ş«+¤@Øÿ¹ØxâÊ†vF”/âöÜÄn1#À´Ç×¨Š·Æ‡×~5üüAóÒ¡…êCÕÇFĞÕ[Æ«ÖÏË¾pn"Xo4>•ùR¤CkÀ^«—'±´1öl:;y>…óYeP+¶]µ°û3WŒbLîMGäœ²ª‘ñdõ=]^X~1&ëò¢ñöøÈÅd•>”½Ô–=SÕ±eÕº¸½Â5¦¯fÿbìOw½>¡ö;§…íÇO1&ûõä\LŸ*Ş–}{ım•æå{#¯)µàR;cÚı	VŞê.¬ÇD°@ªïGÆ›5G‚şûGÉ¶>ış¾¯d»şËÖÚóKIQ{›Ot:E05õnÀ’½	ÏPÕåç´_TVĞŸ…ÑbwwÇÜBm%gg÷¬«ZåÙù³Ùb±^,f³¾\W¯Ø¿ÜPˆşİµ1úç•fÙ“ÔÔîC{F×Õß¶şÛrQYÕ*”½Ô“Úoô­÷¯Mz®sn¶¿şªı¸Ê£i^½ŞT²¯Ÿ ı¬@™Æê?3¶÷kÅ„V<}tÅ­x~;¾,Ğ¡õmÚû!µ?	í›SC,µ¡efÿäºŞ­dÙR°¾ø-´í¯†j$
 	separator=" "
 search updates ubuntu built-in
+	;;
+/usr/lib/x86_64-linux-gnu/libfakeroot
+# The possible arguments are:
+APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
+#    Copyright (C) 2011 Canonical Ltd.
+arch=`dpkg --print-architecture`
+			Button1<Enter>:popup-pixel()\n\
+
+# /etc/login.defs and user settings, solving the problem of different
+  /srv/svn/**/db/representations rwl,
+
+DISTRIB_ID=Ubuntu
+# This file is sourced by Xsession(5), not executed.
+# Set the maximum number of FUSE mounts allowed to non-root users.
+	# Configuration option local/host_id.
+<fontconfig/>
+order hosts,bind
+™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
+@include common-password
