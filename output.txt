@@ -24,7 +24,6 @@ required in any way by the specification).  The information may be useful in
 mail.*				-/var/log/mail.log
 options md_mod start_ro=1
 
-*qsave*icon:				Term
 
 APT::Periodic::AutocleanInterval "0";
 
@@ -98,7 +97,7 @@ auth		include		runuser
 xterm
 #!/bin/sh
   # do not use ux or PUx here. Use at a minimum ix
-lock
+twm
 
 	log_begin_msg "Stopping $DESC" "$NAME"
 /var/log/boot.log
@@ -134,7 +133,7 @@ trusted.SGI_DMI_*		skip		# xfs specific
 
 # This file is a simple placeholder to keep dpkg from removing this directory
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
-# symbolic names for networks, see networks(5) for more information
+
 swedish         sv_SE.ISO-8859-1
 XClock.input: false
     modprobe $module $args || true
@@ -327,7 +326,7 @@ fi
 *customization: -color
         if shopt -q progcomp && [ -r /usr/share/bash-completion/bash_completion ]; then
 			<string>AR PL UMing HK</string>
-Terminal=false
+OnlyShowIn=GNOME;
 # Turn on Source Address Verification in all interfaces to
 # directories are stored, each must have a trailing '/'. Directories added
 # set start_ro=1 to make newly assembled arrays read-only initially,
@@ -347,7 +346,6 @@ change_hat {yes
 #[direct]
 //Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
 631	# cups
-deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 
 	<match target="font" >
 BgcqhkjOPQIBBggqhkjOPQMBBwNCAAS4xnnTj2wlDp8uORkcA6SumuU5BwkWymOx
@@ -454,7 +452,7 @@ X-GNOME-Bugzilla-Version=3.36.x
 #NTP=
 do_bootloader = no
 
-DESKTOP-OFJN9OT
+	€<¿Íˆ²Éş$£¯”4&6ùü_•Ów¤QiA÷ŞEØ^«“èÙ%È’ìM L™ª¼Ê´&5ÂHF1#š«q…yb¥ı?¯Š£ëèÎ'±å,ñÿ48¨½¢OµF Ü¸$‰òQÿ[ÂÕ±9-Æ0sá…Å{±@´/œU—k,¨¯ŸOÄDg™ùİæéúœw‘nîœlªmP2¹4¿§<ˆ„ßš¹:áƒ8JÔ$¡|g3üFW¢õKsêŸO]ˆ•i×µ>*4fMLİ-GãKş©ß`…G.{ü5Un‰CeFa‘çfïRğ³€Zäˆ=?@è*éÊµ~>¤ĞO‘1äuš¸Ü’N@˜ÛÅãn#L™ <ƒ7?w¥†}7XfÄ®5ÍÙãîÜÛ~#|V%óOuF×E 0‡/ú­4…o<
 
 #
 # abstraction for allowing access to graphical browsers in Ubuntu
@@ -475,7 +473,7 @@ X-GNOME-Autostart-Notify=true
 # since the modules above will each just jump around
 
 font='Monospace 16'
-
+#    memory for data transfer between the reader process
     done
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])? md: md[[:digit:]]+: (data-check|requested-resync|resync|reshape|recovery) done.$
 ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
@@ -496,7 +494,6 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # found. Default is to true which will allow any peer to access anything.
 #
 eval $(/usr/bin/locale-check C.UTF-8)
-
 
 				fi
 <!DOCTYPE typemap [
@@ -578,7 +575,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 /HYRGoThic-Medium /NanumGothic-Regular ;
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
 Clock*BorderColor:	light blue
-Ubuntu 20.04.1 LTS (Focal Fossa)
 
   stop)
 if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
@@ -591,7 +587,7 @@ STARTSSH=
   # system library
 # Cloud Image specific Grub settings for Generic Cloud Images
 gt68xx
-    <edit name="hinting">
+update-hostname=true
 /dev/scanner
 # times
 #    Copyright (C) 2011-2013 Canonical Ltd.
@@ -704,7 +700,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
      O'Reilly & Associates, Inc., ArborText, Inc., Fujitsu Software
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 
-
+17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
 esac
 XCalc*hp.button37.fromVert:		button28
 
@@ -717,7 +713,6 @@ Name=GNOME Settings Daemon's power plugin
     // There is no restriction to any algorithms.
 # Provides:          gdm3
 /dev/scanner
-option artecFirmwareFile /usr/share/sane/artec_eplus48u/Artec48.usb
 #
 # Required-Start:    $local_fs
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
@@ -755,7 +750,7 @@ scsi IBM 2456
   # changehat itself
 IPT_MODULES=""
 		<default><family>emoji</family></default>
-#[debug]
+Exec=/usr/libexec/gsd-wacom
 #
         <Key>q:         quit()\n
 #
@@ -820,7 +815,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
   /usr/share/drirc.d/{,*.conf}    r,
 if [ -x /usr/lib/update-notifier/update-motd-hwe-eol ]; then
 #
-     declaration that uses the public identifier shown below:
 // This system policy file grants a set of default permissions to all domains
 # Compose sequences for TIS-620
 # The page set here should explain how to add new software repositories if required.
@@ -849,7 +843,7 @@ done
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 #
-# The /etc/chatscripts/pap chat script may be modified to change the
+pim	103	PIM		# Protocol Independent Multicast
 {¶Ç.@ÀBG‡¿yóØXP¿j±˜ó”nÒGí¥/©püµ‡æ§İo¿7eœ„îÿí™Àm×£[ÈM¨Ù–šüŞØG£Ş-£ªÎ£[Âxo”üédÙÏ@CÍ >MEÆu}üèDÎtKZCAù~ûivÎî¦UZ§Ş«+¤@Øÿ¹ØxâÊ†vF”/âöÜÄn1#À´Ç×¨Š·Æ‡×~5üüAóÒ¡…êCÕÇFĞÕ[Æ«ÖÏË¾pn"Xo4>•ùR¤CkÀ^«—'±´1öl:;y>…óYeP+¶]µ°û3WŒbLîMGäœ²ª‘ñdõ=]^X~1&ëò¢ñöøÈÅd•>”½Ô–=SÕ±eÕº¸½Â5¦¯fÿbìOw½>¡ö;§…íÇO1&ûõä\LŸ*Ş–}{ım•æå{#¯)µàR;cÚı	VŞê.¬ÇD°@ªïGÆ›5G‚şûGÉ¶>ış¾¯d»şËÖÚóKIQ{›Ot:E05õnÀ’½	ÏPÕåç´_TVĞŸ…ÑbwwÇÜBm%gg÷¬«ZåÙù³Ùb±^,f³¾\W¯Ø¿ÜPˆşİµ1úç•fÙ“ÔÔîC{F×Õß¶şÛrQYÕ*”½Ô“Úoô­÷¯Mz®sn¶¿şªı¸Ê£i^½ŞT²¯Ÿ ı¬@™Æê?3¶÷kÅ„V<}tÅ­x~;¾,Ğ¡õmÚû!µ?	í›SC,µ¡efÿäºŞ­dÙR°¾ø-´í¯†j$
 # +CPIN provides the SIM card PIN
     <accept>
@@ -899,7 +893,7 @@ restrict -6 ::1
 APT::Periodic::Update-Package-Lists "1";
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
-    "dns": ["1.1.1.1", "1.0.0.1", "8.8.8.8", "4.4.4.4"]
+# that case, 0 = Don't try to detect .local unicast dns servers, can cause
 ##############################################################################
 # You can change settings by editing this file.
   <!-- Allow anyone to invoke methods on the interfaces -->
@@ -957,7 +951,7 @@ KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 fi
 # For using an SSL/TLS protected RMI registry use the following line
 
-# sdr-cache-directory /my/sdr/path
+XLogo*background: rgb:d2/22/32
 }
     permission javax.crypto.CryptoAllPermission; 
 <!ATTLIST magic target CDATA #REQUIRED>
@@ -972,9 +966,7 @@ OK           ATDT<put phone number here>
   # system library
 .96Hüi§XönCFÕ¶üzÀÏÂKbğ¿ù©`8/ƒ¡ÜM„T°l7H|FÏ~¶!£j[~=àgá%1ø_‡üÊ`8Vß¼‘»,+xß—¾
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
-
 # Defaults can be restored by simply deleting this file.
-  /{,var/}run/systemd/resolve/stub-resolv.conf r,
 
 # set convert-meta off
 
@@ -1017,13 +1009,12 @@ roottext=,magenta
     <allow send_destination="org.gnome.DisplayManager"
 # vim:syntax=apparmor
 
-#  AutomaticLogin = user1
+#!/bin/sh -e
 #  0x4064, /* kodak Hero 5.1 */
 #bind ^P curpos main
 letter
 
 	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
-
 # ipmipower-ping-timeout 30000
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 # 
@@ -1063,7 +1054,6 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
 
 
 # ldconfig = false
-#
 @include common-account
 #
 Requires=snap-lxd-18150.mount
@@ -1075,3 +1065,15 @@ Requires=snap-lxd-18150.mount
 application/x-texinfo				texinfo texi
 # be polyinstantiated based on the MLS level part of the security context as well as user
 
+#
+type=file
+# type and run a series of external commands (fortune,
+scsi DEVCOM * Scanner
+   "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
+#  * and that the path value is quoted
+#children_max=
+disable_root: true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+# VM3575  Mustek ScanMagic 4830S
+
+# type and run a series of external commands (fortune,
