@@ -52,7 +52,6 @@ checkbox=,magenta
 # Compose sequences for ARMSCII-8
 The files are loaded in numeric order, the structure of the configuration
 
-#
 
 audio/x-mpegurl=rhythmbox.desktop
     esac
@@ -164,7 +163,7 @@ XLoad.input:			false
 [fwupd Remote]
 # Compose sequences for TIS-620
 Name=GNOME Settings Daemon's USB protection plugin
-# install prefixes.
+#
 MANPATH_MAP	/opt/sbin		/opt/man
 name = NSS
 fi
@@ -176,14 +175,14 @@ fi
   <delegate decode="hpg" command="&quot;hp2xx&quot; -sstdout=%%stderr -m eps -f `basename &quot;%o&quot;` &quot;%i&quot;;     /bin/mv -f `basename &quot;%o&quot;` &quot;%o&quot;"/>
 <?xml version="1.0" encoding="UTF-8"?>
 max_allowed_packet	= 16M
-        else
+# iwlwifi will dyamically load either iwldvm or iwlmvm depending on the
 # in the toplevel profile. Eg:
-[connection]
+alias.url += ("/javascript" => "/usr/share/javascript")
 ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
   #include <abstractions/kde>
 œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
 net.ipv4.conf.all.rp_filter=2
-
+constraint from "2620:fe::fe"          # quad9 v6 without DNS
 
 # ldconfig = false
 LP-PPA-ubuntu-mozilla-daily
@@ -283,7 +282,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 
 # This file is a simple placeholder to keep dpkg from removing this directory
 # Defaults can be restored by simply deleting this file.
-# Autodetect 1200 UB and Trust Compact Scan USB 19200
 case "${1}" in
 	<match target="pattern">
 *MenuButton.foreground: white
@@ -303,7 +301,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
 
 #
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
-XClock.Clock.hourColor:		rgba:7f/00/00/c0
+<!ENTITY % formValues '(qualified|unqualified)'>
 
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 fi
@@ -339,10 +337,10 @@ speed=115200
 # you can temporarily override this with
 
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
-
+  /usr/share/enchant/enchant.ordering              r,
 Name=GNOME Settings Daemon's housekeeping plugin
 /dev/scanner
-# Dell A920
+	log_end_msg $?
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 # Compose sequences for KOI8-U
@@ -402,7 +400,6 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
 # If set to all update-initramfs will update all initramfs
   owner @{HOME}/.adobe/** rw,
 
-
 # This file is sourced only for login shells. It
 
             . /usr/share/bash-completion/bash_completion
@@ -452,10 +449,8 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 Name=User folders update
 After=snap-lxd-18150.mount
 /dev/camera
-# You can change settings by editing this file.
 # -Z Disable the power-saving function of certain Seagate drives
 'ßß^Ò9ÏE}BKß³,ÅÆ]ÊU: œišÚï²°<Ÿ‡l+epR1$Ïo1#PŒO#ÃtAcU¨İ>àQPÏñ0V’°‚…ØƒË"d¼-¸%ÕT¢¸ê­’¤$ Á†µJjGÏ.V•TËÎšÛj´¦²ÛA†'w÷j Bl8Î×uP2’Âß+0"HĞÕA8%]¤é]ŸÆ”uĞEı0—C«
-†ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ğëŸ
   /dev/xconsole                 rw,
 # X11xx series
   /etc/X11/cursors/**             r,
@@ -496,7 +491,7 @@ Each file in this directory is an rt_tables configuration file. iproute2
 CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 . /usr/share/bash-completion/bash_completion
- - chef
+  /dev/dri/card[0-9]* rw, # beignet/libcl.so
 ÓZ¸,ã°Ë¼*m66{ÿlÚ5¡
 <!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
 #    modify it under the terms of version 2 of the GNU General Public
@@ -555,7 +550,7 @@ scsi FCPA
 SHELL=/bin/sh
 # $ systemctl edit --full cron.service
 # 
-;Hellenic Academic and Research Institutions Cert. Authority1D0BU;Hellenic Academic and Research Institutions ECC RootCA 20150150707103712Z400630103712Z0ª10	UGR10UAthens1D0BU
+			<family>UnDotum</family> <!-- hangul (ko) -->
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 /usr/local/lib/x86_64-linux-gnu
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
@@ -614,12 +609,11 @@ alias.url += ("/javascript" => "/usr/share/javascript")
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 // Notify all clients to reload the cache
-
 # IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
 #parport0
   network netlink raw,
     <Menu>
-    exec /usr/lib/update-notifier/update-motd-hwe-eol
+    family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 system-db:ibus
     </accept>
@@ -662,7 +656,8 @@ compose '-' ')' to '}'
   <type name="NewCenturySchlbk-Bold" fullname="New Century Schoolbook Bold" family="NewCenturySchlbk" foundry="URW" weight="700" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/c059016l.afm" glyphs="/usr/share/fonts/type1/gsfonts/c059016l.pfb"/>
 sysresources=/etc/X11/Xresources
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
-œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
+	<UnmapNotify>:		Iconified()	
+
     if [ -e "$dmi_path" ] && read vendor < "$dmi_path"; then
 56f12ada18a3412ab1f9dcd69450be95
 # symbolic names for networks, see networks(5) for more information
@@ -724,7 +719,7 @@ multi on
 
 	create 644 root root
 byte-compile = standard
-# set PATH so it includes user's private bin if it exists
+Enabled=false
 #
 	<alias>
 BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
@@ -745,7 +740,6 @@ run_im default
 /var/log/ufw.log
       for file in $(find $i -type f -print | LC_ALL=C sort)
     resource
-
 esac
 fi
 		done
@@ -755,7 +749,6 @@ gtk-icon-sizes = panel-menu-bar=24,24
 #include <tunables/share>
 
 # xserver-xorg-legacy package using values from the debconf database.
-  "file:///usr/share/xml/schema/xml-core/catalog.dtd">
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
   network raw,
 /usr/local/lib/x86_64-linux-gnu
@@ -782,7 +775,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 # or on the command line.
   00_*: Reserved for 00_header.
 modules=*
-# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+    user_friendly_names yes
 #
 
   /usr/lib/NetworkManager/nm-dhcp-helper          Pxrm,
@@ -838,7 +831,6 @@ order hosts,bind
 test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 <?xml version="1.0"?>
 
-# Syntax:  module_name [args ...]
 }; 
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 #/dev/scanner
@@ -881,7 +873,6 @@ NoDisplay=true
 # restore the kernel default if the value is changed during runtime; for
 rocks_trees = {
 #    Copyright (C) 2009-2012 Canonical Ltd.
-   ADDRESS_FAMILIES=""
 #    the "FSU light dispersion error" does not cause the abortion
             . /usr/share/bash-completion/bash_completion
 
@@ -970,7 +961,6 @@ X-GNOME-Bugzilla-Component=nm-applet
 #
 scsi TAMARACK
 XLogo*baseTranslations: #override \
-attributes = compatibility
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
     <edit name="hinting">
 
@@ -1039,7 +1029,6 @@ APT::Periodic::Update-Package-Lists "1";
 # Legacy biarch compatibility support
 
     xhost +si:localuser:`id -un` > /dev/null
-compose '_' 'a' to 'à'
 
 
 
@@ -1085,7 +1074,6 @@ usb 0x04f9 0x2038
 # X-Start-Before:    $network
 # System-wide GDB initialization file.
 XClock.Clock.secondColor:	rgba:00/00/ff/80
-¥'Ø³_ÓENrÖN2òrŠ÷ƒĞj€€E°Ççš¿W'£h/
 Exec=/usr/libexec/gsd-wacom
   # per-user write  directories
 
@@ -1102,7 +1090,7 @@ lines		1,-1,-1,-1,-1,1;\
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 ###                   read requests. All values are given in milliseconds,
 /dev/scanner
-QT_ACCESSIBILITY=1
+##
 
 #    License published by the Free Software Foundation.
 # allowed or they would not be able to exchange time information with
@@ -1176,7 +1164,6 @@ XClipboard.baseTranslations: #augment\n\
 	# The checks LVM should use to detect MD component devices.
 	rotate 12
   /usr/bin/nautilus Cxr -> sanitized_helper,
-APT::Update::Post-Invoke-Success {
 blacklist vfb
 [mysql]
 
@@ -1184,3 +1171,10 @@ blacklist vfb
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
        interface=org.freedesktop.DBus
+  <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? raid[[:digit:]]+: Disk failure on [[:alnum:]]+, disabling device\.$
+# Sets the loginuid process attribute
+        End        "${terminfo[kend]}"
+  </match>
+#baud=115200
+encryption=luks1
