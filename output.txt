@@ -1,7 +1,7 @@
 /var/log/auth.log
 Type=Application
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
-PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+# 0 means leave lamp-status untouched, not 0 means switch off
 !?ñ9_¿5.û„?'/[[ŸÄC
 #%PAM-1.0
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
@@ -153,7 +153,6 @@ turkish         tr_TR.ISO-8859-9
 
 # [automount]
 	</alias>
-/ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 
                 . /lib/lsb/init-functions
 	    if test -f $PIDFILE; then exit 2; fi
@@ -244,7 +243,7 @@ session		optional	pam_keyinit.so force revoke
 type=file
 esac
 
-# the option, separated by whitespace and/or an `=' sign.
+#
 # Record the rate at which the system clock gains/losses time.
 	        # check because c-n-f could've been removed in the meantime
 # This file is sourced by Xsession(5), not executed.
@@ -317,7 +316,7 @@ OK		ATDTT
 
 	<policy user="root">
 
-#
+# vim:syntax=apparmor
 
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 DelayedActivation=false
@@ -444,7 +443,6 @@ LANG=C.UTF-8
 
          cloud-init dhclient-hook down "$interface";;
 
-PPP_DISC	8863		# PPP over Ethernet discovery stage
 
 
 #    modify it under the terms of version 2 of the GNU General Public
@@ -454,13 +452,11 @@ Name=GNOME Settings Daemon's power plugin
 /dev/scanner
 #
 # Required-Start:    $local_fs
-  /usr/bin/m4 ixr,
 	daytime_hosts => [ qw {} ],
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 SHELL=/bin/sh
 # This mechanism that does not depend on a system service to operate.
     <match target="pattern">
-  exec /etc/ppp/ipv6-down.local "$@"
 #AllowHibernation=yes
                                   (symbol-name debian-emacs-flavor)
 # shiftr shiftl alt keycode 37 = Decr_Console
@@ -493,7 +489,7 @@ driftfile /var/lib/chrony/drift
 # ATZW2 as a default init string
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
   # dehydrated
-APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
+# To take advantage of this, it is recommended that you configure any
 twm
 [METARELEASE]
 -->
@@ -506,7 +502,7 @@ if ls /dev/fb* >/dev/null 2>/dev/null; then
 # inclusion by distributed profiles to aid in packaging AppArmor for
 {% endif %}
 <!ATTLIST %element;
-    then
+fi
 DEFAULT_OUTPUT_POLICY="ACCEPT"
 APT::Archives::MinAge "2";
 helpline=,magenta
@@ -522,7 +518,6 @@ case $0:$mode in
 	Options FollowSymLinks MultiViews
 # ------------------------------------------------------------------
 /STHeiti-Regular /BousungEG-Light-GB ;
-#
   /etc/cloud/clean.d/99-live-installer
 *Background:			RoyalBlue4
 rtcsync
@@ -553,7 +548,7 @@ test -f $DAEMON || exit 0
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
     permission javax.crypto.CryptoPermission *, 128;
 	missingok
-# the following options are local to this scanner
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 email_format=text
 #
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
@@ -574,7 +569,7 @@ m§lj'‹©ZjUJŸ¤m“™Ìb¹üG«¹ôOë¥ß¯7Dòö
   /usr/lib{,32,64}/python{2.[4-7],3.[0-9]}/{site,dist}-packages/ r,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
   # User files
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
+    permission java.util.PropertyPermission "path.separator", "read";
 #
   if [ -x $UUIDGEN ]; then
 
@@ -595,7 +590,7 @@ commands scan this directory processing all files that end in '.conf'.
 
 KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 <Key>q: quit() \n\
-# For using an SSL/TLS protected RMI registry use the following line
+
 XLogo*background: rgb:d2/22/32
 }
     permission javax.crypto.CryptoAllPermission; 
@@ -635,7 +630,7 @@ roottext=,magenta
 
 
 0x80	CS4
-
+# git completion script.
 	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
 NoDisplay=true
 logfile   /var/log/ntp		# alternate log file
@@ -693,7 +688,6 @@ server {{server}} iburst
 <?xml version="1.0"?>
 
  - locale
-  /var/log/lastlog  rwk,
   owner @{HOME}/@{XDG_DOCUMENTS_DIR}/**   rwl,
 /dev/scanner
 HuaweiAltModeGlobal=0
@@ -707,7 +701,6 @@ restrict 127.0.0.1
 kbd_mode '-u' < '/dev/tty3' 
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
 title=Secure shell server, an rshd replacement
-*SimpleMenu*displayList:\
 
 
 Bugs: debbugs://bugs.debian.org
@@ -854,7 +847,7 @@ scsi ULTIMA
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 # the port address for your scanner.  You can enable multiple lines if
-#
+# Compose sequences for IBM1133
 # IPMI_Chip_Set_Transition_Severity_Informational                                    Nominal
 	</match> 
 rq0t2YjXglIBHRDiJlOTAR3if37OCDKCcHOOODqYrsN7wNleez+ulkDyP7C7ZTbm
@@ -869,7 +862,6 @@ title=Secure shell server, an rshd replacement
 account     required    pam_shells.so
 
 
-export QT_ACCESSIBILITY
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 # If set to all update-initramfs will update all initramfs
 # RFC 2598
@@ -883,7 +875,7 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
 EnumerateAllDevices=false
 if [ "$BASESTARTUP" = x-session-manager ]; then
 # enforce discretionary access controls) it can be used as if it did
-XLogo*foreground: rgb:d7/d7/d7
+<?xml version="1.0"?>
 # Insert here your local magic data. Format is described in magic(5).
   /usr/bin/mousepad Cxr -> sanitized_helper,
 
@@ -958,7 +950,6 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: no dictionary update necessary\.$
 [genie]
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ mdadm(\[[[:digit:]]+\])?: SpareActive event detected on md device /dev/[-_./[:alnum:]]+, component device /dev/[-_./[:alnum:]]+$
-                  systemctl reset-failed systemd-resolved.service
 # Scripts in this directory are executed as root when a user log out from
 enabled/disabled by adjusting the symlinks.
 # Set to the user saned should run as
@@ -986,7 +977,6 @@ blacklist nvidiafb
 †ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ğëŸ
 fi
 #
-MinimumKernelVersion=4.13.0
 
   /dev/xconsole                 rw,
 #
@@ -1164,3 +1154,17 @@ r16          -sony-fixed-medium-r-normal--16-*-*-*-*-*-jisx0201.1976-0
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
 scsi FCPA
 #DefaultLimitNPROC=
+Acquire::Changelogs::AlwaysOnline "true";
+# vim:syntax=apparmor
+compose 'N' 'G' to '½'
+			<string>HYSong</string>
+  # portmapper may ask root processes to do nis/ldap at low ports
+rocks_trees = {
+# The PAM configuration file for the Shadow 'newusers' service
+  /usr/bin/konsole ix,
+  owner /var/run/user/*/weston-shared-* rw,
+#verify = yes
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+#scsi /dev/scanner
+# DO NOT EDIT OR REMOVE
+## saned hosts
