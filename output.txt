@@ -1,4 +1,4 @@
-	<match target="pattern">
+# Do not enable debsig-verify by default; since the distribution is not using
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 # /etc/passwd file.
@@ -59,8 +59,7 @@ scsi DEVCOM * Scanner
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 
 Alias /javascript /usr/share/javascript/
-# and users home directories will reside within the directories that
-
+# Compose sequences for GEORGIAN-PS
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 esac
 
@@ -77,7 +76,6 @@ swedish         sv_SE.ISO-8859-1
 #noprecal
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
-CRYPTDISKS_ENABLE=Yes
     <allow send_interface="org.debian.apt.transaction"/>
 
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
@@ -158,9 +156,8 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 #           will attempt to upgrade to the first LTS release available after
 
         stop|status)
-     because at the Infoset level where schemas operate,
 # Default-Start: 2 3 4 5
-    DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+. /etc/popularity-contest.conf
 # following line is sufficient. This however assumes that the connected scanner (or to be more
     fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
@@ -211,7 +208,6 @@ deb {{security}} {{codename}}-security universe
 # systemd systems als /usr), place them here. iSCSI sessions that carry
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # Defines whether the mail spool should be created while
-# Specify command line options here. This config file is used
 # Compose sequences for ISO-8859-5
 ports=22/tcp
 # this remote provides metadata and firmware marked as 'testing' from the LVFS
@@ -255,7 +251,6 @@ OK		ATDTT
 =RFA4
 # found. Default is to true which will allow any peer to access anything.
 #
-
 usb 0x05da 0x30d4
 # vim:syntax=apparmor
 
@@ -270,7 +265,6 @@ DelayedActivation=false
 *internalBorderWidth:		0
 
     done
-# Compose sequences for IBM1133
 <!DOCTYPE busconfig PUBLIC
 
 XLoad.input:			false
@@ -278,7 +272,6 @@ XLoad.input:			false
 }
 #    This program is free software; you can redistribute it and/or
 #!/bin/sh
-# Insert here your local magic data. Format is described in magic(5).
 [fwupd Remote]
 56f12ada18a3412ab1f9dcd69450be95
 
@@ -303,7 +296,6 @@ fi
 # the file system.
 /usr/sbin/gdm3
         <test name="lang">
-compose '-' '(' to '{'
 twm
 127.0.0.1	www.paginebiamnche.it
 #ºÿ¸ædJ´
@@ -358,7 +350,7 @@ Acquire::Changelogs::AlwaysOnline "true";
 ### that look up the default sink/source get the right value
     # pivoting into a whitelisted path.
     log_action_begin_msg "Synthesizing the initial hotplug events (subsystems)"
-  owner @{HOME}/.cache/ rw,
+Comment=GNOME Keyring: SSH Agent
      %dbgenent;
 # minclass = 0
 #include <tunables/global>
@@ -384,7 +376,6 @@ Name=GNOME Settings Daemon's power plugin
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
     <match target="pattern">
 # banner-message-text='Welcome'
-                                  (symbol-name debian-emacs-flavor)
 # shiftr shiftl alt keycode 37 = Decr_Console
 serif.symbol.bolditalic=Symbol
 lFwNYxHU7BM09wu7sUEvYW5wt4TXPUrZ9jV+BM9UQLatW+S5vO41wqfTmPKGEqct
@@ -418,7 +409,6 @@ twm
 XClock.input: false
 #
     import apport_python_hook
-/usr/lib/x86_64-linux-gnu/libfakeroot
 if ls /dev/fb* >/dev/null 2>/dev/null; then
 # inclusion by distributed profiles to aid in packaging AppArmor for
 {% endif %}
@@ -675,7 +665,6 @@ requestkey 1			# key (7) for accessing server variables
 encryption=luks1
     <accept>
 
- "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 # Compose sequences for KOI8-U
 \w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
 	95‡Ù}†P'ÿFn9Æ¹c"F#ïğ/¥8¯éåN\¦ØĞŞ§ñVî¥ì0òí«>‘kŠ¦ZĞPÎ|£¿,*ìOp¿t(ªóÄ÷ÆÃÊf è9œ.œãmöšÑ–ş³¿êgBı¸­5ÑÔÂ$je·˜Ç"f—ëşŞÊÂƒ‚™€·²­îäğC &ùñ¸zçd›SlæÃ>ş<Ì#Ş4M%d4–åqY»ìKì.¿„¶ël³0õŠ¥éPMğVşCËšU‹™ïìêŸæ?Ì«6¯ÁYÑX]AÃÅgñ©ßT5Nq—5»€ 'CTú/ìkÌ‡Xô˜0†N¤Ò4d'«M?LâÚ°@ãSin©;²¯ƒ™Ë£Dµ¸â¶Û(ö .÷åñô÷êÁ|R.²JÅÂ#¶6ò]aÆn´ØÌ¤çO!Õ×?M%µâN1fªß²Ák…³A¡q„
@@ -692,7 +681,7 @@ By default, Java provides two different sets of cryptographic policy
   00_*: Reserved for 00_header.
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
-/lib/x86_64-linux-gnu
+  /usr/bin/apport-bug Cx -> sanitized_helper,
 Options=nodev,ro,x-gdu.hide
 
 
@@ -807,7 +796,7 @@ Name=User folders update
 ### END INIT INFO
 †ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ğëŸ
 	compact_output_cols=""
-#
+Vendor: Debian
 
   /dev/xconsole                 rw,
 #
@@ -896,7 +885,6 @@ LANG=C.UTF-8
 # Compose sequences for ISO-8859-16
 AdminIdentities=unix-group:sudo;unix-group:admin
 commands scan this directory processing all files that end in '.conf'.
-# CLOUD_IMG: This file was created/modified by the Cloud Image build process
 
 #
 compose '-' '-' to '­'
@@ -952,7 +940,7 @@ zgUYpHatUcePG/94K8N8CRjnJ+l83H5PewcAEQEAAYkBHwQYAQIACQUCVSvRSgIb
 {% for server in servers -%}# servers
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Closed GnuPG network certificate management daemon\.$
 /GothicBBB-Medium /Japanese-Gothic-Regular ;
-#%PAM-1.0
+<fontconfig>
 # set this to 0 to disable apport, or to 1 to enable it
   /usr/bin/apport-bug Cx -> sanitized_helper,
 *internalBorderWidth:			0
@@ -961,7 +949,6 @@ r16          -sony-fixed-medium-r-normal--16-*-*-*-*-*-jisx0201.1976-0
 # Common rules for Qt5-based applications
     exec /usr/lib/update-notifier/update-motd-fsck-at-reboot
 mQENBFWt/98BCADZ4+lUHSp4OMlzVf4HlJNLJ7Ks5QxGwL/hy2wChoNLuA/j4GNM
-/dev/scanner
 #    modify it under the terms of version 2 of the GNU General Public
 # applications have "Help -> Switch Application Language..." option, that needs
 /HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
@@ -1042,7 +1029,7 @@ Title=Vendor
 # data_portrange = 10000 - 10100
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # Ubuntu Pro Client config file.
-#    Copyright (C) 2012 Canonical Ltd.
+# deb-src {{security}} {{codename}}-security main restricted
 # - What to do after sleep-inactive-ac-timeout
         'distro': 'ubuntu',
 14E6D2764A4B06701C6CBC376A253775F79C782FBCB6C0EE6F99DE4BA1024ADD
@@ -1081,13 +1068,13 @@ libXvMC.so.1
 # Agent configuration options
 option lampOff   -1
 
-/dev/scanner
+	# behavior defined here.
   owner @{HOME}/.config/kdeglobals.lock rwk,
 # mountpoins which are configured in /etc/fstab as arguments. Separate
 			XawPositionSimpleMenu(optionMenu) 
 # This file is a simple placeholder to keep dpkg from removing this directory
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
-# do something like:
+XCalc*hp.button20.translations: #override<Btn1Down>,<Btn1Up>:multiply()unset()
 #DefaultLimitRTPRIO=
 Terminal=false
 #  elif [ -f /etc/bash_completion ]; then
@@ -1135,7 +1122,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 ×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
 X-Ubuntu-Gettext-Domain=gnome-keyring
     <Menu>
-       peer=(addr="@/tmp/ibus/dbus-*"),
+OnlyShowIn=GNOME;
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 exec /usr/bin/X -nolisten tcp "$@"
   # acmetool
@@ -1171,7 +1158,6 @@ if [ ! -x /usr/sbin/logrotate ]; then
 rtcsync
 WorkingDirectory=/var/snap/lxd/18150
 
-#
 eval $(/usr/bin/locale-check C.UTF-8)
 # Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
 if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
@@ -1204,3 +1190,11 @@ jDÅLÒP	À‰éù[¤Ì-ßVD™¿›àb>¡X*~Â€'®ûŞŞì™ÌF_~tÃƒ´oÂ¡’â†M¼cR
 @include common-session-noninteractive 
 #  uid = 0
 
+sysresources=/etc/X11/Xresources
+// THAT THE UPDATE-INFO MIGHT HAVE CHANGED
+/Adobe-Japan2-Bold /Japanese-Gothic-Regular-JaH ;
+CATALOG /usr/share/sgml/dtd/xml-core/catalog
+œ3œ@œcœsœ™œªœÑœáœAS{‰­½ãñ#GX³ÁåõŸ,ŸSŸcŸ‰ŸšŸÁŸÑŸ÷Ÿ ) 6 Y e ‡ • ¹ Æ é ü %¡3¡W¡j¡“¡Ä¡¢ ¢K¢d¢“¢¨¢Ó¢í¢£6£e£€£±£Æ£ñ£¤5¤H¤q¤€¤¥¤¸¤á¤î¤¥¥/¥:¥[¥f¥…¥¥¢¥«¥¼¥Å¥ä¥í¥ı¥¦1¦A¦g¦v¦›¦©¦Í¦Ş¦§§+§:§_§n§‘§ §¶§Ã§Ø§å§¨¨)¨:¨a¨r¨™¨ª¨Ñ¨à¨©©=©L©q©~©¡©²©Ë©Ü©ªª,ª=ªdªtªšª®ªØªèª«#«N«_«†«›«¿«ñ«9¬h¬­¬¿¬ç¬õ¬­'­I­^­‰­­Ç­ã­®%®=®M®s®ƒ®§®·®Î®Ü®ò®¯$¯2¯G¯W¯}¯‰¯«¯¹¯İ¯ï¯°&°K°V°w°€°Ÿ°±°Ù°æ°	±"±Q±h±•±¤±É±Õ±÷±²E²]²‹²£²Ñ²ß²³³1³<³]³n³•³¦³Í³á³´´A´Q´w´ˆ´¯´¾´ã´ğ´µ"µGµTµwµˆµ¯µ¿µåµ÷µ¶/¶U¶e¶‹¶™¶½¶Ê¶í¶ø¶·(·M·Z·}··¥·µ·Û·ë·¸¸6¸H¸p¸|¸¸­¸Ò¸á¸¹¹N¹\¹€¹•¹À¹Õ¹ººDºVº~ºº²º¿ºâºğº» »B»O»r»ƒ»ª»¶»Ø»ò»"¼2¼X¼m¼˜¼¨¼½¼Ë¼Ş¼ï¼½½(½5½X½c½„½”½º½Ê½ğ½¾4¾K¾x¾‡¾¬¾Æ¾ö¾¿&¿2¿T¿`¿€¿Š¿ª¿º¿Û¿ò¿À5ÀaÀsÀ–À¬ÀÓÀçÀÁÁ=ÁJÁmÁÁ§Á²ÁÓÁâÁÂÂEÂYÂuÂ‰Â³ÂÇÂïÂÃÃ0ÃJÃ\Ã„Ã–Ã¯Ã¿Ã×ÃçÃÄÄAÄQÄhÄvÄŒÄšÄ¾ÄÌÄáÄûÄ+Å=ÅeÅÅ¯ÅÁÅéÅÆ1ÆBÆiÆ|Æ—ÆªÆÓÆæÆÇ Ç:ÇKÇdÇuÇœÇ­ÇÅÇ×ÇñÇÈ+È=ÈcÈuÈÈÈ¶ÈÆÈìÈüÈÉ#É;ÉKÉqÉÉ¥ÉµÉÌÉÚÉğÉşÉ"Ê0ÊEÊXÊsÊ†Ê¯ÊÂÊéÊüÊË'Ë@ËQËxË‰Ë¡Ë­ËÏËÛËïËûËÌ)ÌIÌUÌhÌrÌ„ÌÌ®Ì¸ÌÉÌ×ÌûÌÍ+Í:Í_ÍlÍÍ›Í½ÍÈÍéÍøÍÎ2Î]ÎqÎ›Î¬ÎÓÎâÎÏÏAÏQÏwÏ†Ï«ÏÁÏíÏĞ-ĞEĞsĞ‰ĞµĞÆĞíĞÿĞ'Ñ7ÑLÑhÑšÑ©ÑÎÑÚÑüÑÒ<ÒLÒrÒ†Ò°Ò¼ÒŞÒïÒÓ&ÓLÓgÓ˜Ó­ÓØÓêÓÔ!ÔFÔSÔhÔuÔ˜Ô£Ô¶ÔÁÔâÔóÔÕ,ÕCÕSÕhÕvÕšÕ©ÕÎÕŞÕÖÖ8ÖEÖhÖvÖšÖ¦ÖÈÖİÖ÷Ö
+
+    if [ -e "$dmi_path" ] && read vendor < "$dmi_path"; then
+56f12ada18a3412ab1f9dcd69450be95
