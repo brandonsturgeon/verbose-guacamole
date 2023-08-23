@@ -15,7 +15,6 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 
 # Here is the list of possible values:
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
-# Compose sequences for ISO-8859-6
 NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 
 </fontconfig>
@@ -24,7 +23,7 @@ NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 blacklist i810fb
 driftfile /var/lib/chrony/chrony.drift
 # for it. Matches are exact only at the moment (no globbing etc.).
-	the data found in the instructed hints. The initial Vera release
+  # Checking for PID existence is quite common so add it by default for now
 
 # to update this file, run dpkg-reconfigure cloud-init
 	si_unit_consistency=1
@@ -200,7 +199,6 @@ compose '`' 'u' to 'ù'
 »}Nz×åË‰F´Í{SÊBÔ‡&¶šŸXéPjˆjàg§]‰8‹
 ${IF_LINK_DUPLEX:+ duplex $IF_LINK_DUPLEX}\
 
-fi
 Acquire::Changelogs::AlwaysOnline "true";
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 # console I usually leave idle.
@@ -214,7 +212,6 @@ yŞñ#².ü…Ské™ÁòoÛo‹cŒP+Ê¸\*pFú›óSÖ[·œ6Y].Àì;ÏÓä@y(R£X<ø|)>+¯˜´jh¼b
 Title=Vendor
 
 # This file is a simple placeholder to keep dpkg from removing this directory
-. /usr/share/bash-completion/bash_completion
 
 
 # symbolic names for networks, see networks(5) for more information
@@ -287,7 +284,6 @@ if [ -f /bin/setupcon ]; then
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
 DISTRIB_CODENAME=jammy
 label=magenta,
-	€
 
 # Defaults can be restored by simply deleting this file and all drop-ins.
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
@@ -313,7 +309,7 @@ fi
 #    This program is free software; you can redistribute it and/or
 			<family>DejaVu Sans</family>
     if [ -f "$HOME/.bashrc" ]; then
-auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
+[ -x /usr/bin/xhost ] && [ -x /usr/bin/id ] &&
 @{XDG_PUBLICSHARE_DIR}="Public"
 ## Uncomment the following two lines to add software from Canonical's
 
@@ -335,7 +331,7 @@ Parent: Debian
 #export http_proxy="http://127.0.0.1:3128/"
 " Vim will load $VIMRUNTIME/defaults.vim if the user does not have a vimrc.
 # default location for the meta-release file
-# $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
+*topform.Form.fillstyle.Toggle.width:	185
 # x25
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
 QT_ACCESSIBILITY=1
@@ -346,7 +342,6 @@ w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
 
 
   /var/log/**                   rw,
-# ctrll shiftr alt keycode 36 = Incr_Console
     # clean up parts of the database created by the initramfs udev
 
 #    This program is free software; you can redistribute it and/or
@@ -478,7 +473,7 @@ compose ')' '-' to '}'
 # The following lines are desirable for IPv4 capable hosts
 # Required-Start:    $remote_fs
 # enable xtrace if we should be verbose
-#   1:			top		# top -> 1:0
+  )
        containing collections of any of the above.  For example:
 # interpreted by the kernel to help with debugging. The kernel will respond
 
@@ -542,7 +537,6 @@ deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # set start_ro=1 to make newly assembled arrays read-only initially,
 [PStore]
     <Directory>X-GNOME-Other.directory</Directory>
-
 Ubuntu 22.04.2 LTS
 
 bookworm/sid
@@ -559,7 +553,7 @@ change_hat {yes
 631	# cups
       <bool>false</bool>
 
-compose '<' 'r' to 'ø'
+	<match target="font" >
 
 session		optional	pam_keyinit.so force revoke
 # /usr/bin/gvfs-open rPx -> foo//gvfs-open,
@@ -635,7 +629,6 @@ DNS={% for server in nameservers %}{{server}} {% endfor %}
 		<rejectfont>
 # Record the rate at which the system clock gains/losses time.
     start-stop-daemon --start --pidfile /dev/null \
-[mysql]
 	        # check because c-n-f could've been removed in the meantime
 # This file is sourced by Xsession(5), not executed.
 	<alias>
@@ -718,7 +711,7 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 X-Snappy=yes
 # Shut down the daemon after this many seconds idle. 0 means don't shutdown.
 [Sleep]
-
+X-GNOME-Bugzilla-Version=3.36.x
 # Authors:
 #
 
@@ -774,7 +767,6 @@ audio/x-pn-aiff=org.gnome.Totem.desktop
 ıh#0£#e¤’“¹…(1·PtAüáóÅ§mZ&›ô¡…ß±û‹7½Ú}ñ¸ŞÀœÁœ€³JÖ4Bú4-±ï¦.†Pü=1úÀ†¾‰hµV‚6uÄDLÄSuVAù&Ú³øè¸J†4sáTÿø|"KÙ…İàdA›öh›½ºûÛ¥B@D@SÕtÊ)$\¸Õ._)èN+eµy³mu=ùsw©ĞT©NI#îÔUµî­ VÆÕæÍ{´5ôt=ùóv©ĞT©NI#ãUWuT÷Ö ;«¢W›?éÑÖĞ×õäÏß¥B@D@S¥:%8[T]ÕÑntçUôjóm]Oş‚]*D@4UªSÒH«EÕUíöXAoRı¬V›ïöhk8ÕõäoºK…€ˆ€¦JuJñµ¨ºª£İ+è9Uôjó½mC]OşÂ]*D@4UªSÒÈİ"«î­AÏ­¢W›ï÷hk8Óõäo¶K…€ˆ€¦JuJaµ [dÕ½5èÑS¡jóƒmçºüÍw©ĞT©N9ãƒª¾êj¯Pôü*<=šöh›ßà‰nÀ=j»ºµˆ‹¸ˆ{p\Õ™i$Ğ/Û•)Ô=Ú±8äX00ùÉ™4É%¤Mçq¥©°8¿É¾]|b«,ø»NŠ’åÅ÷fçeT²öî>¼ÃÓS`4@#Ğ4bDâêGÃóáCQĞïP¨ÉFqJKWÛÍŒNát§ê¢uÅE;:Ód£¬fF§p:†SuÑzâ¢‹‚k²QˆV3£€S8Ã©ºh}qÑo/Ë<ŠË&Gg½Ú}ñ¸ŞÀœÁœ€³JÖòÛf¾((ˆ¯ÉF!~¬fF§p:†SuÑNÅEˆ‚4Ù(D«™QÀ)œáT]´¡¸h§¢ C§šl"‚ÕÌ(àNÇpª.Ú™¸hO—Ëº¢ÃßûvUûÚ#¢u4Õùæ¢ó9¢ 7&…èŞV3£€S8ÃisÑÎ&â¢uEA‡ºšl"‚ÕÌ(àNÇpª.ZùFÛêi²QˆV3£€S8Ã©ºhåí‰(èĞ‰&…ˆ`53
 0x70	AF32
   <description>Set hintfull to hintstyle</description>
-# Short-Description: Configure kernel parameters at boottime
   #include <abstractions/gnome>
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
   <type name="Arial-Narrow" fullname="Arial Narrow" family="Arial Narrow" weight="400" style="normal" stretch="condensed" glyphs="arialn.ttf"/>
@@ -836,7 +828,7 @@ scsi "B&H SCSI"
 
 0xA5 'Â¥'
 <!--  Disable sub-pixel rendering --> 
-# how to byte-compile (comma separated: standard, optimize)
+$x-display-manager gdm3
 
 # Where to place spool and state files
 byte-compile = standard
@@ -859,7 +851,6 @@ Oğô„=i£‹­Ù;'«¼MrF‚T=pnÙva·[»ÚÕÌŞw¼?^ç¤?Æš·CÃÜ<7Ú(bb_ÇKı=´«=É;Knc$H¾P¢]
 fs.protected_hardlinks = 1
 allocation {
 #
-system.posix_acl_access		permissions
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
 #!/bin/sh
@@ -900,20 +891,20 @@ rocks_trees = {
 # im-config signature: d57688c8151277a0c25d15aa0523da6b  -
   <match target="pattern">
 }
-post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
+commands scan this directory processing all files that end in '.conf'.
 
 Vendor-URL: http://www.ubuntu.com/
 
 # the value 'auto' will make the backend find the correct value
 name = NSS
 bullseye/sid
-  @{HOME}/.profile                 r,
+/Adobe-Japan1-Bold /Japanese-Gothic-Regular ;
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 # This directive enables kernel synchronisation (every 11 minutes) of the
 #Samsung MFP-560 Series
 # libc default configuration
 		[ ! "$interface" ] || /sbin/resolvconf -d "${interface}.dhclient"
-    user_friendly_names yes
+
 †Ë«İù»—bdœ-vj!Â",şé©×ZÑ=m';È61©C§Òâ»B“,éUWÕ>ö4÷ùş±è2Õí¥V°,Ô_o°Âõóî±Æc„bƒãÎ´;p)ÒW‚PÄ
 
 # <target name>	<source device>		<key file>	<options>
@@ -1043,7 +1034,22 @@ PPP_SPEED="$3"
 image/eps; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 #
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
-
+	cache_pool_chunk_size = 64
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
 DPkg::Pre-Install-Pkgs { "/usr/bin/apt-listchanges --apt || test $? -lt 10"; };
 ### END INIT INFO
+fi
+    <alias>
+    echo "Usage: /etc/init.d/atd {start|stop|restart|force-reload|status}"
+NoDisplay=true
+  # User files
+#backwards compatibility include, actual abstraction moved from php5 to php
+mHpfNpxbTirChfepCNctZG818Hp2v+K4X/PjyQMQ6J5H9oinnlasVQ6wzdZifnWm
+auth    optional        pam_gnome_keyring.so
+## IPMI_Fan_Device_Present
+$x-display-manager gdm3
+session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
+
+# must be between 0 and 15
+# Note that any setup should come before the sessreg command as
+# Normally, if the DHCP server provides reasonable information and does
