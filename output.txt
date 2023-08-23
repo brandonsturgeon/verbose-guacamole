@@ -81,7 +81,6 @@ xterm
 scsi DEVCOM * Scanner
 test -r /usr/share/im-config/xinputrc.common || return
 gtk-icon-sizes = panel-menu-bar=24,24
-# so please ensure that:
 
 # If you want logs to go to syslog, uncomment the following line.
 # and users home directories will reside within the directories that
@@ -99,7 +98,7 @@ esac
 Acquire::Changelogs::AlwaysOnline "true";
 
        search:
-## template:jinja
+#
 # $ sudo dpkg-reconfigure apparmor
 
 swedish         sv_SE.ISO-8859-1
@@ -210,7 +209,7 @@ compose ')' '-' to '}'
 
            "booktitles.ent">
 setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz' 
-fi
+/dev/scanner
 # See avahi.hosts(5) for more information on this configuration file!
 # Compose sequences for GEORGIAN-PS
 #           will attempt to upgrade to the first LTS release available after
@@ -269,11 +268,11 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
 # definitions of existing MD arrays
 [usb]
-ETHTOOL=/sbin/ethtool
+           send_interface="org.gnome.DisplayManager.Display"/>
 # javax.management.monitor.foo.Bar.
 # Uncomment following line to disable "clever precalibration" routines...
 *ispell*options.horizDistance:		2
-max_allowed_packet	= 16M
+  <type name="Bookman-Old-Style-Italic" fullname="Bookman Old Style Italic" family="Bookman Old Style" weight="400" style="italic" stretch="normal" glyphs="boookosi.ttf"/>
 type=file
 esac
 
@@ -331,7 +330,6 @@ X-GNOME-Bugzilla-Version=3.36.x
 rocks_trees = {
 # install the apport exception handler if available
 
-X-GNOME-Autostart-Notify=true
 
  * and edit it there.  That way, your changes will be kept next time
   /dev/console rw,
@@ -351,7 +349,7 @@ kbd_mode '-u' < '/dev/tty5'
   /etc/cloud/clean.d/99-live-installer
 # See comments in /etc/login.defs
             <family>Sazanami Gothic</family>
-
+  deny @{HOME}/.mutt** mrwkl,
 =RFA4
   #include <abstractions/base>
 # found. Default is to true which will allow any peer to access anything.
@@ -390,7 +388,7 @@ XLoad.input:			false
 # installkernel must call postinst.d with two args, version & image_path
 # Insert here your local magic data. Format is described in magic(5).
 [fwupd Remote]
-#    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
+[chooser]
 # Compose sequences for ISO-8859-6
 
 *customization: -color
@@ -540,7 +538,7 @@ EnumerateAllDevices=false
 }
   /etc/OpenCL/** r,
 Type=Application
-# should not normally be necessary (under Linux at least).
+127.0.0.1 {{fqdn}} {{hostname}}
 # and the kernel MPPE module available from the CVS repository also on
 scsi IBM 2456
 Exec=/usr/libexec/gsd-wacom
@@ -607,7 +605,7 @@ done
 #       from the USB subsystem. If you're not using the
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
 # You can even override a supported extension:
-		<test name="pixelsize" compare="less">
+KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 esac
 #
@@ -660,7 +658,6 @@ mßlj'ã©ZjUJü§mìôÃbπ¸G´πÙOÎ•ﬂØ7DÚˆ
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
 #
   if [ -x $UUIDGEN ]; then
-/dev/scanner
 
 <delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 ETHTOOL=/sbin/ethtool
@@ -699,13 +696,13 @@ OK           ATDT<put phone number here>
 #  option routers 192.33.137.250;
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # Defaults can be restored by simply deleting this file.
-
+# Autodetect 1200 UB and Trust Compact Scan USB 19200
 
 case "${1}" in
 @{securityfs}=@{sys}/kernel/security/
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-# Site-specific additions and overrides for usr.bin.firefox.
-# HP Scanjet G2710
+
+alias gawkpath_prepend 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") then; unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKPATH "!*"":$AWKPATH"'
       <string>DejaVu Sans Mono</string>
 #
 run_im default
@@ -788,7 +785,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 *ispell*check.label:			Check
 group:          files systemd
 
-# DO NOT EDIT OR REMOVE
 #!/bin/sh
 @include common-password
   </its:rules>
@@ -859,7 +855,7 @@ XClock.Clock.majorColor:	rgba:7f/00/00/c0
 # The format of port-name is dependant on your OS version.
   /var/log/lastlog  rwk,
 
-! MIT colors are Cardinal Red (Pantone 201c) and Silver Grey (Pantone 421c)
+# Compose sequences for CP1251
 
 AUFS_MAX_NAMELEN=242
 /dev/scanner
@@ -907,7 +903,6 @@ Ubuntu 20.04.5 LTS \n \l
 # be polyinstantiated based on the MLS level part of the security context as well as user
 # 'keyscript=' option.  In that case, the field is not treated as a file
 # a minimum a blank line following it).
-           send_interface="org.gnome.DisplayManager.Display"
 MIIElDCCA3ygAwIBAgIQAf2j627KdciIQ4tyS8+8kTANBgkqhkiG9w0BAQsFADBh
 deb http://packages.azlux.fr/debian/ buster main
 
@@ -1051,7 +1046,6 @@ test -x /usr/sbin/sshd || exit 0
   /dev/nvidia-uvm rw,
 ipv6-icmp 58	IPv6-ICMP	# ICMP for IPv6
 #
-
 #    Copyright (C) 2014 Canonical Ltd.
 /usr/bin/wine-preloader
 	missingok
@@ -1071,7 +1065,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 #
 
 [xdmcp]
-    status="$(/usr/sbin/update-cracklib)"
   capability            setuid,
 
 
@@ -1106,3 +1099,17 @@ grant {
 /dev/scanner
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
   reload)
+" If you don't want that to happen, uncomment the below line to prevent
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: no dictionary update necessary\.$
+[genie]
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ mdadm(\[[[:digit:]]+\])?: SpareActive event detected on md device /dev/[-_./[:alnum:]]+, component device /dev/[-_./[:alnum:]]+$
+                  systemctl reset-failed systemd-resolved.service
+# Scripts in this directory are executed as root when a user log out from
+enabled/disabled by adjusting the symlinks.
+# Set to the user saned should run as
+Type=Application
+deb {{mirror}} {{codename}}-updates multiverse
+	<alias binding="same">
+  /usr/share/myspell/**                            r,
+text/*; less '%s'; needsterminal
+|y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
