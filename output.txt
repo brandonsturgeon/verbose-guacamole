@@ -15,7 +15,6 @@ scsi AdLib * Scanner
 ï3ïDïkï|ï£ï≥ï»ï◊ïÓï˝ï"ñ1ñTñcñyñòñÕñÿñ˘ñó+ó9ó[óeóÖóèó≠ó∫ó›óÈóòòGòRòsòÑò´òªò·òÔòô$ôKôYô}ôäô≠ôπô€ôÏôö*öWöföãöõö¡öŒöÒöˇö#õ3õYõiõèõüõ√õ“õ˜õ
 <fontconfig>
 # This file is sourced on all invocations of the shell.
-</fontconfig>
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # Specify directory for log files.
       <family>Noto Mono</family>
@@ -79,7 +78,6 @@ audio/x-mpegurl=rhythmbox.desktop
 # For more details, please see /etc/apparmor.d/local/README.
 [ -d /var/crash ] || exit 0
     minsize 1M
-    export CLUTTER_IM_MODULE
 // Pre-configure all packages with debconf before they are installed.
 		fi
 #parport0
@@ -134,7 +132,6 @@ mode="${1#'}"
 # usb 0x4b8 0x14c
 # set start_ro=1 to make newly assembled arrays read-only initially,
 # Welcome to the chrony configuration file. See chrony.conf(5) for more
-	create 644 root root
 
 
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
@@ -167,7 +164,7 @@ ports=22/tcp
 previous-engine=@as []
 tcp.flag.psh	u8		tcp+13		0x08		3
 <?xml version="1.0"?>
-# Compose sequences for GEORGIAN-PS
+<delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.0/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
 	rm -f "$TEXT_FILE"
 #    License published by the Free Software Foundation.
 
@@ -213,7 +210,6 @@ XLoad.input:			false
 #
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
 [fwupd Remote]
-# javax.sound.sampled.TargetDataLine
 # Compose sequences for TIS-620
 Name=GNOME Settings Daemon's USB protection plugin
 # install prefixes.
@@ -457,7 +453,6 @@ kbd_mode '-u' < '/dev/tty3'
 # Should-Start:      $network $named slapd autofs ypbind nscd nslcd winbind sssd
 ## or updates from the Ubuntu security team.
 speed=115200
-       bus=session
               ;;
 # Compose sequences for GEORGIAN-PS
 [OpenSSH]
@@ -470,7 +465,6 @@ speed=115200
 compose '`' 'e' to 'Ë'
 -----END CERTIFICATE-----
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
-. /usr/share/bash-completion/bash_completion
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 
 Name=GNOME Settings Daemon's housekeeping plugin
@@ -489,7 +483,7 @@ blacklist rivafb
   # for networking
 [METARELEASE]
   <!-- Generic name aliasing -->
-   "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
+###############################################################################
 
   <alias>
 #!/bin/sh
@@ -543,12 +537,11 @@ $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 # Compose sequences for IBM1133
 # IPMI_Chip_Set_Transition_Severity_Informational                                    Nominal
 	</match> 
-  dbus (send)
 # with the multiqueue (mq) policy and uses less memory.
     rotate 7
 
 
-# deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
+BatteryThreshold=10
 #!/bin/sh
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 # If set to all update-initramfs will update all initramfs
@@ -654,7 +647,7 @@ order hosts,bind
 'FŒ@7U*≥ﬁÛ@≥ì~˛KˇÃÌÕ|ÁÅ%ìE†wW˚,"$aïHŸ√G˙å~°¸Ò~X’è˘Æ¡Q›Zﬂ√∞EcäëÍÈËf’îG’:õø/ÉŸâ<
 
 // Example: Homepage
-AutomaticReports=false
+#
 # The default is 900 (15 minutes).
 # System-wide GDB initialization file.
 # ctrll shiftl alt keycode 36 = Incr_Console
@@ -670,7 +663,6 @@ AutomaticReports=false
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 . /usr/share/bash-completion/bash_completion
  - chef
-LANG=C.UTF-8
 [tunables]
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
   # Scanning for USB devices
@@ -711,7 +703,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 /lib32
 @{multiarch}=*-linux-gnu*
   /etc/bash.bashrc.local           r,
-◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
+/MKai-Medium /ZenKai-Medium ;
 # Disallows other than root logins when /etc/nologin exists
 
 
@@ -842,7 +834,7 @@ domain {{domain}}
 			<string>sans</string>
 # ldconfig = false
   the ImageMagick option
-#include <tunables/home.d>
+# clean all crash reports which are older than a week.
 alias.url += ("/javascript" => "/usr/share/javascript")
   # (src/intel/perf/gen_perf.c, load_oa_metrics())
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
@@ -850,7 +842,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 // Notify all clients to reload the cache
 
 *start.Justify: left
-
+[defaults]
 # Purpose: show user warnings on login.
 +  manage_etc_hosts: True
 
@@ -870,7 +862,6 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
 
 
 #
-
 
 if [ ! -x /usr/sbin/logrotate ]; then
 # Specify file containing keys for NTP authentication.
@@ -956,7 +947,6 @@ restrict -6 default notrap nomodify nopeer noquery
   <description>Load local customization file</description>
 usb 0x03f0 0x0105
 XCalc*ti.button48.fromVert:		button43
-[Desktop Entry]
 type=file
 # networking=no
 @include common-session-noninteractive
@@ -974,7 +964,7 @@ deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # USB
 
 when preparing a golden image for clone and redeployment. The clean command
-
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
             rm -f /var/run/$NAME.pid
 ; rlimit-locks = -1
@@ -993,11 +983,10 @@ datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltClo
 # This file may be sourced by the function source_with_error_check() in
 [Distro]
 # Compose sequences for VISCII
-  monthly
 
 AdminIdentities=unix-group:sudo;unix-group:admin
  üPJ>z6˙—Q@œY‡{‰	Lß‹][¥≤∞≤ΩwÕwwb@HÁI‡Íâ—“ëáH>'4)¥´+ïK%}≈c≤-(q‹LSç^5Ô‘Ûﬁí}â†TÙÄ-Pôâw±ÑıÔ†◊µ>Reëv-©ﬁñY~I‡¥”<Gieç–≠l ¶Ï0†âùQ$rxL[
-    ;;     bogus errors on installation because of #132355 and friends.
+# Compose sequences for ISO-8859-6
 
 	log_action_begin_msg "Setting up resolvconf"
 
@@ -1017,7 +1006,6 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 # The example configuration below imitates the behavior of a standard mobile
   # paths (man ld.so)).
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
-–
 # ISSUE_FILE option from login.defs). Uncomment for use
 # /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
 . /usr/share/bash-completion/bash_completion
@@ -1138,7 +1126,7 @@ LP-PPA-ubuntu-mozilla-daily
 # If this option is given, pppd will presume the peer to be dead if n
 # interpreted by the kernel to help with debugging. The kernel will respond
 # ------------------------------------------------------------------
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
+deb http://packages.azlux.fr/debian/ buster main
 #option 1200cu
   Associate an image format with a unique identifier. 
 <!DOCTYPE busconfig PUBLIC
@@ -1166,7 +1154,6 @@ enabled=1
 	;;
 }; 
 # orbit2 permissions
-deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 #/dev/scanner
 ::1 localhost6.localdomain6 localhost6
 #
@@ -1199,8 +1186,18 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 
 #baud=115200
 
-        done
 After=snap-lxd-18150.mount network.target snapd.apparmor.service
   (setq auto-mode-alist
 
 /usr/lib/x86_64-linux-gnu
+scsi SIEMENS "ST 800" Scanner * * 3 *
+wifi.powersave = 3
+  /usr/bin/gnome-btdownload Cxr -> sanitized_helper,
+	fi
+CATALOG /usr/share/sgml/dtd/xml-core/catalog
+APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
+ddp	37	DDP		# Datagram Delivery Protocol
+deb http://packages.azlux.fr/debian/ buster main
+#    modify it under the terms of version 2 of the GNU General Public
+  /usr/local/share/man/man?/            r,
+/Ryumin-Light /Japanese-Mincho-Regular ;
