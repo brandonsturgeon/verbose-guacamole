@@ -43,7 +43,7 @@ Title=Vendor
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
 checkbox=,magenta
-# Compose sequences for ISO-8859-8
+    $_local bad invalid="" to_gen="" sfile="/usr/share/i18n/SUPPORTED"
 # Compose sequences for ARMSCII-8
 The files are loaded in numeric order, the structure of the configuration
 
@@ -65,7 +65,6 @@ scsi IBM 2456
 
                 . /lib/lsb/init-functions
 
-
 		mkdir -p /boot/grub
 	<Btn1Up>:	notify() reset()
 [ ! -r "$stamp" ] || cat "$stamp"
@@ -81,7 +80,7 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 XConsole.translations:		#override
     [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
-/dev/scanner
+@include common-auth
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
 
@@ -109,7 +108,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
 # javax.management.monitor.foo.Bar.
 @{multiarch}=*-linux-gnu*
-[fwupd Remote]
+
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 #
 #
@@ -154,7 +153,7 @@ XLoad.input:			false
 
 #
 MANPATH_MAP	/opt/sbin		/opt/man
-name = NSS
+# CLOUD_IMG: This file was created/modified by the Cloud Image build process
 fi
 # Turn on Source Address Verification in all interfaces to
     exec /usr/lib/update-notifier/update-motd-hwe-eol
@@ -246,7 +245,7 @@ email_format=text
 #
 	# sequences and ordinary character sequences. Ordinary character
   <!-- Allow anyone to invoke methods on the interfaces -->
-What=/var/lib/snapd/snaps/snapd_8542.snap
+
         if [ -x "$STARTUPFILE" ]; then
     <element ref="ds:DigestValue"/>
 
@@ -302,7 +301,6 @@ server {{server}} iburst
 
 APT::Periodic::Download-Upgradeable-Packages "0";
 
-[Unit]
 	rm -rf "${RUN_DIR}/interface/*"
 // grant codeBase "jrt:/com.greetings" {
 
@@ -323,7 +321,6 @@ Name=GNOME Settings Daemon's housekeeping plugin
 /dev/scanner
 	log_end_msg $?
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
-ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 blacklist rivafb
 
 # inclusion by distributed profiles to aid in packaging AppArmor for
@@ -420,7 +417,7 @@ After=snap-lxd-18150.mount
 # -Z Disable the power-saving function of certain Seagate drives
 'ﬂﬂ^“9œE}BKﬂ≥,≈∆] U:†úiöè⁄Ô≤∞<üál+epR1$œo1#PåOè#√tAcU®›>‡QPœÒ0Ví∞ÇÖÿÉÀ"dº-∏%’T¢∏Í≠í§$†¡ÜµJjGœ.VïTÀŒö€j¥¶≤€AÜ'w˜j†Bl8Œ◊uP2í¬ﬂ+0"H–’A8%]§È]ü∆îu–E˝0óCèê´
   /dev/xconsole                 rw,
-# X11xx series
+# Options that will apply to any `sos report` run should be listed here.
 #!/bin/sh
 CATALOG /usr/share/xml/docutils/catalog
 auth		sufficient	pam_rootok.so
@@ -467,7 +464,7 @@ CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
 
 
 # ------------------------------------------------------------------
-# while a reboot isn't required for the new kernel it might be for another package
+    <family>Bepa</family>
 
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 #    modify it under the terms of version 2 of the GNU General Public
@@ -555,7 +552,7 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   /etc/dconf/** r,
 deb {{mirror}} {{codename}} multiverse
 #  elif [ -f /etc/bash_completion ]; then
-    do_status
+  option buffersize 262144
 # Written by the Cloud Image build process
 	notifempty
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
@@ -688,7 +685,6 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 # Compose sequences for IBM1133
 
 run_im default
-#
 [Desktop Entry]
 #
 # along with this program; if not, write to the Free Software Foundation, Inc.,
@@ -748,7 +744,7 @@ DAEMON=/sbin/lvmpolld
 # Compose sequences for CP1251
 # timeout). The policy plugin should contain a sane set of values by
 # to update this file, run dpkg-reconfigure cloud-init
-*editMenu.cut.label:			Cut (Meta-C)
+Clock*jewel:		yellow
 
 	<alias>
 
@@ -764,7 +760,7 @@ encap	98	ENCAP		# Yet Another IP encapsulation [RFC1241]
 ;; -*-emacs-lisp-*-
 # If this option is given, pppd will presume the peer to be dead if n
 brandon:100000:65536
-deb http://packages.azlux.fr/debian/ buster main
+   "URL": "https://launchpad.net/~%s/+sshkeys"
 <?xml version="1.0"?>
   /etc/gtk/*                      r,
 			for N in $new_dhcp6_name_servers ; do
@@ -774,7 +770,7 @@ order hosts,bind
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
         fi
 #endif
-# IPv6 Privacy Extensions (RFC 4941)
+/dev/amidi*     rw,
 /dev/scanner
 test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 <?xml version="1.0"?>
@@ -810,7 +806,6 @@ After=snap-lxd-18150.mount network.target snapd.apparmor.service
 #
 # the value ranges from 4096 - infinity
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
-deb http://packages.azlux.fr/debian/ buster main
 
 /Ryumin-Light /Japanese-Mincho-Regular ;
 compose '-' 'o' to 'ı'
@@ -845,7 +840,6 @@ Type=Application
 			<family>STIX Two Math</family> <!-- AMS -->
 Acquire::http::User-Agent-Non-Interactive "true";
 CATALOG /usr/share/xml/docutils/catalog
-
 #
 d /run/screen 1777 root utmp
 #   https://bugs.debian.org/858528
@@ -919,9 +913,7 @@ has led to the following conventions in usage:
 #    Use the ip command to remove all the addresses of an interface.
 #    modify it under the terms of version 2 of the GNU General Public
 fi
-Type=Application
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-# Setup file rotation - keep 3 files
 #
 
 
@@ -938,7 +930,6 @@ DESKTOP-OFJN9OT
 exit 0
 }
 	devtypes_cols_verbose="devtype_name,devtype_max_partitions,devtype_description"
-# ---------------------------------------------------------------------------#
 // Some countries have import limits on crypto strength, but may allow for
 deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # orbit2 permissions
@@ -983,7 +974,7 @@ user-db:user
   @{PROC}/sys/crypto/fips_enabled r,
     // For request/response body processors, fromFile, asFile
 deb http://packages.azlux.fr/debian/ buster main
-LC_CTYPE=C.UTF-8
+[tunables]
 Ä
   </policy>
 quote-names
@@ -1031,7 +1022,7 @@ Ubuntu 20.04.5 LTS \n \l
 .
 8EDz9oR8HBPbxbd4i2dBfziY7TW4o/VgZKTGWA39JfwWNc5RxaYzBhBmg5nRcVFs
     enabled: false
-#    This program is free software; you can redistribute it and/or
+. /lib/lsb/init-functions
 OK		ATD*99#
 # text following a '#' is ignored to the end of the line.
 
@@ -1048,7 +1039,6 @@ APT::Archives::MinAge "2";
        interface=org.a11y.atspi*,
 # other distros, it might be elsewhere, such as /tmp/screens
       bus=session
-DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
 # ------------------------------------------------------------------
 115200
 #
@@ -1060,7 +1050,6 @@ DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/upda
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
   # Support the new executable helper from NetworkManager.
 #
-# on the right-hand side.  The list items are separated by semicolons ";" and
 [ ! -r "$auto_attach_stamp" ] || cat "$auto_attach_stamp"
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
 KP_0 = s;0
@@ -1145,7 +1134,6 @@ deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 X-GNOME-HiddenUnderSystemd=true
 
-
             printf '%s' ${terminfo[smkx]}
 # Specify command line options here. This config file is used
 #
@@ -1154,3 +1142,13 @@ X-GNOME-HiddenUnderSystemd=true
   audit deny @{HOME}/.zshenv wl,
 /dev/camera
 /dev/scanner
+
+
+  owner /run/user/*/dconf/user rw,
+  If we *are* going to scale, go ahead and do it.
+LANG=C.UTF-8
+# Copyright (C) 2014 Canonical Ltd
+gtk-icon-sizes = panel-menu-bar=24,24
+if [ -f /run/console-setup/keymap_loaded ]; then
+  # System files
+fi
