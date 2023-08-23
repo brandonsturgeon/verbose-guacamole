@@ -50,7 +50,6 @@ QT_ACCESSIBILITY=1
 [ -x /sbin/vgchange ] || exit 0
 overlayroot_cfgdisk=LABEL=OROOTCFG
 # people's needs, but debconf's database drivers can be used to do much
-deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
 *text.baseTranslations:		#override\
 #MaxRetentionSec=
@@ -102,7 +101,7 @@ c0582bt_.pfb -bitstream-courier 10 pitch-medium-i-normal--0-0-0-0-m-0-iso8859-1
 
 gdm:x:121:129:Gnome Display Manager:/var/lib/gdm3:/bin/false
 # ------------------------------------------------------------------
-search updates ubuntu built-in
+# the value ranges from 4096 - infinity
 20210526062933 2 6 100 7679 2 E3F4DC1A68758284B2950A16204A7D9CB3972B0E74E2CDF12518B48DA3F349640BFEDA5162CB2EC47E2593EDB3BB51D743F3F4948A4D940B37B724B6D7E5F5BFD44F9D3CFB0F6E2CC1B33AEB7FCA7C2E26EFC55208D15DD12B08925383346148CA7CEEE874499CBE6E5D34AF7EF47742F683398B5418E3FA261013922180C6EEB4250632A2F93CDC281E6E76A488FEB4CE7B4C9783A37201CE4B551B53EEBF291234454CD0A4DC1B78C2D0F1BF72EC5D64EDBE8CB662F373ED861194F02AFBC8B7133ED9BDDFEEBA8E7C19C58505DF691960346B4F9E0FC1076DE872E6CB4323B8AD7FB4B086B26E10A55ECEB23F6FE78A5224A0679E5EA529C1327D38EDCCD340788D6216D1388B33A8E93B41B0B13ECAB9B7D647BBFBA2181E752B9DE7230C13B38E0988CAD88E2B1F8B8B1C938B93BAD62F250289CE33E3BE77C04B8090B806B031C23413EAE7799E6FB6DFB02ACCD308EA8688245527ED4918ACE575748DC01C02A6420C9CEECCAF8CBA73F16282DEEC6697CF82C880E3FFC8FD149411C6AD19AAF3B30BF2EE89977B7536C9607777F6E4F6E83B84BB4D9B359EDA6A5A1167B6D352F4D6CCE10F2C974EB81CB1C75280406B2F891A7E500BD58648A5A88ACDD1A6D7A2D80690BB441E533171930ABA557A52BD2512E3FD9A3E5DE6A378E3FED42D6ED5480093D3B0E068F2A24B54FF43BEE12BDD5A646B4A2C1746C27328792A4B9528FB45F6AF56C6F917978B535D98C2441EE79D825E73BF97A7D49B5DC85B12B0C257DF6AF0907B771C5EA582C9DECDDC3CC1852AE403FDCA636DB4B111747646CF893260651567C4C63B391013CA9047AE7F77BCE46A16FBE54054CA8D74AE248A5C5A22B841D31B89C82C8D9567A03B249A07FC1CEFB03B569AB328B0028DA5F3D4D2E2BBE076D9DAAE0DA86DA2648E7311709D0A8C6083C42F9FE430418C2597BF533D294E15E53D5E045A95222A23F4CA7AC9FF35A0E1CBFB80227D800ADA8F79FE463F1C9FA0D8A4E9F6C42ACAB07B5A7CE6E1BB649264EF1EBBDE073A1892B3EDA5CF60D0921754A5848FE47F32168A094CAB1D242EF095BAAD113824511114B4714DDAAA585E3A653DEF46A70DB8D43E4813E6A03E5779B9A9194925CC967DF08F1EB9CEC35EA96BB3D78C40B0A4B8AA79D101CD8110E37119267CC3F2ADA62E3CA0F444C22CF5A73D46BBFDE56BBD1E4FC397A9D6975E77923B6E3AD4CAB4A4E3C5EEB01DC1B7690BF44197AAD7D1B802BB4F6494095E708F4A7F9642AAD64B0511037DC9A65663C4AA6046575A56226103E282B61286CFE6BD8672A3C297DB544E3CF08013BD2B32130D21E521351E9AA9F37816FB41731B
     else
 # --launch gpg-agent"
@@ -110,7 +109,6 @@ search updates ubuntu built-in
 	</alias>
 # that will become kernel vars at some point
 
-    exec /usr/share/unattended-upgrades/update-motd-unattended-upgrades
 session		include		runuser
   # Include additions to the abstraction
   include if exists <abstractions/user-download.d>
@@ -142,7 +140,6 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 *scrollMenu.vertical.label:		Vertical
 session		include		runuser
 
-This file /etc/cloud/templates/hosts.suse.tmpl is only utilized
 xterm
 		<default><family>monospace</family></default>
 #
@@ -178,7 +175,6 @@ session    required   pam_env.so readenv=1 user_readenv=0
 # Default is yes
 		<test qual="any" name="family">
 
-auth    requisite       pam_nologin.so
     [ -x /sbin/restorecon ] && /sbin/restorecon -R /dev
 # update vmlinuz & initrd.img symlinks. Even if initrd.img does not
 blacklist dv1394
@@ -204,7 +200,7 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 # Compose sequences for ISO-8859-5
   . "$USERXSESSIONRC"
   </its:rules>
-yﬁÒ#≤.¸ÖSkÈô¡Úo€oãcåP+ ∏\*pF˙õÛS÷[∑ú6Y].¿Ï;œ”‰@y(R£X<¯|)>+Øò¥jhºbûê`[éƒ•)º¯*Ù#Ku Ù7NëAÀ5}FÄ@KsË1≤Á9Ö)&g˘—DO≥›1
+trusted.SGI_DMI_*		skip		# xfs specific
 # $ sudo dpkg-reconfigure apparmor
 Title=Vendor
 
@@ -213,7 +209,6 @@ Title=Vendor
 
 # symbolic names for networks, see networks(5) for more information
 swedish         sv_SE.ISO-8859-1
-</fontconfig>
 XClock.input: false
   #
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
@@ -231,7 +226,6 @@ fi
 commands scan this directory processing all files that end in '.conf'.
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 
-#
 trusted.SGI_DMI_*		skip		# xfs specific
   # global tmp directories
       We shouldn't overwrite it with "assign" unconditionally.
@@ -335,7 +329,6 @@ w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
 
   /var/log/**                   rw,
     # clean up parts of the database created by the initramfs udev
-
 #    This program is free software; you can redistribute it and/or
 fi
 *SimpleMenu.line.height:		0
@@ -354,7 +347,7 @@ brandon:100000:65536
 ja_JP		ja_JP.eucJP
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/ r,
 XKBLAYOUT="us"
-
+<delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook Information Pool V4.3//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.3/catalog.xml"/>
 
 makestep 1.0 3
 gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
@@ -378,7 +371,7 @@ additional configuration artifact cleanup from the filesystem when
 #
 
 fi
-
+TryExec=im-launch
 {% endif %}
 esp	50	IPSEC-ESP	# Encap Security Payload [RFC2406]
 allocation {
@@ -470,7 +463,6 @@ compose ')' '-' to '}'
 # interpreted by the kernel to help with debugging. The kernel will respond
 
 
-  include if exists <abstractions/consoles.d>
 fi
 	notifempty
 compose ',' 'a' to '±'
@@ -503,7 +495,7 @@ if [ "$INITRD" = 'No' ]; then
 .}
 lˆˇKy·ò∂`&`Úç3)ÉÀîÕh∫“$äxçãÎ‰ˆÚ-Ÿ$È=óﬂìèañì4´Vª»˝ú<,Æì˜XÍBF'–	tù@'NHh˘z˛)OÿÔ–T√FÚÇ}zæπöë¿(åû¬®∫h]~—Œx¬öŒ4l$‹Cc5#ÅQ=ÖQu—é¯E;Á	k:◊∞ëpç’åFaÙF’EÎÒãˆbwïß~ê?êô°≥ZÌ°Úi≠Å38É38˜Ä≥
 13  ip6fw
-alias.url += ("/javascript" => "/usr/share/javascript")
+[localization]
 chip "w83627uhg-*"
 remove iwlwifi 
 fi
@@ -588,8 +580,8 @@ set -e
 
 #    Copyright (C) 2012 Canonical Ltd.
 
-			<string>farsiweb</string>
-
+auth		sufficient	pam_rootok.so
+# don't do anything if im-config was removed but not purged
 			Ctrl<Key>r:	do-resize()
 
 
@@ -656,7 +648,6 @@ fi
 # cloud-init generated file
 # Specify command line options here. This config file is used
 fi
-fi
 bazaar-properties.desktop
 
     fi
@@ -665,7 +656,7 @@ bazaar-properties.desktop
 session		required	pam_unix.so
 alias net-pf-36 off
 
-    while(<$plist>) {
+  LABEL="UEFI Firmware Settings"
   	if [ -r $CACHE ]; then
 tcp.flag.psh	u8		tcp+13		0x08		3
 #!/bin/sh
@@ -720,7 +711,6 @@ X-GNOME-HiddenUnderSystemd=true
 # device group names
   owner /tmp/groff*                           rwl,
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
-		;;
 # install the apport exception handler if available
 camera=Kodak DC240
 X-GNOME-Autostart-Notify=true
@@ -732,7 +722,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 	# Configuration option local/extra_system_ids.
 # This file contains a list of port numbers between 600 and 1024,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
-#%PAM-1.0
+scsi AdLib * Scanner
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
 # This file is a simple placeholder to keep dpkg from removing this directory
 <fontconfig>
@@ -752,7 +742,7 @@ audio/x-pn-aiff=org.gnome.Totem.desktop
     done
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])? md: md[[:digit:]]+: (data-check|requested-resync|resync|reshape|recovery) done.$
 ˝h#0£#e§íìèπÖ(1∑PtA¸·Û≈ßmZ&õÙ°Öﬂ±˚ã7Ω⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷4B˙4-±Ô¶.ÜP¸ç=1˙¿ÜæâhµVÇ6uƒDLƒSuVA˘&⁄≥¯Ë∏êJÜ4s·Tˇ¯|ù"KŸÖ›‡dAõˆhõΩ∫û˚€•B@D@S’t )ç$\∏’._)ËN+eµy≥mu=˘sw©–T©NI#Ó‘UµÓ≠†V∆’ÊÕ{¥5Ùt=˘Ûv©–T©NI#„UWuT˜÷†;´¢Wõ?È—÷–◊ı‰œﬂ•B@D@S•:%ç8[T]’—nètÁUÙjÛùm]O˛Ç]*D@4U™S“H´E’UÌˆXAoR˝¨VõÔˆhk8’ı‰o∫KÖÄàÄ¶JuJÒµ®∫™£›+Ë9UÙjÛΩmC]O˛¬]*D@4U™S“»û›"´Ó≠Aœ≠¢WõÔ˜hk8”ı‰o∂KÖÄàÄ¶JuJaµ†[d’Ω5Ë—S°jÛÉmÁ∫û¸Õw©–T©N9„É™æÍjØPÙ¸*<=öˆhõﬂ‡ân¿=jª∫µàã∏à{p\’ôi$–/€ï)‘=⁄±8‰X00˘…ô4…%§MÁqû•©∞8ø…æ]|b´,¯ªNäíÂ≈˜fÁeT≤ˆÓ>º√”S`4ç@#–4bD‚ÍG√Û·CQ–ÔP®…FqJKW€ÕåN·tßÍ¢u≈E;:”d£¨fFßp:ÜSu—z‚¢ùãÇùk≤QàV3£ÄS8√©∫h}q—ûo/À<äÀ&GgΩ⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷Ú€fæ((àØ…F!~¨fFßp:ÜSu—N≈EàÇ4Ÿ(D´ôQ¿)úé·T]¥°∏hß¢†Cßöl"Ç’Ã(‡N«p™.⁄ô∏hOóÀ∫¢√ﬂ˚vU˚⁄#¢u4’˘Ê¢Û9¢ 7é&ÖËﬁV3£ÄS8√is—Œ&‚¢uEAá∫öl"Ç’Ã(‡N«p™.Z˘F€Íi≤QàV3£ÄS8√©∫hÂÌâ(Ë–â&Öà`53
-0x70	AF32
+#
   <description>Set hintfull to hintstyle</description>
   #include <abstractions/gnome>
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
@@ -848,7 +838,7 @@ compose '*' '0' to '∞'
 #!/bin/sh
 # Packet filtering: for more information, see pppd(8)
 #
-# Same as USERS_GID in adduser
+# not necessary when using systemd as init system (Debian's default).
 
 
 rocks_trees = {
@@ -884,7 +874,7 @@ Vendor-URL: http://www.ubuntu.com/
 name = NSS
 bullseye/sid
 /Adobe-Japan1-Bold /Japanese-Gothic-Regular ;
-PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
 # This directive enables kernel synchronisation (every 11 minutes) of the
 #Samsung MFP-560 Series
 # libc default configuration
@@ -914,7 +904,6 @@ Ubuntu 20.04.1 LTS (Focal Fossa)
   stop)
 if [ -n "${PATH##*${snap_bin_path}}" ] && [ -n "${PATH##*${snap_bin_path}:*}" ]; then
 127.0.0.1	www.paginebiamnche.it
-<!--
      declaration that uses the public identifier shown below:
 
 <busconfig>
@@ -941,7 +930,6 @@ gt68xx
 -->
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # it under the terms of the GNU General Public License as published by
-# CONFIGURATION FILE FOR SETUPCON
 # how to byte-compile (comma separated: standard, optimize)
 # The usual place for a SCSI-scanner on Linux
       interface="com.canonical.Unity.LauncherEntry"
@@ -983,7 +971,6 @@ system-db:ibus
 check_config() {
 # double-lockout scenario where a user is locked out locally and
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-# if it is non-root user, skip
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 ; extra-arguments = --log-target=syslog
 blacklist raw1394
@@ -1012,9 +999,7 @@ brandon:100000:65536
 d_reload() {
 # vim:set ai et sts=2 sw=2 tw=80:
 compose '|' '|' to '¶'
-PPP_SPEED="$3"
 image/eps; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
-#
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
 	cache_pool_chunk_size = 64
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
@@ -1067,3 +1052,11 @@ module(load="imuxsock") # provides support for local system logging
 
 #
 # Your system has configured 'manage_etc_hosts' as True.
+option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
+        start-stop-daemon --start --quiet --pidfile /var/run/vmtoolsd.pid --exec /usr/bin/vmtoolsd --test > /dev/null || exit 1
+      INSERT 64 POSITIVE INTEGERS HERE, COMMA-SEPARATED
+constraint from "9.9.9.9"              # quad9 v4 without DNS
+  <match target="pattern">
+*Toggle.background: purple
+<!ATTLIST magic name CDATA #REQUIRED>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
