@@ -48,7 +48,6 @@ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 
 
 *Scrollbar.thumb:		vlines2
-[DHCP]
 #noprecal
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 Title=Vendor
@@ -268,13 +267,11 @@ twm
 # eliminate DISABLE
 #    Copyright (C) 2011 Canonical Ltd.
 echo
-if ls /dev/fb* >/dev/null 2>/dev/null; then
 
 <!ATTLIST %element;
 
 #
        relative URIs in the scope of the element on which it
-  @{sys}/bus/{cpu,node}/devices/ r, # libpocl.so -> libhwlock.so
 
 
 #
@@ -292,7 +289,6 @@ switch($TERM)
 	Œö:ÓğoÆY$ÿwº>hÇpW:ÿ‰¿ØÛ6ä_£ V2FÚO“Çùfxá0}
   # User files
 KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
-<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 X-Ubuntu-Gettext-Domain=gnome-keyring
 /lib/i386-linux-gnu
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
@@ -323,7 +319,6 @@ Ubuntu 20.04.5 LTS
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # published by the Free Software Foundation; either version 2 of the
 0x48	AF21
-
 }
 		<prefer>
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es+3ot67hZaz+cI7KRAxQD8n8R9m9Ekf9k/0WZDsfzCaIZokAbO1IYo6mznd3vsbkRgGqz6PPcURRgc1A= open-ssh-ca@cloudflareaccess.org
@@ -343,7 +338,6 @@ LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 # Compose sequences for ISO-8859-5
 # device group names
 #
-# The following is a space-separated list of where additional user home
     permission java.util.PropertyPermission "java.class.version", "read";
 
 0x80	CS4
@@ -371,7 +365,6 @@ fi
 group:          files systemd
 [Desktop Entry]
      name="OpenSansLI"
-/usr/lib/firefox/firefox
 server {{server}} iburst
 <?xml version="1.0"?>
 
@@ -423,7 +416,7 @@ blacklist rivafb
 compose '"' 'O' to 'Ö'
   </match>
 # /etc/xdg/user-dirs.defaults)
-    <allow own="org.freedesktop.GeoClue2"/>
+
 #disable = rpm, selinux, dovecot
 
 deb http://packages.azlux.fr/debian/ buster main
@@ -528,7 +521,7 @@ Name=User folders update
 # You can change settings by editing this file.
 # -Z Disable the power-saving function of certain Seagate drives
 -->
-	notifempty
+LANG=C.UTF-8
 'ßß^Ò9ÏE}BKß³,ÅÆ]ÊU: œišÚï²°<Ÿ‡l+epR1$Ïo1#PŒO#ÃtAcU¨İ>àQPÏñ0V’°‚…ØƒË"d¼-¸%ÕT¢¸ê­’¤$ Á†µJjGÏ.V•TËÎšÛj´¦²ÛA†'w÷j Bl8Î×uP2’Âß+0"HĞÕA8%]¤é]ŸÆ”uĞEı0—C«
 †ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ğëŸ
   /dev/xconsole                 rw,
@@ -538,7 +531,7 @@ option buffer-size 32768
 #!/bin/sh
 CATALOG /usr/share/xml/docutils/catalog
 jDÅLÒP	À‰éù[¤Ì-ßVD™¿›àb>¡X*~Â€'®ûŞŞì™ÌF_~tÃƒ´oÂ¡’â†M¼cR
-Subsystem	sftp	/usr/lib/openssh/sftp-server
+auth		sufficient	pam_rootok.so
 
 scsi RICOH
 
@@ -564,7 +557,7 @@ Each file in this directory is an rt_tables configuration file. iproute2
 // Example: Homepage
 #
 # The default is 900 (15 minutes).
-# System-wide GDB initialization file.
+#    modify it under the terms of version 2 of the GNU General Public
 # ctrll shiftl alt keycode 36 = Incr_Console
 @(br|eth)*
 #
@@ -638,7 +631,7 @@ Comment=GNOME Keyring: SSH Agent
 Exec=/usr/bin/snap userd --autostart
 [Desktop Entry]
 # be found in /usr/share/fwupd/remotes.d/vendor/firmware
-  . "$USERXSESSIONRC"
+#
     </event>
 Acquire::Changelogs::AlwaysOnline "true";
 		<family>fantasy</family>
@@ -665,7 +658,7 @@ SHELL=/bin/sh
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
 # under the terms of the GNU Lesser General Public License as published
   /etc/ssl/openssl.cnf r,
-
+Exec=/usr/bin/gnome-keyring-daemon --start --components=ssh
 			<family>Noto Serif CJK TC</family>
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
 usb 0x1083 0x1622
@@ -716,7 +709,6 @@ deb {{mirror}} {{codename}} multiverse
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 # The username of the user logging out is provided in the $USER environment
 # @{securityfs} is the location where securityfs is mounted.
-    </edit>
 			<string>sans</string>
   the ImageMagick option
 # clean all crash reports which are older than a week.
@@ -735,7 +727,6 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
     <Menu>
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
-        stop|status)
 system-db:ibus
     </accept>
 # #include <abstractions/ubuntu-helpers>
@@ -848,7 +839,7 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
 
 AdminIdentities=unix-group:sudo;unix-group:admin
- ŸPJ>z6úÑQ@ÏYà{ä	L§Ü][´²°²½wÍwwb@HçIàê‰ÑÒ‘‡H>'4)´«+•K%}Åc²-(qÜLS^5ïÔóŞ’}‰ Tô€-P™‰w±„õï ×µ>Re‘v-©Ş–Y~Ià´Ó<GieĞ­l ¦ì0 ‰Q$rxL[
+multi on
 # Compose sequences for ISO-8859-6
 
 	log_action_begin_msg "Setting up resolvconf"
@@ -881,10 +872,9 @@ Where=/snap/lxd/18150
 #
 /var/log/ufw.log
       for file in $(find $i -type f -print | LC_ALL=C sort)
-#kdebug n
+    resource
   format and its respective coder module is defined in this configuration
 esac
-
 fi
 		done
 APT::Periodic::Unattended-Upgrade "1";
@@ -924,7 +914,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 # or on the command line.
   00_*: Reserved for 00_header.
 	fi
-
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 #
 
   /usr/lib/NetworkManager/nm-dhcp-helper          Pxrm,
@@ -1015,7 +1005,7 @@ Type=Application
 $x-display-manager gdm3
 esac
 #
-/dev/scanner
+# orbit2 permissions
 
 option warmup    -1
 alias.url += ("/javascript" => "/usr/share/javascript")
@@ -1071,7 +1061,7 @@ Type=Application
 			<family>STIX Two Math</family> <!-- AMS -->
 Acquire::http::User-Agent-Non-Interactive "true";
 CATALOG /usr/share/xml/docutils/catalog
-			<string>DejaVu Sans Mono</string>
+
 # This mechanism that does not depend on a system service to operate.
 #
 d /run/screen 1777 root utmp
@@ -1120,7 +1110,7 @@ auto
 1C5E6985ACC09221DBD1A4B7BBC6D3A8C3F8540D19F20763A9537FDD42B4FFE7
 191 191 191 		gray75
   owner /net/** w,
-
+nameserver 1.1.1.1
 # Compose sequences for ISIRI-3342
 # This file is automatically updated on upgrades of the xserver-xorg-legacy
 [Desktop Entry]
@@ -1132,7 +1122,7 @@ search updates ubuntu built-in
 [network]
 /var/log/alternatives.log {
 # The URI to the Redfish service in the format <scheme>://<ip>:<port>
-  /{,var/}run/rsyslogd.pid{,.tmp} rwk,
+<?xml version="1.0"?>
   xterm*|vte*)
 #            export PHASE="pre-up"
 auth		sufficient	pam_rootok.so
@@ -1152,7 +1142,6 @@ attributes = compatibility
 LETTERHOMES=no
 run_im default
 [firefox]
-  /usr/bin/xarchiver Cxr -> sanitized_helper,
   /etc/xulrunner-2.0*/ r,
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
      o Notation declarations.  For example:
@@ -1172,7 +1161,6 @@ has led to the following conventions in usage:
 #    Use the ip command to remove all the addresses of an interface.
 #    modify it under the terms of version 2 of the GNU General Public
   /usr/lib{,32,64}/ruby/gems/1.[89]{.[0-9],}/** r,
-# Scripts in this directory are executed as root when a user log out from
 Type=Application
 ############################################################
 # or simply
@@ -1195,3 +1183,11 @@ PATH="/usr/bin:$PATH"
 </busconfig>
 nameserver 1.1.1.1
 # uncomment to set the default look and feel to GTK
+exit 0
+}
+	devtypes_cols_verbose="devtype_name,devtype_max_partitions,devtype_description"
+Ubuntu 20.04.5 LTS \n \l
+// Some countries have import limits on crypto strength, but may allow for
+deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
+# orbit2 permissions
+)—É¸¦F|O#e×p"^ıL–@hNnW.§Ÿ‰„÷I·R1ãCë¯èÇ§rİºe3Zª‰´JŞå|"ôŸ“î(ÖjMÇqüOW*•ñD"aâód·ú»I'Ôƒ]%+^…Ëäwú"57Õä ¹´'ãfRN"ÒúPI’JX'è_Õ?C›†‡‡×¹ñù¢eUw¯şãA~ZX	ê»³¦õWÛiµ_¥hÆäŠ•]8^U^ïsş÷ÊføúúŸïx®VóõQ­Õ×Œ¬¯×üôãš¦¼±±Í›Ãòª££ÃÃCCƒƒÕP¿öüóÚ­Ÿr›ÇJÉ0¾^«UÃü•Ştb
