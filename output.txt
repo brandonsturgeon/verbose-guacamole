@@ -16,7 +16,6 @@ required in any way by the specification).  The information may be useful in
 *JumpScroll:			1
 @include common-session-noninteractive
 # Written by Austin Donnelly <and1000@debian.org>
-    STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 </fontconfig>
 # helpful to be able to examine where in memory the kernel, modules,
 # <target name>	<source device>		<key file>	<options>
@@ -61,11 +60,10 @@ compose '"' 'A' to 'ƒ'
 #*)
   </match>
 üáÃıº¢/4¢¥-üL0À+/¯‰¬‹Å
-#ifdef COLOR
+run_im default
 scsi FCPA
 # dpkg configuration file
 #    modify it under the terms of version 2 of the GNU General Public
-# vim:syntax=apparmor
 #  under the terms of the GNU Lesser General Public License as published by
 
 search updates ubuntu built-in
@@ -126,7 +124,6 @@ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 # Case-sensitive behavior is defined by the operating system.
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
   owner @{HOME}/mbox          rw,
-# raid1
 #select-timeout 5;
 ª}Nz◊ÂÀâF¥Õ{S B‘á&ù∂çöüXÈÅPjàj‡gß]â8ã
 Acquire::Changelogs::AlwaysOnline "true";
@@ -198,7 +195,6 @@ Wants=network.target
 # For more details, please see /etc/apparmor.d/local/README.
 fi
 /dev/scanner
-};
 #
 # Each line contains either:
 			<family>DejaVu Sans</family>
@@ -229,7 +225,6 @@ fi
     permission java.util.PropertyPermission "java.vendor.url", "read";
      <choice>
 #    Copyright (C) 2014 Canonical Ltd
-
 # deb-src {{security}} {{codename}}-security multiverse
     import apport_python_hook
 /usr/lib/update-notifier/package-data-downloader
@@ -243,7 +238,6 @@ makestep 1.0 3
 
 #pnm
 # vim:syntax=apparmor
-version="$1"
 # If you want to globally change where snmp libraries, commands and daemons
 {% for pool in pools -%}
 turkish         tr_TR.ISO-8859-9
@@ -312,7 +306,6 @@ fi
 #  privileged clients.  Instead the passwd.adjunct.byname table is
 #           will attempt to upgrade to the first LTS release available after
 # added here are appended to @{multiarch}. See tunables/mutliarch for details. Eg:
-! cmdratelimit interval -4 burst 16
 # * Be careful about changing the environment since this is sourced
 		      $iosched_idle 
 # at bash-completion startup for now, to ease the transition to a
@@ -383,7 +376,6 @@ DISTRIB_RELEASE=20.04
 #    Handle linux distributions that use systemd to replace the legacy
 fi
 #    Copyright (C) 2002-2009 Novell/SUSE
-  include if exists <abstractions/dbus-accessibility-strict.d>
   # User files
  -->
 /usr/sbin/gdm3
@@ -416,7 +408,6 @@ auto_attach_stamp="/var/lib/ubuntu-advantage/messages/motd-auto-attach-status"
 X-GNOME-Autostart-Phase=Initialization
 the exact distribution terms for each program are described in the
 0xD9 '√ô'
-# symbolic names for networks, see networks(5) for more information
 
 #
   /usr/bin/file-roller Cxr -> sanitized_helper,
@@ -428,7 +419,6 @@ the exact distribution terms for each program are described in the
 #fudge 127.127.8.1 time1 0.0042        # relative to PPS for my hardware
   /usr/lib/@{multiarch}/gdk-pixbuf-*/** mr,
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
-# authentication via PAP, CHAP and similar protocols.
   abi <abi/3.0>,
 ### END INIT INFO
 # Specify command line options here. This config file is used
@@ -465,7 +455,7 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] &&
 X-GNOME-Bugzilla-Version=3.36.x
 /var/log/apt/term.log {
 	daytime_hosts => [ qw {} ],
-# Some "catch-all" log files.
+#
 # Compose sequences for ISO-8859-16
     permission java.lang.RuntimePermission "accessUserInformation";
 #NTP=
@@ -522,7 +512,7 @@ eval $(/usr/bin/locale-check C.UTF-8)
 #
 usb 0x05da 0x30cf
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
-	propertiesUTc(( /H-*…L-ÊPK2Â'PK!	propertyUTc(( /H-*©‰PKÑw¥V
+DelayedActivation=false
 /dev/scanner
 #@{XDG_PUBLICSHARE_DIR}+=""
 
@@ -638,7 +628,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
   # Kubuntu
 #VIDEOS=Documents/Videos
 # define if shading data shall be inverted befor sending it back to the scanner
-=6Dz2
+ôT¨ˇ∂Ä¯ﬂe‚Kóﬂä±!∂ÛúÒ…˛∫n˙ª83ÌGñ±¡,’[M¡ÓÀ´)∆mà≤Õ∫◊Ri€“îˇbvwR∞ò&ÅÏ¬fFäÑ>S®¨ke–úÁXw›æ≈$´[oƒÓÇÍ]ö·‰Jtÿ=4óPÑ;=ÏvDªv,œä÷XÆ0◊,&Øﬁiä·–]è9ø∂n9j¿sÚO˙Õ≠o>NF¶çéz!7íŸÅµ‰ƒh≠Ô¥èMeÆd4ÛóÌE∂ÅeÚ‹4ˆπß&=Nük.»”(¢ë˝	Ê+À*0®àíeœ@¡ÏñEÙká-Y @ ÷6∑j˚n√ä›Û ëö{?"<÷`ìàB∏ué∏ÀY¶<VÚ	àê+>·z≤?hˇ¶1nì√î’†:{∞j±	åHªM1/~Ø§
 
   /usr/share/perl/**             r,
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
@@ -689,7 +679,6 @@ mustek_usb
 XCalc*hp.button16.fromHoriz:		button15
 # Illegal Example:
 /dev/scanner
-          "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 # You should have received a copy of the GNU General Public License
 # Your system has configured 'manage_etc_hosts' as True.
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
@@ -709,7 +698,7 @@ session	optional	pam_systemd.so
 # minclass = 0
 #include <tunables/global>
         %facetAttr;
-APT::Periodic::AutocleanInterval "0";
+-dcevm KNOWN
 X-GNOME-Bugzilla-Version=3.36.0
 
 
@@ -726,7 +715,6 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 
 esac
 XCalc*hp.button37.fromVert:		button28
-# deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 
      Corporation, Norman Walsh, Sun Microsystems, Inc., and the
 PPP_DISC	8863		# PPP over Ethernet discovery stage
@@ -734,7 +722,7 @@ PPP_DISC	8863		# PPP over Ethernet discovery stage
 
 #    modify it under the terms of version 2 of the GNU General Public
 Name=GNOME Settings Daemon's power plugin
-X-GNOME-Autostart-Notify=true
+/usr/sbin/gdm3
 # Provides:          gdm3
 /dev/scanner
 option artecFirmwareFile /usr/share/sane/artec_eplus48u/Artec48.usb
@@ -837,7 +825,7 @@ Acquire::Changelogs::AlwaysOnline "true";
 # also want to rebuild the initrd, so that it will include the modified configuration.
 *dashlist*ShapeStyle: rectangle
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
-
+#
   /usr/share/drirc.d/{,*.conf}    r,
 if [ -x /usr/lib/update-notifier/update-motd-hwe-eol ]; then
 #
@@ -861,11 +849,9 @@ done
                     <a href="http://www.w3.org/TR/xmlschema-1/#no-xsi">the XML
     export XDG_DATA_DIRS
 
-XClock.Clock.minorColor:	rgba:00/7f/7f/c0
 /Helvetica-Narrow-Bold /NimbusSanL-BoldCond ;
 
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
-[mysqldump]
 # You can even override a supported extension:
 #
   <!-- <policy domain="system" name="precision" value="6"/> -->
@@ -895,13 +881,12 @@ exec tail -n +3 $0
   convenient to refer to a color by name (e.g. white) rather than by hex
 # it doesn't refer to a specific home directory (AppArmor doesn't
 test -f $DAEMON || exit 0
-        derived from Vera.
+  (debian-pkg-add-load-path-item
 # ldconfig = false
 
 APT::Periodic::Update-Package-Lists "1";
 # cloud-init. They are read in lexical order. Later files overwrite values in
         Disable hinting manually at smaller sizes (< 8ppem)
-# vim:syntax=apparmor
 #  the Free Software Foundation; either version 2.1 of the License, or
 
     unset XDG_SESSION_ID
@@ -981,7 +966,7 @@ KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 <Key>q: quit() \n\
 fi
 # For using an SSL/TLS protected RMI registry use the following line
-	ŸJ£Ô‚íH@âçñW∏õ2∞∏ıûv,f*IÇÖyπÛ"ÿ¥2LÜ)T¸N¯ïH‹p…õCàÙ“(S`Ö˛-Ω⁄ºôÂJï†õœ;ÜÊ;Ë°HóBeG_](3\7˘èpI…ûQç»Ö;pàVÅ&æìg¥o98?•¥4¸Ò6Y°ª™&t€yúóf;:F5=ò1à∂ü§qÿÔ‡rT≥Üè)8£];”iƒÒÅ>v,HÄ0Î¥ÒÜÆbt‹lZõù*ØI’Ú‡úL˚ã–	PÁı⁄»=_∂o•vwBÛÊ#Ø,Dª˝årœΩ©Ê§KÎ≥|•ÓÃ·uD»o˚M#Aﬂø´xäù>Ãî{qW%ö/XÃë/Î^Ú(òºÛp04o≠≤¢'Çùﬁ-?9™œë¡Lî.{7'2Méò
+
 # sdr-cache-directory /my/sdr/path
 }
     permission javax.crypto.CryptoAllPermission; 
@@ -1019,7 +1004,6 @@ run_im default
 blacklist dv1394
 #    modify it under the terms of version 2 of the GNU General Public
 roottext=,magenta
-# Set up user limits from /etc/security/limits.conf.
             KERNEL_UPGRADED=1
     <alias>
 # value is 80) and nonProxyHosts is a '|' separated list of hostnames which
@@ -1079,3 +1063,13 @@ BRIDGE_HOTPLUG=no
 # Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
 
 
+                <allow send_interface="fi.epitest.hostap.WPASupplicant"/>
+
+XClock.Clock.minorColor:	rgba:00/7f/7f/c0
+XClock.Clock.hourColor:		rgba:7f/00/00/c0
+
+# Compose sequences for ARMSCII-8
+# Compose sequences for ISO-8859-6
+
+/RR3w6RbKFfCs/mC/bdFWJsCAwEAAaOCAVowggFWMBIGA1UdEwEB/wQIMAYBAf8C
+	exit 0
