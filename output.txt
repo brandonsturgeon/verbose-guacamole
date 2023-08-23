@@ -43,7 +43,7 @@ RESTART_CHK="NetworkManager.service"
 # <target name>	<source device>		<key file>	<options>
      Define aliasing and other fontconfig settings for
 #    modify it under the terms of version 2 of the GNU General Public
-	</match>
+  <!-- Read in overrides and child menus from applications-merged/ -->
 #	franc,ais	fr_FR.ISO-8859-1
 fi
 # Compose sequences for CP1251
@@ -91,7 +91,7 @@ APT::Archives::MinAge "2";
 
 # ~/calendar files to be checked daily.  Calendar will send them mail
 /var/log/btmp {
-
+# It has been reported that passwords should be enclosed with ticks/quotes
 
   exit 0
  -->
@@ -146,7 +146,6 @@ ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 # Compose sequences for TIS-620
 
 #%PAM-1.0
-deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 commands scan this directory processing all files that end in '.conf'.
 password	include		su
 [msr]
@@ -173,16 +172,14 @@ compose '/' '<' to '\\'
 # This file is a simple placeholder to keep dpkg from removing this directory
 		<default><family>monospace</family></default>
 #
-binary::apt::AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
 
 #%PAM-1.0
 lock
 
 {% for server in servers -%}
-# These extensions should be added when creating a proxy certificate
+	log_begin_msg "Stopping $DESC" "$NAME"
 /var/log/boot.log
-            Location: http://docs.oasis-open.org/security/saml/v2.0/
 #canon.conf
 # and user name in $4.
 # /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
@@ -212,7 +209,7 @@ compose 's' 'o' to 'ß'
 session    required   pam_env.so readenv=1 user_readenv=0
 X-GNOME-Autostart-Phase=Initialization
 # This file is part of the resolvconf package.
-@{run}=/run/ /var/run/
+# Default is yes
 		<test qual="any" name="family">
 
 driftfile /var/lib/chrony/drift
@@ -248,7 +245,7 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 # Compose sequences for ISO-8859-5
 restrict -6 default kod nomodify notrap nopeer noquery
   . "$USERXSESSIONRC"
-/dev/mpu401data rw,
+#  address = "/run/containerd/debug.sock"
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 yﬁÒ#≤.¸ÖSkÈô¡Úo€oãcåP+ ∏\*pF˙õÛS÷[∑ú6Y].¿Ï;œ”‰@y(R£X<¯|)>+Øò¥jhºbûê`[éƒ•)º¯*Ù#Ku Ù7NëAÀ5}FÄ@KsË1≤Á9Ö)&g˘—DO≥›1
 # $ sudo dpkg-reconfigure apparmor
@@ -281,7 +278,7 @@ fi
   # per-user settings and dictionaries
 commands scan this directory processing all files that end in '.conf'.
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
-# Allow writing shared settings for Qt-based applications
+
   /dev/dri/ r, # libGLX_mesa.so calls drmGetDevice2()
 
 #
@@ -376,7 +373,6 @@ rexd		100017	rex
    formatter=simpleFormatter
 application/ibe-pkg-reply+xml
 X-GNOME-AutoRestart=true
-# ~/.bashrc: executed by bash(1) for non-login shells.
                 mask=$(awk '/^UMASK/{gsub("#.*$", "", $2); print $2; exit}' /etc/login.defs)
 [ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
 }
@@ -553,7 +549,7 @@ scsi Nikon * Scanner
        containing collections of any of the above.  For example:
 # interpreted by the kernel to help with debugging. The kernel will respond
 
-Znd1cGQub3JnMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA8GA1UdDwEB/wQFAwMHBgAw
+
   include if exists <abstractions/consoles.d>
 fi
 	notifempty
@@ -577,7 +573,6 @@ data {yes
 #
 
 # ~/.bash_logout: executed by bash(1) when login shell exits.
-}
 auth		sufficient	pam_rootok.so
 #
 
@@ -630,7 +625,7 @@ compose ''' 'e' to 'È'
 fi
 change_hat {yes
   # Iceweasel
-#  * there is no space around the "="
+#[direct]
 //Unattended-Upgrade::Automatic-Reboot-WithUsers "true";
 631	# cups
 alias net-pf-19 off
@@ -725,7 +720,7 @@ networkd_dispatcher_args="--run-startup-triggers"
 	<alias>
 X-GNOME-Autostart-Phase=Initialization
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"\] rsyslogd was HUPed$
-# Compose sequences for KOI8-U
+0xD9 '√ô'
 for s in "/lib/ufw/ufw-init-functions" "/etc/ufw/ufw.conf" "/etc/default/ufw" ; do
 # The PAM configuration file for the Shadow 'newusers' service
 </match>
@@ -766,7 +761,7 @@ fi
 [fwupd Remote]
 
     fi
-
+  <description>Enable sub-pixel rendering with the vertical BGR stripes layout</description>
 
   # System devices
 
@@ -811,7 +806,7 @@ GwMFCwkIBwIGFQgJCgsCBBYCAwECHgECF4AACgkQSKbYDkU4usJjjQgAzmTcA8qH
 # @{PROC} is the location where procfs is mounted.
 # It's important that all backports from this kernel have been
 ◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
-	Ä
+X-Snappy=yes
 # Shut down the daemon after this many seconds idle. 0 means don't shutdown.
   # firefox-notify
 
@@ -900,7 +895,6 @@ America/Los_Angeles
 #  about not starting rsyncd (you still need to modify inetd's config yourself).
 
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
-#!/bin/sh
 
 /NanumBarunGothic-Bold << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
 =RFA4
@@ -979,7 +973,6 @@ allocation {
 #
 system.posix_acl_access		permissions
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-}
 
 #!/bin/sh
   /usr/bin/citadel Cx -> sanitized_helper,
@@ -994,7 +987,7 @@ compose '*' '0' to '∞'
 # Packet filtering: for more information, see pppd(8)
 #
 # Same as USERS_GID in adduser
-  <!ELEMENT table (description , levels)>
+
 # ------------------------------------------------------------------
 rocks_trees = {
 	;;
@@ -1034,3 +1027,19 @@ name = NSS
 #
   @{HOME}/.profile                 r,
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+# nf_conntrack_tftp, nf_nat_tftp: TFTP support (server side)
+# This directive enables kernel synchronisation (every 11 minutes) of the
+#Samsung MFP-560 Series
+# libc default configuration
+		[ ! "$interface" ] || /sbin/resolvconf -d "${interface}.dhclient"
+    user_friendly_names yes
+ÜÀ´›˘ªóbdú-vj!¬",˛È©◊Z—=m';»61©Cß“‚ªBûì,ÈUW’>ˆ4˜˘˛±Ë2’Ì•V∞,‘_ûo∞¬ıÛÓ±∆cÑbÉ„Œ¥;p)“WÇPƒ
+X-Ubuntu-Gettext-Domain=gnome-shell
+
+# <target name>	<source device>		<key file>	<options>
+# and should contain a list of modules that define tasks to be performed
+XCalc*hp.button36.background:	white
+; cpu-limit = no
+[mysqldump]
+    exec /usr/lib/update-notifier/update-motd-hwe-eol
+  # pretty-print messages of arbitrary length; use xmessage if it
