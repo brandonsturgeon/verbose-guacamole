@@ -33,7 +33,6 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 search updates ubuntu built-in
     user
     else
-# here are the per-package modules (the "Primary" block)
 ## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
     </alias>
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
@@ -58,7 +57,7 @@ esac
 
 # Case-sensitive behavior is defined by the operating system.
 /dev/scanner
-# and the machine). Use with caution.
+#           the supported release that immediately succeeds the
        search:
 
 
@@ -134,9 +133,7 @@ a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 
 blacklist rivafb
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
-  STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
 Include /etc/ssh/sshd_config.d/*.conf
-
 
 setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz' 
 /dev/scanner
@@ -158,7 +155,7 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 			<string>AR PL UMing HK</string>
 # usb 0x4b8 0x14c
 # set start_ro=1 to make newly assembled arrays read-only initially,
-	#   0 if daemon has been stopped
+# Welcome to the chrony configuration file. See chrony.conf(5) for more
 	create 644 root root
 
 
@@ -173,7 +170,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 #    Handle linux distributions that use systemd to replace the legacy
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
-/usr/sbin/gdm3
+scsi RICOH
 # javax.management.monitor.foo.Bar.
 
 *ispell*options.horizDistance:		2
@@ -223,7 +220,7 @@ rocks_trees = {
 font='Monospace 16'
 15	ntk
 # On Debian/Ubuntu systems, this is in /var/run/screen, but on
-# subpath mappings from mount point for pinning
+	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
 ## Description: Enable IPMI_WATCHDOG if you want the IPMI watchdog
 Exec=/usr/libexec/gnome-shell-overrides-migration.sh
   /etc/cloud/clean.d/99-live-installer
@@ -323,7 +320,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 #
     log_action_begin_msg "Synthesizing the initial hotplug events (subsystems)"
 Comment=GNOME Keyring: SSH Agent
-     %dbgenent;
+XCalc*ti.button30.displayList:		foreground rgb:a/9/8;segments 8,-4,-9,-4,-4,-9,-4,8;draw-arc -14,-14,-4,-4,270,90
 
 #include <tunables/global>
 #mount_max = 1000
@@ -337,7 +334,6 @@ Comment=GNOME Keyring: SSH Agent
 
 
 # device group names
-    // There is no restriction to any algorithms.
 # Provides:          gdm3
 #
 # Required-Start:    $local_fs
@@ -347,7 +343,6 @@ Comment=GNOME Keyring: SSH Agent
 # banner-message-text='Welcome'
 serif.symbol.bolditalic=Symbol
 #alias {
-if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 
 Type=Application
 *yÛ∂»XEÜqÜ†ÑÀ"9≤∆Kî}‰J['·iÊÉ`éòú7ÃCÙFí˙@{À=ê¸Pº"i
@@ -406,7 +401,6 @@ KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 X-Ubuntu-Gettext-Domain=gnome-keyring
 #
-	# the local host, which is determined by system_id_source.)
 
 fax:x:21:
 		1) log_progress_msg "already stopped"
@@ -431,7 +425,6 @@ create_machineid() {
         if [ -x "$STARTUPFILE" ]; then
 # This file is sourced by Xsession(5), not executed.
 
-  /usr/lib{,32,64}/python{2.[4-7],3.[0-9]}/{site,dist}-packages/ r,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
   #
     permission java.util.PropertyPermission "path.separator", "read";
@@ -477,7 +470,7 @@ L9ItWY16Ck6WaVICqjaY7Pz6FIMMNx/Jkjd/14Et5cS54D40/mf0PmbR0/RAz15i
 127 127 127 		grey50
 # The following is a space-separated list of where additional user home
     permission java.util.PropertyPermission "java.class.version", "read";
-# ---------------------------------------------------------------------------#
+# you use, and remove everything else.
 
 
 0x80	CS4
@@ -554,7 +547,7 @@ speed=115200
   #include <abstractions/opencl-nvidia>
   # do not use ux or PUx here. Use at a minimum ix
 -----END CERTIFICATE-----
-
+Name=GNOME Settings Daemon's a11y-settings plugin
 # Compose sequences for ISO-8859-6
 . /usr/share/bash-completion/bash_completion
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
@@ -669,7 +662,7 @@ DAEMON="/lib/systemd/systemd-udevd"
 255 193 193		RosyBrown1
 	    <family>NanumGothic</family>
 #
-#       services;ttys;users;times
+		       send_interface="org.freedesktop.DBus.Introspectable"/>
 
 Categories=System;Monitor;GTK;
   if [ -x /usr/bin/x-session-manager ]; then
@@ -724,7 +717,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 Name=User folders update
 
 #scsi "K.M.E.  " "KV-SS50EX       "
- - fan
+# You can change settings by editing this file.
 # -Z Disable the power-saving function of certain Seagate drives
 -->
 	notifempty
@@ -755,7 +748,6 @@ fi
 search updates ubuntu built-in
 #    . /etc/bash_completion
 /usr/lib/x86_64-linux-gnu/libfakeroot
-APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
 #    Copyright (C) 2011 Canonical Ltd.
 arch=`dpkg --print-architecture`
 			Button1<Enter>:popup-pixel()\n\
@@ -830,7 +822,6 @@ em+([0-9])?(_+([0-9]))*
 IgnorePower=false
 {
 @include common-session-noninteractive 
-    /usr/bin/env ix,
 /Adobe-CNS1 /ShanHeiSun-Light ;
 IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
 compose 'c' 'o' to '©'
@@ -888,7 +879,6 @@ rocks_trees = {
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 [Desktop Entry]
 # be found in /usr/share/fwupd/remotes.d/vendor/firmware
-  # whereas arbitrary addresses might.
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 mozilla/GTS_Root_R1.crt
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
@@ -961,7 +951,7 @@ StartupNotify=false
 /URWGothicL-BookObli (/usr/share/fonts/type1/gsfonts/a010033l.pfb) ;
 #
 POOL=""
-
+# avoid running multiple times
 
 # Defaults can be restored by simply deleting this file.
 # set start_ro=1 to make newly assembled arrays read-only initially,
@@ -980,7 +970,7 @@ option lampOff   -1
 # mountpoins which are configured in /etc/fstab as arguments. Separate
 			XawPositionSimpleMenu(optionMenu) 
 # This file is a simple placeholder to keep dpkg from removing this directory
-deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
+deb {{mirror}} {{codename}} multiverse
 #DefaultLimitRTPRIO=
 Terminal=false
 #  elif [ -f /etc/bash_completion ]; then
@@ -998,7 +988,6 @@ emptyscale=magenta
 # The username of the user logging out is provided in the $USER environment
 # @{securityfs} is the location where securityfs is mounted.
 6   xfrm
-  /srv/svn/**/db/strings         rwl,
 {
 # This file is auto-generated. It is recommended you update it using:
 [Unit]
@@ -1007,7 +996,6 @@ emptyscale=magenta
 			<string>sans</string>
 #rpm.rpmva = off
 <!--
-#port=/dev/ttyd1
 # ldconfig = false
   the ImageMagick option
 #include <tunables/home.d>
@@ -1096,7 +1084,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 ú3ú@úcúsúôú™ú—ú·úùùAùSù{ùâù≠ùΩù„ùÒùû#ûGûXûûéû≥û¡ûÂûıûü,üSücüâüöü¡ü—ü˜ü†)†6†Y†e†á†ï†π†∆†È†¸†%°3°W°j°ì°ƒ°¢ ¢K¢d¢ì¢®¢”¢Ì¢£6£e£Ä£±£∆£Ò£§5§H§q§Ä§•§∏§·§Ó§••/•:•[•f•Ö•ê•¢•´•º•≈•‰•Ì•˝•¶1¶A¶g¶v¶õ¶©¶Õ¶ﬁ¶ßß+ß:ß_ßnßëß†ß∂ß√ßÿßÂß®®)®:®a®r®ô®™®—®‡®©©=©L©q©~©°©≤©À©‹©™™,™=™d™t™ö™Æ™ÿ™Ë™´#´N´_´Ü´õ´ø´Ò´9¨h¨≠¨ø¨Á¨ı¨≠'≠I≠^≠â≠û≠«≠„≠Æ%Æ=ÆMÆsÆÉÆßÆ∑ÆŒÆ‹ÆÚÆØ$Ø2ØGØWØ}ØâØ´ØπØ›ØÔØ∞&∞K∞V∞w∞Ä∞ü∞±∞Ÿ∞Ê∞	±"±Q±h±ï±§±…±’±˜±≤E≤]≤ã≤£≤—≤ﬂ≤≥≥1≥<≥]≥n≥ï≥¶≥Õ≥·≥¥¥A¥Q¥w¥à¥Ø¥æ¥„¥¥µ"µGµTµwµàµØµøµÂµ˜µ∂/∂U∂e∂ã∂ô∂Ω∂ ∂Ì∂¯∂∑(∑M∑Z∑}∑ç∑•∑µ∑€∑Î∑∏∏6∏H∏p∏|∏û∏≠∏“∏·∏ππNπ\πÄπïπ¿π’π∫∫D∫V∫~∫ç∫≤∫ø∫‚∫∫ª ªBªOªrªÉª™ª∂ªÿªÚª"º2ºXºmºòº®ºΩºÀºﬁºÔºΩΩ(Ω5ΩXΩcΩÑΩîΩ∫Ω ΩΩæ4æKæxæáæ¨æ∆æˆæø&ø2øTø`øÄøäø™ø∫ø€øÚø¿5¿a¿s¿ñ¿¨¿”¿Á¿¡¡=¡J¡m¡¡ß¡≤¡”¡‚¡¬¬E¬Y¬u¬â¬≥¬«¬Ô¬√√0√J√\√Ñ√ñ√Ø√ø√◊√Á√ƒƒAƒQƒhƒvƒåƒöƒæƒÃƒ·ƒ˚ƒ+≈=≈e≈≈Ø≈¡≈È≈∆1∆B∆i∆|∆ó∆™∆”∆Ê∆« «:«K«d«u«ú«≠«≈«◊«Ò«»+»=»c»u»é»û»∂»∆»Ï»¸»…#…;…K…q…Å…•…µ…Ã…⁄……˛…" 0 E X s Ü Ø ¬ È ¸ À'À@ÀQÀxÀâÀ°À≠ÀœÀ€ÀÔÀ˚ÀÃ)ÃIÃUÃhÃrÃÑÃéÃÆÃ∏Ã…Ã◊Ã˚ÃÕ+Õ:Õ_ÕlÕèÕõÕΩÕ»ÕÈÕ¯ÕŒ2Œ]ŒqŒõŒ¨Œ”Œ‚ŒœœAœQœwœÜœ´œ¡œÌœ–-–E–s–â–µ–∆–Ì–ˇ–'—7—L—h—ö—©—Œ—⁄—¸—“<“L“r“Ü“∞“º“ﬁ“Ô“”&”L”g”ò”≠”ÿ”Í”‘!‘F‘S‘h‘u‘ò‘£‘∂‘¡‘‚‘Û‘’,’C’S’h’v’ö’©’Œ’ﬁ’÷÷8÷E÷h÷v÷ö÷¶÷»÷›÷˜÷
     if [ -e "$dmi_path" ] && read vendor < "$dmi_path"; then
 56f12ada18a3412ab1f9dcd69450be95
-z¥Ë}z÷£m¬∏∫˜®ÌÍ÷".‚"Ó¡qõŒÏLËuﬁªl≈P†x¶BªÈ=›ØõÓÿ√eÂÀÛ‰z•Ωf8ˆè}¨ˆøM/@>ÁIñ◊|x]˝È≠:\Ó}äëÈG“zÕ±˚»Æ !≈ãsıÄx‡AøOÎWªöÈ˝ƒó‰˙¶‹£|ø÷¢Ì{0¬ ÃÀ£ı"z˚vΩƒvºõv5–ìº≥Ï€äg*¥´ëqö›óımÚ"À˘]2ﬂ7Nœ¸#=´´€°	jÔ◊ÀKT®P=C•ıFöy˜Ö≠≤;6§‚∏˜¥z"!“ãà‘ÙÆπ¸N“€5çjÕ◊ZtÏ9L¿L~r&*π–,9“5j‘«Wk˜ÒÙÃËs¥-XG˘:g—mG	{ÿø {ı”Hù·∑,Yû?¨.´ﬁ¢¡!Û∆⁄Ûò)i˚Mêÿo7ŒŒŒŒŒŒŒ»>#ÍÊD~“˜,πK*Q!z(∫S3Óº¿º¿ÀÇ¥±*Ù6ˇ4-±Ô¶]Ù6πÔØyî(è†TΩ¡êëõ´aä´WCs5ÑΩè®üjŸÿ9´Ë@@@@?1zUîy≤æ.N¢‚d[l£Ù’ˇbó}¨c…
 	                echo failed.
 # symbolic names for networks, see networks(5) for more information
 #    /etc/overlayroot.local.conf
@@ -1199,3 +1186,14 @@ byte-compile = standard
 Type=Application
             <restriction base="saml:SubjectConfirmationDataType">
 {% endfor %}
+the exact distribution terms for each program are described in the
+directory), then /lib/terminfo, and last not least /usr/share/terminfo.
+fi
+#@{HOMEDIRS}+=/srv/nfs/home/ /mnt/home/
+foreground	gray90;\
+  /usr/lib/@{multiarch}/perl{,5,-base}/[0-9]*/**.so* mr,
+if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
+# vim:syntax=apparmor
+  # paths (man ld.so)).
+
+AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
