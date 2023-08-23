@@ -52,7 +52,6 @@ LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 password	include		su
 
   </policy>
-  abi <abi/3.0>,
 # shellcheck disable=SC2086
 
 xterm
@@ -72,7 +71,7 @@ esac
 
 # Case-sensitive behavior is defined by the operating system.
 /dev/scanner
-
+# and the machine). Use with caution.
        search:
 
 
@@ -95,7 +94,7 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 # Compose sequences for ISO-8859-16
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 Comment[as]=PulseAudio à¦¶à¦¬à§à¦¦ à¦¬à§à¦¯à§±à¦¸à§à¦¥à¦¾ à¦†à§°à¦®à§à¦­ à¦•à§°à¦¾ à¦¹'à¦¬
-# Device filename to use for scanner access
+checkbox=,magenta
 # Compose sequences for ISO-8859-8
 # Compose sequences for ARMSCII-8
 # DO NOT EDIT OR REMOVE
@@ -153,7 +152,7 @@ compose ''' 'O' to 'Ó'
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 #
 
-2fk6GWIY8lgxlKV/LinM5XkFDXv6Zf/o8Nv/i9bVO9Dv1bVh1ThgA3xy8WIzUQge
+# Compose sequences for CP1251
 
 blacklist rivafb
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
@@ -285,7 +284,6 @@ usb 0x05da 0x30d4
 DelayedActivation=false
 /dev/scanner
 ÛOg·÷µ÷ÙëÍ¼ÂšÆ†B°ßUf³v°·yº¼£#V>'•9àöZ¨ıš´Şf‹¹‹ıõÊÛ­Äö#ÑıJTVVÍ–U~{ÿ¢ÒÛr1&3l#ç+õ=[Vùm¹Xœ|Sç½÷üóµÛ©šû"[ÎÅö3ªşñó—gÃc
-#
 <fontconfig>
 	cache_settings {
 SECTION		1 n l 8 3 2 3posix 3pm 3perl 3am 5 4 9 6 7
@@ -440,7 +438,6 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
   # dehydrated
 # To take advantage of this, it is recommended that you configure any
 twm
-[METARELEASE]
 -->
 # eliminate DISABLE
 XClock.input: false
@@ -521,7 +518,6 @@ APT::Archives::MinAge "2";
 # set this to 0 to disable apport, or to 1 to enable it
 commands scan this directory processing all files that end in '.conf'.
 		<test qual="any" name="family">
-# vim:syntax=apparmor
   </its:rules>
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # published by the Free Software Foundation; either version 2 of the
@@ -670,7 +666,6 @@ AUFS_MAX_NAMELEN=242
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 # raid1
         %facetAttr;
-
 # Insert here your local magic data. Format is described in magic(5).
 
   /usr/bin/iconv rm,
@@ -770,7 +765,6 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
 
 # This file is sourced only for login shells. It
 
-
             . /usr/share/bash-completion/bash_completion
 ## Commands metadata files.
 EnumerateAllDevices=false
@@ -817,7 +811,7 @@ port=/dev/ttyS0
 # minclass = 0
 
 #
-
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 [xdmcp]
 
 quick
@@ -829,7 +823,7 @@ XClock.input: false
 # The default is 1000.
 *Panner.background:			gray70
 # kdenetwork
-brandon:100000:65536
+
 }
 [OpenSSH]
 brandon:100000:65536
@@ -863,10 +857,8 @@ Name=User folders update
 MIIEqjCCAxKgAwIBAgIBATANBgkqhkiG9w0BAQsFADA6MRAwDgYDVQQDEwdMVkZT
 #
 	notifempty
-# Defaults for the saned initscript, from sane-utils
 LANG=C.UTF-8
 ### END INIT INFO
-blacklist nvidiafb
 †ê›WbÀxVÁ²Ù]ƒTøÙo6dTmÁ¯ü,¼$?ğëŸ
 fi
 #
@@ -904,7 +896,7 @@ arch=`dpkg --print-architecture`
 
 DISTRIB_ID=Ubuntu
 # This file is sourced by Xsession(5), not executed.
-# Set the maximum number of FUSE mounts allowed to non-root users.
+build_name: server
 <fontconfig/>
 order hosts,bind
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
@@ -1063,7 +1055,7 @@ Acquire::Changelogs::AlwaysOnline "true";
   # StackGuard, FormatGuard, etc., alerts can be properly logged.
 # password.
 fi
-
+! The App-defaults file for Bitmap.
 #    with this program; if not, write to the Free Software Foundation, Inc.,
 #               -> put the port that you use instead of '88'.
 # $ systemctl edit --full cron.service
@@ -1080,7 +1072,6 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 
 . /usr/share/bash-completion/bash_completion
 SHELL=/bin/sh
-GRp¢£ªmÒK>'ÀüË]‚Ø¯æç9,åç>;$¾İ`£s“(nõ4 <ô›â3ÄÓ²Ä]Iëà$‚	¥« {C‘»w ÄÄe±‰_•k]‰§ø¦_sõ6.‹bñ–†æsµ6˜´_jB^UpÈÈËâa)Ü<
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 create
 # NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
@@ -1156,8 +1147,7 @@ option lampOff   -1
 session required        pam_limits.so
   owner @{HOME}/.config/kdeglobals.lock rwk,
 # mountpoins which are configured in /etc/fstab as arguments. Separate
-
-*fileMenuButton.label:		File
+			XawPositionSimpleMenu(optionMenu) 
 # This file is a simple placeholder to keep dpkg from removing this directory
 # This script writes DHCP lease information into the cloud-init run directory
 # do something like:
@@ -1173,8 +1163,6 @@ emptyscale=magenta
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
 #    This program is free software; you can redistribute it and/or
 ## Add external Servers using
-	echo "Usage: cryptdisks {start|stop|restart|reload|force-reload|force-start}"
-#    License published by the Free Software Foundation.
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 
 SHELL=/bin/sh
@@ -1197,3 +1185,18 @@ SHELL=/bin/sh
 # ldconfig = false
 # image.  The associated devices can then be unlocked without manual
   the ImageMagick option
+#include <tunables/home.d>
+# consist of one or more characters each.  The backslash "\" is used to escape
+alias.url += ("/javascript" => "/usr/share/javascript")
+  # (src/intel/perf/gen_perf.c, load_oa_metrics())
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
+# Default to PulseAudio
+
+# video device access
+
+# Purpose: show user warnings on login.
++  manage_etc_hosts: True
+
+×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
+X-Ubuntu-Gettext-Domain=gnome-keyring
