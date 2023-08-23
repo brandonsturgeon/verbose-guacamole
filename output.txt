@@ -104,7 +104,6 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
                                      "javax.crypto.spec.RC2ParameterSpec", 128;
 Comment[as]=PulseAudio ‡¶∂‡¶¨‡ßç‡¶¶ ‡¶¨‡ßç‡¶Ø‡ß±‡¶∏‡ßç‡¶•‡¶æ ‡¶Ü‡ß∞‡¶Æ‡ßç‡¶≠ ‡¶ï‡ß∞‡¶æ ‡¶π'‡¶¨
-}
 # Device filename to use for scanner access
 # Compose sequences for ISO-8859-8
 # Compose sequences for ARMSCII-8
@@ -188,7 +187,7 @@ setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz'
 # following line is sufficient. This however assumes that the connected scanner (or to be more
     fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
-if [ "$INITRD" = 'No' ]; then
+#DefaultBackend=auto
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 }
 
@@ -212,12 +211,10 @@ SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
 ÄödGhïE^qßÏ5πı∑&n¿Ñ‡ÚU0tˇz,È#Ì=∞ó§º™Îc◊ πm		<4≈ÆMÔ‹∂‹ûöZqˆ≈ñ‰ÇÅö@òµ“∆Ø3∆Ú‘•ËI€ŒéZ`^Uy≥ª	Â˘Pﬁ|sèÓ˙Áò…Ó—TáI<ÇæeR¡==©hLÁêœ:Ó√˘ÿø~éúÊmbÊwysÄŒY 
 usb 0x043d 0x007c
       without rebooting a machine which drastically limits the need for
-    delaycompress
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 # How many usec (1,000,000ths of a) between sending the "back to default" break
 X-GNOME-Autostart-Phase=PreDisplayServer
 # as possible
-DISTRIB_RELEASE=20.04
 #    Handle linux distributions that use systemd to replace the legacy
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
@@ -280,7 +277,6 @@ rocks_trees = {
  * and edit it there.  That way, your changes will be kept next time
   /dev/console rw,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
-# Compose sequences for GEORGIAN-ACADEMY
 
 font='Monospace 16'
 15	ntk
@@ -319,7 +315,6 @@ SECTION		1 n l 8 3 2 3posix 3pm 3perl 3am 5 4 9 6 7
     done
 # Compose sequences for IBM1133
 <!DOCTYPE busconfig PUBLIC
-CRYPTDISKS_MOUNT=""
 
 XLoad.input:			false
 #
@@ -394,7 +389,7 @@ LP-PPA-ubuntu-mozilla-daily
   <type name="DejaVu-Sans-Oblique" fullname="DejaVu Sans Oblique" family="DejaVu Sans" style="Oblique" stretch="Normal" weight="400" glyphs="DejaVuSans-Oblique.ttf"/>
 bookman_light_italic.latin1.plain=Bookman-LightItalic
     <alias>
-  # User files
+      <family>DejaVu Serif</family>
 letter
   </rejectfont>
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
@@ -404,7 +399,7 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 scsi Nikon * Scanner
 XCalc*hp.button16.fromHoriz:		button15
 /dev/scanner
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
 # subpath mappings from mount point for pinning
   <match target="pattern">
@@ -469,7 +464,7 @@ LANG=C.UTF-8
 driftfile /var/lib/chrony/drift
   <type name="NewCenturySchlbk-BoldItalic" fullname="New Century Schoolbook Bold Italic" family="NewCenturySchlbk" foundry="URW" weight="700" style="italic" stretch="normal" format="type1" metrics="C059-BdIta.afm" glyphs="C059-BdIta.t1"/>
 # fails to use it it will not abort.
-# ATZW2 as a default init string
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
   # dehydrated
 # To take advantage of this, it is recommended that you configure any
@@ -502,7 +497,7 @@ case $0:$mode in
 # ------------------------------------------------------------------
 /STHeiti-Regular /BousungEG-Light-GB ;
   /etc/cloud/clean.d/99-live-installer
-*Background:			RoyalBlue4
+    fi
 rtcsync
 done
 	<alias>
@@ -564,7 +559,6 @@ commands scan this directory processing all files that end in '.conf'.
   </its:rules>
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # published by the Free Software Foundation; either version 2 of the
-
 0x48	AF21
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M SNCL  -t"
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG network certificate management daemon.$
@@ -610,7 +604,7 @@ roottext=,magenta
 
 
 0x80	CS4
-# git completion script.
+		Ctrl<Key>s: PopupSearch()
 	if [ -e /var/crash/vmcore ] || [ -n "`ls /var/crash | egrep ^[0-9]{12}$`" ];then
 NoDisplay=true
 logfile   /var/log/ntp		# alternate log file
@@ -658,7 +652,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 group:          files systemd
 
   /usr/lib{,32,64}/ruby/1.[89]{.[0-9],}/*-linux/**.so mr,
-<!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
 
 # to allow your remote connection before starting ufw. Eg: 'ufw allow 22/tcp'
 # You can change settings by editing this file.
@@ -711,7 +704,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 
 
 Name=GNOME Settings Daemon's housekeeping plugin
-XClock.Clock.majorColor:	rgba:7f/00/00/c0
 session optional pam_systemd.so
 # The format of port-name is dependant on your OS version.
   /var/log/lastlog  rwk,
@@ -731,7 +723,6 @@ XClock.input: false
 
 # This is only used for network scanners.
   /usr/bin/iconv rm,
-FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
         </policy>
 SETTINGS="$(gather_settings HARDWARE_DMA_RING_)"
 # Configuration file for the hp4200 backend
@@ -803,7 +794,7 @@ By default, Java provides two different sets of cryptographic policy
 account	required			pam_permit.so
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
-  echo $0 $@
+/lib/x86_64-linux-gnu
 Options=nodev,ro,x-gdu.hide
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 #skip-cache
@@ -819,7 +810,6 @@ rq0t2YjXglIBHRDiJlOTAR3if37OCDKCcHOOODqYrsN7wNleez+ulkDyP7C7ZTbm
   dbus (send)
 	;;
 # with the multiqueue (mq) policy and uses less memory.
-title=Secure shell server, an rshd replacement
     rotate 7
 # javax.sound.sampled.Port
 #   1:			top		# top -> 1:0
@@ -837,7 +827,7 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
             . /usr/share/bash-completion/bash_completion
 ## Commands metadata files.
 EnumerateAllDevices=false
-            <string>zh-hk</string>
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # enforce discretionary access controls) it can be used as if it did
 <?xml version="1.0"?>
 # Insert here your local magic data. Format is described in magic(5).
@@ -845,7 +835,6 @@ EnumerateAllDevices=false
 
 
 
-echo "done."
 #
 DAEMON="/lib/systemd/systemd-udevd"
 <!-- You can edit this file to add the following:
@@ -1021,7 +1010,6 @@ loadkeys '/etc/console-setup/cached_UTF-8_del.kmap.gz' > '/dev/null'
 & stop
 LANG=C.UTF-8
     <allow own="org.pulseaudio.Server"/>
-
 <fontconfig>
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
   # Scanning for USB devices
@@ -1054,8 +1042,8 @@ SSHD_OPTS=
 # match-string "pattern=aadfa audit perms=crwxamlk/ user::other"
 
 		</edit>
-scsi ACROSS * Scanner * * * 0
-  00_*: Reserved for 00_header.
+	    ;;
+# the value 'auto' will make the backend find the correct value
 /usr/bin/wine-preloader
     permission java.util.PropertyPermission "os.name", "read";
 {
@@ -1153,7 +1141,7 @@ fi
 #udev_log=info
 scsi CANON IX
 build_name: server
-  audit deny @{HOME}/.evolution/{,**} mrwkl,
+Acquire::http::User-Agent-Non-Interactive "true";
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 /usr/local/lib/x86_64-linux-gnu
 # in the toplevel profile. Eg:
@@ -1177,3 +1165,14 @@ lˆˇKy·ò∂`&`Úç3)ÉÀîÕh∫“$äxçãÎ‰ˆÚ-Ÿ$È=óﬂìèañì4´Vª»˝ú<,Æì˜XÍBF'–	tù@'NH\˝h˘z˛
 compose '`' 'u' to '˘'
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
 ˝h#0£#e§íìèπÖ(1∑PtA¸·Û≈ßmZ&õÙ°Öﬂ±˚ã7Ω⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷4B˙4-±Ô¶.ÜP¸ç=1˙¿ÜæâhµVÇ6uƒDLƒSuVA˘&⁄≥¯Ë∏êJÜ4s·Tˇ¯|ù"KŸÖ›‡dAõˆhõΩ∫û˚€•B@D@S’t )ç$\∏’._)ËN+eµy≥mu=˘sw©–T©NI#Ó‘UµÓ≠†V∆’ÊÕ{¥5Ùt=˘Ûv©–T©NI#„UWuT˜÷†;´¢Wõ?È—÷–◊ı‰œﬂ•B@D@S•:%ç8[T]’—nètÁUÙjÛùm]O˛Ç]*D@4U™S“H´E’UÌˆXAoR˝¨VõÔˆhk8’ı‰o∫KÖÄàÄ¶JuJÒµ®∫™£›+Ë9UÙjÛΩmC]O˛¬]*D@4U™S“»û›"´Ó≠Aœ≠¢WõÔ˜hk8”ı‰o∂KÖÄàÄ¶JuJaµ†[d’Ω5Ë—S°jÛÉmÁ∫û¸Õw©–T©N9„É™æÍjØPÙ¸*<=öˆhõﬂ‡ân¿=jª∫µàã∏à{p\’ôi$–/€ï)‘=⁄±8‰X00˘…ô4…%§MÁqû•©∞8ø…æ]|b´,¯ªNäíÂ≈˜fÁeT≤ˆÓ>º√”S`4ç@#–4bD‚ÍG√Û·CQ–ÔP®…FqJKW€ÕåN·tßÍ¢u≈E;:”d£¨fFßp:ÜSu—z‚¢ùãÇùk≤QàV3£ÄS8√©∫h}q—ûo/À<äÀ&GgΩ⁄}Ò∏ﬁ¿ú¡úèÄ≥J÷Ú€fæ((àØ…F!~¨fFßp:ÜSu—N≈EàÇ4Ÿ(D´ôQ¿)úé·T]¥°∏hß¢†Cßöl"Ç’Ã(‡N«p™.⁄ô∏hOóÀ∫¢√ﬂ˚vU˚⁄#¢u4’˘Ê¢Û9¢ 7é&ÖËﬁV3£ÄS8√is—Œ&‚¢uEAá∫öl"Ç’Ã(‡N«p™.Z˘F€Íi≤QàV3£ÄS8√©∫hÂÌâ(Ë–â&Öà`53
+Exec=/usr/bin/gnome-keyring-daemon --start --components=secrets
+usb 0x1083 0x1622
+  #
+# so please ensure that:
+		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
+Title=Vendor
+#
+# udevd is also started in the initrd.  When this file is modified you might
+			<string>AR PL UKai HK</string>
+  </match>
+#
