@@ -129,7 +129,7 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 
 setfont '/usr/share/consolefonts/Uni2-Fixed16.psf.gz' 
 /dev/scanner
-# See avahi.hosts(5) for more information on this configuration file!
+		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # Compose sequences for GEORGIAN-PS
 #           will attempt to upgrade to the first LTS release available after
 
@@ -196,7 +196,7 @@ Before=snapd.service
 #option maxread 65536
 rocks_trees = {
 
- * and edit it there.  That way, your changes will be kept next time
+
   /dev/console rw,
 /Adobe-Japan2 /Japanese-Mincho-Regular-JaH ;
 font='Monospace 16'
@@ -250,7 +250,7 @@ fi
   /etc/X11/app-defaults/XTerm r,
 #    Copyright (C) 2011-2013 Canonical Ltd.
 NoDisplay=true
-}
+# Compose sequences for ARMSCII-8
 # in the toplevel profile. Eg:
 [connection]
 #!/bin/sh
@@ -284,8 +284,7 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 /CenturySchL-BoldItal (/usr/share/fonts/type1/gsfonts/c059036l.pfb) ;
 scsi Nikon * Scanner
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- XML -*- -->
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
-
+		AWKLIBPATH=`gawk 'BEGIN {print ENVIRON["AWKLIBPATH"]}'`
   <match target="pattern">
 8MXW5dRNJ2Srm8c+cftIl7gzbckTB+6WohsYFfZcTEDts8Ls/3HB40f/1LkAtDdC
 ### that look up the default sink/source get the right value
@@ -396,7 +395,6 @@ create_machineid() {
 # exit if custom kernel does not need an initramfs
 
 
-allow-deletion=false
 # ------------------------------------------------------------------
         </test>
 		<test qual="any" name="family">
@@ -498,12 +496,10 @@ speed=115200
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
   # The Name Service Cache Daemon can cache lookups, sometimes leading
     missingok
-#    (at your option) any later version.
     echo "updates of cacerts keystore disabled."
 # files; in other words, files such as a sample .profile that will be
 # vim:syntax=apparmor
   #include <abstractions/opencl-nvidia>
-<fontconfig>
 -----END CERTIFICATE-----
   # for mailto:
 # Compose sequences for ISO-8859-6
@@ -523,7 +519,7 @@ AUFS_MAX_NAMELEN=242
         %facetAttr;
 blacklist rivafb
 
-  /usr/bin/iconv rm,
+# inclusion by distributed profiles to aid in packaging AppArmor for
         </policy>
   # for networking
 [METARELEASE]
@@ -668,7 +664,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
         done
 Name=User folders update
 
-#scsi "K.M.E.  " "KV-SS50EX       "
+<!ENTITY % extension "%p;extension">
 # You can change settings by editing this file.
 # -Z Disable the power-saving function of certain Seagate drives
 -->
@@ -676,14 +672,12 @@ Name=User folders update
 'ﬂﬂ^“9œE}BKﬂ≥,≈∆] U:†úiöè⁄Ô≤∞<üál+epR1$œo1#PåOè#√tAcU®›>‡QPœÒ0Ví∞ÇÖÿÉÀ"dº-∏%’T¢∏Í≠í§$†¡ÜµJjGœ.VïTÀŒö€j¥¶≤€AÜ'w˜j†Bl8Œ◊uP2í¬ﬂ+0"H–’A8%]§È]ü∆îu–E˝0óCèê´
 ÜÍõWb¿xV¡≤Ÿ]ÉT¯Ÿo6dTm¡Ø¸,º$?Îêü
 	compact_output_cols=""
-Vendor: Debian
   /dev/xconsole                 rw,
 #
 option buffer-size 32768
 
 	thin_pool_zero=1
 #!/bin/sh
-image/pcx; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 CATALOG /usr/share/xml/docutils/catalog
 jD≈L“Pçù	¿âÈ˘[§Ã-ﬂVDôøõ‡b>°X*~¬Ä'Æ˚ﬁﬁÏôÃFû_~t√É¥o¬°í‚ùÜMºcR
 Subsystem	sftp	/usr/lib/openssh/sftp-server
@@ -991,7 +985,7 @@ CATALOG /usr/share/xml/docutils/catalog
 #    License published by the Free Software Foundation.
 
 # ------------------------------------------------------------------
-    case "$(LC_ALL=C stat -c '%u %g %a %F' "$DIR")" in
+java.util.logging.ConsoleHandler.formatter = java.util.logging.SimpleFormatter
 *paned.allowResize:		true
 printf '\033%%G' 
 Name=GNOME Settings Daemon's housekeeping plugin
@@ -1015,7 +1009,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 	                echo failed.
 # symbolic names for networks, see networks(5) for more information
 #    /etc/overlayroot.local.conf
-  /usr/share/X11/**               r,
+#keyfile /etc/chrony.keys
 }
   owner @{HOME}/.fonts.cache-2          mr,
 	weekly
@@ -1056,7 +1050,6 @@ type=file
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 NI	-*-new century schoolbook-medium-i-normal--*-*-*-*-*-*-iso8859-1\n\
   # SASL plugins and config
-  /etc/vulkan/icd.d/{,*.json} r,
     <family>SUSE Sans Mono</family>
 # If we are running the GNOME session, source ~/.gnomerc
 # Run cryptdisks initscripts at startup? Default is Yes.
@@ -1088,7 +1081,6 @@ datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltClo
 # BYOBU_BACKEND can currently be "screen" or "tmux"
 # This file may be sourced by the function source_with_error_check() in
 [Distro]
-## Note, this file is written by cloud-init on first boot of an instance
 # Compose sequences for VISCII
   monthly
 
@@ -1118,7 +1110,7 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
   # paths (man ld.so)).
 
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
-# ------------------------------------------------------------------
+–
 # ISSUE_FILE option from login.defs). Uncomment for use
 # /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
 . /usr/share/bash-completion/bash_completion
@@ -1200,3 +1192,19 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
   /usr/lib/NetworkManager/nm-dhcp-helper          Pxrm,
 #net/ipv6/conf/default/forwarding=1
 #IgnoreRhosts yes
+# vim:syntax=apparmor
+#
+# usb 0x4b8 0x14c
+   "URL": "https://launchpad.net/~%s/+sshkeys"
+
+    } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
+DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
+# RSYNC_IONICE='-c3'
+
+Icon=appointment-soon
+        fi
+DAEMON=/sbin/lvmpolld
+session    required   pam_limits.so
+Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
+  <type
+/Adobe-CNS1 /ShanHeiSun-Light ;
