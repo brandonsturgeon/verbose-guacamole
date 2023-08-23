@@ -81,7 +81,7 @@ scsi FCPA
 # dpkg configuration file
 #    modify it under the terms of version 2 of the GNU General Public
 # vim:syntax=apparmor
-c0582bt_.pfb -bitstream-courier 10 pitch-medium-i-normal--0-0-0-0-m-0-iso8859-1
+
 
 search updates ubuntu built-in
 
@@ -106,11 +106,10 @@ commands scan this directory processing all files that end in '.conf'.
 password	include		su
 
 # As a result, cloud-init has written this file with configuration data
-.  " rather than letting it be rendered as "&minus;".
+  </policy>
   abi <abi/3.0>,
 # shellcheck disable=SC2086
 # Compose sequences for IBM1133
-#!/bin/sh
 
 *scrollMenu.vertical.label:		Vertical
 session		include		runuser
@@ -202,7 +201,7 @@ Comment[as]=PulseAudio ‡¶∂‡¶¨‡ßç‡¶¶ ‡¶¨‡ßç‡¶Ø‡ß±‡¶∏‡ßç‡¶•‡¶æ ‡¶Ü‡ß∞‡¶Æ‡ßç‡¶≠ ‡¶ï
 }
 *Background:				rgb:c/d/b
 nssDbMode = noDb
-# Scripts in this directory are executed as root when a user log out from
+*Shorter-button.fromHoriz: Down-button
 # Compose sequences for ISO-8859-8
 # Compose sequences for ARMSCII-8
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOFBdHKnRSOduMjZCawcQ8HjvuZVquWJVK/p8tWCohtS root@LAPTOP-5TIN5O4V
@@ -388,7 +387,6 @@ fi
         if shopt -q progcomp && [ -r /usr/share/bash-completion/bash_completion ]; then
 			<string>AR PL UMing HK</string>
 Terminal=false
-0x91 '¬ë'
 # Turn on Source Address Verification in all interfaces to
 # directories are stored, each must have a trailing '/'. Directories added
 deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
@@ -541,7 +539,7 @@ do_bootloader = no
 
 DESKTOP-OFJN9OT
 
-X-GNOME-Autostart-Phase=Initialization
+#
 # abstraction for allowing access to graphical browsers in Ubuntu
 
 X-GNOME-HiddenUnderSystemd=true
@@ -556,7 +554,6 @@ X-GNOME-Autostart-Notify=true
 	# Configuration option local/extra_system_ids.
 # This file contains a list of port numbers between 600 and 1024,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
-scsi AdLib * Scanner
 # This file is a simple placeholder to keep dpkg from removing this directory
 <fontconfig>
 
@@ -581,7 +578,7 @@ font='Monospace 16'
 	elif [ -e "/etc/byobu/autolaunch" ]; then
 #!/bin/sh
   /etc/cloud/clean.d/99-live-installer
-{% if servers %}# Servers
+# See comments in /etc/login.defs
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # prevent some spoofing attacks.
 
@@ -629,7 +626,6 @@ failure_action = ignore
 # Comma separated list of modules to load.
 # white space is ignored and lines maybe extended with '\\n' (escaped
 # Compose sequences for IBM1133
-# Compose sequences for ISO-8859-11
 ã]“«j[AÜ·ΩØb∞Z∑Gé≥±ßAº”ÊH:â∂é#í‡“{ÔΩ˜ﬁ{ÅÃçÂˇﬁÏ≤xg`‡Y|Cn[Ÿ-{Eølª≠Ωj—ÕmI#˝≈•Ö—z≥”Ìt]s◊¶Å!∑b«πÛùÖ“ı ¢Ì
 # white space is ignored and lines maybe extended with '\n' (escaped
 CRYPTDISKS_MOUNT=""
@@ -667,7 +663,6 @@ OnlyShowIn=GNOME;
     label in4 "+12V"
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-# im-config signature: d57688c8151277a0c25d15aa0523da6b  -
   <match target="pattern">
 # install prefixes.
 
@@ -721,12 +716,12 @@ gt68xx
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 -dcevm KNOWN
 # how to byte-compile (comma separated: standard, optimize)
-      interface="com.canonical.Unity.LauncherEntry"
+which grub-editenv >/dev/null 2>&1 || exit 0
 #!/bin/sh
 # This file is the default tidy configuration file
 
 		;;
-
+ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
 	then
   #include <abstractions/kde>
   </its:rules>
@@ -779,7 +774,7 @@ LANG=C.UTF-8
     echo "Usage: /etc/init.d/atd {start|stop|restart|force-reload|status}"
 NoDisplay=true
   # User files
-
+#  Default rules for rsyslog.
 auth    optional        pam_gnome_keyring.so
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
     monthly
@@ -807,7 +802,6 @@ XCalc*hp.button16.fromHoriz:		button15
 /dev/scanner
           "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 # You should have received a copy of the GNU General Public License
-
 # Your system has configured 'manage_etc_hosts' as True.
 option rfc3442-classless-static-routes code 121 = array of unsigned integer 8;
 # subpath mappings from mount point for pinning
@@ -853,7 +847,7 @@ rk0JgVoRzG3BT5yYfuxHIe4H4Axh95tW9i6urzyQkXRz14twwwcEDvl5ALrBLNJJ
 PPP_DISC	8863		# PPP over Ethernet discovery stage
       may simply works to avoid it.
 
-# To use a specific scsi device
+#    Copyright (C) 2009-2010 Canonical Ltd.
 
 #    modify it under the terms of version 2 of the GNU General Public
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
@@ -914,7 +908,6 @@ IPT_MODULES=""
 <?xml version="1.0" encoding="UTF-8"?>
 
 #   option dumb-read
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 compose '\'' 'o' to 'Û'
 ## Digital UNIX
 #
@@ -922,7 +915,6 @@ nssDbMode = noDb
 #/dev/usb/scanner0
 
       <const>lcddefault</const>
-#
 /Adobe-Japan2 /Japanese-Mincho-Regular-JaH ;
         [ -x /sbin/restorecon ] && /sbin/restorecon "$1"
 }
@@ -934,11 +926,10 @@ nssDbMode = noDb
 X-GNOME-AutoRestart=true
 # HP Scanjet 3800
 # Default-Start:     S
-  <policy context="default">
+# Compose sequences for ISO-8859-8
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 X-GNOME-AutoRestart=true
 #   TunnelDevice any:any
-  help: |
 SHELL=/bin/sh
 # This is the configuration file for pam_env, a PAM module to load in
   /usr/lib/nspluginwrapper/i386/linux/npviewer{,.bin} ixr,
@@ -959,7 +950,7 @@ application/x-zip=org.gnome.FileRoller.desktop
 # inclusion by distributed profiles to aid in packaging AppArmor for
 # This file is a simple placeholder to keep dpkg from removing this directory
 
-# Compose sequences for KOI8-U
+<!ATTLIST %element;
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.2/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.2/catalog.xml"/>
 #
 
@@ -1012,7 +1003,6 @@ XClock.Clock.minorColor:	rgba:00/7f/7f/c0
 [mysqldump]
 # You can even override a supported extension:
 <?xml version="1.0"?>
-# The default is /var/run/faillock.
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255
 #Name: remotedb
@@ -1051,7 +1041,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 APT::Periodic::Update-Package-Lists "1";
 # cloud-init. They are read in lexical order. Later files overwrite values in
         Disable hinting manually at smaller sizes (< 8ppem)
-#hpsj5s.conf
+# vim:syntax=apparmor
 #  the Free Software Foundation; either version 2.1 of the License, or
 
     unset XDG_SESSION_ID
@@ -1059,3 +1049,14 @@ APT::Periodic::Update-Package-Lists "1";
 # clean all crash reports which are older than a week.
   <type name="AvantGarde-Book" fullname="AvantGarde Book" family="AvantGarde" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="URWGothic-Book.afm" glyphs="URWGothic-Book.t1"/>
     permission javax.crypto.CryptoPermission *, 128;
+	missingok
+# the following options are local to this scanner
+AQAwDgYDVR0PAQH/BAQDAgGGMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYY
+email_format=text
+#
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+#
+session		required	pam_unix.so
+# no packages own btmp -- we'll rotate it here
+restrict -6 ::1
+    [ -x "/usr/bin/dbus-update-activation-environment" ]; then
