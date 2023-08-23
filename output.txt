@@ -120,7 +120,7 @@ mode="${1#'}"
 
 # Compose sequences for VISCII
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
-# ------------------------------------------------------------------
+        rm -f $PIDFILE
 # As the snmp packages come without MIB files due to license reasons, loading
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 # How many usec (1,000,000ths of a) between sending the "back to default" break
@@ -191,7 +191,6 @@ name = NSS
 fi
   . "$USERXSESSIONRC"
 # Turn on Source Address Verification in all interfaces to
-# for input method.  Thus moved from 80 to 70.
 # and should contain a list of modules that define tasks to be performed
     exec /usr/lib/update-notifier/update-motd-hwe-eol
 [general]
@@ -308,7 +307,7 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
  l
 # ------------------------------------------------------------------
 #
-  </its:rules>
+#!/bin/sh
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # published by the Free Software Foundation; either version 2 of the
 0x48	AF21
@@ -324,7 +323,7 @@ case "${1}" in
 	<match target="pattern">
 *MenuButton.foreground: white
 [upower]
-# libc default configuration
+scsi APPLE
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
@@ -362,7 +361,6 @@ server {{server}} iburst
 
 APT::Periodic::Download-Upgradeable-Packages "0";
 HuaweiAltModeGlobal=0
-restrict 127.0.0.1
 [Unit]
 	rm -rf "${RUN_DIR}/interface/*"
 // grant codeBase "jrt:/com.greetings" {
@@ -516,7 +514,7 @@ LANG=C.UTF-8
 ÜÍõWb¿xV¡≤Ÿ]ÉT¯Ÿo6dTm¡Ø¸,º$?Îêü
   /dev/xconsole                 rw,
 # X11xx series
-option buffer-size 32768
+  /etc/X11/cursors/**             r,
 	thin_pool_zero=1
 #!/bin/sh
 CATALOG /usr/share/xml/docutils/catalog
@@ -531,7 +529,7 @@ Type=Application
 
 #    . /etc/bash_completion
   #include <abstractions/dbus-strict>
-#    Copyright (C) 2011 Canonical Ltd.
+    notifempty
     # environments
 # /etc/login.defs and user settings, solving the problem of different
 
@@ -557,12 +555,12 @@ Each file in this directory is an rt_tables configuration file. iproute2
 		;;
 Ÿ◊õ¢ök√JÌA`0—™Bn”#∆e››Rw⁄Åk≤®˙8πñÍ*lgóâîûº·T’‰jxÔJΩ+ö=@~∆¿u“n˚h0ÏÏãù˘I5ö,Ÿ≥ï9’í˜¶πe/Â=m:HL‹‰((æ}5‡~j◊>◊û¸-u≤¡’#€[o>x/ﬁ3ç∑HÁÉöÅ{¡CMU8JQ’Y¢ât”üæK◊∆m∑à$o`ë§ÇÖ[VAº–D´jæ—,X∑3X≤7c‹ıî?@QıOı:Ì»≈Î¬ïz«~BqìnK∑0ﬂ™ÌWÖH¨j›9i‰·yxæŒø°˜Ä{!g'0YBdebian:hellenic_academic_and_research_institutions_rootca_2015.pem8P_XX.5090Ç0ÇÛ†0	*ÜHÜ˜0Å¶10	UGR10UAthens1D0BU
 # specify the provider and priority in the format
-
+Ubuntu 20.04.1 LTS (Focal Fossa)
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 . /usr/share/bash-completion/bash_completion
  - chef
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
-  # Scanning for USB devices
+# battery level.
 <!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
 #    modify it under the terms of version 2 of the GNU General Public
 *ÜHŒ=h0e1Âi…n€∆1∫	A·ó¯˚˝ö‚}…Ì|d”À%ãVŸ†Á^]NÉú[v)†	&!jb0q“µè\Í;·x	Ö®uí;»\˝HÔt"®‚n≈IŒ«ºßaiÒ˜;·*À˘+Ûfê7"debian:digicert_global_root_g3.pem8P_1X.509C0Ç?0Ç≈†UVºÚ^§55√§’´Er0
@@ -691,7 +689,7 @@ deb {{mirror}} {{codename}} multiverse
 # Written by the Cloud Image build process
 #
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache\.$
-˘î`ﬁ…VùF2eE∆«†ÖõwÒƒ#5æmz∑øb¢æ∏Ë^|µR-	LÂ≠&èâ3
+#broadcast 224.0.1.1 autokey		# multicast server
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
 # The username of the user logging out is provided in the $USER environment
 # @{securityfs} is the location where securityfs is mounted.
@@ -715,7 +713,6 @@ X-Ubuntu-Gettext-Domain=gnome-keyring
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 system-db:ibus
     </accept>
-# #include <abstractions/ubuntu-helpers>
 X-Ubuntu-Gettext-Domain=gnome-keyring
 start)
 </busconfig>
@@ -747,12 +744,11 @@ printf '\033%%G'
 Name=GNOME Settings Daemon's housekeeping plugin
 #
 # If an executable path appears on any line in any file in
-grant {
 	;;
 X-GNOME-HiddenUnderSystemd=true
 Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 compose '-' ')' to '}'
-jD≈L“Pçù	¿âÈ˘[§Ã-ﬂVDôøõ‡b>°X*~¬Ä'Æ˚ﬁﬁÏôÃFû_~t√É¥o¬°í‚ùÜMºcR
+## This works for most UNIX's
 @include common-session-noninteractive 
 #  uid = 0
   <type name="NewCenturySchlbk-Bold" fullname="New Century Schoolbook Bold" family="NewCenturySchlbk" foundry="URW" weight="700" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/c059016l.afm" glyphs="/usr/share/fonts/type1/gsfonts/c059016l.pfb"/>
@@ -795,7 +791,7 @@ restrict -6 default notrap nomodify nopeer noquery
 usb 0x03f0 0x0105
 XCalc*ti.button48.fromVert:		button43
 type=file
-# networking=no
+        chmod 0755 $SCREENDIR
 @include common-session-noninteractive
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 APT::Periodic::Download-Upgradeable-Packages "0";
@@ -843,7 +839,7 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # ISSUE_FILE option from login.defs). Uncomment for use
 # /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
-. /usr/share/bash-completion/bash_completion
+# deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
     STARTUP=x-terminal-emulator
    case "$reason" in
 # Compose sequences for IBM1133
@@ -873,7 +869,7 @@ gtk-icon-sizes = panel-menu-bar=24,24
 # Should-Stop:       $syslog
   if [ -n "$RESOURCEFILES" ]; then
 
-
+EOF
 # HP scanjet 4400c
 
 # will be used
@@ -946,7 +942,6 @@ deb http://packages.azlux.fr/debian/ buster main
   /etc/gtk/*                      r,
 			for N in $new_dhcp6_name_servers ; do
 #
-
 order hosts,bind
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
@@ -985,7 +980,7 @@ $x-display-manager gdm3
 #
 # orbit2 permissions
 
-option warmup    -1
+    </event>
 alias.url += ("/javascript" => "/usr/share/javascript")
 
 #baud=115200
@@ -1055,7 +1050,6 @@ export PATH
 <!ENTITY % maxLength "%p;maxLength">
 [Unit]
 	start)
-      Most clients may picks up the first value only. so using "append"
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf
 Type=Application
 # It receives polydir path as $1, the instance path as $2,
@@ -1190,3 +1184,16 @@ modules_load_preference=ondemand
    [formatters]
 if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 APT::Periodic::Update-Package-Lists "1";
+	exit 0
+<delegateSystem systemIdStartString="http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd" catalog="file:///usr/share/xml/schema/xml-core/catalog.xml"/>
+# The hook script for dbus-launch is in 75 which changes $STARTUP string.
+  audit deny @{HOME}/.mozilla/{,**} mrwkl,
+# Legacy biarch compatibility support
+
+#
+compose '_' 'a' to '‡'
+
+
+
+DESC="unattended package upgrades shutdown"
+/lib/i386-linux-gnu
