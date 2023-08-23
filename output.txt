@@ -82,7 +82,6 @@ Alias /javascript /usr/share/javascript/
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
       will change accordingly; the version at
 exec /usr/bin/X -nolisten tcp "$@"
-# Default is yes
 esac
 
   #include <abstractions/fcitx-strict>
@@ -113,7 +112,6 @@ Bugs: debbugs://bugs.debian.org
 # Compose sequences for IBM1133
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 # Use DOCKER_OPTS to modify the daemon startup options.
-# vim:syntax=apparmor
 # Compose sequences for ISO-8859-16
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
                                      "javax.crypto.spec.RC2ParameterSpec", 128;
@@ -143,14 +141,14 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 auth	required	pam_nologin.so
 #    modify it under the terms of version 2 of the GNU General Public
 
-compose '^' 'I' to 'Î'
+#parport0
      <choice>
 	<match target="font">
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 application/vnd.anser-web-funds-transfer-initiation
 ‹]ÒÇj[A†á½¯b°Z·G³±§A¼ÓæH:‰¶#’àÒ{ï½÷Ş{ÌåÿŞì²xg`àY|Cn[Ù-{E¿l»­½jÑÍmI#ıÅ¥…Ñz³Óít]s×¦!·bÇ¹ó…ÒõÊ¢í
 X-GNOME-Bugzilla-Bugzilla=GNOME
-1	redirect
+# should not normally be necessary (under Linux at least).
 # shells invoked with the -l flag.)
 
 Vendor: Ubuntu
@@ -216,7 +214,6 @@ if [ "$INITRD" = 'No' ]; then
   </policy>
 *customization: -color
 			<string>AR PL UMing HK</string>
-# ------------------------------------------------------------------
 # Turn on Source Address Verification in all interfaces to
 # usb 0x4b8 0x14c
 # set start_ro=1 to make newly assembled arrays read-only initially,
@@ -229,7 +226,6 @@ find /var/crash/. ! -name . -prune -type f ( ( -size 0 -a ! -name '*.upload*' -a
 ctl.!default {
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 SnN2hheFd9Y0nMmWbwRqFtwMG1m/tS3JlD52Rpwzk59B
-## Type:        yesno
 ## invoking user was bestowed with some inheritable capabilities by a
 €šdGh•E^q§ì5¹õ·&nÀ„àòU0tÿz,é#í=°—¤¼ªëğc×Ê¹m		<4Å®MïÜ¶ÜšZqöÅ–ä‚š@˜µÒÆ¯3ÆòÔ¥èIÛÎZ`^Uy³»	åùPŞ|sîúç˜ÉîÑT‡I<‚¾eRÁ==©hLçÏ:îÃùØ¿~œæmbæwys€ÎYÊ
 usb 0x043d 0x007c
@@ -245,7 +241,6 @@ DISTRIB_RELEASE=20.04
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 session		optional	pam_keyinit.so force revoke
 /usr/sbin/gdm3
-# no matching entries are found elsewhere.  For more information see the
 
 # definitions of existing MD arrays
 [usb]
@@ -275,7 +270,6 @@ esac
 # Compose sequences for ISO-8859-5
 ports=22/tcp
 # this remote provides metadata and firmware marked as 'testing' from the LVFS
-# Multiarch support
 previous-engine=@as []
 tcp.flag.psh	u8		tcp+13		0x08		3
   </match>
@@ -297,7 +291,7 @@ passwd:         files systemd
 X-GNOME-Bugzilla-Version=3.36.x
 /var/log/apt/term.log {
 	daytime_hosts => [ qw {} ],
-# Compose sequences for ISO-8859-16
+        . $IM_CONFIG_XINPUTRC_USR
                     Schema Recommendation</a> forbids the declaration of
 
 # pam-auth-update to manage selection of other modules.  See
@@ -305,12 +299,11 @@ X-GNOME-Bugzilla-Version=3.36.x
 /dev/scanner
 #option maxread 65536
 rocks_trees = {
-# install the apport exception handler if available
 
  * and edit it there.  That way, your changes will be kept next time
   /dev/console rw,
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: cannot remove active disk [[:alnum:]]+ from md[[:digit:]]+ \.\.\. ?$
-    # Skip in favour of systemd timer.
+brandon:100000:65536
 
 font='Monospace 16'
 
@@ -388,7 +381,7 @@ Title=Enable UEFI capsule updates on Dell systems
 Clock*BorderColor:	light blue
 twm
 127.0.0.1	www.paginebiamnche.it
-*Scrollbar.displayList:\
+#ºÿ¸ædJ´
   /etc/X11/app-defaults/XTerm r,
   /srv/www/rails/*/public/** r,
 #    Copyright (C) 2011-2013 Canonical Ltd.
@@ -435,7 +428,6 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 # local modules either before or after the default block, and use
 	# use bytes for expected and deterministic output
      o Declarations for and references to external parameter entities
-# generate the popularity contest data
 /CenturySchL-BoldItal (/usr/share/fonts/type1/gsfonts/c059036l.pfb) ;
 scsi Nikon * Scanner
 XCalc*hp.button16.fromHoriz:		button15
@@ -492,7 +484,7 @@ EnumerateAllDevices=false
 }
   /etc/OpenCL/** r,
 Type=Application
-# and the kernel MPPE module available from the CVS repository also on
+*yó¶ÈXE†q† „Ë"9²ÆK”ğ}äJ['áiæƒ`˜œ7ÌCôF’ú@{Ë=ğüP¼"i
 scsi IBM 2456
 Exec=/usr/libexec/gsd-wacom
 #
@@ -576,7 +568,6 @@ test -f $DAEMON || exit 0
     permission javax.crypto.CryptoPermission *, 128;
 	missingok
 # the following options are local to this scanner
-AQAwDgYDVR0PAQH/BAQDAgGGMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYY
 email_format=text
 #
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
@@ -645,7 +636,6 @@ alias gawkpath_prepend 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") 
   <complexType name="EncryptionPropertiesType">
 run_im default
 roottext=,magenta
-    <alias>
 # value is 80) and nonProxyHosts is a '|' separated list of hostnames which
 # cloud-init. They are read in lexical order. Later files overwrite values in
 # Compose sequences for ISO-8859-5
@@ -753,7 +743,7 @@ compose '\'' 'n' to 'ñ'
 # Compose sequences for GEORGIAN-PS
 [OpenSSH]
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-#    corresponding bits set to one in this mask will not have any
+  # This abstraction grants full system bus access. Consider using the
     missingok
 #    (at your option) any later version.
     echo "updates of cacerts keystore disabled."
@@ -762,7 +752,6 @@ compose '\'' 'n' to 'ñ'
 # vim:syntax=apparmor
   #include <abstractions/opencl-nvidia>
   # do not use ux or PUx here. Use at a minimum ix
-foreground	white;
 
 # Compose sequences for ISO-8859-6
 
@@ -775,7 +764,7 @@ S|²Ç—?=ÒrúÛtK-mŠn“6„]9ö¹FğÕ2şÛ‰O­Š—
 
 Name=GNOME Settings Daemon's housekeeping plugin
 XClock.Clock.majorColor:	rgba:7f/00/00/c0
-[service]
+session optional pam_systemd.so
 # The format of port-name is dependant on your OS version.
   /var/log/lastlog  rwk,
 #!/bin/sh
@@ -796,7 +785,6 @@ XClock.input: false
 
 #  under the terms of the GNU Lesser General Public License as published by
 
-#
   /usr/bin/iconv rm,
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
         </policy>
@@ -878,7 +866,7 @@ By default, Java provides two different sets of cryptographic policy
 account	required			pam_permit.so
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
-{% endif %}
+  echo $0 $@
    [[/usr/local]]
 if [ -x /usr/lib/update-notifier/update-motd-reboot-required ]; then
 #skip-cache
@@ -1067,7 +1055,7 @@ order hosts,bind
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 @include common-password
 # real-time clock. Note that it canâ€™t be used along with the 'rtcfile' directive.
-Type=Application
+
 			<family>FreeSerif</family>
 #port=/dev/tty01
 /usr/bin/wine-preloader
@@ -1123,7 +1111,6 @@ LANG=C.UTF-8
          	    $PYTHON $SHUTDOWN_HELPER --stop-only
     (if (file-exists-p
 	log_warning_msg $@
-  /usr/share/vulkan/{explicit,implicit}_layer.d/{,*.json} r,
 # Compose sequences for ISO-8859-16
 AdminIdentities=unix-group:sudo;unix-group:admin
 rocks_trees = {
@@ -1132,7 +1119,7 @@ rocks_trees = {
 #
 compose '-' '-' to '­'
 em+([0-9])?(_+([0-9]))*
-##########################################################################
+#
 
 SSHD_OPTS=
 /NanumBarunGothic-Regular << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
@@ -1152,5 +1139,16 @@ scsi ACROSS * Scanner * * * 0
 250 250 210		light goldenrod yellow
 #
 compose 'c' 'o' to '©'
+
+
+#
+PICTURES=Pictures
+Enabled=true
+
+scsi Nikon * Scanner
+    # locale: Cannot set LC_SOMETHING to default locale
+
+# #include <abstractions/ubuntu-helpers>
+Name=GNOME Settings Daemon's Wwan plugin
 
 
