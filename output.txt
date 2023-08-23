@@ -7,7 +7,6 @@ auth		sufficient	pam_rootok.so
 #    modify it under the terms of version 2 of the GNU General Public
 	export AWKPATH="$*:$AWKPATH"
 # ~/.bash_logout: executed by bash(1) when login shell exits.
-9mBZutKynYmphD0Mi4XjXn7JNXyuJa8Qutz98/Iyhsjq4LeiL9ayaKMXT+3pKlTm
 143 188 143		DarkSeaGreen
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 # libc default configuration
@@ -49,7 +48,6 @@ RESTART_CHK="NetworkManager.service"
 # <target name>	<source device>		<key file>	<options>
      Define aliasing and other fontconfig settings for
 #    modify it under the terms of version 2 of the GNU General Public
-	output_format=json
 	</match>
 #	franc,ais	fr_FR.ISO-8859-1
 fi
@@ -118,7 +116,6 @@ Vendor-URL: https://www.debian.org/
 session		required	pam_unix.so
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 
-# Scripts in this directory are executed as root when a user log out from
 server {{server}} iburst
 # Step the system clock instead of slewing it if the adjustment is larger than
 #
@@ -126,13 +123,13 @@ server {{server}} iburst
   </match>
     # laptop check, on_ac_power returns:
 üáÃıº¢/4¢¥-üL0À+/¯‰¬‹Å
-# Default is no
+		</rejectfont>
 #ifdef COLOR
 			<family>Artsounk</family> <!-- armenian -->
 
 # dpkg configuration file
 #    modify it under the terms of version 2 of the GNU General Public
-
+            ;;
 # vim:syntax=apparmor
   # Xlibs
 
@@ -173,7 +170,7 @@ password	include		su
 # Your system has been configured with 'manage-resolv-conf' set to true.
 # As a result, cloud-init has written this file with configuration data
 *ispell*look.label:			Look
-                <attribute name="SPProvidedID" type="string" use="optional"/>
+.  " rather than letting it be rendered as "&minus;".
 PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 # should contain commands that should be executed only
 #!/bin/sh
@@ -187,7 +184,7 @@ PnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls
 
 *scrollMenu.vertical.label:		Vertical
         'bug_pattern_url': '/tmp/bugpatterns.xml',
-systemd=false
+		<edit name="family" mode="prepend" binding="strong">
 session		include		runuser
   # Include additions to the abstraction
 
@@ -201,7 +198,6 @@ LABEL=cloudimg-rootfs	/	 ext4	discard,errors=remount-ro	0 1
 
 #%PAM-1.0
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
-#
 
 {% for server in servers -%}
 # These extensions should be added when creating a proxy certificate
@@ -225,7 +221,6 @@ fi
 ONLY_IF_EMPTY = 0
 NAME="plymouth-log"
 10	mrt
-fi
 #    Copyright (C) 2002-2006 Novell/SUSE
 Ubuntu 22.04.2 LTS
 # and users home directories will reside within the directories that
@@ -295,7 +290,6 @@ Title=Vendor
 # symbolic names for networks, see networks(5) for more information
 swedish         sv_SE.ISO-8859-1
 www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
-# Compose sequences for KOI8-U
 
 </fontconfig>
 # settings when they do exist.
@@ -343,7 +337,7 @@ QUIET=0
   monthly
 
 #
-À«∆Lõ6õ∞∏ö∏£ˆ¢£“¢££\ƒFƒkæUæôæÉæ¸ƒÊƒ˘≈„≈Rû<û]∂G∂π∏%ææñáÄáñá^áΩeßeùwáw∫|¶|l]V]Ô{Ÿ{ˇTÈTt}^}b¯aäyty~˘}fÔe¿ÆüÆ¿ÆwÆ¿ÆQÆ¿ÆπÆÆfèfÆfifÆfßfö¨Ñ¨ﬂ≠…≠»i»õ¿Ö¿õ¿d¿≈`Ø`˘h„hPz:zΩ≈ß≈Ω≈É≈≈}Ø}⁄ÜƒÜYoCo[`V`{Ëz{√z{†z{ˇzJj4jÆÖòÖÆÖxÖâ≥s≥:_$_,ÅÅ\FÃå∂åÇÒÅ®“í“@ * IÜ3ÜMá7árö\ö3ªªÖoœ“π“WÇAÇÖtot`©J©`©&©˜ò·ò¥jûjXïBïÍû‘ûΩΩwíaíÔäŸä∂Ü†Ü:ñ$ñÙ“ﬁ“†ëäëz_d_B|,|Íí‘íòôÇôòô^ô"UU'ÃÃ∑è°èOó9ó}√g√Jî4î⁄°ƒ°vú\úvú;úvúúvúoú∞óöóÕ…∑… ä¨ä äáä ädä ä√ähVLVhV)VhVaV}rgrˇbÈbíò|òÄÚN¡.¡N¡¡N¡G¡T~>~d∏N∏%‘‘Õl∑lÓ√ÿ√Ó√∂√—ƒªƒ—ƒíƒ‡∆¡∆‡∆õ∆‡∆w∆‡∆Ÿ∆/}}*qq+{{∑∑NÃ8Ã˙À‰ÀtÉ^ÉhuRuhu/uèhyhÕ{∑{h|R|ó}Å}|˛{YiCiùiái¢ÃåÃ¢ÃgÃ®líl©ˇ®≤ ú øÄ©Äø~©~€à≈à®kíkàÍá±hõh±ÀõÀÀkµkX…B…‘hæh2……2…¯»khUhÌÉ◊ÉçUwU≈ÉØÉ≈ÉâÉgUQU;Ω%ΩØ\ô\ìÜ}ÜìÜ\Üπb£bwcXcwc2cwccwcpcóπÅπ'ÜÜÙsﬁsùîáîN√8√õœÖœ[nEn“¯—“œ—˘n„nv–`–v–5–Ñnnn…–≥–…–ç–Ønôn¸uÊuVV¥xûx`Ò_S«=«,««ø˚æ±põpOπ9πOππ=∑'∑Ãt∂tï””ü¶â¶œ^π^Q};}Ë¬“¬Ë¬≤¬òÅÇÅuÅ_ÅAU0U°	°Ÿö»ön•]•ê™™[˝Zu´d´“ØºØ•oèo)jjkjUjsî]î¢åéåÆçöçŸì∑ìŸìéìŸìgìŸì“ìËd»dËd°dËd·dvéUévé-évéévéoécçDçcççcç˙åcç\ç{åYå{å0å{å	å{åtåÕZ≠ZÕZÜZÕZ∆Z{iei~ëhë~ëHëË§Õ§Ë§´§Ë§ã§Ë§·§Z_D_-WW„¿Õ¿§¯£¢µåµxµbµ¯~Hò2ò^üHüUø?ønâXâ§rérP‘:‘–Ö∫Ö±uõuw¯vA∞+∞n≠f≠n≠C≠8f0f8ffı¿¿Ù`Ô`}øgøÇƒlƒç w 4ww‹á∆áHâ2â∫á§áù∂ò∂Y	Y“≈Õ≈˛d˘d%ùù%ùÌú∂Y†Y3øøù«á«»±≤±æô®ôG°1°çuwuµUüU!vvsX]XndPdnd+dnddndgdD∆.∆D∆∆æÅ®ÅÊ«–«≠˛¨qxXxqx8xqxxqxjx__¶±u±¶±U±¶±ó±9i*i,óóú~Ü~ú~e~>g(gÔÇŸÇ˙ó‰ó©tìt)``Hæ2æ√«≠«9“#“¶…ê…óÚñ…i…ÜÏÖÖÖÖﬂÑ<s&s∂⁄∂∂≤∂Fà0àFààZìDì7ü!ü7ü¸ûí—|—/~~ï°°ZrDrÌa◊a/ûû•¬è¬Ãa∂aPÄ:Äº	ºä∏t∏¢øåø®£ç£®£k£®£°£øπ©π}ÇgÇlWVWÔWŸWØWôW°{ã{≠VóV¬î¨îÊî–îåãvãEß/ßÂâœâf P gÀQÀgÀ0Àm¥W¥õeÖe’≥ø≥ãVuV˙≥‰≥7Y!YF¥0¥F^0^!¥¥J]4]í¥|¥ggdyNy·pÀp€T≈Tƒ∫Æ∫Ïµ÷µÏµ±µvT`TÉ∂m∂îX~X◊∏¡∏#ZZu©p©ïiïv«`«∏˚∑sœ]œÿ ¬ ˙j‰jœ	œnım]ŒGŒ]ŒŒæm®mÔœŸœ∆œ∞œ––——B—,—éñxñéñPñÏ£÷£≥àùà≥àwàÇklk<ë&ëmòWò˜ª·ª˜ªªª&¢
+  /etc/postfix/*.db     rk,
   </match>
 # ------------------------------------------------------------------
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
@@ -433,7 +427,6 @@ account     required    pam_shells.so
                 mask=$(awk '/^UMASK/{gsub("#.*$", "", $2); print $2; exit}' /etc/login.defs)
 [ -z "$SETTINGS" ] || $ETHTOOL --offload "$IFACE" $SETTINGS
 }
-# translations. See tunables/xdg-user-dirs for details. Eg:
 [defaults]
 #backwards compatibility include, actual abstraction moved from php5 to php
 # versions of Debian this has been the default.
@@ -449,7 +442,6 @@ Parent: Debian
 [Configuration]
 # $Id: 99x11-common_start 305 2005-07-03 18:51:43Z dnusinow $
 # x25
-bookworm/sid
   owner @{HOME}/.config/klanguageoverridesrc.?????? rwl -> @{HOME}/.config/#[0-9]*,
 QT_ACCESSIBILITY=1
 " This happens after /etc/vim/vimrc(.local) are loaded, so it will override
@@ -540,7 +532,6 @@ scsi "B&H SCSI"
 À«∆Lõ6õ∞∏ö∏£ˆ¢£“¢££FƒkæUæôæÉæ¸ƒÊƒ˘≈„≈Rû<û]∂G∂π∏%ææñáÄáñá^áΩeßeùwáw∫|¶|l]V]Ô{Ÿ{ˇTÈTt}^}b¯aäyty~˘}fÔe¿ÆüÆ¿ÆwÆ¿ÆQÆ¿ÆπÆÆfèfÆfifÆfßfö¨Ñ¨ﬂ≠…≠»i»õ¿Ö¿õ¿d¿≈`Ø`˘h„hPz:zΩ≈ß≈Ω≈É≈≈}Ø}⁄ÜƒÜYoCo[`V`{Ëz{√z{†z{ˇzJj4jÆÖòÖÆÖxÖâ≥s≥:_$_,ÅÅFÃå∂åÇÒÅ®“í“@ * IÜ3ÜMá7árö3ªªÖoœ“π“WÇAÇÖtot`©J©`©&©˜ò·ò¥jûjXïBïÍû‘ûΩΩwíaíÔäŸä∂Ü†Ü:ñ$ñÙ“ﬁ“†ëäëz_d_B|,|Íí‘íòôÇôòô^ô"UU'ÃÃ∑è°èOó9ó}√g√Jî4î⁄°ƒ°vúvú;úvúúvúoú∞óöóÕ…∑… ä¨ä äáä ädä ä√ähVLVhV)VhVaV}rgrˇbÈbíò|òÄÚN¡.¡N¡¡N¡G¡T~>~d∏N∏%‘‘Õl∑lÓ√ÿ√Ó√∂√—ƒªƒ—ƒíƒ‡∆¡∆‡∆õ∆‡∆w∆‡∆Ÿ∆/}}*qq+{{∑∑NÃ8Ã˙À‰ÀtÉ^ÉhuRuhu/uèhyhÕ{∑{h|R|ó}Å}|˛{YiCiùiái¢ÃåÃ¢ÃgÃ®líl©ˇ®≤ ú øÄ©Äø~©~€à≈à®kíkàÍá±hõh±ÀõÀÀkµkX…B…‘hæh2……2…¯»khUhÌÉ◊ÉçUwU≈ÉØÉ≈ÉâÉgUQU;Ω%ΩØìÜ}ÜìÜπb£bwcXcwc2cwccwcpcóπÅπ'ÜÜÙsﬁsùîáîN√8√õœÖœ[nEn“¯—“œ—˘n„nv–`–v–5–Ñnnn…–≥–…–ç–Ønôn¸uÊuVV¥xûx`Ò_S«=«,««ø˚æ±põpOπ9πOππ=∑'∑Ãt∂tï””ü¶â¶œ^π^Q};}Ë¬“¬Ë¬≤¬òÅÇÅuÅ_ÅAU0U°	°Ÿö»ön•]•ê™™[˝Zu´d´“ØºØ•oèo)jjkjUjsî]î¢åéåÆçöçŸì∑ìŸìéìŸìgìŸì“ìËd»dËd°dËd·dvéUévé-évéévéoécçDçcççcç˙åcç{åYå{å0å{å	å{åtåÕZ≠ZÕZÜZÕZ∆Z{iei~ëhë~ëHëË§Õ§Ë§´§Ë§ã§Ë§·§Z_D_-WW„¿Õ¿§¯£¢µåµxµbµ¯~Hò2ò^üHüUø?ønâXâ§rérP‘:‘–Ö∫Ö±uõuw¯vA∞+∞n≠f≠n≠C≠8f0f8ffı¿¿Ù`Ô`}øgøÇƒlƒç w 4ww‹á∆áHâ2â∫á§áù∂ò∂Y	Y“≈Õ≈˛d˘d%ùù%ùÌú∂Y†Y3øøù«á«»±≤±æô®ôG°1°çuwuµUüU!vvsX]XndPdnd+dnddndgdD∆.∆D∆∆æÅ®ÅÊ«–«≠˛¨qxXxqx8xqxxqxjx__¶±u±¶±U±¶±ó±9i*i,óóú~Ü~ú~e~>g(gÔÇŸÇ˙ó‰ó©tìt)``Hæ2æ√«≠«9“#“¶…ê…óÚñ…i…ÜÏÖÖÖÖﬂÑ<s&s∂⁄∂∂≤∂Fà0àFààZìDì7ü!ü7ü¸ûí—|—/~~ï°°ZrDrÌa◊a/ûû•¬è¬Ãa∂aPÄ:Äº	ºä∏t∏¢øåø®£ç£®£k£®£°£øπ©π}ÇgÇlWVWÔWŸWØWôW°{ã{≠VóV¬î¨îÊî–îåãvãEß/ßÂâœâf P gÀQÀgÀ0Àm¥W¥õeÖe’≥ø≥ãVuV˙≥‰≥7Y!YF¥0¥F^0^!¥¥J]4]í¥|¥ggdyNy·pÀp€T≈Tƒ∫Æ∫Ïµ÷µÏµ±µvT`TÉ∂m∂îX~X◊∏¡∏#ZZu©p©ïiïv«`«∏˚∑sœ]œÿ ¬ ˙j‰jœ	œnım]ŒGŒ]ŒŒæm®mÔœŸœ∆œ∞œ––——B—,—éñxñéñPñÏ£÷£≥àùà≥àwàÇklk<ë&ëmòWò˜ª·ª˜ªªª&¢
 	# excluded sessions. We could actually stop it, it's not
 #
-XClock.Clock.hourColor:		rgba:7f/00/00/c0
 #!/bin/sh
 # DO NOT EDIT OR REMOVE
 These files are normally installed in /usr/share/fontconfig/conf.avail
@@ -550,7 +541,6 @@ These files are normally installed in /usr/share/fontconfig/conf.avail
 {% endfor %}
 # Compose sequences for ISO-8859-11
 # Default is yes
-
 XCalc*.bevel.borderWidth:		1
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? raid[[:digit:]]+: Disk failure on [[:alnum:]]+, disabling device\.$
 
@@ -701,7 +691,7 @@ include if exists <tunables/etc.d>
 {% endif %}
 
 *customization: -color
-// If you don't like it, comment it out.
+    <edit name="hinting">
 #
 # Make sure the locale variables are set to valid values.
 
@@ -773,7 +763,6 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 eval $(/usr/bin/locale-check C.UTF-8)
 #    Copyright (C) 2002-2009 Novell/SUSE
 X-Ubuntu-Gettext-Domain=xdg-user-dirs
-  <match target="pattern">
 }
 
   include if exists <abstractions/dbus-accessibility-strict.d>
@@ -788,7 +777,6 @@ X-Ubuntu-Gettext-Domain=xdg-user-dirs
   # owns on removable media and filesystems.
 
 
-.  " Debian: Strictly, "-" is a hyphen while "-" is a minus sign, and the
 
 auth		include		runuser
 # resolution. For example, if '/usr' is on removable media:
@@ -808,7 +796,6 @@ XCalc*hp.button14.translations: #override<Btn1Down>,<Btn1Up>:cosine()unset()
 # invoked with "-" as the first character of argv[0], and
 };
         cat /run/motd.d/85-fwupd
-
      </choice>
   # readd default if was empty
 	vdo_use_sparse_index=0
@@ -817,7 +804,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsxAnB5FzwGSCDVpFYAdX2n42770Af60ncxRJgq6AxfRZeX2H5q1onDs+ZD7syBTRq7vuEQNnWCQTxU9XbgZx/8QvgfPRWVEWUqSQfThQ/6GAWXH/7NHDxk7MhjKTO+pIlaQEEPEKH/giwKMA9K76dU7W9hk/o2W/F0KtPcCeoaKBuSGQXrrW6hCBDWzb53FIVidnRHNarJNce/36wkSjtyu4hOpF4vBXTgs1XjLYmPkiZNxcGtQliDojmMKRyNlQwvZdVHb+ADWG3yN1gmWGPqNZTGL1XUm54MLQXee3K5v4igppgBOmBHbv8WHNE1euVvysj9ox1JDwhxE/A1JKYKYGQpGLPG2P6H33D2O8jK2j4qFX4f1Ff/isxRP43mbAHk8WQXykshk9tYZRQB1WnkUtX9BAu2vHJAetcAyMIVdKxHb5lWQfFIAm021WMbhISWEn80mb6mw3Ewqt6KBJwYk7VqJAjp0Tcg9u80WNFw6eb0a5wZINOUMqeJRw8yls= root@LAPTOP-5TIN5O4V
 *fileDialog.accept.bottom:		ChainBottom
   # Other executables
-#! /bin/sh
+twm
 Parent: Debian
 *form.floodFill.label:			Flood Fill
 esac
@@ -867,7 +854,6 @@ fi
 fi
 scsi RICOH IS60
   abi <abi/3.0>,
-	<alias>
 # The PAM configuration file for the Shadow `passwd' service
   include <abstractions/consoles>
 #dateext
@@ -877,7 +863,6 @@ scsi RICOH IS60
 //Unattended-Upgrade::Mail "";
 AutomaticReports=false
        missingok
-#Match User anoncvs
 # Specify command line options here. This config file is used
 fi
   # Note that anything that is D-Bus-activated between here and
@@ -897,7 +882,6 @@ alias net-pf-36 off
 
     while(<$plist>) {
        for the PackageKit to work. -->
-# out of the iSCSI session.
 #    exitCode may be incremented.
 # Default-Stop:      0 6
 
@@ -907,7 +891,7 @@ tcp.flag.psh	u8		tcp+13		0x08		3
 DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
   </match>
 	exit 0
-#
+scsi TAMARACK
 alias gawklibpath_prepend 'if (! $?AWKLIBPATH) setenv AWKLIBPATH ""; if ($AWKLIBPATH == "") then; unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWKLIBPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKLIBPATH "\!*"":$AWKLIBPATH"'
         rc=0
 0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255
@@ -976,7 +960,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # If this is an xterm set the title to user@host:dir
   # for gnome 1 applications
 # information about usuable directives.
-the enumerations below be given a documentation annotation, which would contain
+ * and edit it there.  That way, your changes will be kept next time
 
 	# Configuration option local/extra_system_ids.
 # This file contains a list of port numbers between 600 and 1024,
@@ -1022,3 +1006,13 @@ scan-data-timeout 15000
         fi
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 		<family>monospace</family>
+	elif [ -e "/etc/byobu/autolaunch" ]; then
+#!/bin/sh
+#ClientAliveCountMax 3
+#	is a logic list of terminal names that this rule applies to.
+
+deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
+#
+<!-- Begin PGPData -->
+America/Los_Angeles
+#  about not starting rsyncd (you still need to modify inetd's config yourself).
