@@ -6,7 +6,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 # Here is the list of possible values:
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
-#
+# ------------------------------------------------------------------
 # /etc/passwd file.
 # Make sure the locale variables are set to valid values.
 required in any way by the specification).  The information may be useful in
@@ -71,7 +71,7 @@ search updates ubuntu built-in
 
         <policy user="root">
 
-  /var/lib/ctdb/** rwk,
+
 password	include		su
 
   </policy>
@@ -106,7 +106,6 @@ Acquire::Changelogs::AlwaysOnline "true";
        search:
 ## template:jinja
 # $ sudo dpkg-reconfigure apparmor
-# This file is a simple placeholder to keep dpkg from removing this directory
 
 swedish         sv_SE.ISO-8859-1
 [DHCP]
@@ -135,7 +134,7 @@ Bugs: https://bugs.launchpad.net/ubuntu/+filebug
                                      "javax.crypto.spec.RC2ParameterSpec", 128;
 Comment[as]=PulseAudio শব্দ ব্যৱস্থা আৰম্ভ কৰা হ'ব
 }
-*Background:				rgb:c/d/b
+# Device filename to use for scanner access
 # Compose sequences for ISO-8859-8
 # Compose sequences for ARMSCII-8
 # DO NOT EDIT OR REMOVE
@@ -157,8 +156,6 @@ fi
 # This program could be rewritten in C or Golang for faster performance.
    formatter=simpleFormatter
     export CLUTTER_IM_MODULE
-# the terms of the GNU General Public License as published by the Free Software
-LOGLEVEL=low
 #export http_proxy="http://127.0.0.1:3128/"
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 # configuration options for /etc/X11/Xsession
@@ -206,7 +203,6 @@ Type=Application
 {% if nameservers is defined %}
 CATALOG /usr/share/xml/qaml/catalog
 {
-mode="${mode%'}"
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 #
          only share the location if user allows it. -->
@@ -221,7 +217,6 @@ compose ')' '-' to '}'
 
 
            "booktitles.ent">
-# interpreted by the kernel to help with debugging. The kernel will respond
 
 fi
 # See avahi.hosts(5) for more information on this configuration file!
@@ -343,7 +338,7 @@ X-GNOME-Bugzilla-Version=3.36.x
 
 # abstraction for allowing access to graphical browsers in Ubuntu
 
-
+rocks_trees = {
 # install the apport exception handler if available
 
 X-GNOME-Autostart-Notify=true
@@ -384,7 +379,6 @@ DelayedActivation=false
 	# addition to any existing reports. Otherwise, there's only log report
 #
 #!/bin/sh
-mozilla/GTS_Root_R3.crt
 	cache_settings {
 
 <!--  Disable sub-pixel rendering --> 
@@ -492,7 +486,7 @@ NoDisplay=true
   # User files
 <?xml version="1.0"?>
 
-XKBMODEL="pc105"
+! ON button
 DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
 # local modules either before or after the default block, and use
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -560,7 +554,6 @@ if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 Type=Application
 # should not normally be necessary (under Linux at least).
 # and the kernel MPPE module available from the CVS repository also on
-# troubles on misconfigured networks
 scsi IBM 2456
 Exec=/usr/libexec/gsd-wacom
 #
@@ -578,7 +571,6 @@ LANG=C.UTF-8
 # which broke applications in UTF-8 locales.  See:
 driftfile /var/lib/chrony/drift
   <type name="NewCenturySchlbk-BoldItalic" fullname="New Century Schoolbook Bold Italic" family="NewCenturySchlbk" foundry="URW" weight="700" style="italic" stretch="normal" format="type1" metrics="C059-BdIta.afm" glyphs="C059-BdIta.t1"/>
-<delegatePublic publicIdStartString="+//ISBN 82-7640-023//DTD Frequently Asked Questions//EN" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 # Compose sequences for ISO-8859-8
      export XDG_DATA_DIRS
 # For example, if the shipped /etc/apparmor.d/usr.sbin.smbd profile has:
@@ -634,7 +626,7 @@ esac
 #
 	# the local host, which is determined by system_id_source.)
     <accept>
-# udevd is also started in the initrd.  When this file is modified you might
+directory and its contents.
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 <!ENTITY % allAttrs ''>
 fax:x:21:
@@ -642,7 +634,7 @@ fax:x:21:
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
     <allow send_interface="org.debian.apt"/>
 exec tail -n +3 $0
-/usr/lib/x86_64-linux-gnu/libfakeroot
+# CLOUD_IMG: This file was created/modified by the Cloud Image build process
 	# no need for suffix if we have units set
 # X-Interactive:     true
   convenient to refer to a color by name (e.g. white) rather than by hex
@@ -735,7 +727,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
       <string>DejaVu Sans Mono</string>
 #
 run_im default
-# This file should be world readable but not world writable.
 blacklist dv1394
 #    modify it under the terms of version 2 of the GNU General Public
 roottext=,magenta
@@ -792,7 +783,7 @@ if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 
 # See sane-microtek2(5) for a description of the options
     else
-/dev/camera
+
 #    Copyright (C) 2009 Canonical Ltd.
 application/x-texinfo				texinfo texi
 scsi RICOH IS60
@@ -802,7 +793,7 @@ type=file
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 #children_max=
 disable_root: true
-X-GNOME-Bugzilla-Bugzilla=GNOME
+^w{3} [ :0-9]{11} [._[:alnum:]-]+ mdadm([[[:digit:]]+])?: (New|Degraded)Array event detected on md device /dev/[-_./[:alnum:]]+$
 # VM3575  Mustek ScanMagic 4830S
 
 compose '^' 'U' to '�'
@@ -838,7 +829,6 @@ restrict 127.0.0.1
 // grant codeBase "jrt:/com.greetings" {
 # set trimblanks
   <type name="DejaVu-Sans-Bold" fullname="DejaVu Sans Bold" family="DejaVu Sans" style="Normal" stretch="Normal" weight="700" glyphs="DejaVuSans-Bold.ttf"/>
-  </match>
 # Users of this abstraction need to #include the ubuntu-helpers abstraction
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 kbd_mode '-u' < '/dev/tty3' 
@@ -872,7 +862,7 @@ compose '\'' 'n' to '�'
         <hfp:hasFacet name="maxInclusive"/>
   #include <abstractions/opencl-nvidia>
   # do not use ux or PUx here. Use at a minimum ix
-QT_ACCESSIBILITY=1
+foreground	white;
 
 # Compose sequences for ISO-8859-6
 
@@ -954,14 +944,10 @@ Type=Application
       We shouldn't overwrite it with "assign" unconditionally.
 #     then changes to /home will go through to the original device.
         machine_id=$(cat "${etc_dir}/machine-id")
--->
-# ------------------------------------------------------------------
-		Ctrl<Btn5Down>,<Btn5Up>: Page(Forward) \n\
 if [ "$SHLVL" = 1 ]; then
 # if running bash
 # If an executable path appears on any line in any file in
 # Read man sane-mustek_usb for documentation
-  <type name="DejaVu-LGC-Serif-Condensed-Italic" fullname="DejaVu LGC Serif -Condensed Italic" family="DejaVuGC Serif" style="Italic" stretch="SemiCondensed" weight="400" glyphs="DejaVuLGCSerifCondensed-Italic.ttf"/>
 deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # To use a specific scsi device
 #
@@ -1005,7 +991,7 @@ X-GNOME-Autostart-Phase=Initialization
 #
 "\e[1~": beginning-of-line
 By default, Java provides two different sets of cryptographic policy
-# This file is a simple placeholder to keep dpkg from removing this directory
+#option modelname "Prima PagePartner"
   00_*: Reserved for 00_header.
 MODULES="${MODULES_INTERFACES} ${MODULES_FEATURES} ${MODULES_HW} ${MODULES_BASE}"
   <!ATTLIST typemap xmlns CDATA #FIXED ''>
@@ -1035,8 +1021,7 @@ rq0t2YjXglIBHRDiJlOTAR3if37OCDKCcHOOODqYrsN7wNleez+ulkDyP7C7ZTbm
   <policy context="default">
 # javax.sound.sampled.Port
 #   1:			top		# top -> 1:0
-
-
+# deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 account     required    pam_shells.so
 #include <abstractions/ubuntu-browsers.d/kde>
 
@@ -1120,3 +1105,11 @@ quick
 # NIS (man nsswitch) as well as normal /etc/passwd and
 fi
       This configuration is available on the major desktop environments.
+-----BEGIN CERTIFICATE-----
+#mult_sect_io = 32
+# Compose sequences for ISO-8859-5
+    permission javax.crypto.CryptoAllPermission; 
+
+usb 0x04e8 0x3455
+dumpinquiry
+# The default is 1000.
