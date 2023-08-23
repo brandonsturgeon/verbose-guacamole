@@ -14,7 +14,7 @@ NAQ5FnMLkoqfR1RGga3tiP5w13gqDBV7a6MYMdmMfAAZhfRtlDu6SiAmjEmlSkOK
 # /etc/passwd file.
 # ------------------------------------------------------------------
 # Make sure the locale variables are set to valid values.
-driftfile /var/lib/chrony/chrony.drift
+required in any way by the specification).  The information may be useful in
 # for it. Matches are exact only at the moment (no globbing etc.).
   # Checking for PID existence is quite common so add it by default for now
 
@@ -22,7 +22,6 @@ driftfile /var/lib/chrony/chrony.drift
 # Written by Austin Donnelly <and1000@debian.org>
     STARTUP="$SSHAGENT $SSHAGENTARGS ${TMPDIR:+env TMPDIR=$TMPDIR} $STARTUP"
   dbus send
-	[ -z "$AWKLIBPATH" ] && 
 # helpful to be able to examine where in memory the kernel, modules,
 # <target name>	<source device>		<key file>	<options>
      Define aliasing and other fontconfig settings for
@@ -155,7 +154,7 @@ trusted.SGI_DMI_*		skip		# xfs specific
 
 # This file is a simple placeholder to keep dpkg from removing this directory
 
-*Command.highlightThickness:	1
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
 # symbolic names for networks, see networks(5) for more information
 swedish         sv_SE.ISO-8859-1
 XClock.input: false
@@ -228,7 +227,6 @@ fi
 
 # Compose sequences for ISIRI-3342
 # This program could be rewritten in C or Golang for faster performance.
-# Unlock the backend after this many seconds idle.
    formatter=simpleFormatter
 
 # the terms of the GNU General Public License as published by the Free Software
@@ -333,7 +331,6 @@ compose ')' '-' to '}'
                 elif [ -x /usr/share/command-not-found/command-not-found ]; then
 # never load them automatically.
 
-# shellcheck source=/dev/null
 # The following lines are desirable for IPv4 capable hosts
 # Required-Start:    $remote_fs
   )
@@ -349,7 +346,7 @@ deb http://packages.azlux.fr/debian/ buster main
 
 ! cmdratelimit interval -4 burst 16
 # * Be careful about changing the environment since this is sourced
-  <edit name="scalingnotneeded" mode="assign">
+		      $iosched_idle 
 # at bash-completion startup for now, to ease the transition to a
 
 ! XMore.ad
@@ -394,7 +391,7 @@ bookworm/sid
   /usr/bin/shotwell Cxr -> sanitized_helper,
 APT::Archives::MaxAge "30";
 compose 'r' 'o' to '®'
-fi
+185 211 238		SlateGray2
 change_hat {yes
             <extension base="saml:StatementAbstractType">
 #[direct]
@@ -624,14 +621,12 @@ allocation {
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 OnlyShowIn=GNOME;
 #!/bin/sh
-#   2 = handle as i/o error
 #               -> put your type of protocol instead of 'https' : http or https.
 # This file is sourced by Xsession(5), not executed.
-# Uncomment this to allow this host to route packets between interfaces
 # installkernel must call postinst.d with two args, version & image_path
 
 	;;
-#    License published by the Free Software Foundation.
+[fwupd Remote]
 ###          Currently autodiscovery seems to not work
 # Compose sequences for ISO-8859-6
 
@@ -642,7 +637,7 @@ n22AuKKENtgYwulgJH0VQ0lJ5k1CcFuEuZqnXk5CUIC4tStdUS6hgn+vEkaJ5dX8
 		<allow own="uk.org.thekelleys.dnsmasq"/>
     family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
 #  if no sources are feeding it, so this may help when apps use more than the
-
+[unsetenvironment]
 # System-wide GDB initialization file.
 	<!-- Prefer to match color emoji font. -->
     label in4 "+12V"
@@ -664,7 +659,6 @@ bullseye/sid
 
 †Ë«İù»—bdœ-vj!Â",şé©×ZÑ=m';È61©C§Òâ»B“,éUWÕ>ö4÷ùş±è2Õí¥V°,Ô_o°Âõóî±Æc„bƒãÎ´;p)ÒW‚PÄ
 
-# <target name>	<source device>		<key file>	<options>
 # and should contain a list of modules that define tasks to be performed
 #           the currently-running release is not itself an LTS release the
 ; cpu-limit = no
@@ -759,7 +753,7 @@ LANG=C.UTF-8
 NoDisplay=true
   # User files
 #  Default rules for rsyslog.
-auth    optional        pam_gnome_keyring.so
+<?xml version="1.0"?>
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
     monthly
 è_‰D«®È¾EŸÄdùWM¯µ0L’Æ>?†´Ù×„[şšf™6ÆüÜ„	*‡nµ9+İKø¢·|#ï17Wí¤Ö&J÷1ñégÜ~ÖÅ=À¾cC¡Ò5°Øa
@@ -809,7 +803,7 @@ APT::Periodic::AutocleanInterval "0";
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 
 
-# Defaults can be restored by simply deleting this file.
+  if [ -n "${XDG_CONFIG_DIRS##*$DEFAULT_XDG_CONFIG_DIRS/xdg-$DESKTOP_SESSION*}" ]; then
 #
 LANG=C.UTF-8
 		<!-- https://en.wikipedia.org/wiki/Category:Mathematical_OpenType_typefaces -->
@@ -833,7 +827,7 @@ PPP_DISC	8863		# PPP over Ethernet discovery stage
 #    Copyright (C) 2009-2010 Canonical Ltd.
 
 #    modify it under the terms of version 2 of the GNU General Public
-! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
+Name=GNOME Settings Daemon's power plugin
 X-GNOME-Autostart-Notify=true
 # Provides:          gdm3
 /dev/scanner
@@ -854,7 +848,7 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 #    License published by the Free Software Foundation.
 # Uncomment the following if your scanner is connected by USB,
   <delegate decode="ps:alpha" stealth="True" command="&quot;gs&quot; -sstdout=%%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=pngalpha&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;-f%s&quot; &quot;-f%s&quot;"/>
-post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
+  exec /etc/ppp/ipv6-down.local "$@"
 [genie]
 
                                   (symbol-name debian-emacs-flavor)
@@ -875,7 +869,7 @@ usb 0x05d8 0x4010
 # and the kernel MPPE module available from the CVS repository also on
 # troubles on misconfigured networks
 APT::Archives::MaxSize "500";
-# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+  # changehat itself
 IPT_MODULES=""
 		<default><family>emoji</family></default>
 #[debug]
@@ -989,7 +983,7 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 # dpkg-shlibdeps(1) manual page. 
 # The /etc/chatscripts/pap chat script may be modified to change the
 {¶Ç.@ÀBG‡¿yóØXP¿j±˜ó”nÒGí¥/©püµ‡æ§İo¿7eœ„îÿí™Àm×£[ÈM¨Ù–šüŞØG£Ş-£ªÎ£[Âxo”üédÙÏ@CÍ >MEÆu}üèDÎtKZCAù~ûivÎî¦UZ§Ş«+¤@Øÿ¹ØxâÊ†vF”/âöÜÄn1#À´Ç×¨Š·Æ‡×~5üüAóÒ¡…êCÕÇFĞÕ[Æ«ÖÏË¾pn"Xo4>•ùR¤CkÀ^«—'±´1öl:;y>…óYeP+¶]µ°û3WŒbLîMGäœ²ª‘ñdõ=]^X~1&ëò¢ñöøÈÅd•>”½Ô–=SÕ±eÕº¸½Â5¦¯fÿbìOw½>¡ö;§…íÇO1&ûõä\LŸ*Ş–}{ım•æå{#¯)µàR;cÚı	VŞê.¬ÇD°@ªïGÆ›5G‚şûGÉ¶>ış¾¯d»şËÖÚóKIQ{›Ot:E05õnÀ’½	ÏPÕåç´_TVĞŸ…ÑbwwÇÜBm%gg÷¬«ZåÙù³Ùb±^,f³¾\W¯Ø¿ÜPˆşİµ1úç•fÙ“ÔÔîC{F×Õß¶şÛrQYÕ*”½Ô“Úoô­÷¯Mz®sn¶¿şªı¸Ê£i^½ŞT²¯Ÿ ı¬@™Æê?3¶÷kÅ„V<}tÅ­x~;¾,Ğ¡õmÚû!µ?	í›SC,µ¡efÿäºŞ­dÙR°¾ø-´í¯†j$
-# X11xx series
+# +CPIN provides the SIM card PIN
     <accept>
       Most clients may picks up the first value only. so using "append"
 
@@ -1054,6 +1048,21 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
 [publish]
 create_machineid() {
 deb http://archive.ubuntu.com/ubuntu/ focal main restricted
-	"linux-.*";
+m§lj'‹©ZjUJŸ¤m“™Ìb¹üG«¹ôOë¥ß¯7Dòö
 
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
+#    Copyright (C) 2014 Canonical Ltd.
+#
+iDeWIFqaM/S+DXMF3bgqvqRZq1U2RwT2oxapAuaG/0I5JaKKpb3HqMCXfOUxpFPk
+        if [ -x "$STARTUPFILE" ]; then
+# DO NOT EDIT OR REMOVE
+session		optional	pam_keyinit.so force revoke
+# "local" section which contains settings that should not be shared or
+™Y|}Ğ˜fz¤:ğcØ‡ô5eÀÜ:ó™î®åsåı2ß2ÍmrCü?Z†ÇA7ÕV´É¨ù’¾{Åõæ¾¹L[6O·¨ö{ş
+
+  /usr/lib{,32,64}/python{2.[4-7],3.[0-9]}/{site,dist}-packages/ r,
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
+# /etc/shells: valid login shells
+ (message "cmake-data removed but not purged, skipping setup"))
+ApprovedFirmware=
+
