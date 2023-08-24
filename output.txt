@@ -1,7 +1,6 @@
 @include common-account
 
 NoDisplay=true
-JuR8XvOxjqdUexEmAJdQCtxJgLTlI40xSlcmSEIneCamOhA/I/T+nkXFAfV65FKF
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
@@ -35,7 +34,7 @@ audio/x-mpegurl=rhythmbox.desktop
 // Pre-configure all packages with debconf before they are installed.
 #
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+disk [[:digit:]]+,( wo:[[:digit:]]+,)? o:[[:digit:]]+, dev:[[:alnum:]]+$
-#pnm
+/dev/scanner
 
 # to update this file, run dpkg-reconfigure cloud-init
   *)          exit 0 ;;
@@ -92,7 +91,6 @@ scsi "KINPO   " "Vividscan S120  "
 
 X-GNOME-Autostart-Phase=PreDisplayServer
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
-<!DOCTYPE busconfig PUBLIC
 	cache_settings {
 # Autodetect the Canon CanoScan FB630u
 compose ')' '-' to '}'
@@ -143,7 +141,7 @@ compose '`' 'U' to 'Ÿ'
 case $0:$mode in
   gnome-session*)
     fi
-
+# LEO S3
   # User files
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 }
@@ -183,7 +181,6 @@ case "${1}" in
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
       <double>7.5</double>
 server {{server}} iburst
-<?xml version="1.0"?>
 APT::Periodic::Download-Upgradeable-Packages "0";
 
 // grant codeBase "jrt:/com.greetings" {
@@ -339,7 +336,7 @@ log_cfgs:
 # - What to do after sleep-inactive-ac-timeout
 #    Copyright (C) 2010 Canonical Ltd.
 #port=/dev/term/a
-ypupdated	100028	ypupdate
+p|™è“ö)sçıg£·ˆÀ»Û[znpÍDK‘‰6z§VXí€ıÒ€nÂ[«m∑ùıa2Îy~∑îRÏõz,á≈v◊'&íjœÂ‘v‚‰`sΩˇ÷ò«ıBo“RÚ˙∏:ÚÌﬁØÂk£¨nXA¢∏∆¢Œv©ÿ®Yöô ~ÍrjeáK:í|¶πX≠⁄*ÁxøRˆn/ÖM€ï§cUE2'∂ˇ©8‹K)o~WPNë⁄OúêFc|<∫N˚˚E3bH$¿¯J' π-ÒrOJµëÇπÒ¶sãAﬁ^Ô%B´,>QNCb€|ùΩf`>;qC‡”OV∞k@V:	—°EH«]√VÃcˇ=Æ¡`Kú0∏¡wt6EàÏCÖ:ôÓ√ßZÌf§Y˛Üqyû√X5Z |Èä†•˙‰€W©
 NoDisplay=true
     start-stop-daemon --start --pidfile /dev/null \
 #pam_deny.so as appropriate.
@@ -406,7 +403,7 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 ; rlimit-locks = -1
 #DefaultLimitMSGQUEUE=
 #@{XDG_VIDEOS_DIR}+=""
-
+	fi
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
 bullseye/sid
@@ -475,7 +472,6 @@ order hosts,bind
 
 <?xml version="1.0"?>
 
-# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 #/dev/scanner
 # If Hibernate isn't available, PowerOff will be used
 if [ -n "$DESKTOP_SESSION" ]; then
@@ -541,7 +537,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 [Desktop Entry]
 # can attach to any other dumpable process owned by the same user.  In the
 #
-#
 search updates ubuntu built-in
 [network]
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
@@ -601,14 +596,14 @@ printf "
 
 # Compose sequences for KOI8-U
 
-  @{HOME}/** r,
+  @{sys}/bus/pci/devices/ r, # libpocl.so -> libhwlock.so, libnvidia-opencl.so, beignet/libcl.so -> libdrm_intel.so
   @{PROC}/sys/crypto/fips_enabled r,
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 quote-names
 	bootdir=$(dirname "$2")
 		grub-editenv /boot/grub/grubenv unset recordfail
 	didn't include the right instructions in the 'prep' table.
-  <mime type="application/x-krita" description="Krita document" data-type="string" offset="0" magic="\037\213" priority="50" />
+# in login shells. It should be used to set the terminal
 
 brandon:100000:65536
 Kernel system variables configuration files
@@ -623,7 +618,6 @@ compose '>' 'A' to '¬'
 scsi RICOH
 [mysql]
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
-# Scripts in this directory are executed as root when a user log out from
 #    Copyright (C) 2012 Canonical Ltd.
 ¨õê<E{ˆ”;I⁄ıÚ*ªÍ8‡I∞µﬂèlÙ˝ŒùÕ2Õ/h=ôB’¢ìqñu:%1≈ìâº
 };
@@ -676,7 +670,6 @@ encryption=luks1
 
 #!/bin/sh
 /var/log/dpkg.log {
-
 
 usb 0x05da 0x30d4
 
@@ -733,7 +726,6 @@ CRYPTDISKS_ENABLE=Yes
 scsi "B&H SCSI"
 			<family>Noto Serif CJK KR</family>
 #publish-domain=yes
-
 	monthly
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
 allocation {
@@ -784,7 +776,7 @@ PercentageAction=2
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 # Note: the line below cannot end the file (there must be at
-_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+[Time]
 # Canonical runs a service at motd.ubuntu.com, and you
 
      Define aliasing and other fontconfig settings for
@@ -822,7 +814,6 @@ letter
 # in your $ZDOTDIR/.zshenv
 #  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
 scsi "KINPO   " "Vividscan S120  "
-#option 1200cu
                 <!-- check to see if the font is just regular -->
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 
@@ -844,7 +835,6 @@ fi
 #!/bin/sh
 
 #
-# The lvmlocal.conf file is normally expected to contain only the
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
  *   /usr/share/calendar
     -->
@@ -904,7 +894,6 @@ if [ -f "${APPARMOR_FUNCTIONS}" ]; then
 # VM656A  Relisys APOLLO Express 6
 #    Randomly generated passwords are generated by calculating the sha512sum
 hardstatus string "%h%? users: %u%?"
-After making any changes, please run "service procps reload" (or, from
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 # cloud-init. They are read in lexical order. Later files overwrite values in
 #    Copyright (C) 2012 Canonical Ltd.
@@ -932,7 +921,6 @@ Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-se
 #    This program is free software; you can redistribute it and/or
 NoDisplay=true
 mv -f "$REALRESOLVCONF.tmp" "$REALRESOLVCONF"
-# use
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 # vim:syntax=apparmor
 
@@ -953,7 +941,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 // Notify all clients to reload the cache
 This file is part of PulseAudio.
 X-GNOME-HiddenUnderSystemd=true
-</busconfig>
+compose '<' 'C' to '»'
 # in /etc/passwd and ignore centralized (AD, IdM, LDAP, etc.) users.
 øW∏	⁄1≠ÃGtfònÎjı'mJêy∞¬JÄìMÈ(1ÆV¥ÂR‰qñÍg,√©án˝£¿J∞Âºlrù‚íâ∞ymC>¶™S≤÷®XBoë†2QÊ£V,“£ˆ¢÷Êú7…7∞vn®Ÿ8L√©V?i/¿»xÇÌä£'˘'ÀKB©Ä»1™
 {% endfor %}
@@ -1004,7 +992,6 @@ if [ -f "$primeswitch" ]; then
 fs.protected_symlinks = 1
   while :; do
 All executable files in this directory are processed in shell expansion order.
-deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
     create 0664 root utmp
 {% endif -%}
@@ -1060,7 +1047,7 @@ p+([0-9])p+([0-9])?(_+([0-9]))*
 #!/bin/sh
 #! /bin/sh
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
-Exec=nm-applet
+OnlyShowIn=GNOME;
 # or equivalently:
 user-db:user
 compose '\'' 'U' to '⁄'
@@ -1109,7 +1096,7 @@ exit 0
 \340\346\347\353\356\360\361\363\371\375\
 # PulseAudio is distributed in the hope that it will be useful, but
   <!ELEMENT policy EMPTY>
-# Compose sequences for ISO-8859-11
+D6CEAE5D9E047FAF7D797858D229AC991AD44316D1E2A37A21926D763153593A
 Exec=/usr/libexec/gsd-a11y-settings
     apport_python_hook.install()
 
@@ -1183,7 +1170,7 @@ share-videos=true
 
 </Directory>
 #X11UseLocalhost yes
-  # OCSP stapling
+      <fit>
 
        member=Notify,
 [Desktop Entry]
@@ -1211,3 +1198,12 @@ pool {{pool}} iburst
 X-GNOME-Autostart-Notify=true
 # Uncomment and edit /etc/security/access.conf if you need to set complex
 # and files in /etc/cron.d. These files also have username fields,
+[Desktop Entry]
+#2	inr.ruhep
+PK!		Êñ∞Âä†Âù°UTcx6m√”ÆOÁ.‰PKN˛5„PK!	Êñ∞ÈóªUTcx6m√ÀÈªπPK§èej
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es+3ot67hZaz+cI7KRAxQD8n8R9m9Ekf9k/0WZDsfzCaIZokAbO1IYo6mznd3vsbkRgGqz6PPcURRgc1A= open-ssh-ca@cloudflareaccess.org
+# Evaluated by the wrapper script /usr/sbin/usb_modeswitch_dispatcher
+#SpeedMeter=no
+    ;;
+
+/dev/scanner
