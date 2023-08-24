@@ -36,7 +36,6 @@ audio/x-mpegurl=rhythmbox.desktop
 #
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+disk [[:digit:]]+,( wo:[[:digit:]]+,)? o:[[:digit:]]+, dev:[[:alnum:]]+$
 #pnm
-#
 
 # to update this file, run dpkg-reconfigure cloud-init
   *)          exit 0 ;;
@@ -97,7 +96,7 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 	cache_settings {
 # Autodetect the Canon CanoScan FB630u
 compose ')' '-' to '}'
-<busconfig>
+Type=Application
 # above should normally be), it must be mentioned below. Each line may have
 XLoad.input:			false
 aXJtd2FyZSBTZXJ2aWNlIDxzaWduQGZ3dXBkLm9yZz6JATcEEwEIACEFAlWt/98C
@@ -108,7 +107,7 @@ fi
        daily
 # Refer to 'man lvm.conf' for further information including the file layout.
 #user_allow_other
-<?xml version="1.0" encoding="UTF-8"?>
+/dev/scanner
 max_allowed_packet	= 16M
 # iwlwifi will dyamically load either iwldvm or iwlmvm depending on the
   # Openoffice.org
@@ -326,12 +325,11 @@ APT::Install::Post-Invoke-Success {
     </event>
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
-# password.
 # $ systemctl edit --full cron.service
 #    Copyright (C) 2016 Canonical Ltd.
 
 SHELL=/bin/sh
-#    Copyright (C) 2002-2006 Novell/SUSE
+#hpsj5s.conf
 </fontconfig>
   #include <abstractions/nameservice>
 
@@ -341,7 +339,7 @@ log_cfgs:
 # - What to do after sleep-inactive-ac-timeout
 #    Copyright (C) 2010 Canonical Ltd.
 #port=/dev/term/a
-#
+ypupdated	100028	ypupdate
 NoDisplay=true
     start-stop-daemon --start --pidfile /dev/null \
 #pam_deny.so as appropriate.
@@ -390,11 +388,9 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 # should contain commands that should be executed only
   . "$USERXSESSIONRC"
 # particular interface
-FindMntEnt() # mntpnt
 +# then you will need to either
 ‹Fˆ¢Œπng;ÎˆãgrÍ‰íŸØ``Ö ∞⁄iË€Œd<Œ∑g∫Wå«≠H+ÀÈZ–≥‰b…ŸzmG¿E:öiè,ﬁl
       We shouldn't overwrite it with "assign" unconditionally.
-
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 # with cloud-init during boot causing issues with host key generation.  This
         <Key>space:     next-page()
@@ -434,7 +430,6 @@ fi
 # xserver-xorg-legacy package using values from the debconf database.
   network raw,
 /usr/local/lib/x86_64-linux-gnu
-# Should-Stop:       $syslog
 WantedBy=multi-user.target
 #
 
@@ -444,7 +439,6 @@ WantedBy=multi-user.target
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 max_allowed_packet	= 16M
-# Global Order: zshenv, zprofile, zshrc, zlogin
 ###############################################################################
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 /usr/lib/update-notifier/package-data-downloader
@@ -466,7 +460,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 
 127.0.0.1	noadware.ws
   owner @{HOME}/.config/fontconfig/**   r,
-	exit 0
       </xs:simpleType>
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
 # Instance parent directories must exist for the polyinstantiation
@@ -515,7 +508,7 @@ exec_prefix="/usr"
 # $ systemctl edit --full cron.service
 compose '\'' '\'' to '¥'
 
-# video device access
+@include common-session-noninteractive
 #
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 ## invoking user was bestowed with some inheritable capabilities by a
@@ -553,7 +546,6 @@ search updates ubuntu built-in
 [network]
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 auth		sufficient	pam_rootok.so
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 -dcevm KNOWN
 scsi TAMARACK
 # i.e. for Plustek (0x07B3) U1212 (0x0001)
@@ -635,7 +627,6 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 #    Copyright (C) 2012 Canonical Ltd.
 ¨õê<E{ˆ”;I⁄ıÚ*ªÍ8‡I∞µﬂèlÙ˝ŒùÕ2Õ/h=ôB’¢ìqñu:%1≈ìâº
 };
-#!/bin/sh
 
       <family>DejaVu LGC Serif</family>
 /dev/scanner
@@ -892,7 +883,7 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 
 	# If multiple path names exist for a block device, and LVM needs to
         </policy>
-usb 0x04e8 0x340f
+*quit.right: 			ChainLeft
 
 
 $x-display-manager gdm3
@@ -908,7 +899,6 @@ scsi AdLib * Scanner
 expand-check=0
 # Compose sequences for GEORGIAN-ACADEMY
 
-# Ignore bogus ICMP errors
 		</test>
 if [ -f "${APPARMOR_FUNCTIONS}" ]; then
 # VM656A  Relisys APOLLO Express 6
@@ -998,11 +988,11 @@ FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
 #RUN_DAILY=true
     </levels>
     xhost +si:localuser:`id -un` > /dev/null
-#       option bw 127
+  /usr/bin/libreoffice Cxr -> sanitized_helper,
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
     <family>Arev Sans</family>
-segments	0,1,0,-2,-1,1,-1,-2
+APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 
 brandon:x:1000:1000:,,,:/home/brandon:/usr/bin/zsh
 # The following lines are desirable for IPv4 capable hosts
@@ -1141,7 +1131,6 @@ $x-display-manager gdm3
 <!-- Delicious 'heavy' variant says its Medium weight -->
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 
-    </accept>
   /usr/include/X11/**             r,
 
 # IPMI_OS_Boot_Base_OS_Hypervisor_Installation_Started   Nominal
@@ -1178,7 +1167,7 @@ _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ
 XLogo*background: rgb:d2/22/32
 ### List of USB device IDs
 
-#parport0
+  owner @{HOME}/.local/share/RecentDocuments/*.lock rwk,
 
 scsi ABATON
     missingok
@@ -1207,3 +1196,18 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
 APT::Archives::MinAge "2";
 <!--
 #pio 0x3BC
+X-GNOME-Bugzilla-Bugzilla=GNOME
+# when leaving the console clear the screen to increase privacy
+
+/URWPalladioL-Ital (/usr/share/fonts/type1/gsfonts/p052023l.pfb) ;
+# Compose sequences for GEORGIAN-ACADEMY
+
+d /run/screen 1777 root utmp
+
+
+{c∏O¨	˘≥xï€vÒË}iYâÙ&|4ê˝º¯≈ÙCÀ°8q˝ vbªæ2Uó&∏Í|MO√˛ÆπDp"qeÂÅ«®ór¥Ü0gªfjÆk√wLiWo6ÂØ`…>6hV‰}6¶ı^Ê,¶∂=6~≈êÚÍ©]«/Íˇõ†(
+pool {{pool}} iburst
+# Define LSB log_* functions.
+X-GNOME-Autostart-Notify=true
+# Uncomment and edit /etc/security/access.conf if you need to set complex
+# and files in /etc/cron.d. These files also have username fields,
