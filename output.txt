@@ -187,11 +187,10 @@ BatteryThreshold=10
 			<family>STIX Two Math</family> <!-- AMS -->
 #
 set -e
-Categories=System;Monitor;GTK;
 # For explanations see
 networkd_dispatcher_args="--run-startup-triggers"
 /usr/local/lib
-# minclass = 0
+#	        for nal in $nalinfo; do
 #
 # you can temporarily override this with
 
@@ -221,7 +220,7 @@ usb 0x03f0 0x0105
 			<family>Arial Unicode</family>
 /dev/scanner
 #
-
+    <allow own="com.ubuntu.SoftwareProperties"/>
 # Users of this abstraction need to #include the ubuntu-helpers abstraction
 PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_lts_contract.py
 ÓZ¸,ã°Ë¼*m66{ÿlÚ5¡
@@ -235,7 +234,6 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
 #    modify it under the terms of version 2 of the GNU General Public
 #
 # the shim loader is required to chainload the fwupd EFI binary unless
-gtk-theme-name = Yaru
 
 
 {% for server in servers -%}# servers
@@ -273,7 +271,6 @@ DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
 #
     interface=org.freedesktop.login1.Manager
 # Insert here your local magic data. Format is described in magic(5).
-  </policy>
 
 ## number in the range 0-3. 
 type=file
@@ -348,7 +345,7 @@ max_allowed_packet	= 16M
 	done
 /HeiseiMin-W3 /Japanese-Mincho-Regular ;
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
-# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+  <type name="Symbol" fullname="Symbol" family="Symbol" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/s050000l.afm" glyphs="/usr/share/fonts/type1/gsfonts/s050000l.pfb" version="0.1" encoding="AdobeCustom"/>
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
 # Instance parent directories must exist for the polyinstantiation
 #    modify it under the terms of version 2 of the GNU General Public
@@ -462,12 +459,12 @@ quote-names
 		grub-editenv /boot/grub/grubenv unset recordfail
 #
 #canon.conf
-brandon:100000:65536
+# Compose sequences for KOI8-R
 Kernel system variables configuration files
 # Compose sequences for GEORGIAN-PS
 	</alias>
 system-db:ibus
-scsi RICOH
+	  (let ((coding-system-for-read 'raw-text)) ;; Read these as data streams
 [mysql]
 #    Copyright (C) 2012 Canonical Ltd.
 };
@@ -515,12 +512,11 @@ usb 0x05da 0x30d4
 
 *buttonbox.displayList:			foreground gray70;line 0,-1,-1,-1;foreground gray95;line 0,0,-1,0
 the exact distribution terms for each program are described in the
-^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+Operation continuing on [[:digit:]]+ devices?$
+			<family>Nachlieli</family> <!-- hebrew -->
 #
 #    modify it under the terms of version 2 of the GNU General Public
 TryExec=im-launch
 deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/updates{% else %}-security{% endif %} main
-# IPMI_Threshold_Sensor_Upper_Non_Recoverable_Going_Low    Critical Critical
 
 Name=GNOME Settings Daemon's Wwan plugin
 
@@ -594,7 +590,7 @@ eval $(/usr/bin/locale-check C.UTF-8)
 # This file is sourced by Xsession(5), not executed.
 ! $XConsortium: Xmessage.ad,v 1.3 94/07/26 20:23:17 gildea Exp $
     ;; This might result in a call to debian-ispell, so do this only if
-			"${BACKGROUND_CACHE}.png" "${BACKGROUND_CACHE}.tga"
+Name=Secret Storage Service
 twm
 		wpa_cli_do "$IF_WPA_SSID" ascii 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
@@ -609,7 +605,7 @@ datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltClo
   <type name="Bookman-DemiItalic" fullname="Bookman DemiBold Italic" family="Bookman" foundry="URW" weight="600" style="italic" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/b018035l.afm" glyphs="/usr/share/fonts/type1/gsfonts/b018035l.pfb"/>
 letter
 	        # currently no settings for "smq" policy
-!%),/aspartial-match-conditionidconf-preserve-name-prefixes/desktop/ibus/engine/pinyin/desktop/ibus/engine/bopomofo/desktop/ibus/engine/hangul:Vasdisable-unconditionalasdesktop/triggerControl+spaceZenkaku_HankakuAlt+KanjiAlt+graveHangulAlt+Release+Alt_R(29Kas/,auto-hide-timeout'iprev-engineas
+#
   /srv/www/htdocs/ r,
 #
         Ctrl<Key>B:     previous-page()
@@ -632,7 +628,7 @@ fi
 
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
- *   /usr/share/calendar
+    is_azure
 # which file should be used as the configuration file for rsync.
 ip.hdrlen	u8		net+0		0x0F
 #
@@ -814,7 +810,7 @@ else
        %all-titles;
 	<alias>
 # reserved values
-#hwtimestamp *
+#    This program is free software; you can redistribute it and/or
 case "$1" in
 /Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 ZV3nXxswKPrcsqQ+KP9iUwq3V2oio46bvHiMMoZSGCaTv4yiKOliFOMYr9NAOSTZ
@@ -873,7 +869,7 @@ SáÊó:]C+¼İ˜·MÌÖGşp‚ô£ã×?ÒÇM”±àã@‡Òü³w>‚­ŸÂÏM?ÛƒX“YŠ®Ke>(pë9l‚ŒÃnÏÎŒ
 _§”‹¨Ï…PC„xWçyÏÏxñ<î%|«ÜK­6«o2ºnä‹Ÿ¶Â_ãöÀ—áÎäBâ¿Bèğ<ÏÃğ*ÜVöÂA|½æÂ}|áAØÁ~x„§àyx^Ó¨ÁË„^Wá5q0o^ÆÉ›Èß‚oÃwà{ğ¼ß‡wà‡ğ3øü|„ÿƒNÊ˜½°Îƒóa¶ÂuĞ„gé‘w!G+æÀ\ÈÃ<è„UĞwCbÚëÔ/9íü6òi8Úa&ä`ZƒàHXıp"”aªpÔàd¨Ã°Î‚³a3œÀEğ1ø8\×Àµ0®¾GİçÀ‘ğ¼oÃ;"~:Ì€C óÔš]P	GÁñ°Î…Ká£p9\¥æ,s7	3àè„ùPMp&ŒÀV¸şş>	ïƒ Œi…Ã`6X=°…%°VÂ	P‚50káTØgÂ6¸v€P=¤áP˜G@æÀ‘p,†£á8–ÀRXÇÁJèƒUĞ'@	N„Õp2œkáTX§Áz†Óá8¶À¹pœ»à&ø$³çSğpü%|ş
 .\" Put any local modifications to doc.tmac here.
 # @{PROC} is the location where procfs is mounted.
-      . $i
+</catalog>
 
 # javax.sound.sampled.Clip
 letter
@@ -911,7 +907,6 @@ SyslogIdentifier=lxd.daemon
 {c¸O¬	ù³x•Ûvñè}iY‰ô&|4ı¼øÅôCË¡8qıÊvb»¾2U—&¸ê|MOÃş®¹Dp"qeåÇ¨—r´†0g»fj®kÃwLiWo6å¯`É>6hVä}6¦õ^æ,¦¶=6~Åòê©]Ç/êÿ› (
 pool {{pool}} iburst
 # Define LSB log_* functions.
-    <family>Bitstream Vera Serif</family>
 # Uncomment and edit /etc/security/access.conf if you need to set complex
 }
 #2	inr.ruhep
@@ -1020,7 +1015,6 @@ Name=GNOME Settings Daemon's power plugin
 NoDisplay=true
 libXvMC.so.1
  </annotation>
-  # PDFs
 #
       may simply works to avoid it.
 <!DOCTYPE busconfig PUBLIC
@@ -1029,7 +1023,6 @@ LANG=C.UTF-8
   ;;
 ÓZ¸,ã°Ë¼*m66{ÿlÚ5¡
 X-GNOME-HiddenUnderSystemd=true
-                <test name="weight" compare="less_eq">
   Permission to use, copy, modify, distribute, and sell this software and its
 
 }
@@ -1080,7 +1073,6 @@ compose '/' '/' to '\\'
 # Disables core dumps on fatal errors; they're enabled by default.
 56f12ada18a3412ab1f9dcd69450be95
   #include <abstractions/mdns>
-
 
 3946901F46B0071E90D78279E82FABABCA177231A704BE72C5B0E8918566EA66
 òÆ…Z¾•[¤ÉiCçöáÌ˜Ö:ÈnGIùĞ×-¿Ğˆµé~Ö­ÉôtõVh×Ê`Q¬Ïˆ [ë£ÿğ´÷ø-É»ğô¡(GhÿM©¿¶kœÅ"·ß\Ÿ›– Ø$-Û³È#îjuıtßÑövÄ²b»–¥2¥Úïàµ€CsX¢ø&ÕÖÉKVÑ~Ñêò#‡QØz½İG¨¯'ê¿ma˜ãœÇxĞMS}á–yqCbtYş?ğİ(Æ®Ô+¯fhÔz¢z¸÷g¾ë‰O­’
@@ -1160,7 +1152,6 @@ SocketMode=0660
 #
     </test>
 main
-  # System devices
 # All files with the '.cfg' extension in this directory will be read by
 
 *form.flipHoriz.fromVert: 		move
@@ -1200,7 +1191,7 @@ LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 
 case "$CRYPTDISKS_ENABLE" in
 LazyUnmount=yes
-kde4/klickety.desktop
+#
 
 
 	if set_background_image "${background}"; then
@@ -1216,3 +1207,16 @@ $WorkDirectory /var/spool/rsyslog
 
               <Filename>gconf-editor.desktop</Filename>
 };
+XLoad.input:			false
+  # per-user settings and dictionaries
+  update_status_timer: 43200
+# This file is sourced by Xsession(5), not executed.
+# current user of the confined application.
+# vim:syntax=apparmor
+    // There is no restriction to any algorithms.
+139 137 137		snow4
+enabled=1
+# is reset to the secure default each time the sysctl values are loaded.
+#
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
+†Ã2ÎÉyËf÷RáCdÿµ!£j[~=àgá%1ø_‡üT0tË`(ş†+¸œ$Ü ñ™Ê<û`CFÕ¶üzÀÏÂKbğ¿ù©`8*_ ˆHíÍ+Ø:¿'äÙ6Ô0Áş:ğgñ#1ü}ÕşÔ`ôÊÁ¸NW,ÇpÒ ño`ñì_6dTmÁ¯ü,¼$?ğëŸ
