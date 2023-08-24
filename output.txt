@@ -65,7 +65,7 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 # The next option will send email to the named person when chronyd has
 Local  - Applications should save enough information to
 
-# Compose sequences for TIS-620
+	fW€‡ÃÜªdÿˇVãr™ﬁ™¯Ï¬¯d˙ï÷1—Z6Uûµùˇ4nJ‰’KH›Ù˚c”Nˆ{$Ö/ä—◊bÂ—E${]¶'pìÌΩï¨Ø´>≤ü2Àúë≠sê•˛∂IpÂzÂXG„ÖÕóƒU™˝ÿÔµÜı®˝∑ﬁÈ]mÅâπÊEùéœw#%√ß“#2Ó9ı,“E4~≤`ä*ö7))æ@π©ÓhåM&3Á˜¶Ö($N@üö'%ΩØ€„"Ê≠yÙ,7Ì2ï©∏MÌºãîºÇ1îÒ¢iàçÔ™Éï›qÉ≈ï†´ÕÆ¸E√˘”¿35I±±¶˜Û‚ó‚HÍ^¨>¸LÜ÷a˛‰ÇˇÕt@ÚUë„»(¬)x¶QáÜ$óe¯¿E/u«buP†÷Œæ›c éi2+_–ûÿ°[?éqÎ‘ËâO)Ö˚≤Ë¬
 fi
        daily
 # Refer to 'man lvm.conf' for further information including the file layout.
@@ -108,7 +108,6 @@ trusted.SGI_MAC_FILE		skip		# xfs specific
     permission java.util.PropertyPermission "path.separator", "read";
 #
 # run "systemd-resolve --status" to see details about the actual nameservers.
-
 #!/bin/sh
 v¡ﬂ√]p7|ˆ¬◊‡∏Óá‡Aÿ¡√(<è√$<œ¡ãºØ¿˚a÷¶‡ˇÎ£Px»)
 	<alias>
@@ -208,7 +207,6 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
     if [ $? -ne 0 ]; then
 
 
-  </match>
 #   part of the cracklib-runtime package and should not be modified.
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
 usb 0x08f0 0x0002
@@ -221,7 +219,6 @@ usb "Panasonic KV-S1025C"
 scsi "K.M.E.  " "KV-SS25A        "
 //Unattended-Upgrade::MinimalSteps "true";
 SHELL=/bin/sh
-</fontconfig>
 
 	</alias>
 # - What to do after sleep-inactive-ac-timeout
@@ -295,7 +292,7 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
 max_allowed_packet	= 16M
 ###############################################################################
 #
-#
+[service]
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 # local
   around 75.
@@ -337,12 +334,10 @@ auth	required	pam_nologin.so
 @include common-session-noninteractive
 #
 
-  /usr/bin/emacs-snapshot-gtk Cxr -> sanitized_helper,
 #   https://bugs.debian.org/858528
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
 
 
-# cloud-init. They are read in lexical order. Later files overwrite values in
 <!ENTITY % maxLength "%p;maxLength">
 
 #    modify it under the terms of version 2 of the GNU General Public
@@ -365,7 +360,6 @@ auth		sufficient	pam_rootok.so
 # i.e. for Plustek (0x07B3) U1212 (0x0001)
 
 # sleep-inactive-battery-type='suspend'
-# Allow access after n seconds to root account after the
       This configuration is available on the major desktop environments.
        path="/com/canonical/indicator/messages/*",
 }
@@ -395,7 +389,7 @@ APT::Periodic::Update-Package-Lists "1";
 /lib/i386-linux-gnu
 # The possible arguments are:
 #
-  /run/saslauthd/mux rw,
+
 "
 #
 # Compose sequences for KOI8-U
@@ -669,7 +663,7 @@ All executable files in this directory are processed in shell expansion order.
   # Text editors (It's All Text [https://addons.mozilla.org/en-US/firefox/addon/4125])
 <fontconfig>
 ÿÊ†ˇb/ç‰ÀÜ‰¥(€ØUmáUöhg:6FYŒπ˝Ïˇj∫ﬁˇ
-    <allow send_interface="org.bluez.LEAdvertisement1"/>
+XKBLAYOUT="us"
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 @include common-session-noninteractive 
 #
@@ -736,7 +730,6 @@ fi
 @{PROC}/@{tid}/attr/{current,exec} w,
 exit 0
 # PulseAudio is distributed in the hope that it will be useful, but
-kodak
   owner @{HOME}/.config/QtProject/qtlogging.ini r,
 # Compose sequences for ISO-8859-8
 
@@ -755,7 +748,7 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 # IPMI_OS_Boot_Base_OS_Hypervisor_Installation_Started   Nominal
 
 
-[ -r "$userresources" ] && xrdb -merge "$userresources"
+noauth
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 {
@@ -775,7 +768,7 @@ _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ
 </catalog>
 
 # javax.sound.sampled.Clip
-letter
+/dev/scanner
 #    This program is free software; you can redistribute it and/or
 XLogo*background: rgb:d2/22/32
 
@@ -828,7 +821,6 @@ letter
 [apt]
 SHELL=/bin/sh
 /dev/scanner
-   home..[[/.luarocks]],
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # javax.sound.midi.Receiver
 #ListenAddress ::
@@ -862,7 +854,7 @@ security.overridePropertiesFile=true
 0	default
 	# save/restore it
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-# Compose sequences for TIS-620
+
 libXvMC.so.1
       <family>DejaVu LGC Serif</family>
 # See Xsession.options(5) for an explanation of the available options.
@@ -992,9 +984,8 @@ Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_C
 
   /dev/tty     rw,
 /dev/scanner
-#
 type=file
-  <type name="DejaVu-Sans-Condensed-Bold" fullname="DejaVu Sans Condensed Bold" family="DejaVu Sans" style="Normal" stretch="SemiCondensed" weight="700" glyphs="DejaVuSansCondensed-Bold.ttf"/>
+The `cloud-init clean` operation is typically performed by image creators
 # through the PPP network interface.
 !O≠éh	
 /usr/bin/wine-preloader
@@ -1011,7 +1002,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 # vulnerabilities.  (Added in kernel 2.6.23.)
 
 0xC0	CS6
-CATALOG /usr/share/sgml/dtd/xml-core/catalog
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: [origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"] start$
     </complexType>
 205 133  63		peru
@@ -1029,7 +1019,6 @@ SocketMode=0660
 main
 # All files with the '.cfg' extension in this directory will be read by
 
-    @{PROC}/@{pid}/net/if_inet6 r,
 session    optional   pam_motd.so motd=/run/motd.dynamic
 /HelveticaNarrow-Oblique /NimbusSanL-ReguCondItal ;
 #  e.g. the empty string or 0 or whatever. To disable it should not
@@ -1057,13 +1046,12 @@ fs.protected_symlinks = 1
     <allow own="net.hadess.SwitcherooControl"/>
 # 2001::81:1 test.local
 #           currently-running release.
-\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
+speed=115200
 FZÑñæ—˙ ( B r Å ¶ º Ë ˘ !!*!5!H!S!t!!û!©!ª!ƒ!’!ﬁ!˝!"")"R"i"ñ"≥"Ê"#8#W#å#Ø#Ë#$<$]$î$¥$Í$%,%<%b%p%î%£%»%ﬁ%
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 # vim:set ai et sts=2 sw=2 tw=80:
 case "$CRYPTDISKS_ENABLE" in
 LazyUnmount=yes
-
 
 
 	if set_background_image "${background}"; then
@@ -1170,7 +1158,7 @@ scsi ABATON
 #    modify it under the terms of version 2 of the GNU General Public
   owner @{HOME}/.local/share/RecentDocuments/#[0-9]* rw,
 # Compose sequences for ISO-8859-16
-net.ipv6.conf.default.use_tempaddr = 2
+# Compose sequences for ISO-8859-6
 # ------------------------------------------------------------------
 #
 #Enable=true
@@ -1222,6 +1210,18 @@ WAIT=5
 /NanumBarunGothic-Bold << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
 # Compose sequences for CP1256
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-# You do need to talk to an NTP server or two (or three).
+X-GNOME-Autostart-Phase=PreDisplayServer
 # The following is a space-separated list of where additional user home
 AUFS_SUPER_MAGIC=1635083891
+
+<!-- Copyright 1992-2000 HaL Computer Systems, Inc.,
+session		include		runuser
+compose '/' '<' to '\\'
+    monthly
+#
+  # User files
+commands scan this directory processing all files that end in '.conf'.
+LANG=C.UTF-8
+   [[/usr/local]]
+ "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
+
