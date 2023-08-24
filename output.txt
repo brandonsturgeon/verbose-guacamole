@@ -30,7 +30,6 @@ audio/x-mpegurl=rhythmbox.desktop
 
 		mkdir -p /boot/grub
 
-# Configuration file for the hp4200 backend
     <event name="jdk.InitialSystemProperty">
 #
     minsize 1M
@@ -170,7 +169,7 @@ fi
         </policy>
         done
   /dev/xconsole                 rw,
-# Welcome to the chrony configuration file. See chrony.conf(5) for more
+[Desktop Entry]
   /usr/share/p11-kit/modules/  r,
 [Distro]
 # NETID_AUTHORITATIVE
@@ -218,8 +217,6 @@ SHELL=/bin/sh
 # - What to do after sleep-inactive-ac-timeout
 #    Copyright (C) 2010 Canonical Ltd.
 #    License published by the Free Software Foundation.
-p|™è“ö)sçıg£·ˆÀ»Û[znpÍDK‘‰6z§VXí€ıÒ€nÂ[«m∑ùıa2Îy~∑îRÏõz,á≈v◊'&íjœÂ‘v‚‰`sΩˇ÷ò«ıBo“RÚ˙∏:ÚÌﬁØÂk£¨nXA¢∏∆¢Œv©ÿ®Yöô ~ÍrjeáK:í|¶πX≠⁄*ÁxøRˆn/ÖM€ï§cUE2'∂ˇ©8‹K)o~WPNë⁄OúêFc|<∫N˚˚E3bH$¿¯J' π-ÒrOJµëÇπÒ¶sãAﬁ^Ô%B´,>QNCb€|ùΩf`>;qC‡”OV∞k@V:	—°EH«]√VÃcˇ=Æ¡`Kú0∏¡wt6EàÏCÖ:ôÓ√ßZÌf§Y˛Üqyû√X5Z |Èä†•˙‰€W©
-
   file. For example, the PNG coder module not only supports the PNG image
 .  " signs in manual pages, so map it to plain "-" for HTML/XHTML output
 #   distributed under the License is distributed on an "AS IS" BASIS,
@@ -230,7 +227,7 @@ order hosts,bind
 DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
   the ImageMagick option
 #
-    interface=org.freedesktop.login1.Manager
+
 # Insert here your local magic data. Format is described in magic(5).
 ## number in the range 0-3. 
 
@@ -405,7 +402,6 @@ system-db:ibus
 @include common-session-noninteractive
 APT::Archives::MinAge "2";
 ManagerResetTimeout=1800
-      bus=session
     /usr/lib/llvm-[0-9]*.[0-9]*/bin/clang mr,
   <match target="pattern">
   @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
@@ -473,7 +469,6 @@ GRUB_DEFAULT=0
 #
     <allow send_interface="org.freedesktop.DBus.Properties"/>
 # /etc/passwd file.
-
 # [If you don't know about libcap, the sources for it are here:
 #GRUB_DISABLE_LINUX_UUID=true
 Interaction styles
@@ -489,7 +484,7 @@ DESKTOP-OFJN9OT
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # where dovecot is allowed to store and read mails
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
-	        Shift<Btn5Down>,<Btn5Up>: Page(Line,1) \n\
+Name=GNOME Settings Daemon's xsettings plugin
 #
 eval $(/usr/bin/locale-check C.UTF-8)
 # escpecially if they contain "#" chars...
@@ -521,7 +516,6 @@ letter
   /usr/bin/gxmms Cxr -> sanitized_helper,
 
 // When Apt's cache is updated (i.e. apt-cache update)
-kernel.printk = 4 4 1 7
 ## security team.
 compose '<' '<' to '´'
 
@@ -531,7 +525,7 @@ XLogo*foreground: rgb:d7/d7/d7
 };
 fi
 
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
+#  This file is part of systemd.
     is_azure
 # which file should be used as the configuration file for rsync.
 ip.hdrlen	u8		net+0		0x0F
@@ -588,6 +582,7 @@ NoDisplay=true
 fi
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 # vim:syntax=apparmor
+        <Key>F:         next-page()
 
     $_local ufile="$HOME/.cloud-warnings.skip" sfile="$warndir/.skip"
 
@@ -737,7 +732,7 @@ LANG=C.UTF-8
 # We're probably bringing the interface down.
 S· éÛ:]C+º›ò∑MÃ÷G˛pÇÙ£„◊?é“«ùMî±‡„@á“¸≥w>Ç≠ü¬œçèM?€ÉXèìYäÆKe>(pÎ9lÇå√nœŒå,<ÕôzV@q-N˙„”ó˛‘x‘ì÷`î~ju©‰—]bz1z¸'”N} ∆a?t®Q}‹ÕÔ”P[ƒˇÑ!çøˆÿà=∫›
 _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ¬}|·Aÿè¡~xûÑß‡yx^”®¡ÀÑ^ÅW·5q0o^∆…õ»ﬂÇo√w‡{ºﬂáw‡á3¯¸|ÑˇÉN òΩ∞ŒÉÛa∂¬u–ÑgÈëw!G+Ê¿\»√<ËÑU–wCb⁄Î‘/9Ì¸6Úi8⁄a&‰`éZÉ‡HX˝p"îa™p‘‡d®√∞ŒÇ≥a3ú¿E1¯8\◊¿µ0ÆæG›Á¿ëºo√;ê"~:ÃÄC Û‘ö]P	G¡Ò∞ŒÖK·£p9\•Ê,s7	3‡ËÑ˘PÅMp&å¿V∏˛˛>	ÔÉ†åiêÖ√`6X=∞éÖ%∞V¬	PÇ50k·Tÿg¬6∏vÄP=§·PòG@Ê¿ëp,Ü£·8ñ¿RX«¡JËÉU–'@	NÑ’p2úk·TXß¡zÜ”·8∂¿πpúª‡&¯$≥ÁSp¸%|˛
-.\" Put any local modifications to doc.tmac here.
+
 # @{PROC} is the location where procfs is mounted.
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 
@@ -791,7 +786,7 @@ XCalc*bevel.screen.INV.vertDistance:		4
 
 OK		ATD*99#
 letter
-[apt]
+
 SHELL=/bin/sh
 /dev/scanner
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
@@ -809,7 +804,7 @@ application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
 fi
 
        value is a keyword indicating what whitespace processing
-
+  <mime type="image/x-kodak-dcr" acronym="DCR" description="Digital Camera Raw" priority="100" pattern="*.dcr" />
 .  \" command-line options.  Uncomment this if you want to make sure that
 security.overridePropertiesFile=true
 
@@ -855,7 +850,7 @@ Description=Mount unit for snapd, revision 8542
 allocation {
 URI_LTS = https://changelogs.ubuntu.com/meta-release-lts
     exit 0
-# (Replaces the use of /etc/limits in old login)
+#InhibitDelayMaxSec=5
 
 # All the tunables definitions that should be available to every profile
 # vim:syntax=apparmor
@@ -889,7 +884,7 @@ application/set-payment-initiation
 #  Sets real-time priority for the mixing thread. Not all drivers may use this
 fi
 overlayroot_cfgdisk=LABEL=OROOTCFG
-*fileMenu.setResolution.label:	Set Screen Resolution
+# VM3575  Mustek ScanMagic 4830S
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 # called by RPC services. This mostly solves the problem, that a
 #   For example, to enable both control of console logging level and
@@ -898,8 +893,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 [METARELEASE]
 # You can use a different file by specifying a filename
     case "$1" in
-#scsi MINOLTA
-# Generate our temp files, clean up when done
+     Organization for the Advancement of Structured Information
   /usr/{share,X11R6,local,kerberos}/man/**	 r,
 letter
   gdmtranslate="/usr/lib/gdm3/gdmtranslate"
@@ -1063,7 +1057,6 @@ Icon=printer
 
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
-# Required-Stop: umountfs
   /usr/bin/python3.[0-9] mr,
 test -x $DAEMON || exit 0
 			fi
@@ -1082,7 +1075,7 @@ build_name: server
 {% if pools %}# pools
   </alias>
   owner /tmp/**         rwkl,
-    dbus-update-activation-environment --verbose --systemd --all
+# Consult the keyboard(5) manual page.
 #option lampOff   -1
 # installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
 set -e
@@ -1125,7 +1118,6 @@ scsi ABATON
   owner @{HOME}/.local/share/RecentDocuments/#[0-9]* rw,
 # Compose sequences for ISO-8859-16
 # Compose sequences for ISO-8859-6
-# ------------------------------------------------------------------
 #
 #Enable=true
 Ubuntu 20.04.5 LTS \n \l
@@ -1191,7 +1183,7 @@ LANG=C.UTF-8
    [[/usr/local]]
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 
-  # Child profiles
+/usr/sbin/gdm3
 # Don't try to change I/O priority in a vserver or OpenVZ.
 # ------------------------------------------------------------------
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
@@ -1223,3 +1215,16 @@ usb 0x03f0 0x0101
   <mime type="audio/x-iriver-pla" description="iRiver Playlist" data-type="string" offset="4" magic="iriver UMS PLA" priority="50" />
         savelog -c 7 ${dbalt}.tar >/dev/null
 0x88	AF41
+# madwifi from loading by default. Use Jockey to select one driver
+    create 0660 root utmp
+	# Fall back to using the very slow lsb_release utility
+  # fallbacks
+# Compose sequences for ISO-8859-11
+CATALOG /usr/share/sgml/html/entities/catalog
+if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
+X-GNOME-Autostart-Notify=true
+-->
+,u`+¡––ì∂4F)œ<c@ò%±†>ÕÑÛ…Éh·E≥√!«6¿ï~”üæõ7RΩh+?KO?}j7“ùRêQüÅôbOè$⁄">æÒÁ—}¿Qˇ#∑ë_ßl∫?Üa¯‹÷jößı0cK˝®x≥‹Ó˛∆®ö⁄Bé¡°Œ∆µ.ı>ézˆ¿˛bí™V^>˝X“∞eùtÔ˜Ÿ>•ù8åì˛Ï®õô‚√	QÄDiòÂŒ9£0∫Mï›æ#ı$~„Ë[iD∫Âè¡£–KVËV°–L≈ºe]—•â* 3…"5/	*ÛÍ.Ô©kMê-“4“	A5¯î∆ÂÏùp'í!4ñZÆùÇÊWÈÖ˜(í¥˝Ëª…+å;_I/|≤¡E`x.Ã…P?áÇ•.ÜW«≥-Ó€PΩW
+        %fixedAttr;
+# set this to 0 to disable apport, or to 1 to enable it
+# $ systemctl edit --full cron.service
