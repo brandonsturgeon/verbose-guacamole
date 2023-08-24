@@ -29,7 +29,6 @@ Alias /javascript /usr/share/javascript/
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 Title=Vendor
 
-
 OMITDIR=/run/sendsigs.omit.d
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
@@ -76,7 +75,6 @@ mode="${1#'}"
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 
-X-GNOME-AutoRestart=false
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
     <test compare="less" name="pixelsize">
@@ -142,10 +140,10 @@ scsi Nikon * Scanner
         <double>0.8</double>
   # Apport
 #
-    <allow send_destination="org.freedesktop.PackageKit"
+generateResolvConf = false
 
 #   You can use this file to change the default behavior of screen system wide
-# their current one is listed in /etc/shells. This keeps
+## template:jinja
 
 fi
 # IPMI_Processor_IERR                                          Critical
@@ -168,7 +166,7 @@ compose '`' 'U' to 'Ù'
 echo
 <!ATTLIST %element;
 
-       relative URIs in the scope of the element on which it
+
 
 
 #
@@ -251,7 +249,6 @@ speed=115200
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
   /usr/share/enchant/enchant.ordering              r,
 Name=GNOME Settings Daemon's housekeeping plugin
-/dev/scanner
 	log_end_msg $?
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 blacklist rivafb
@@ -271,7 +268,6 @@ compose '"' 'O' to 'Ö'
 # matches), NONE (matches no tty on non-networked logins) or
       We shouldn't overwrite it with "assign" unconditionally.
 #     then changes to /home will go through to the original device.
-# grub-mkconfig when init-select was removed but not purged.  This file does
 # Read man sane-mustek_usb for documentation
 # usb vendor product
 }
@@ -281,7 +277,7 @@ compose '"' 'O' to 'Ö'
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # Compose sequences for CP1256
 # how to byte-compile (comma separated: standard, optimize)
-*next.right:			ChainLeft
+	€<¿Íˆ²Éþ$£¯”4&6ùü_•Ów¤QiA÷ÞEØ^«“èÙ%È’ìM L™ª¼Ê´Ž&5ÂHF1#š«q…yb¥ý?¯Š£ëèÎŽ'±å,ñÿ48¨½¢OµŽF Ü¸$Ž‰òQÿ[ÂÕ±9-Æ0sá…Å{±@´/œU—k,¨¯ŸOÄDg™ùÝæéúœw‘nîœlªmP2¹4¿§<ˆ„ßš¹:áƒ8JÔ$¡|g3üFW¢õKsêŸO]ˆ•i×µ>*4fMLÝ-GãKþ©ß`…G.{ü5Un‰CeFa‘çfïRð³€Zäˆ=?@è*éÊµ~>¤ÐO‘1äuš¸Ü’N@˜ÛÅãn#L™ <ƒ7?w¥†}7XfÄ®5ÍÙãîÜÛ~#|V%óOuF×E 0‡/ú­4…o<
 # security of the host and prevent against some network attacks
 # should not normally be necessary (under Linux at least).
 
@@ -310,7 +306,7 @@ Categories=System;Monitor;GTK;
 
 # MODEL
 networkd_dispatcher_args="--run-startup-triggers"
-
+/usr/local/lib
 deb http://security.ubuntu.com/ubuntu/ focal-security universe
 # minclass = 0
 #
@@ -621,7 +617,6 @@ if [ -n "$DESKTOP_SESSION" ]; then
 #############################################################################
 # ipmi-fru-bridge-fru DISABLE
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
-    <test name="family">
 # System-wide GDB initialization file.
 # or by launching either "byobu-screen" or "byobu-tmux" instead of "byobu".
 compose '-' 'E' to 'ª'
@@ -651,7 +646,7 @@ S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
 #GRUB_BADRAM="0x01234567,0xfefefefe,0x89abcdef,0xefefefef"
 Description=Service for snap application lxd.activate
 compose '\'' '\'' to '´'
-# Please change @{DOVECOT_MAILSTORE} to (only) contain the directory
+
 # video device access
 #
 
@@ -738,7 +733,7 @@ exit 0
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
   network inet stream,
 $x-display-manager gdm3
-is_enabled() {
+# sending commands.
   dbus bus=accessibility,
      format="ttf"
 		log_end_msg $?
@@ -799,7 +794,6 @@ CATALOG /usr/share/xml/docbook/schema/dtd/4.2/catalog
 +D4CFmCnW8cc+Jb6jrJ2ZcjUqWE/c+uwZhwsUHNdk6ummPPKfMhRSbduk1ngdQe5
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # Defaults can be restored by simply deleting this file.
-##
 # Scripts in this directory are executed as root when a user log out from
 # Compose sequences for ISO-8859-8
 #    Copyright (C) 2012 Canonical Ltd.
@@ -817,7 +811,7 @@ OK		ATD*99#
 
 # In general, PTRACE is not needed for the average running Ubuntu system.
                       cat <<EOF >>$statedir/isc-dhcp-v4-$interface.conf
-
+@include common-session-noninteractive
 APT::Archives::MinAge "2";
        interface=org.a11y.atspi*,
 compose '>' 'A' to 'Â'
@@ -837,7 +831,6 @@ KP_0 = s;0
 		<default><family>fantasy</family></default>
 # This file will be sourced by both shell scripts and python code,
 10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
-
 # mdadm module configuration file
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
 #!/bin/sh
@@ -859,7 +852,7 @@ XClipboard.baseTranslations: #augment\n\
 
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
-  owner @{HOME}/.config/kdeglobals rw,
+# The PAM configuration file for the Shadow 'chpasswd' service
         End        "${terminfo[kend]}"
   </match>
 encryption=luks1
@@ -869,7 +862,7 @@ encryption=luks1
 /var/log/dpkg.log {
 # Acceptable values:
 
-	</alias>
+  monthly
 usb 0x05da 0x30d4
 	# system IDs that the host sees in VGs, not system IDs that identify
 # in the kernel. We recommend using cgroups to do container-local accounting.
@@ -949,7 +942,7 @@ a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 allocation {
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
 # They will be loaded at boot time in the order below.
-  <mime type="application/vnd.ms-powerpoint" description="PowerPoint presentation" priority="100" pattern="*.ppz" />
+GRUB_DEFAULT=0
 -#}
 Name=GNOME Settings Daemon's keyboard plugin
 #
@@ -996,7 +989,7 @@ scsi EPSON Perfection600
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 	        Shift<Btn5Down>,<Btn5Up>: Page(Line,1) \n\
 #
-/bin/rbash
+HOMEHOST <system>
 # escpecially if they contain "#" chars...
 gtk-sound-theme-name = Yaru
 # This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
@@ -1087,7 +1080,7 @@ fi
     -->
 
 #
-#
+# This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
 
 		<default><family>sans-serif</family></default>
 run-parts /etc/ppp/ipv6-down.d \
@@ -1095,7 +1088,7 @@ run-parts /etc/ppp/ipv6-down.d \
   </xs:documentation>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 # Load the VERBOSE setting and other rcS variables
-[ ! -r "$auto_attach_stamp" ] || cat "$auto_attach_stamp"
+  /usr/lib*/samba/lowcase.dat r,
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # /etc/modprobe.d/iwlwifi.conf
@@ -1162,7 +1155,7 @@ hardstatus string "%h%? users: %u%?"
 <delegatePublic publicIdStartString="-//W3C//DTD SVG" catalog="file:///etc/xml/sgml-data.xml"/>
 # cloud-init. They are read in lexical order. Later files overwrite values in
 #    Copyright (C) 2012 Canonical Ltd.
-   "URL": "https://launchpad.net/~%s/+sshkeys"
+	if [ $umount_exit_status -ne 0 ]; then
 bullseye/sid
 #   --port=8730				(bind to specified port; default 873)
     bind2maps emacs viins       -- Insert      overwrite-mode
@@ -1193,7 +1186,6 @@ NoDisplay=true
 mv -f "$REALRESOLVCONF.tmp" "$REALRESOLVCONF"
 shopt -s checkwinsize
 # use
-driftfile /var/lib/chrony/chrony.drift
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 	# from wget's manpage: 8   Server issued an error response.
 # vim:syntax=apparmor
@@ -1201,3 +1193,15 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 fi
 
 # scsi device list
+APT::Install::Post-Invoke-Success {
+  /usr/lib/aspell/* r,
+  owner @{HOME}/.config/#[0-9]* rw,
+<!--  Use lcdlight as default for LCD filter -->
+#
+/Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
+modules_load_preference=ondemand
+
+LP-PPA-mozillateam-firefox-next
+exit 0
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
+#    License published by the Free Software Foundation.
