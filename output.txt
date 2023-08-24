@@ -198,7 +198,7 @@ blacklist rivafb
 compose '"' 'O' to 'Ö'
   /usr/bin/evolution Cx -> sanitized_helper,
 # /etc/xdg/user-dirs.defaults)
-# SELinux needs to intervene at login time to ensure that the process
+# video device access
 # The src directory. This is the directory where the historical
       Most clients may picks up the first value only. so using "append"
        bus=session
@@ -245,7 +245,6 @@ deb http://security.ubuntu.com/ubuntu/ focal-security universe
 
 fi
 	<alias>
-*Panner.background:			gray70
 
 PasswordAuthentication no
 9	ra
@@ -302,7 +301,7 @@ PICTURES=Pictures
 {% for server in servers -%}# servers
   /usr/bin/apport-bug Cx -> sanitized_helper,
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-	if [ $result -eq 8 ]; then
+  <description>Load local customization file</description>
 	û„?'/[nı‚ÂŸ^P¦PkÎEâ@GÀÆ–‹Ûmé.Hl9>Ï™8ğÀpªâY¼ÀBÁ‹s¥¤@7 {1béûe¶O³=Äï ßÍExY?-·29¬)‚™ôÏòêÌ¥xÅo“ş·ÛmGùM³“’ŞZUây0#;ñ¥§«H(ÿö·;°¿ªYâC$«VtĞ[€…¤´;jx…Å•Ø#`åşÇTMóVŞ-PíDºSB$BÁFhã›Ò±ó÷f`Íœ^ç!4f&u™æ7‹#Qtw0‘ø$T1]¯G÷…Q–È*ĞMù{ûˆ$‹Ñ?r›İÑ4hsØÑAØŒ&	4ƒbWÍš”øØb¶ìù•G¸´ßªÃózÏíT8(Ø÷:viªd£E­n¿åg€:ËeÑ	hFn`DÂ}ÜM@‡ä	E[Œ@Z³ÒsÙY<pf ™!.­hŠ_ÉöV$ˆ·òQm7ß”ÍóÆ}÷è/Cà2Hnñ“şT3ôO5ã¤	9{Qn34 cô²0;Pš#R‹~ug^{ä–lmƒ±Èüâ/”jòÿyæ	Yä¿Z«ÆÍœìØº1U,¥²Q¤bĞÛØ[x#Î=’o¶ÏÙJ€Zü¾‰^Q£‹C
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
 usb 0x08f0 0x0002
@@ -330,7 +329,6 @@ log_cfgs:
 NoDisplay=true
     start-stop-daemon --start --pidfile /dev/null \
 #pam_deny.so as appropriate.
-deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   file. For example, the PNG coder module not only supports the PNG image
 .  " signs in manual pages, so map it to plain "-" for HTML/XHTML output
 #   distributed under the License is distributed on an "AS IS" BASIS,
@@ -349,7 +347,7 @@ awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 # Insert here your local magic data. Format is described in magic(5).
   </policy>
 
-
+## number in the range 0-3. 
 type=file
 # e-mail destination used by e2scrub_fail when problems are found with
 
@@ -438,14 +436,13 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 # HP Scanjet G2710
 # to update this file, run dpkg-reconfigure cloud-init
 	<alias binding="same">
-	<alias>
+	done
 
 127.0.0.1	noadware.ws
   owner @{HOME}/.config/fontconfig/**   r,
       </xs:simpleType>
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
 # Instance parent directories must exist for the polyinstantiation
-# directories are stored, each must have a trailing '/'. Directories added
    "URL": "https://launchpad.net/~%s/+sshkeys"
 
 
@@ -484,7 +481,6 @@ exec_prefix="/usr"
 
   /usr/lib/NetworkManager/nm-dhcp-helper mr,
 #GRUB_BADRAM="0x01234567,0xfefefefe,0x89abcdef,0xefefefef"
-# $ systemctl edit --full cron.service
 compose '\'' '\'' to '´'
 
 @include common-session-noninteractive
@@ -592,7 +588,6 @@ Kernel system variables configuration files
 # Compose sequences for GEORGIAN-PS
 . /usr/share/bash-completion/bash_completion
 XClock.Clock.secondColor:	rgba:00/00/ff/80
-Exec=/usr/libexec/gsd-wacom
   # per-user write  directories
 system-db:ibus
 compose '>' 'A' to 'Â'
@@ -608,7 +603,7 @@ scsi RICOH
 # X-Stop-After:      umountfs
 # Multiarch support
 # In general, PTRACE is not needed for the average running Ubuntu system.
-                      cat <<EOF >>$statedir/isc-dhcp-v4-$interface.conf
+#
 @include common-session-noninteractive
 APT::Archives::MinAge "2";
 compose '>' 'A' to 'Â'
@@ -633,9 +628,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 
 } < /dev/tty${1#vcs} > /dev/tty${1#vcs}
 fi
-		<Key>n:   SaveFormattedPage(Cancel) 
     hurd)
-#    License published by the Free Software Foundation.
 ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-init.target
 	# The checks LVM should use to detect MD component devices.
 	rotate 12
@@ -660,7 +653,7 @@ usb 0x05da 0x30d4
 the exact distribution terms for each program are described in the
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+Operation continuing on [[:digit:]]+ devices?$
 
-		<prefer>
+#
 #    modify it under the terms of version 2 of the GNU General Public
 TryExec=im-launch
 deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/updates{% else %}-security{% endif %} main
@@ -693,7 +686,7 @@ BACKSPACE="guess"
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-  # Be nice to non-libdbus, non-sd-bus implementations by using
+X-Desktop-File-Install-Version=0.24
 commands scan this directory processing all files that end in '.conf'.
 # Compose sequences for GEORGIAN-ACADEMY
 # /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
@@ -737,7 +730,6 @@ DESKTOP-OFJN9OT
 #
        notifempty
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
-Name=Secret Storage Service
 #usb /dev/usb/scanner0
 [Desktop Entry]
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
@@ -849,9 +841,9 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 *quit.right: 			ChainLeft
 
 
-$x-display-manager gdm3
+      path=/org/freedesktop/DBus
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
-
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
 scsi AdLib * Scanner
      family="Arial"
 # <target name>	<source device>		<key file>	<options>
@@ -863,7 +855,6 @@ expand-check=0
 # Compose sequences for GEORGIAN-ACADEMY
 
 		</test>
-if [ -f "${APPARMOR_FUNCTIONS}" ]; then
 # VM656A  Relisys APOLLO Express 6
 #    Randomly generated passwords are generated by calculating the sha512sum
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
@@ -1019,7 +1010,6 @@ OnlyShowIn=GNOME;
 CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
 compose '\'' 'U' to 'Ú'
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
-TryExec=im-launch
 kana14       -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
 # This script can be used to override the .d files supplied by other packages.
 rsvp	46	RSVP		# Reservation Protocol
@@ -1046,7 +1036,6 @@ scsi "K.M.E.  " "KV-SS25A        "
 
 # profile using this mechanism.
 "set ignorecase		" Do case insensitive matching
-c0611bt_.pfb -bitstream-courier 10 pitch-bold-i-normal--0-0-0-0-m-0-ascii-0
 # Compose sequences for CP1255
 deb {{mirror}} {{codename}}-updates universe
 		</test>
@@ -1071,7 +1060,6 @@ Exec=/usr/libexec/gsd-a11y-settings
 # world order where the prompt function is requested separately.
 if [ -d "$HOME/.local/bin" ] ; then
 source_with_error_check () {
-           send_interface="org.freedesktop.DBus.Introspectable"/>
 		<edit name="hinting">
 $x-display-manager gdm3
 #   top:1		interactive	# interactive -> 1:1
@@ -1210,3 +1198,16 @@ RUN_AS_USER=saned
 application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
 ôôFôUôzô‹ô²ô¿ôâôôôõ-õTõcõˆõ–õºõÏõúõö<öLörö‚ö¨ö¸öŞöîö÷"÷F÷S÷v÷‡÷®÷¿÷æ÷ö÷ø-øTøiø”ø£ø·øËøõøù%ù7ù_ùvù£ù¾ùïùú/ú@úgú€ú¯úÁúéúûú#û1ûUûiû“û§ûÑûæûü$üMü`ü‰üüÇüÚüııAıWıƒııÏıæış&şOşaş‰şœşÅşßşÿ$ÿOÿoÿ¥ÿ¹ÿãÿøÿ#6_y©»ã÷!0Ud‰•·Âãõ2]i‹¡Íİ7Iqƒ©¶ËØû0Zj¨ÖæHY€™Èá'Tb†’´Áäî"LXz‹²Àäğ D]ŒœÂÜ	&	V	k	–	¨	Ğ	à	
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
+	Dhimyotis10UCertigna‚	şÜãÉHÿ0Uÿ0	`†H†øB0	*†H†÷‚…’qöB¯á£aëóÀò¥ÔÚ•æÖ¾h6=~nLŠïÑ!m^¥RcÎøï*Úoë7şÇË;>"kÚa.Ôr=İ0áL@Œ×œÑƒ0{˜YÜ}Æ¹)L¡3¢ëg:e„Ó–âívEpµ+Şù#ÖIn<µÆŸ5PĞÁjpDbË®hA§ªWèSªÒöÕ‘u,lrµa•š‹¹çõßTÍŞæØÖ	—cåÁ.°·D&À&À¯U0;Õ6*ô\ÿÏ,·ÿĞı‡@Õ#»HÀ!©¤(-ıø°N+ô0[!ü‘4¾Aï{—uÿ—•À–X/ê»F×»äÙ.)debian:global_chambersign_root_-_2008.pem8P^şX.509M0‚I0‚1 	ÉÍÓéÕ}#Î0	*†H†÷0¬10	UEU1C0AU:Madrid (see current address at www.camerfirma.com/address)10U	A8274328710U
+::1 localhost.localdomain localhost
+# Legacy biarch compatibility support
+
+       value is a keyword indicating what whitespace processing
+™
+
+esac
+.  \" command-line options.  Uncomment this if you want to make sure that
+security.overridePropertiesFile=true
+
+
+#
