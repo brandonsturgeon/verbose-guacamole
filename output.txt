@@ -34,7 +34,6 @@ audio/x-mpegurl=rhythmbox.desktop
 # by the included systemd service file.
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+disk [[:digit:]]+,( wo:[[:digit:]]+,)? o:[[:digit:]]+, dev:[[:alnum:]]+$
 /dev/scanner
-
 # to update this file, run dpkg-reconfigure cloud-init
   *)          exit 0 ;;
                 . /lib/lsb/init-functions
@@ -88,7 +87,7 @@ scsi "KINPO   " "Vividscan S120  "
 
 X-GNOME-Autostart-Phase=PreDisplayServer
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
-	cache_settings {
+                <allow send_destination="uk.org.thekelleys.dnsmasq"/>
 # Autodetect the Canon CanoScan FB630u
 compose ')' '-' to '}'
 Type=Application
@@ -174,7 +173,6 @@ case "${1}" in
 # Compose sequences for ISO-8859-8
 # Additional mounts to exclude at shutdown.
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-    if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
       <double>7.5</double>
 server {{server}} iburst
 APT::Periodic::Download-Upgradeable-Packages "0";
@@ -262,7 +260,7 @@ Name=User folders update
 #!/bin/sh
 CATALOG /usr/share/xml/docutils/catalog
 	# lvmdbusd expects JSON output
-#    Copyright (C) 2014 Canonical Ltd.
+  /usr/share/p11-kit/modules/  r,
 # Compose sequences for GEORGIAN-PS
 [Distro]
 
@@ -312,7 +310,6 @@ usb 0x08f0 0x0002
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
 APT::Install::Post-Invoke-Success {
 #
-    </event>
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
 # $ systemctl edit --full cron.service
@@ -355,7 +352,6 @@ awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 
 type=file
 # e-mail destination used by e2scrub_fail when problems are found with
-# The modules that run in the 'final' stage
 
 deb {{mirror}} {{codename}}-updates main
 
@@ -440,7 +436,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
   Associate an image format with a unique identifier. 
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 # HP Scanjet G2710
-# Compose sequences for CP1251
 # to update this file, run dpkg-reconfigure cloud-init
 	<alias binding="same">
 	<alias>
@@ -461,7 +456,6 @@ order hosts,bind
 # sid_ET UTF-8
 
 <?xml version="1.0"?>
-
 #/dev/scanner
 # If Hibernate isn't available, PowerOff will be used
 if [ -n "$DESKTOP_SESSION" ]; then
@@ -543,7 +537,7 @@ serial: 20200804
      o General entity declarations of any kind.  For example:
 # information is printed). To change the default behavior, uncomment
 }
-	fi
+ - disk_setup
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 #
 
@@ -564,7 +558,7 @@ $x-display-manager gdm3
 		log_end_msg $?
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 
-ports=22/tcp
+
 [Install]
    [formatters]
 if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
@@ -605,7 +599,6 @@ compose '>' 'A' to '¬'
 
 scsi RICOH
 [mysql]
-deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 #    Copyright (C) 2012 Canonical Ltd.
 ¨õê<E{ˆ”;I⁄ıÚ*ªÍ8‡I∞µﬂèlÙ˝ŒùÕ2Õ/h=ôB’¢ìqñu:%1≈ìâº
 };
@@ -675,7 +668,6 @@ deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/upda
 # IPMI_Threshold_Sensor_Upper_Non_Recoverable_Going_Low    Critical Critical
 
 Name=GNOME Settings Daemon's Wwan plugin
-directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 
 # This file is sourced by Xsession(5), not executed.
 
@@ -773,7 +765,7 @@ PercentageAction=2
   /usr/local/share/man/man?/            r,
 twm
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
-session		include		su
+		wpa_cli_do "$IF_WPA_SSID" ascii 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 
 scsi ULTIMA
@@ -812,11 +804,9 @@ PNhdoCNVDQLQpGaKZUI5hjMfR90U8Cm/6e0ondwjV4J6f4CS4wkQ5zzITGWptagE
      <xs:element ref="xs:annotation" minOccurs="0"/>
 XLogo*foreground: rgb:d7/d7/d7
 #    This program is free software; you can redistribute it and/or
-  </alias>
 
   owner @{HOME}/.adobe/** rw,
 fi
-#!/bin/sh
 
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
@@ -848,7 +838,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 #
 
 <delegateSystem systemIdStartString="http://xml.ascc.net/xml/resource/qaml-xml" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
-token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
+	# lvmdbusd relies on command log report to inspect LVM command's execution status
 #
 # Select which information is logged.
     # Start best input method unless overridden below
@@ -877,9 +867,8 @@ if [ -f "${APPARMOR_FUNCTIONS}" ]; then
 # VM656A  Relisys APOLLO Express 6
 #    Randomly generated passwords are generated by calculating the sha512sum
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-# cloud-init. They are read in lexical order. Later files overwrite values in
+<fontconfig>
 #    Copyright (C) 2012 Canonical Ltd.
-	if [ $umount_exit_status -ne 0 ]; then
 0%ê‰Hÿ’ôßë∆› ˆbÚ¯≈5vu˜ó˜}Õ–»–¸–ÜÉJmUF˚êQI@7gùÚΩ‹¬ÎYÚø<dEÂããÅ‘ë c±/Ñ…_2tÃB‚ËQ≠∂öÒΩÒ#LáKﬂ’'µΩK®‚¸Y≤Ïõ1+ÁÚE¶ÖÈ#	qüÎµ‰€n‘/D,ÛŸØó∑"u3_Ä8—-[∫,≠ÄÎà√à£Î9M∞gpg¥Nate Smith <vilmibm@github.com>∞gpgâ‘
 #   --port=8730				(bind to specified port; default 873)
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
@@ -987,7 +976,7 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 /libx32
 compose ':' '-' to '˜'
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-  #include <abstractions/ubuntu-email>
+scsi APPLE
   # Extensions
         ;;
 allow-failsafe
@@ -1027,7 +1016,7 @@ p+([0-9])p+([0-9])?(_+([0-9]))*
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 OnlyShowIn=GNOME;
 # or equivalently:
-user-db:user
+CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
 compose '\'' 'U' to '⁄'
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 TryExec=im-launch
@@ -1038,7 +1027,7 @@ rsvp	46	RSVP		# Reservation Protocol
 avahi:x:117:123:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
 APT::Periodic::Update-Package-Lists "1";
 
-
+# This specifies maximum number of attempts to obtain lock file by FileHandler
 # Run cryptdisks initscripts at startup? Default is Yes.
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 else
@@ -1047,7 +1036,7 @@ else
 # reserved values
 #hwtimestamp *
 case "$1" in
-      local base=${file##*/}
+/Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 scsi "K.M.E.  " "KV-SS25A        "
 #
 			<string>AR PL ZenKai Uni</string>
@@ -1209,3 +1198,15 @@ if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
 grant {
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # javax.sound.midi.Receiver
+#ListenAddress ::
+X-GNOME-HiddenUnderSystemd=true
+X-GNOME-AutoRestart=true
+wifi.powersave = 3
+fi
+# the value to YES
+  ##include <abstractions/openssl>
+  /usr/bin/f-spot Cxr -> sanitized_helper,
+RUN_AS_USER=saned
+application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+ÙÙFÙUÙzÙãÙ≤ÙøÙ‚ÙÙÙı-ıTıcıàıñı∫ıœı˙ıˆ<ˆLˆrˆÇˆ®ˆ∏ˆﬁˆÓˆ˜"˜F˜S˜v˜á˜Æ˜ø˜Ê˜ˆ˜¯-¯T¯i¯î¯£¯∑¯À¯ı¯˘%˘7˘_˘v˘£˘æ˘Ô˘˙/˙@˙g˙Ä˙Ø˙¡˙È˙˚˙#˚1˚U˚i˚ì˚ß˚—˚Ê˚¸$¸M¸`¸â¸ù¸«¸⁄¸˝˝A˝W˝É˝û˝œ˝Ê˝˛&˛O˛a˛â˛ú˛≈˛ﬂ˛ˇ$ˇOˇoˇ•ˇπˇ„ˇ¯ˇ#6_y©ª„˜!0Udâï∑¬„ı2]iã°Õ›7IqÉ©∂Àÿ˚0Zjê®÷ÊHYÄô»·'TbÜí¥¡‰Ó"LXzã≤¿‰ D]åú¬‹	&	V	k	ñ	®	–	‡	
+  /usr/bin/bitstormlite Cxr -> sanitized_helper,
