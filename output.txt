@@ -8,7 +8,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
   # User files
 #
     local dmi_path="/sys/class/dmi/id/board_vendor" vendor=""
-Alias /javascript /usr/share/javascript/
 XClock.input: false
     compress
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
@@ -59,7 +58,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 
 # The next option will send email to the named person when chronyd has
 Local  - Applications should save enough information to
-
 	fWÛàÌ†»dØÿV‹rªÞªøìÂødú•Ö1ÑZ6Užµÿ4ðnJäÕKHÝôûcÓNö{$…/ŠÑ×båÑE${]¦'p“í½•¬¯«>²Ÿ2Ëœ‘­s¥þ¶IpåzåXGã…Í—ÄUªýØïµ†õ¨ý·Þé]m‰¹æEŽÏw#%Ã§Ò#2î9õ,ÒE4~²`Š*š7))¾@¹©îhŒM&3ç÷¦…($N@Ÿš'%½¯ðÛã"æ­yô,7í2•©¸Mí¼‹”¼‚1”ñ¢iˆïªƒ•ÝqƒÅ• «Í®üEÃùÓÀ35I±±¦÷óâ—âHê^¬>üL†Öaþä‚ÿÍt@òU‘ãÈ(Â)x¦Q‡†$—eøÀE/uÇbuP ÖÎ¾ÝcÊŽi2+_ÐžØ¡[?ŽqëÔè‰O)…û²èÂ
 fi
        daily
@@ -175,14 +173,12 @@ X-GNOME-AutoRestart=true
 /dev/scanner
 #
     <allow own="com.ubuntu.SoftwareProperties"/>
-# Users of this abstraction need to #include the ubuntu-helpers abstraction
 PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_lts_contract.py
   # Access required for connecting to/communicating with the Unity Launcher
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 *Command.shapeStyle:		oval
 		<allow send_destination="com.redhat.PrinterDriversInstaller"
-
 
 #    modify it under the terms of version 2 of the GNU General Public
 #
@@ -272,7 +268,6 @@ max_allowed_packet	= 16M
 # local
 /usr/bin/wine-preloader
   Associate an image format with a unique identifier. 
-  start)
 # to update this file, run dpkg-reconfigure cloud-init
 	<alias binding="same">
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
@@ -332,7 +327,7 @@ auth		sufficient	pam_rootok.so
 }
  - disk_setup
 scsi FCPA
-#
+	<policy context="default">
 
   /usr/bin/ooimpress Cxr -> sanitized_helper,
 #	        done
@@ -395,7 +390,6 @@ device auto
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
   </match>
-        if [ -x "$STARTUPFILE" ]; then
 
 #!/bin/sh
   /usr/bin/audacious2 Cxr -> sanitized_helper,
@@ -493,8 +487,7 @@ XLogo*foreground: rgb:d7/d7/d7
 };
 fi
 
-#  This file is part of systemd.
-    is_azure
+LANG=C.UTF-8
 ABORT		"NO CARRIER"
 ip.hdrlen	u8		net+0		0x0F
 #
@@ -505,7 +498,7 @@ makestep 1.0 3
   </xs:documentation>
 # colored GCC warnings and errors
   /usr/lib*/samba/lowcase.dat r,
-
+/usr/lib/i386-linux-gnu
 
 # usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
 
@@ -522,7 +515,6 @@ makestep 1.0 3
 # set PATH so it includes user's private bin if it exists
 expand-check=0
 NoDisplay=true
-# failure_action can be: log, ignore, terminate
 		</test>
 fi
 
@@ -554,9 +546,8 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 
 # and by vendor and product ID (USB). This is what the backend does when
 J	•¾˜³ÓëÒª‘ò½6÷D”ƒÐ“·••ršŽ%gÜ¦›1BX¢ª´~	GÇG]µÚòõ!¦t¦²ºJ>›Í6‹Å&ÀO_nÔûÚ§7Ê~—-O¥f/Z4¨å<%äW­©®2¥GŠsR©ŒçR)GÉ®
-deb http://packages.azlux.fr/debian/ buster main
 LP-PPA-mozillateam-firefox-next
-#    License published by the Free Software Foundation.
+K¥!NÁÁ¡%#bHÂï
 // Notify all clients to reload the cache
 This file is part of PulseAudio.
 # in /etc/passwd and ignore centralized (AD, IdM, LDAP, etc.) users.
@@ -747,7 +738,7 @@ SHELL=/bin/sh
 # the value to YES
 # Compose sequences for IBM1133
 
-*internalBorderWidth:		0
+# ONLY use this if your saned server is sitting behind a firewall. If your
 
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
 ::1 localhost.localdomain localhost
@@ -803,7 +794,6 @@ URI_LTS = https://changelogs.ubuntu.com/meta-release-lts
 # vim:syntax=apparmor
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
-
 
 #    This program is free software; you can redistribute it and/or
 Name=GNOME Settings Daemon's power plugin
@@ -970,7 +960,6 @@ XLoad.input:			false
   update_status_timer: 43200
     export PATH="$PATH:${snap_bin_path}"
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
-    // There is no restriction to any algorithms.
 X-GNOME-Bugzilla-Bugzilla=GNOME
 enabled=1
 #
@@ -1112,7 +1101,7 @@ vm.mmap_min_addr = 65536
    [[/usr/local]]
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 
-/usr/sbin/gdm3
+#    modify it under the terms of version 2 of the GNU General Public
 # Don't try to change I/O priority in a vserver or OpenVZ.
 # ------------------------------------------------------------------
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
@@ -1127,7 +1116,6 @@ session required        pam_loginuid.so
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
   owner @{HOME}/.local/share/recently-used.xbel* rw,
 
-#   standard location for dictionaries.
   unix (connect, receive, send) type=stream peer=(addr="@tmp/.mozc.*"),
 #scsi MITSBISH MCA-S600C
 log_level              {{log_level}}
@@ -1216,3 +1204,20 @@ session		include		runuser
 ### END INIT INFO
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 
+eval $(/usr/bin/locale-check C.UTF-8)
+
+deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
+	delaycompress
+option warmup-time 30
+
+# /etc/apport/blacklist.d/, apport will not generate a crash report
+noauth
+nameserver 1.1.1.1
+
+# P-215
+deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
+#u0x378	# /dev/lp1 forced in unidir mode
+
+promptinit
+
+/lib32
