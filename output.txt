@@ -1,4 +1,4 @@
-@include common-account
+#    and going unconfined as root is not desirable any way.
 
 NoDisplay=true
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
@@ -271,7 +271,7 @@ PICTURES=Pictures
 usb 0x08f0 0x0002
 # DO NOT EDIT OR REMOVE
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
-# which should not be used by bindresvport. bindresvport is mostly
+usb "Panasonic KV-S1025C"
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
@@ -394,15 +394,14 @@ max_allowed_packet	= 16M
 # Instance parent directories must exist for the polyinstantiation
 #    modify it under the terms of version 2 of the GNU General Public
 
-
+APT::Update::Post-Invoke-Success {
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 mozilla/SecureSign_RootCA11.crt
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-# sid_ET UTF-8
+glibc-ld.so.cache1.1vÊñ@kMkpk„k®k»kŞkêkll:lDldlnll–l´lÁlälólm'mLm[m€m‘m¸mÉmğmım n+nLn^n†n“n¶nÁnânòno0o^okoo›o¾oĞoøop.p@phpzp p¶pâpîpqq<qKqpq€q¦q¹qâq÷q"r5r^ror–r§rÎrŞrss>sNsts‡s°sÈsöst0tDtnt‚t¬t¾tætøt u0uVuguuŸuÆuØuvv6vOv~v—vÆvävw4wfw~w¬wÊwşwxHx`xx¨xØxñx y9yhyy°yÉyøyz8zEzhzuz–z«zÖzëz{.{{p{š{ª{Ğ{İ{||8|U|ˆ|¨|Ş|î|}&}N}[}~}–}Ä}Õ}ü}~@~T~~~’~º~Ñ~ş~@W„›ÆÖü
 
 <?xml version="1.0"?>
-#/dev/scanner
            send_member="GetAll"/>
 if [ -n "$DESKTOP_SESSION" ]; then
 
@@ -432,7 +431,6 @@ compose '\'' '\'' to '´'
 
 @include common-session-noninteractive
 #
-LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
         <test qual="any" name="family">
   /usr/bin/emacs-snapshot-gtk Cxr -> sanitized_helper,
 #   https://bugs.debian.org/858528
@@ -462,7 +460,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 # can attach to any other dumpable process owned by the same user.  In the
 #
 search updates ubuntu built-in
-[network]
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 auth		sufficient	pam_rootok.so
 -dcevm KNOWN
@@ -518,7 +515,7 @@ quote-names
 		grub-editenv /boot/grub/grubenv unset recordfail
 	didn't include the right instructions in the 'prep' table.
 # in login shells. It should be used to set the terminal
-
+#canon.conf
 brandon:100000:65536
 Kernel system variables configuration files
 # Compose sequences for GEORGIAN-PS
@@ -551,11 +548,9 @@ compose '>' 'A' to 'Â'
 #
 #    License published by the Free Software Foundation.
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
-KP_0 = s;0
   #include <abstractions/ubuntu-console-email>
 		<default><family>fantasy</family></default>
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
-deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 } < /dev/tty${1#vcs} > /dev/tty${1#vcs}
 fi
@@ -578,10 +573,9 @@ usb 0x05da 0x30d4
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 </catalog>
 
-     <patelt name="scalable"><bool>false</bool></patelt>
+*buttonbox.displayList:			foreground gray70;line 0,-1,-1,-1;foreground gray95;line 0,0,-1,0
 the exact distribution terms for each program are described in the
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+Operation continuing on [[:digit:]]+ devices?$
-    PYTHON=python
 #
 #    modify it under the terms of version 2 of the GNU General Public
 TryExec=im-launch
@@ -598,7 +592,7 @@ gtk-icon-sizes = panel-menu-bar=24,24
 if [ -f /run/console-setup/keymap_loaded ]; then
   # System files
 deb http://packages.azlux.fr/debian/ buster main
-## extensively as that contained in the main release, although it includes
+		<test name="lang">
 "\e[7~": beginning-of-line
 
   owner /run/user/*/dconf/user rw,
@@ -731,7 +725,6 @@ if [ -r /etc/default/locale ]; then
 # in the toplevel profile. Eg:
 
 XLoad.input:			false
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
 
 [Desktop Entry]
@@ -773,7 +766,6 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
       <const>lcdlegacy</const>
 # ipmiconsole-privilege-level ADMIN
 
-        'project': get_oem_project(),
 
 APT::Install::Pre-Invoke {
 
@@ -852,7 +844,7 @@ All executable files in this directory are processed in shell expansion order.
     create 0664 root utmp
       We shouldn't overwrite it with "assign" unconditionally.
   # Text editors (It's All Text [https://addons.mozilla.org/en-US/firefox/addon/4125])
-disable_flash_pq_bg_color=1
+<fontconfig>
 <!NOTATION XMLSchemaStructures PUBLIC
 Øæ ÿb/äË†ä´(Û¯Um‡Ušhg:6FYÎ¹ıìÿjºŞÿ
     <allow send_interface="org.bluez.LEAdvertisement1"/>
@@ -1020,7 +1012,6 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
 
 /URWPalladioL-Ital (/usr/share/fonts/type1/gsfonts/p052023l.pfb) ;
 # Compose sequences for GEORGIAN-ACADEMY
-Acquire::Changelogs::AlwaysOnline "true";
 
 {c¸O¬	ù³x•Ûvñè}iY‰ô&|4ı¼øÅôCË¡8qıÊvb»¾2U—&¸ê|MOÃş®¹Dp"qeåÇ¨—r´†0g»fj®kÃwLiWo6å¯`É>6hVä}6¦õ^æ,¦¶=6~Åòê©]Ç/êÿ› (
 pool {{pool}} iburst
@@ -1041,7 +1032,7 @@ OMsq7sXDmFff4hQjgQoDezMkA1EgzFokRY7pToLG3X1KdDXKR0edQ3+1mlJTf9XN
 # mfnp://scanner.bad-network.org/timeout=1500
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
   start)
-# create the initrd in the same directory
+      <const>lcddefault</const>
 XCalc*bevel.screen.INV.vertDistance:		4
       may simply works to avoid it.
 
@@ -1096,7 +1087,6 @@ Terminal=false
 56f12ada18a3412ab1f9dcd69450be95
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 # Compose sequences for TIS-620
-logdir /var/log/chrony
 libXvMC.so.1
 # Site-specific additions and overrides for usr.bin.firefox.
 NoDisplay=true
@@ -1206,3 +1196,19 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
 # orbit2 permissions
 compose '/' '/' to '\\'
 *form.fold.height:			36
+
+56f12ada18a3412ab1f9dcd69450be95
+  #include <abstractions/mdns>
+
+
+#swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
+
+post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
+# Set to the user saned should run as
+3946901F46B0071E90D78279E82FABABCA177231A704BE72C5B0E8918566EA66
+òÆ…Z¾•[¤ÉiCçöáÌ˜Ö:ÈnGIùĞ×-¿Ğˆµé~Ö­ÉôtõVh×Ê`Q¬Ïˆ [ë£ÿğ´÷ø-É»ğô¡(GhÿM©¿¶kœÅ"·ß\Ÿ›– Ø$-Û³È#îjuıtßÑövÄ²b»–¥2¥Úïàµ€CsX¢ø&ÕÖÉKVÑ~Ñêò#‡QØz½İG¨¯'ê¿ma˜ãœÇxĞMS}á–yqCbtYş?ğİ(Æ®Ô+¯fhÔz¢z¸÷g¾ë‰O­’
+_ÕOÊRÖaBOí”tcôRó%7-Ñ¡g[õ´AUbuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>‰7
+#PICTURES=Documents/Pictures
+# Uncomment following line to disable "clever precalibration" routines...
+			fi
+    owner @{HOME}/** rwk,
