@@ -2,7 +2,7 @@
 
 #    License published by the Free Software Foundation.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
-    // There is no restriction to any algorithms.
+  owner @{HOME}/@{XDG_DESKTOP_DIR}/*	rwl,
 /Song-Medium /GBZenKai-Medium ;
 /bin/sh
 # Compose sequences for CP1255
@@ -37,7 +37,6 @@ kde4/ktimetracker.desktop
 /dev/scanner
 {
 datasource meta-data and user-data.
-# made if using an older kernel
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
 # $Id: 20x11-common_process-args 305 2005-07-03 18:51:43Z dnusinow $
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
@@ -66,7 +65,7 @@ Local  - Applications should save enough information to
 	fW€‡ÃÜªdÿˇVãr™ﬁ™¯Ï¬¯d˙ï÷1—Z6Uûµùˇ4nJ‰’KH›Ù˚c”Nˆ{$Ö/ä—◊bÂ—E${]¶'pìÌΩï¨Ø´>≤ü2Àúë≠sê•˛∂IpÂzÂXG„ÖÕóƒU™˝ÿÔµÜı®˝∑ﬁÈ]mÅâπÊEùéœw#%√ß“#2Ó9ı,“E4~≤`ä*ö7))æ@π©ÓhåM&3Á˜¶Ö($N@üö'%ΩØ€„"Ê≠yÙ,7Ì2ï©∏MÌºãîºÇ1îÒ¢iàçÔ™Éï›qÉ≈ï†´ÕÆ¸E√˘”¿35I±±¶˜Û‚ó‚HÍ^¨>¸LÜ÷a˛‰ÇˇÕt@ÚUë„»(¬)x¶QáÜ$óe¯¿E/u«buP†÷Œæ›c éi2+_–ûÿ°[?éqÎ‘ËâO)Ö˚≤Ë¬
 fi
        daily
-# Refer to 'man lvm.conf' for further information including the file layout.
+Comment[af]=Begin die PulseAudio-klankstelsel
 #user_allow_other
 max_allowed_packet	= 16M
 			<Btn1Down>:popup-pixel()
@@ -91,7 +90,6 @@ compose '`' 'U' to 'Ÿ'
 
 # eliminate DISABLE
 uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
-
 #   2:1			test_class	# test_class -> 2:1
 #
 #
@@ -131,7 +129,6 @@ Name=GNOME Settings Daemon's housekeeping plugin
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
                 . /lib/lsb/init-functions
 compose '"' 'O' to '÷'
-  /usr/bin/evolution Cx -> sanitized_helper,
 # /etc/xdg/user-dirs.defaults)
 # video device access
 # See https://bugs.launchpad.net/ubuntu/+source/procps/+bug/1068756
@@ -225,8 +222,8 @@ SHELL=/bin/sh
 ## serial port or special bus peripheral. The particular  
 order hosts,bind
 DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
-  the ImageMagick option
-#
+#    This program is free software; you can redistribute it and/or
+MPLS_MULTI	8848		# MPLS with upstream-assigned label [RFC5332]
 
 # Insert here your local magic data. Format is described in magic(5).
 ## number in the range 0-3. 
@@ -267,7 +264,6 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 ã]“«j[AÜ·ΩØb∞Z∑Gé≥±ßAº”ÊH:â∂é#í‡“{ÔΩ˜ﬁ{ÅÃçÂˇﬁÏ≤xg`‡Y|Cn[Ÿ-{Eølª≠Ωj—ÕmI#˝≈•Ö—z≥”Ìt]s◊¶Å!∑b«πÛùÖ“ı ¢Ì
 run_im default
 #
-logdir /var/log/chrony
 fi
 		done
 search updates ubuntu built-in
@@ -282,12 +278,11 @@ WantedBy=multi-user.target
 max_allowed_packet	= 16M
 *interactStyleErrors.label:	Errors
 #
-[service]
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 # local
   around 75.
   Associate an image format with a unique identifier. 
-#swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
+  start)
 # to update this file, run dpkg-reconfigure cloud-init
 	<alias binding="same">
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
@@ -311,14 +306,13 @@ Name=Print Queue Applet
 
 rocks_trees = {
 					6)
-# that it has been provided. Cloud-init, by default, will write this file
 # Uncomment the following lines for Linux.  Notice that everything is
 
 ##############################################################3
 compose '\'' '\'' to '¥'
 auth	required	pam_nologin.so
 @include common-session-noninteractive
-#
+/Adobe-Japan2 /Japanese-Mincho-Regular-JaH ;
 
 #   https://bugs.debian.org/858528
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
@@ -327,7 +321,7 @@ auth	required	pam_nologin.so
 <!ENTITY % maxLength "%p;maxLength">
 
 #    modify it under the terms of version 2 of the GNU General Public
-BQJbAwPCAhsuASkJEAptzva0bz2/wF0gBBkBAgAGBQJbAwPCAAoJEL4e3StH4Ita
+#parport0
             break;
 .  el {
 # get configuration information
@@ -361,7 +355,6 @@ option buffer 2097152
 	devtypes_cols_verbose="devtype_name,devtype_max_partitions,devtype_description"
 // Some countries have import limits on crypto strength, but may allow for
 $x-display-manager gdm3
-/usr/bin/zsh
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 
 [Install]
@@ -374,7 +367,7 @@ APT::Periodic::Update-Package-Lists "1";
 /lib/i386-linux-gnu
 # The possible arguments are:
 #
-
+sonames=libbd_swap.so.2
 "
 #
 # Compose sequences for KOI8-U
@@ -445,7 +438,7 @@ gtk-icon-sizes = panel-menu-bar=24,24
 if [ -f /run/console-setup/keymap_loaded ]; then
 		<test name="lang">
 #
-
+        log_daemon_msg "Stopping GNOME Display Manager" "gdm3"
 usb 0x055f 0x0001
 	  <family>Nasim</family>
   </its:rules>
@@ -484,7 +477,6 @@ DESKTOP-OFJN9OT
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # where dovecot is allowed to store and read mails
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
-Name=GNOME Settings Daemon's xsettings plugin
 #
 eval $(/usr/bin/locale-check C.UTF-8)
 # escpecially if they contain "#" chars...
@@ -515,7 +507,6 @@ letter
 # in your $ZDOTDIR/.zshenv
   /usr/bin/gxmms Cxr -> sanitized_helper,
 
-// When Apt's cache is updated (i.e. apt-cache update)
 ## security team.
 compose '<' '<' to '´'
 
@@ -549,7 +540,7 @@ makestep 1.0 3
 
 #
 
-s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
+#
 scsi AdLib * Scanner
 # <target name>	<source device>		<key file>	<options>
 
@@ -732,7 +723,6 @@ LANG=C.UTF-8
 # We're probably bringing the interface down.
 S· éÛ:]C+º›ò∑MÃ÷G˛pÇÙ£„◊?é“«ùMî±‡„@á“¸≥w>Ç≠ü¬œçèM?€ÉXèìYäÆKe>(pÎ9lÇå√nœŒå,<ÕôzV@q-N˙„”ó˛‘x‘ì÷`î~ju©‰—]bz1z¸'”N} ∆a?t®Q}‹ÕÔ”P[ƒˇÑ!çøˆÿà=∫›
 _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ¬}|·Aÿè¡~xûÑß‡yx^”®¡ÀÑ^ÅW·5q0o^∆…õ»ﬂÇo√w‡{ºﬂáw‡á3¯¸|ÑˇÉN òΩ∞ŒÉÛa∂¬u–ÑgÈëw!G+Ê¿\»√<ËÑU–wCb⁄Î‘/9Ì¸6Úi8⁄a&‰`éZÉ‡HX˝p"îa™p‘‡d®√∞ŒÇ≥a3ú¿E1¯8\◊¿µ0ÆæG›Á¿ëºo√;ê"~:ÃÄC Û‘ö]P	G¡Ò∞ŒÖK·£p9\•Ê,s7	3‡ËÑ˘PÅMp&å¿V∏˛˛>	ÔÉ†åiêÖ√`6X=∞éÖ%∞V¬	PÇ50k·Tÿg¬6∏vÄP=§·PòG@Ê¿ëp,Ü£·8ñ¿RX«¡JËÉU–'@	NÑ’p2úk·TXß¡zÜ”·8∂¿πpúª‡&¯$≥ÁSp¸%|˛
-
 # @{PROC} is the location where procfs is mounted.
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 
@@ -796,7 +786,7 @@ SHELL=/bin/sh
 # the value to YES
 # Compose sequences for IBM1133
 
-application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
+*internalBorderWidth:		0
 
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
 # DO NOT EDIT OR REMOVE
@@ -822,7 +812,7 @@ security.overridePropertiesFile=true
 0	default
 	# save/restore it
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
-
+# device group names
 libXvMC.so.1
       <family>DejaVu LGC Serif</family>
 # See Xsession.options(5) for an explanation of the available options.
@@ -946,7 +936,7 @@ type=file
 Ubuntu 20.04.5 LTS
 Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent \(ssh-agent emulation\)\.$
-  # aspell
+
 
   /dev/tty     rw,
 /dev/scanner
@@ -992,7 +982,6 @@ DAEMON=/sbin/iscsid
   <policy context="default">
 
 DEVICE="/dev/urandom"
-
 
     <xs:attribute name="namespace" type="xs:namespaceList" use="optional" default="##any"/>
 
@@ -1103,7 +1092,7 @@ compose '"' 'i' to 'Ô'
 # directories are stored, each must have a trailing '/'. Directories added
 LP-PPA-ubuntu-mozilla-daily
 X-GNOME-HiddenUnderSystemd=true
-# You must run update-initramfs(8) to effect this change.
+# For more details, please see /etc/apparmor.d/local/README.
 NoDisplay=true
 scsi DEVCOM * Scanner
 <?xml version="1.0"?>
@@ -1178,7 +1167,6 @@ compose '/' '<' to '\\'
     monthly
 #
   # User files
-commands scan this directory processing all files that end in '.conf'.
 LANG=C.UTF-8
    [[/usr/local]]
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
@@ -1202,7 +1190,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
   unix (connect, receive, send) type=stream peer=(addr="@tmp/.mozc.*"),
 #scsi MITSBISH MCA-S600C
 log_level              {{log_level}}
-
+usb 0x04a9 0x1608
 
 
     missingok
@@ -1222,9 +1210,14 @@ usb 0x03f0 0x0101
 # Compose sequences for ISO-8859-11
 CATALOG /usr/share/sgml/html/entities/catalog
 if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
-X-GNOME-Autostart-Notify=true
 -->
 ,u`+¡––ì∂4F)œ<c@ò%±†>ÕÑÛ…Éh·E≥√!«6¿ï~”üæõ7RΩh+?KO?}j7“ùRêQüÅôbOè$⁄">æÒÁ—}¿Qˇ#∑ë_ßl∫?Üa¯‹÷jößı0cK˝®x≥‹Ó˛∆®ö⁄Bé¡°Œ∆µ.ı>ézˆ¿˛bí™V^>˝X“∞eùtÔ˜Ÿ>•ù8åì˛Ï®õô‚√	QÄDiòÂŒ9£0∫Mï›æ#ı$~„Ë[iD∫Âè¡£–KVËV°–L≈ºe]—•â* 3…"5/	*ÛÍ.Ô©kMê-“4“	A5¯î∆ÂÏùp'í!4ñZÆùÇÊWÈÖ˜(í¥˝Ëª…+å;_I/|≤¡E`x.Ã…P?áÇ•.ÜW«≥-Ó€PΩW
         %fixedAttr;
 # set this to 0 to disable apport, or to 1 to enable it
 # $ systemctl edit --full cron.service
+ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTqx+IL674viillYcrZGGY8U9nfKVxP1+s9a2TeotkDjh7vsoJtNeAptxwMxmHO2S7tOwmFTiEOgqfuQuSdIogwJfqvCmuDgMBwgQETTOg6IS/BvuO8kvjD/BJRAAAAFQDZWLCjw43/yKwx9SrVYaSKH2tyBQAAAIEAlyCyqJY8L8K0s+ofxhK+gmDwui1+TgaEKicdQPPr0HAKFLaVgqMjgzSNjxf1iBlBc++Tqgkkalnqoo8NGnC1R/0XtBvy9kUJqFAtfV6urcZx5J9kzQGTxsL3iHd7Bn9OfhloYwTjxaZf8tB04RVhrwn2Bv47krq4sSjr6nI6VgUAAACAF0eeQ1j+MCUcfQdAv62sjyGLUR9hvXgTJ6nIXxJY+rC2OS3p1Jb7khxJervJfo4BF0Nb/KZ84YAMCr0+/QSw/IUj6wUn6AjlTlEV9FMQR5T38ZRCt7Q1vKIEs6KPjjLHNlklGGsHGXtKqvc8yWLm7nV6dMAWDWTVSRLv7spdG8A= root@DESKTOP-OFJN9OT
+#include <tunables/securityfs>
+#scsi FCPA
+# This file is a simple placeholder to keep dpkg from removing this directory
+# DO NOT EDIT OR REMOVE
+
