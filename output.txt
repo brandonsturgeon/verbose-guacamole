@@ -17,7 +17,7 @@ xterm
 scsi DEVCOM * Scanner
 
 Alias /javascript /usr/share/javascript/
-
+def get_oem_project():
 # Case-sensitive behavior is defined by the operating system.
 
 scsi AdLib * Scanner
@@ -151,7 +151,6 @@ compose '`' 'U' to 'Ù'
 #
 #
 case $0:$mode in
-    done
   gnome-session*)
     fi
 
@@ -213,7 +212,6 @@ APT::Periodic::Download-Upgradeable-Packages "0";
 
 speed=115200
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
-#  so you may want to run it at a nicer priority than the default priority.
 
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
   /usr/share/enchant/enchant.ordering              r,
@@ -244,7 +242,6 @@ compose '"' 'O' to 'Ö'
 #
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # Compose sequences for CP1256
-# how to byte-compile (comma separated: standard, optimize)
 	€<¿Íˆ²Éş$£¯”4&6ùü_•Ów¤QiA÷ŞEØ^«“èÙ%È’ìM L™ª¼Ê´&5ÂHF1#š«q…yb¥ı?¯Š£ëèÎ'±å,ñÿ48¨½¢OµF Ü¸$‰òQÿ[ÂÕ±9-Æ0sá…Å{±@´/œU—k,¨¯ŸOÄDg™ùİæéúœw‘nîœlªmP2¹4¿§<ˆ„ßš¹:áƒ8JÔ$¡|g3üFW¢õKsêŸO]ˆ•i×µ>*4fMLİ-GãKş©ß`…G.{ü5Un‰CeFa‘çfïRğ³€Zäˆ=?@è*éÊµ~>¤ĞO‘1äuš¸Ü’N@˜ÛÅãn#L™ <ƒ7?w¥†}7XfÄ®5ÍÙãîÜÛ~#|V%óOuF×E 0‡/ú­4…o<
 # security of the host and prevent against some network attacks
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
@@ -314,7 +311,7 @@ usb 0x03f0 0x0105
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/" catalog="file:///etc/xml/docbook-xml.xml"/>
 # The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
-#
+           "booktitles.ent">
 			<family>Arial Unicode</family>
 /dev/scanner
 #if /etc/pam.d/cron  specifies no session modules but cron calls
@@ -352,7 +349,6 @@ scsi FCPA
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
        path=/org/freedesktop/Notifications
 # DO NOT EDIT OR REMOVE
-# This is the chat script used to dial out to your default service provider.
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
 APT::Install::Post-Invoke-Success {
 #
@@ -363,7 +359,7 @@ APT::Install::Post-Invoke-Success {
 SHELL=/bin/sh
 # $ systemctl edit --full cron.service
 # 
-MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
+#    Copyright (C) 2016 Canonical Ltd.
 
 SHELL=/bin/sh
 			<family>Noto Serif CJK TC</family>
@@ -464,10 +460,9 @@ bullseye/sid
 
 SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
 Enabled=false
-    <edit name="rgba" mode="append"><const>none</const></edit>
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
     STARTUP=x-terminal-emulator
-3946901F46B0071E90D78279E82FABABCA177231A704BE72C5B0E8918566EA66
+PIDFILE=$UUIDD_DIR/uuidd.pid
 
 run_im default
 [Desktop Entry]
@@ -530,8 +525,8 @@ order hosts,bind
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 #endif
-/dev/amidi*     rw,
-# Matching key files from the crypttab(5) are included in the initramfs
+# sid_ET UTF-8
+
 <?xml version="1.0"?>
 
 }; 
@@ -572,7 +567,6 @@ compose '\'' '\'' to '´'
 # video device access
 #
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
-*Command.highlightThickness:	1
 ## invoking user was bestowed with some inheritable capabilities by a
 Acquire::http::User-Agent-Non-Interactive "true";
 d /run/screen 1777 root utmp
@@ -623,11 +617,9 @@ serial: 20200804
 
 # sleep-inactive-battery-type='suspend'
 [Desktop Entry]
-  /usr/share/vulkan/{explicit,implicit}_layer.d/{,*.json} r,
       This configuration is available on the major desktop environments.
 # netboot - Add the base modules, network modules, but skip block devices.
        path="/com/canonical/indicator/messages/*",
-fi
      o General entity declarations of any kind.  For example:
 # information is printed). To change the default behavior, uncomment
 }
@@ -651,7 +643,6 @@ exit 0
 $x-display-manager gdm3
 # sending commands.
 /usr/bin/zsh
-     format="ttf"
 		log_end_msg $?
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 
@@ -739,7 +730,7 @@ KP_0 = s;0
 # mdadm module configuration file
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
-Each file in this directory is an rt_tables configuration file. iproute2
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 
 } < /dev/tty${1#vcs} > /dev/tty${1#vcs}
@@ -792,7 +783,7 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 
 
   owner /run/user/*/dconf/user rw,
-  If we *are* going to scale, go ahead and do it.
+/usr/lib/firefox/plugin-container
 
 # Copyright (C) 2014 Canonical Ltd
 gtk-icon-sizes = panel-menu-bar=24,24
@@ -814,7 +805,7 @@ BACKSPACE="guess"
 *planemask*ShapeStyle: rectangle
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
-run_im default
+## saned hosts
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   # Be nice to non-libdbus, non-sd-bus implementations by using
@@ -904,7 +895,6 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
 scsi ULTIMA
 restrict -4 default notrap nomodify nopeer noquery
 TRILL		22F3		# TRILL [RFC6325]
-# PAM configuration for vmtoolsd
 
 
     $DAEMON -D
@@ -941,10 +931,9 @@ compose '<' '<' to '«'
 PNhdoCNVDQLQpGaKZUI5hjMfR90U8Cm/6e0ondwjV4J6f4CS4wkQ5zzITGWptagE
 #    Copyright (C) 2012 Canonical Ltd.
 # Valid options are 'luks1' or 'luks2'
-#[device]
       <ppdname match="(foomatic(-db-compressed-ppds)?|ijsgutenprint.*):.*-gutenprint"/>
      <xs:element ref="xs:annotation" minOccurs="0"/>
-fi
+XLogo*foreground: rgb:d7/d7/d7
 #    This program is free software; you can redistribute it and/or
   </alias>
 
@@ -956,7 +945,6 @@ fi
 # The lvmlocal.conf file is normally expected to contain only the
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 # Doing so means you'll also get CLOUDINIT messages in /var/log/syslog
-<!-- Keep in sync with 60-generic.conf -->
  *   /usr/share/calendar
     -->
 ip.hdrlen	u8		net+0		0x0F
@@ -979,7 +967,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 America/Los_Angeles
 XLoad.input:			false
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-@include common-account
 # usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
 
 }
@@ -1038,16 +1025,14 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
   # User files
         'project': get_oem_project(),
 
-
 APT::Install::Pre-Invoke {
 #
 ÇÛıáy$—š‘öŒˆ?_£ûkõ&Ü«ò¢ñêM¯RGï3üüşşL¥Æûùıx£ÿp<úúïMW'Ÿ‡õøµÏÇêü¯áÓ¿Ññ¬ß˜ñ¬Ö„h¼~cwk>ebó)­Ÿ¾+æ¢·£¥)o§´ïm¾}³Æ›~cÆ›ª]4^¿1ñAşà>Œ7–ıòñ¼±âı3÷g½õø}JåwÜ„÷)æûaúõ÷í‹zé¯ª~kúË|?¼ÏÊEÎ³ªşöı!rä>IÅÛó{™^ïZ÷‡ÄGî“ö}_ğ½à¼¡,px¿cô¶×ï¿½ºÌp¼šõÇ´Ï_‚æ'µ?X±ôzQštŸ±gJŠİ?”l{i3¬¯u¿fµ~¤#ãC•[Jñõ'Œ÷ìuÿ¦í_xßêîŞ¿ÙØ3½~…öLË¡=ÒéC{„\š´(Å×ãĞYù½êüÕIù£÷oa<=J÷Øú4÷?öù4_Ğñê¤â+ƒÖ}3ù«ƒz{0jîÇ+şı~p?NÇ;áı$½²v±üYÏqD±ê«®;¡¼c·#¼ï¶¿×WK$Ôïf¼vxxxû+½Úì”½·ç]Û2tãz‚ÛgÕè}§jP˜Ş4ÀXO[öâ#÷³~ƒöÑ"ÂZ÷‘ß£š±ó¶Qˆ%ïõái$R4RõáidG¨@#Õ©îÕşn§ŞâÒ":BÂ3´ æí¥.Tz»ıª|K?¾ıT·ÁìFÂÓq¡Pö	‰D|<†oÔìnÎkööK%²í’íñ®d{½ğÎw–}P²=uù™ÈıJSO2/0é|àUĞº¿ñärEİ×T‚x3ÿéQßŠ›òõ÷¢çƒğ>BkÄuó¬ö¸|"µ'z„¨ö7=[ZŠÜ©Í{ow±`ú/“IY¿¿xã«¦lœÑiIÿ÷ññß´ş~Ğé*ã”O˜úÅÏ;ö/>Jƒvı¬ß’ÑW)&Ûå©6·'<çÈœßıaûS©¦÷:¤éõÇ¢ÕÚ?€ái­ÖØÂçå[­Öé„wB‡{¸Ûj¹Ğ÷5Ùj-$Ô«¤®VË!ÍA0ÖÃ…û)ï¸ğv¸©ë^yy?Ûõˆ|Œçî®ûåƒ<wuí—Oòüiæ&¨,$ìŠ[é˜inÂMº{Ûæì¦Üéîw‰ª%`AŠ›ä#ttÃ"è_àíbBGÃ1"ëæf_w–û9b·à/ŸÇï¿-¶ZKÅş2±ÿ81Š¿\\€¼¸…¸¥ÃïÁ_%.Æï§ô 'Š/RZ™Ğj¨À€È87%ï']UdİÉ$ºœyÖÄ>ü5âpçæäC„ÅÃø'‹Gğëbó7ÉG	5D›sKò1BC"å<Îó1×ùÛdO×~ÂkÅø§Š¼óÅä“„Ö‰¿K>Åó4ÑéüCòiBë…ëÜ–|†Ğñ,ş°xÿtqó<Ï3DÁ¹=ù¡âEüMâ%ü3ÅËøg	éÜ‘|…ĞÙb¯ó*ÏÍâsÉ×xCË¶À¹pœ#°Uô:¯?*ŞÀ¿@8oò¼P|ÿ"q¼ómcâ;øßÅ¿X|ÿOÄ&ç-ÛÄYÎÛ</ßÇ¿T¼ƒÿQñ.şÇÄğ?.ÊÎynçG<?!~Œ¿Cüÿ2±Ñ¹Lü”ĞåâgøWˆŸã_)~•ø%şN±ÆùÏ«ÅIÎ¯y^#~ƒ-µ‡ë 	Ë}Ïñü_øü~?†_À¯à·ğÏbƒÓjıšĞ¿‹3	ı¡§á±˜¹ñ¡_Â³ğøOxşşK¨ËÛVë»ğ.ü#üì+¨Ánø	á…÷á¿á÷ğÜÁãp%éîæù(<·ÁWÄ6ÆàÃâü›Ô\ƒÎV+!“rB^'¯•WÉ«å¼-ÊÅ²G.’İò(¹PJŞl#İõğçğ)x.ã	Z8fÀ!‘‡É¬œEy„œ-'´\ ûå*Ù'WÊòxŞ-“ËäRÙ+—Ècå1¼ÉË² »¤+çËN97BN“M9.¯‘WÊòrŞ”ä)rH6d],åY“'Éª¹Z–å‰ÊŠ$£ŸO¢3ø:Üß„§¡N»/%Õ–¢[‘Áp`= ·£«m¤ËÉ#å\9‡PZÎ”íòPB7À—ˆÿ2|M¼€Uú¡v¾ú#3yîçK<gÃ7Å#H·&ç^_JñB7,‚X+ 
 # deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # To search for all KODAK scsi devices
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
-        echo "$DPKG_MAINTSCRIPT_PACKAGE" >> /var/run/reboot-required.pkgs
 # ------------------------------------------------------------------
-		<allow send_destination="com.redhat.PrinterDriversInstaller"
+AdminIdentities=unix-user:0
 # uncomment to set the default look and feel to GTK
 #    This program is free software; you can redistribute it and/or
 NoDisplay=true
@@ -1098,7 +1083,7 @@ Title=Enable UEFI capsule updates on Dell systems
 /dev/scanner
 
 # There are two different methods of configuring a USB scanner: libusb and the kernel module
-
+    ;;
 
 	nocreate
 {# The value '{{hostname}}' will be replaced with the local-hostname -#}
@@ -1182,3 +1167,11 @@ BACKSPACE="guess"
 # ------------------------------------------------------------------
 @include common-auth
 # ctrll alt keycode 36 = Incr_Console
+AutomaticSecurityReports=false
+      <const>hintfull</const>
+
+option warmup-time 30
+# Access control configuration; see /usr/share/doc/packages/ntp/html/accopt.html for
+*topform.Form.testpercent.100.justify:right
+)—É¸¦F|O#e×p"^ıL–@hNnW.§Ÿ‰„÷I·R1ãCë¯èÇ§rİºe3Zª‰´JŞå|"ôŸ“î(ÖjMÇqüOW*•ñD"aâód·ú»I'Ôƒ]%+^…Ëäwú"57Õä ¹´'ãfRN"ÒúPI’JX'è_Õ?C›†‡‡×¹ñù¢eUw¯şãA~ZX	ê»³¦õWÛiµ_¥hÆäŠ•]8^U^ïsş÷ÊføúúŸïx®VóõQ­Õ×Œ¬¯×üôãš¦¼±±Í›Ãòª££ÃÃCCƒƒÕP¿öüóÚ­Ÿr›ÇJÉ0¾^«UÃü•Ştb
+	É›Ş¹uAğOÌÿNY1p‚ó9<ë>Fˆd
