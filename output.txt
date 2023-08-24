@@ -1,4 +1,3 @@
-deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 @include common-account
 
 NoDisplay=true
@@ -12,7 +11,7 @@ JuR8XvOxjqdUexEmAJdQCtxJgLTlI40xSlcmSEIneCamOhA/I/T+nkXFAfV65FKF
 # install the apport exception handler if available
     // There is no restriction to any algorithms.
 # IRQBALANCE_ARGS
-           "booktitles.ent">
+#DUIDType=vendor
 vrrp	112	VRRP		# Virtual Router Redundancy Protocol [RFC5798]
 /bin/sh
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -32,7 +31,7 @@ Alias /javascript /usr/share/javascript/
 #noprecal
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 Title=Vendor
-    <allow send_interface="org.debian.apt.transaction"/>
+
 
 OMITDIR=/run/sendsigs.omit.d
 # Compose sequences for ISO-8859-16
@@ -45,7 +44,6 @@ The files are loaded in numeric order, the structure of the configuration
 audio/x-mpegurl=rhythmbox.desktop
     esac
 // Pre-configure all packages with debconf before they are installed.
-		fi
 	<match target="font">
 #
 #!/bin/sh
@@ -109,7 +107,7 @@ Before=snapd.service
 #    Copyright (C) 2012 Canonical Ltd.
 
 # Compose sequences for IBM1133
-CATALOG /usr/share/xml/docutils/catalog
+# vim:noet
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
   deny @{HOME}/.mutt** mrwkl,
 
@@ -126,7 +124,6 @@ deb http://packages.azlux.fr/debian/ buster main
 XLoad.input:			false
 aXJtd2FyZSBTZXJ2aWNlIDxzaWduQGZ3dXBkLm9yZz6JATcEEwEIACEFAlWt/98C
 # Compose sequences for TIS-620
-
 #
 MANPATH_MAP	/opt/sbin		/opt/man
 if [ -f "/snap/bin/canonical-livepatch" ]; then
@@ -235,7 +232,6 @@ scsi APPLE
 	# Configuration option local/system_id.
 # For more details, please see /etc/apparmor.d/local/README.
 
-# fstrim=0
 #
 /usr/local/lib
 # a.) make changes to the master file in /etc/cloud/templates/hosts.redhat.tmpl
@@ -256,7 +252,7 @@ server {{server}} iburst
 
 APT::Periodic::Download-Upgradeable-Packages "0";
 
-	rm -rf "${RUN_DIR}/interface/*"
+
 // grant codeBase "jrt:/com.greetings" {
 
 ## This file is provided by command-not-found(1) to download
@@ -325,7 +321,6 @@ DAEMON="/lib/systemd/systemd-udevd"
 	    <family>NanumGothic</family>
 #
 PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_lts_contract.py
-  /{etc,var/lib}/dehydrated/certs/*/cert*.pem r,
 Categories=System;Monitor;GTK;
 	rotate 4
 
@@ -396,7 +391,7 @@ usb 0x03f0 0x0105
 # ------------------------------------------------------------------
     <family>Bepa</family>
 ‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ıi¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù™¹<Ëº-çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷ŠˆièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
-directory), then /lib/terminfo, and last not least /usr/share/terminfo.
+#
 #    modify it under the terms of version 2 of the GNU General Public
 #
 IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
@@ -442,7 +437,7 @@ SHELL=/bin/sh
   /etc/ssl/openssl.cnf r,
 			<family>Noto Serif CJK TC</family>
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
-		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
+</fontconfig>
   #include <abstractions/nameservice>
 
 			<family>FreeMono</family>
@@ -475,7 +470,6 @@ deb {{mirror}} {{codename}} multiverse
   the ImageMagick option
 alias.url += ("/javascript" => "/usr/share/javascript")
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
-// Notify all clients to reload the cache
 # IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
 #parport0
   network netlink raw,
@@ -501,7 +495,7 @@ deb {{mirror}} {{codename}}-updates main
 
 B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
 # comment out the following line to allow CLOUDINIT messages through.
-    label in2 "+3.3V"
+    STARTUP=x-window-manager
 #
 printf '\033%%G' 
 # If an executable path appears on any line in any file in
@@ -519,7 +513,7 @@ sysresources=/etc/X11/Xresources
 # symbolic names for networks, see networks(5) for more information
 #!/bin/sh -e
 }
-BYOBU_BACKEND="tmux"
+# should contain commands that should be executed only
   . "$USERXSESSIONRC"
 # particular interface
 127.0.0.1	www.frankvoce.com
@@ -533,7 +527,8 @@ main
 	û„?'/[¬öˆß§¿|L¥
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 # with cloud-init during boot causing issues with host key generation.  This
------END PGP PUBLIC KEY BLOCK-----
+        <Key>space:     next-page()
+
   /usr/bin/mailody Cx -> sanitized_helper,
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
 *directoryFontNormal:		-*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
@@ -615,7 +610,6 @@ modules=*
 # usb 0x4b8 0x14c
    "URL": "https://launchpad.net/~%s/+sshkeys"
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
-
         fi
 DAEMON=/sbin/lvmpolld
 ™ZÂfSÏóuØåO(°ØáÓ‰ëã"MÛÇöLušz…†YŠj}dú1”q¯ò_0*—•IL¬%‹Zıê6Å)ÿ¦µûëËÃ´~}ÖZ¼i?Óì9ƒZ6M¢g4/ÿâT_JÁ(I°£ò÷’ëÀz‡Š"œßNhß;ûp­d¹"ÂüFAñc‚`<9‚Róyí1 ‡_ç‘Zø¯›M%¨LD}F[“ˆ"ÈZÍ$½ü(­ŒÅ$_¯?(ÖLjÁÏZTdü½ƒ­påíŠô ¨{á^1_&glÃ'n|å:½ŸK•eß4yÇäƒµ‹uò ^=üš²|Ò•|ï²bS»µ›H)¼ø¿lê9tÖ	äg"v™•Ñó»>…¶Y€i!>Çf¨db§©Cj»×‚•2”é¦ÒhŸwaT‘¼˜zH²)ÀšüŠê
@@ -628,7 +622,6 @@ DAEMON=/sbin/lvmpolld
   pwd="${pwd//[[:cntrl:]]}"
 
 	<alias>
-
 title=@REALNAME@'s media on @PRETTY_HOSTNAME@
 encap	98	ENCAP		# Yet Another IP encapsulation [RFC1241]
 
@@ -734,12 +727,10 @@ auto
 [connection]
 /lib/x86_64-linux-gnu
   @{sys}/class/video4linux r,
-#
 <delegatePublic publicIdStartString="ISO 8879:1986//ENTITIES" catalog="file:///usr/share/xml/entities/xml-iso-entities-8879.1986/catalog.xml"/>
 		exit 1
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
-191 191 191 		gray75
 # Compose sequences for ISIRI-3342
 Please read the update-alternatives(1) man page for information on this
 [Desktop Entry]
@@ -825,7 +816,6 @@ auto
 # Compose sequences for KOI8-U
 
   @{HOME}/** r,
-user-db:user
   @{PROC}/sys/crypto/fips_enabled r,
     // For request/response body processors, fromFile, asFile
 deb http://packages.azlux.fr/debian/ buster main
@@ -835,7 +825,6 @@ quote-names
 	bootdir=$(dirname "$2")
 @include common-account
 #
-##########################################################################################################
 	didn't include the right instructions in the 'prep' table.
   <mime type="application/x-krita" description="Krita document" data-type="string" offset="0" magic="\037\213" priority="50" />
 
@@ -878,7 +867,7 @@ OK		ATD*99#
 # In general, PTRACE is not needed for the average running Ubuntu system.
                       cat <<EOF >>$statedir/isc-dhcp-v4-$interface.conf
 
-## template:jinja
+# Uncommenting the following three lines will polyinstantiate
 APT::Archives::MinAge "2";
        interface=org.a11y.atspi*,
 compose '>' 'A' to 'Â'
@@ -971,7 +960,7 @@ LANG=C.UTF-8
 gtk-icon-sizes = panel-menu-bar=24,24
 if [ -f /run/console-setup/keymap_loaded ]; then
   # System files
-fi
+deb http://packages.azlux.fr/debian/ buster main
 ## extensively as that contained in the main release, although it includes
 "\e[7~": beginning-of-line
 
@@ -979,7 +968,7 @@ fi
 	  <family>Nasim</family>
        notifempty
 @(ath|wifi|wlan)*([^.]).inet
-#KillOnlyUsers=
+# bjnp://scanner.bad-network.org/timeout=1500 // timeout set to 1500 ms
   </its:rules>
 #lookahead = on
 CATALOG /usr/share/xml/svg/catalog
@@ -1001,7 +990,6 @@ if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
 CRYPTDISKS_ENABLE=Yes
   fi
        peer=(addr="@/tmp/dbus-*"),
-		</prefer>
 # will be used
 scsi "B&H SCSI"
 			<LeaveWindow>: unset-colors()\n\
@@ -1072,7 +1060,6 @@ gtk-sound-theme-name = Yaru
 
 # Note: the line below cannot end the file (there must be at
 _apt:x:105:65534::/nonexistent:/usr/sbin/nologin
-XCalc*.bevel.background:		gray80
 # Canonical runs a service at motd.ubuntu.com, and you
 Name=GNOME Settings Daemon's sound plugin
 URI_PROPOSED_POSTFIX = -proposed
@@ -1097,7 +1084,7 @@ TRILL		22F3		# TRILL [RFC6325]
 APT::Periodic::Update-Package-Lists "1";
 # PAM configuration for vmtoolsd
 
-/usr/bin/wine-preloader
+
     $DAEMON -D
 ÷Şz’Ï";Ø€Cwz›HìN»âaœ¥½1õ­µÀ‚÷Õ“2Ÿ/§½7‚cßËk«¸¹÷t;|}“4œ·³İÆ†$0°xÅVêsy²r›~È”fÈŒø†‚kÛq‚úåòÆ6—œŞ÷¯ÔáÕ.Fgw6Öç
   </alias>
@@ -1189,3 +1176,9 @@ else:
 <delegateSystem systemIdStartString="http://xml.ascc.net/xml/resource/qaml-xml" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 [msr]
+#
+# Select which information is logged.
+# This is useful for keyfiles on removable media. Default is unset.
+    # Start best input method unless overridden below
+#include <abstractions/ubuntu-browsers.d/mailto>
+
