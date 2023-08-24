@@ -38,7 +38,7 @@ audio/x-mpegurl=rhythmbox.desktop
 
 		mkdir -p /boot/grub
 # one second, but only in the first three clock updates.
-[ ! -r "$stamp" ] || cat "$stamp"
+
 # Configuration file for the hp4200 backend
 # In this case, you should also set the "nodefgroup" option.
 #
@@ -51,7 +51,7 @@ mode="${1#'}"
 #FallbackNTP=ntp.ubuntu.com
   #include <abstractions/opencl-nvidia>
 {
-### that look up the default sink/source get the right value
+gtk-icon-theme-name = Yaru
 datasource meta-data and user-data.
 # Compose sequences for VISCII
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
@@ -165,7 +165,6 @@ case "${1}" in
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 # Compose sequences for ISO-8859-8
 # Additional mounts to exclude at shutdown.
-/ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 server {{server}} iburst
 APT::Periodic::Download-Upgradeable-Packages "0";
 
@@ -182,7 +181,6 @@ APT::Periodic::Download-Upgradeable-Packages "0";
 Name=GNOME Settings Daemon's housekeeping plugin
 	log_end_msg $?
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
-blacklist rivafb
 # inclusion by distributed profiles to aid in packaging AppArmor for
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 
@@ -191,7 +189,7 @@ compose '"' 'O' to '÷'
 # /etc/xdg/user-dirs.defaults)
 # video device access
 # The src directory. This is the directory where the historical
-      Most clients may picks up the first value only. so using "append"
+/usr/local/lib/i386-linux-gnu
        bus=session
       may simply works to avoid it.
 #
@@ -216,7 +214,7 @@ BatteryThreshold=10
             . /usr/share/bash-completion/bash_completion
 APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
 #    10-help-text - print the help text associated with the distro
-
+/ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 # Default-Start:     2 3 4 5
 <!-- You can edit this file to add the following:
 			<string>serif</string>
@@ -232,7 +230,6 @@ networkd_dispatcher_args="--run-startup-triggers"
 # you can temporarily override this with
 
 fi
-	<alias>
 
 PasswordAuthentication no
 9	ra
@@ -291,7 +288,7 @@ PICTURES=Pictures
 usb 0x08f0 0x0002
 # DO NOT EDIT OR REMOVE
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
-APT::Install::Post-Invoke-Success {
+# which should not be used by bindresvport. bindresvport is mostly
 #
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
@@ -322,7 +319,6 @@ deb {{mirror}} {{codename}} multiverse
 
 # Rules for writing KDE icon cache
   the ImageMagick option
-# IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
     <Menu>
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 #
@@ -348,13 +344,12 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 
   dbus (send)
 #
-#!/bin/sh -e
 
 # should contain commands that should be executed only
   . "$USERXSESSIONRC"
 # particular interface
 +# then you will need to either
-‹Fˆ¢Œπng;ÎˆãgrÍ‰íŸØ``Ö ∞⁄iË€Œd<Œ∑g∫Wå«≠H+ÀÈZ–≥‰b…ŸzmG¿E:öiè,ﬁl
+#
       We shouldn't overwrite it with "assign" unconditionally.
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 # with cloud-init during boot causing issues with host key generation.  This
@@ -372,7 +367,6 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
 bullseye/sid
-#    Copyright (C) 2012 Canonical Ltd.
 # Check for interactive bash and that we haven't already been sourced.
 
 SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
@@ -448,7 +442,6 @@ After=snap-lxd-18150.mount network.target snapd.apparmor.service
 /Ryumin-Light /Japanese-Mincho-Regular ;
 NoDisplay=true
 rocks_trees = {
-# Description:       Debian init script for the GNOME Display Manager
 					6)
 exec_prefix="/usr"
 
@@ -498,9 +491,8 @@ auth		sufficient	pam_rootok.so
 -dcevm KNOWN
 # i.e. for Plustek (0x07B3) U1212 (0x0001)
 
-    <edit name="hinting">
 # sleep-inactive-battery-type='suspend'
-[Desktop Entry]
+# Allow access after n seconds to root account after the
       This configuration is available on the major desktop environments.
        path="/com/canonical/indicator/messages/*",
 }
@@ -528,7 +520,6 @@ $x-display-manager gdm3
   audit deny @{HOME}/.mozilla/{,**} mrwkl,
 if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 APT::Periodic::Update-Package-Lists "1";
-#    This program is free software; you can redistribute it and/or
 # This file is sourced only for login shells (i.e. shells
 
 # REMOVE_HOME or REMOVE_ALL_FILES is set.
@@ -557,7 +548,6 @@ Kernel system variables configuration files
 # Compose sequences for GEORGIAN-PS
 . /usr/share/bash-completion/bash_completion
 		</test>
-  # per-user write  directories
 system-db:ibus
 
 
@@ -643,15 +633,15 @@ deb http://packages.azlux.fr/debian/ buster main
 word         q<put password here>
 CATALOG /usr/share/xml/svg/catalog
 BACKSPACE="guess"
-
+  notifempty
 # e2fsck_opts="-vtt"
 
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
-session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
+/Adobe-Japan1 /Japanese-Mincho-Regular ;
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 X-Desktop-File-Install-Version=0.24
-commands scan this directory processing all files that end in '.conf'.
+	start)
 # Compose sequences for GEORGIAN-ACADEMY
 # /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
 CRYPTDISKS_ENABLE=Yes
@@ -700,7 +690,6 @@ DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 #
 HOMEHOST <system>
 # escpecially if they contain "#" chars...
-#pio 0x378
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 # Note: the line below cannot end the file (there must be at
@@ -827,7 +816,7 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 APT::Install::Pre-Invoke {
 
 for background in *.jpg *.JPG *.jpeg *.JPEG *.png *.PNG *.tga *.TGA; do
-# To search for all KODAK scsi devices
+# Required-Stop:     $local_fs
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
 # ------------------------------------------------------------------
 
@@ -847,7 +836,6 @@ b∫”#œ‰1Ø–&.°5†ñ	∞K‚c‡¸∏†6Àﬂuë“Åäs•)∑ƒ6ıä∏∞ ¢=ﬂtv °Me1—öN∆ZÁe· d–e∂*CÉˇ…
 #
 modules_load_preference=ondemand
 LP-PPA-mozillateam-firefox-next
-
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 #    License published by the Free Software Foundation.
 // Notify all clients to reload the cache
@@ -874,7 +862,6 @@ if enabled in cloud-config.  Specifically, in order to enable it
     ;;
     <!-- org.freedesktop.ModemManager1.Modem.Voice.xml -->
 	nocreate
-{# The value '{{hostname}}' will be replaced with the local-hostname -#}
 mQENBFUr0UoBCACsdOLuTJ81dICrSvUhyznBsL4WgEa2RUbEjJuaXwrEyPMikHE1
 
   <mime type="application/x-blender" description="Blender scene" priority="100" pattern="*.blend" />
@@ -917,7 +904,6 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 compose ':' '-' to '˜'
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
     validation_name: XYZ
-  # Extensions
         ;;
 allow-failsafe
   audit deny @{HOME}/.gnupg/{,**} mrwkl,
@@ -1108,7 +1094,6 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 XCalc*bevel.screen.INV.vertDistance:		4
       may simply works to avoid it.
 
-// This file can be used to configure global preferences for Firefox
 OK		ATD*99#
 Type=Application
 letter
@@ -1149,7 +1134,6 @@ security.overridePropertiesFile=true
     <test name="family">
 873	# rsync
 # vmtoolsd.level = none
-usb 0x04c5 0x14e3
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
 Terminal=false
   /usr/bin/prism Cx -> sanitized_helper,
@@ -1219,3 +1203,10 @@ libXvMC.so.1
   # PDFs
 #
   /usr/bin/transmission{,-gtk,-qt,-cli} Cxr -> sanitized_helper,
+<!DOCTYPE busconfig PUBLIC
+/usr/bin/wine-preloader
+LANG=C.UTF-8
+  ;;
+”Z∏,„∞Àº*m66{ˇl⁄5°
+X-GNOME-HiddenUnderSystemd=true
+                <test name="weight" compare="less_eq">
