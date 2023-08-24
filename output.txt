@@ -33,7 +33,6 @@ audio/x-mpegurl=rhythmbox.desktop
                 . /lib/lsb/init-functions
 
 		mkdir -p /boot/grub
-# one second, but only in the first three clock updates.
 
 # Configuration file for the hp4200 backend
 # In this case, you should also set the "nodefgroup" option.
@@ -41,7 +40,6 @@ audio/x-mpegurl=rhythmbox.desktop
 		</edit>
 [Desktop Entry]
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
-mode="${1#'}"
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #    This program is free software; you can redistribute it and/or
   #include <abstractions/opencl-nvidia>
@@ -145,7 +143,7 @@ case "${1}" in
 *editButton.menuName:			editMenu
 
 
-# a.) make changes to the master file in /etc/cloud/templates/hosts.redhat.tmpl
+# mibdirs /usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf
 
       <family>DejaVu LGC Sans Mono</family>
 
@@ -194,7 +192,7 @@ BatteryThreshold=10
 #
             . /usr/share/bash-completion/bash_completion
 APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
-#    10-help-text - print the help text associated with the distro
+    </default>
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 # Default-Start:     2 3 4 5
 <!-- You can edit this file to add the following:
@@ -211,7 +209,6 @@ networkd_dispatcher_args="--run-startup-triggers"
 
 fi
 
-PasswordAuthentication no
 
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
 <?xml version="1.0" encoding="UTF-8"?>
@@ -254,7 +251,6 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
 #
 # the shim loader is required to chainload the fwupd EFI binary unless
 gtk-theme-name = Yaru
-PICTURES=Pictures
 
   <!ELEMENT threshold (description,levels)>
 
@@ -291,7 +287,7 @@ NoDisplay=true
 			<family>padmaa</family> <!-- gujarati -->
 deb {{mirror}} {{codename}} multiverse
 ## serial port or special bus peripheral. The particular  
-
+order hosts,bind
 DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
   the ImageMagick option
 #
@@ -314,7 +310,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 #autodetach off
 # `dbus-1/services`, etc.
 
-  dbus (send)
 #
 
 # should contain commands that should be executed only
@@ -392,7 +387,6 @@ glibc-ld.so.cache1.1v Ò@kMkpkÑkÆkªkﬁkÍkll:lDldlnlélñl¥l¡l
 
 <?xml version="1.0"?>
            send_member="GetAll"/>
-if [ -n "$DESKTOP_SESSION" ]; then
 
 #############################################################################
 # ipmi-fru-bridge-fru DISABLE
@@ -431,7 +425,6 @@ auth	required	pam_nologin.so
 
 #    modify it under the terms of version 2 of the GNU General Public
 BQJbAwPCAhsuASkJEAptzva0bz2/wF0gBBkBAgAGBQJbAwPCAAoJEL4e3StH4Ita
-9ED8F9B0E8E42A1656B8E1DD18F42BA42DC06FE52686173BA2FC70E756F207DC
             break;
  FT~jO1ÒÅ~Bt8es'Ó∆|∏é◊•:◊ò°úåU”€KÏ@êÚÕnW“b|Wì±ßmÕùÉª*ÁÂ∂;qX≠˝—EºZëÓSo”E	un∫ê]œ7ﬂ®f±åÊ jÔ¸HNtòBØ)o.j«˚}—f1"ÃÜ~fÉBÙΩ4í√ÍO ~rMpå¶Hª¶°ˆ˚XDôÆ™ìi†)%J•À+›äfxWqÏıGÑÛû17z’$≠‰º˝˝ÃnÉË®∑Al›Ω<Üó/“-debian:staat_der_nederlanden_root_ca_-_g3.pem8P^˙X.509x0Çt0Çò¢90	*ÜHÜ˜0Z10	UNL10U
 
@@ -550,7 +543,7 @@ encryption=luks1
   metering_timer: 14400
 
 #!/bin/sh
-# We want to confine the binaries that match:
+  /usr/bin/audacious2 Cxr -> sanitized_helper,
 
 usb 0x05da 0x30d4
 
@@ -571,7 +564,6 @@ Name=GNOME Settings Daemon's Wwan plugin
 # This file is sourced by Xsession(5), not executed.
 
 mozilla/Buypass_Class_2_Root_CA.crt
-# Copyright (C) 2014 Canonical Ltd
 gtk-icon-sizes = panel-menu-bar=24,24
 if [ -f /run/console-setup/keymap_loaded ]; then
   # System files
@@ -612,7 +604,8 @@ EnableWattsUpPro=false
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # [If you don't know about libcap, the sources for it are here:
 #GRUB_DISABLE_LINUX_UUID=true
-GRUB_TIMEOUT=0
+Interaction styles
+
 
 #
   /etc/drirc                      r,
@@ -625,7 +618,7 @@ DESKTOP-OFJN9OT
 [Desktop Entry]
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 #    This program is free software; you can redistribute it and/or
-# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
+# where dovecot is allowed to store and read mails
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 	        Shift<Btn5Down>,<Btn5Up>: Page(Line,1) \n\
 #
@@ -804,7 +797,7 @@ FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
     </levels>
 #    modify it under the terms of version 2 of the GNU General Public
   /usr/bin/libreoffice Cxr -> sanitized_helper,
-deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
+#
 ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
     <family>Arev Sans</family>
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
@@ -876,7 +869,7 @@ APT::Periodic::Update-Package-Lists "1";
 
 # This specifies maximum number of attempts to obtain lock file by FileHandler
 . /usr/share/bash-completion/bash_completion
-# deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
+[storage]
 else
        %all-titles;
 	<alias>
@@ -920,7 +913,6 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 # The values are relative pathnames from the home directory and
 <!-- Delicious 'heavy' variant says its Medium weight -->
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
-
   /usr/include/X11/**             r,
            send_member="GetAll"/>
 # IPMI_OS_Boot_Base_OS_Hypervisor_Installation_Started   Nominal
@@ -986,7 +978,7 @@ pool {{pool}} iburst
 # Define LSB log_* functions.
 X-GNOME-Autostart-Notify=true
 # Uncomment and edit /etc/security/access.conf if you need to set complex
-[Desktop Entry]
+}
 #2	inr.ruhep
 PK!		Êñ∞Âä†Âù°UTcx6m√”ÆOÁ.‰PKN˛5„PK!	Êñ∞ÈóªUTcx6m√ÀÈªπPK§èej
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es+3ot67hZaz+cI7KRAxQD8n8R9m9Ekf9k/0WZDsfzCaIZokAbO1IYo6mznd3vsbkRgGqz6PPcURRgc1A= open-ssh-ca@cloudflareaccess.org
@@ -1040,7 +1032,6 @@ security.overridePropertiesFile=true
 # Compose sequences for GEORGIAN-PS
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
     <test name="family">
-873	# rsync
 # vmtoolsd.level = none
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
 Terminal=false
@@ -1098,7 +1089,7 @@ Name=GNOME Settings Daemon's power plugin
 NoDisplay=true
 libXvMC.so.1
  </annotation>
-	do_start
+# you'll want to create it with a restrictive umask in order to keep
   # PDFs
 #
       may simply works to avoid it.
@@ -1203,3 +1194,18 @@ Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_C
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent \(ssh-agent emulation\)\.$
     permission java.util.PropertyPermission "java.vm.vendor", "read";
 
+  /dev/tty     rw,
+/dev/scanner
+GRp¢£™m“K>'¿¸À]ÇèÿØÊÁ9,ÂÁ>;$æ›`£sì(nı4†<êÙõ‚3ƒç”≤ƒ]IÎ‡ç$Ç	•´é†{Cëªw†ƒƒe±â_ïk]âß¯¶_sı6.ãbÒñÜÊsµ6ò¥_jB^Up»»À‚a)‹<
+session required        pam_limits.so
+#        - a group name, with @group syntax
+  <type name="DejaVu-Sans-Condensed-Bold" fullname="DejaVu Sans Condensed Bold" family="DejaVu Sans" style="Normal" stretch="SemiCondensed" weight="700" glyphs="DejaVuSansCondensed-Bold.ttf"/>
+DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
+!O≠éh	
+/usr/bin/wine-preloader
+# Compose sequences for ISO-8859-10
+# to the X server to any process from the same user on the local host.
+
+<?xml version="1.0"?>
+Ubuntu 20.04.5 LTS
+    [ -n "$ZSH_VERSION"  ] && precmd_functions+=(__vte_osc7)
