@@ -47,7 +47,7 @@ audio/x-mpegurl=rhythmbox.desktop
 #
 
 # to update this file, run dpkg-reconfigure cloud-init
-
+  *)          exit 0 ;;
                 . /lib/lsb/init-functions
 
 		mkdir -p /boot/grub
@@ -62,7 +62,6 @@ audio/x-mpegurl=rhythmbox.desktop
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
-
 mode="${1#'}"
     fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
@@ -110,7 +109,7 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 <!DOCTYPE busconfig PUBLIC
 	cache_settings {
 # Autodetect the Canon CanoScan FB630u
-deb http://packages.azlux.fr/debian/ buster main
+### Automatically suspend sinks/sources that become idle for too long
 <busconfig>
 # above should normally be), it must be mentioned below. Each line may have
 XLoad.input:			false
@@ -165,7 +164,7 @@ compose '`' 'U' to 'Ù'
 
 
 # eliminate DISABLE
-#
+	</alias>
 echo
 <!ATTLIST %element;
 
@@ -237,7 +236,6 @@ scsi APPLE
      name="OpenSansLI"
 server {{server}} iburst
 <?xml version="1.0"?>
-
 APT::Periodic::Download-Upgradeable-Packages "0";
 
 // grant codeBase "jrt:/com.greetings" {
@@ -306,14 +304,14 @@ DAEMON="/lib/systemd/systemd-udevd"
 			<string>serif</string>
 	    <family>NanumGothic</family>
 #
-PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_lts_contract.py
+	The Bistream Vera fonts have GASP entries suggesting that hinting be
 Categories=System;Monitor;GTK;
 	rotate 4
 
 # MODEL
 networkd_dispatcher_args="--run-startup-triggers"
 
-# If the value is set to 'none' then the value of DefaultUrl is used.
+deb http://security.ubuntu.com/ubuntu/ focal-security universe
 # minclass = 0
 #
 # you can temporarily override this with
@@ -324,7 +322,7 @@ fi
 *Panner.background:			gray70
 @{XDG_DOCUMENTS_DIR}="Documents"
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
-# aufs variables for shell scripts
+
 PasswordAuthentication no
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
@@ -345,7 +343,7 @@ Type=Application
 
     # environments
 # /etc/login.defs and user settings, solving the problem of different
-
+# (you may need to remove these refusals if the server is not using MPPE)
 
 LP-PPA-ubuntu-mozilla-daily
 # Required-Start:    $local_fs $remote_fs
@@ -440,7 +438,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 			<family>padmaa</family> <!-- gujarati -->
 *status.foreground: green
 # /etc/pam.d/other - specify the PAM fallback behaviour
-  owner @{HOME}/.config/kdeglobals.lock rwk,
 deb {{mirror}} {{codename}} multiverse
     # VARIABLE=
   option buffersize 262144
@@ -455,7 +452,6 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
     <Menu>
     family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
-system-db:ibus
 
 #
   /etc/fonts/**                         r,
@@ -475,13 +471,12 @@ B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
 # comment out the following line to allow CLOUDINIT messages through.
     STARTUP=x-window-manager
 #
-printf '\033%%G' 
+#  under the terms of the GNU Lesser General Public License as published by
 # If an executable path appears on any line in any file in
 	;;
 X-GNOME-HiddenUnderSystemd=true
 Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 ## This works for most UNIX's
-#3	tracing
 #  uid = 0
 sysresources=/etc/X11/Xresources
 # `dbus-1/services`, etc.
@@ -511,7 +506,6 @@ session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_
 *directoryFontNormal:		-*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
 XCalc*ti.button48.fromVert:		button43
 type=file
-# ar_OM.UTF-8 UTF-8
 @include common-session-noninteractive
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 			local ZONE_ID
@@ -676,7 +670,7 @@ d /run/screen 1777 root utmp
 <!ENTITY % maxLength "%p;maxLength">
 Type=Application
 
-trusted.SGI_DMI_*		skip		# xfs specific
+-misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1 -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1
 #    modify it under the terms of version 2 of the GNU General Public
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 56f12ada18a3412ab1f9dcd69450be95
@@ -695,7 +689,7 @@ auto
 		exit 1
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
-# Compose sequences for ISIRI-3342
+#
 [Desktop Entry]
 # can attach to any other dumpable process owned by the same user.  In the
 DISTRIB_ID=Ubuntu
@@ -731,10 +725,8 @@ exit 0
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 #
 
-
   /usr/bin/ooimpress Cxr -> sanitized_helper,
 	thin_pool_discards="passdown"
-
 #	        done
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
 option buffer 2097152
@@ -773,7 +765,7 @@ APT::Periodic::Update-Package-Lists "1";
 # intervention.  (For instance if /etc/crypttab lists two key files
 printf "
 "
- </selectfont>
+
 auto
 # Compose sequences for KOI8-U
 
@@ -834,7 +826,6 @@ compose '>' 'A' to 'Â'
 #
   @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
 -client IGNORE
-       path="/com/canonical/indicator/messages/*",
 <!ATTLIST type version CDATA #IMPLIED>
   # Support the new executable helper from NetworkManager.
 #
@@ -876,7 +867,7 @@ encryption=luks1
 # Defaults to false to maximize device compatibility.
 #!/bin/sh
 /var/log/dpkg.log {
-# /etc/default/bridge-utils
+# Acceptable values:
 
 	</alias>
 usb 0x05da 0x30d4
@@ -970,7 +961,7 @@ exit 0
 ctl.!default {
 EnableWattsUpPro=false
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
-# setting to limit messages printed to the console.
+# [If you don't know about libcap, the sources for it are here:
   @{PROC}/sys/kernel/cap_last_cap r,
 Description=Mount unit for lxd, revision 18150
 GRUB_TIMEOUT=0
@@ -1054,7 +1045,7 @@ letter
 	  <family>Century SchoolBook URW</family>
 	        # currently no settings for "smq" policy
 !%),/aspartial-match-conditionidconf-preserve-name-prefixes/desktop/ibus/engine/pinyin/desktop/ibus/engine/bopomofo/desktop/ibus/engine/hangul:Vasdisable-unconditionalasdesktop/triggerControl+spaceZenkaku_HankakuAlt+KanjiAlt+graveHangulAlt+Release+Alt_R(29Kas/,auto-hide-timeout'iprev-engineas
-	<dir prefix="xdg">fonts</dir>
+  /srv/www/htdocs/ r,
 # Prior to perl 5.8.8-7, libnet was a seperate package with a debconf
 # many PAM applications don't make it available by the time you need it.
 # in your $ZDOTDIR/.zshenv
@@ -1198,3 +1189,15 @@ Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-se
 		<allow send_destination="com.redhat.PrinterDriversInstaller"
 ## Uncomment the following two lines to add software from Canonical's
 #    This program is free software; you can redistribute it and/or
+NoDisplay=true
+mv -f "$REALRESOLVCONF.tmp" "$REALRESOLVCONF"
+shopt -s checkwinsize
+# use
+driftfile /var/lib/chrony/chrony.drift
+geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
+	# from wget's manpage: 8   Server issued an error response.
+# vim:syntax=apparmor
+# Use this to switch the scanner lights on with a separate MODE SELECT call
+fi
+
+# scsi device list
