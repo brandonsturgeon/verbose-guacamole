@@ -78,7 +78,6 @@ net.ipv4.conf.all.rp_filter=2
 fi
      o Declarations for and references to external parameter entities
         <double>0.8</double>
-    pass
 mibs :
 #   You can use this file to change the default behavior of screen system wide
 # Compose sequences for TIS-620
@@ -156,7 +155,6 @@ BatteryThreshold=10
             . /usr/share/bash-completion/bash_completion
 
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-# Default-Start:     2 3 4 5
 			<family>STIX Two Math</family> <!-- AMS -->
 #
 set -e
@@ -172,7 +170,7 @@ fi
         </policy>
         done
   /dev/xconsole                 rw,
-	# lvmdbusd expects JSON output
+# Welcome to the chrony configuration file. See chrony.conf(5) for more
   /usr/share/p11-kit/modules/  r,
 [Distro]
 # NETID_AUTHORITATIVE
@@ -226,7 +224,7 @@ SHELL=/bin/sh
 .  " signs in manual pages, so map it to plain "-" for HTML/XHTML output
 #   distributed under the License is distributed on an "AS IS" BASIS,
 			<family>padmaa</family> <!-- gujarati -->
-deb {{mirror}} {{codename}} multiverse
+
 ## serial port or special bus peripheral. The particular  
 order hosts,bind
 DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
@@ -312,10 +310,8 @@ mozilla/SecureSign_RootCA11.crt
 # orbit2 permissions
 scsi "KINPO   " "Vividscan S120  "
 alias.url += ("/javascript" => "/usr/share/javascript")
-
 Name=Print Queue Applet
 
-NoDisplay=true
 rocks_trees = {
 					6)
 # that it has been provided. Cloud-init, by default, will write this file
@@ -338,7 +334,7 @@ BQJbAwPCAhsuASkJEAptzva0bz2/wF0gBBkBAgAGBQJbAwPCAAoJEL4e3StH4Ita
             break;
 .  el {
 # get configuration information
-
+# caution, as it will reduce security and isolation achieved by
 printf " * Support:        https://ubuntu.com/advantage
 "
 		exit 1
@@ -388,7 +384,7 @@ APT::Periodic::Update-Package-Lists "1";
 
   @{sys}/bus/pci/devices/ r, # libpocl.so -> libhwlock.so, libnvidia-opencl.so, beignet/libcl.so -> libdrm_intel.so
         </test>
-LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
+    stop)
 search updates ubuntu built-in
 	bootdir=$(dirname "$2")
 		grub-editenv /boot/grub/grubenv unset recordfail
@@ -399,7 +395,7 @@ Kernel system variables configuration files
 	</alias>
 system-db:ibus
 	  (let ((coding-system-for-read 'raw-text)) ;; Read these as data streams
-[mysql]
+
 #    Copyright (C) 2012 Canonical Ltd.
 };
 
@@ -439,7 +435,6 @@ usb 0x05da 0x30d4
 </catalog>
 
 *buttonbox.displayList:			foreground gray70;line 0,-1,-1,-1;foreground gray95;line 0,0,-1,0
-the exact distribution terms for each program are described in the
 # DO NOT EDIT OR REMOVE
 #
 #    modify it under the terms of version 2 of the GNU General Public
@@ -448,7 +443,7 @@ deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/upda
 
 
 # This file is sourced by Xsession(5), not executed.
-
+       <!ENTITY % all-titles PUBLIC "-//DocTools//ELEMENTS Book Titles//EN"
 mozilla/Buypass_Class_2_Root_CA.crt
 gtk-icon-sizes = panel-menu-bar=24,24
 if [ -f /run/console-setup/keymap_loaded ]; then
@@ -467,7 +462,6 @@ BACKSPACE="guess"
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 X-Desktop-File-Install-Version=0.24
 	start)
-CRYPTDISKS_ENABLE=Yes
        peer=(addr="@/tmp/dbus-*"),
 <!DOCTYPE busconfig PUBLIC
 scsi "B&H SCSI"
@@ -511,7 +505,6 @@ Name=Secret Storage Service
 twm
 		wpa_cli_do "$IF_WPA_SSID" ascii 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
 CATALOG /usr/share/xml/docutils/catalog
     $DAEMON -D
 0xA6 '¬¶'
@@ -526,7 +519,7 @@ letter
 
 # in your $ZDOTDIR/.zshenv
   /usr/bin/gxmms Cxr -> sanitized_helper,
-deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
+
 // When Apt's cache is updated (i.e. apt-cache update)
 kernel.printk = 4 4 1 7
 ## security team.
@@ -562,11 +555,9 @@ makestep 1.0 3
 
 #
 
-      path=/org/freedesktop/DBus
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
 scsi AdLib * Scanner
 # <target name>	<source device>		<key file>	<options>
-		</test>
 
 # set PATH so it includes user's private bin if it exists
   <uri name="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd" uri="xenc-schema.xsd"/>
@@ -581,7 +572,8 @@ fi
 # vim:syntax=apparmor
 
 # Docker Upstart and SysVinit configuration file
-# top-level (fixed) folder directory in camera.  Backend assumes
+AI	-*-charter-medium-i-normal--*-*-*-*-*-*-iso8859-1
+
 # ipmiconsole-privilege-level ADMIN
 
 APT::Install::Pre-Invoke {
@@ -609,7 +601,6 @@ LP-PPA-mozillateam-firefox-next
 #    License published by the Free Software Foundation.
 // Notify all clients to reload the cache
 This file is part of PulseAudio.
-compose '<' 'C' to '»'
 # in /etc/passwd and ignore centralized (AD, IdM, LDAP, etc.) users.
 øW∏	⁄1≠ÃGtfònÎjı'mJêy∞¬JÄìMÈ(1ÆV¥ÂR‰qñÍg,√©án˝£¿J∞Âºlrù‚íâ∞ymC>¶™S≤÷®XBoë†2QÊ£V,“£ˆ¢÷Êú7…7∞vn®Ÿ8L√©V?i/¿»xÇÌä£'˘'ÀKB©Ä»1™
 #    modify it under the terms of version 2 of the GNU General Public
@@ -748,7 +739,7 @@ S· éÛ:]C+º›ò∑MÃ÷G˛pÇÙ£„◊?é“«ùMî±‡„@á“¸≥w>Ç≠ü¬œçèM?€ÉXèìYäÆKe>(pÎ9lÇå√nœŒå
 _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ¬}|·Aÿè¡~xûÑß‡yx^”®¡ÀÑ^ÅW·5q0o^∆…õ»ﬂÇo√w‡{ºﬂáw‡á3¯¸|ÑˇÉN òΩ∞ŒÉÛa∂¬u–ÑgÈëw!G+Ê¿\»√<ËÑU–wCb⁄Î‘/9Ì¸6Úi8⁄a&‰`éZÉ‡HX˝p"îa™p‘‡d®√∞ŒÇ≥a3ú¿E1¯8\◊¿µ0ÆæG›Á¿ëºo√;ê"~:ÃÄC Û‘ö]P	G¡Ò∞ŒÖK·£p9\•Ê,s7	3‡ËÑ˘PÅMp&å¿V∏˛˛>	ÔÉ†åiêÖ√`6X=∞éÖ%∞V¬	PÇ50k·Tÿg¬6∏vÄP=§·PòG@Ê¿ëp,Ü£·8ñ¿RX«¡JËÉU–'@	NÑ’p2úk·TXß¡zÜ”·8∂¿πpúª‡&¯$≥ÁSp¸%|˛
 .\" Put any local modifications to doc.tmac here.
 # @{PROC} is the location where procfs is mounted.
-</catalog>
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 
 # javax.sound.sampled.Clip
 /dev/scanner
@@ -997,10 +988,9 @@ SocketMode=0660
 #
     </test>
 main
-# All files with the '.cfg' extension in this directory will be read by
+
 
 session    optional   pam_motd.so motd=/run/motd.dynamic
-/HelveticaNarrow-Oblique /NimbusSanL-ReguCondItal ;
 #  e.g. the empty string or 0 or whatever. To disable it should not
 # Serial port where the camera is connected
 # vi: syntax=sh ts=4 noexpandtab
@@ -1079,7 +1069,6 @@ test -x $DAEMON || exit 0
 			fi
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook post-invoke-success || true";
 # line begins with ! is certificate filename to be deselected.
-. /lib/lsb/init-functions
 <delegateSystem systemIdStartString="http://www.w3.org/TR/2001/REC-SVG-20010904/" catalog="file:///usr/share/xml/svg/catalog.xml"/>
 #    Copyright (C) 2014 Canonical Ltd.
 scsi TAMARACK
@@ -1087,7 +1076,7 @@ scsi TAMARACK
 
 <busconfig>
 # microcode file installed on the system.  When removing iwlwifi, first
-  /usr/lib/aspell/* r,
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 build_name: server
 # Legacy biarch compatibility support
 {% if pools %}# pools
@@ -1130,7 +1119,6 @@ scsi DEVCOM * Scanner
 brandon:100000:65536
     exec /usr/lib/update-notifier/update-motd-reboot-required
   /usr/bin/seamonkey Cx -> sanitized_helper,
-  # nis
 
 scsi ABATON
 #    modify it under the terms of version 2 of the GNU General Public
@@ -1224,3 +1212,14 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 log_level              {{log_level}}
 
 
+
+    missingok
+  dbus (send)
+    -->
+
+<?xml version="1.0"?>
+usb 0x03f0 0x0101
+  <type name="Times-New-Roman" fullname="Times New Roman" family="Times New Roman" weight="400" style="normal" stretch="normal" glyphs="times.ttf"/>
+  <mime type="audio/x-iriver-pla" description="iRiver Playlist" data-type="string" offset="4" magic="iriver UMS PLA" priority="50" />
+        savelog -c 7 ${dbalt}.tar >/dev/null
+0x88	AF41
