@@ -6,7 +6,7 @@ NoDisplay=true
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
     // There is no restriction to any algorithms.
 /Song-Medium /GBZenKai-Medium ;
-#DUIDType=vendor
+# local modules either before or after the default block, and use
 /bin/sh
 # Compose sequences for CP1255
            oracle-java9-jre-$arch oracle-java9-server-jre-$arch oracle-java9-jdk-$arch 
@@ -63,7 +63,7 @@ X-GNOME-Autostart-Phase=Initialization
 
 previous-engine=@as []
 APT::Periodic::AutocleanInterval "0";
-                        <int>100</int>
+# dpkg configuration file
 scsi * * Scanner
 Before=snapd.service
 # vim:syntax=apparmor
@@ -76,7 +76,6 @@ scsi "KINPO   " "Vividscan S120  "
   deny @{HOME}/.mutt** mrwkl,
 
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
-Name[pt]=Sistema de Som PulseAudio
 # Autodetect the Canon CanoScan FB630u
 compose ')' '-' to '}'
 # The next option will send email to the named person when chronyd has
@@ -108,7 +107,6 @@ scsi Nikon * Scanner
 # Compose sequences for TIS-620
 /dev/smpte*     rw,
 fi
-  /usr/lib/NetworkManager/nm-dhcp-client.action mr,
 <?xml version="1.0"?>
 esac
 #
@@ -157,7 +155,7 @@ case "${1}" in
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 # Compose sequences for ISO-8859-8
 server {{server}} iburst
-APT::Periodic::Download-Upgradeable-Packages "0";
+# before a hibernate 
 
 // grant codeBase "jrt:/com.greetings" {
     <test name="family">
@@ -167,12 +165,11 @@ APT::Periodic::Download-Upgradeable-Packages "0";
 
 	start-stop-daemon --start --background $SSD_OPTIONS
 # Blacklist for apport
-# We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
+ApprovalRequired=false
   /usr/share/enchant/enchant.ordering              r,
 Name=GNOME Settings Daemon's housekeeping plugin
 	log_end_msg $?
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
-# inclusion by distributed profiles to aid in packaging AppArmor for
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 
 compose '"' 'O' to '÷'
@@ -183,7 +180,6 @@ compose '"' 'O' to '÷'
 /usr/local/lib/i386-linux-gnu
        bus=session
       may simply works to avoid it.
-#
 
 # usb vendor product
 }
@@ -221,7 +217,6 @@ networkd_dispatcher_args="--run-startup-triggers"
 fi
 
 PasswordAuthentication no
-9	ra
 
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
 <?xml version="1.0" encoding="UTF-8"?>
@@ -304,9 +299,8 @@ NoDisplay=true
 deb {{mirror}} {{codename}} multiverse
 ## serial port or special bus peripheral. The particular  
 
-# Rules for writing KDE icon cache
+DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
   the ImageMagick option
-    <Menu>
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 #
     interface=org.freedesktop.login1.Manager
@@ -318,7 +312,7 @@ type=file
 # e-mail destination used by e2scrub_fail when problems are found with
 
 deb {{mirror}} {{codename}}-updates main
-
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # The options are only meaningful if the backend was
     STARTUP=x-window-manager
 # Note: This policy has been deprecated in favor of the smq policy
@@ -351,7 +345,7 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 	fi
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
-bullseye/sid
+else
 # Check for interactive bash and that we haven't already been sourced.
 
 SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
@@ -402,7 +396,7 @@ max_allowed_packet	= 16M
 
 
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-order hosts,bind
+mozilla/SecureSign_RootCA11.crt
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 # sid_ET UTF-8
@@ -643,7 +637,6 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # [If you don't know about libcap, the sources for it are here:
 #GRUB_DISABLE_LINUX_UUID=true
 GRUB_TIMEOUT=0
-#2	inr.ruhep
 
 smproxy
 session       required   pam_env.so envfile=/etc/default/locale
@@ -658,13 +651,13 @@ DESKTOP-OFJN9OT
 [Desktop Entry]
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 #    This program is free software; you can redistribute it and/or
-	small = {
+# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 	        Shift<Btn5Down>,<Btn5Up>: Page(Line,1) \n\
 #
 HOMEHOST <system>
 # escpecially if they contain "#" chars...
-# This file is a simple placeholder to keep dpkg from removing this directory
+# See bash(1) for more options
 
 # Note: the line below cannot end the file (there must be at
 [Time]
@@ -683,7 +676,7 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
 
 scsi ULTIMA
 image/jpeg; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
-
+CATALOG /usr/share/xml/docutils/catalog
     $DAEMON -D
 0xA6 '¬¶'
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
@@ -737,7 +730,6 @@ if [ -r /etc/default/locale ]; then
 # Default backends, as chosen in the configure script. This will be used
 # in the toplevel profile. Eg:
 
-  # user configurations
 XLoad.input:			false
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
@@ -848,7 +840,6 @@ deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
     <family>Arev Sans</family>
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
-# This shuld be befor this dbus-launch hook to ensure the working dbus
 # The following lines are desirable for IPv4 capable hosts
 #objects-per-client-max=1024
 deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -980,7 +971,6 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 {
 
 LANG=C.UTF-8
-# Set up the prompt
 		<allow send_destination="com.redhat.PrinterDriversInstaller"
 
   # TODO: use conditionals to select allowed implementations
@@ -1037,7 +1027,6 @@ pool {{pool}} iburst
 # Define LSB log_* functions.
 X-GNOME-Autostart-Notify=true
 # Uncomment and edit /etc/security/access.conf if you need to set complex
-# and files in /etc/cron.d. These files also have username fields,
 [Desktop Entry]
 #2	inr.ruhep
 PK!		Êñ∞Âä†Âù°UTcx6m√”ÆOÁ.‰PKN˛5„PK!	Êñ∞ÈóªUTcx6m√ÀÈªπPK§èej
@@ -1084,7 +1073,6 @@ application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
 
        value is a keyword indicating what whitespace processing
 
-esac
 .  \" command-line options.  Uncomment this if you want to make sure that
 security.overridePropertiesFile=true
 
@@ -1124,7 +1112,6 @@ application/vnd.sun.xml.writer							sxw
 if [ "$IM_CONFIG_PHASE" = 1 ]; then
 
 #
-# mibdirs /usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf
 		<test name="family" compare="contains" >
 /dev/scanner
 #
@@ -1152,7 +1139,6 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 
 
     </complexType>
-
 
 #    This program is free software; you can redistribute it and/or
 Name=GNOME Settings Daemon's power plugin
@@ -1210,3 +1196,13 @@ GRp¢£™m“K>'¿¸À]ÇèÿØÊÁ9,ÂÁ>;$æ›`£sì(nı4†<êÙõ‚3ƒç”≤ƒ]IÎ‡ç$Ç	•´é†{Cëªw†ƒƒe±â
   # firefox-notify
 /dev/scanner
 
+  <type name="DejaVu-LGC-Serif-Book" fullname="DejaVu LGC Serif Book" family="DejaVuGC Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuLGCSerif.ttf"/>
+*Panner.background:			gray70
+#!/bin/sh
+# lv_LV.UTF-8 UTF-8
+X-GNOME-Autostart-Phase=Initialization
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
+  ;;
+# orbit2 permissions
+compose '/' '/' to '\\'
+*form.fold.height:			36
