@@ -46,7 +46,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
     <test compare="less" name="pixelsize">
 €šdGh•E^q§ì5¹õ·&nÀ„àòU0tÿz,é#í=°—¤¼ªëğc×Ê¹m		<4Å®MïÜ¶ÜšZqöÅ–ä‚š@˜µÒÆ¯3ÆòÔ¥èIÛÎZ`^Uy³»	åùPŞ|sîúç˜ÉîÑT‡I<‚¾eRÁ==©hLçÏ:îÃùØ¿~œæmbæwys€ÎYÊ
 
-
+  /usr/share/hspell/                               r,
 previous-engine=@as []
 APT::Periodic::AutocleanInterval "0";
 # dpkg configuration file
@@ -108,7 +108,6 @@ trusted.SGI_MAC_FILE		skip		# xfs specific
     permission java.util.PropertyPermission "path.separator", "read";
 #
 # run "systemd-resolve --status" to see details about the actual nameservers.
-#!/bin/sh
 vÁßÃ]p7|öÂ×à¸î‡àAØÁÃğ(<Ãğ$<ÏÁ‹ğ¼¯ÀûğaÖ¦àÿë£PxÈ)
 	<alias>
 case "${1}" in
@@ -184,7 +183,7 @@ fi
 
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 usb 0x03f0 0x0105
-# here are appended to @{HOMEDIRS}.  See tunables/home for details. Eg:
+#    modify it under the terms of version 2 of the GNU General Public
 # The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
 # Plus a lot of fun stuff added
@@ -198,7 +197,6 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 *Command.shapeStyle:		oval
-
 # ------------------------------------------------------------------
 
 
@@ -290,7 +288,7 @@ WantedBy=multi-user.target
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 max_allowed_packet	= 16M
-###############################################################################
+*interactStyleErrors.label:	Errors
 #
 [service]
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
@@ -325,7 +323,7 @@ Name=Print Queue Applet
 NoDisplay=true
 rocks_trees = {
 					6)
-exec_prefix="/usr"
+# that it has been provided. Cloud-init, by default, will write this file
 # Uncomment the following lines for Linux.  Notice that everything is
 
 ##############################################################3
@@ -343,7 +341,6 @@ auth	required	pam_nologin.so
 #    modify it under the terms of version 2 of the GNU General Public
 BQJbAwPCAhsuASkJEAptzva0bz2/wF0gBBkBAgAGBQJbAwPCAAoJEL4e3StH4Ita
             break;
-
 .  el {
 auto
 
@@ -482,7 +479,6 @@ CRYPTDISKS_ENABLE=Yes
 scsi "B&H SCSI"
 			<family>Noto Serif CJK KR</family>
 #publish-domain=yes
-! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
 #   Please see the documentation for "systemd drop-ins":
 GRUB_DEFAULT=0
@@ -533,13 +529,11 @@ letter
 	        # currently no settings for "smq" policy
 #
   /srv/www/htdocs/ r,
-#
         Ctrl<Key>B:     previous-page()
 
 # in your $ZDOTDIR/.zshenv
   /usr/bin/gxmms Cxr -> sanitized_helper,
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
-
 // When Apt's cache is updated (i.e. apt-cache update)
 kernel.printk = 4 4 1 7
 ## security team.
@@ -556,10 +550,10 @@ fi
 # which file should be used as the configuration file for rsync.
 ip.hdrlen	u8		net+0		0x0F
 #
-
+This directory is for system-local terminfo descriptions. By default,
 <delegatePublic publicIdStartString="-//Normal Walsh//Exchange Table Model 19960430" catalog="file:///etc/xml/docbook-xml.xml"/>
 makestep 1.0 3
-run-parts /etc/ppp/ipv6-down.d \
+/usr/share/qt3/lib*/libqui*so* mr,
   </xs:documentation>
 # colored GCC warnings and errors
   /usr/lib*/samba/lowcase.dat r,
@@ -658,7 +652,7 @@ ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
 # Not an interactive shell?
 <fontconfig>
 All executable files in this directory are processed in shell expansion order.
-10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
+#!/bin/sh
     create 0664 root utmp
   # Text editors (It's All Text [https://addons.mozilla.org/en-US/firefox/addon/4125])
 <fontconfig>
@@ -673,10 +667,9 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
     validation_name: XYZ
 " options, so any other options should be set AFTER setting 'compatible'.
   audit deny @{HOME}/.gnupg/{,**} mrwkl,
-// THIS FILE IS USED TO INFORM PACKAGEKIT
 grant {
     xhost +si:localuser:`id -un` > /dev/null
-; auto-connect-localhost = no
+^w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: [origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"] exiting on signal [0-9]+.$
     /run/netns/ w,
 X-GNOME-Autostart-Phase=Initialization
 	<alias>
@@ -695,7 +688,6 @@ S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
 #!/bin/sh
 #exec_delay=
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
-OnlyShowIn=GNOME;
 compose '\'' 'U' to 'Ú'
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 kana14       -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
@@ -705,7 +697,7 @@ check_power || exit 0
 avahi:x:117:123:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
 APT::Periodic::Update-Package-Lists "1";
 
-# This specifies maximum number of attempts to obtain lock file by FileHandler
+gtk-sound-theme-name = Yaru
 image/uyvy; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 			<family>Comic Sans MS</family>
 else
@@ -803,7 +795,7 @@ pool {{pool}} iburst
 # Define LSB log_* functions.
 # Uncomment and edit /etc/security/access.conf if you need to set complex
 }
-#2	inr.ruhep
+                <allow send_destination="fi.epitest.hostap.WPASupplicant"/>
 PK!		æ–°åŠ å¡UTcx6mÃÓ®Oç.äPKNş5ãPK!	æ–°é—»UTcx6mÃËé»¹PK¤ej
 KP_5 = j;k;l;5;Â£
 #SpeedMeter=no
@@ -910,7 +902,7 @@ Name=Certificate and Key Storage
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 0:0			none
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
-#
+PKA6hjhodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9DZXJ0aWZpY2F0aW9u
 [Resolve]
 application/set-payment-initiation
 #  Please see the "update-mime" man page for more information.
@@ -1059,7 +1051,7 @@ LazyUnmount=yes
   #
 trusted.SGI_DMI_*		skip		# xfs specific
 
-#
+scsi "KINPO   " "Vividscan S120  "
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 $WorkDirectory /var/spool/rsyslog
               md5sum $statedir/isc-dhcp-v4-$interface.conf $statedir/isc-dhcp-v6-$interface.conf > $oldstate 2> /dev/null
@@ -1153,7 +1145,6 @@ brandon:100000:65536
   /usr/bin/seamonkey Cx -> sanitized_helper,
   # nis
 
-# PPP down hook script for resolvconf
 scsi ABATON
 #    modify it under the terms of version 2 of the GNU General Public
   owner @{HOME}/.local/share/RecentDocuments/#[0-9]* rw,
@@ -1163,7 +1154,7 @@ scsi ABATON
 #
 #Enable=true
 Ubuntu 20.04.5 LTS \n \l
-IPT_MODULES=""
+0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
 TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 
 #net/ipv6/conf/default/forwarding=1
@@ -1225,3 +1216,15 @@ LANG=C.UTF-8
    [[/usr/local]]
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 
+  # Child profiles
+# Don't try to change I/O priority in a vserver or OpenVZ.
+# ------------------------------------------------------------------
+deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
+/Adobe-GB1 /BousungEG-Light-GB ;
+letter
+#    with this program; if not, write to the Free Software Foundation, Inc.,
+session required        pam_loginuid.so
+  /{,usr/}bin/bash ixr,
+[uefi_capsule]
+#
+#	ForceCommand cvs server
