@@ -31,7 +31,7 @@ The files are loaded in numeric order, the structure of the configuration
 audio/x-mpegurl=rhythmbox.desktop
 
 // Pre-configure all packages with debconf before they are installed.
-#
+# by the included systemd service file.
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+disk [[:digit:]]+,( wo:[[:digit:]]+,)? o:[[:digit:]]+, dev:[[:alnum:]]+$
 /dev/scanner
 
@@ -68,7 +68,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 #
-            # According to hfu, "/etc/init.d/networking restart" on Debian 5.0
 # deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 
 
@@ -108,7 +107,7 @@ max_allowed_packet	= 16M
 # iwlwifi will dyamically load either iwldvm or iwlmvm depending on the
   # Openoffice.org
 net.ipv4.conf.all.rp_filter=2
-# ldconfig = false
+#!/bin/sh
 fi
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
@@ -267,7 +266,7 @@ CATALOG /usr/share/xml/docutils/catalog
 # Compose sequences for GEORGIAN-PS
 [Distro]
 
-# /etc/login.defs and user settings, solving the problem of different
+CHARMAP="UTF-8"
 # (you may need to remove these refusals if the server is not using MPPE)
 
 # List of modules that you want to include in your initramfs.
@@ -283,11 +282,9 @@ usb 0x03f0 0x0105
 #if /etc/pam.d/cron  specifies no session modules but cron calls
 
 
-. /usr/share/bash-completion/bash_completion
   /dev/dri/card[0-9]* rw, # beignet/libcl.so
 ”Z∏,„∞Àº*m66{ˇl⁄5°
 <!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
-
 
 
 
@@ -341,7 +338,7 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 .  " signs in manual pages, so map it to plain "-" for HTML/XHTML output
 #   distributed under the License is distributed on an "AS IS" BASIS,
 			<family>padmaa</family> <!-- gujarati -->
-*status.foreground: green
+#  used to synthesize the shadow.byname table if it does not exist.
 deb {{mirror}} {{codename}} multiverse
 ## serial port or special bus peripheral. The particular  
 	notifempty
@@ -372,7 +369,6 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 ## This works for most UNIX's
 #autodetach off
 # `dbus-1/services`, etc.
-	<UnmapNotify>:		Iconified()	
 
   dbus (send)
 #
@@ -442,12 +438,11 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
   around 75.
 
   Associate an image format with a unique identifier. 
-#state = "/run/containerd"
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 # HP Scanjet G2710
 # Compose sequences for CP1251
 # to update this file, run dpkg-reconfigure cloud-init
-  pwd="${pwd//[[:cntrl:]]}"
+	<alias binding="same">
 	<alias>
 
 127.0.0.1	noadware.ws
@@ -474,7 +469,6 @@ if [ -n "$DESKTOP_SESSION" ]; then
 #############################################################################
 # ipmi-fru-bridge-fru DISABLE
 # System-wide GDB initialization file.
-# or by launching either "byobu-screen" or "byobu-tmux" instead of "byobu".
 compose '-' 'E' to '™'
 # orbit2 permissions
     </event>
@@ -570,7 +564,6 @@ $x-display-manager gdm3
 		log_end_msg $?
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 
-# Stop bad estimates upsetting machine clock.
 ports=22/tcp
 [Install]
    [formatters]
@@ -655,7 +648,6 @@ ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-
 	rotate 12
   <match target="pattern">
 
-
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
         End        "${terminfo[kend]}"
@@ -668,8 +660,8 @@ encryption=luks1
 
 usb 0x05da 0x30d4
 
-if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
-# If you want chronyd to ignore authentication in the source selection,
+# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
+</catalog>
 
      <patelt name="scalable"><bool>false</bool></patelt>
 the exact distribution terms for each program are described in the
@@ -843,7 +835,7 @@ run-parts /etc/ppp/ipv6-down.d \
   /usr/lib*/samba/lowcase.dat r,
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-# /etc/modprobe.d/iwlwifi.conf
+# XDG_DATA_DIRS or XDG_DATA_HOME, and are the parent directory
 # Default backends, as chosen in the configure script. This will be used
 # in the toplevel profile. Eg:
 
@@ -890,7 +882,7 @@ if [ -f "${APPARMOR_FUNCTIONS}" ]; then
 	if [ $umount_exit_status -ne 0 ]; then
 0%ê‰Hÿ’ôßë∆› ˆbÚ¯≈5vu˜ó˜}Õ–»–¸–ÜÉJmUF˚êQI@7gùÚΩ‹¬ÎYÚø<dEÂããÅ‘ë c±/Ñ…_2tÃB‚ËQ≠∂öÒΩÒ#LáKﬂ’'µΩK®‚¸Y≤Ïõ1+ÁÚE¶ÖÈ#	qüÎµ‰€n‘/D,ÛŸØó∑"u3_Ä8—-[∫,≠ÄÎà√à£Î9M∞gpg¥Nate Smith <vilmibm@github.com>∞gpgâ‘
 #   --port=8730				(bind to specified port; default 873)
-    bind2maps emacs viins       -- Insert      overwrite-mode
+deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 X-GNOME-Bugzilla-Bugzilla=GNOME
 <logmap>
@@ -921,7 +913,6 @@ b∫”#œ‰1Ø–&.°5†ñ	∞K‚c‡¸∏†6Àﬂuë“Åäs•)∑ƒ6ıä∏∞ ¢=ﬂtv °Me1—öN∆ZÁe· d–e∂*CÉˇ…
 qmtp		209/tcp				# Quick Mail Transfer Protocol
 # and by vendor and product ID (USB). This is what the backend does when
 #
-/Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 modules_load_preference=ondemand
 LP-PPA-mozillateam-firefox-next
 
@@ -953,7 +944,7 @@ Title=Enable UEFI capsule updates on Dell systems
 
 	nocreate
 {# The value '{{hostname}}' will be replaced with the local-hostname -#}
-      or
+mQENBFUr0UoBCACsdOLuTJ81dICrSvUhyznBsL4WgEa2RUbEjJuaXwrEyPMikHE1
 
   <mime type="application/x-blender" description="Blender scene" priority="100" pattern="*.blend" />
 defaults {
@@ -1002,7 +993,7 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 allow-failsafe
   audit deny @{HOME}/.gnupg/{,**} mrwkl,
 # Rules for changing KDE settings (for KFileDialog and other).
-deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
+</fontconfig>
 grant {
   #include <abstractions/fcitx-strict>
 Type=Application
@@ -1032,7 +1023,7 @@ S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
 p+([0-9])p+([0-9])?(_+([0-9]))*
       may simply works to avoid it.
 #!/bin/sh
-#! /bin/sh
+#exec_delay=
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 OnlyShowIn=GNOME;
 # or equivalently:
@@ -1106,7 +1097,7 @@ $x-display-manager gdm3
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 
   /usr/include/X11/**             r,
-
+           send_member="GetAll"/>
 # IPMI_OS_Boot_Base_OS_Hypervisor_Installation_Started   Nominal
 
 
@@ -1124,7 +1115,7 @@ LANG=C.UTF-8
 commands scan this directory processing all files that end in '.conf'.
 
   # TODO: use conditionals to select allowed implementations
-BYOBU_BACKEND="tmux"
+*List.backgroundPixmap:			gradient:vertical?dimension=4&start=gray95&end=gray90
 # This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:
   xhost +si:localuser:$(id -un) || :
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1189,7 +1180,6 @@ X-GNOME-Autostart-Notify=true
 #2	inr.ruhep
 PK!		Êñ∞Âä†Âù°UTcx6m√”ÆOÁ.‰PKN˛5„PK!	Êñ∞ÈóªUTcx6m√ÀÈªπPK§èej
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es+3ot67hZaz+cI7KRAxQD8n8R9m9Ekf9k/0WZDsfzCaIZokAbO1IYo6mznd3vsbkRgGqz6PPcURRgc1A= open-ssh-ca@cloudflareaccess.org
-# Evaluated by the wrapper script /usr/sbin/usb_modeswitch_dispatcher
 #SpeedMeter=no
     ;;
 
@@ -1209,3 +1199,13 @@ XCalc*bevel.screen.INV.vertDistance:		4
 OK		ATD*99#
 Type=Application
 letter
+[apt]
+unshare=/usr/bin/unshare
+compose '\'' 'I' to 'Õ'
+SHELL=/bin/sh
+/dev/scanner
+
+if [ "$(lsb_release -sd | cut -d' ' -f4)" = "(development" ]; then
+grant {
+<delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
+# javax.sound.midi.Receiver
