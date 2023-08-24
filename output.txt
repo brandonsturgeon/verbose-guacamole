@@ -44,7 +44,6 @@ checkbox=,magenta
 # Compose sequences for ARMSCII-8
 The files are loaded in numeric order, the structure of the configuration
 
-
 audio/x-mpegurl=rhythmbox.desktop
     esac
 [ -d /var/crash ] || exit 0
@@ -82,7 +81,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 mode="${1#'}"
     fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
-#DefaultBackend=auto
 #    This program is free software; you can redistribute it and/or
 #FallbackNTP=ntp.ubuntu.com
 # This file should not contain commands that produce
@@ -127,7 +125,6 @@ PICTURES=Pictures
   deny @{HOME}/.mutt** mrwkl,
 
 
-
 X-GNOME-Autostart-Phase=PreDisplayServer
 /dev/scanner
 <!DOCTYPE busconfig PUBLIC
@@ -160,7 +157,6 @@ net.ipv4.conf.all.rp_filter=2
 defaults {
 
 # ldconfig = false
-LP-PPA-ubuntu-mozilla-daily
 eval $(/usr/bin/locale-check C.UTF-8)
 # here are some examples for how to configure the EPSON backend
 // Notify all clients to reload the cache
@@ -176,11 +172,10 @@ XClock.Clock.secondColor:	rgba:00/00/ff/80
 # their current one is listed in /etc/shells. This keeps
 
 fi
-
+# IPMI_Processor_IERR                                          Critical
 # This file should be world readable but not world writable.
 <?xml version="1.0"?>
 esac
-};
 <!ELEMENT br ANY>
 #
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
@@ -357,7 +352,7 @@ Categories=System;Monitor;GTK;
 # MODEL
 networkd_dispatcher_args="--run-startup-triggers"
 
-# This file is a simple placeholder to keep dpkg from removing this directory
+# If the value is set to 'none' then the value of DefaultUrl is used.
 # minclass = 0
 #
 usb 0x05e3 0x0145 0x2e 0x00
@@ -411,7 +406,6 @@ usb 0x03f0 0x0105
 #if /etc/pam.d/cron  specifies no session modules but cron calls
 		;;
 
-CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 . /usr/share/bash-completion/bash_completion
   /dev/dri/card[0-9]* rw, # beignet/libcl.so
@@ -562,7 +556,7 @@ sysresources=/etc/X11/Xresources
 }
 BYOBU_BACKEND="tmux"
   . "$USERXSESSIONRC"
-## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
+# particular interface
 127.0.0.1	www.frankvoce.com
 restrict ::1
                                            /usr/sbin       \
@@ -595,7 +589,6 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 ; rlimit-locks = -1
 .  \" command-line options.  Uncomment this if you want to make sure that
 <Directory "/usr/share/javascript/">
-#DefaultLimitDATA=
 # symbolic names for networks, see networks(5) for more information
 #@{XDG_VIDEOS_DIR}+=""
  -->
@@ -660,7 +653,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 modules=*
     user_friendly_names yes
 # Compose sequences for KOI8-R
-#IgnoreRhosts yes
 #
 # usb 0x4b8 0x14c
    "URL": "https://launchpad.net/~%s/+sshkeys"
@@ -695,7 +687,6 @@ brandon:100000:65536
 
   /etc/gtk/*                      r,
 			for N in $new_dhcp6_name_servers ; do
-#
 order hosts,bind
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
         dbus-update-activation-environment --verbose --systemd QT_ACCESSIBILITY
@@ -727,7 +718,7 @@ compose '-' 'E' to 'ª'
     </event>
 alias.url += ("/javascript" => "/usr/share/javascript")
 
-#baud=115200
+has_cal_buffer 0
 
 After=snap-lxd-18150.mount network.target snapd.apparmor.service
 alias.url += ("/javascript" => "/usr/share/javascript")
@@ -754,7 +745,7 @@ Description=Service for snap application lxd.activate
 compose '\'' '\'' to '´'
 Type=Application
 # Please change @{DOVECOT_MAILSTORE} to (only) contain the directory
-# You should have received a copy of the GNU Lesser General Public License
+# video device access
 #
 
 *Command.highlightThickness:	1
@@ -790,7 +781,7 @@ auto
 [connection]
 /lib/x86_64-linux-gnu
   @{sys}/class/video4linux r,
-  dbus (send)
+#
 <delegatePublic publicIdStartString="ISO 8879:1986//ENTITIES" catalog="file:///usr/share/xml/entities/xml-iso-entities-8879.1986/catalog.xml"/>
 		exit 1
 X-Meego-Priority=Low
@@ -817,7 +808,7 @@ scsi TAMARACK
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
     <edit name="hinting">
 
-LETTERHOMES=no
+# sleep-inactive-battery-type='suspend'
 stamp="/var/lib/update-notifier/updates-available"
   /usr/share/vulkan/{explicit,implicit}_layer.d/{,*.json} r,
       This configuration is available on the major desktop environments.
@@ -847,7 +838,7 @@ exit 0
 }
 	devtypes_cols_verbose="devtype_name,devtype_max_partitions,devtype_description"
 // Some countries have import limits on crypto strength, but may allow for
-deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
+0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
 # orbit2 permissions
 $x-display-manager gdm3
 is_enabled() {
@@ -913,7 +904,6 @@ Exec=/usr/libexec/gsd-wacom
 compose '>' 'A' to 'Â'
 {% if searchdomains is defined %}
 
-#5	tc/cls1
 -#}
 #  You should have received a copy of the GNU Lesser General Public
 # ------------------------------------------------------------------
@@ -998,7 +988,6 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 encryption=luks1
   metering_timer: 14400
 # Defaults to false to maximize device compatibility.
-# result. 125000 seems to be the lowest I could go reliably.
 & stop
 user-db:user
 #!/bin/sh
@@ -1031,7 +1020,7 @@ deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 <?xml version="1.0" encoding="UTF-8"?>
 	weekly
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
-X-GNOME-HiddenUnderSystemd=true
+		;;
 
 Name=GNOME Settings Daemon's Wwan plugin
 # Specify command line options here. This config file is used
@@ -1142,7 +1131,6 @@ CATALOG /usr/share/xml/docbook/schema/dtd/4.4/catalog
 #
        notifempty
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
-# b.) change or remove the value of 'manage_etc_hosts' in
 Name=Secret Storage Service
 #usb /dev/usb/scanner0
 
@@ -1150,7 +1138,7 @@ Name=Secret Storage Service
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 #    This program is free software; you can redistribute it and/or
 scsi EPSON Perfection600
-    <!--
+	small = {
 
   <description>Disable hinting</description>
 lines		-1,0,0,0,0,-1
@@ -1191,3 +1179,14 @@ APT::Periodic::Update-Package-Lists "1";
 /usr/bin/wine-preloader
     $DAEMON -D
 ÷Þz’Ï";Ø€Cwz›HìN»âaœ¥½1õ­µÀ‚÷Õ“2Ÿ/§½7‚cßËk«¸¹÷t;|}“4œ·³ÝÆ†$0°xÅVêsy²r›~È”fÈŒø†‚kÛq‚úåòÆ6—œÞ÷¯ÔáÕ.Fgw6Öç
+# The following lines are desirable for IPv6 capable hosts
+0xA6 'Â¦'
+# Set REPORT_ABSENT_SYMLINK=no to inhibit warning message that
+# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
+        done
+  audit deny @{HOME}/.gnupg/{,**} mrwkl,
+//  the file /var/run/reboot-required is found after the upgrade
+driftfile /var/lib/chrony/chrony.drift
+# Ensure base distro defaults xdg path are set if nothing filed up some
+  # private keys too
