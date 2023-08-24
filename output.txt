@@ -70,8 +70,6 @@ Comment[af]=Begin die PulseAudio-klankstelsel
 max_allowed_packet	= 16M
 			<Btn1Down>:popup-pixel()
 
-  # Openoffice.org
-net.ipv4.conf.all.rp_filter=2
 #!/bin/sh
 fi
      o Declarations for and references to external parameter entities
@@ -162,7 +160,6 @@ set -e
 
 fi
 # can easily run one too
-|y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
         </policy>
         done
   /dev/xconsole                 rw,
@@ -254,7 +251,7 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 # ------------------------------------------------------------------
 #DefaultLimitMSGQUEUE=
 #@{XDG_VIDEOS_DIR}+=""
-
+[udisks2]
 -->
 X-Ubuntu-Gettext-Domain=xdg-user-dirs
 # Check for interactive bash and that we haven't already been sourced.
@@ -324,10 +321,9 @@ auth	required	pam_nologin.so
 #parport0
             break;
 .  el {
-# get configuration information
 # caution, as it will reduce security and isolation achieved by
 printf " * Support:        https://ubuntu.com/advantage
-"
+Name=SSH Key Agent
 		exit 1
 Terminal=false
 
@@ -336,7 +332,6 @@ search updates ubuntu built-in
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 auth		sufficient	pam_rootok.so
 -dcevm KNOWN
-# i.e. for Plustek (0x07B3) U1212 (0x0001)
 
 # sleep-inactive-battery-type='suspend'
       This configuration is available on the major desktop environments.
@@ -359,8 +354,6 @@ $x-display-manager gdm3
 
 [Install]
     return 0
-What=/var/lib/snapd/snaps/snapd_8542.snap
-APT::Periodic::Update-Package-Lists "1";
 # This file is sourced only for login shells (i.e. shells
 
     $_local warning="" idir="/var/lib/cloud/instance" n=0
@@ -479,7 +472,6 @@ DESKTOP-OFJN9OT
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 #
 eval $(/usr/bin/locale-check C.UTF-8)
-# escpecially if they contain "#" chars...
 # See bash(1) for more options
 
 [Time]
@@ -493,11 +485,10 @@ twm
 		wpa_cli_do "$IF_WPA_SSID" ascii 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 CATALOG /usr/share/xml/docutils/catalog
-    $DAEMON -D
 0xA6 '¬¶'
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 # Copyright (c) 1996, 2000, Oracle and/or its affiliates. All rights reserved.
-  <type name="Bookman-DemiItalic" fullname="Bookman DemiBold Italic" family="Bookman" foundry="URW" weight="600" style="italic" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/b018035l.afm" glyphs="/usr/share/fonts/type1/gsfonts/b018035l.pfb"/>
+XClock.input: false
 letter
 	        # currently no settings for "smq" policy
 #
@@ -572,7 +563,6 @@ F5B6F88F75D391A4B1EB336F9E201239FB6B1377DB8CFA7B84736216E5AFFFD7
 NoDisplay=true
 fi
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
-# vim:syntax=apparmor
         <Key>F:         next-page()
 
     $_local ufile="$HOME/.cloud-warnings.skip" sfile="$warndir/.skip"
@@ -581,7 +571,7 @@ TryExec=xdg-user-dirs-update
 	;;
 
 # and by vendor and product ID (USB). This is what the backend does when
-compose 's' '3' to '≥'
+J	ïæò≥”Î“™ëÚΩ6˜DîÉ–ì∑ïïröé%g‹¶õ1BX¢™¥~	G«G]µ⁄Úı!¶t¶≤∫J>õÕ6ã≈&¿O_n‘˚⁄ß7 ~ó-O•f/Z4®Â<%‰W≠©Æ2•GäsR©åÁR)G…Æ
 deb http://packages.azlux.fr/debian/ buster main
 LP-PPA-mozillateam-firefox-next
 #    License published by the Free Software Foundation.
@@ -595,8 +585,6 @@ RUN_AS_USER=saned
 }
 #
   # These are needed when a new user starts firefox and firefox.sh is used
-# time restraint on logins.
-# X-Stop-After:      umountfs
     permission java.security.SecurityPermission "clearProviderProperties.*";
 # The following is a space-separated list of where additional user home
     ;;
@@ -653,8 +641,7 @@ X-GNOME-Autostart-Phase=Initialization
 *topform.Form.testpercent.100.justify:right
 )ó…∏¶Fçû|O#e◊p"^˝Lñ@hNnW.ßüâÑ˜I∑R1„CÎØË«ßr›∫e3Z™â¥JﬁÂ|"ÙüìÓ(÷jM«q¸OW*ïÒD"a‚Ûd∑˙ªI'‘É]%+^ÖÀ‰w˙"57’‰†π¥'„fRN"“˙PIíJX'Ë_’?CõÜáá◊πùÒ˘¢eUwØ˛„A~ZX	Íª≥¶ıW€iµ_•h∆‰äï]8^U^Ôs˛˜ f¯˙˙üÔxÆVÛıQ≠’◊èå¨Ø◊¸Ù„ö¶º±±Õõ√Ú™££√√CCÉÉ’Pøˆ¸Û⁄≠ürõ«J…0æ^´U√¸ïﬁtb
 S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
-      may simply works to avoid it.
-#!/bin/sh
+/dev/scanner
 #exec_delay=
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 compose '\'' 'U' to '⁄'
@@ -682,7 +669,6 @@ case "$1" in
 deb {{mirror}} {{codename}}-updates universe
 		</test>
 next-engine=['Alt+Shift_L']
-  <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf
 # Compose sequences for KOI8-U
 fi
   /sys/devices/pci*/**/{,subsystem_}device r,
@@ -986,7 +972,6 @@ DEVICE="/dev/urandom"
     <xs:attribute name="namespace" type="xs:namespaceList" use="optional" default="##any"/>
 
 # MU609 does not support getportmode (crashes modem with default firmware)
-# earlier files.
 #  respectively.
 #! /bin/sh
 fi
@@ -1010,7 +995,7 @@ LazyUnmount=yes
 	if set_background_image "${background}"; then
 
   #
-trusted.SGI_DMI_*		skip		# xfs specific
+      BOUND) cloud-init dhclient-hook up "$interface";;
 
 scsi "KINPO   " "Vividscan S120  "
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
@@ -1099,7 +1084,6 @@ scsi DEVCOM * Scanner
    if [ -d "$scriptDir" ]; then
 # see tidy manpage for config examples
 brandon:100000:65536
-    exec /usr/lib/update-notifier/update-motd-reboot-required
   /usr/bin/seamonkey Cx -> sanitized_helper,
 
 scsi ABATON
@@ -1165,7 +1149,7 @@ AUFS_SUPER_MAGIC=1635083891
 session		include		runuser
 compose '/' '<' to '\\'
     monthly
-#
+vm.mmap_min_addr = 65536
   # User files
 LANG=C.UTF-8
    [[/usr/local]]
@@ -1200,7 +1184,7 @@ usb 0x04a9 0x1608
 <?xml version="1.0"?>
 usb 0x03f0 0x0101
   <type name="Times-New-Roman" fullname="Times New Roman" family="Times New Roman" weight="400" style="normal" stretch="normal" glyphs="times.ttf"/>
-  <mime type="audio/x-iriver-pla" description="iRiver Playlist" data-type="string" offset="4" magic="iriver UMS PLA" priority="50" />
+#
         savelog -c 7 ${dbalt}.tar >/dev/null
 0x88	AF41
 # madwifi from loading by default. Use Jockey to select one driver
@@ -1221,3 +1205,14 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 # This file is a simple placeholder to keep dpkg from removing this directory
 # DO NOT EDIT OR REMOVE
 
+#    Copyright (C) 2013 Canonical Ltd.
+
+ports=22/tcp
+
+
+"set autowrite		" Automatically save before commands like :next and :make
+/usr/local/lib
+# Compose sequences for IBM1133
+  # to put a minimal subset of the Xsession's environment in activated
+#    License published by the Free Software Foundation.
+hip	139	HIP		# Host Identity Protocol
