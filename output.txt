@@ -19,7 +19,7 @@ XClock.input: false
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
 grant {
-#
+fi
 # create new (empty) log files after rotating old ones
 audio/x-mpegurl=rhythmbox.desktop
 
@@ -33,7 +33,6 @@ audio/x-mpegurl=rhythmbox.desktop
 # Configuration file for the hp4200 backend
     <event name="jdk.InitialSystemProperty">
 #
-	;;
     minsize 1M
 kde4/ktimetracker.desktop
 /dev/scanner
@@ -107,7 +106,6 @@ trusted.SGI_MAC_FILE		skip		# xfs specific
 # Gracefully exit if the package has been removed.
     permission java.util.PropertyPermission "path.separator", "read";
 #
-# run "systemd-resolve --status" to see details about the actual nameservers.
 vÁßÃ]p7|öÂ×à¸î‡àAØÁÃğ(<Ãğ$<ÏÁ‹ğ¼¯ÀûğaÖ¦àÿë£PxÈ)
 	<alias>
 case "${1}" in
@@ -286,7 +284,6 @@ WantedBy=multi-user.target
 # or the other. (Ubuntu: #315056, #323830)
 @include common-account
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
-PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 max_allowed_packet	= 16M
 *interactStyleErrors.label:	Errors
 #
@@ -296,7 +293,6 @@ max_allowed_packet	= 16M
   around 75.
   Associate an image format with a unique identifier. 
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
-# HP Scanjet G2710
 # to update this file, run dpkg-reconfigure cloud-init
 	<alias binding="same">
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
@@ -304,7 +300,6 @@ max_allowed_packet	= 16M
 # Instance parent directories must exist for the polyinstantiation
 #    modify it under the terms of version 2 of the GNU General Public
 	zenity --warning --no-wrap --text="$TEXT"
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 mozilla/SecureSign_RootCA11.crt
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 
@@ -342,7 +337,7 @@ auth	required	pam_nologin.so
 BQJbAwPCAhsuASkJEAptzva0bz2/wF0gBBkBAgAGBQJbAwPCAAoJEL4e3StH4Ita
             break;
 .  el {
-auto
+# get configuration information
 
 printf " * Support:        https://ubuntu.com/advantage
 "
@@ -422,11 +417,10 @@ ManagerResetTimeout=1800
 
   # Support the new executable helper from NetworkManager.
 #
-# PAM service modules. This file is used only if that directory does not exist.
+# Compose sequences for ISO-8859-10
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
   #include <abstractions/ubuntu-console-email>
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
-deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 fi
 #       entries the days are specified by a sequence of two character
 device auto
@@ -499,7 +493,6 @@ DESKTOP-OFJN9OT
 #usb /dev/usb/scanner0
 <?xml version="1.0"?>
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
-#    This program is free software; you can redistribute it and/or
 # where dovecot is allowed to store and read mails
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 	        Shift<Btn5Down>,<Btn5Up>: Page(Line,1) \n\
@@ -567,7 +560,7 @@ makestep 1.0 3
 <delegateSystem systemIdStartString="http://xml.ascc.net/xml/resource/qaml-xml" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 #
 
-## Description: Watchdog options - modinfo ipmi_watchdog for details
+#
 
       path=/org/freedesktop/DBus
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
@@ -628,7 +621,7 @@ RUN_AS_USER=saned
 # time restraint on logins.
 # X-Stop-After:      umountfs
     permission java.security.SecurityPermission "clearProviderProperties.*";
-/dev/scanner
+# The following is a space-separated list of where additional user home
     ;;
     <!-- org.freedesktop.ModemManager1.Modem.Voice.xml -->
 	nocreate
@@ -638,14 +631,13 @@ RUN_AS_USER=saned
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
      ([ "x$GRUB_GFXPAYLOAD_LINUX" != x ] || [ "$gfxpayload_dynamic" = 1 ]); then
 	  <default>
-
+Ç_ä‰ü¸Ì×õ?ºˆıš5­¯|:=u‘Näâ…fN°{üœ•`0QG¨e·w¯Î¬œû£À_™§w*6ñ/¶tÓ0¤hÒ¥í”&›õÑHëppêÒÇµJ»&PôsG3µÆBÃÔÂ“oBW&¾¿­ÖõRÚnö–MàÉ(C¸šbÕ8Ÿƒ¡:®ç…4“í,fn)^Š,Í‘çÔÙJ imâˆ†ör!I}8ÅFzÍØkC£4[×Üb„~¯G7¡Ò>P,7U&m(5ÿÆQõ£ÿ6oÊ.]á;,bà;Æ6>Jú1¿ˆ #9ñ1ÿ‘eÖ+F±°^v®¾Q§š*‚Bjp1¬ÏBÉYù˜é$A‘{èÙ*F£õ±WÍ–L£g„/»í³RV§9ş6 hXuhe‘Ã[š¥ƒÖ–yÑÆÉëLJÔ·œ}l©©ëú.ñTP¢•ªÏMmÓF©Z[óãw ¦ÑÇl ­M¡.É[oÉì„¡$ÙÆŞÕ.»¼ %Õ´Launchpad PPA for deadsnakes‰8"Y|}		
 
 #RUN_DAILY=true
     </levels>
 #    modify it under the terms of version 2 of the GNU General Public
   /usr/bin/libreoffice Cxr -> sanitized_helper,
 #
-ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
 #objects-per-client-max=1024
 
     %m  input image format
@@ -656,7 +648,7 @@ All executable files in this directory are processed in shell expansion order.
     create 0664 root utmp
   # Text editors (It's All Text [https://addons.mozilla.org/en-US/firefox/addon/4125])
 <fontconfig>
-Øæ ÿb/äË†ä´(Û¯Um‡Ušhg:6FYÎ¹ıìÿjºŞÿ
+1T4H/jsWVrANLKElBwZJpPOVy4Haw7UG+zk7lfwck0H8J9ShDtwhNTg03BiOONP/
 XKBLAYOUT="us"
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 @include common-session-noninteractive 
@@ -694,7 +686,6 @@ kana14       -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
 # This script can be used to override the .d files supplied by other packages.
 check_power || exit 0
 # Uncomment following line to disable "clever precalibration" routines...
-avahi:x:117:123:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
 APT::Periodic::Update-Package-Lists "1";
 
 gtk-sound-theme-name = Yaru
@@ -730,7 +721,7 @@ if [ -d "$HOME/.local/bin" ] ; then
 XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
 		<edit name="hinting">
 #   top:1		interactive	# interactive -> 1:1
-#local stratum 10
+
 			<Btn1Up>:popdown-pixel()
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 #
@@ -786,7 +777,6 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
 # IPMI_System_Event_Transition_Severity_Transition_To_Non_Critical_From_OK               Warning
 <!--
 #pio 0x3BC
-SyslogIdentifier=lxd.daemon
 /URWPalladioL-Ital (/usr/share/fonts/type1/gsfonts/p052023l.pfb) ;
 # Compose sequences for GEORGIAN-ACADEMY
 
@@ -837,7 +827,7 @@ security.overridePropertiesFile=true
 ‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*\Ç‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ\ä¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ı\i¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù\Ş™¹<Ëº-\›çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-\›Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀ\ÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷Šˆ\ièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
 # Compose sequences for GEORGIAN-PS
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
-    <test name="family">
+## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
 # vmtoolsd.level = none
 # Device filename to use for scanner access
   /usr/bin/prism Cx -> sanitized_helper,
@@ -865,7 +855,6 @@ Description=Mount unit for snapd, revision 8542
 #
 
 #
-
 
   <match target="pattern">
 <Key>a: Select(ancestors) \n\
@@ -901,7 +890,7 @@ X-GNOME-HiddenUnderSystemd=true
 Name=Certificate and Key Storage
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 0:0			none
-0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
+        output=`ufw_stop` || error="$?"
 PKA6hjhodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9DZXJ0aWZpY2F0aW9u
 [Resolve]
 application/set-payment-initiation
@@ -916,7 +905,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
     permission javax.crypto.CryptoAllPermission; 
 {% if servers %}# Servers
 [METARELEASE]
-
+# You can use a different file by specifying a filename
     case "$1" in
 #scsi MINOLTA
 # Generate our temp files, clean up when done
@@ -1002,7 +991,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 byte-compile = standard
 SocketMode=0660
   # require the santized_helper (ie, LD_PRELOAD will only use standard system
-     <!ENTITY % dbgenent PUBLIC
 			<string>sans-serif</string>
 #
 # <library name>	<version/soname>	<dependencies>
@@ -1027,7 +1015,7 @@ DEVICE="/dev/urandom"
 # MU609 does not support getportmode (crashes modem with default firmware)
 # earlier files.
 #  respectively.
-*chooseSessionBreakLockButton.label:	Break Lock
+#! /bin/sh
 fi
 
 fs.protected_symlinks = 1
@@ -1119,7 +1107,6 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware.xml.gz
 
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 # Do not use IPMI KCS to create an initial user account if no SMBIOS data
-# Refer to 'man lvm.conf' for further information about profiles and
   /usr/bin/qbittorrent Cxr -> sanitized_helper,
 $FileGroup adm
 saned:x:127:
@@ -1179,7 +1166,7 @@ TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 
 }
 #option modelname "Prima PagePartner"
-bullseye/sid
+  # dbus-accessibility-strict abstraction for fine-grained bus mediation.
 #
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 # Compose sequences for KOI8-R
@@ -1228,3 +1215,12 @@ session required        pam_loginuid.so
 [uefi_capsule]
 #
 #	ForceCommand cvs server
+deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
+#LESS		DEFAULT="M q e h15 z23 b80"
+
+#   standard location for dictionaries.
+  unix (connect, receive, send) type=stream peer=(addr="@tmp/.mozc.*"),
+#scsi MITSBISH MCA-S600C
+log_level              {{log_level}}
+
+
