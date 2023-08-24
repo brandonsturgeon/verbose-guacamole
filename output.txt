@@ -119,7 +119,7 @@ case "${1}" in
 
 	start-stop-daemon --start --background $SSD_OPTIONS
 #scsi hp
-ApprovalRequired=false
+{ :
   /usr/share/enchant/enchant.ordering              r,
 Name=GNOME Settings Daemon's housekeeping plugin
 	log_end_msg $?
@@ -137,12 +137,10 @@ compose '"' 'O' to 'Ö'
 }
 # This will not allow a user to change their shell unless
 <!-- Accept bitmap fonts -->
-<delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 };
   # Xlibs
 Exec=/usr/libexec/evolution-data-server/evolution-alarm-notify
 <!--
-BatteryThreshold=10
 			<family>Latin Modern Math</family> <!-- TeX -->
 #
             . /usr/share/bash-completion/bash_completion
@@ -289,7 +287,7 @@ mozilla/SecureSign_RootCA11.crt
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 
 <?xml version="1.0"?>
-           send_member="GetAll"/>
+#    License published by the Free Software Foundation.
 
 #############################################################################
 # ipmi-fru-bridge-fru DISABLE
@@ -525,11 +523,9 @@ makestep 1.0 3
 #
 
 #
-scsi AdLib * Scanner
 # <target name>	<source device>		<key file>	<options>
 
 # set PATH so it includes user's private bin if it exists
-  <uri name="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd" uri="xenc-schema.xsd"/>
 expand-check=0
 NoDisplay=true
 # failure_action can be: log, ignore, terminate
@@ -560,7 +556,6 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 
     $_local ufile="$HOME/.cloud-warnings.skip" sfile="$warndir/.skip"
 
-TryExec=xdg-user-dirs-update
 	;;
 
 # and by vendor and product ID (USB). This is what the backend does when
@@ -575,7 +570,7 @@ This file is part of PulseAudio.
 #    modify it under the terms of version 2 of the GNU General Public
 # resumed.  See http://bugs.debian.org/415441 for details.
 RUN_AS_USER=saned
-}
+			<string>AR PL UMing HK</string>
 #
   # These are needed when a new user starts firefox and firefox.sh is used
     permission java.security.SecurityPermission "clearProviderProperties.*";
@@ -592,14 +587,12 @@ FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
 Ç_ä‰ü¸Ì×õ?ºˆıš5­¯|:=u‘Näâ…fN°{üœ•`0QG¨e·w¯Î¬œû£À_™§w*6ñ/¶tÓ0¤hÒ¥í”&›õÑHëppêÒÇµJ»&PôsG3µÆBÃÔÂ“oBW&¾¿­ÖõRÚnö–MàÉ(C¸šbÕ8Ÿƒ¡:®ç…4“í,fn)^Š,Í‘çÔÙJ imâˆ†ör!I}8ÅFzÍØkC£4[×Üb„~¯G7¡Ò>P,7U&m(5ÿÆQõ£ÿ6oÊ.]á;,bà;Æ6>Jú1¿ˆ #9ñ1ÿ‘eÖ+F±°^v®¾Q§š*‚Bjp1¬ÏBÉYù˜é$A‘{èÙ*F£õ±WÍ–L£g„/»í³RV§9ş6 hXuhe‘Ã[š¥ƒÖ–yÑÆÉëLJÔ·œ}l©©ëú.ñTP¢•ªÏMmÓF©Z[óãw ¦ÑÇl ­M¡.É[oÉì„¡$ÙÆŞÕ.»¼ %Õ´Launchpad PPA for deadsnakes‰8"Y|}		
 
 #RUN_DAILY=true
-    </levels>
 #    modify it under the terms of version 2 of the GNU General Public
-  /usr/bin/libreoffice Cxr -> sanitized_helper,
 #
 #objects-per-client-max=1024
 
     %m  input image format
-# Not an interactive shell?
+X-GNOME-Autostart-Phase=PreDisplayServer
 <fontconfig>
 All executable files in this directory are processed in shell expansion order.
 #!/bin/sh
@@ -608,7 +601,7 @@ All executable files in this directory are processed in shell expansion order.
 <fontconfig>
 1T4H/jsWVrANLKElBwZJpPOVy4Haw7UG+zk7lfwck0H8J9ShDtwhNTg03BiOONP/
 XKBLAYOUT="us"
-CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
+	;;
 @include common-session-noninteractive 
 #
 # ------------------------------------------------------------------
@@ -648,7 +641,6 @@ APT::Periodic::Update-Package-Lists "1";
 gtk-sound-theme-name = Yaru
 image/uyvy; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 			<family>Comic Sans MS</family>
-else
        %all-titles;
 # reserved values
 #    This program is free software; you can redistribute it and/or
@@ -722,7 +714,7 @@ deb http://archive.ubuntu.com/ubuntu/ focal multiverse
 #X11UseLocalhost yes
       <fit>
         </sequence>
-# Description: Start ufw firewall
+!•”hÄÂÇ¨(/ä< @€á	êÇhÊ×¬á‹Xó¥jCBŸbÊ›¿Œâ[±Ö£ÖÜııc=ëÖ¶—‘	zoÕcÓÉ-AKĞ´-y®–¨ş¹Ç9Y¸ÚºÚ'éCÎÕæ‡=Úæ›nÀ=j»ºµˆ‹¸ˆ{p™Åg~h5íã^
 # is not set. DLNA wants something between 5 and 15 seconds.
 Name=GNOME Settings Daemon's power plugin
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
@@ -778,7 +770,7 @@ security.overridePropertiesFile=true
 #
 			<bool>true</bool>
 ‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*\Ç‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ\ä¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ı\i¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù\Ş™¹<Ëº-\›çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-\›Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀ\ÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷Šˆ\ièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
-# Compose sequences for GEORGIAN-PS
+do_start_prepare() {
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
 ## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
 # vmtoolsd.level = none
@@ -788,9 +780,8 @@ security.overridePropertiesFile=true
     h;                             # hold line
 0	default
 	# save/restore it
-    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
+<!DOCTYPE logmap [
 # device group names
-libXvMC.so.1
       <family>DejaVu LGC Serif</family>
 # See Xsession.options(5) for an explanation of the available options.
 # scopev4  <mask>  <value>
@@ -809,7 +800,7 @@ Description=Mount unit for snapd, revision 8542
 #
 
   <match target="pattern">
-<Key>a: Select(ancestors) \n\
+  --arg="$1" --arg="$2" --arg="$3" --arg="$4" --arg="$5" --arg="$6"
 [ -n "$version" ] || exit 0
 # in the toplevel profile. Eg:
 #!/bin/sh
@@ -860,8 +851,6 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
     case "$1" in
   /usr/{share,X11R6,local,kerberos}/man/**	 r,
 letter
-  gdmtranslate="/usr/lib/gdm3/gdmtranslate"
-# vim:syntax=apparmor
 76A45A496031E4DD2D7ED23E8F6FF97DBDEA980BAAC8B0BA94D7EDB551348645
 
   # firefox-notify
@@ -1026,9 +1015,9 @@ test -x $DAEMON || exit 0
 #    Copyright (C) 2014 Canonical Ltd.
 scsi TAMARACK
 # Compose sequences for VISCII
-
+# scanners discovered later in this file
 <busconfig>
-# microcode file installed on the system.  When removing iwlwifi, first
+# Doing this will stop logging kernel generated UFW log messages to the file
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 build_name: server
 # Legacy biarch compatibility support
@@ -1128,7 +1117,6 @@ WAIT=5
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 X-GNOME-Autostart-Phase=PreDisplayServer
 # The following is a space-separated list of where additional user home
-AUFS_SUPER_MAGIC=1635083891
 
 <!-- Copyright 1992-2000 HaL Computer Systems, Inc.,
 session		include		runuser
@@ -1200,7 +1188,6 @@ ports=22/tcp
 hip	139	HIP		# Host Identity Protocol
 # invoked with "-" as the first character of argv[0], and
       <Filename>emacs.desktop</Filename>
-	monthly
             <family>Sazanami Gothic</family>
 
 
@@ -1224,3 +1211,14 @@ server {{server}} iburst
 actlistbox=,magenta
 	</policy>
   /usr/lib{,32,64}/perl{,5}/**.so*             mr,
+# Compose sequences for CP1251
+# Specify the key identifiers which are trusted.
+	notifempty
+# For example, the lines below are for one device, but if you have several devices to use, you can duplicate the lines below as many times as you have devices.
+   "URL": "https://launchpad.net/~%s/+sshkeys"
+/dev/camera
+				fi
+#   Copyright 2018-2022 Docker Inc.
+NoDisplay=true
+#		 - Minor cosmetic changes in an attempt to help new
+#
