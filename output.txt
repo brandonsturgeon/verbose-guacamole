@@ -9,7 +9,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
     // There is no restriction to any algorithms.
 # IRQBALANCE_ARGS
 #DUIDType=vendor
-    <allow receive_sender="fi.w1.wpa_supplicant1"
 /bin/sh
 # Compose sequences for CP1255
            oracle-java9-jre-$arch oracle-java9-server-jre-$arch oracle-java9-jdk-$arch 
@@ -173,10 +172,9 @@ net/ipv4/icmp_ignore_bogus_error_responses=1
 # Also, include files in tunables/xdg-user-dirs.d for site-specific adjustments
 	<alias>
 case "${1}" in
-*MenuButton.foreground: white
 # cloud-init. They are read in lexical order. Later files overwrite values in
 #
-# device group names
+#PermitRootLogin prohibit-password
 
 *editButton.menuName:			editMenu
 
@@ -202,7 +200,6 @@ APT::Periodic::Download-Upgradeable-Packages "0";
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
 
 
-## Do quick status-bar blanking.  Status-bar messages will disappear after
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
 
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
@@ -211,7 +208,6 @@ Name=GNOME Settings Daemon's housekeeping plugin
 	log_end_msg $?
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 blacklist rivafb
-
 # inclusion by distributed profiles to aid in packaging AppArmor for
 [METARELEASE]
 
@@ -309,10 +305,8 @@ usb 0x03f0 0x0105
   /dev/dri/card[0-9]* rw, # beignet/libcl.so
 ÓZ¸,ã°Ë¼*m66{ÿlÚ5¡
 <!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
-*†HÎ=h0e1åiÉnÛÆ1º	Aá—øûýšâ}Éí|dÓË%‹VÙ ç^]Nƒœ[v) 	&!jb0qÒµ\ê;áx	…¨u’;È\ýHït"¨ânÅIÎÇ¼§aiñ÷;á*Ëù+óf7"debian:digicert_global_root_g3.pem8P_1X.509C0‚?0‚Å UV¼ò^¤55Ã¤Õ«Er0
 
 
-# directories.
 
 
 # ------------------------------------------------------------------
@@ -355,7 +349,7 @@ log_cfgs:
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
 	</alias>
 # - What to do after sleep-inactive-ac-timeout
-		cd /sys/fs/cgroup
+#    Copyright (C) 2010 Canonical Ltd.
 #port=/dev/term/a
 #
 NoDisplay=true
@@ -372,7 +366,7 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 deb {{mirror}} {{codename}} multiverse
 ## serial port or special bus peripheral. The particular  
 	notifempty
--misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
+# Rules for writing KDE icon cache
   the ImageMagick option
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
@@ -381,7 +375,7 @@ awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 #
     interface=org.freedesktop.login1.Manager
 # Insert here your local magic data. Format is described in magic(5).
-APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
+  </policy>
   <!ELEMENT type EMPTY>
 
 
@@ -411,7 +405,7 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 # should contain commands that should be executed only
   . "$USERXSESSIONRC"
 # particular interface
-/usr/lib/x86_64-linux-gnu/libfakeroot
+FindMntEnt() # mntpnt
 +# then you will need to either
 ÜFö¢Î¹ng;ëö‹grêä’Ù¯``…Ê°ÚièÛÎd<Î·gºWŒÇ­H+ËéZÐ³äbÉÙzmGÀE:ši,Þl
       We shouldn't overwrite it with "assign" unconditionally.
@@ -469,7 +463,7 @@ max_allowed_packet	= 16M
 # Global Order: zshenv, zprofile, zshrc, zlogin
 ###############################################################################
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
-  00_*: Reserved for 00_header.
+/usr/lib/update-notifier/package-data-downloader
     user_friendly_names yes
 #
 # usb 0x4b8 0x14c
@@ -574,7 +568,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
 [Desktop Entry]
 # can attach to any other dumpable process owned by the same user.  In the
-DISTRIB_ID=Ubuntu
+#
 #
 search updates ubuntu built-in
 [network]
@@ -673,7 +667,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
       <family>DejaVu LGC Serif</family>
 /dev/scanner
 # X-Stop-After:      umountfs
-  /usr/share/ghostscript/fonts/{,**}    r,
+# Multiarch support
 
 # In general, PTRACE is not needed for the average running Ubuntu system.
                       cat <<EOF >>$statedir/isc-dhcp-v4-$interface.conf
@@ -786,7 +780,6 @@ scsi "B&H SCSI"
 
 	monthly
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
-  capability setuid,
 allocation {
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
 # X12xx series
@@ -803,7 +796,6 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 #GRUB_DISABLE_LINUX_UUID=true
 GRUB_TIMEOUT=0
 brandon:100000:65536
-    if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
 #2	inr.ruhep
 -server KNOWN
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -840,8 +832,6 @@ HOMEHOST <system>
 _apt:x:105:65534::/nonexistent:/usr/sbin/nologin
 # Canonical runs a service at motd.ubuntu.com, and you
 
-  <delegate decode="pcl:cmyk" stealth="True" command="&quot;pcl6&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=pamcmyk32&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
-
      Define aliasing and other fontconfig settings for
 [ -d /var/crash ] || exit 0
 # This file is sourced by Xsession(5), not executed.
@@ -876,7 +866,7 @@ letter
 	        # currently no settings for "smq" policy
 !%),/aspartial-match-conditionidconf-preserve-name-prefixes/desktop/ibus/engine/pinyin/desktop/ibus/engine/bopomofo/desktop/ibus/engine/hangul:Vasdisable-unconditionalasdesktop/triggerControl+spaceZenkaku_HankakuAlt+KanjiAlt+graveHangulAlt+Release+Alt_R(29Kas/,auto-hide-timeout'iprev-engineas
   /srv/www/htdocs/ r,
-# Prior to perl 5.8.8-7, libnet was a seperate package with a debconf
+# Compose sequences for KOI8-R
 # many PAM applications don't make it available by the time you need it.
 # in your $ZDOTDIR/.zshenv
 #  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
@@ -1062,7 +1052,6 @@ ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
 segments	0,1,0,-2,-1,1,-1,-2
   <alias binding="same">
 
-  </policy>
 brandon:x:1000:1000:,,,:/home/brandon:/usr/bin/zsh
       <setting name="enabled" control="gc-enabled-normal">true</setting>
 # The following lines are desirable for IPv4 capable hosts
@@ -1113,7 +1102,7 @@ BACKSPACE="guess"
 	<match target="font">
 	<alias>
 12  nft
-#         64 - enable signalling of processes (term, kill, oom-kill)
+{c¸O¬	ù³x•Ûvñè}iY‰ô&|4ý¼øÅôCË¡8qýÊvb»¾2U—&¸ê|MOÃþ®¹Dp"qeåÇ¨—r´†0g»fj®kÃwLiWo6å¯`É>6hVä}6¦õ^æ,¦¶=6~Åòê©]Ç/êÿ› (
 #!/bin/sh
 # Select which information is logged.
 #        - the wildcard %, can be also used with %group syntax,
@@ -1166,7 +1155,6 @@ scsi "K.M.E.  " "KV-SS25A        "
 
 
 # profile using this mechanism.
-## Major bug fix updates produced after the final release of the
 "set ignorecase		" Do case insensitive matching
 c0611bt_.pfb -bitstream-courier 10 pitch-bold-i-normal--0-0-0-0-m-0-ascii-0
 # Compose sequences for CP1255
@@ -1190,3 +1178,16 @@ Exec=/usr/libexec/gsd-a11y-settings
     apport_python_hook.install()
 
 
+# world order where the prompt function is requested separately.
+if [ -d "$HOME/.local/bin" ] ; then
+source_with_error_check () {
+           send_interface="org.freedesktop.DBus.Introspectable"/>
+		<edit name="hinting">
+$x-display-manager gdm3
+#   top:1		interactive	# interactive -> 1:1
+#local stratum 10
+  CONFIG_FILE="$1"
+#
+  # We rely on the pidfile being sanely managed
+# The values are relative pathnames from the home directory and
+*internalBorderWidth:		0
