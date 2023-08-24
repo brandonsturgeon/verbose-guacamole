@@ -1,5 +1,5 @@
 
-#    License published by the Free Software Foundation.
+#
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
   owner @{HOME}/@{XDG_DESKTOP_DIR}/*	rwl,
   # System files
@@ -43,7 +43,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 previous-engine=@as []
 APT::Periodic::AutocleanInterval "0";
 
-Before=snapd.service
 # vim:syntax=apparmor
 # Compose sequences for ISO-8859-11
 # This script can be used to override the .d files supplied by other packages.
@@ -102,7 +101,6 @@ case "${1}" in
 # Compose sequences for ISO-8859-8
 
 // grant codeBase "jrt:/com.greetings" {
-<!ENTITY % simpleTypeAttrs "">
 ## This file is provided by command-not-found(1) to download
 	<alias>
 
@@ -161,7 +159,6 @@ X-GNOME-AutoRestart=true
 /dev/scanner
 #
     <allow own="com.ubuntu.SoftwareProperties"/>
-PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_lts_contract.py
   # Access required for connecting to/communicating with the Unity Launcher
 # This file is a simple placeholder to keep dpkg from removing this directory
 *Command.shapeStyle:		oval
@@ -187,7 +184,6 @@ SHELL=/bin/sh
 #    Copyright (C) 2010 Canonical Ltd.
 #    License published by the Free Software Foundation.
   file. For example, the PNG coder module not only supports the PNG image
-.  " signs in manual pages, so map it to plain "-" for HTML/XHTML output
 			<family>padmaa</family> <!-- gujarati -->
 
 order hosts,bind
@@ -257,7 +253,6 @@ max_allowed_packet	= 16M
 #    modify it under the terms of version 2 of the GNU General Public
 	zenity --warning --no-wrap --text="$TEXT"
 mozilla/SecureSign_RootCA11.crt
-# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 
 <?xml version="1.0"?>
 #    License published by the Free Software Foundation.
@@ -321,7 +316,6 @@ $x-display-manager gdm3
 # The possible arguments are:
 sonames=libbd_swap.so.2
 "
-#
 
   @{sys}/bus/pci/devices/ r, # libpocl.so -> libhwlock.so, libnvidia-opencl.so, beignet/libcl.so -> libdrm_intel.so
         </test>
@@ -432,7 +426,7 @@ twm
 		wpa_cli_do "$IF_WPA_SSID" ascii 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 CATALOG /usr/share/xml/docutils/catalog
-0xA6 '¬¶'
+<delegatePublic publicIdStartString="+//IDN docutils.sourceforge.net/" catalog="file:///usr/share/xml/docutils/catalog.xml"/>
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 # Copyright (c) 1996, 2000, Oracle and/or its affiliates. All rights reserved.
 XClock.input: false
@@ -458,7 +452,6 @@ LANG=C.UTF-8
 ABORT		"NO CARRIER"
 ip.hdrlen	u8		net+0		0x0F
 #
-Clock*minute:	yellow
 /usr/share/qt3/lib*/libqui*so* mr,
 X-GNOME-Autostart-Notify=true
 # colored GCC warnings and errors
@@ -509,7 +502,7 @@ NoDisplay=true
 
 exec /usr/bin/X -nolisten tcp "$@"
 
-LP-PPA-mozillateam-firefox-next
+exec $STARTUP
 K•Å!N¡¡°%#bH¬Ô
 ### BEGIN INIT INFO
 This file is part of PulseAudio.
@@ -575,7 +568,6 @@ X-GNOME-Autostart-Phase=Initialization
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 compose '\'' 'U' to '⁄'
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
-kana14       -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
 # This script can be used to override the .d files supplied by other packages.
 check_power || exit 0
 # Uncomment following line to disable "clever precalibration" routines...
@@ -669,7 +661,6 @@ pool {{pool}} iburst
 # Uncomment and edit /etc/security/access.conf if you need to set complex
 }
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
-PK!		Êñ∞Âä†Âù°UTcx6m√”ÆOÁ.‰PKN˛5„PK!	Êñ∞ÈóªUTcx6m√ÀÈªπPK§èej
 KP_5 = j;k;l;5;¬£
 #SpeedMeter=no
 
@@ -783,7 +774,6 @@ letter
   <type name="DejaVu-LGC-Serif-Book" fullname="DejaVu LGC Serif Book" family="DejaVuGC Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuLGCSerif.ttf"/>
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
   ;;
 compose '<' 'd' to 'Ô'
 
@@ -828,7 +818,6 @@ compose 'A' 'O' to '≈'
 /usr/bin/wine-preloader
 # Compose sequences for ISO-8859-10
 
-
     [ -n "$ZSH_VERSION"  ] && precmd_functions+=(__vte_osc7)
 overlayroot_cfgdisk=LABEL=OROOTCFG
 What=/var/lib/snapd/snaps/snapd_8542.snap
@@ -842,7 +831,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
     </complexType>
 # You can use this script unmodified to connect to sites which allow
 Ç
-#    Copyright (C) 2011 Novell/SUSE
 byte-compile = standard
 #    Copyright (C) 2013 Christian Boltz
   # require the santized_helper (ie, LD_PRELOAD will only use standard system
@@ -917,7 +905,7 @@ Icon=printer
 
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
-  /usr/bin/python3.[0-9] mr,
+  /usr/bin/lynx.cur Cx -> sanitized_helper,
 test -x $DAEMON || exit 0
 			fi
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook post-invoke-success || true";
@@ -969,7 +957,6 @@ brandon:100000:65536
   /usr/bin/seamonkey Cx -> sanitized_helper,
 
 scsi ABATON
-  owner @{HOME}/.local/share/RecentDocuments/#[0-9]* rw,
 # Compose sequences for ISO-8859-16
 #
 #Enable=true
@@ -987,7 +974,7 @@ TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
   <alias binding="same">
 
-
+# default value is forever (FOREVER). For security reasons, this
 "
   @{PROC}/[0-9]*/net/arp r,
     start-stop-daemon --start --pidfile /dev/null \
@@ -1021,7 +1008,6 @@ WAIT=5
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 X-GNOME-Autostart-Phase=PreDisplayServer
 # The following is a space-separated list of where additional user home
-^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])? raid[[:digit:]]+: Disk failure on [[:alnum:]]+, disabling device.$
 <!-- Copyright 1992-2000 HaL Computer Systems, Inc.,
 compose '/' '<' to '\\'
     monthly
@@ -1107,7 +1093,7 @@ server {{server}} iburst
 # Specify the key identifiers which are trusted.
 	notifempty
 # For example, the lines below are for one device, but if you have several devices to use, you can duplicate the lines below as many times as you have devices.
-/dev/camera
+#
 				fi
 wifi.powersave = 3
 NoDisplay=true
@@ -1165,7 +1151,6 @@ EODMFj+BpdoDwAWhJcvyijoMV6N+gbCG+UedMNnpe25tlCRjouBSEF5KWJabejdh
 	</match>
        peer=(name=org.freedesktop.DBus),
   # Capabilities
-	Ä
 </busconfig>
 # startup without editing the init script (and thus getting prompted
 #blacklist firewire-ohci
@@ -1189,7 +1174,6 @@ Please read the update-alternatives(1) man page for information on this
 #input(type="imtcp" port="514")
 
 
-#!/bin/sh
 # and Bourne compatible shells (bash(1), ksh(1), ash(1), ...).
 X-GNOME-AutoRestart=false
 #EnclosureKind=
@@ -1225,3 +1209,14 @@ Keyring=none
 }
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet		xlsx
   <policy context="default">
+# Magic local data for file(1) command.
+
+lines_per_block 1
+Acquire::Changelogs::AlwaysOnline "true";
+  owner @{HOME}/tmp/    rw,
+## more information. Default values are commented out.  Use either ; or # for
+# usb 0x05e3 0x0142 0x3a 0x01
+D151962D954970501C60079258EBCFA38502E0A9F03CD640322B08C0A3117FE5
+#Optimize=compress-fast
+# Compose sequences for IBM1133
+		<family>monospace</family>
