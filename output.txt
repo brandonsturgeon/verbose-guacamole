@@ -101,7 +101,7 @@ mode="${1#'}"
 [Desktop Entry]
 X-GNOME-AutoRestart=false
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
-session		optional	pam_keyinit.so force revoke
+
 # javax.management.monitor.foo.Bar.
     <test compare="less" name="pixelsize">
 
@@ -125,7 +125,7 @@ Before=snapd.service
 #    Copyright (C) 2012 Canonical Ltd.
 
 # Compose sequences for IBM1133
-
+# ------------------------------------------------------------------
 PICTURES=Pictures
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
   deny @{HOME}/.mutt** mrwkl,
@@ -134,7 +134,7 @@ PICTURES=Pictures
 
 X-GNOME-Autostart-Phase=PreDisplayServer
 /dev/scanner
-€Og∑˜µ˜ŸÎÕº¬ö∆ÜB∞ﬂUf≥v∞∑y∫º£#ùV>'ï9‡ˆZ®˝çö¥ﬁéfãπã˝ı €≠ƒˆ#—˝JTVVÕñU~{ˇ¢“€r1&3l#Á+ı=[V˘mπXú|SÁΩ˜¸Ûûµ€©ö˚"[Œ≈ˆ3™˛ÒÛóg√c
+<!DOCTYPE busconfig PUBLIC
 	cache_settings {
 # Autodetect the Canon CanoScan FB630u
 deb http://packages.azlux.fr/debian/ buster main
@@ -150,7 +150,6 @@ MANPATH_MAP	/opt/sbin		/opt/man
 # CLOUD_IMG: This file was created/modified by the Cloud Image build process
 fi
 # Turn on Source Address Verification in all interfaces to
-    exec /usr/lib/update-notifier/update-motd-hwe-eol
 [general]
        daily
 # ------------------------------------------------------------------
@@ -168,7 +167,7 @@ defaults {
 LP-PPA-ubuntu-mozilla-daily
 eval $(/usr/bin/locale-check C.UTF-8)
 letter
-d /run/screen 1777 root utmp
+// Notify all clients to reload the cache
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
 XClock.Clock.secondColor:	rgba:00/00/ff/80
@@ -280,9 +279,8 @@ scsi APPLE
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
 /dev/camera
-    <h3>Father (in any context at all)</h3>
 group:          files systemd
-[Desktop Entry]
+/dev/scanner
      name="OpenSansLI"
 server {{server}} iburst
 <?xml version="1.0"?>
@@ -296,7 +294,6 @@ kbd_mode '-u' < '/dev/tty3'
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
 
 
-ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es+3ot67hZaz+cI7KRAxQD8n8R9m9Ekf9k/0WZDsfzCaIZokAbO1IYo6mznd3vsbkRgGqz6PPcURRgc1A= open-ssh-ca@cloudflareaccess.org
 speed=115200
               ;;
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
@@ -380,7 +377,7 @@ quick
 fi
 	<alias>
 *Panner.background:			gray70
-
+@{XDG_DOCUMENTS_DIR}="Documents"
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 # aufs variables for shell scripts
 ◊úvÌ ÒÓöØ‹HÈÜ◊®5Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
@@ -454,9 +451,7 @@ PICTURES=Pictures
 *search*manualPage.Label:	Manual Page
 /MKai-Medium /ZenKai-Medium ;
 
-
 {% for server in servers -%}# servers
-Each file in this directory is an rt_protos configuration file. iproute2
 <fontconfig>
   /usr/bin/apport-bug Cx -> sanitized_helper,
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
@@ -518,12 +513,12 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 .  " signs in manual pages, so map it to plain "-" for HTML/XHTML output
 #   distributed under the License is distributed on an "AS IS" BASIS,
 			<family>padmaa</family> <!-- gujarati -->
-            savelog -c 7 "dpkg.$db" >/dev/null
+*status.foreground: green
 #PAGER		DEFAULT=less
   owner @{HOME}/.config/kdeglobals.lock rwk,
   /etc/dconf/** r,
 deb {{mirror}} {{codename}} multiverse
-#  elif [ -f /etc/bash_completion ]; then
+    # VARIABLE=
   option buffersize 262144
 	notifempty
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
@@ -613,7 +608,6 @@ stamp="/var/lib/ubuntu-advantage/messages/motd-esm-announce"
 deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
 # ------------------------------------------------------------------
-# vim:syntax=apparmor
 	didn't include the right instructions in the 'prep' table.
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 ; rlimit-locks = -1
@@ -626,7 +620,6 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 
 # BYOBU_BACKEND can currently be "screen" or "tmux"
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
-[Distro]
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
 bullseye/sid
 #    Copyright (C) 2012 Canonical Ltd.
@@ -703,7 +696,7 @@ DAEMON=/sbin/lvmpolld
 # HP Scanjet G2710
 # Compose sequences for CP1251
 # to update this file, run dpkg-reconfigure cloud-init
-Clock*jewel:		yellow
+  pwd="${pwd//[[:cntrl:]]}"
 
 	<alias>
 
@@ -854,11 +847,10 @@ stamp="/var/lib/update-notifier/updates-available"
 
 fi
 /dev/camera
-# Timeout for the initial connection to saned. This will prevent the backend
+# information is printed). To change the default behavior, uncomment
 has led to the following conventions in usage:
 
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 exit 0
      lock_passwd: True
 fi
@@ -919,7 +911,7 @@ user-db:user
   @{PROC}/sys/crypto/fips_enabled r,
     // For request/response body processors, fromFile, asFile
 deb http://packages.azlux.fr/debian/ buster main
-[tunables]
+# be accepted or refused.
 Ä
 quote-names
 
@@ -973,7 +965,7 @@ OK		ATD*99#
   /usr/share/ghostscript/fonts/{,**}    r,
 
 
-# For more details, please see /etc/apparmor.d/local/README.
+                      cat <<EOF >>$statedir/isc-dhcp-v4-$interface.conf
 
 ## template:jinja
 APT::Archives::MinAge "2";
@@ -1023,7 +1015,7 @@ scsi ACROSS * Scanner * * * 0
 
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
-       interface=org.freedesktop.DBus
+# IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
 # Sets the loginuid process attribute
         End        "${terminfo[kend]}"
@@ -1172,3 +1164,16 @@ Type=Application
 smproxy
 session       required   pam_env.so envfile=/etc/default/locale
   /etc/drirc                      r,
+DESKTOP-OFJN9OT
+# /etc/modprobe.d/iwlwifi.conf
+
+993	# imaps
+CATALOG /usr/share/xml/docbook/schema/dtd/4.4/catalog
+#
+       notifempty
+# deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
+# b.) change or remove the value of 'manage_etc_hosts' in
+Name=Secret Storage Service
+#usb /dev/usb/scanner0
+
+DISTRIB_RELEASE=20.04
