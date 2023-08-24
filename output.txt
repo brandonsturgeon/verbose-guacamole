@@ -12,7 +12,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
     <allow receive_sender="fi.w1.wpa_supplicant1"
 /bin/sh
 # Compose sequences for CP1255
-xterm
+           oracle-java9-jre-$arch oracle-java9-server-jre-$arch oracle-java9-jdk-$arch 
   # User files
 scsi DEVCOM * Scanner
 
@@ -131,7 +131,6 @@ fi
 # IPMI_Processor_IERR                                          Critical
 <?xml version="1.0"?>
 esac
-/usr/share/qt3/lib*/libqui*so* mr,
 #
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
       <choice minOccurs="1" maxOccurs="unbounded">
@@ -154,14 +153,14 @@ case $0:$mode in
   # User files
 KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 }
-^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
+trusted.SGI_MAC_FILE		skip		# xfs specific
 scsi ULTIMA
 # ldconfig = false
     permission javax.crypto.CryptoPermission *, 128;
 email_format=text
         zle -N zle-line-finish
         if [ -x "$STARTUPFILE" ]; then
-deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+# Gracefully exit if the package has been removed.
 net/ipv4/icmp_ignore_bogus_error_responses=1
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
     permission java.util.PropertyPermission "path.separator", "read";
@@ -271,7 +270,6 @@ fi
 	<alias>
 *Panner.background:			gray70
 
-connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 PasswordAuthentication no
 9	ra
 
@@ -299,7 +297,6 @@ for val in $XDG_CURRENT_DESKTOP; do
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 usb 0x03f0 0x0105
        path="/com/canonical/hud",
-<delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/" catalog="file:///etc/xml/docbook-xml.xml"/>
 # The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
            "booktitles.ent">
@@ -315,13 +312,13 @@ usb 0x03f0 0x0105
 *†HÎ=h0e1åiÉnÛÆ1º	Aá—øûıšâ}Éí|dÓË%‹VÙ ç^]Nƒœ[v) 	&!jb0qÒµ\ê;áx	…¨u’;È\ıHït"¨ânÅIÎÇ¼§aiñ÷;á*Ëù+óf7"debian:digicert_global_root_g3.pem8P_1X.509C0‚?0‚Å UV¼ò^¤55Ã¤Õ«Er0
 
 
-#
+# directories.
 
 
 # ------------------------------------------------------------------
     <family>Bepa</family>
 ‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ıi¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù™¹<Ëº-çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷ŠˆièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
-#
+# Defaults to true to maximize device compatibility.
 #    modify it under the terms of version 2 of the GNU General Public
 #
 IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
@@ -337,7 +334,7 @@ PICTURES=Pictures
 	if [ $result -eq 8 ]; then
 	û„?'/[nı‚ÂŸ^P¦PkÎEâ@GÀÆ–‹Ûmé.Hl9>Ï™8ğÀpªâY¼ÀBÁ‹s¥¤@7 {1béûe¶O³=Äï ßÍExY?-·29¬)‚™ôÏòêÌ¥xÅo“ş·ÛmGùM³“’ŞZUây0#;ñ¥§«H(ÿö·;°¿ªYâC$«VtĞ[€…¤´;jx…Å•Ø#`åşÇTMóVŞ-PíDºSB$BÁFhã›Ò±ó÷f`Íœ^ç!4f&u™æ7‹#Qtw0‘ø$T1]¯G÷…Q–È*ĞMù{ûˆ$‹Ñ?r›İÑ4hsØÑAØŒ&	4ƒbWÍš”øØb¶ìù•G¸´ßªÃózÏíT8(Ø÷:viªd£E­n¿åg€:ËeÑ	hFn`DÂ}ÜM@‡ä	E[Œ@Z³ÒsÙY<pf ™!.­hŠ_ÉöV$ˆ·òQm7ß”ÍóÆ}÷è/Cà2Hnñ“şT3ôO5ã¤	9{Qn34 cô²0;Pš#R‹~ug^{ä–lmƒ±Èüâ/”jòÿyæ	Yä¿Z«ÆÍœìØº1U,¥²Q¤bĞÛØ[x#Î=’o¶ÏÙJ€Zü¾‰^Q£‹C
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
-       path=/org/freedesktop/Notifications
+usb 0x08f0 0x0002
 # DO NOT EDIT OR REMOVE
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
 APT::Install::Post-Invoke-Success {
@@ -347,7 +344,6 @@ APT::Install::Post-Invoke-Success {
 
 # password.
 # $ systemctl edit --full cron.service
-# 
 #    Copyright (C) 2016 Canonical Ltd.
 
 SHELL=/bin/sh
@@ -374,7 +370,7 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 *status.foreground: green
 # /etc/pam.d/other - specify the PAM fallback behaviour
 deb {{mirror}} {{codename}} multiverse
-    # VARIABLE=
+## serial port or special bus peripheral. The particular  
 	notifempty
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
   the ImageMagick option
@@ -391,7 +387,7 @@ APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-
 
 type=file
 # e-mail destination used by e2scrub_fail when problems are found with
-#backwards compatibility include, actual abstraction moved from php5 to php
+# The modules that run in the 'final' stage
 
 deb {{mirror}} {{codename}}-updates main
 
@@ -496,8 +492,8 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 	exit 0
       </xs:simpleType>
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
-# If this option is given, pppd will presume the peer to be dead if n
-brandon:100000:65536
+# Instance parent directories must exist for the polyinstantiation
+# directories are stored, each must have a trailing '/'. Directories added
    "URL": "https://launchpad.net/~%s/+sshkeys"
 
 
@@ -630,7 +626,7 @@ APT::Periodic::Update-Package-Lists "1";
 # The hook script for dbus-launch is in 75 which changes $STARTUP string.
 # This file is sourced only for login shells (i.e. shells
 
-    xhost +si:localuser:`id -un` > /dev/null
+# REMOVE_HOME or REMOVE_ALL_FILES is set.
 
 
 /lib/i386-linux-gnu
@@ -662,7 +658,7 @@ Exec=/usr/libexec/gsd-wacom
   # per-user write  directories
 # Required-Stop:
 compose '>' 'A' to 'Â'
-  # Use a special profile when man calls anything groff-related.  We only
+
 scsi RICOH
 [mysql]
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -766,7 +762,7 @@ deb http://packages.azlux.fr/debian/ buster main
   owner /run/user/*/dconf/user rw,
 	  <family>Nasim</family>
   </its:rules>
-#lookahead = on
+word         q<put password here>
 CATALOG /usr/share/xml/svg/catalog
 BACKSPACE="guess"
 
@@ -930,7 +926,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
   /srv/svn/**/db/revisions       rwl,
 # in the toplevel profile. Eg:
 
-America/Los_Angeles
+#          rsync you might want to symlink /etc/rsyncd.conf to
 XLoad.input:			false
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
@@ -992,7 +988,7 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 APT::Install::Pre-Invoke {
 
 ÇÛıáy$—š‘öŒˆ?_£ûkõ&Ü«ò¢ñêM¯RGï3üüşşL¥Æûùıx£ÿp<úúïMW'Ÿ‡õøµÏÇêü¯áÓ¿Ññ¬ß˜ñ¬Ö„h¼~cwk>ebó)­Ÿ¾+æ¢·£¥)o§´ïm¾}³Æ›~cÆ›ª]4^¿1ñAşà>Œ7–ıòñ¼±âı3÷g½õø}JåwÜ„÷)æûaúõ÷í‹zé¯ª~kúË|?¼ÏÊEÎ³ªşöı!rä>IÅÛó{™^ïZ÷‡ÄGî“ö}_ğ½à¼¡,px¿cô¶×ï¿½ºÌp¼šõÇ´Ï_‚æ'µ?X±ôzQštŸ±gJŠİ?”l{i3¬¯u¿fµ~¤#ãC•[Jñõ'Œ÷ìuÿ¦í_xßêîŞ¿ÙØ3½~…öLË¡=ÒéC{„\š´(Å×ãĞYù½êüÕIù£÷oa<=J÷Øú4÷?öù4_Ğñê¤â+ƒÖ}3ù«ƒz{0jîÇ+şı~p?NÇ;áı$½²v±üYÏqD±ê«®;¡¼c·#¼ï¶¿×WK$Ôïf¼vxxxû+½Úì”½·ç]Û2tãz‚ÛgÕè}§jP˜Ş4ÀXO[öâ#÷³~ƒöÑ"ÂZ÷‘ß£š±ó¶Qˆ%ïõái$R4RõáidG¨@#Õ©îÕşn§ŞâÒ":BÂ3´ æí¥.Tz»ıª|K?¾ıT·ÁìFÂÓq¡Pö	‰D|<†oÔìnÎkööK%²í’íñ®d{½ğÎw–}P²=uù™ÈıJSO2/0é|àUĞº¿ñärEİ×T‚x3ÿéQßŠ›òõ÷¢çƒğ>BkÄuó¬ö¸|"µ'z„¨ö7=[ZŠÜ©Í{ow±`ú/“IY¿¿xã«¦lœÑiIÿ÷ññß´ş~Ğé*ã”O˜úÅÏ;ö/>Jƒvı¬ß’ÑW)&Ûå©6·'<çÈœßıaûS©¦÷:¤éõÇ¢ÕÚ?€ái­ÖØÂçå[­Öé„wB‡{¸Ûj¹Ğ÷5Ùj-$Ô«¤®VË!ÍA0ÖÃ…û)ï¸ğv¸©ë^yy?Ûõˆ|Œçî®ûåƒ<wuí—Oòüiæ&¨,$ìŠ[é˜inÂMº{Ûæì¦Üéîw‰ª%`AŠ›ä#ttÃ"è_àíbBGÃ1"ëæf_w–û9b·à/ŸÇï¿-¶ZKÅş2±ÿ81Š¿\\€¼¸…¸¥ÃïÁ_%.Æï§ô 'Š/RZ™Ğj¨À€È87%ï']UdİÉ$ºœyÖÄ>ü5âpçæäC„ÅÃø'‹Gğëbó7ÉG	5D›sKò1BC"å<Îó1×ùÛdO×~ÂkÅø§Š¼óÅä“„Ö‰¿K>Åó4ÑéüCòiBë…ëÜ–|†Ğñ,ş°xÿtqó<Ï3DÁ¹=ù¡âEüMâ%ü3ÅËøg	éÜ‘|…ĞÙb¯ó*ÏÍâsÉ×xCË¶À¹pœ#°Uô:¯?*ŞÀ¿@8oò¼P|ÿ"q¼ómcâ;øßÅ¿X|ÿOÄ&ç-ÛÄYÎÛ</ßÇ¿T¼ƒÿQñ.şÇÄğ?.ÊÎynçG<?!~Œ¿Cüÿ2±Ñ¹Lü”ĞåâgøWˆŸã_)~•ø%şN±ÆùÏ«ÅIÎ¯y^#~ƒ-µ‡ë 	Ë}Ïñü_øü~?†_À¯à·ğÏbƒÓjıšĞ¿‹3	ı¡§á±˜¹ñ¡_Â³ğøOxşşK¨ËÛVë»ğ.ü#üì+¨Ánø	á…÷á¿á÷ğÜÁãp%éîæù(<·ÁWÄ6ÆàÃâü›Ô\ƒÎV+!“rB^'¯•WÉ«å¼-ÊÅ²G.’İò(¹PJŞl#İõğçğ)x.ã	Z8fÀ!‘‡É¬œEy„œ-'´\ ûå*Ù'WÊòxŞ-“ËäRÙ+—Ècå1¼ÉË² »¤+çËN97BN“M9.¯‘WÊòrŞ”ä)rH6d],åY“'Éª¹Z–å‰ÊŠ$£ŸO¢3ø:Üß„§¡N»/%Õ–¢[‘Áp`= ·£«m¤ËÉ#å\9‡PZÎ”íòPB7À—ˆÿ2|M¼€Uú¡v¾ú#3yîçK<gÃ7Å#H·&ç^_JñB7,‚X+ 
-# deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
+for background in *.jpg *.JPG *.jpeg *.JPEG *.png *.PNG *.tga *.TGA; do
 # To search for all KODAK scsi devices
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
 # ------------------------------------------------------------------
@@ -1095,7 +1091,6 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 @include common-session-noninteractive 
 #
 # ------------------------------------------------------------------
-
 /libx32
 # Options for the canonusb backend
 compose ':' '-' to '÷'
@@ -1180,3 +1175,18 @@ deb {{mirror}} {{codename}}-updates universe
 next-engine=['Alt+Shift_L']
   owner @{HOME}/.nv/ComputeCache/** rw,
 			<family>Emoji Two</family>
+# Compose sequences for KOI8-U
+XClock.Clock.majorColor:	rgba:7f/00/00/c0
+
+  /sys/devices/pci*/**/{,subsystem_}device r,
+
+@{PROC}/@{tid}/attr/{current,exec} w,
+exit 0
+\340\346\347\353\356\360\361\363\371\375\
+# PulseAudio is distributed in the hope that it will be useful, but
+  <!ELEMENT policy EMPTY>
+# Compose sequences for ISO-8859-11
+Exec=/usr/libexec/gsd-a11y-settings
+    apport_python_hook.install()
+
+
