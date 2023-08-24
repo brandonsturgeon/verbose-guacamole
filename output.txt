@@ -9,7 +9,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
     // There is no restriction to any algorithms.
 # IRQBALANCE_ARGS
 #DUIDType=vendor
-vrrp	112	VRRP		# Virtual Router Redundancy Protocol [RFC5798]
+    <allow receive_sender="fi.w1.wpa_supplicant1"
 /bin/sh
 # Compose sequences for CP1255
 xterm
@@ -20,7 +20,7 @@ Alias /javascript /usr/share/javascript/
 def get_oem_project():
 # Case-sensitive behavior is defined by the operating system.
 
-scsi AdLib * Scanner
+    compress
 # ------------------------------------------------------------------
 }
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
@@ -111,7 +111,7 @@ fi
 [general]
        daily
 # ------------------------------------------------------------------
-  <delegate decode="hpg" command="&quot;hp2xx&quot; -sstdout=%%stderr -m eps -f `basename &quot;%o&quot;` &quot;%i&quot;;     /bin/mv -f `basename &quot;%o&quot;` &quot;%o&quot;"/>
+#user_allow_other
 <?xml version="1.0" encoding="UTF-8"?>
 max_allowed_packet	= 16M
 # iwlwifi will dyamically load either iwldvm or iwlmvm depending on the
@@ -171,7 +171,6 @@ net/ipv4/icmp_ignore_bogus_error_responses=1
     permission java.util.PropertyPermission "path.separator", "read";
 #
 # Cloud Image specific Grub settings for Generic Cloud Images
-şGšË<q
 #    License published by the Free Software Foundation.
 
 #!/bin/sh
@@ -180,12 +179,11 @@ net/ipv4/icmp_ignore_bogus_error_responses=1
 	<alias>
 case "${1}" in
 *MenuButton.foreground: white
-scsi APPLE
 # cloud-init. They are read in lexical order. Later files overwrite values in
 #
 # device group names
 
-# For more details, please see /etc/apparmor.d/local/README.
+*editButton.menuName:			editMenu
 
 
 # a.) make changes to the master file in /etc/cloud/templates/hosts.redhat.tmpl
@@ -210,7 +208,7 @@ APT::Periodic::Download-Upgradeable-Packages "0";
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
 
 
-speed=115200
+## Do quick status-bar blanking.  Status-bar messages will disappear after
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
 
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
@@ -307,7 +305,6 @@ for val in $XDG_CURRENT_DESKTOP; do
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 usb 0x03f0 0x0105
        path="/com/canonical/hud",
-
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/" catalog="file:///etc/xml/docbook-xml.xml"/>
 # The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
@@ -356,7 +353,6 @@ APT::Install::Post-Invoke-Success {
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
 # password.
-SHELL=/bin/sh
 # $ systemctl edit --full cron.service
 # 
 #    Copyright (C) 2016 Canonical Ltd.
@@ -392,7 +388,6 @@ deb {{mirror}} {{codename}} multiverse
   the ImageMagick option
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
-  network netlink raw,
     <Menu>
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 
@@ -444,7 +439,6 @@ session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_
 type=file
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache.$
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
-			local ZONE_ID
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
 # ------------------------------------------------------------------
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
@@ -489,7 +483,7 @@ WantedBy=multi-user.target
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 max_allowed_packet	= 16M
 # Global Order: zshenv, zprofile, zshrc, zlogin
-#daemon.*			-/var/log/daemon.log
+###############################################################################
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
   00_*: Reserved for 00_header.
     user_friendly_names yes
@@ -573,11 +567,10 @@ d /run/screen 1777 root utmp
 #   https://bugs.debian.org/858528
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
 
-</catalog>
+
   owner @{HOME}/.aspell.*.{pws,prepl} rwk,
 # cloud-init. They are read in lexical order. Later files overwrite values in
 <!ENTITY % maxLength "%p;maxLength">
-Type=Application
 
 
 #    modify it under the terms of version 2 of the GNU General Public
@@ -604,7 +597,6 @@ DISTRIB_ID=Ubuntu
 #
 search updates ubuntu built-in
 [network]
-/var/log/alternatives.log {
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 <?xml version="1.0"?>
 auth		sufficient	pam_rootok.so
@@ -653,7 +645,6 @@ ports=22/tcp
 if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 APT::Periodic::Update-Package-Lists "1";
 # The hook script for dbus-launch is in 75 which changes $STARTUP string.
-  audit deny @{HOME}/.mozilla/{,**} mrwkl,
 # This file is sourced only for login shells (i.e. shells
 
     xhost +si:localuser:`id -un` > /dev/null
@@ -662,7 +653,7 @@ APT::Periodic::Update-Package-Lists "1";
 /lib/i386-linux-gnu
 #endif
 # The possible arguments are:
-# intervention.  (For instance if /etc/crypttab lists two key files
+
 printf "
 "
 
@@ -699,7 +690,6 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 ¬›<E{öÓ;IÚõò*»ê8àI°µßlôıÎÍ2Í/h=™BÕ¢“q–u:%1Å“‰¼
 };
 #!/bin/sh
-.
 OK		ATD*99#
 
       <family>DejaVu LGC Serif</family>
@@ -795,13 +785,12 @@ deb http://packages.azlux.fr/debian/ buster main
 
   owner /run/user/*/dconf/user rw,
 	  <family>Nasim</family>
-       notifempty
   </its:rules>
 #lookahead = on
 CATALOG /usr/share/xml/svg/catalog
 BACKSPACE="guess"
 
-<fontconfig>
+#
 *planemask*ShapeStyle: rectangle
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
@@ -1042,13 +1031,12 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 0x78	AF33
 # vim:syntax=apparmor
 
-fi
+bºÓ#Ïä1¯Ğ&.¡5 –	°Kâcàü¸ 6Ëßu‘ÒŠs¥)·Ä6õŠ¸° ¢=ßtvÊ¡Me1ÑšNÆZçeá dĞe¶*CƒÿÉ‰éÌÛ+è16"£ºt[€¦æşKÇ©¹MSx&‰p‹´qŞ±	,ŠwÍ!K$ÿÎR¬ÓMB¨‡ÔÇnuzr­‰*„Ò˜â4ejã5­ú°gpg¹]ûŠÊ¿órd<Ö-Ğ¯ˆÃ©£®4§m¶Jï6›G£—A`’¹8ó„åî¬gZ].7î—a‡4a¬"˜ôd¹ÚÆl˜ìÊ€¡Oenm×áŸ{Â‘ö÷îÄìŒ%D‹ŒšINşêÕÏH¨‘yÉÌ¡P{Ãp«àÀ°3­ßt†PF&’QS1àİÛôQÛ6ƒ»$,~i_0ï3J‚]tEıÚ¨şnÓÌ°¯óEé¸!5ôåZ=jj	ù[m¼Z@ÛXĞÿsºoK?ŠDzuÈ¦6ÅÖ…xÆ‹w¦Or>¥ª;$éè¯åPR•ó>6.Ù¼ºsz¤‹—`¼ó"†Ršrn
 
 # scsi device list
 APT::Install::Post-Invoke-Success {
 qmtp		209/tcp				# Quick Mail Transfer Protocol
 # and by vendor and product ID (USB). This is what the backend does when
-usb 0x03F0 0x1005
 #
 /Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 modules_load_preference=ondemand
@@ -1092,9 +1080,8 @@ Title=Enable UEFI capsule updates on Dell systems
   <mime type="application/x-blender" description="Blender scene" priority="100" pattern="*.blend" />
 defaults {
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
-# 
+  # user configurations
 	  <default>
-×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
 
 #
 #RUN_DAILY=true
@@ -1134,7 +1121,6 @@ libXvMC.so.1
     <allow send_interface="org.bluez.LEAdvertisement1"/>
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
-/dev/scanner
 #
 restrict 127.0.0.1
 
@@ -1175,3 +1161,11 @@ option warmup-time 30
 *topform.Form.testpercent.100.justify:right
 )—É¸¦F|O#e×p"^ıL–@hNnW.§Ÿ‰„÷I·R1ãCë¯èÇ§rİºe3Zª‰´JŞå|"ôŸ“î(ÖjMÇqüOW*•ñD"aâód·ú»I'Ôƒ]%+^…Ëäwú"57Õä ¹´'ãfRN"ÒúPI’JX'è_Õ?C›†‡‡×¹ñù¢eUw¯şãA~ZX	ê»³¦õWÛiµ_¥hÆäŠ•]8^U^ïsş÷ÊføúúŸïx®VóõQ­Õ×Œ¬¯×üôãš¦¼±±Í›Ãòª££ÃÃCCƒƒÕP¿öüóÚ­Ÿr›ÇJÉ0¾^«UÃü•Ştb
 	É›Ş¹uAğOÌÿNY1p‚ó9<ë>Fˆd
+S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
+p+([0-9])p+([0-9])?(_+([0-9]))*
+      may simply works to avoid it.
+#!/bin/sh
+#! /bin/sh
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+Exec=nm-applet
+# Compose sequences for CP1255
