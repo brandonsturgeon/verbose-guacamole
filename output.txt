@@ -4,7 +4,7 @@ deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 
 NoDisplay=true
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-Enabled=true
+JuR8XvOxjqdUexEmAJdQCtxJgLTlI40xSlcmSEIneCamOhA/I/T+nkXFAfV65FKF
 •3•D•k•|•£•³•È•×•î•ı•"–1–T–c–y–˜–Í–Ø–ù–—+—9—[—e—…——­—º—İ—é—˜˜G˜R˜s˜„˜«˜»˜á˜ï˜™$™K™Y™}™Š™­™¹™Û™ì™š*šWšfš‹š›šÁšÎšñšÿš#›3›Y›i››Ÿ›Ã›Ò›÷›
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
 
@@ -93,7 +93,6 @@ mode="${1#'}"
 # Welcome to the chrony configuration file. See chrony.conf(5) for more
 
 # Compose sequences for VISCII
-    --tag)
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
 # As the snmp packages come without MIB files due to license reasons, loading
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
@@ -109,7 +108,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 #
             # According to hfu, "/etc/init.d/networking restart" on Debian 5.0
   /usr/bin/file-roller Cxr -> sanitized_helper,
-deb {{security}} {{codename}}-security universe
 ports=22/tcp
 
 previous-engine=@as []
@@ -165,7 +163,7 @@ defaults {
 # ldconfig = false
 LP-PPA-ubuntu-mozilla-daily
 eval $(/usr/bin/locale-check C.UTF-8)
-letter
+# here are some examples for how to configure the EPSON backend
 // Notify all clients to reload the cache
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
@@ -202,7 +200,7 @@ compose '`' 'U' to 'Ù'
 
 # Compose sequences for KOI8-R
 # eliminate DISABLE
-#    Copyright (C) 2011 Canonical Ltd.
+#
 echo
 <!ATTLIST %element;
 
@@ -275,7 +273,6 @@ scsi APPLE
 # Additional mounts to exclude at shutdown.
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
-/dev/camera
 group:          files systemd
 /dev/scanner
      name="OpenSansLI"
@@ -311,7 +308,7 @@ blacklist rivafb
 compose '"' 'O' to 'Ö'
   </match>
 # /etc/xdg/user-dirs.defaults)
-
+ENABLED=no
 # The src directory. This is the directory where the historical
 
       Most clients may picks up the first value only. so using "append"
@@ -453,7 +450,7 @@ PICTURES=Pictures
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 # Common rules for Qt5-based applications
 # Your system has configured 'manage_etc_hosts' as True.
-/HeiseiKakuGo-W5 /Japanese-Gothic-Regular ;
+	û„?'/[nı‚ÂŸ^P¦PkÎEâ@GÀÆ–‹Ûmé.Hl9>Ï™8ğÀpªâY¼ÀBÁ‹s¥¤@7 {1béûe¶O³=Äï ßÍExY?-·29¬)‚™ôÏòêÌ¥xÅo“ş·ÛmGùM³“’ŞZUây0#;ñ¥§«H(ÿö·;°¿ªYâC$«VtĞ[€…¤´;jx…Å•Ø#`åşÇTMóVŞ-PíDºSB$BÁFhã›Ò±ó÷f`Íœ^ç!4f&u™æ7‹#Qtw0‘ø$T1]¯G÷…Q–È*ĞMù{ûˆ$‹Ñ?r›İÑ4hsØÑAØŒ&	4ƒbWÍš”øØb¶ìù•G¸´ßªÃózÏíT8(Ø÷:viªd£E­n¿åg€:ËeÑ	hFn`DÂ}ÜM@‡ä	E[Œ@Z³ÒsÙY<pf ™!.­hŠ_ÉöV$ˆ·òQm7ß”ÍóÆ}÷è/Cà2Hnñ“şT3ôO5ã¤	9{Qn34 cô²0;Pš#R‹~ug^{ä–lmƒ±Èüâ/”jòÿyæ	Yä¿Z«ÆÍœìØº1U,¥²Q¤bĞÛØ[x#Î=’o¶ÏÙJ€Zü¾‰^Q£‹C
 scsi FCPA
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
        path=/org/freedesktop/Notifications
@@ -473,7 +470,7 @@ SHELL=/bin/sh
 # 
 			<family>UnDotum</family> <!-- hangul (ko) -->
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
-/usr/local/lib/x86_64-linux-gnu
+
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 
 
@@ -484,7 +481,6 @@ SHELL=/bin/sh
   /etc/ssl/openssl.cnf r,
 			<family>Noto Serif CJK TC</family>
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
-usb 0x1083 0x1622
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
   #include <abstractions/nameservice>
 # udevd is also started in the initrd.  When this file is modified you might
@@ -566,7 +562,6 @@ sysresources=/etc/X11/Xresources
 	<UnmapNotify>:		Iconified()	
 
     if [ -e "$dmi_path" ] && read vendor < "$dmi_path"; then
-56f12ada18a3412ab1f9dcd69450be95
 # symbolic names for networks, see networks(5) for more information
 #!/bin/sh -e
 }
@@ -638,7 +633,6 @@ run_im default
 #
 # The following is an example how to use a braille font
       for file in $(find $i -type f -print | LC_ALL=C sort)
-    resource
 esac
 fi
 		done
@@ -661,7 +655,6 @@ WantedBy=multi-user.target
 fi
 @include common-account
 
-messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
 #    Copyright (C) 2016 Canonical Ltd.
 max_allowed_packet	= 16M
@@ -715,7 +708,7 @@ order hosts,bind
         fi
 #endif
 /dev/amidi*     rw,
-test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
+# Matching key files from the crypttab(5) are included in the initramfs
 <?xml version="1.0"?>
 
 }; 
@@ -744,7 +737,7 @@ alias.url += ("/javascript" => "/usr/share/javascript")
 #baud=115200
 
 After=snap-lxd-18150.mount network.target snapd.apparmor.service
-#
+alias.url += ("/javascript" => "/usr/share/javascript")
 # the value ranges from 4096 - infinity
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
@@ -819,11 +812,11 @@ DISTRIB_ID=Ubuntu
 search updates ubuntu built-in
 [network]
 /var/log/alternatives.log {
-deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
+deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 <?xml version="1.0"?>
 auth		sufficient	pam_rootok.so
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
-X-GNOME-Bugzilla-Component=nm-applet
+#
 {
 # This file can contain default options for dpkg.  All command-line
 scsi TAMARACK
@@ -833,7 +826,7 @@ scsi TAMARACK
 
 LETTERHOMES=no
 stamp="/var/lib/update-notifier/updates-available"
-  /etc/xulrunner-2.0*/ r,
+  /usr/share/vulkan/{explicit,implicit}_layer.d/{,*.json} r,
       This configuration is available on the major desktop environments.
 # netboot - Add the base modules, network modules, but skip block devices.
 
@@ -857,7 +850,7 @@ fi
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
 # Serial port where the camera is connected
 option buffer 2097152
-# uncomment to set the default look and feel to GTK
+# that defines the configuration.
 exit 0
 }
 	devtypes_cols_verbose="devtype_name,devtype_max_partitions,devtype_description"
@@ -882,7 +875,7 @@ if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 APT::Periodic::Update-Package-Lists "1";
 # The hook script for dbus-launch is in 75 which changes $STARTUP string.
   audit deny @{HOME}/.mozilla/{,**} mrwkl,
-# Legacy biarch compatibility support
+# This file is sourced only for login shells (i.e. shells
 
     xhost +si:localuser:`id -un` > /dev/null
 
@@ -1181,3 +1174,17 @@ lines		-1,0,0,0,0,-1
 gtk-sound-theme-name = Yaru
 # This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
 
+# Note: the line below cannot end the file (there must be at
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+XCalc*.bevel.background:		gray80
+# Canonical runs a service at motd.ubuntu.com, and you
+Name=GNOME Settings Daemon's sound plugin
+URI_PROPOSED_POSTFIX = -proposed
+
+[Install]
+[ -d /var/crash ] || exit 0
+# This file is sourced by Xsession(5), not executed.
+# It uses run-parts to run scripts in /etc/ppp/ip-up.d, so to add routes,
+    ;; This might result in a call to debian-ispell, so do this only if
+# CLOUD_IMG: This file was created/modified by the Cloud Image build process
+			"${BACKGROUND_CACHE}.png" "${BACKGROUND_CACHE}.tga"
