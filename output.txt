@@ -24,7 +24,7 @@ Title=Vendor
 usb "Panasonic KV-S1025C"
 grant {
 #
-The files are loaded in numeric order, the structure of the configuration
+# create new (empty) log files after rotating old ones
 audio/x-mpegurl=rhythmbox.desktop
 
 // Pre-configure all packages with debconf before they are installed.
@@ -38,7 +38,6 @@ audio/x-mpegurl=rhythmbox.desktop
 # In this case, you should also set the "nodefgroup" option.
 #
 		</edit>
-#Samsung CLX-3170 Series: Samsung CLX-3170fn & CLX-3175FW
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #    This program is free software; you can redistribute it and/or
@@ -79,7 +78,6 @@ compose ')' '-' to '}'
 XLoad.input:			false
 aXJtd2FyZSBTZXJ2aWNlIDxzaWduQGZ3dXBkLm9yZz6JATcEEwEIACEFAlWt/98C
 # Compose sequences for TIS-620
-    <complexContent>
 
 fi
        daily
@@ -260,7 +258,7 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 
 # $ systemctl edit --full cron.service
 scsi "K.M.E.  " "KV-SS25A        "
-
+//Unattended-Upgrade::MinimalSteps "true";
 SHELL=/bin/sh
 </fontconfig>
 
@@ -335,7 +333,7 @@ run_im default
 logdir /var/log/chrony
 fi
 		done
-  <!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
+search updates ubuntu built-in
 [apt]
 
 WantedBy=multi-user.target
@@ -362,7 +360,7 @@ max_allowed_packet	= 16M
 	done
 /HeiseiMin-W3 /Japanese-Mincho-Regular ;
   owner @{HOME}/.config/fontconfig/**   r,
-      </xs:simpleType>
+# deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
 # Instance parent directories must exist for the polyinstantiation
 #    modify it under the terms of version 2 of the GNU General Public
@@ -392,7 +390,6 @@ rocks_trees = {
 					6)
 exec_prefix="/usr"
 
-		</edit>
 # Uncomment the following lines for Linux.  Notice that everything is
 
   /usr/lib/NetworkManager/nm-dhcp-helper mr,
@@ -583,7 +580,6 @@ GRUB_DEFAULT=0
 #
     <allow send_interface="org.freedesktop.DBus.Properties"/>
 # /etc/passwd file.
-EnableWattsUpPro=false
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # [If you don't know about libcap, the sources for it are here:
 #GRUB_DISABLE_LINUX_UUID=true
@@ -774,9 +770,6 @@ FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
   /usr/bin/libreoffice Cxr -> sanitized_helper,
 #
 ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
-    <family>Arev Sans</family>
-APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
-# The following lines are desirable for IPv4 capable hosts
 #objects-per-client-max=1024
 
     %m  input image format
@@ -820,10 +813,8 @@ X-GNOME-Autostart-Phase=Initialization
 # ctrll alt keycode 36 = Incr_Console
       <const>hintfull</const>
 
-# Access control configuration; see /usr/share/doc/packages/ntp/html/accopt.html for
 *topform.Form.testpercent.100.justify:right
 )—É¸¦F|O#e×p"^ıL–@hNnW.§Ÿ‰„÷I·R1ãCë¯èÇ§rİºe3Zª‰´JŞå|"ôŸ“î(ÖjMÇqüOW*•ñD"aâód·ú»I'Ôƒ]%+^…Ëäwú"57Õä ¹´'ãfRN"ÒúPI’JX'è_Õ?C›†‡‡×¹ñù¢eUw¯şãA~ZX	ê»³¦õWÛiµ_¥hÆäŠ•]8^U^ïsş÷ÊføúúŸïx®VóõQ­Õ×Œ¬¯×üôãš¦¼±±Í›Ãòª££ÃÃCCƒƒÕP¿öüóÚ­Ÿr›ÇJÉ0¾^«UÃü•Ştb
-	É›Ş¹uAğOÌÿNY1p‚ó9<ë>Fˆd
 S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
 p+([0-9])p+([0-9])?(_+([0-9]))*
       may simply works to avoid it.
@@ -884,7 +875,6 @@ $x-display-manager gdm3
 iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 #
 # The values are relative pathnames from the home directory and
-<!-- Delicious 'heavy' variant says its Medium weight -->
   /usr/include/X11/**             r,
            send_member="GetAll"/>
 # IPMI_OS_Boot_Base_OS_Hypervisor_Installation_Started   Nominal
@@ -946,7 +936,7 @@ SyslogIdentifier=lxd.daemon
 {c¸O¬	ù³x•Ûvñè}iY‰ô&|4ı¼øÅôCË¡8qıÊvb»¾2U—&¸ê|MOÃş®¹Dp"qeåÇ¨—r´†0g»fj®kÃwLiWo6å¯`É>6hVä}6¦õ^æ,¦¶=6~Åòê©]Ç/êÿ› (
 pool {{pool}} iburst
 # Define LSB log_* functions.
-X-GNOME-Autostart-Notify=true
+    <family>Bitstream Vera Serif</family>
 # Uncomment and edit /etc/security/access.conf if you need to set complex
 }
 #2	inr.ruhep
@@ -972,7 +962,7 @@ unshare=/usr/bin/unshare
 SHELL=/bin/sh
 /dev/scanner
 
-brandon:100000:65536
+aa_log_skipped_msg() {
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # javax.sound.midi.Receiver
 #ListenAddress ::
@@ -1002,12 +992,11 @@ security.overridePropertiesFile=true
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
     <test name="family">
 # vmtoolsd.level = none
-# file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
+# Device filename to use for scanner access
   /usr/bin/prism Cx -> sanitized_helper,
 #0x37b	# /dev/lp0
 	. "/etc/default/${NAME}"
 0	default
-
 
 56f12ada18a3412ab1f9dcd69450be95
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
@@ -1093,7 +1082,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 [METARELEASE]
 
 c0649bt_.pfb -bitstream-bitstream charter-medium-i-normal--0-0-0-0-p-0-adobe-standard
-# 2. add the following groups to the /etc/group file:
+#scsi MINOLTA
 # Generate our temp files, clean up when done
 # The maximum number of allowed consecutive characters of the same class in the
   /usr/{share,X11R6,local,kerberos}/man/**	 r,
@@ -1107,7 +1096,6 @@ letter
 /dev/scanner
 
   <type name="DejaVu-LGC-Serif-Book" fullname="DejaVu LGC Serif Book" family="DejaVuGC Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuLGCSerif.ttf"/>
-*Panner.background:			gray70
 #!/bin/sh
 # lv_LV.UTF-8 UTF-8
 X-GNOME-Autostart-Phase=Initialization
@@ -1174,7 +1162,7 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 <?xml version="1.0"?>
 Ubuntu 20.04.5 LTS
     [ -n "$ZSH_VERSION"  ] && precmd_functions+=(__vte_osc7)
-#    License published by the Free Software Foundation.
+overlayroot_cfgdisk=LABEL=OROOTCFG
 alias gawkpath_append 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") then; unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKPATH "$AWKPATH"":!*"'
 What=/var/lib/snapd/snaps/snapd_8542.snap
 DESKTOP-OFJN9OT
@@ -1203,3 +1191,15 @@ byte-compile = standard
     </test>
 main
   # System devices
+# All files with the '.cfg' extension in this directory will be read by
+
+*form.flipHoriz.fromVert: 		move
+session    optional   pam_motd.so motd=/run/motd.dynamic
+/HelveticaNarrow-Oblique /NimbusSanL-ReguCondItal ;
+
+# Serial port where the camera is connected
+# vi: syntax=sh ts=4 noexpandtab
+  /{,var/}run/cups/cups.sock rw,
+DAEMON=/sbin/iscsid
+{% endif %}
+
