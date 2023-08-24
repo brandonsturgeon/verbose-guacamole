@@ -33,11 +33,11 @@ OMITDIR=/run/sendsigs.omit.d
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
 checkbox=,magenta
-# invoke global X session script
+#
 The files are loaded in numeric order, the structure of the configuration
 
 audio/x-mpegurl=rhythmbox.desktop
-    esac
+
 // Pre-configure all packages with debconf before they are installed.
 	<match target="font">
 #
@@ -134,12 +134,11 @@ net.ipv4.conf.all.rp_filter=2
 # ldconfig = false
 eval $(/usr/bin/locale-check C.UTF-8)
 # here are some examples for how to configure the EPSON backend
-deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
         <double>0.8</double>
   # Apport
-#
+    pass
 generateResolvConf = false
 
 #   You can use this file to change the default behavior of screen system wide
@@ -155,7 +154,6 @@ esac
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
       <choice minOccurs="1" maxOccurs="unbounded">
 LANG=C.UTF-8
-# which broke applications in UTF-8 locales.  See:
 driftfile /var/lib/chrony/drift
 compose '`' 'U' to 'Ù'
                 log_action_msg "Not starting GNOME Display Manager; it is not the default display manager"
@@ -188,7 +186,6 @@ scsi ULTIMA
 email_format=text
         zle -N zle-line-finish
 	# sequences and ordinary character sequences. Ordinary character
-  <!-- Allow anyone to invoke methods on the interfaces -->
 
         if [ -x "$STARTUPFILE" ]; then
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
@@ -487,7 +484,6 @@ sysresources=/etc/X11/Xresources
 # particular interface
 127.0.0.1	www.frankvoce.com
 restrict ::1
-                                           /usr/sbin       \
 # the management config file $JRE/conf/management/management.properties
 ÜFö¢Î¹ng;ëö‹grêä’Ù¯``…Ê°ÚièÛÎd<Î·gºWŒÇ­H+ËéZÐ³äbÉÙzmGÀE:ši,Þl
       We shouldn't overwrite it with "assign" unconditionally.
@@ -502,7 +498,7 @@ session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_
 *directoryFontNormal:		-*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
 XCalc*ti.button48.fromVert:		button43
 type=file
-@include common-session-noninteractive
+^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache.$
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 			local ZONE_ID
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
@@ -517,15 +513,12 @@ s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
 bullseye/sid
 #    Copyright (C) 2012 Canonical Ltd.
-multi on
 	log_action_begin_msg "Setting up resolvconf"
 
-# example for accessing the scanner via libieee1284
 SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
 Enabled=false
     <edit name="rgba" mode="append"><const>none</const></edit>
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
-# ISSUE_FILE option from login.defs). Uncomment for use
 # /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
     STARTUP=x-terminal-emulator
    case "$reason" in
@@ -550,7 +543,7 @@ gtk-icon-sizes = panel-menu-bar=24,24
 WantedBy=multi-user.target
 
 
-
+#
 fi
 @include common-account
 
@@ -561,7 +554,6 @@ max_allowed_packet	= 16M
 # For more details, please see /etc/apparmor.d/local/README.
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
   00_*: Reserved for 00_header.
-modules=*
     user_friendly_names yes
 
 #
@@ -578,7 +570,6 @@ DAEMON=/sbin/lvmpolld
 # Compose sequences for CP1251
 # to update this file, run dpkg-reconfigure cloud-init
   pwd="${pwd//[[:cntrl:]]}"
-
 	<alias>
 title=@REALNAME@'s media on @PRETTY_HOSTNAME@
 encap	98	ENCAP		# Yet Another IP encapsulation [RFC1241]
@@ -768,7 +759,7 @@ auto
   @{PROC}/sys/crypto/fips_enabled r,
     // For request/response body processors, fromFile, asFile
 deb http://packages.azlux.fr/debian/ buster main
-# be accepted or refused.
+LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 quote-names
 	bootdir=$(dirname "$2")
 @include common-account
@@ -829,7 +820,6 @@ KP_0 = s;0
   #include <abstractions/ubuntu-console-email>
 <delegateSystem systemIdStartString="/usr/share/sgml/dtd/qaml-xml.dtd" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 		<default><family>fantasy</family></default>
-# This file will be sourced by both shell scripts and python code,
 10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
 # mdadm module configuration file
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
@@ -857,7 +847,7 @@ XClipboard.baseTranslations: #augment\n\
   </match>
 encryption=luks1
   metering_timer: 14400
-# Defaults to false to maximize device compatibility.
+
 #!/bin/sh
 /var/log/dpkg.log {
 # Acceptable values:
@@ -908,7 +898,6 @@ deb http://packages.azlux.fr/debian/ buster main
 	  <family>Nasim</family>
        notifempty
 @(ath|wifi|wlan)*([^.]).inet
-# bjnp://scanner.bad-network.org/timeout=1500 // timeout set to 1500 ms
   </its:rules>
 #lookahead = on
 CATALOG /usr/share/xml/svg/catalog
@@ -917,7 +906,7 @@ BACKSPACE="guess"
 
 XCalc*ti.button40.foreground:		gray5
 # Script fragment to make dhclient supply nameserver information to resolvconf
-  gettext_printf "Adding boot menu entry for UEFI Firmware Settings\n" >&2
+
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
 run_im default
     family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
@@ -933,7 +922,6 @@ CRYPTDISKS_ENABLE=Yes
 scsi "B&H SCSI"
 /dev/camera
 #publish-domain=yes
-#!/bin/sh
 
 a Debian package maintainer script "deb-systemd-invoke restart procps.service").
 
@@ -941,7 +929,7 @@ a Debian package maintainer script "deb-systemd-invoke restart procps.service").
   capability setuid,
 allocation {
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
-# They will be loaded at boot time in the order below.
+# X12xx series
 GRUB_DEFAULT=0
 -#}
 Name=GNOME Settings Daemon's keyboard plugin
@@ -1042,7 +1030,7 @@ letter
 # Prior to perl 5.8.8-7, libnet was a seperate package with a debconf
 # many PAM applications don't make it available by the time you need it.
 # in your $ZDOTDIR/.zshenv
-# dpkg configuration file
+631	# cups
 #  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
 scsi "KINPO   " "Vividscan S120  "
 #option 1200cu
@@ -1127,7 +1115,7 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 $x-display-manager gdm3
 libXvMC.so.1
 scsi "K.M.E.  " "KV-S2065L       "
-compose ',' '-' to '¬'
+
 	segs_cols_full="seg_pe_ranges,segtype,lv_uuid"
 scsi AdLib * Scanner
   /usr/lib*/ldb/*.so mr,
@@ -1194,7 +1182,7 @@ fi
 
 # scsi device list
 APT::Install::Post-Invoke-Success {
-  /usr/lib/aspell/* r,
+qmtp		209/tcp				# Quick Mail Transfer Protocol
   owner @{HOME}/.config/#[0-9]* rw,
 <!--  Use lcdlight as default for LCD filter -->
 #
@@ -1205,3 +1193,14 @@ LP-PPA-mozillateam-firefox-next
 exit 0
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 #    License published by the Free Software Foundation.
+; term.h
+// Notify all clients to reload the cache
+This file is part of PulseAudio.
+X-GNOME-HiddenUnderSystemd=true
+</busconfig>
+# in /etc/passwd and ignore centralized (AD, IdM, LDAP, etc.) users.
+¿W¸	Ú1­ÌGtf˜nëjõ'mJy°ÂJ€“Mé(1®V´åRäq–êg,Ã©‡ný£ÀJ°å¼lrâ’‰°ymC>¦ªS²Ö¨XBo‘ 2Qæ£V,Ò£ö¢Öæœ7É7°vn¨Ù8LÃ©V?i/ÀÈx‚íŠ£'ù'ËKB©€È1ª
+{% endfor %}
+#    modify it under the terms of version 2 of the GNU General Public
+# resumed.  See http://bugs.debian.org/415441 for details.
+RUN_AS_USER=saned
