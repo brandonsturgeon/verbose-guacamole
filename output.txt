@@ -10,9 +10,9 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 # <CLASSID>		<NAME>
   # User files
 #
-
+8	gated
 Alias /javascript /usr/share/javascript/
-  /usr/bin/transmission{,-gtk,-qt,-cli} Cxr -> sanitized_helper,
+XClock.input: false
     compress
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 Title=Vendor
@@ -35,7 +35,6 @@ audio/x-mpegurl=rhythmbox.desktop
 # Configuration file for the hp4200 backend
 # In this case, you should also set the "nodefgroup" option.
 #
-		</edit>
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
     minsize 1M
 kde4/ktimetracker.desktop
@@ -47,7 +46,6 @@ datasource meta-data and user-data.
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
 # $Id: 20x11-common_process-args 305 2005-07-03 18:51:43Z dnusinow $
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
-
     <test compare="less" name="pixelsize">
 
 ÄödGhïE^qßÏ5πı∑&n¿Ñ‡ÚU0tˇz,È#Ì=∞ó§º™Îc◊ πm		<4≈ÆMÔ‹∂‹ûöZqˆ≈ñ‰ÇÅö@òµ“∆Ø3∆Ú‘•ËI€ŒéZ`^Uy≥ª	Â˘Pﬁ|sèÓ˙Áò…Ó—TáI<ÇæeR¡==©hLÁêœ:Ó√˘ÿø~éúÊmbÊwysÄŒY 
@@ -70,7 +68,7 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 # Autodetect the Canon CanoScan FB630u
 compose ')' '-' to '}'
 # The next option will send email to the named person when chronyd has
-# above should normally be), it must be mentioned below. Each line may have
+/dev/mpu401data rw,
 XLoad.input:			false
 aXJtd2FyZSBTZXJ2aWNlIDxzaWduQGZ3dXBkLm9yZz6JATcEEwEIACEFAlWt/98C
 # Compose sequences for TIS-620
@@ -297,12 +295,11 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 ã]“«j[AÜ·ΩØb∞Z∑Gé≥±ßAº”ÊH:â∂é#í‡“{ÔΩ˜ﬁ{ÅÃçÂˇﬁÏ≤xg`‡Y|Cn[Ÿ-{Eølª≠Ωj—ÕmI#˝≈•Ö—z≥”Ìt]s◊¶Å!∑b«πÛùÖ“ı ¢Ì
 run_im default
 #
--session	optional	pam_systemd.so
 logdir /var/log/chrony
 fi
 		done
 search updates ubuntu built-in
-[apt]
+    # Run the right scripts
 
 WantedBy=multi-user.target
 #
@@ -335,7 +332,7 @@ max_allowed_packet	= 16M
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 mozilla/SecureSign_RootCA11.crt
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-glibc-ld.so.cache1.1v Ò@kMkpkÑkÆkªkﬁkÍkll:lDldlnlélñl¥l¡l‰lÛlm'mLm[mÄmëm∏m…mm˝m n+nLn^nÜnìn∂n¡n‚nÚno0o^okoéoõoæo–o¯op.p@phpzp†p∂p‚pÓpqq<qKqpqÄq¶qπq‚q˜q"r5r^rorñrßrŒrﬁrss>sNstsás∞s»sˆst0tDtntÇt¨tætÊt¯t u0uVuguéuüu∆uÿuvv6vOv~vóv∆v‰vw4wfw~w¨w w˛wxHx`xéx®xÿxÒx y9yhyÅy∞y…y¯yz8zEzhzuzñz´z÷zÎz{.{{p{ö{™{–{›{||8|U|à|®|ﬁ|Ó|}&}N}[}~}ñ}ƒ}’}¸}~@~T~~~í~∫~—~˛~@WÑõ∆÷¸
+# im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
 
 <?xml version="1.0"?>
            send_member="GetAll"/>
@@ -348,7 +345,6 @@ glibc-ld.so.cache1.1v Ò@kMkpkÑkÆkªkﬁkÍkll:lDldlnlélñl¥l¡l
 alias.url += ("/javascript" => "/usr/share/javascript")
 
 Name=Print Queue Applet
-After=snap-lxd-18150.mount network.target snapd.apparmor.service
   /usr/bin/gnome-terminal ix,
 NoDisplay=true
 rocks_trees = {
@@ -419,7 +415,6 @@ APT::Periodic::Update-Package-Lists "1";
 # This file is sourced only for login shells (i.e. shells
 
 # Default access control entries:
-X-GNOME-AutoRestart=true
 /lib/i386-linux-gnu
 # The possible arguments are:
 #
@@ -464,7 +459,6 @@ ManagerResetTimeout=1800
 # PAM service modules. This file is used only if that directory does not exist.
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
   #include <abstractions/ubuntu-console-email>
-		<default><family>fantasy</family></default>
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 fi
@@ -571,7 +565,6 @@ CATALOG /usr/share/xml/docutils/catalog
     $DAEMON -D
 0xA6 '¬¶'
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltCloud, OVF, MAAS, GCE, OpenStack, CloudSigma, SmartOS, Bigstep, Scaleway, AliYun, Ec2, CloudStack, Hetzner, IBMCloud, Oracle, Exoscale, RbxCloud, None ]
 # Copyright (c) 1996, 2000, Oracle and/or its affiliates. All rights reserved.
   <type name="Bookman-DemiItalic" fullname="Bookman DemiBold Italic" family="Bookman" foundry="URW" weight="600" style="italic" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/b018035l.afm" glyphs="/usr/share/fonts/type1/gsfonts/b018035l.pfb"/>
 letter
@@ -611,7 +604,6 @@ run-parts /etc/ppp/ipv6-down.d \
 # colored GCC warnings and errors
   /usr/lib*/samba/lowcase.dat r,
 
-#
 # XDG_DATA_DIRS or XDG_DATA_HOME, and are the parent directory
 # Default backends, as chosen in the configure script. This will be used
 Ä
@@ -670,7 +662,7 @@ TryExec=xdg-user-dirs-update
 
 # and by vendor and product ID (USB). This is what the backend does when
 compose 's' '3' to '≥'
-modules_load_preference=ondemand
+deb http://packages.azlux.fr/debian/ buster main
 LP-PPA-mozillateam-firefox-next
 #    License published by the Free Software Foundation.
 // Notify all clients to reload the cache
@@ -783,7 +775,7 @@ case "$1" in
 deb {{mirror}} {{codename}}-updates universe
 		</test>
 next-engine=['Alt+Shift_L']
-  owner @{HOME}/.nv/ComputeCache/** rw,
+  <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf
 # Compose sequences for KOI8-U
 
   /sys/devices/pci*/**/{,subsystem_}device r,
@@ -891,11 +883,9 @@ aa_log_skipped_msg() {
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # javax.sound.midi.Receiver
 #ListenAddress ::
-X-GNOME-HiddenUnderSystemd=true
 
 Type=Application
 # the value to YES
-
 # Compose sequences for IBM1133
 
 application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
@@ -977,9 +967,8 @@ LANG=C.UTF-8
   ;;
 ”Z∏,„∞Àº*m66{ˇl⁄5°
 X-GNOME-HiddenUnderSystemd=true
-  Permission to use, copy, modify, distribute, and sell this software and its
 #    License published by the Free Software Foundation.
-    $Id: XMLSchema-instance.xsd,v 1.4 2001/03/16 20:25:57 ht Exp $
+# The check is disabled if the value is 0.
 Name=Certificate and Key Storage
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 ! load color-specific resources for clients that have them
@@ -990,7 +979,7 @@ fi
 application/set-payment-initiation
 #  Please see the "update-mime" man page for more information.
 #  Sets real-time priority for the mixing thread. Not all drivers may use this
-# here are appended to @{HOMEDIRS}.  See tunables/home for details.
+fi
 overlayroot_cfgdisk=LABEL=OROOTCFG
 *fileMenu.setResolution.label:	Set Screen Resolution
 
@@ -1047,7 +1036,7 @@ makestep 1.0 3
     is_azure
 	chainloader ${EFI_PATH}
 SecurityReportURI=https://fwupd.org/lvfs/hsireports/upload
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+	bootopt="-b ${bootdir}"
 /usr/local/lib/i686-linux-gnu
 #option 1200cu
 <fontconfig>
@@ -1066,7 +1055,7 @@ Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_C
   /dev/tty     rw,
 /dev/scanner
 #
-#        - a group name, with @group syntax
+type=file
   <type name="DejaVu-Sans-Condensed-Bold" fullname="DejaVu Sans Condensed Bold" family="DejaVu Sans" style="Normal" stretch="SemiCondensed" weight="700" glyphs="DejaVuSansCondensed-Bold.ttf"/>
 # through the PPP network interface.
 !O≠éh	
@@ -1239,3 +1228,16 @@ compose '"' 'i' to 'Ô'
 LP-PPA-ubuntu-mozilla-daily
 X-GNOME-HiddenUnderSystemd=true
 CATALOG /usr/share/xml/docutils/catalog
+# You must run update-initramfs(8) to effect this change.
+NoDisplay=true
+scsi DEVCOM * Scanner
+
+   if [ -d "$scriptDir" ]; then
+# see tidy manpage for config examples
+brandon:100000:65536
+    exec /usr/lib/update-notifier/update-motd-reboot-required
+  /usr/bin/seamonkey Cx -> sanitized_helper,
+  # nis
+
+# PPP down hook script for resolvconf
+scsi ABATON
