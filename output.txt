@@ -1,5 +1,4 @@
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 @include common-account
 
 NoDisplay=true
@@ -51,7 +50,7 @@ audio/x-mpegurl=rhythmbox.desktop
 		fi
 	<match target="font">
 scsi IBM 2456
-  <type name="Helvetica-BoldOblique" fullname="Helvetica Bold Italic" family="Helvetica" foundry="URW" weight="700" style="italic" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/n019024l.afm" glyphs="/usr/share/fonts/type1/gsfonts/n019024l.pfb"/>
+#
 #!/bin/sh
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+disk [[:digit:]]+,( wo:[[:digit:]]+,)? o:[[:digit:]]+, dev:[[:alnum:]]+$
 #pnm
@@ -67,7 +66,7 @@ scsi IBM 2456
 # Configuration file for the hp4200 backend
 # Example to customize the SimpleFormatter output format 
 ; default-dbus-server =
-# raid1
+#
 
 [Desktop Entry]
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
@@ -122,7 +121,7 @@ PICTURES=Pictures
 
 
 X-GNOME-Autostart-Phase=PreDisplayServer
-/dev/scanner
+deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 <!DOCTYPE busconfig PUBLIC
 	cache_settings {
 # Autodetect the Canon CanoScan FB630u
@@ -155,7 +154,7 @@ defaults {
 # ldconfig = false
 eval $(/usr/bin/locale-check C.UTF-8)
 # here are some examples for how to configure the EPSON backend
-// Notify all clients to reload the cache
+deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
         <double>0.8</double>
@@ -176,13 +175,11 @@ esac
 #
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
-# The third field should be a list of one or more tty names (for
       <choice minOccurs="1" maxOccurs="unbounded">
 LANG=C.UTF-8
 # which broke applications in UTF-8 locales.  See:
 driftfile /var/lib/chrony/drift
 compose '`' 'U' to 'Ù'
-# fails to use it it will not abort.
                 log_action_msg "Not starting GNOME Display Manager; it is not the default display manager"
 
 
@@ -233,7 +230,7 @@ BRIDGE_HOTPLUG=no
 
 # Also, include files in tunables/xdg-user-dirs.d for site-specific adjustments
 15	ntk
-
+	<alias>
 case "${1}" in
 *MenuButton.foreground: white
 scsi APPLE
@@ -318,7 +315,6 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 #include <tunables/proc>
 scsi FCPA
 
-# with the multiqueue (mq) policy and uses less memory.
 
 BatteryThreshold=10
 # If set to all update-initramfs will update all initramfs
@@ -654,7 +650,7 @@ encap	98	ENCAP		# Yet Another IP encapsulation [RFC1241]
 127.0.0.1	noadware.ws
   owner @{HOME}/.config/fontconfig/**   r,
 	exit 0
-#</quote>
+      </xs:simpleType>
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
   /usr/bin/xmms Cxr -> sanitized_helper,
 ;; -*-emacs-lisp-*-
@@ -697,7 +693,6 @@ alias.url += ("/javascript" => "/usr/share/javascript")
 has_cal_buffer 0
 
 After=snap-lxd-18150.mount network.target snapd.apparmor.service
-alias.url += ("/javascript" => "/usr/share/javascript")
 # the value ranges from 4096 - infinity
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
@@ -709,7 +704,6 @@ rocks_trees = {
 #    the "FSU light dispersion error" does not cause the abortion
 # Description:       Debian init script for the GNOME Display Manager
 # List of modules that you want to include in your initramfs.
-	*)
     permission javax.crypto.CryptoAllPermission; 
 # Don't try to change I/O priority in a vserver or OpenVZ.
 # By default, exchange time with everybody, but don't allow configuration.
@@ -807,7 +801,6 @@ exit 0
 
 #	        done
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
-# Serial port where the camera is connected
 option buffer 2097152
 # that defines the configuration.
 exit 0
@@ -913,7 +906,7 @@ compose '>' 'A' to 'Â'
 #
   @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
 -client IGNORE
-    $primeswitch
+       path="/com/canonical/indicator/messages/*",
 <!ATTLIST type version CDATA #IMPLIED>
 deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
   # Support the new executable helper from NetworkManager.
@@ -961,12 +954,10 @@ user-db:user
 #!/bin/sh
 /var/log/dpkg.log {
 # /etc/default/bridge-utils
-CATALOG /usr/share/xml/docutils/catalog
-#same pattern as @{pid} for now
+
 	</alias>
 usb 0x05da 0x30d4
 
-brandon:100000:65536
 	# system IDs that the host sees in VGs, not system IDs that identify
 # in the kernel. We recommend using cgroups to do container-local accounting.
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
@@ -994,7 +985,7 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 
 
 # This file is sourced by Xsession(5), not executed.
-After=snap-lxd-18150.mount
+
 /dev/scanner
 
 
@@ -1014,8 +1005,7 @@ fi
        notifempty
 @(ath|wifi|wlan)*([^.]).inet
 #KillOnlyUsers=
-
-#
+  </its:rules>
 #lookahead = on
 CATALOG /usr/share/xml/svg/catalog
 BACKSPACE="guess"
@@ -1032,7 +1022,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   # Be nice to non-libdbus, non-sd-bus implementations by using
 if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
 
-#DefaultLimitCPU=
 # Compose sequences for GEORGIAN-ACADEMY
 # /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
 CRYPTDISKS_ENABLE=Yes
@@ -1060,7 +1049,6 @@ Name=GNOME Settings Daemon's keyboard plugin
 #
 # Multiple Volume Groups can be specified with spaces
 exit 0
-set -e
     <allow send_interface="org.freedesktop.DBus.Properties"/>
 # /etc/passwd file.
 # Example to customize the SimpleFormatter output format 
@@ -1142,7 +1130,6 @@ APT::Periodic::Update-Package-Lists "1";
 ÷Þz’Ï";Ø€Cwz›HìN»âaœ¥½1õ­µÀ‚÷Õ“2Ÿ/§½7‚cßËk«¸¹÷t;|}“4œ·³ÝÆ†$0°xÅVêsy²r›~È”fÈŒø†‚kÛq‚úåòÆ6—œÞ÷¯ÔáÕ.Fgw6Öç
   </alias>
 0xA6 'Â¦'
-# Set REPORT_ABSENT_SYMLINK=no to inhibit warning message that
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
         done
@@ -1169,7 +1156,6 @@ letter
 scsi "KINPO   " "Vividscan S120  "
 #option 1200cu
   # system library
-// code sources. The code source URL scheme for modules linked into a
 56f12ada18a3412ab1f9dcd69450be95
                 <!-- check to see if the font is just regular -->
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -1186,3 +1172,13 @@ PNhdoCNVDQLQpGaKZUI5hjMfR90U8Cm/6e0ondwjV4J6f4CS4wkQ5zzITGWptagE
 #[device]
       <ppdname match="(foomatic(-db-compressed-ppds)?|ijsgutenprint.*):.*-gutenprint"/>
      <xs:element ref="xs:annotation" minOccurs="0"/>
+fi
+#    This program is free software; you can redistribute it and/or
+  </alias>
+
+		<edit name="hinting">
+
+fi
+#!/bin/sh
+
+#
