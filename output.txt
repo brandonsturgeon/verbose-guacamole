@@ -60,7 +60,7 @@ APT::Periodic::AutocleanInterval "0";
 Before=snapd.service
 # vim:syntax=apparmor
 # Compose sequences for ISO-8859-11
-#local stratum 10
+# This script can be used to override the .d files supplied by other packages.
 #    Copyright (C) 2012 Canonical Ltd.
 # Compose sequences for IBM1133
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
@@ -115,7 +115,6 @@ X-Ubuntu-Gettext-Domain=gnome-shell
   # User files
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 trusted.SGI_MAC_FILE		skip		# xfs specific
-# ldconfig = false
 ##
         if [ -x "$STARTUPFILE" ]; then
 # Gracefully exit if the package has been removed.
@@ -127,7 +126,6 @@ trusted.SGI_MAC_FILE		skip		# xfs specific
 v¡ﬂ√]p7|ˆ¬◊‡∏Óá‡Aÿ¡√(<è√$<œ¡ãºØ¿˚a÷¶‡ˇÎ£Px»)
 	<alias>
 case "${1}" in
-#
 
 *editButton.menuName:			editMenu
 
@@ -191,7 +189,6 @@ fi
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
         </policy>
         done
-Name=User folders update
   /dev/xconsole                 rw,
 	# lvmdbusd expects JSON output
   /usr/share/p11-kit/modules/  r,
@@ -206,7 +203,7 @@ usb 0x03f0 0x0105
 # here are appended to @{HOMEDIRS}.  See tunables/home for details. Eg:
 # The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
-           "booktitles.ent">
+# Plus a lot of fun stuff added
 
 /dev/scanner
 #
@@ -214,13 +211,13 @@ usb 0x03f0 0x0105
 # Users of this abstraction need to #include the ubuntu-helpers abstraction
 PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_lts_contract.py
 ”Z∏,„∞Àº*m66{ˇl⁄5°
-<!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
+# This file is a simple placeholder to keep dpkg from removing this directory
 
 
 
 # ------------------------------------------------------------------
 
-# Defaults to true to maximize device compatibility.
+
 #    modify it under the terms of version 2 of the GNU General Public
 #
     if [ $? -ne 0 ]; then
@@ -292,7 +289,7 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 #DefaultLimitMSGQUEUE=
 #@{XDG_VIDEOS_DIR}+=""
 #
-s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
+-->
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
 # Check for interactive bash and that we haven't already been sourced.
 
@@ -329,7 +326,6 @@ max_allowed_packet	= 16M
 # HP Scanjet G2710
 # to update this file, run dpkg-reconfigure cloud-init
 	<alias binding="same">
-DISTRIB_RELEASE=20.04
 /HeiseiMin-W3 /Japanese-Mincho-Regular ;
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
   <type name="Symbol" fullname="Symbol" family="Symbol" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/s050000l.afm" glyphs="/usr/share/fonts/type1/gsfonts/s050000l.pfb" version="0.1" encoding="AdobeCustom"/>
@@ -362,7 +358,7 @@ exec_prefix="/usr"
 #!/bin/sh
 # Uncomment the following lines for Linux.  Notice that everything is
 
-  /usr/lib/NetworkManager/nm-dhcp-helper mr,
+deb http://packages.azlux.fr/debian/ buster main
 #GRUB_BADRAM="0x01234567,0xfefefefe,0x89abcdef,0xefefefef"
 compose '\'' '\'' to '¥'
 auth	required	pam_nologin.so
@@ -384,7 +380,8 @@ BQJbAwPCAhsuASkJEAptzva0bz2/wF0gBBkBAgAGBQJbAwPCAAoJEL4e3StH4Ita
 .  el {
 auto
 
-/lib/x86_64-linux-gnu
+printf " * Support:        https://ubuntu.com/advantage
+"
 		exit 1
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 Terminal=false
@@ -424,7 +421,7 @@ APT::Periodic::Update-Package-Lists "1";
 # This file is sourced only for login shells (i.e. shells
 
 # Default access control entries:
-
+X-GNOME-AutoRestart=true
 /lib/i386-linux-gnu
 # The possible arguments are:
 #
@@ -499,7 +496,7 @@ the exact distribution terms for each program are described in the
 TryExec=im-launch
 deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/updates{% else %}-security{% endif %} main
 
-Name=GNOME Settings Daemon's Wwan plugin
+
 # This file is sourced by Xsession(5), not executed.
 
 mozilla/Buypass_Class_2_Root_CA.crt
@@ -636,7 +633,6 @@ run-parts /etc/ppp/ipv6-down.d \
       path=/org/freedesktop/DBus
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
 scsi AdLib * Scanner
-     family="Arial"
 # <target name>	<source device>		<key file>	<options>
 		</test>
 
@@ -651,7 +647,7 @@ fi
 <fontconfig>
 @include common-session-noninteractive
 0%ê‰Hÿ’ôßë∆› ˆbÚ¯≈5vu˜ó˜}Õ–»–¸–ÜÉJmUF˚êQI@7gùÚΩ‹¬ÎYÚø<dEÂããÅ‘ë c±/Ñ…_2tÃB‚ËQ≠∂öÒΩÒ#LáKﬂ’'µΩK®‚¸Y≤Ïõ1+ÁÚE¶ÖÈ#	qüÎµ‰€n‘/D,ÛŸØó∑"u3_Ä8—-[∫,≠ÄÎà√à£Î9M∞gpg¥Nate Smith <vilmibm@github.com>∞gpgâ‘
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
+# vim:syntax=apparmor
 
 # Docker Upstart and SysVinit configuration file
 # top-level (fixed) folder directory in camera.  Backend assumes
@@ -671,7 +667,7 @@ fi
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 # vim:syntax=apparmor
 
-b∫”#œ‰1Ø–&.°5†ñ	∞K‚c‡¸∏†6Àﬂuë“Åäs•)∑ƒ6ıä∏∞ ¢=ﬂtv °Me1—öN∆ZÁe· d–e∂*CÉˇ…âÈÃ€+Ë16"£∫t[Ä¶Ê˛K«©πMSx&âpã¥qﬁ±	,äwÕ!K$ˇŒR¨”MB®á‘è«nuzr≠â*Ñ“ò‚4eçj„5≠˙∞gpgπ]˚ä øÛrd<÷-–Øà√©£Æ4ßm∂JÔ6õG£óA`íπ8ÛÑÂÓ¨gZ].7Óóaá4a¨"òÙdπ⁄∆lòÏ Ä°Oenm◊·ü{¬ëˆ˜ÓƒÏå%DãåöIN˛Í’œH®ëy…Ã°P{√p´‡¿∞3≠ﬂtÜPF&íQS1‡›€ÙQ€û6Éª$,~i_0Ô3JÇ]çtE˝⁄®˛n”Ã∞ØÛEÈ∏!5ÙÂZ=jj	˘[mºZ@€X–ˇs∫oK?äDzu»¶6≈÷Öx∆ãw¶Or>•™;$ÈËØÂPRïÛ>6é.Ÿºé∫sz§ãó`ºÛ"ÜRörn
+    $_local ufile="$HOME/.cloud-warnings.skip" sfile="$warndir/.skip"
 
 TryExec=xdg-user-dirs-update
 	;;
@@ -693,13 +689,12 @@ RUN_AS_USER=saned
 X-GNOME-AutoRestart=true
 if enabled in cloud-config.  Specifically, in order to enable it
 #
-# ~/calendar files to be checked daily.  Calendar will send them mail
   # These are needed when a new user starts firefox and firefox.sh is used
 # time restraint on logins.
 # X-Stop-After:      umountfs
     permission java.security.SecurityPermission "clearProviderProperties.*";
 
-# There are two different methods of configuring a USB scanner: libusb and the kernel module
+
     ;;
     <!-- org.freedesktop.ModemManager1.Modem.Voice.xml -->
 	nocreate
@@ -831,7 +826,7 @@ LANG=C.UTF-8
   # TODO: use conditionals to select allowed implementations
 # This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:
   audit deny @{HOME}/.gnome2/ w,
-<?xml version="1.0" encoding="UTF-8"?>
+    // There is no restriction to any algorithms.
 # We're probably bringing the interface down.
 S· éÛ:]C+º›ò∑MÃ÷G˛pÇÙ£„◊?é“«ùMî±‡„@á“¸≥w>Ç≠ü¬œçèM?€ÉXèìYäÆKe>(pÎ9lÇå√nœŒå,<ÕôzV@q-N˙„”ó˛‘x‘ì÷`î~ju©‰—]bz1z¸'”N} ∆a?t®Q}‹ÕÔ”P[ƒˇÑ!çøˆÿà=∫›
 _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ¬}|·Aÿè¡~xûÑß‡yx^”®¡ÀÑ^ÅW·5q0o^∆…õ»ﬂÇo√w‡{ºﬂáw‡á3¯¸|ÑˇÉN òΩ∞ŒÉÛa∂¬u–ÑgÈëw!G+Ê¿\»√<ËÑU–wCb⁄Î‘/9Ì¸6Úi8⁄a&‰`éZÉ‡HX˝p"îa™p‘‡d®√∞ŒÇ≥a3ú¿E1¯8\◊¿µ0ÆæG›Á¿ëºo√;ê"~:ÃÄC Û‘ö]P	G¡Ò∞ŒÖK·£p9\•Ê,s7	3‡ËÑ˘PÅMp&å¿V∏˛˛>	ÔÉ†åiêÖ√`6X=∞éÖ%∞V¬	PÇ50k·Tÿg¬6∏vÄP=§·PòG@Ê¿ëp,Ü£·8ñ¿RX«¡JËÉU–'@	NÑ’p2úk·TXß¡zÜ”·8∂¿πpúª‡&¯$≥ÁSp¸%|˛
@@ -905,7 +900,7 @@ X-GNOME-HiddenUnderSystemd=true
 Type=Application
 # the value to YES
 
-  /usr/bin/f-spot Cxr -> sanitized_helper,
+# Compose sequences for IBM1133
 
 application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
 
@@ -989,7 +984,7 @@ LANG=C.UTF-8
 X-GNOME-HiddenUnderSystemd=true
   Permission to use, copy, modify, distribute, and sell this software and its
 #    License published by the Free Software Foundation.
-}
+    $Id: XMLSchema-instance.xsd,v 1.4 2001/03/16 20:25:57 ht Exp $
 Name=Certificate and Key Storage
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 ! load color-specific resources for clients that have them
@@ -1224,3 +1219,17 @@ build_name: server
 #option lampOff   -1
 3	boot
 set -e
+cdrom:x:24:brandon
+MetadataURI=https://cdn.fwupd.org/downloads/firmware.xml.gz
+# snmp-timeout controls auto-detection timeout in ms (1500=1.5s).
+	<match target="font">
+
+			<string>Noto Sans CJK JP</string>
+
+
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+# Do not use IPMI KCS to create an initial user account if no SMBIOS data
+# Refer to 'man lvm.conf' for further information about profiles and
+  /usr/bin/qbittorrent Cxr -> sanitized_helper,
+# Compose sequences for ISO-8859-8
+$FileGroup adm
