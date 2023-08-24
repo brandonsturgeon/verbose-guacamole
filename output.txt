@@ -30,7 +30,7 @@ Alias /javascript /usr/share/javascript/
        search:
 
 
-*Scrollbar.thumb:		vlines2
+# ------------------------------------------------------------------
 #noprecal
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 Title=Vendor
@@ -142,7 +142,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 deb http://packages.azlux.fr/debian/ buster main
 
   # Nothing to do, exiting
-
+# above should normally be), it must be mentioned below. Each line may have
 XLoad.input:			false
 # [automount]
 # Compose sequences for TIS-620
@@ -194,7 +194,7 @@ esac
 <!ELEMENT br ANY>
 #
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
-fi
+# See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
 # The third field should be a list of one or more tty names (for
       <choice minOccurs="1" maxOccurs="unbounded">
 LANG=C.UTF-8
@@ -323,7 +323,7 @@ compose '"' 'O' to 'Ö'
   </match>
 # /etc/xdg/user-dirs.defaults)
 
-DPkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD "20";
+# The src directory. This is the directory where the historical
 
       Most clients may picks up the first value only. so using "append"
        bus=session
@@ -411,7 +411,6 @@ scsi RICOH
 	    exit 3;
 Type=Application
 
-#    . /etc/bash_completion
     # environments
 # /etc/login.defs and user settings, solving the problem of different
 
@@ -525,7 +524,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   /srv/www/vhosts/** r,
 .  " signs in manual pages, so map it to plain "-" for HTML/XHTML output
 #   distributed under the License is distributed on an "AS IS" BASIS,
-
 			<family>padmaa</family> <!-- gujarati -->
             savelog -c 7 "dpkg.$db" >/dev/null
 #PAGER		DEFAULT=less
@@ -602,7 +600,7 @@ BYOBU_BACKEND="tmux"
 restrict ::1
                                            /usr/sbin       \
 # the management config file $JRE/conf/management/management.properties
-/var/log/unattended-upgrades/unattended-upgrades-shutdown.log
+ÜFö¢Î¹ng;ëö‹grêä’Ù¯``…Ê°ÚièÛÎd<Î·gºWŒÇ­H+ËéZÐ³äbÉÙzmGÀE:ši,Þl
 # modify the hostname appropriately:
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).$
 main
@@ -725,7 +723,7 @@ Clock*jewel:		yellow
 
 title=@REALNAME@'s media on @PRETTY_HOSTNAME@
 encap	98	ENCAP		# Yet Another IP encapsulation [RFC1241]
-*message.scrollVertical:	Always
+
 127.0.0.1	noadware.ws
   owner @{HOME}/.config/fontconfig/**   r,
 	exit 0
@@ -746,7 +744,6 @@ order hosts,bind
         fi
 #endif
 /dev/amidi*     rw,
-/dev/scanner
 test -f /etc/profile.d/rvm.sh && source /etc/profile.d/rvm.sh
 <?xml version="1.0"?>
 
@@ -828,7 +825,7 @@ Type=Application
 trusted.SGI_DMI_*		skip		# xfs specific
 #    modify it under the terms of version 2 of the GNU General Public
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
-# look for all devices with vendor ID "SHARP" and type "Scanner"
+56f12ada18a3412ab1f9dcd69450be95
 9ED8F9B0E8E42A1656B8E1DD18F42BA42DC06FE52686173BA2FC70E756F207DC
 c0583bt_.pfb -bitstream-courier 10 pitch-bold-r-normal--0-0-0-0-m-0-iso8859-1
             break;
@@ -869,7 +866,7 @@ scsi TAMARACK
     <edit name="hinting">
 
 LETTERHOMES=no
-run_im default
+stamp="/var/lib/update-notifier/updates-available"
   /etc/xulrunner-2.0*/ r,
       This configuration is available on the major desktop environments.
 # netboot - Add the base modules, network modules, but skip block devices.
@@ -1042,7 +1039,7 @@ rpc:            db files
 XClipboard.baseTranslations: #augment\n\
 	# The checks LVM should use to detect MD component devices.
 	rotate 12
-  /usr/bin/nautilus Cxr -> sanitized_helper,
+# $Id: init,v 1.3 2004/03/16 01:43:45 zal Exp $
 blacklist vfb
 scsi ACROSS * Scanner * * * 0
 
@@ -1055,7 +1052,7 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
         End        "${terminfo[kend]}"
   </match>
 encryption=luks1
-session	required			pam_permit.so
+  metering_timer: 14400
 # Defaults to false to maximize device compatibility.
 # result. 125000 seems to be the lowest I could go reliably.
 & stop
@@ -1064,7 +1061,6 @@ user-db:user
 #!/bin/sh
   owner @{HOME}/.gnupg/pubring.kbx r,
 /var/log/dpkg.log {
-
 # /etc/default/bridge-utils
 CATALOG /usr/share/xml/docutils/catalog
 #same pattern as @{pid} for now
@@ -1086,7 +1082,7 @@ Type=Application
 *fileMenu.save.label:			Save (Ctrl-S)
 #    Copyright (C) 2012 Canonical Ltd.
 
-After=snap-lxd-18150.mount
+		<prefer>
 	the data found in the instructed hints.  The initial Vera release
 #    modify it under the terms of version 2 of the GNU General Public
    <include file="type-ghostscript.xml" />
@@ -1136,7 +1132,7 @@ XCalc*ti.button40.foreground:		gray5
 # Script fragment to make dhclient supply nameserver information to resolvconf
   gettext_printf "Adding boot menu entry for UEFI Firmware Settings\n" >&2
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
-compose '^' '.' to '·'
+run_im default
 # you can temporarily override this with
 
 # Legacy biarch compatibility support
@@ -1144,7 +1140,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   # Be nice to non-libdbus, non-sd-bus implementations by using
 if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
 
-directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 #DefaultLimitCPU=
 # Compose sequences for GEORGIAN-ACADEMY
 # /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
@@ -1161,3 +1156,20 @@ MODULES="${MODULES_INTERFACES} ${MODULES_FEATURES} ${MODULES_HW} ${MODULES_BASE}
 #!/bin/sh
 quote-names
 
+a Debian package maintainer script "deb-systemd-invoke restart procps.service").
+
+! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
+  capability setuid,
+allocation {
+    "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
+# They will be loaded at boot time in the order below.
+  <mime type="application/vnd.ms-powerpoint" description="PowerPoint presentation" priority="100" pattern="*.ppz" />
+-#}
+Name=GNOME Settings Daemon's keyboard plugin
+#
+# Multiple Volume Groups can be specified with spaces
+Options=nodev,ro,x-gdu.hide
+exit 0
+set -e
+    <allow send_interface="org.freedesktop.DBus.Properties"/>
+# /etc/passwd file.
