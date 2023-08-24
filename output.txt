@@ -13,7 +13,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 /bin/sh
 # Compose sequences for CP1255
 xterm
-# libc default configuration
+  # User files
 scsi DEVCOM * Scanner
 
 Alias /javascript /usr/share/javascript/
@@ -123,7 +123,7 @@ scsi Nikon * Scanner
         <double>0.8</double>
   # Apport
     pass
-
+  <!-- <color name="cyan" color="rgb(0,255,255)" compliance="SVG, X11, XPM"/> -->
 #   You can use this file to change the default behavior of screen system wide
 ## template:jinja
 /dev/smpte*     rw,
@@ -136,7 +136,6 @@ esac
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
       <choice minOccurs="1" maxOccurs="unbounded">
 LANG=C.UTF-8
-driftfile /var/lib/chrony/drift
 compose '`' 'U' to 'Ÿ'
       This configuration is available on the major desktop environments.
 
@@ -276,7 +275,7 @@ fi
 
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 PasswordAuthentication no
-token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
+9	ra
 
 # cloud-init. They are read in lexical order. Later files overwrite values in
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
@@ -359,7 +358,7 @@ SHELL=/bin/sh
 </fontconfig>
   #include <abstractions/nameservice>
 
-			<family>FreeMono</family>
+log_cfgs:
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
 	</alias>
 # - What to do after sleep-inactive-ac-timeout
@@ -386,10 +385,9 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
     <Menu>
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
-
 #
     interface=org.freedesktop.login1.Manager
-# Specify file containing keys for NTP authentication.
+# Insert here your local magic data. Format is described in magic(5).
 APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
   <!ELEMENT type EMPTY>
 
@@ -432,7 +430,6 @@ session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_
   /usr/bin/mailody Cx -> sanitized_helper,
 -client IGNORE
 # Compose sequences for CP1255
-type=file
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache.$
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
@@ -453,7 +450,6 @@ Enabled=false
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
     STARTUP=x-terminal-emulator
 PIDFILE=$UUIDD_DIR/uuidd.pid
-
 run_im default
 [Desktop Entry]
 #
@@ -567,7 +563,6 @@ d /run/screen 1777 root utmp
 # cloud-init. They are read in lexical order. Later files overwrite values in
 <!ENTITY % maxLength "%p;maxLength">
 
-
 #    modify it under the terms of version 2 of the GNU General Public
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 56f12ada18a3412ab1f9dcd69450be95
@@ -593,7 +588,6 @@ DISTRIB_ID=Ubuntu
 search updates ubuntu built-in
 [network]
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
-<?xml version="1.0"?>
 auth		sufficient	pam_rootok.so
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 #
@@ -675,7 +669,7 @@ Exec=/usr/libexec/gsd-wacom
 compose '>' 'A' to '¬'
   # Use a special profile when man calls anything groff-related.  We only
 scsi RICOH
-# ------------------------------------------------------------------
+[mysql]
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # Defaults can be restored by simply deleting this file.
 # Scripts in this directory are executed as root when a user log out from
@@ -751,7 +745,6 @@ the exact distribution terms for each program are described in the
 		<prefer>
 #    modify it under the terms of version 2 of the GNU General Public
 TryExec=im-launch
-deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/updates{% else %}-security{% endif %} main
 	weekly
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
@@ -763,7 +756,6 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 # This file is sourced by Xsession(5), not executed.
 
 /dev/scanner
-
 
   owner /run/user/*/dconf/user rw,
 /usr/lib/firefox/plugin-container
@@ -811,7 +803,6 @@ GRUB_DEFAULT=0
 Name=GNOME Settings Daemon's keyboard plugin
 #
 # Multiple Volume Groups can be specified with spaces
-#export DOCKER_TMPDIR="/mnt/bigdrive/docker-tmp"
     <allow send_interface="org.freedesktop.DBus.Properties"/>
 # /etc/passwd file.
 ctl.!default {
@@ -846,7 +837,6 @@ Name=Secret Storage Service
 #    This program is free software; you can redistribute it and/or
 scsi EPSON Perfection600
 	small = {
-
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 	        Shift<Btn5Down>,<Btn5Up>: Page(Line,1) \n\
 #
@@ -1018,7 +1008,6 @@ NoDisplay=true
 mv -f "$REALRESOLVCONF.tmp" "$REALRESOLVCONF"
 # use
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
-0x78	AF33
 # vim:syntax=apparmor
 
 b∫”#œ‰1Ø–&.°5†ñ	∞K‚c‡¸∏†6Àﬂuë“Åäs•)∑ƒ6ıä∏∞ ¢=ﬂtv °Me1—öN∆ZÁe· d–e∂*CÉˇ…âÈÃ€+Ë16"£∫t[Ä¶Ê˛K«©πMSx&âpã¥qﬁ±	,äwÕ!K$ˇŒR¨”MB®á‘è«nuzr≠â*Ñ“ò‚4eçj„5≠˙∞gpgπ]˚ä øÛrd<÷-–Øà√©£Æ4ßm∂JÔ6õG£óA`íπ8ÛÑÂÓ¨gZ].7Óóaá4a¨"òÙdπ⁄∆lòÏ Ä°Oenm◊·ü{¬ëˆ˜ÓƒÏå%DãåöIN˛Í’œH®ëy…Ã°P{√p´‡¿∞3≠ﬂtÜPF&íQS1‡›€ÙQ€û6Éª$,~i_0Ô3JÇ]çtE˝⁄®˛n”Ã∞ØÛEÈ∏!5ÙÂZ=jj	˘[mºZ@€X–ˇs∫oK?äDzu»¶6≈÷Öx∆ãw¶Or>•™;$ÈËØÂPRïÛ>6é.Ÿºé∫sz§ãó`ºÛ"ÜRörn
@@ -1032,7 +1021,7 @@ qmtp		209/tcp				# Quick Mail Transfer Protocol
 modules_load_preference=ondemand
 
 LP-PPA-mozillateam-firefox-next
-net.ipv6.conf.all.use_tempaddr = 0
+
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 #    License published by the Free Software Foundation.
 ; term.h
@@ -1125,7 +1114,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 grant {
   #include <abstractions/fcitx-strict>
-#
+Type=Application
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
 #    TOOLS_CONFDIR ::= Depends on platform and installation settings.  Likely
 BACKSPACE="guess"
@@ -1156,7 +1145,6 @@ p+([0-9])p+([0-9])?(_+([0-9]))*
 #! /bin/sh
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 Exec=nm-applet
-# Compose sequences for CP1255
 # or equivalently:
 user-db:user
 compose '\'' 'U' to '⁄'
@@ -1166,3 +1154,18 @@ kana14       -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
 #   PasswordAuthentication yes
 # This script can be used to override the .d files supplied by other packages.
 rsvp	46	RSVP		# Reservation Protocol
+# Uncomment following line to disable "clever precalibration" routines...
+APT::Periodic::AutocleanInterval "0";
+avahi:x:117:123:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+APT::Periodic::Update-Package-Lists "1";
+
+
+# Run cryptdisks initscripts at startup? Default is Yes.
+# deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
+else
+       %all-titles;
+	<alias>
+# reserved values
+#hwtimestamp *
+case "$1" in
+      local base=${file##*/}
