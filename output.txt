@@ -86,7 +86,6 @@ compose '`' 'U' to 'Ù'
 uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
 #   2:1			test_class	# test_class -> 2:1
 #
-# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # LEO S3
   # User files
 trusted.SGI_MAC_FILE		skip		# xfs specific
@@ -115,7 +114,7 @@ case "${1}" in
 	start-stop-daemon --start --background $SSD_OPTIONS
 #scsi hp
 { :
-  /usr/share/enchant/enchant.ordering              r,
+# however the tradeoff is increased power consumptions. This feature
 Name=GNOME Settings Daemon's housekeeping plugin
 	log_end_msg $?
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
@@ -174,7 +173,6 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 *Command.shapeStyle:		oval
-		<allow send_destination="com.redhat.PrinterDriversInstaller"
 
 #    modify it under the terms of version 2 of the GNU General Public
 #
@@ -203,10 +201,9 @@ SHELL=/bin/sh
 ## serial port or special bus peripheral. The particular  
 order hosts,bind
 DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
-#    This program is free software; you can redistribute it and/or
+
 MPLS_MULTI	8848		# MPLS with upstream-assigned label [RFC5332]
 
-# Insert here your local magic data. Format is described in magic(5).
 ## number in the range 0-3. 
 
 # Specify file containing keys for NTP authentication.
@@ -320,7 +317,7 @@ deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 scsi FCPA
 	<policy context="default">
 
-  /usr/bin/ooimpress Cxr -> sanitized_helper,
+/dev/camera
 #	        done
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
 # that defines the configuration.
@@ -426,14 +423,13 @@ fi
 # /etc/passwd file.
 # [If you don't know about libcap, the sources for it are here:
 #GRUB_DISABLE_LINUX_UUID=true
-Interaction styles
 
 
 enabled=1
 DESKTOP-OFJN9OT
 
             return
-       notifempty
+# Example 3:
 #usb /dev/usb/scanner0
 <?xml version="1.0"?>
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
@@ -505,7 +501,7 @@ NoDisplay=true
 fi
 
 <fontconfig>
-@include common-session-noninteractive
+
 # vim:syntax=apparmor
 
 # Docker Upstart and SysVinit configuration file
@@ -523,7 +519,6 @@ F5B6F88F75D391A4B1EB336F9E201239FB6B1377DB8CFA7B84736216E5AFFFD7
 #    This program is free software; you can redistribute it and/or
 NoDisplay=true
 fi
-geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
         <Key>F:         next-page()
 
     $_local ufile="$HOME/.cloud-warnings.skip" sfile="$warndir/.skip"
@@ -534,7 +529,7 @@ geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 
 LP-PPA-mozillateam-firefox-next
 K¥!NÁÁ¡%#bHÂï
-// Notify all clients to reload the cache
+### BEGIN INIT INFO
 This file is part of PulseAudio.
 # in /etc/passwd and ignore centralized (AD, IdM, LDAP, etc.) users.
 ¿W¸	Ú1­ÌGtf˜nëjõ'mJy°ÂJ€“Mé(1®V´åRäq–êg,Ã©‡nı£ÀJ°å¼lrâ’‰°ymC>¦ªS²Ö¨XBo‘ 2Qæ£V,Ò£ö¢Öæœ7É7°vn¨Ù8LÃ©V?i/ÀÈx‚íŠ£'ù'ËKB©€È1ª
@@ -562,7 +557,7 @@ FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
 #
 #objects-per-client-max=1024
 statmon		100023
-    %m  input image format
+20190427180239 2 6 100 3071 5 E7A9F2E16494A110F823F0C90DFE9CC40005B24122176C6C6525F90F736433F094527C6DB9032736C471474E93E7DAB28D9CC80DC6C93EF27473EFE0F4A3A3AFBC07C0BA0DEFA0C73C075700D69F950499B634B197AD2B4E32712E80AEC3D463DAD26397FEB80B1DE1DBF96C7BF1CAEF1A47E39D135A5D941BF1ECE9186CF23C785E2B368B8AFC24E120EA6956EB97206AD0C80DE87D092190A049E0E12F340E41C6EFE13F1C19A63763B90C4E9099D0011FA62913194E4671998FAE8847EA077F506D394ACBCF139DF20A9C36BDC1B82F905BF1975C9D4322EF2E9165EC2C0FAAEEABED7EF759F4D4BD764A5BA4043085CE3D679B0CE5C79340CF92E35D7A931A0B4A52B3447EBF7E2E2633EE221989B8A9E2C598A058CFBFCA4800BAFFBD8F9B9B3068AC18A0A030EC0CDE39439DFFFA8C42EDF7D4FC1D4E6D455A7387BCBE7EF973B3452E026707189CE35086A3B7B82BE0DF2824972794435DC8A76AC110CE46FADCF5C0BC070A61F14CEFB6B8EFCEA85B0F320D441B7DC1CBA2150B283F
 X-GNOME-Autostart-Phase=PreDisplayServer
 <fontconfig>
 All executable files in this directory are processed in shell expansion order.
@@ -697,16 +692,16 @@ pool {{pool}} iburst
 	sed -r -e '
 # Uncomment and edit /etc/security/access.conf if you need to set complex
 }
-                <allow send_destination="fi.epitest.hostap.WPASupplicant"/>
+/Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
 PK!		æ–°åŠ å¡UTcx6mÃÓ®Oç.äPKNş5ãPK!	æ–°é—»UTcx6mÃËé»¹PK¤ej
 KP_5 = j;k;l;5;Â£
 #SpeedMeter=no
 
 /dev/scanner
-
+# IPMI_Physical_Security_Drive_Bay_Intrusion       Critical
 EOF
 OMsq7sXDmFff4hQjgQoDezMkA1EgzFokRY7pToLG3X1KdDXKR0edQ3+1mlJTf9XN
-# mfnp://scanner.bad-network.org/timeout=1500
+#
 # backup the old configuration and install the new one
       may simply works to avoid it.
 
@@ -731,7 +726,7 @@ fi
 security.overridePropertiesFile=true
 
 #
-			<bool>true</bool>
+20190427140321 2 6 100 2047 5 CC95B326545FBD4D1FB7F94FF6FAB4F18A24F90BB106535592E25F9AA5453A4077D4BC59388DBC2DACB4E19BB39974160F7BA6BF3F5F3F3464BE09FBE3E52676B1F63C260C55B827A2987ECD5BD7405DEF87B6BB23B8A6AF7C73C99E338DF0F906B7813398F1BFFC489C5C8007E370CFD82CB53B5BCBAA85781944B123AE3BF4DB294BF5C8E3F915B3523EB2546052EA02ADC5008F9D339F3F9FFD87325BCAE65C6B6C8DEBD12ECD3B23E0FF02913BEBC8A4245CDA50F2C0D67B6144C28E1C770EA15D566C5F4126025E5BA6C8C0AD259D8E35B5BD81CFAED74F65A007EC7CCD56362B20FDC9E0A38C7149D18166E9DAA5AA8F02833528D3F1FA9BFA74E0E027
 ‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*\Ç‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ\ä¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ı\i¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù\Ş™¹<Ëº-\›çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-\›Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀ\ÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷Šˆ\ièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
 do_start_prepare() {
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
@@ -744,7 +739,6 @@ do_start_prepare() {
 0	default
 <!DOCTYPE logmap [
 # device group names
-
 # See Xsession.options(5) for an explanation of the available options.
 # scopev4  <mask>  <value>
 #!/bin/sh
@@ -827,7 +821,6 @@ compose '<' 'd' to 'ï'
   #include <abstractions/mdns>
 
 3946901F46B0071E90D78279E82FABABCA177231A704BE72C5B0E8918566EA66
-_ÕOÊRÖaBOí”tcôRó%7-Ñ¡g[õ´AUbuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>‰7
 #PICTURES=Documents/Pictures
 			fi
 constraint from "9.9.9.9"              # quad9 v4 without DNS
@@ -880,7 +873,7 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 ‚
 #    Copyright (C) 2011 Novell/SUSE
 byte-compile = standard
-SocketMode=0660
+#    Copyright (C) 2013 Christian Boltz
   # require the santized_helper (ie, LD_PRELOAD will only use standard system
 			<string>sans-serif</string>
 #
@@ -933,7 +926,6 @@ $WorkDirectory /var/spool/rsyslog
 XLoad.input:			false
   # per-user settings and dictionaries
   update_status_timer: 43200
-    export PATH="$PATH:${snap_bin_path}"
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 X-GNOME-Bugzilla-Bugzilla=GNOME
 enabled=1
@@ -959,8 +951,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW
 test -x $DAEMON || exit 0
 			fi
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook post-invoke-success || true";
-# line begins with ! is certificate filename to be deselected.
-<delegateSystem systemIdStartString="http://www.w3.org/TR/2001/REC-SVG-20010904/" catalog="file:///usr/share/xml/svg/catalog.xml"/>
 #    Copyright (C) 2014 Canonical Ltd.
 scsi TAMARACK
 # Compose sequences for VISCII
@@ -1209,7 +1199,7 @@ REALRESOLVCONF=$(readlink --canonicalize /etc/resolv.conf)
 compose ',' ',' to '¸'
 # ------------------------------------------------------------------
 <delegatePublic publicIdStartString="-//Normal Walsh//Exchange Table Model 19960430" catalog="file:///etc/xml/docbook-xml.xml"/>
-export PPP_IFACE PPP_TTY PPP_SPEED PPP_LOCAL PPP_REMOTE PPP_IPPARAM
+EODMFj+BpdoDwAWhJcvyijoMV6N+gbCG+UedMNnpe25tlCRjouBSEF5KWJabejdh
 ## or updates from the Ubuntu security team.
 #
 	</match>
@@ -1227,3 +1217,15 @@ ip6.tc		u16		net+0		0xFF0		4
 request-timeout 5000
 
 Please read the update-alternatives(1) man page for information on this
+<Key>c: Select(children) \n\
+
+#
+
+  </policy>
+&!˜¸$¥ú}:ı²%·ÊTŠ
+[daemon]
+  /usr/lib{,32,64}/python3.[0-9]/lib-dynload/*.so            mr,
+# Tell grub that resume was successful
+#input(type="imtcp" port="514")
+
+
