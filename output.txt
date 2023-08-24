@@ -91,7 +91,6 @@ Before=snapd.service
 #    Copyright (C) 2012 Canonical Ltd.
 scsi "KINPO   " "Vividscan S120  "
 # Compose sequences for IBM1133
-# vim:noet
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
   deny @{HOME}/.mutt** mrwkl,
 
@@ -107,7 +106,7 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 XLoad.input:			false
 aXJtd2FyZSBTZXJ2aWNlIDxzaWduQGZ3dXBkLm9yZz6JATcEEwEIACEFAlWt/98C
 # Compose sequences for TIS-620
-MANPATH_MAP	/opt/sbin		/opt/man
+    <complexContent>
 if [ -f "/snap/bin/canonical-livepatch" ]; then
 fi
 [general]
@@ -117,7 +116,6 @@ fi
 <?xml version="1.0" encoding="UTF-8"?>
 max_allowed_packet	= 16M
 # iwlwifi will dyamically load either iwldvm or iwlmvm depending on the
-# in the toplevel profile. Eg:
   # Openoffice.org
 #
 net.ipv4.conf.all.rp_filter=2
@@ -152,7 +150,7 @@ compose '`' 'U' to 'Ù'
 <!ATTLIST %element;
 # deb-src {{mirror}} {{codename}}-updates main restricted
 
-
+#   2:1			test_class	# test_class -> 2:1
 #
 #
 case $0:$mode in
@@ -171,7 +169,6 @@ scsi ULTIMA
     permission javax.crypto.CryptoPermission *, 128;
 email_format=text
         zle -N zle-line-finish
-	# sequences and ordinary character sequences. Ordinary character
         if [ -x "$STARTUPFILE" ]; then
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 net/ipv4/icmp_ignore_bogus_error_responses=1
@@ -181,13 +178,11 @@ net/ipv4/icmp_ignore_bogus_error_responses=1
 # Cloud Image specific Grub settings for Generic Cloud Images
 þGŽšË<q
 #    License published by the Free Software Foundation.
-# ------------------------------------------------------------------
+
 #!/bin/sh
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # published by the Free Software Foundation; either version 2 of the
-
 # Also, include files in tunables/xdg-user-dirs.d for site-specific adjustments
-15	ntk
 	<alias>
 case "${1}" in
 *MenuButton.foreground: white
@@ -198,7 +193,7 @@ scsi APPLE
 
 # For more details, please see /etc/apparmor.d/local/README.
 
-/usr/local/lib
+
 # a.) make changes to the master file in /etc/cloud/templates/hosts.redhat.tmpl
 
       <family>DejaVu LGC Sans Mono</family>
@@ -209,7 +204,7 @@ scsi APPLE
 # Additional mounts to exclude at shutdown.
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
-/dev/scanner
+#    GNU General Public License for more details.
      name="OpenSansLI"
 server {{server}} iburst
 <?xml version="1.0"?>
@@ -246,7 +241,7 @@ compose '"' 'O' to 'Ö'
       may simply works to avoid it.
 # matches), NONE (matches no tty on non-networked logins) or
 #     then changes to /home will go through to the original device.
-# Read man sane-mustek_usb for documentation
+
 # usb vendor product
 }
 -session	optional	pam_systemd.so
@@ -375,7 +370,6 @@ APT::Install::Post-Invoke-Success {
 SHELL=/bin/sh
 # $ systemctl edit --full cron.service
 # 
-			<family>UnDotum</family> <!-- hangul (ko) -->
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 
@@ -460,7 +454,6 @@ session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_
 
   /usr/bin/mailody Cx -> sanitized_helper,
 -client IGNORE
-*directoryFontNormal:		-*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
 # Compose sequences for CP1255
 type=file
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache.$
@@ -538,7 +531,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 	exit 0
       </xs:simpleType>
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
-  /usr/bin/xmms Cxr -> sanitized_helper,
 ;; -*-emacs-lisp-*-
 # If this option is given, pppd will presume the peer to be dead if n
 brandon:100000:65536
@@ -596,7 +588,6 @@ LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 *Command.highlightThickness:	1
 ## invoking user was bestowed with some inheritable capabilities by a
 Acquire::http::User-Agent-Non-Interactive "true";
-CATALOG /usr/share/xml/docutils/catalog
 d /run/screen 1777 root utmp
 #   https://bugs.debian.org/858528
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
@@ -648,13 +639,12 @@ serial: 20200804
   /usr/share/vulkan/{explicit,implicit}_layer.d/{,*.json} r,
       This configuration is available on the major desktop environments.
 # netboot - Add the base modules, network modules, but skip block devices.
-
+       path="/com/canonical/indicator/messages/*",
 fi
      o General entity declarations of any kind.  For example:
 # information is printed). To change the default behavior, uncomment
 }
 	fi
-exit 0
      lock_passwd: True
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 #
@@ -719,10 +709,10 @@ Kernel system variables configuration files
 XClock.Clock.secondColor:	rgba:00/00/ff/80
 Exec=/usr/libexec/gsd-wacom
   # per-user write  directories
-
+# Required-Stop:
 compose '>' 'A' to 'Â'
   # Use a special profile when man calls anything groff-related.  We only
-CATALOG /usr/share/xml/docbook/schema/dtd/4.2/catalog
+scsi RICOH
 # ------------------------------------------------------------------
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # Defaults can be restored by simply deleting this file.
@@ -758,7 +748,6 @@ compose '>' 'A' to 'Â'
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
 KP_0 = s;0
   #include <abstractions/ubuntu-console-email>
-<delegateSystem systemIdStartString="/usr/share/sgml/dtd/qaml-xml.dtd" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 		<default><family>fantasy</family></default>
 10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
 # mdadm module configuration file
@@ -804,10 +793,9 @@ the exact distribution terms for each program are described in the
 
 		<prefer>
 #    modify it under the terms of version 2 of the GNU General Public
-   <include file="type-ghostscript.xml" />
 TryExec=im-launch
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
-<?xml version="1.0" encoding="UTF-8"?>
+</fontconfig>
 	weekly
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 
@@ -865,7 +853,6 @@ allocation {
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
 # X12xx series
 GRUB_DEFAULT=0
--#}
 Name=GNOME Settings Daemon's keyboard plugin
 #
 # Multiple Volume Groups can be specified with spaces
@@ -911,7 +898,7 @@ DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 #
 HOMEHOST <system>
 # escpecially if they contain "#" chars...
-gtk-sound-theme-name = Yaru
+# It's important that all backports from this kernel have been
 # This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
 
 # Note: the line below cannot end the file (there must be at
@@ -1010,9 +997,8 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 # in the toplevel profile. Eg:
 
 America/Los_Angeles
-
+XLoad.input:			false
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-else:
 @include common-account
 # usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
 
@@ -1157,7 +1143,6 @@ deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
     <family>Arev Sans</family>
 segments	0,1,0,-2,-1,1,-1,-2
-  @{sys}/bus/pci/devices/ r, # libpocl.so -> libhwlock.so, libnvidia-opencl.so, beignet/libcl.so -> libdrm_intel.so
   <alias binding="same">
 
   </policy>
@@ -1177,7 +1162,7 @@ libXvMC.so.1
 10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
     create 0664 root utmp
 {% endif -%}
-rocks_trees = {
+      We shouldn't overwrite it with "assign" unconditionally.
   # Text editors (It's All Text [https://addons.mozilla.org/en-US/firefox/addon/4125])
 #
 <!NOTATION XMLSchemaStructures PUBLIC
@@ -1192,3 +1177,10 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 restrict 127.0.0.1
 
 /libx32
+# Options for the canonusb backend
+compose ':' '-' to '÷'
+deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
+  #include <abstractions/ubuntu-email>
+  # Extensions
+        ;;
+overlayroot_cfgdisk=LABEL=OROOTCFG
