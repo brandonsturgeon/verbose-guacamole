@@ -129,7 +129,7 @@ fi
 max_allowed_packet	= 16M
 # iwlwifi will dyamically load either iwldvm or iwlmvm depending on the
 # in the toplevel profile. Eg:
-alias.url += ("/javascript" => "/usr/share/javascript")
+  # Openoffice.org
 #
 net.ipv4.conf.all.rp_filter=2
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Closed GnuPG cryptographic agent and passphrase cache (restricted).$
@@ -201,9 +201,8 @@ BRIDGE_HOTPLUG=no
 #
 # Cloud Image specific Grub settings for Generic Cloud Images
 şGšË<q
- l
+#    License published by the Free Software Foundation.
 # ------------------------------------------------------------------
-#
 #!/bin/sh
 			[[ -x /usr/lib/command-not-found ]] || return 1
 # published by the Free Software Foundation; either version 2 of the
@@ -234,7 +233,6 @@ scsi APPLE
 # Additional mounts to exclude at shutdown.
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
-group:          files systemd
 /dev/scanner
      name="OpenSansLI"
 server {{server}} iburst
@@ -267,7 +265,7 @@ blacklist rivafb
 compose '"' 'O' to 'Ö'
   </match>
 # /etc/xdg/user-dirs.defaults)
-ENABLED=no
+# SELinux needs to intervene at login time to ensure that the process
 # The src directory. This is the directory where the historical
       Most clients may picks up the first value only. so using "append"
        bus=session
@@ -369,7 +367,6 @@ usb 0x03f0 0x0105
   /dev/dri/card[0-9]* rw, # beignet/libcl.so
 ÓZ¸,ã°Ë¼*m66{ÿlÚ5¡
 <!-- Copyright 1992-2002 HaL Computer Systems, Inc.,
-#    modify it under the terms of version 2 of the GNU General Public
 *†HÎ=h0e1åiÉnÛÆ1º	Aá—øûıšâ}Éí|dÓË%‹VÙ ç^]Nƒœ[v) 	&!jb0qÒµ\ê;áx	…¨u’;È\ıHït"¨ânÅIÎÇ¼§aiñ÷;á*Ëù+óf7"debian:digicert_global_root_g3.pem8P_1X.509C0‚?0‚Å UV¼ò^¤55Ã¤Õ«Er0
 
 
@@ -510,11 +507,11 @@ session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_
         <Key>space:     next-page()
 
   /usr/bin/mailody Cx -> sanitized_helper,
-deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
+-client IGNORE
 *directoryFontNormal:		-*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
 XCalc*ti.button48.fromVert:		button43
 type=file
-        chmod 0755 $SCREENDIR
+# ar_OM.UTF-8 UTF-8
 @include common-session-noninteractive
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 			local ZONE_ID
@@ -522,7 +519,7 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 # ------------------------------------------------------------------
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 ; rlimit-locks = -1
-.  \" command-line options.  Uncomment this if you want to make sure that
+#DefaultLimitMSGQUEUE=
 <Directory "/usr/share/javascript/">
 #@{XDG_VIDEOS_DIR}+=""
 
@@ -660,14 +657,12 @@ S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
 #GRUB_BADRAM="0x01234567,0xfefefefe,0x89abcdef,0xefefefef"
 Description=Service for snap application lxd.activate
 compose '\'' '\'' to '´'
-Type=Application
 # Please change @{DOVECOT_MAILSTORE} to (only) contain the directory
 # video device access
 #
 
 *Command.highlightThickness:	1
 ## invoking user was bestowed with some inheritable capabilities by a
-			<family>STIX Two Math</family> <!-- AMS -->
 Acquire::http::User-Agent-Non-Interactive "true";
 CATALOG /usr/share/xml/docutils/catalog
 d /run/screen 1777 root utmp
@@ -701,7 +696,6 @@ auto
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
 # Compose sequences for ISIRI-3342
-Please read the update-alternatives(1) man page for information on this
 [Desktop Entry]
 # can attach to any other dumpable process owned by the same user.  In the
 DISTRIB_ID=Ubuntu
@@ -800,7 +794,7 @@ APT::Archives::MaxAge "30";
 Kernel system variables configuration files
 /dev/scanner
 # X-Start-Before:    $network
-[ifupdown]
+
 XClock.Clock.secondColor:	rgba:00/00/ff/80
 Exec=/usr/libexec/gsd-wacom
   # per-user write  directories
@@ -880,7 +874,6 @@ XClipboard.baseTranslations: #augment\n\
 encryption=luks1
   metering_timer: 14400
 # Defaults to false to maximize device compatibility.
-& stop
 #!/bin/sh
 /var/log/dpkg.log {
 # /etc/default/bridge-utils
@@ -984,7 +977,6 @@ GRUB_TIMEOUT=0
 
 brandon:100000:65536
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
-#!/bin/sh
 #2	inr.ruhep
 -server KNOWN
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -1021,7 +1013,7 @@ gtk-sound-theme-name = Yaru
 # Note: the line below cannot end the file (there must be at
 _apt:x:105:65534::/nonexistent:/usr/sbin/nologin
 # Canonical runs a service at motd.ubuntu.com, and you
-Name=GNOME Settings Daemon's sound plugin
+
 /usr/local/lib
 
 [Install]
@@ -1140,7 +1132,6 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 #include <abstractions/ubuntu-browsers.d/mailto>
 
 # Multiarch support
->!,£ Ví l¸D¨ÊÉ›Ş¹uAğ_OÍu	Âg	
 [ ! -r "$stamp" ] || cat "$stamp"
 
 # copied to the new user's home directory when it is created.
@@ -1189,3 +1180,21 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 #
 X-GNOME-Bugzilla-Bugzilla=GNOME
 <logmap>
+# Docker Upstart and SysVinit configuration file
+      <const>lcdlegacy</const>
+# ipmiconsole-privilege-level ADMIN
+  # User files
+        'project': get_oem_project(),
+
+
+APT::Install::Pre-Invoke {
+#
+ÇÛıáy$—š‘öŒˆ?_£ûkõ&Ü«ò¢ñêM¯RGï3üüşşL¥Æûùıx£ÿp<úúïMW'Ÿ‡õøµÏÇêü¯áÓ¿Ññ¬ß˜ñ¬Ö„h¼~cwk>ebó)­Ÿ¾+æ¢·£¥)o§´ïm¾}³Æ›~cÆ›ª]4^¿1ñAşà>Œ7–ıòñ¼±âı3÷g½õø}JåwÜ„÷)æûaúõ÷í‹zé¯ª~kúË|?¼ÏÊEÎ³ªşöı!rä>IÅÛó{™^ïZ÷‡ÄGî“ö}_ğ½à¼¡,px¿cô¶×ï¿½ºÌp¼šõÇ´Ï_‚æ'µ?X±ôzQštŸ±gJŠİ?”l{i3¬¯u¿fµ~¤#ãC•[Jñõ'Œ÷ìuÿ¦í_xßêîŞ¿ÙØ3½~…öLË¡=ÒéC{„\š´(Å×ãĞYù½êüÕIù£÷oa<=J÷Øú4÷?öù4_Ğñê¤â+ƒÖ}3ù«ƒz{0jîÇ+şı~p?NÇ;áı$½²v±üYÏqD±ê«®;¡¼c·#¼ï¶¿×WK$Ôïf¼vxxxû+½Úì”½·ç]Û2tãz‚ÛgÕè}§jP˜Ş4ÀXO[öâ#÷³~ƒöÑ"ÂZ÷‘ß£š±ó¶Qˆ%ïõái$R4RõáidG¨@#Õ©îÕşn§ŞâÒ":BÂ3´ æí¥.Tz»ıª|K?¾ıT·ÁìFÂÓq¡Pö	‰D|<†oÔìnÎkööK%²í’íñ®d{½ğÎw–}P²=uù™ÈıJSO2/0é|àUĞº¿ñärEİ×T‚x3ÿéQßŠ›òõ÷¢çƒğ>BkÄuó¬ö¸|"µ'z„¨ö7=[ZŠÜ©Í{ow±`ú/“IY¿¿xã«¦lœÑiIÿ÷ññß´ş~Ğé*ã”O˜úÅÏ;ö/>Jƒvı¬ß’ÑW)&Ûå©6·'<çÈœßıaûS©¦÷:¤éõÇ¢ÕÚ?€ái­ÖØÂçå[­Öé„wB‡{¸Ûj¹Ğ÷5Ùj-$Ô«¤®VË!ÍA0ÖÃ…û)ï¸ğv¸©ë^yy?Ûõˆ|Œçî®ûåƒ<wuí—Oòüiæ&¨,$ìŠ[é˜inÂMº{Ûæì¦Üéîw‰ª%`AŠ›ä#ttÃ"è_àíbBGÃ1"ëæf_w–û9b·à/ŸÇï¿-¶ZKÅş2±ÿ81Š¿\\€¼¸…¸¥ÃïÁ_%.Æï§ô 'Š/RZ™Ğj¨À€È87%ï']UdİÉ$ºœyÖÄ>ü5âpçæäC„ÅÃø'‹Gğëbó7ÉG	5D›sKò1BC"å<Îó1×ùÛdO×~ÂkÅø§Š¼óÅä“„Ö‰¿K>Åó4ÑéüCòiBë…ëÜ–|†Ğñ,ş°xÿtqó<Ï3DÁ¹=ù¡âEüMâ%ü3ÅËøg	éÜ‘|…ĞÙb¯ó*ÏÍâsÉ×xCË¶À¹pœ#°Uô:¯?*ŞÀ¿@8oò¼P|ÿ"q¼ómcâ;øßÅ¿X|ÿOÄ&ç-ÛÄYÎÛ</ßÇ¿T¼ƒÿQñ.şÇÄğ?.ÊÎynçG<?!~Œ¿Cüÿ2±Ñ¹Lü”ĞåâgøWˆŸã_)~•ø%şN±ÆùÏ«ÅIÎ¯y^#~ƒ-µ‡ë 	Ë}Ïñü_øü~?†_À¯à·ğÏbƒÓjıšĞ¿‹3	ı¡§á±˜¹ñ¡_Â³ğøOxşşK¨ËÛVë»ğ.ü#üì+¨Ánø	á…÷á¿á÷ğÜÁãp%éîæù(<·ÁWÄ6ÆàÃâü›Ô\ƒÎV+!“rB^'¯•WÉ«å¼-ÊÅ²G.’İò(¹PJŞl#İõğçğ)x.ã	Z8fÀ!‘‡É¬œEy„œ-'´\ ûå*Ù'WÊòxŞ-“ËäRÙ+—Ècå1¼ÉË² »¤+çËN97BN“M9.¯‘WÊòrŞ”ä)rH6d],åY“'Éª¹Z–å‰ÊŠ$£ŸO¢3ø:Üß„§¡N»/%Õ–¢[‘Áp`= ·£«m¤ËÉ#å\9‡PZÎ”íòPB7À—ˆÿ2|M¼€Uú¡v¾ú#3yîçK<gÃ7Å#H·&ç^_JñB7,‚X+ 
+# deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
+# To search for all KODAK scsi devices
+Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
+
+# ------------------------------------------------------------------
+		<allow send_destination="com.redhat.PrinterDriversInstaller"
+## Uncomment the following two lines to add software from Canonical's
+#    This program is free software; you can redistribute it and/or
