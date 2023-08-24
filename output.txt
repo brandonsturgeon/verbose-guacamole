@@ -61,7 +61,7 @@ Before=snapd.service
 
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
 # Autodetect the Canon CanoScan FB630u
-compose ')' '-' to '}'
+
 # The next option will send email to the named person when chronyd has
 XLoad.input:			false
 aXJtd2FyZSBTZXJ2aWNlIDxzaWduQGZ3dXBkLm9yZz6JATcEEwEIACEFAlWt/98C
@@ -97,7 +97,7 @@ compose '`' 'U' to 'Ù'
 
 # eliminate DISABLE
 uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
-!ŠÅÉù=7a©|ªg¢_Çû¢ÿÎ$êï1×hègõöÛë™LÏÆŸÖòïÏÙ¸aƒ•.W,V«Í*ÎIš&ÊÕê`¿’3‰þA;Ø/Äq5ë;OÖ_?©À¡Q¾×?C¹v¿ô
+
 #   2:1			test_class	# test_class -> 2:1
 #
 #
@@ -203,7 +203,7 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
   # Access required for connecting to/communicating with the Unity Launcher
 # This file is a simple placeholder to keep dpkg from removing this directory
 
-
+*Command.shapeStyle:		oval
 
 # ------------------------------------------------------------------
 
@@ -300,8 +300,6 @@ WantedBy=multi-user.target
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 max_allowed_packet	= 16M
 ###############################################################################
-/usr/lib/update-notifier/package-data-downloader
-    user_friendly_names yes
 #
 #
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
@@ -315,7 +313,6 @@ max_allowed_packet	= 16M
 /HeiseiMin-W3 /Japanese-Mincho-Regular ;
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
   <type name="Symbol" fullname="Symbol" family="Symbol" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/s050000l.afm" glyphs="/usr/share/fonts/type1/gsfonts/s050000l.pfb" version="0.1" encoding="AdobeCustom"/>
-#    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
 # Instance parent directories must exist for the polyinstantiation
 #    modify it under the terms of version 2 of the GNU General Public
 	zenity --warning --no-wrap --text="$TEXT"
@@ -439,7 +436,7 @@ ManagerResetTimeout=1800
 #
   @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
 #!/bin/sh -e
-<!ATTLIST type version CDATA #IMPLIED>
+
   # Support the new executable helper from NetworkManager.
 #
 # PAM service modules. This file is used only if that directory does not exist.
@@ -480,7 +477,6 @@ deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/upda
 mozilla/Buypass_Class_2_Root_CA.crt
 gtk-icon-sizes = panel-menu-bar=24,24
 if [ -f /run/console-setup/keymap_loaded ]; then
-deb http://packages.azlux.fr/debian/ buster main
 		<test name="lang">
 #
 
@@ -534,7 +530,6 @@ eval $(/usr/bin/locale-check C.UTF-8)
 # See bash(1) for more options
 
 [Time]
-# Canonical runs a service at motd.ubuntu.com, and you
 
 [ -d /var/crash ] || exit 0
 # This file is sourced by Xsession(5), not executed.
@@ -651,7 +646,6 @@ compose '<' 'C' to 'È'
 # resumed.  See http://bugs.debian.org/415441 for details.
 RUN_AS_USER=saned
 }
-X-GNOME-AutoRestart=true
 #
   # These are needed when a new user starts firefox and firefox.sh is used
 # time restraint on logins.
@@ -665,7 +659,7 @@ X-GNOME-AutoRestart=true
   <mime type="application/x-blender" description="Blender scene" priority="100" pattern="*.blend" />
 {% if servers %}# Servers
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
-  # user configurations
+     ([ "x$GRUB_GFXPAYLOAD_LINUX" != x ] || [ "$gfxpayload_dynamic" = 1 ]); then
 	  <default>
 
 
@@ -820,7 +814,7 @@ includefile /etc/ntp/crypto/pw
 Name=GNOME Settings Daemon's power plugin
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
         fi
-       peer=(label=unconfined),
+# IPMI_System_Event_Transition_Severity_Transition_To_Non_Critical_From_OK               Warning
 <!--
 #pio 0x3BC
 SyslogIdentifier=lxd.daemon
@@ -882,8 +876,7 @@ security.overridePropertiesFile=true
 #0x37b	# /dev/lp0
     h;                             # hold line
 0	default
-
-56f12ada18a3412ab1f9dcd69450be95
+	# save/restore it
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 # Compose sequences for TIS-620
 libXvMC.so.1
@@ -892,7 +885,7 @@ libXvMC.so.1
 # scopev4  <mask>  <value>
 #!/bin/sh
 </fontconfig>
-sansserif.x11jis0201.bolditalic=GothicBBB-Medium.Hankaku
+};
         log_action_end_msg 0
 Name=GNOME Settings Daemon's xsettings plugin
 application/vnd.sun.xml.writer							sxw
@@ -933,7 +926,7 @@ libXvMC.so.1
 /usr/bin/wine-preloader
 LANG=C.UTF-8
   ;;
-ÓZ¸,ã°Ë¼*m66{ÿlÚ5¡
+## Linux
 X-GNOME-HiddenUnderSystemd=true
         *:down) exec cloud-init dhclient-hook down "$1";;
 # The check is disabled if the value is 0.
@@ -1055,7 +1048,7 @@ SocketMode=0660
 main
 # All files with the '.cfg' extension in this directory will be read by
 
-*form.flipHoriz.fromVert: 		move
+    @{PROC}/@{pid}/net/if_inet6 r,
 session    optional   pam_motd.so motd=/run/motd.dynamic
 /HelveticaNarrow-Oblique /NimbusSanL-ReguCondItal ;
 #  e.g. the empty string or 0 or whatever. To disable it should not
@@ -1063,7 +1056,7 @@ session    optional   pam_motd.so motd=/run/motd.dynamic
 # vi: syntax=sh ts=4 noexpandtab
   /{,var/}run/cups/cups.sock rw,
 DAEMON=/sbin/iscsid
-{% endif %}
+  <policy context="default">
 
 DEVICE="/dev/urandom"
 
@@ -1102,7 +1095,7 @@ trusted.SGI_DMI_*		skip		# xfs specific
                    "sun.security.smartcardio.t1StripLe", "read";
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 $WorkDirectory /var/spool/rsyslog
-
+              md5sum $statedir/isc-dhcp-v4-$interface.conf $statedir/isc-dhcp-v6-$interface.conf > $oldstate 2> /dev/null
               <Filename>gconf-editor.desktop</Filename>
 };
 XLoad.input:			false
@@ -1123,7 +1116,6 @@ do_bootloader = no
 
 <delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///etc/xml/sgml-data.xml"/>
 
-# /etc/tidy.conf
 
 
 grant {
@@ -1156,7 +1148,7 @@ build_name: server
   owner /tmp/**         rwkl,
     dbus-update-activation-environment --verbose --systemd --all
 #option lampOff   -1
-3	boot
+# installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
 set -e
 cdrom:x:24:brandon
 MetadataURI=https://cdn.fwupd.org/downloads/firmware.xml.gz
@@ -1186,7 +1178,7 @@ X-GNOME-HiddenUnderSystemd=true
 # You must run update-initramfs(8) to effect this change.
 NoDisplay=true
 scsi DEVCOM * Scanner
-
+<?xml version="1.0"?>
    if [ -d "$scriptDir" ]; then
 # see tidy manpage for config examples
 brandon:100000:65536
@@ -1211,7 +1203,6 @@ TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 #net/ipv6/conf/default/forwarding=1
        not necessary for user PulseAudio instances. -->
 # You can also configure the backend for specific device files, but this
-# Key file containing the keys and key identifiers used when operating
 # Compose sequences for CP1256
   <!-- <magic name="GIF" offset="0" target="GIF8"/> -->
 ## Where OPTIONS is the concatenation of all options previously defined
@@ -1220,3 +1211,15 @@ TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
   <alias binding="same">
 
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
+
+#
+  @{PROC}/[0-9]*/net/arp r,
+#                      "/Library/Application Support/VMware Tools"
+    start-stop-daemon --start --pidfile /dev/null \
+2(=íh†|ãP2PZ8ÅÈœ÷®k¼›ç6e‘HÕLUÕ(›wnÍ‚}o…ðŠ1“káWÏ¡‹ç‰À]îè7à8oÏiÊö1/”I]Ó`‚]Ûø:OÒ'™dô„¥Žêþt™ó6#B‘¹ý)µû'úŠÔ†Ñó.zÓ$fÅ>5Ð…MnðcA[Õõ‰ûò“°.
+  /usr/bin/bangarang Cxr -> sanitized_helper,
+
+
+}
+#option modelname "Prima PagePartner"
