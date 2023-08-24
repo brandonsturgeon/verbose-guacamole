@@ -108,7 +108,7 @@ LANG=C.UTF-8
 compose '`' 'U' to 'Ÿ'
 
 # eliminate DISABLE
-# deb-src {{mirror}} {{codename}}-updates main restricted
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
 !ä≈…˘=7a©|™g¢_«˚¢ˇŒ$ÍÔ1◊hËgıˆ€ÎôLœ∆çü÷ÚÔœŸ∏aÉï.W,V´Õ*ŒIö& ’Í`øí3â˛A;ÿ/ƒq5Î;O÷_?©¿°Qæ◊?CπvøÙ
 #   2:1			test_class	# test_class -> 2:1
 #
@@ -129,7 +129,6 @@ trusted.SGI_MAC_FILE		skip		# xfs specific
 
 #!/bin/sh
 v¡ﬂ√]p7|ˆ¬◊‡∏Óá‡Aÿ¡√(<è√$<œ¡ãºØ¿˚a÷¶‡ˇÎ£Px»)
-# Also, include files in tunables/xdg-user-dirs.d for site-specific adjustments
 	<alias>
 case "${1}" in
 #
@@ -204,7 +203,6 @@ fi
 Name=User folders update
 # -Z Disable the power-saving function of certain Seagate drives
   /dev/xconsole                 rw,
-+D4CFmCnW8cc+Jb6jrJ2ZcjUqWE/c+uwZhwsUHNdk6ummPPKfMhRSbduk1ngdQe5
 	# lvmdbusd expects JSON output
   /usr/share/p11-kit/modules/  r,
 [Distro]
@@ -247,7 +245,6 @@ usb 0x08f0 0x0002
 # DO NOT EDIT OR REMOVE
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
 usb "Panasonic KV-S1025C"
-AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
 # $ systemctl edit --full cron.service
@@ -301,7 +298,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 # with cloud-init during boot causing issues with host key generation.  This
 
-  /usr/bin/mailody Cx -> sanitized_helper,
+        case "$cur" in
 // Notify all clients to reload the cache
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache.$
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
@@ -443,15 +440,13 @@ $x-display-manager gdm3
 
 [Install]
 </catalog>
-if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
+What=/var/lib/snapd/snaps/snapd_8542.snap
 APT::Periodic::Update-Package-Lists "1";
 # This file is sourced only for login shells (i.e. shells
 
-# REMOVE_HOME or REMOVE_ALL_FILES is set.
 
 
 /lib/i386-linux-gnu
-post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 # The possible arguments are:
 #
   /run/saslauthd/mux rw,
@@ -552,7 +547,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 X-Desktop-File-Install-Version=0.24
 	start)
 # Compose sequences for GEORGIAN-ACADEMY
-# /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
 CRYPTDISKS_ENABLE=Yes
        peer=(addr="@/tmp/dbus-*"),
 <!DOCTYPE busconfig PUBLIC
@@ -610,7 +604,6 @@ CATALOG /usr/share/xml/docutils/catalog
     $DAEMON -D
 0xA6 '¬¶'
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-# Ensure base distro defaults xdg path are set if nothing filed up some
 datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltCloud, OVF, MAAS, GCE, OpenStack, CloudSigma, SmartOS, Bigstep, Scaleway, AliYun, Ec2, CloudStack, Hetzner, IBMCloud, Oracle, Exoscale, RbxCloud, None ]
 # Copyright (c) 1996, 2000, Oracle and/or its affiliates. All rights reserved.
   <type name="Bookman-DemiItalic" fullname="Bookman DemiBold Italic" family="Bookman" foundry="URW" weight="600" style="italic" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/b018035l.afm" glyphs="/usr/share/fonts/type1/gsfonts/b018035l.pfb"/>
@@ -640,17 +633,15 @@ fi
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
  *   /usr/share/calendar
-    -->
+# which file should be used as the configuration file for rsync.
 ip.hdrlen	u8		net+0		0x0F
 #
 
 <delegatePublic publicIdStartString="-//Normal Walsh//Exchange Table Model 19960430" catalog="file:///etc/xml/docbook-xml.xml"/>
 makestep 1.0 3
 run-parts /etc/ppp/ipv6-down.d \
-if [ -r /etc/default/locale ]; then
   </xs:documentation>
 # colored GCC warnings and errors
-# Load the VERBOSE setting and other rcS variables
   /usr/lib*/samba/lowcase.dat r,
 
 #
@@ -688,7 +679,6 @@ expand-check=0
 <fontconfig>
 @include common-session-noninteractive
 0%ê‰Hÿ’ôßë∆› ˆbÚ¯≈5vu˜ó˜}Õ–»–¸–ÜÉJmUF˚êQI@7gùÚΩ‹¬ÎYÚø<dEÂããÅ‘ë c±/Ñ…_2tÃB‚ËQ≠∂öÒΩÒ#LáKﬂ’'µΩK®‚¸Y≤Ïõ1+ÁÚE¶ÖÈ#	qüÎµ‰€n‘/D,ÛŸØó∑"u3_Ä8—-[∫,≠ÄÎà√à£Î9M∞gpg¥Nate Smith <vilmibm@github.com>∞gpgâ‘
-deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 X-GNOME-Bugzilla-Bugzilla=GNOME
 
@@ -932,7 +922,7 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es
 
 /dev/scanner
 
-#    - check that the vendor/product strings are correct
+EOF
 OMsq7sXDmFff4hQjgQoDezMkA1EgzFokRY7pToLG3X1KdDXKR0edQ3+1mlJTf9XN
 # mfnp://scanner.bad-network.org/timeout=1500
   start)
@@ -943,10 +933,9 @@ OK		ATD*99#
 Type=Application
 letter
 [apt]
-unshare=/usr/bin/unshare
+# It's important that all backports from this kernel have been
 SHELL=/bin/sh
 /dev/scanner
-
 aa_log_skipped_msg() {
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # javax.sound.midi.Receiver
@@ -1047,7 +1036,7 @@ X-GNOME-HiddenUnderSystemd=true
 Name=Certificate and Key Storage
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 ! load color-specific resources for clients that have them
-    # we will execute snap-confine via this path, and thus need to be able to
+0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
 fi
 #
 [Resolve]
@@ -1156,7 +1145,6 @@ d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD
 0xC0	CS6
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: [origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"] start$
-#Readonly: true
 # ------------------------------------------------------------------
 205 133  63		peru
 Ç
@@ -1188,7 +1176,7 @@ DAEMON=/sbin/iscsid
 DEVICE="/dev/urandom"
 
 
-       delaycompress
+    <xs:attribute name="namespace" type="xs:namespaceList" use="optional" default="##any"/>
 
 # MU609 does not support getportmode (crashes modem with default firmware)
 # is reset to the secure default each time the sysctl values are loaded.
@@ -1213,3 +1201,18 @@ LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 case "$CRYPTDISKS_ENABLE" in
 LazyUnmount=yes
 kde4/klickety.desktop
+
+
+	if set_background_image "${background}"; then
+# The PAM configuration file for the at daemon
+
+# vim:syntax=apparmor
+  #
+trusted.SGI_DMI_*		skip		# xfs specific
+
+                   "sun.security.smartcardio.t1StripLe", "read";
+X-Ubuntu-Gettext-Domain=gnome-settings-daemon
+$WorkDirectory /var/spool/rsyslog
+
+              <Filename>gconf-editor.desktop</Filename>
+};
