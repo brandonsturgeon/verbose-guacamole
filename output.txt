@@ -1,6 +1,5 @@
 #    and going unconfined as root is not desirable any way.
 
-
 #    License published by the Free Software Foundation.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
     // There is no restriction to any algorithms.
@@ -14,7 +13,7 @@ Alias /javascript /usr/share/javascript/
 XClock.input: false
     compress
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
-Title=Vendor
+# by dpkg on upgrades).  We all love dpkg prompts.
 
 			<family>Courier</family>
 # Compose sequences for ISO-8859-16
@@ -96,7 +95,6 @@ fi
 esac
 	fi
 
-      <choice minOccurs="1" maxOccurs="unbounded">
 LANG=C.UTF-8
 compose '`' 'U' to 'Ÿ'
 
@@ -206,7 +204,7 @@ usb 0x03f0 0x0105
     <allow own="com.ubuntu.SoftwareProperties"/>
 # Users of this abstraction need to #include the ubuntu-helpers abstraction
 PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_lts_contract.py
-”Z∏,„∞Àº*m66{ˇl⁄5°
+  # Access required for connecting to/communicating with the Unity Launcher
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 
@@ -234,7 +232,6 @@ scsi "K.M.E.  " "KV-SS25A        "
 SHELL=/bin/sh
 </fontconfig>
 
-log_cfgs:
 	</alias>
 # - What to do after sleep-inactive-ac-timeout
 #    Copyright (C) 2010 Canonical Ltd.
@@ -373,7 +370,6 @@ auto
 printf " * Support:        https://ubuntu.com/advantage
 "
 		exit 1
-CATALOG /usr/share/sgml/dtd/xml-core/catalog
 Terminal=false
 
 #
@@ -518,7 +514,7 @@ GRUB_DEFAULT=0
 #
     <allow send_interface="org.freedesktop.DBus.Properties"/>
 # /etc/passwd file.
-LP-PPA-ubuntu-mozilla-daily-firefox-aurora
+
 # [If you don't know about libcap, the sources for it are here:
 #GRUB_DISABLE_LINUX_UUID=true
 Interaction styles
@@ -531,7 +527,7 @@ DESKTOP-OFJN9OT
             return
        notifempty
 #usb /dev/usb/scanner0
-[Desktop Entry]
+<?xml version="1.0"?>
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 #    This program is free software; you can redistribute it and/or
 # where dovecot is allowed to store and read mails
@@ -597,8 +593,6 @@ run-parts /etc/ppp/ipv6-down.d \
 # colored GCC warnings and errors
   /usr/lib*/samba/lowcase.dat r,
 
-# XDG_DATA_DIRS or XDG_DATA_HOME, and are the parent directory
-# Default backends, as chosen in the configure script. This will be used
 Ä
 
 # usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
@@ -631,7 +625,6 @@ fi
 # Docker Upstart and SysVinit configuration file
 # top-level (fixed) folder directory in camera.  Backend assumes
 # ipmiconsole-privilege-level ADMIN
-
 
 APT::Install::Pre-Invoke {
 
@@ -671,8 +664,7 @@ X-GNOME-AutoRestart=true
 # time restraint on logins.
 # X-Stop-After:      umountfs
     permission java.security.SecurityPermission "clearProviderProperties.*";
-
-
+/dev/scanner
     ;;
     <!-- org.freedesktop.ModemManager1.Modem.Voice.xml -->
 	nocreate
@@ -693,7 +685,7 @@ ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
 #objects-per-client-max=1024
 
     %m  input image format
-fs.protected_symlinks = 1
+# Not an interactive shell?
 <fontconfig>
 All executable files in this directory are processed in shell expansion order.
 10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
@@ -716,7 +708,6 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 grant {
     xhost +si:localuser:`id -un` > /dev/null
 #    TOOLS_CONFDIR ::= Depends on platform and installation settings.  Likely
-BACKSPACE="guess"
 ; auto-connect-localhost = no
     /run/netns/ w,
 X-GNOME-Autostart-Phase=Initialization
@@ -748,11 +739,10 @@ avahi:x:117:123:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
 APT::Periodic::Update-Package-Lists "1";
 
 # This specifies maximum number of attempts to obtain lock file by FileHandler
-. /usr/share/bash-completion/bash_completion
+image/uyvy; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 [storage]
 else
        %all-titles;
-	<alias>
 # reserved values
 #    This program is free software; you can redistribute it and/or
 case "$1" in
@@ -767,14 +757,14 @@ deb {{mirror}} {{codename}}-updates universe
 next-engine=['Alt+Shift_L']
   <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf
 # Compose sequences for KOI8-U
-
+fi
   /sys/devices/pci*/**/{,subsystem_}device r,
 *quit.top: 			ChainTop
 @{PROC}/@{tid}/attr/{current,exec} w,
 exit 0
 # PulseAudio is distributed in the hope that it will be useful, but
 kodak
-# if ip.ihl > 5
+  owner @{HOME}/.config/QtProject/qtlogging.ini r,
 # Compose sequences for ISO-8859-8
 
 
@@ -868,12 +858,11 @@ letter
 [apt]
 SHELL=/bin/sh
 /dev/scanner
-aa_log_skipped_msg() {
+   home..[[/.luarocks]],
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # javax.sound.midi.Receiver
 #ListenAddress ::
 
-Type=Application
 # the value to YES
 # Compose sequences for IBM1133
 
@@ -929,7 +918,6 @@ Description=Mount unit for snapd, revision 8542
 <Key>a: Select(ancestors) \n\
 [ -n "$version" ] || exit 0
 # in the toplevel profile. Eg:
-<?xml version="1.0"?>
 #!/bin/sh
 allocation {
 URI_LTS = https://changelogs.ubuntu.com/meta-release-lts
@@ -956,7 +944,7 @@ LANG=C.UTF-8
   ;;
 ”Z∏,„∞Àº*m66{ˇl⁄5°
 X-GNOME-HiddenUnderSystemd=true
-#    License published by the Free Software Foundation.
+        *:down) exec cloud-init dhclient-hook down "$1";;
 # The check is disabled if the value is 0.
 Name=Certificate and Key Storage
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
@@ -971,7 +959,6 @@ application/set-payment-initiation
 fi
 overlayroot_cfgdisk=LABEL=OROOTCFG
 *fileMenu.setResolution.label:	Set Screen Resolution
-
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 # called by RPC services. This mostly solves the problem, that a
 #   For example, to enable both control of console logging level and
@@ -1119,7 +1106,6 @@ LazyUnmount=yes
 
 
 	if set_background_image "${background}"; then
-# The PAM configuration file for the at daemon
 
   #
 trusted.SGI_DMI_*		skip		# xfs specific
@@ -1138,7 +1124,6 @@ XLoad.input:			false
     // There is no restriction to any algorithms.
 X-GNOME-Bugzilla-Bugzilla=GNOME
 enabled=1
-# is reset to the secure default each time the sysctl values are loaded.
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 Ü√2Œ…yÀf˜R·Cdˇµ!£j[~=‡g·%1¯Å_á¸T0tÀ`(˛Üè+∏ú$‹ Òô <˚`CF’∂¸z¿œ¬Kbø˘©`8*_†àHÌÕ+ÿ:ø'‰Ÿè6‘0¡˛:gÒ#1¸}’˛‘`Ù ¡∏NW,«p“ Òo`ÒÏ_6dTm¡Ø¸,º$?Îêü
@@ -1174,7 +1159,7 @@ scsi TAMARACK
 # Compose sequences for VISCII
 #  0x405D, /* kodak ESP C310 */
 <busconfig>
-# troubles on misconfigured networks
+# microcode file installed on the system.  When removing iwlwifi, first
   /usr/lib/aspell/* r,
 build_name: server
 # Legacy biarch compatibility support
@@ -1235,3 +1220,9 @@ net.ipv6.conf.default.use_tempaddr = 2
 #Enable=true
 Ubuntu 20.04.5 LTS \n \l
 IPT_MODULES=""
+TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
+
+#net/ipv6/conf/default/forwarding=1
+       not necessary for user PulseAudio instances. -->
+# You can also configure the backend for specific device files, but this
+# Key file containing the keys and key identifiers used when operating
