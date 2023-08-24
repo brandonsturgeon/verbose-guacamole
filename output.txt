@@ -6,7 +6,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 /bin/sh
 # mibdirs /usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf
   # User files
-#
+# im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
     local dmi_path="/sys/class/dmi/id/board_vendor" vendor=""
 XClock.input: false
     compress
@@ -16,7 +16,6 @@ XClock.input: false
 			<family>Courier</family>
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
-fi
 # create new (empty) log files after rotating old ones
 audio/x-mpegurl=rhythmbox.desktop
 
@@ -72,7 +71,6 @@ fi
 mibs :
 #   You can use this file to change the default behavior of screen system wide
 # Compose sequences for TIS-620
-/dev/smpte*     rw,
 fi
 <?xml version="1.0"?>
 esac
@@ -143,11 +141,11 @@ set -e
 /usr/local/lib
 #	        for nal in $nalinfo; do
 #
-# you can temporarily override this with
+
 
 fi
 # can easily run one too
-        done
+# Compose sequences for ISO-8859-10
   /dev/xconsole                 rw,
 [Desktop Entry]
   /usr/share/p11-kit/modules/  r,
@@ -167,7 +165,6 @@ X-GNOME-AutoRestart=true
 PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_lts_contract.py
   # Access required for connecting to/communicating with the Unity Launcher
 # This file is a simple placeholder to keep dpkg from removing this directory
-
 *Command.shapeStyle:		oval
 
 #    modify it under the terms of version 2 of the GNU General Public
@@ -224,7 +221,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 // Notify all clients to reload the cache
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
-# ------------------------------------------------------------------
 #DefaultLimitMSGQUEUE=
 #@{XDG_VIDEOS_DIR}+=""
 [udisks2]
@@ -269,7 +265,7 @@ mozilla/SecureSign_RootCA11.crt
 #    License published by the Free Software Foundation.
 
 # ipmi-fru-bridge-fru DISABLE
-# orbit2 permissions
+  owner @{HOME}/.cache/#[0-9]*[0-9] rw, # QSaveFile (anonymous shared memory)
 scsi "KINPO   " "Vividscan S120  "
 alias.url += ("/javascript" => "/usr/share/javascript")
 Name=Print Queue Applet
@@ -282,7 +278,6 @@ rocks_trees = {
 compose '\'' '\'' to '´'
 auth	required	pam_nologin.so
 @include common-session-noninteractive
-/Adobe-Japan2 /Japanese-Mincho-Regular-JaH ;
 
 #   https://bugs.debian.org/858528
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
@@ -317,7 +312,6 @@ scsi FCPA
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
 # that defines the configuration.
 }
-	devtypes_cols_verbose="devtype_name,devtype_max_partitions,devtype_description"
 // Some countries have import limits on crypto strength, but may allow for
 $x-display-manager gdm3
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
@@ -366,7 +360,6 @@ ManagerResetTimeout=1800
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
 fi
 #       entries the days are specified by a sequence of two character
-device auto
 	# The checks LVM should use to detect MD component devices.
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
@@ -470,7 +463,7 @@ LANG=C.UTF-8
 ABORT		"NO CARRIER"
 ip.hdrlen	u8		net+0		0x0F
 #
-This directory is for system-local terminfo descriptions. By default,
+Clock*minute:	yellow
 /usr/share/qt3/lib*/libqui*so* mr,
 #crypto
 # colored GCC warnings and errors
@@ -498,7 +491,7 @@ fi
 <fontconfig>
 
 # vim:syntax=apparmor
-
+# value "foo,bar" first "foo" will be attempted and then "bar" if the
 # Docker Upstart and SysVinit configuration file
 AI	-*-charter-medium-i-normal--*-*-*-*-*-*-iso8859-1
 
@@ -543,7 +536,6 @@ RUN_AS_USER=saned
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
 
 	  <default>
-Ç_ä‰ü¸Ì×õ?ºˆıš5­¯|:=u‘Näâ…fN°{üœ•`0QG¨e·w¯Î¬œû£À_™§w*6ñ/¶tÓ0¤hÒ¥í”&›õÑHëppêÒÇµJ»&PôsG3µÆBÃÔÂ“oBW&¾¿­ÖõRÚnö–MàÉ(C¸šbÕ8Ÿƒ¡:®ç…4“í,fn)^Š,Í‘çÔÙJ imâˆ†ör!I}8ÅFzÍØkC£4[×Üb„~¯G7¡Ò>P,7U&m(5ÿÆQõ£ÿ6oÊ.]á;,bà;Æ6>Jú1¿ˆ #9ñ1ÿ‘eÖ+F±°^v®¾Q§š*‚Bjp1¬ÏBÉYù˜é$A‘{èÙ*F£õ±WÍ–L£g„/»í³RV§9ş6 hXuhe‘Ã[š¥ƒÖ–yÑÆÉëLJÔ·œ}l©©ëú.ñTP¢•ªÏMmÓF©Z[óãw ¦ÑÇl ­M¡.É[oÉì„¡$ÙÆŞÕ.»¼ %Õ´Launchpad PPA for deadsnakes‰8"Y|}		
 
 #RUN_DAILY=true
 #    modify it under the terms of version 2 of the GNU General Public
@@ -585,7 +577,6 @@ X-GNOME-Autostart-Phase=Initialization
 *topform.Form.testpercent.100.justify:right
 )—É¸¦F|O#e×p"^ıL–@hNnW.§Ÿ‰„÷I·R1ãCë¯èÇ§rİºe3Zª‰´JŞå|"ôŸ“î(ÖjMÇqüOW*•ñD"aâód·ú»I'Ôƒ]%+^…Ëäwú"57Õä ¹´'ãfRN"ÒúPI’JX'è_Õ?C›†‡‡×¹ñù¢eUw¯şãA~ZX	ê»³¦õWÛiµ_¥hÆäŠ•]8^U^ïsş÷ÊføúúŸïx®VóõQ­Õ×Œ¬¯×üôãš¦¼±±Í›Ãòª££ÃÃCCƒƒÕP¿öüóÚ­Ÿr›ÇJÉ0¾^«UÃü•Ştb
 		if plymouth --ping
-/dev/scanner
 #exec_delay=
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 compose '\'' 'U' to 'Ú'
@@ -705,7 +696,7 @@ SHELL=/bin/sh
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # javax.sound.midi.Receiver
 
-
+    create 0660 root utmp
 # ONLY use this if your saned server is sitting behind a firewall. If your
 
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
@@ -723,7 +714,7 @@ security.overridePropertiesFile=true
 do_start_prepare() {
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
 ## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
-# vmtoolsd.level = none
+    exit 1
 # Device filename to use for scanner access
   /usr/bin/prism Cx -> sanitized_helper,
 #0x37b	# /dev/lp0
@@ -731,7 +722,6 @@ do_start_prepare() {
 0	default
 <!DOCTYPE logmap [
 # device group names
-# See Xsession.options(5) for an explanation of the available options.
 # scopev4  <mask>  <value>
 #!/bin/sh
 </fontconfig>
@@ -793,7 +783,6 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 {% if servers %}# Servers
 [METARELEASE]
 # You can use a different file by specifying a filename
-    case "$1" in
 letter
 76A45A496031E4DD2D7ED23E8F6FF97DBDEA980BAAC8B0BA94D7EDB551348645
 
@@ -1050,12 +1039,11 @@ vm.mmap_min_addr = 65536
   # User files
    [[/usr/local]]
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
-
+NoDisplay=true
 #    modify it under the terms of version 2 of the GNU General Public
 # Don't try to change I/O priority in a vserver or OpenVZ.
 # ------------------------------------------------------------------
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
-/Adobe-GB1 /BousungEG-Light-GB ;
 letter
 #    with this program; if not, write to the Free Software Foundation, Inc.,
 session required        pam_loginuid.so
@@ -1068,7 +1056,6 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
   unix (connect, receive, send) type=stream peer=(addr="@tmp/.mozc.*"),
 #scsi MITSBISH MCA-S600C
 #
-usb 0x04a9 0x1608
 Ubuntu 20.04.1 LTS (Focal Fossa)
 
     missingok
@@ -1133,7 +1120,7 @@ server {{server}} iburst
 # For example, the lines below are for one device, but if you have several devices to use, you can duplicate the lines below as many times as you have devices.
 /dev/camera
 				fi
-# ------------------------------------------------------------------
+wifi.powersave = 3
 NoDisplay=true
 #		 - Minor cosmetic changes in an attempt to help new
 #
@@ -1156,7 +1143,7 @@ deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buste
 /dev/scanner
 noauth
 nameserver 1.1.1.1
-
+##########################################################################################################
 # P-215
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
 #u0x378	# /dev/lp1 forced in unidir mode
@@ -1226,3 +1213,14 @@ link-local 169.254.0.0
 # Compose sequences for ISO-8859-11
 #*               soft    core            0
 # starts in the proper default security context. Only sessions which are
+    </test>
+## respective vendors as a service to Ubuntu users.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
+  /usr/bin/nautilus Cxr -> sanitized_helper,
+ </selectfont>
+#!/bin/sh
+	#   0  Automatically detected best available format
+{c¸O¬	ù³x•Ûvñè}iY‰ô&|4ı¼øÅôCË¡8qıÊvb»¾2U—&¸ê|MOÃş®¹Dp"qeåÇ¨—r´†0g»fj®kÃwLiWo6å¯`É>6hVä}6¦õ^æ,¦¶=6~Åòê©]Ç/êÿ› (
+  owner @{HOME}/[^.]*                     rwl,
+  /usr/bin/gedit Cxr -> sanitized_helper,
+auth    requisite       pam_nologin.so
