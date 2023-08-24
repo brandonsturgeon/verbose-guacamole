@@ -5,7 +5,6 @@
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
     // There is no restriction to any algorithms.
 /Song-Medium /GBZenKai-Medium ;
-# local modules either before or after the default block, and use
 /bin/sh
 # Compose sequences for CP1255
 # <CLASSID>		<NAME>
@@ -40,7 +39,7 @@ audio/x-mpegurl=rhythmbox.desktop
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
     minsize 1M
 kde4/ktimetracker.desktop
-  #include <abstractions/opencl-nvidia>
+/dev/scanner
 {
 gtk-icon-theme-name = Yaru
 datasource meta-data and user-data.
@@ -58,7 +57,6 @@ X-GNOME-Autostart-Phase=Initialization
 previous-engine=@as []
 APT::Periodic::AutocleanInterval "0";
 # dpkg configuration file
-scsi * * Scanner
 Before=snapd.service
 # vim:syntax=apparmor
 # Compose sequences for ISO-8859-11
@@ -81,7 +79,7 @@ fi
        daily
 # Refer to 'man lvm.conf' for further information including the file layout.
 #user_allow_other
-/dev/scanner
+// Whenever dpkg is called we might have different updates
 max_allowed_packet	= 16M
 			<Btn1Down>:popup-pixel()
 
@@ -101,7 +99,7 @@ fi
 <?xml version="1.0"?>
 esac
 	fi
-# a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
+
       <choice minOccurs="1" maxOccurs="unbounded">
 LANG=C.UTF-8
 compose '`' 'U' to 'Ÿ'
@@ -166,7 +164,6 @@ compose '"' 'O' to '÷'
 # usb vendor product
 }
 # This will not allow a user to change their shell unless
-deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 <!-- Accept bitmap fonts -->
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 };
@@ -195,14 +192,12 @@ fi
         </policy>
         done
 Name=User folders update
-# -Z Disable the power-saving function of certain Seagate drives
   /dev/xconsole                 rw,
 	# lvmdbusd expects JSON output
   /usr/share/p11-kit/modules/  r,
 [Distro]
 # NETID_AUTHORITATIVE
 ## skip cached policy
-# (you may need to remove these refusals if the server is not using MPPE)
 
 <fontconfig>
 
@@ -212,7 +207,7 @@ usb 0x03f0 0x0105
 # The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
            "booktitles.ent">
-			<family>Arial Unicode</family>
+
 /dev/scanner
 #
     <allow own="com.ubuntu.SoftwareProperties"/>
@@ -268,7 +263,6 @@ DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
 # Insert here your local magic data. Format is described in magic(5).
 
 ## number in the range 0-3. 
-# e-mail destination used by e2scrub_fail when problems are found with
 
 deb {{mirror}} {{codename}}-updates main
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
@@ -303,7 +297,6 @@ s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
 # Check for interactive bash and that we haven't already been sourced.
 
 SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
-#
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 ã]“«j[AÜ·ΩØb∞Z∑Gé≥±ßAº”ÊH:â∂é#í‡“{ÔΩ˜ﬁ{ÅÃçÂˇﬁÏ≤xg`‡Y|Cn[Ÿ-{Eølª≠Ωj—ÕmI#˝≈•Ö—z≥”Ìt]s◊¶Å!∑b«πÛùÖ“ı ¢Ì
 run_im default
@@ -336,14 +329,13 @@ max_allowed_packet	= 16M
 # HP Scanjet G2710
 # to update this file, run dpkg-reconfigure cloud-init
 	<alias binding="same">
-try:
+DISTRIB_RELEASE=20.04
 /HeiseiMin-W3 /Japanese-Mincho-Regular ;
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
   <type name="Symbol" fullname="Symbol" family="Symbol" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/s050000l.afm" glyphs="/usr/share/fonts/type1/gsfonts/s050000l.pfb" version="0.1" encoding="AdobeCustom"/>
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
 # Instance parent directories must exist for the polyinstantiation
 #    modify it under the terms of version 2 of the GNU General Public
-
 APT::Update::Post-Invoke-Success {
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 mozilla/SecureSign_RootCA11.crt
@@ -431,7 +423,7 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 APT::Periodic::Update-Package-Lists "1";
 # This file is sourced only for login shells (i.e. shells
 
-
+# Default access control entries:
 
 /lib/i386-linux-gnu
 # The possible arguments are:
@@ -442,7 +434,7 @@ APT::Periodic::Update-Package-Lists "1";
 # Compose sequences for KOI8-U
 
   @{sys}/bus/pci/devices/ r, # libpocl.so -> libhwlock.so, libnvidia-opencl.so, beignet/libcl.so -> libdrm_intel.so
-  @{PROC}/sys/crypto/fips_enabled r,
+        </test>
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 search updates ubuntu built-in
 	bootdir=$(dirname "$2")
@@ -530,7 +522,6 @@ BACKSPACE="guess"
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 X-Desktop-File-Install-Version=0.24
 	start)
-# Compose sequences for GEORGIAN-ACADEMY
 CRYPTDISKS_ENABLE=Yes
        peer=(addr="@/tmp/dbus-*"),
 <!DOCTYPE busconfig PUBLIC
@@ -555,7 +546,6 @@ enabled=1
   /etc/drirc                      r,
 DESKTOP-OFJN9OT
 
-993	# imaps
             return
        notifempty
 #usb /dev/usb/scanner0
@@ -670,7 +660,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 
 APT::Install::Pre-Invoke {
 
-for background in *.jpg *.JPG *.jpeg *.JPEG *.png *.PNG *.tga *.TGA; do
 # Required-Stop:     $local_fs
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
 F5B6F88F75D391A4B1EB336F9E201239FB6B1377DB8CFA7B84736216E5AFFFD7
@@ -752,7 +741,6 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
   audit deny @{HOME}/.gnupg/{,**} mrwkl,
 # Rules for changing KDE settings (for KFileDialog and other).
 grant {
-  #include <abstractions/fcitx-strict>
     xhost +si:localuser:`id -un` > /dev/null
 #    TOOLS_CONFDIR ::= Depends on platform and installation settings.  Likely
 BACKSPACE="guess"
@@ -777,7 +765,6 @@ p+([0-9])p+([0-9])?(_+([0-9]))*
 #exec_delay=
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 OnlyShowIn=GNOME;
-CATALOG /usr/share/xml/docbook/schema/dtd/4.0/catalog
 compose '\'' 'U' to '⁄'
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 kana14       -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
@@ -871,7 +858,6 @@ deb http://archive.ubuntu.com/ubuntu/ focal multiverse
 includefile /etc/ntp/crypto/pw
 #X11UseLocalhost yes
       <fit>
-[Desktop Entry]
         </sequence>
 ## The two single-column characters used to display the first characters
 # is not set. DLNA wants something between 5 and 15 seconds.
@@ -905,7 +891,6 @@ XCalc*bevel.screen.INV.vertDistance:		4
       may simply works to avoid it.
 
 OK		ATD*99#
-Type=Application
 letter
 [apt]
 # It's important that all backports from this kernel have been
@@ -1087,7 +1072,7 @@ type=file
 Ubuntu 20.04.5 LTS
 Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent \(ssh-agent emulation\)\.$
-    permission java.util.PropertyPermission "java.vm.vendor", "read";
+  # aspell
 
   /dev/tty     rw,
 /dev/scanner
@@ -1104,7 +1089,6 @@ Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_C
 Ubuntu 20.04.5 LTS
     [ -n "$ZSH_VERSION"  ] && precmd_functions+=(__vte_osc7)
 overlayroot_cfgdisk=LABEL=OROOTCFG
-alias gawkpath_append 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") then; unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKPATH "$AWKPATH"":!*"'
 What=/var/lib/snapd/snaps/snapd_8542.snap
 #
 # kFreeBSD do not accept scripts as interpreters, using #!/bin/sh and sourcing.
@@ -1230,4 +1214,13 @@ scsi TAMARACK
 #  0x405D, /* kodak ESP C310 */
 <busconfig>
 # troubles on misconfigured networks
-<delegateSystem systemIdStartString="http://globaltranscorp.org/oasis/catalog/xml/tr9401.dtd" catalog="file:///usr/share/xml/schema/xml-core/catalog.xml"/>
+  /usr/lib/aspell/* r,
+build_name: server
+# Legacy biarch compatibility support
+{% if pools %}# pools
+  </alias>
+  owner /tmp/**         rwkl,
+    dbus-update-activation-environment --verbose --systemd --all
+#option lampOff   -1
+3	boot
+set -e
