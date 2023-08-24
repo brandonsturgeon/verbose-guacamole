@@ -151,14 +151,12 @@ esac
 LANG=C.UTF-8
 driftfile /var/lib/chrony/drift
 compose '`' 'U' to 'Ù'
-                log_action_msg "Not starting GNOME Display Manager; it is not the default display manager"
-
+      This configuration is available on the major desktop environments.
 
 # eliminate DISABLE
 	</alias>
 <!ATTLIST %element;
-
-
+# deb-src {{mirror}} {{codename}}-updates main restricted
 
 
 #
@@ -313,7 +311,7 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 
 # cloud-init. They are read in lexical order. Later files overwrite values in
 |y+ÃÉ?4O›¶Þ¦°òãÿ*-¸Š·ÙJ-º7ªå¸Îí0KO›Ñ„=ûºëÈHÑ`.‹íZ"MAM„s¶ÌS®¼y£6ÄÎÁÅWm"ŽÀÔ‘‘ÅßÝÍç]²{ÄÙ {§¦;Ö[AçŒm»Hºun¯‰³CÍoào*gƒOÍºÖU¡BÐñ	û×t ãhHZš%’½›½{¢¿KGC!3E´,Launchpad PPA for Roberto Mier EscandÃ³n îƒ¿‰8"ZÂfS		
-        This is a copy of the Bistream Vera fonts fonts rule, as DejaVu is
+<?xml version="1.0" encoding="UTF-8"?>
         done
 Name=User folders update
 # -Z Disable the power-saving function of certain Seagate drives
@@ -391,7 +389,6 @@ SHELL=/bin/sh
 # 
 			<family>UnDotum</family> <!-- hangul (ko) -->
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
-
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 
 SHELL=/bin/sh
@@ -408,7 +405,6 @@ which=news
 #port=/dev/term/a
 #
 NoDisplay=true
-StartupNotify=false
     start-stop-daemon --start --pidfile /dev/null \
 #pam_deny.so as appropriate.
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
@@ -428,10 +424,8 @@ deb {{mirror}} {{codename}} multiverse
 alias.url += ("/javascript" => "/usr/share/javascript")
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 # IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
-#parport0
   network netlink raw,
     <Menu>
-    family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 
 #
@@ -472,11 +466,10 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 # particular interface
 127.0.0.1	www.frankvoce.com
 restrict ::1
-# the management config file $JRE/conf/management/management.properties
 ÜFö¢Î¹ng;ëö‹grêä’Ù¯``…Ê°ÚièÛÎd<Î·gºWŒÇ­H+ËéZÐ³äbÉÙzmGÀE:ši,Þl
       We shouldn't overwrite it with "assign" unconditionally.
 main
-	û„?'/[¬öˆß§¿|L¥
+# The resolution used on graphical terminal
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 # with cloud-init during boot causing issues with host key generation.  This
         <Key>space:     next-page()
@@ -515,7 +508,6 @@ run_im default
 [Desktop Entry]
 #
 # The following is an example how to use a braille font
-      for file in $(find $i -type f -print | LC_ALL=C sort)
 vÁßÃ]p7|öÂ×à¸î‡àAØÁÃð(<Ãð$<ÏÁ‹ð¼¯ÀûðaÖ¦àÿë£PxÈ)
 fi
 		done
@@ -528,7 +520,7 @@ gtk-icon-sizes = panel-menu-bar=24,24
 /usr/local/lib/x86_64-linux-gnu
 # Should-Stop:       $syslog
 WantedBy=multi-user.target
-
+#
 
 #
 fi
@@ -590,7 +582,6 @@ order hosts,bind
 if [ -n "$DESKTOP_SESSION" ]; then
 
 
-nameserver 1.1.1.1
 #############################################################################
 # ipmi-fru-bridge-fru DISABLE
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
@@ -686,7 +677,6 @@ fi
      o General entity declarations of any kind.  For example:
 # information is printed). To change the default behavior, uncomment
 }
-
 	fi
 exit 0
      lock_passwd: True
@@ -766,9 +756,9 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 # Defaults can be restored by simply deleting this file.
 # Scripts in this directory are executed as root when a user log out from
 #    Copyright (C) 2012 Canonical Ltd.
-@{tid}=@{pid}
+¬›<E{öÓ;IÚõò*»ê8àI°µßlôýÎÍ2Í/h=™BÕ¢“q–u:%1Å“‰¼
 eval $(/usr/bin/locale-check C.UTF-8)
-Ubuntu 20.04.5 LTS \n \l
+#!/bin/sh
 .
 OK		ATD*99#
 # text following a '#' is ignored to the end of the line.
@@ -812,7 +802,7 @@ rpc:            db files
 # NIS (man nsswitch) as well as normal /etc/passwd and
 #    License published by the Free Software Foundation.
 ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-init.target
-XClipboard.baseTranslations: #augment\n\
+#	*.=notice;*.=warn	/dev/tty8
 	# The checks LVM should use to detect MD component devices.
 	rotate 12
   <match target="pattern">
@@ -875,7 +865,7 @@ deb http://packages.azlux.fr/debian/ buster main
   owner /run/user/*/dconf/user rw,
 	  <family>Nasim</family>
        notifempty
-@(ath|wifi|wlan)*([^.]).inet
+XClock.Clock.minorColor:	rgba:00/7f/7f/c0
   </its:rules>
 #lookahead = on
 CATALOG /usr/share/xml/svg/catalog
@@ -988,7 +978,6 @@ APT::Periodic::Update-Package-Lists "1";
 
     $DAEMON -D
 ÷Þz’Ï";Ø€Cwz›HìN»âaœ¥½1õ­µÀ‚÷Õ“2Ÿ/§½7‚cßËk«¸¹÷t;|}“4œ·³ÝÆ†$0°xÅVêsy²r›~È”fÈŒø†‚kÛq‚úåòÆ6—œÞ÷¯ÔáÕ.Fgw6Öç
-  </alias>
 0xA6 'Â¦'
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
@@ -1008,7 +997,6 @@ letter
 # Prior to perl 5.8.8-7, libnet was a seperate package with a debconf
 # many PAM applications don't make it available by the time you need it.
 # in your $ZDOTDIR/.zshenv
-631	# cups
 #  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
 scsi "KINPO   " "Vividscan S120  "
 #option 1200cu
@@ -1044,7 +1032,7 @@ fi
 <!-- Keep in sync with 60-generic.conf -->
  *   /usr/share/calendar
     -->
-
+ip.hdrlen	u8		net+0		0x0F
 #
 # This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
 
@@ -1085,7 +1073,6 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 
 # copied to the new user's home directory when it is created.
         </policy>
-# do something like:
 
 
 
@@ -1095,7 +1082,6 @@ scsi "K.M.E.  " "KV-S2065L       "
 
 	segs_cols_full="seg_pe_ranges,segtype,lv_uuid"
 scsi AdLib * Scanner
-  /usr/lib*/ldb/*.so mr,
      family="Arial"
 usb 0x04a5 0x1a26
 usb 0x1606 0x0070
@@ -1111,11 +1097,10 @@ expand-check=0
 # Ignore bogus ICMP errors
 		</test>
 if [ -f "${APPARMOR_FUNCTIONS}" ]; then
-
 # VM656A  Relisys APOLLO Express 6
 #    Randomly generated passwords are generated by calculating the sha512sum
 hardstatus string "%h%? users: %u%?"
-    import apport_python_hook
+After making any changes, please run "service procps reload" (or, from
     <accept>
 <delegatePublic publicIdStartString="-//W3C//DTD SVG" catalog="file:///etc/xml/sgml-data.xml"/>
 # cloud-init. They are read in lexical order. Later files overwrite values in
@@ -1203,3 +1188,12 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 {# The value '{{hostname}}' will be replaced with the local-hostname -#}
       or
 
+  <mime type="application/x-blender" description="Blender scene" priority="100" pattern="*.blend" />
+defaults {
+FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
+# 
+	  <default>
+×œvíÊñî\Ùš¯ÜHé†×¨5\ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»\-”ý^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTÝê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòÝ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùÞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòý äûIÉ÷‹’ï·Ê›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËìÏ›/³?o¾Ìþ¼ù2ûóæËì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÈÇþ‚|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÊÇþ¢|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|ì/ÉÇþ’|¶¿¿„¤ù>©
+
+#
+#RUN_DAILY=true
