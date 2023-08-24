@@ -13,7 +13,7 @@ XClock.input: false
 		<family>Cooper Std</family>
 # by dpkg on upgrades).  We all love dpkg prompts.
   /{,var/}run/dbus/system_bus_socket rw,
-			<family>Courier</family>
+}
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
 # create new (empty) log files after rotating old ones
@@ -73,7 +73,6 @@ mibs :
 esac
 	fi
 
-LANG=C.UTF-8
 compose '`' 'U' to 'Ÿ'
 
 # eliminate DISABLE
@@ -95,13 +94,12 @@ case "${1}" in
 
 
       <family>DejaVu LGC Sans Mono</family>
-  *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 # Compose sequences for ISO-8859-8
 
 // grant codeBase "jrt:/com.greetings" {
 ## This file is provided by command-not-found(1) to download
 	<alias>
-
+  # Do not allow read and/or write to particularly sensitive/problematic files
 	start-stop-daemon --start --background $SSD_OPTIONS
 #scsi hp
 { :
@@ -156,11 +154,11 @@ X-GNOME-AutoRestart=true
 /dev/scanner
 #
     <allow own="com.ubuntu.SoftwareProperties"/>
-  # Access required for connecting to/communicating with the Unity Launcher
+
 # This file is a simple placeholder to keep dpkg from removing this directory
 *Command.shapeStyle:		oval
 
-#    modify it under the terms of version 2 of the GNU General Public
+{
 #
 ## or updates from the Ubuntu security team.
 
@@ -172,7 +170,6 @@ usb 0x08f0 0x0002
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
-# $ systemctl edit --full cron.service
 scsi "K.M.E.  " "KV-SS25A        "
 SHELL=/bin/sh
 /dev/scanner
@@ -354,7 +351,7 @@ fi
 grant {
 #!/bin/sh
   /usr/bin/audacious2 Cxr -> sanitized_helper,
-*dashlist*ShapeStyle: rectangle
+# (Note: in the daemon an option is enabled even if its set to
 usb 0x05da 0x30d4
 #
 </catalog>
@@ -388,7 +385,7 @@ scsi "B&H SCSI"
 			<family>Noto Serif CJK KR</family>
 #publish-domain=yes
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
-#   Please see the documentation for "systemd drop-ins":
+nameserver 1.1.1.1
 GRUB_DEFAULT=0
 fi
 &!,£ VÌ l∏D® …õﬁπuA_OÕu	¬g
@@ -400,7 +397,7 @@ fi
 enabled=1
 DESKTOP-OFJN9OT
 
-            return
+<!-- End of DocBook XML additional general entities V4.1.2 .................. -->
 # Example 3:
 #usb /dev/usb/scanner0
 <?xml version="1.0"?>
@@ -444,13 +441,13 @@ fi
 
 LANG=C.UTF-8
 ABORT		"NO CARRIER"
-ip.hdrlen	u8		net+0		0x0F
+# #include <abstractions/ubuntu-helpers>
 #
 /usr/share/qt3/lib*/libqui*so* mr,
 X-GNOME-Autostart-Notify=true
 # colored GCC warnings and errors
   /usr/lib*/samba/lowcase.dat r,
-/usr/lib/i386-linux-gnu
+  #include <abstractions/opencl-nvidia>
 
 # usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
 
@@ -515,7 +512,6 @@ RUN_AS_USER=saned
   <mime type="application/x-blender" description="Blender scene" priority="100" pattern="*.blend" />
 {% if servers %}# Servers
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
-
 	  <default>
 
 #RUN_DAILY=true
@@ -575,7 +571,6 @@ image/uyvy; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 case "$1" in
 
 #disable = rpm, selinux, dovecot
-
   /usr/share/p11-kit/modules/  r,
 # profile using this mechanism.
 # Compose sequences for CP1255
@@ -608,7 +603,6 @@ noauth
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 {
-backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
 LANG=C.UTF-8
 		<allow send_destination="com.redhat.PrinterDriversInstaller"
 
@@ -766,7 +760,7 @@ letter
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
 compose '<' 'd' to 'Ô'
-
+#FallbackNTP=ntp.ubuntu.com
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
 # Disables core dumps on fatal errors; they're enabled by default.
 56f12ada18a3412ab1f9dcd69450be95
@@ -796,7 +790,7 @@ type=file
 /ZapfDingbats /Dingbats ;
 #    modify it under the terms of version 2 of the GNU General Public
 . /lib/lsb/init-functions
-     groups: [adm, audio, cdrom, dialout, dip, floppy, lxd, netdev, plugdev, sudo, video]
+   manage_etc_hosts: True
 Ubuntu 20.04.5 LTS
 
 
@@ -824,7 +818,6 @@ byte-compile = standard
 #    Copyright (C) 2013 Christian Boltz
   # require the santized_helper (ie, LD_PRELOAD will only use standard system
 /var/log/apport.log {
-#
 # <library name>	<version/soname>	<dependencies>
     </test>
 main
@@ -862,7 +855,7 @@ LazyUnmount=yes
 	if set_background_image "${background}"; then
 
   #
-      BOUND) cloud-init dhclient-hook up "$interface";;
+#
 
 scsi "KINPO   " "Vividscan S120  "
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
@@ -891,7 +884,6 @@ Icon=printer
   </alias>
 
 
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
   /usr/bin/lynx.cur Cx -> sanitized_helper,
 test -x $DAEMON || exit 0
 			fi
@@ -967,7 +959,6 @@ TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 2(=ÌhÜ|„P2PZ8≈ù»ú˜ÆkºõÁ6eëH’LêU’(õwnùÕÇ}oÖä1ìk·Wœ°ãÁâ¿]ÓË7‡8êoœi ˆ1/îI]”`èÇ]€¯:O“'ôdÙÑ•éÍ˛tôÛ6#Bëπ˝)µ˚'˙ä‘Ü—Û.z”$f≈>5–ÖMncA[’ıâ˚Úì∞.
   /usr/bin/bangarang Cxr -> sanitized_helper,
 
-
 }
 #option modelname "Prima PagePartner"
   # dbus-accessibility-strict abstraction for fine-grained bus mediation.
@@ -999,7 +990,6 @@ compose '/' '<' to '\\'
     monthly
 vm.mmap_min_addr = 65536
   # User files
-   [[/usr/local]]
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 NoDisplay=true
 #    modify it under the terms of version 2 of the GNU General Public
@@ -1145,7 +1135,7 @@ APT::Archives::MaxAge "30";
 ip6.tc		u16		net+0		0xFF0		4
   owner @{HOME}/.config/klanguageoverridesrc rw,
 
-Please read the update-alternatives(1) man page for information on this
+session optional pam_systemd.so
 <Key>c: Select(children) \n\
 
 #
@@ -1202,7 +1192,6 @@ Acquire::Changelogs::AlwaysOnline "true";
 # usb 0x05e3 0x0142 0x3a 0x01
 D151962D954970501C60079258EBCFA38502E0A9F03CD640322B08C0A3117FE5
 #Optimize=compress-fast
-# Compose sequences for IBM1133
 		<family>monospace</family>
 *index.right:			ChainLeft
     ;;
@@ -1213,3 +1202,13 @@ APT::Periodic::Update-Package-Lists "1";
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 [Sources]
 # Last Modified: Sun Sep 25 08:58:35 2011
+# To enable the settings / commands in this file for login shells as well,
+    # TRANSLATORS: it refers on the OS residing on device %s
+eval $(/usr/bin/locale-check C.UTF-8)
+/dev/scanner
+	if [ -e /boot/grub/grub.cfg ]; then
+#disable = rpm, selinux, dovecot
+56f12ada18a3412ab1f9dcd69450be95
+}
+           send_member="Initiate"/>
+  #include <abstractions/ubuntu-gnome-terminal>
