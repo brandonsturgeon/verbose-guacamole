@@ -4,7 +4,6 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 NoDisplay=true
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 JuR8XvOxjqdUexEmAJdQCtxJgLTlI40xSlcmSEIneCamOhA/I/T+nkXFAfV65FKF
-•3•D•k•|•£•³•È•×•î•ı•"–1–T–c–y–˜–Í–Ø–ù–—+—9—[—e—…——­—º—İ—é—˜˜G˜R˜s˜„˜«˜»˜á˜ï˜™$™K™Y™}™Š™­™¹™Û™ì™š*šWšfš‹š›šÁšÎšñšÿš#›3›Y›i››Ÿ›Ã›Ò›÷›
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
 
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
@@ -12,9 +11,9 @@ JuR8XvOxjqdUexEmAJdQCtxJgLTlI40xSlcmSEIneCamOhA/I/T+nkXFAfV65FKF
 
 # install the apport exception handler if available
     // There is no restriction to any algorithms.
-15  uevent
+# IRQBALANCE_ARGS
            "booktitles.ent">
-#ClassicBondedOnly=true
+vrrp	112	VRRP		# Virtual Router Redundancy Protocol [RFC5798]
 /bin/sh
 # This file is a simple placeholder to keep dpkg from removing this directory
 
@@ -48,7 +47,6 @@ audio/x-mpegurl=rhythmbox.desktop
 // Pre-configure all packages with debconf before they are installed.
 		fi
 	<match target="font">
-scsi IBM 2456
 #
 #!/bin/sh
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+disk [[:digit:]]+,( wo:[[:digit:]]+,)? o:[[:digit:]]+, dev:[[:alnum:]]+$
@@ -113,8 +111,7 @@ Before=snapd.service
 #    Copyright (C) 2012 Canonical Ltd.
 
 # Compose sequences for IBM1133
-# ------------------------------------------------------------------
-PICTURES=Pictures
+CATALOG /usr/share/xml/docutils/catalog
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
   deny @{HOME}/.mutt** mrwkl,
 
@@ -129,7 +126,7 @@ deb http://packages.azlux.fr/debian/ buster main
   # Nothing to do, exiting
 # above should normally be), it must be mentioned below. Each line may have
 XLoad.input:			false
-# [automount]
+aXJtd2FyZSBTZXJ2aWNlIDxzaWduQGZ3dXBkLm9yZz6JATcEEwEIACEFAlWt/98C
 # Compose sequences for TIS-620
 
 #
@@ -167,7 +164,6 @@ scsi Nikon * Scanner
 
 fi
 # IPMI_Processor_IERR                                          Critical
-# This file should be world readable but not world writable.
 <?xml version="1.0"?>
 esac
 <!ELEMENT br ANY>
@@ -204,7 +200,7 @@ KP_2 = a;b;c;2;Ã¤;Ã ;Ã¡;Ã£;Ã¢;Ã¥;Ã¦;Ã§
 }
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
 
-  (debian-pkg-add-load-path-item
+scsi ULTIMA
 # ldconfig = false
     permission javax.crypto.CryptoPermission *, 128;
 email_format=text
@@ -350,7 +346,7 @@ fi
 @{XDG_DOCUMENTS_DIR}="Documents"
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 # aufs variables for shell scripts
-×œvíÊñîš¯ÜHé†×¨5ëÕÄdgx¥94·fuiû ÛíÚ­FmúßŸvÕ-«ns»èc­ª»-”ı^Ñ]û_100¾³>îjöÔTV{©µVû¨uVû©õV¨V©I«CÔF«ÃTİê5eu”š±:FÍZ§¼Õ	*X¤¢Õ)*YVMÉw†’ï,%ß9J¾ó”|(ù.Rò]¢ä»LÉw…’ï*%ß5J¾ë”|7(ùnRòİ¢ä»­š‘ï%ß]J¾{”|÷)ùPò=¤ä{DÉ÷˜’ï	%ßSJ¾g”|Ï)ù^Pò½¤ä{EÉ÷Z5+ßJ¾·”|ï(ùŞSò} äûHÉ÷‰’ï3%ßJ¾¯”|ß(ù¾Sòı äûIÉ÷‹’ï·Ê›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËìÏ›/³?o¾Ìş¼ù2ûóæËì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÈÇş‚|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÊÇş¢|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|ì/ÉÇş’|¶¿¿„¤ù>©
+PasswordAuthentication no
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 #
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
@@ -390,7 +386,6 @@ usb 0x03f0 0x0105
 #if /etc/pam.d/cron  specifies no session modules but cron calls
 		;;
 
-  # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 . /usr/share/bash-completion/bash_completion
   /dev/dri/card[0-9]* rw, # beignet/libcl.so
 ÓZ¸,ã°Ë¼*m66{ÿlÚ5¡
@@ -404,7 +399,7 @@ usb 0x03f0 0x0105
 
 # ------------------------------------------------------------------
     <family>Bepa</family>
-
+‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ıi¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù™¹<Ëº-çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷ŠˆièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 #    modify it under the terms of version 2 of the GNU General Public
 #
@@ -435,7 +430,7 @@ scsi FCPA
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
 # password.
-  <type name="Helvetica-Narrow" fullname="Helvetica Narrow" family="Helvetica Narrow" foundry="URW" weight="400" style="normal" stretch="condensed" format="type1" metrics="NimbusSansNarrow-Regular.afm" glyphs="NimbusSansNarrow-Regular.t1"/>
+# Permit time synchronization with our time source, but do not
 SHELL=/bin/sh
 # $ systemctl edit --full cron.service
 # 
@@ -447,7 +442,7 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 
 SHELL=/bin/sh
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-# NOTE: /etc/inetd.conf (or /etc/xinetd.conf) and
+#        A4FE7C7F15155F3F0AEF7AAA83CF6E06DEB97CA3F909DF920AC1490882D488ED
   /etc/ssl/openssl.cnf r,
 			<family>Noto Serif CJK TC</family>
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
@@ -518,7 +513,6 @@ printf '\033%%G'
 	;;
 X-GNOME-HiddenUnderSystemd=true
 Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
-compose '-' ')' to '}'
 ## This works for most UNIX's
 #3	tracing
 #  uid = 0
@@ -577,7 +571,6 @@ SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
 Enabled=false
     <edit name="rgba" mode="append"><const>none</const></edit>
 BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
-}
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # ISSUE_FILE option from login.defs). Uncomment for use
@@ -767,7 +760,6 @@ auth		sufficient	pam_rootok.so
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 #
 {
-# This file can contain default options for dpkg.  All command-line
 scsi TAMARACK
 # i.e. for Plustek (0x07B3) U1212 (0x0001)
 serial: 20200804
@@ -850,7 +842,6 @@ quote-names
 #
 ##########################################################################################################
 	didn't include the right instructions in the 'prep' table.
-/dev/scanner
   <mime type="application/x-krita" description="Krita document" data-type="string" offset="0" magic="\037\213" priority="50" />
 
 brandon:100000:65536
@@ -923,12 +914,12 @@ Each file in this directory is an rt_tables configuration file. iproute2
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 log_file: /var/log/ubuntu-advantage.log
 # This is the configuration file for libaudit tunables.
-! Menu Button Names
+fi
 rpc:            db files
     hurd)
 # NIS (man nsswitch) as well as normal /etc/passwd and
 #    License published by the Free Software Foundation.
-
+ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-init.target
 XClipboard.baseTranslations: #augment\n\
 	# The checks LVM should use to detect MD component devices.
 	rotate 12
@@ -937,7 +928,7 @@ XClipboard.baseTranslations: #augment\n\
 
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
-# Sets the loginuid process attribute
+  owner @{HOME}/.config/kdeglobals rw,
         End        "${terminfo[kend]}"
   </match>
 encryption=luks1
@@ -950,7 +941,6 @@ encryption=luks1
 
 	</alias>
 usb 0x05da 0x30d4
-
 	# system IDs that the host sees in VGs, not system IDs that identify
 # in the kernel. We recommend using cgroups to do container-local accounting.
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
@@ -1054,7 +1044,6 @@ GRUB_TIMEOUT=0
 
 brandon:100000:65536
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
-Type=Application
 #!/bin/sh
 #2	inr.ruhep
 -server KNOWN
@@ -1081,8 +1070,7 @@ Name=Secret Storage Service
 scsi EPSON Perfection600
 	small = {
 
-  <description>Disable hinting</description>
-lines		-1,0,0,0,0,-1
+DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 	        Shift<Btn5Down>,<Btn5Up>: Page(Line,1) \n\
 #
 /bin/rbash
@@ -1159,7 +1147,7 @@ kernel.printk = 4 4 1 7
 ## security team.
 compose '<' '<' to '«'
 PNhdoCNVDQLQpGaKZUI5hjMfR90U8Cm/6e0ondwjV4J6f4CS4wkQ5zzITGWptagE
-[ -n "$image_path" ] || exit 0
+#
 # Valid options are 'luks1' or 'luks2'
 #[device]
       <ppdname match="(foomatic(-db-compressed-ppds)?|ijsgutenprint.*):.*-gutenprint"/>
@@ -1192,3 +1180,11 @@ run-parts /etc/ppp/ipv6-down.d \
 APT::Archives::MaxSize "500";
 [ ! -r "$auto_attach_stamp" ] || cat "$auto_attach_stamp"
 
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+# /etc/modprobe.d/iwlwifi.conf
+  /srv/svn/**/db/revisions       rwl,
+# in the toplevel profile. Eg:
+
+America/Los_Angeles
+</fontconfig>
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
