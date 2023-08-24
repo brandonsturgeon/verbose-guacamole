@@ -185,7 +185,6 @@ BatteryThreshold=10
     </default>
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 # Default-Start:     2 3 4 5
-<!-- You can edit this file to add the following:
 			<family>STIX Two Math</family> <!-- AMS -->
 #
 set -e
@@ -213,7 +212,7 @@ Name=User folders update
 ## skip cached policy
 # (you may need to remove these refusals if the server is not using MPPE)
 
-# List of modules that you want to include in your initramfs.
+<fontconfig>
 
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 usb 0x03f0 0x0105
@@ -240,7 +239,6 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
 # the shim loader is required to chainload the fwupd EFI binary unless
 gtk-theme-name = Yaru
 
-  <!ELEMENT threshold (description,levels)>
 
 {% for server in servers -%}# servers
 #   part of the cracklib-runtime package and should not be modified.
@@ -477,7 +475,6 @@ system-db:ibus
 scsi RICOH
 [mysql]
 #    Copyright (C) 2012 Canonical Ltd.
-¬›<E{öÓ;IÚõò*»ê8àI°µßlôıÎÍ2Í/h=™BÕ¢“q–u:%1Å“‰¼
 };
 
       <family>DejaVu LGC Serif</family>
@@ -511,7 +508,7 @@ ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
   </match>
-encryption=luks1
+        if [ -x "$STARTUPFILE" ]; then
 
 #!/bin/sh
   /usr/bin/audacious2 Cxr -> sanitized_helper,
@@ -632,7 +629,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 kernel.printk = 4 4 1 7
 ## security team.
 compose '<' '<' to '«'
-<!DOCTYPE magicmap [
+
 #canon.conf
       <ppdname match="(foomatic(-db-compressed-ppds)?|ijsgutenprint.*):.*-gutenprint"/>
 XLogo*foreground: rgb:d7/d7/d7
@@ -796,8 +793,7 @@ X-GNOME-Autostart-Phase=Initialization
 12  nft
 {c¸O¬	ù³x•Ûvñè}iY‰ô&|4ı¼øÅôCË¡8qıÊvb»¾2U—&¸ê|MOÃş®¹Dp"qeåÇ¨—r´†0g»fj®kÃwLiWo6å¯`É>6hVä}6¦õ^æ,¦¶=6~Åòê©]Ç/êÿ› (
 #!/bin/sh
-       Recommendation</a> for an introduction</p>
-#    userScriptDir ::= $TOOLS_CONFDIR/scripts/${powerOp}-default.d
+# See https://bugs.launchpad.net/ubuntu/+source/procps/+bug/1068756
 @include common-auth
 # ctrll alt keycode 36 = Incr_Console
       <const>hintfull</const>
@@ -1063,7 +1059,6 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 *fileMenu.setResolution.label:	Set Screen Resolution
 
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
-<!-- Reject bitmap fonts -->
 # called by RPC services. This mostly solves the problem, that a
 #   For example, to enable both control of console logging level and
     permission javax.crypto.CryptoAllPermission; 
@@ -1093,19 +1088,18 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
 compose '<' 'd' to 'ï'
 compose '/' '/' to '\\'
 *form.fold.height:			36
-
+# Disables core dumps on fatal errors; they're enabled by default.
 56f12ada18a3412ab1f9dcd69450be95
   #include <abstractions/mdns>
 
 
-# Set to the user saned should run as
 3946901F46B0071E90D78279E82FABABCA177231A704BE72C5B0E8918566EA66
 òÆ…Z¾•[¤ÉiCçöáÌ˜Ö:ÈnGIùĞ×-¿Ğˆµé~Ö­ÉôtõVh×Ê`Q¬Ïˆ [ë£ÿğ´÷ø-É»ğô¡(GhÿM©¿¶kœÅ"·ß\Ÿ›– Ø$-Û³È#îjuıtßÑövÄ²b»–¥2¥Úïàµ€CsX¢ø&ÕÖÉKVÑ~Ñêò#‡QØz½İG¨¯'ê¿ma˜ãœÇxĞMS}á–yqCbtYş?ğİ(Æ®Ô+¯fhÔz¢z¸÷g¾ë‰O­’
 _ÕOÊRÖaBOí”tcôRó%7-Ñ¡g[õ´AUbuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>‰7
 #PICTURES=Documents/Pictures
 			fi
 constraint from "9.9.9.9"              # quad9 v4 without DNS
-  <!-- In case Verajja Serif stops declaring itself as DejaVu Serif -->
+
 # As the snmp packages come without MIB files due to license reasons, loading
 1,43,74,6,184,113,233,204,128,0,0,0,255,255,255,255
       . /var/lib/fwupd/uefi_capsule.conf
@@ -1166,9 +1160,9 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 # ------------------------------------------------------------------
 205 133  63		peru
 ‚
-// Notify all clients to reload the cache
+#    Copyright (C) 2011 Novell/SUSE
 byte-compile = standard
-30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
+SocketMode=0660
   # require the santized_helper (ie, LD_PRELOAD will only use standard system
      <!ENTITY % dbgenent PUBLIC
 			<string>sans-serif</string>
@@ -1184,7 +1178,7 @@ main
 *form.flipHoriz.fromVert: 		move
 session    optional   pam_motd.so motd=/run/motd.dynamic
 /HelveticaNarrow-Oblique /NimbusSanL-ReguCondItal ;
-
+#  e.g. the empty string or 0 or whatever. To disable it should not
 # Serial port where the camera is connected
 # vi: syntax=sh ts=4 noexpandtab
   /{,var/}run/cups/cups.sock rw,
@@ -1199,3 +1193,23 @@ DEVICE="/dev/urandom"
 # MU609 does not support getportmode (crashes modem with default firmware)
 # is reset to the secure default each time the sysctl values are loaded.
 # earlier files.
+#  respectively.
+*chooseSessionBreakLockButton.label:	Break Lock
+fi
+
+fs.protected_symlinks = 1
+# Compose sequences for KOI8-U
+#    License published by the Free Software Foundation.
+      <more>
+
+    <allow own="net.hadess.SwitcherooControl"/>
+# 2001::81:1 test.local
+#           currently-running release.
+\w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+: DIGEST-MD5 common mech free
+FZ„–¾Ñú ( B r  ¦ ¼ è ù !!*!5!H!S!t!!!©!»!Ä!Õ!Ş!ı!"")"R"i"–"³"æ"#8#W#Œ#¯#è#$<$]$”$´$ê$%,%<%b%p%”%£%È%Ş%
+LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
+# vim:set ai et sts=2 sw=2 tw=80:
+
+case "$CRYPTDISKS_ENABLE" in
+LazyUnmount=yes
+kde4/klickety.desktop
