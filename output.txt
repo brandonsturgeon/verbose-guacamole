@@ -199,7 +199,6 @@ APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || 
 # Default-Start:     2 3 4 5
 <!-- You can edit this file to add the following:
 			<string>serif</string>
-	    <family>NanumGothic</family>
 #
 set -e
 Categories=System;Monitor;GTK;
@@ -250,7 +249,6 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
 
 # ------------------------------------------------------------------
 
-‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ıi¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù™¹<Ëº-çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷ŠˆièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
 # Defaults to true to maximize device compatibility.
 #    modify it under the terms of version 2 of the GNU General Public
 #
@@ -277,7 +275,6 @@ scsi "K.M.E.  " "KV-SS25A        "
 SHELL=/bin/sh
 #hpsj5s.conf
 </fontconfig>
-  #include <abstractions/nameservice>
 
 log_cfgs:
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
@@ -330,7 +327,7 @@ session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_
 # with cloud-init during boot causing issues with host key generation.  This
 
   /usr/bin/mailody Cx -> sanitized_helper,
-# Compose sequences for CP1255
+// Notify all clients to reload the cache
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache.$
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
@@ -401,13 +398,12 @@ if [ -n "$DESKTOP_SESSION" ]; then
 # ipmi-fru-bridge-fru DISABLE
 # System-wide GDB initialization file.
 # orbit2 permissions
-    </event>
+# X12xx series
 alias.url += ("/javascript" => "/usr/share/javascript")
 
 
 After=snap-lxd-18150.mount network.target snapd.apparmor.service
   /usr/bin/gnome-terminal ix,
-
 /Ryumin-Light /Japanese-Mincho-Regular ;
 NoDisplay=true
 rocks_trees = {
@@ -434,7 +430,6 @@ auth	required	pam_nologin.so
 <!ENTITY % maxLength "%p;maxLength">
 
 #    modify it under the terms of version 2 of the GNU General Public
-X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 BQJbAwPCAhsuASkJEAptzva0bz2/wF0gBBkBAgAGBQJbAwPCAAoJEL4e3StH4Ita
 9ED8F9B0E8E42A1656B8E1DD18F42BA42DC06FE52686173BA2FC70E756F207DC
             break;
@@ -448,8 +443,8 @@ auto
 <delegatePublic publicIdStartString="ISO 8879:1986//ENTITIES" catalog="file:///usr/share/xml/entities/xml-iso-entities-8879.1986/catalog.xml"/>
 		exit 1
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
-[Desktop Entry]
-# can attach to any other dumpable process owned by the same user.  In the
+Terminal=false
+
 #
 search updates ubuntu built-in
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
@@ -474,7 +469,6 @@ option buffer 2097152
 }
 	devtypes_cols_verbose="devtype_name,devtype_max_partitions,devtype_description"
 // Some countries have import limits on crypto strength, but may allow for
-0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
 $x-display-manager gdm3
 # sending commands.
 /usr/bin/zsh
@@ -543,7 +537,6 @@ ManagerResetTimeout=1800
 		<default><family>fantasy</family></default>
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
-} < /dev/tty${1#vcs} > /dev/tty${1#vcs}
 fi
     hurd)
 ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-init.target
@@ -589,7 +582,6 @@ deb http://packages.azlux.fr/debian/ buster main
 usb 0x055f 0x0001
 	  <family>Nasim</family>
   </its:rules>
-CATALOG /usr/share/xml/svg/catalog
 BACKSPACE="guess"
   notifempty
 # e2fsck_opts="-vtt"
@@ -610,7 +602,7 @@ scsi "B&H SCSI"
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
 allocation {
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
-# X12xx series
+#   Please see the documentation for "systemd drop-ins":
 GRUB_DEFAULT=0
    # Find out all the non-loopback up interfaces. Use ip if available
 #
@@ -622,14 +614,12 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 #GRUB_DISABLE_LINUX_UUID=true
 GRUB_TIMEOUT=0
 
-smproxy
 #
   /etc/drirc                      r,
 DESKTOP-OFJN9OT
 
 993	# imaps
 			set_network altsubject_match2 wpa-altsubject-match2
-#
        notifempty
 #usb /dev/usb/scanner0
 [Desktop Entry]
@@ -664,7 +654,6 @@ CATALOG /usr/share/xml/docutils/catalog
 0xA6 'Â¦'
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
-        done
 # Ensure base distro defaults xdg path are set if nothing filed up some
 datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltCloud, OVF, MAAS, GCE, OpenStack, CloudSigma, SmartOS, Bigstep, Scaleway, AliYun, Ec2, CloudStack, Hetzner, IBMCloud, Oracle, Exoscale, RbxCloud, None ]
 # Copyright (c) 1996, 2000, Oracle and/or its affiliates. All rights reserved.
@@ -674,7 +663,8 @@ letter
 !%),/aspartial-match-conditionidconf-preserve-name-prefixes/desktop/ibus/engine/pinyin/desktop/ibus/engine/bopomofo/desktop/ibus/engine/hangul:Vasdisable-unconditionalasdesktop/triggerControl+spaceZenkaku_HankakuAlt+KanjiAlt+graveHangulAlt+Release+Alt_R(29Kas/,auto-hide-timeout'iprev-engineas
   /srv/www/htdocs/ r,
 #
-# many PAM applications don't make it available by the time you need it.
+        Ctrl<Key>B:     previous-page()
+
 # in your $ZDOTDIR/.zshenv
 #  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
   /usr/bin/gxmms Cxr -> sanitized_helper,
@@ -857,7 +847,6 @@ X-GNOME-Autostart-Phase=Initialization
 12  nft
 {c¸O¬	ù³x•Ûvñè}iY‰ô&|4ı¼øÅôCË¡8qıÊvb»¾2U—&¸ê|MOÃş®¹Dp"qeåÇ¨—r´†0g»fj®kÃwLiWo6å¯`É>6hVä}6¦õ^æ,¦¶=6~Åòê©]Ç/êÿ› (
 #!/bin/sh
-# Select which information is logged.
        Recommendation</a> for an introduction</p>
 #    userScriptDir ::= $TOOLS_CONFDIR/scripts/${powerOp}-default.d
 @include common-auth
@@ -939,7 +928,6 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 
 [ -r "$userresources" ] && xrdb -merge "$userresources"
   <delegate decode="xps:mono" stealth="True" command="&quot;gxps&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=pbmraw&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
-# msgs, from, etc.)
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 {
@@ -1061,7 +1049,6 @@ Terminal=false
 	. "/etc/default/${NAME}"
 0	default
 
-        *:up) exec cloud-init dhclient-hook up "$1";;
 
 56f12ada18a3412ab1f9dcd69450be95
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
@@ -1081,7 +1068,7 @@ if [ "$IM_CONFIG_PHASE" = 1 ]; then
 
 #
 		<test name="family" compare="contains" >
-/dev/scanner
+Description=Mount unit for snapd, revision 8542
 #
 #
 
@@ -1149,7 +1136,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 
 c0649bt_.pfb -bitstream-bitstream charter-medium-i-normal--0-0-0-0-p-0-adobe-standard
 # 2. add the following groups to the /etc/group file:
-application/index.response
+# Generate our temp files, clean up when done
 # The maximum number of allowed consecutive characters of the same class in the
   /usr/{share,X11R6,local,kerberos}/man/**	 r,
 letter
@@ -1177,7 +1164,6 @@ compose '/' '/' to '\\'
 
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
-# create the initrd in the same directory
 # Set to the user saned should run as
 3946901F46B0071E90D78279E82FABABCA177231A704BE72C5B0E8918566EA66
 òÆ…Z¾•[¤ÉiCçöáÌ˜Ö:ÈnGIùĞ×-¿Ğˆµé~Ö­ÉôtõVh×Ê`Q¬Ïˆ [ë£ÿğ´÷ø-É»ğô¡(GhÿM©¿¶kœÅ"·ß\Ÿ›– Ø$-Û³È#îjuıtßÑövÄ²b»–¥2¥Úïàµ€CsX¢ø&ÕÖÉKVÑ~Ñêò#‡QØz½İG¨¯'ê¿ma˜ãœÇxĞMS}á–yqCbtYş?ğİ(Æ®Ô+¯fhÔz¢z¸÷g¾ë‰O­’
@@ -1199,7 +1185,6 @@ constraint from "9.9.9.9"              # quad9 v4 without DNS
 # Provides:          uuidd
     is_azure
 
-# HP Scanjet 4370
 	chainloader ${EFI_PATH}
 SecurityReportURI=https://fwupd.org/lvfs/hsireports/upload
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
@@ -1207,3 +1192,14 @@ SecurityReportURI=https://fwupd.org/lvfs/hsireports/upload
 #option 1200cu
 <fontconfig>
 # define URI's of scanners (one per line)
+type=file
+/ZapfDingbats /Dingbats ;
+<delegateSystem systemIdStartString="http://globaltranscorp.org/oasis/catalog/xml/tr9401.dtd" catalog="file:///etc/xml/xml-core.xml"/>
+#    modify it under the terms of version 2 of the GNU General Public
+. /lib/lsb/init-functions
+     groups: [adm, audio, cdrom, dialout, dip, floppy, lxd, netdev, plugdev, sudo, video]
+Ubuntu 20.04.5 LTS
+Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent \(ssh-agent emulation\)\.$
+    permission java.util.PropertyPermission "java.vm.vendor", "read";
+
