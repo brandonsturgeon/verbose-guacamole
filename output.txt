@@ -17,7 +17,6 @@ XClock.input: false
 			<family>Courier</family>
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
-grant {
 fi
 # create new (empty) log files after rotating old ones
 audio/x-mpegurl=rhythmbox.desktop
@@ -88,7 +87,6 @@ compose '`' 'U' to 'Ÿ'
 # eliminate DISABLE
 uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
 #   2:1			test_class	# test_class -> 2:1
-#
 #
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # LEO S3
@@ -196,14 +194,13 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
 usb 0x08f0 0x0002
 # DO NOT EDIT OR REMOVE
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
-usb "Panasonic KV-S1025C"
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
 # $ systemctl edit --full cron.service
 scsi "K.M.E.  " "KV-SS25A        "
 {
 SHELL=/bin/sh
-
+/dev/scanner
 	</alias>
 # - What to do after sleep-inactive-ac-timeout
 #    Copyright (C) 2010 Canonical Ltd.
@@ -224,7 +221,7 @@ MPLS_MULTI	8848		# MPLS with upstream-assigned label [RFC5332]
 deb {{mirror}} {{codename}}-updates main
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # Note: This policy has been deprecated in favor of the smq policy
-	;;
+[ -x /usr/sbin/sendmail ] || exit 0
 #
 #autodetach off
 # `dbus-1/services`, etc.
@@ -322,7 +319,7 @@ printf " * Support:        https://ubuntu.com/advantage
 Name=SSH Key Agent
 		exit 1
 Terminal=false
-
+    <accept>
 #
 search updates ubuntu built-in
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
@@ -358,7 +355,6 @@ $x-display-manager gdm3
 sonames=libbd_swap.so.2
 "
 #
-# Compose sequences for KOI8-U
 
   @{sys}/bus/pci/devices/ r, # libpocl.so -> libhwlock.so, libnvidia-opencl.so, beignet/libcl.so -> libdrm_intel.so
         </test>
@@ -464,7 +460,6 @@ DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 #
 eval $(/usr/bin/locale-check C.UTF-8)
 # See bash(1) for more options
-
 [Time]
 
 [ -d /var/crash ] || exit 0
@@ -511,7 +506,6 @@ makestep 1.0 3
 # colored GCC warnings and errors
   /usr/lib*/samba/lowcase.dat r,
 
-Ä
 
 # usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
 
@@ -524,7 +518,7 @@ makestep 1.0 3
 
 #
 # <target name>	<source device>		<key file>	<options>
-
+# /etc/profile.d/desktop_session_xdg_dirs.sh - Prepend a $DESKTOP_SESSION-named directory to $XDG_CONFIG_DIRS and $XDG_DATA_DIRS
 # set PATH so it includes user's private bin if it exists
 expand-check=0
 NoDisplay=true
@@ -610,7 +604,6 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
     validation_name: XYZ
 " options, so any other options should be set AFTER setting 'compatible'.
   audit deny @{HOME}/.gnupg/{,**} mrwkl,
-grant {
     xhost +si:localuser:`id -un` > /dev/null
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: [origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"] exiting on signal [0-9]+.$
     /run/netns/ w,
@@ -641,7 +634,7 @@ APT::Periodic::Update-Package-Lists "1";
 gtk-sound-theme-name = Yaru
 image/uyvy; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 			<family>Comic Sans MS</family>
-       %all-titles;
+
 # reserved values
 #    This program is free software; you can redistribute it and/or
 case "$1" in
@@ -750,7 +743,6 @@ SHELL=/bin/sh
 /dev/scanner
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # javax.sound.midi.Receiver
-#ListenAddress ::
 
 # the value to YES
 # Compose sequences for IBM1133
@@ -758,11 +750,10 @@ SHELL=/bin/sh
 *internalBorderWidth:		0
 
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
-# DO NOT EDIT OR REMOVE
 ::1 localhost.localdomain localhost
 fi
 
-       value is a keyword indicating what whitespace processing
+/usr/lib32
   <mime type="image/x-kodak-dcr" acronym="DCR" description="Digital Camera Raw" priority="100" pattern="*.dcr" />
 .  \" command-line options.  Uncomment this if you want to make sure that
 security.overridePropertiesFile=true
@@ -779,7 +770,6 @@ do_start_prepare() {
 #0x37b	# /dev/lp0
     h;                             # hold line
 0	default
-	# save/restore it
 <!DOCTYPE logmap [
 # device group names
       <family>DejaVu LGC Serif</family>
@@ -884,7 +874,6 @@ makestep 1.0 3
 # Provides:          uuidd
     is_azure
 	chainloader ${EFI_PATH}
-SecurityReportURI=https://fwupd.org/lvfs/hsireports/upload
 	bootopt="-b ${bootdir}"
 /usr/local/lib/i686-linux-gnu
 #option 1200cu
@@ -900,7 +889,6 @@ Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_C
 
 
   /dev/tty     rw,
-/dev/scanner
 type=file
 The `cloud-init clean` operation is typically performed by image creators
 # through the PPP network interface.
@@ -948,7 +936,6 @@ DEVICE="/dev/urandom"
 
 # MU609 does not support getportmode (crashes modem with default firmware)
 #  respectively.
-#! /bin/sh
 fi
 
 fs.protected_symlinks = 1
@@ -989,9 +976,7 @@ enabled=1
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 Ü√2Œ…yÀf˜R·Cdˇµ!£j[~=‡g·%1¯Å_á¸T0tÀ`(˛Üè+∏ú$‹ Òô <˚`CF’∂¸z¿œ¬Kbø˘©`8*_†àHÌÕ+ÿ:ø'‰Ÿè6‘0¡˛:gÒ#1¸}’˛‘`Ù ¡∏NW,«p“ Òo`ÒÏ_6dTm¡Ø¸,º$?Îêü
-do_bootloader = no
 # ---
-#!/bin/sh
 #
 
 vm.mmap_min_addr = 65536
@@ -1157,7 +1142,7 @@ usb 0x04a9 0x1608
 usb 0x03f0 0x0101
 xterm
 #
-        savelog -c 7 ${dbalt}.tar >/dev/null
+#%PAM-1.0
 0x88	AF41
 # madwifi from loading by default. Use Jockey to select one driver
     create 0660 root utmp
@@ -1179,7 +1164,6 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 #    Copyright (C) 2013 Canonical Ltd.
 ports=22/tcp
 
-
 "set autowrite		" Automatically save before commands like :next and :make
 /usr/local/lib
 # Compose sequences for IBM1133
@@ -1193,7 +1177,6 @@ hip	139	HIP		# Host Identity Protocol
 
 
 if [ -r "$USERXSESSIONRC" ]; then
-image/bie; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 ˛GéöÀ<q
 
 # uncomment to set the default look and feel to GTK
@@ -1222,3 +1205,14 @@ actlistbox=,magenta
 NoDisplay=true
 #		 - Minor cosmetic changes in an attempt to help new
 #
+		<!-- check to see if the pattern requests bold -->
+
+  owner @{HOME}/[dD]ownload{,s}/**	rwl,
+#include "Xditview"
+#                 - bw <value>:
+session		include		runuser
+
+#backwards compatibility include, actual abstraction moved from php5 to php
+### END INIT INFO
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+
