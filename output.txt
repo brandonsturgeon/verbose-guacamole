@@ -58,7 +58,7 @@ audio/x-mpegurl=rhythmbox.desktop
                 . /lib/lsb/init-functions
 
 		mkdir -p /boot/grub
-	<Btn1Up>:	notify() reset()
+# one second, but only in the first three clock updates.
 [ ! -r "$stamp" ] || cat "$stamp"
 # Configuration file for the hp4200 backend
 # Example to customize the SimpleFormatter output format 
@@ -83,10 +83,8 @@ mode="${1#'}"
 
 # Compose sequences for VISCII
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
-# As the snmp packages come without MIB files due to license reasons, loading
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 
-[Desktop Entry]
 X-GNOME-AutoRestart=false
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
@@ -145,7 +143,7 @@ max_allowed_packet	= 16M
 alias.url += ("/javascript" => "/usr/share/javascript")
 #
 net.ipv4.conf.all.rp_filter=2
-defaults {
+^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Closed GnuPG cryptographic agent and passphrase cache (restricted).$
 
 # ldconfig = false
 eval $(/usr/bin/locale-check C.UTF-8)
@@ -166,7 +164,7 @@ fi
 # IPMI_Processor_IERR                                          Critical
 <?xml version="1.0"?>
 esac
-<!ELEMENT br ANY>
+/usr/share/qt3/lib*/libqui*so* mr,
 #
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
@@ -245,7 +243,7 @@ scsi APPLE
 /Adobe-Japan1 /Japanese-Mincho-Regular ;
 
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
-
+#compress
 # Compose sequences for ISO-8859-8
 # Additional mounts to exclude at shutdown.
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
@@ -261,7 +259,7 @@ APT::Periodic::Download-Upgradeable-Packages "0";
 	rm -rf "${RUN_DIR}/interface/*"
 // grant codeBase "jrt:/com.greetings" {
 
-kbd_mode '-u' < '/dev/tty3' 
+## This file is provided by command-not-found(1) to download
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
 
 
@@ -327,7 +325,7 @@ DAEMON="/lib/systemd/systemd-udevd"
 	    <family>NanumGothic</family>
 #
 PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_lts_contract.py
-
+  /{etc,var/lib}/dehydrated/certs/*/cert*.pem r,
 Categories=System;Monitor;GTK;
 	rotate 4
 
@@ -348,7 +346,6 @@ connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 # aufs variables for shell scripts
 PasswordAuthentication no
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
-#
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
     <allow own="org.freedesktop.Avahi"/>
 # cloud-init. They are read in lexical order. Later files overwrite values in
@@ -361,7 +358,6 @@ Name=User folders update
 #!/bin/sh
 CATALOG /usr/share/xml/docutils/catalog
 
-#    This program is free software; you can redistribute it and/or
 #    Copyright (C) 2014 Canonical Ltd.
 	    exit 3;
 Type=Application
@@ -393,7 +389,7 @@ usb 0x03f0 0x0105
 #    modify it under the terms of version 2 of the GNU General Public
 *ÜHŒ=h0e1Âi…n€∆1∫	A·ó¯˚˝ö‚}…Ì|d”À%ãVŸ†Á^]NÉú[v)†	&!jb0q“µè\Í;·x	Ö®uí;»\˝HÔt"®‚n≈IŒ«ºßaiÒ˜;·*À˘+Ûfê7"debian:digicert_global_root_g3.pem8P_1X.509C0Ç?0Ç≈†UVºÚ^§55√§’´Er0
 
-	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook pre-invoke || true";
+
 #
 
 
@@ -409,7 +405,7 @@ PICTURES=Pictures
 /dev/scanner
   missingok
 
-*search*manualPage.Label:	Manual Page
+  <!ELEMENT threshold (description,levels)>
 /MKai-Medium /ZenKai-Medium ;
 
 {% for server in servers -%}# servers
@@ -424,7 +420,7 @@ scsi FCPA
 # DO NOT EDIT OR REMOVE
 # This is the chat script used to dial out to your default service provider.
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
-[Desktop Entry]
+APT::Install::Post-Invoke-Success {
 #
     </event>
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
@@ -448,7 +444,7 @@ SHELL=/bin/sh
   owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
   #include <abstractions/nameservice>
-# udevd is also started in the initrd.  When this file is modified you might
+
 			<family>FreeMono</family>
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
 	</alias>
@@ -470,7 +466,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 *status.foreground: green
 #PAGER		DEFAULT=less
   owner @{HOME}/.config/kdeglobals.lock rwk,
-  /etc/dconf/** r,
 deb {{mirror}} {{codename}} multiverse
     # VARIABLE=
   option buffersize 262144
@@ -488,7 +483,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
     family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 system-db:ibus
-X-Ubuntu-Gettext-Domain=gnome-keyring
+
 #
   /etc/fonts/**                         r,
 <?xml version="1.0" encoding="UTF-8"?>
@@ -607,7 +602,7 @@ fi
 @include common-account
 
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
-#    Copyright (C) 2016 Canonical Ltd.
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 max_allowed_packet	= 16M
 # Global Order: zshenv, zprofile, zshrc, zlogin
 # For more details, please see /etc/apparmor.d/local/README.
@@ -682,7 +677,7 @@ alias.url += ("/javascript" => "/usr/share/javascript")
 
 
 After=snap-lxd-18150.mount network.target snapd.apparmor.service
-# the value ranges from 4096 - infinity
+[Mount]
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
 /Ryumin-Light /Japanese-Mincho-Regular ;
@@ -894,7 +889,6 @@ compose '>' 'A' to '¬'
 -client IGNORE
        path="/com/canonical/indicator/messages/*",
 <!ATTLIST type version CDATA #IMPLIED>
-deb http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
   # Support the new executable helper from NetworkManager.
 #
 [ ! -r "$auto_attach_stamp" ] || cat "$auto_attach_stamp"
@@ -946,11 +940,9 @@ usb 0x05da 0x30d4
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 # If you want chronyd to ignore authentication in the source selection,
 
-ôZ¬fSœÛuÿÂO(∞ÿ·”âÎ„"M€«ˆLuözÖÜYäjùè}d˙1îqØÚ_0*óïIL¨%ãZ˝Í6≈)ˇ¶µ˚\ÎÀ√¥~}÷Zºi?”Ï9ÉûZ6Mé¢g4/ˇ‚T_J¡(I∞£Ú˜íÎ¿záä"úﬂNhﬂ;˚çp≠dπ"¬¸FAÒcÇ`<9ÇRÛyÌ1 á_ÁëZ¯ØéõM%®LD\}F[ìà"Å»ZÕ$Ω¸(\Ê≠å≈é$_Ø?(\Ò÷Lj¡œZTd¸ΩÉç≠pÂÌäÙ ®{·^1_&gl√'n|Â:ùΩüKïeﬂ4y«ç‰ÉµãuÚ†^=¸öçû≤|“ï|Ô≤bSªµêõH)º¯ølÍ9t÷	‰g"vôï—Ûª>Ö∂YÄÅi!>«f®dbß©Cjª◊Çï2îÈ¶“hüéwaçTëºòzH≤)¿ö¸äÍ
 font.4=Times-Roman ISOF
      <patelt name="scalable"><bool>false</bool></patelt>
 Type=Application
-*fileMenu.save.label:			Save (Ctrl-S)
 #    Copyright (C) 2012 Canonical Ltd.
 
 		<prefer>
@@ -1113,7 +1105,6 @@ APT::Periodic::Update-Package-Lists "1";
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
         done
-  audit deny @{HOME}/.gnupg/{,**} mrwkl,
 driftfile /var/lib/chrony/chrony.drift
 # Ensure base distro defaults xdg path are set if nothing filed up some
   # private keys too
@@ -1136,7 +1127,6 @@ letter
 scsi "KINPO   " "Vividscan S120  "
 #option 1200cu
   # system library
-56f12ada18a3412ab1f9dcd69450be95
                 <!-- check to see if the font is just regular -->
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # Update the message of the day (MOTD) on device and metadata changes
@@ -1188,3 +1178,14 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 America/Los_Angeles
 </fontconfig>
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+else:
+@include common-account
+# usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
+
+}
+#
+    <edit name="hinting">
+
+<delegateSystem systemIdStartString="http://xml.ascc.net/xml/resource/qaml-xml" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
+token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
+[msr]
