@@ -152,7 +152,6 @@ set -e
 
 fi
 # can easily run one too
-        </policy>
         done
   /dev/xconsole                 rw,
 [Desktop Entry]
@@ -163,9 +162,7 @@ fi
 <fontconfig>
 
 ôSMã≈¥∑?˜i¸«Yõ˚Q`P$ˇZ∂Aıß_Ëïò#XÁTã»¡ûAê(Fì\Z˘—ﬁoéYJ±üÂgcPâ?DG	¸⁄ÑBá*ÒUQ8˝‘Ù`[T≥"F±mÍ3é˝ê∆8l¸Òw#h˙F)yQó∂‹‚aa∂;%Ä=3’X9’EΩŸ—_d>Fv	eﬂnhd6D¨a5√çò{P5Æ&˛t}ÈÈÏkV`Å˚î1Òæ"6K&!z£˙Lh˛I|Ñ?[8ÀfpãÄ8È'–‹Ÿ(ˇæq§èµ Ñ9ûO¢5ùZ⁄œ:m˛≥∑FHKƒÿÆ™^s[yï’9:Ü6Â[œóπQˇò∆÷)oïPÂwRR≠É‚˜∂ÍYcMÆCì^ÍˆÛºÒ≤◊¶…âÿò^ÃJù2ûÌ'˚àõ«Ö‡IãŸﬂpÚ÷o’gc{≤ÜÓ_Pjc^bm:’ÛM0¬‚±)ËöPZΩV27ÿ/Ã€n–vZ^≈¿0èÿd)hE~&ÂC¿—Æ†u´ckﬁ0√¸:5 ˝º*[\p“'<.#c—)ÏÎm1À]±ÂÔ1≤@Èeôµeˆ25Ì©7À\R¯aﬁTäb“-…‰Lt&GPéôKŸYÿÌ<IFƒˇ)ÙYª”˚éFqÏ'CÚ¨I3çñ)Ñ3∑[Ó< !w9¥Launchpad PPA for Raelâ8"SMã		
-usb 0x03f0 0x0105
 #    modify it under the terms of version 2 of the GNU General Public
-# The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
 # Plus a lot of fun stuff added
 X-GNOME-AutoRestart=true
@@ -193,7 +190,6 @@ usb 0x08f0 0x0002
 
 # $ systemctl edit --full cron.service
 scsi "K.M.E.  " "KV-SS25A        "
-{
 SHELL=/bin/sh
 /dev/scanner
 	</alias>
@@ -314,7 +310,7 @@ Terminal=false
     <accept>
 search updates ubuntu built-in
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
-auth		sufficient	pam_rootok.so
+
 -dcevm KNOWN
 
 # sleep-inactive-battery-type='suspend'
@@ -328,7 +324,6 @@ scsi FCPA
   /usr/bin/ooimpress Cxr -> sanitized_helper,
 #	        done
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
-option buffer 2097152
 # that defines the configuration.
 }
 	devtypes_cols_verbose="devtype_name,devtype_max_partitions,devtype_description"
@@ -488,9 +483,8 @@ ABORT		"NO CARRIER"
 ip.hdrlen	u8		net+0		0x0F
 #
 This directory is for system-local terminfo descriptions. By default,
-makestep 1.0 3
 /usr/share/qt3/lib*/libqui*so* mr,
-  </xs:documentation>
+#crypto
 # colored GCC warnings and errors
   /usr/lib*/samba/lowcase.dat r,
 /usr/lib/i386-linux-gnu
@@ -562,7 +556,7 @@ RUN_AS_USER=saned
   <mime type="application/x-blender" description="Blender scene" priority="100" pattern="*.blend" />
 {% if servers %}# Servers
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
-     ([ "x$GRUB_GFXPAYLOAD_LINUX" != x ] || [ "$gfxpayload_dynamic" = 1 ]); then
+
 	  <default>
 «_‰â¸∏Ã◊èêı?∫éà˝ö5≠Ø|:=uëN‰‚ÖfN∞{¸ûúï`0QG®e∑wØŒ¨úè˚£¿_ôßw*6Ò/∂ét”0§h“•Ìèî&õı—HÎppÍ“«µJª&PÙsG3µ∆B√‘¬ìoBW&æø≠÷ıR⁄nˆñM‡…(C∏öb’8üÉ°:ÆÁÖ4ìÌ,fn)ù^ä,ÕëÁ‘ŸJé†im‚àÜˆr!I}8≈FzÕÿkC£4é[◊‹bÑ~ØG7°“>P,7U&m(5ˇ∆Qı£ˇ6o .]·;,b‡;∆6>J˙1øà #9Ò1ˇèëe÷+F±∞^vÆæQßö*ÇBjp1¨œB…Y˘òÈ$Aë{ËŸ*F£ı±WÕñL£gÑ/ªÌû≥RVß9˛6 hXuheë√[ö•É÷ñy—∆…ÎLJ‘∑ú}l©©Î˙.ÒTP¢ï™œMm”F©Z[Û„w ¶—«l ≠M°.…[o…ÏÑ°$Ÿ∆ﬁ’.ªº†%’¥Launchpad PPA for deadsnakesâ8"Y|}Å		
 
@@ -576,7 +570,7 @@ X-GNOME-Autostart-Phase=PreDisplayServer
 <fontconfig>
 All executable files in this directory are processed in shell expansion order.
 #!/bin/sh
-    create 0664 root utmp
+  /usr/share/{pyshared,pycentral,python-support}/**      r,
   # Text editors (It's All Text [https://addons.mozilla.org/en-US/firefox/addon/4125])
 <fontconfig>
 1T4H/jsWVrANLKElBwZJpPOVy4Haw7UG+zk7lfwck0H8J9ShDtwhNTg03BiOONP/
@@ -622,7 +616,7 @@ image/uyvy; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 			<family>Comic Sans MS</family>
 
 # reserved values
-#    This program is free software; you can redistribute it and/or
+
 case "$1" in
 
 #disable = rpm, selinux, dovecot
@@ -689,7 +683,6 @@ deb http://archive.ubuntu.com/ubuntu/ focal multiverse
 # Defaults can be restored by simply deleting this file.
 ## This works for most UNIX's
 
-#X11UseLocalhost yes
       <fit>
         </sequence>
 !ïîhƒ¬«®(/‰< @Ä·	Í«h ◊¨·ãXÛ•jCBüb õøå‚[±÷£÷‹˝˝c=Î÷∂óë	zéo’c”…-AK–¥-yÆñ®˛π«9Y∏⁄∫⁄'ùÈCŒ’Êá=⁄Êõén¿=jª∫µàã∏à{pô≈g~h5Ì„^
@@ -728,8 +721,6 @@ SHELL=/bin/sh
 <delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # javax.sound.midi.Receiver
 
-# the value to YES
-# Compose sequences for IBM1133
 
 # ONLY use this if your saned server is sitting behind a firewall. If your
 
@@ -795,7 +786,7 @@ libXvMC.so.1
  </annotation>
 #
       may simply works to avoid it.
-<!DOCTYPE busconfig PUBLIC
+#!/bin/sh
 /usr/bin/wine-preloader
 LANG=C.UTF-8
   ;;
@@ -803,7 +794,6 @@ LANG=C.UTF-8
 X-GNOME-HiddenUnderSystemd=true
         *:down) exec cloud-init dhclient-hook down "$1";;
 # The check is disabled if the value is 0.
-Name=Certificate and Key Storage
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 0:0			none
 PKA6hjhodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9DZXJ0aWZpY2F0aW9u
@@ -829,7 +819,6 @@ letter
 /dev/scanner
   <type name="DejaVu-LGC-Serif-Book" fullname="DejaVu LGC Serif Book" family="DejaVuGC Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuLGCSerif.ttf"/>
 #!/bin/sh
-# Outputs an issue file prior to each login prompt (Replaces the
 X-GNOME-Autostart-Phase=Initialization
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
   ;;
@@ -882,7 +871,7 @@ compose 'A' 'O' to '≈'
     [ -n "$ZSH_VERSION"  ] && precmd_functions+=(__vte_osc7)
 overlayroot_cfgdisk=LABEL=OROOTCFG
 What=/var/lib/snapd/snaps/snapd_8542.snap
-#
+[mysql]
 # kFreeBSD do not accept scripts as interpreters, using #!/bin/sh and sourcing.
 
 # vulnerabilities.  (Added in kernel 2.6.23.)
@@ -899,7 +888,7 @@ SocketMode=0660
 			<string>sans-serif</string>
 #
 # <library name>	<version/soname>	<dependencies>
-#
+    fi
     </test>
 main
 
@@ -987,7 +976,6 @@ scsi TAMARACK
 build_name: server
 # Legacy biarch compatibility support
 {% if pools %}# pools
-  </alias>
   owner /tmp/**         rwkl,
 # Consult the keyboard(5) manual page.
 #option lampOff   -1
@@ -1217,3 +1205,18 @@ promptinit
 Name=GNOME Settings Daemon's sound plugin
   <type name="DejaVu-Sans-Mono-Book" fullname="DejaVu Sans Mono Book" family="DejaVu Sans Mono" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuSansMono.ttf"/>
 Exec=/usr/libexec/gsd-rfkill
+	devtypes_cols="devtype_name,devtype_max_partitions,devtype_description"
+/NanumGothic-Regular << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumGothic.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
+# Compose sequences for ISO-8859-5
+# with versions prior to introduction of all_video.mod
+}
+  "file:///usr/share/xml/schema/xml-core/catalog.dtd">
+#
+REALRESOLVCONF=$(readlink --canonicalize /etc/resolv.conf)
+compose ',' ',' to '∏'
+# ------------------------------------------------------------------
+<delegatePublic publicIdStartString="-//Normal Walsh//Exchange Table Model 19960430" catalog="file:///etc/xml/docbook-xml.xml"/>
+export PPP_IFACE PPP_TTY PPP_SPEED PPP_LOCAL PPP_REMOTE PPP_IPPARAM
+## or updates from the Ubuntu security team.
+#
+	</match>
