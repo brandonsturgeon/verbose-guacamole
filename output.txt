@@ -19,10 +19,9 @@ scsi DEVCOM * Scanner
 Alias /javascript /usr/share/javascript/
 def get_oem_project():
 # Case-sensitive behavior is defined by the operating system.
-
     compress
 # ------------------------------------------------------------------
-}
+	vdo_use_metadata_hints=1
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 Title=Vendor
 
@@ -118,7 +117,7 @@ max_allowed_packet	= 16M
   # Openoffice.org
 net.ipv4.conf.all.rp_filter=2
 # ldconfig = false
-# here are some examples for how to configure the EPSON backend
+smproxy
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
         <double>0.8</double>
@@ -135,7 +134,6 @@ esac
 /usr/share/qt3/lib*/libqui*so* mr,
 #
 # a.) make changes to the master file in /etc/cloud/templates/hosts.freebsd.tmpl
-# See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
       <choice minOccurs="1" maxOccurs="unbounded">
 LANG=C.UTF-8
 driftfile /var/lib/chrony/drift
@@ -197,7 +195,6 @@ case "${1}" in
 /ShanHeiSun-Light << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/uming.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
     if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
       <double>7.5</double>
-     name="OpenSansLI"
 server {{server}} iburst
 <?xml version="1.0"?>
 APT::Periodic::Download-Upgradeable-Packages "0";
@@ -240,12 +237,12 @@ compose '"' 'O' to 'Ö'
 #
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # Compose sequences for CP1256
-	€<¿Íˆ²Éş$£¯”4&6ùü_•Ów¤QiA÷ŞEØ^«“èÙ%È’ìM L™ª¼Ê´&5ÂHF1#š«q…yb¥ı?¯Š£ëèÎ'±å,ñÿ48¨½¢OµF Ü¸$‰òQÿ[ÂÕ±9-Æ0sá…Å{±@´/œU—k,¨¯ŸOÄDg™ùİæéúœw‘nîœlªmP2¹4¿§<ˆ„ßš¹:áƒ8JÔ$¡|g3üFW¢õKsêŸO]ˆ•i×µ>*4fMLİ-GãKş©ß`…G.{ü5Un‰CeFa‘çfïRğ³€Zäˆ=?@è*éÊµ~>¤ĞO‘1äuš¸Ü’N@˜ÛÅãn#L™ <ƒ7?w¥†}7XfÄ®5ÍÙãîÜÛ~#|V%óOuF×E 0‡/ú­4…o<
+# Applications can request different instantiation parameters like security
 # security of the host and prevent against some network attacks
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 
 };
-scsi FCPA
+  # Xlibs
 
 
 BatteryThreshold=10
@@ -342,7 +339,6 @@ PICTURES=Pictures
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 	if [ $result -eq 8 ]; then
 	û„?'/[nı‚ÂŸ^P¦PkÎEâ@GÀÆ–‹Ûmé.Hl9>Ï™8ğÀpªâY¼ÀBÁ‹s¥¤@7 {1béûe¶O³=Äï ßÍExY?-·29¬)‚™ôÏòêÌ¥xÅo“ş·ÛmGùM³“’ŞZUây0#;ñ¥§«H(ÿö·;°¿ªYâC$«VtĞ[€…¤´;jx…Å•Ø#`åşÇTMóVŞ-PíDºSB$BÁFhã›Ò±ó÷f`Íœ^ç!4f&u™æ7‹#Qtw0‘ø$T1]¯G÷…Q–È*ĞMù{ûˆ$‹Ñ?r›İÑ4hsØÑAØŒ&	4ƒbWÍš”øØb¶ìù•G¸´ßªÃózÏíT8(Ø÷:viªd£E­n¿åg€:ËeÑ	hFn`DÂ}ÜM@‡ä	E[Œ@Z³ÒsÙY<pf ™!.­hŠ_ÉöV$ˆ·òQm7ß”ÍóÆ}÷è/Cà2Hnñ“şT3ôO5ã¤	9{Qn34 cô²0;Pš#R‹~ug^{ä–lmƒ±Èüâ/”jòÿyæ	Yä¿Z«ÆÍœìØº1U,¥²Q¤bĞÛØ[x#Î=’o¶ÏÙJ€Zü¾‰^Q£‹C
-scsi FCPA
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
        path=/org/freedesktop/Notifications
 # DO NOT EDIT OR REMOVE
@@ -425,7 +421,7 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
   . "$USERXSESSIONRC"
 # particular interface
 /usr/lib/x86_64-linux-gnu/libfakeroot
-restrict ::1
++# then you will need to either
 ÜFö¢Î¹ng;ëö‹grêä’Ù¯``…Ê°ÚièÛÎd<Î·gºWŒÇ­H+ËéZĞ³äbÉÙzmGÀE:ši,Şl
       We shouldn't overwrite it with "assign" unconditionally.
 
@@ -487,7 +483,7 @@ max_allowed_packet	= 16M
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
   00_*: Reserved for 00_header.
     user_friendly_names yes
-
+#
 # usb 0x4b8 0x14c
 #
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
@@ -508,7 +504,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 	exit 0
       </xs:simpleType>
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
-;; -*-emacs-lisp-*-
 # If this option is given, pppd will presume the peer to be dead if n
 brandon:100000:65536
    "URL": "https://launchpad.net/~%s/+sshkeys"
@@ -553,7 +548,7 @@ rocks_trees = {
 # By default, exchange time with everybody, but don't allow configuration.
 S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
 
-       <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
+  /usr/lib/NetworkManager/nm-dhcp-helper mr,
 #GRUB_BADRAM="0x01234567,0xfefefefe,0x89abcdef,0xefefefef"
 # $ systemctl edit --full cron.service
 compose '\'' '\'' to '´'
@@ -606,7 +601,6 @@ scsi TAMARACK
 # i.e. for Plustek (0x07B3) U1212 (0x0001)
 serial: 20200804
     <edit name="hinting">
-
 # sleep-inactive-battery-type='suspend'
 [Desktop Entry]
       This configuration is available on the major desktop environments.
@@ -662,7 +656,6 @@ auto
 
   @{HOME}/** r,
   @{PROC}/sys/crypto/fips_enabled r,
-    // For request/response body processors, fromFile, asFile
 deb http://packages.azlux.fr/debian/ buster main
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 quote-names
@@ -690,10 +683,10 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 ¬›<E{öÓ;IÚõò*»ê8àI°µßlôıÎÍ2Í/h=™BÕ¢“q–u:%1Å“‰¼
 };
 #!/bin/sh
-OK		ATD*99#
+
 
       <family>DejaVu LGC Serif</family>
-
+/dev/scanner
 # X-Stop-After:      umountfs
   /usr/share/ghostscript/fonts/{,**}    r,
 
@@ -759,7 +752,7 @@ the exact distribution terms for each program are described in the
 #    modify it under the terms of version 2 of the GNU General Public
 TryExec=im-launch
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
-</fontconfig>
+deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/updates{% else %}-security{% endif %} main
 	weekly
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 
@@ -794,7 +787,6 @@ BACKSPACE="guess"
 *planemask*ShapeStyle: rectangle
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
-## saned hosts
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   # Be nice to non-libdbus, non-sd-bus implementations by using
@@ -833,7 +825,7 @@ brandon:100000:65536
 #2	inr.ruhep
 -server KNOWN
 # This file is a simple placeholder to keep dpkg from removing this directory
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
+# This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:
 #
 smproxy
 session       required   pam_env.so envfile=/etc/default/locale
@@ -867,7 +859,7 @@ HOMEHOST <system>
 _apt:x:105:65534::/nonexistent:/usr/sbin/nologin
 # Canonical runs a service at motd.ubuntu.com, and you
 
-	<match target="pattern">
+  <delegate decode="pcl:cmyk" stealth="True" command="&quot;pcl6&quot; -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 &quot;-sDEVICE=pamcmyk32&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
 
 [Install]
 [ -d /var/crash ] || exit 0
@@ -979,9 +971,7 @@ $x-display-manager gdm3
 
 scsi AdLib * Scanner
      family="Arial"
-usb 0x04a5 0x1a26
 usb 0x1606 0x0070
-	vdo_use_deduplication=1
 # <target name>	<source device>		<key file>	<options>
 		</test>
 
@@ -1060,8 +1050,6 @@ RUN_AS_USER=saned
 X-GNOME-AutoRestart=true
 
 Title=Enable UEFI capsule updates on Dell systems
-  <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
-# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 		mq {
 #StrictModes yes
   # These are needed when a new user starts firefox and firefox.sh is used
@@ -1120,9 +1108,9 @@ libXvMC.so.1
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: no dictionary update necessary\.$
     <allow send_interface="org.bluez.LEAdvertisement1"/>
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
-	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
+@include common-session-noninteractive 
 #
-restrict 127.0.0.1
+# ------------------------------------------------------------------
 
 /libx32
 # Options for the canonusb backend
@@ -1169,3 +1157,12 @@ p+([0-9])p+([0-9])?(_+([0-9]))*
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 Exec=nm-applet
 # Compose sequences for CP1255
+# or equivalently:
+user-db:user
+compose '\'' 'U' to 'Ú'
+connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
+TryExec=im-launch
+kana14       -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
+#   PasswordAuthentication yes
+# This script can be used to override the .d files supplied by other packages.
+rsvp	46	RSVP		# Reservation Protocol
