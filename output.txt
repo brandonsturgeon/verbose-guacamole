@@ -65,7 +65,6 @@ scsi IBM 2456
 	<Btn1Up>:	notify() reset()
 [ ! -r "$stamp" ] || cat "$stamp"
 # Configuration file for the hp4200 backend
-# OpenCL access requirements for Mesa implementation
 # Example to customize the SimpleFormatter output format 
 ; default-dbus-server =
 # raid1
@@ -73,7 +72,6 @@ scsi IBM 2456
 [Desktop Entry]
 post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
     [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
-@include common-auth
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
 
@@ -160,7 +158,7 @@ eval $(/usr/bin/locale-check C.UTF-8)
 // Notify all clients to reload the cache
      o Declarations for and references to external parameter entities
 scsi Nikon * Scanner
-XClock.Clock.secondColor:	rgba:00/00/ff/80
+        <double>0.8</double>
   # Apport
 #
     <allow send_destination="org.freedesktop.PackageKit"
@@ -196,7 +194,6 @@ echo
        relative URIs in the scope of the element on which it
 
 
-#
 #
 #
 case $0:$mode in
@@ -324,7 +321,6 @@ scsi FCPA
 # with the multiqueue (mq) policy and uses less memory.
 
 BatteryThreshold=10
-find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 # If set to all update-initramfs will update all initramfs
   owner @{HOME}/.adobe/** rw,
 # This file is sourced only for login shells. It
@@ -344,7 +340,6 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
 Categories=System;Monitor;GTK;
 	rotate 4
 
-  dbus (receive)
 # MODEL
 networkd_dispatcher_args="--run-startup-triggers"
 
@@ -363,7 +358,7 @@ connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 ◊úvÌ ÒÓöØ‹HÈÜ◊®5Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 #
-
+CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
     <allow own="org.freedesktop.Avahi"/>
 # cloud-init. They are read in lexical order. Later files overwrite values in
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
@@ -418,7 +413,6 @@ usb 0x03f0 0x0105
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 #    modify it under the terms of version 2 of the GNU General Public
 #
-/Adobe-CNS1 /ShanHeiSun-Light ;
 IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
 gtk-theme-name = Yaru
 PICTURES=Pictures
@@ -505,7 +499,6 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
     family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 system-db:ibus
-    </accept>
 X-Ubuntu-Gettext-Domain=gnome-keyring
 #
   /etc/fonts/**                         r,
@@ -524,7 +517,7 @@ deb {{mirror}} {{codename}}-updates main
 # dpkg configuration file
 B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
 # comment out the following line to allow CLOUDINIT messages through.
-# 0 means default behaviour as specified in the internal tables
+    label in2 "+3.3V"
 #
 printf '\033%%G' 
 # If an executable path appears on any line in any file in
@@ -577,7 +570,6 @@ irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 ; rlimit-locks = -1
 .  \" command-line options.  Uncomment this if you want to make sure that
 <Directory "/usr/share/javascript/">
-# symbolic names for networks, see networks(5) for more information
 #@{XDG_VIDEOS_DIR}+=""
 # BYOBU_BACKEND can currently be "screen" or "tmux"
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
@@ -670,7 +662,7 @@ encap	98	ENCAP		# Yet Another IP encapsulation [RFC1241]
 brandon:100000:65536
    "URL": "https://launchpad.net/~%s/+sshkeys"
 
-  /etc/gtk/*                      r,
+
 			for N in $new_dhcp6_name_servers ; do
 order hosts,bind
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
@@ -789,7 +781,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 # This file can contain default options for dpkg.  All command-line
 scsi TAMARACK
 # i.e. for Plustek (0x07B3) U1212 (0x0001)
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+serial: 20200804
     <edit name="hinting">
 
 # sleep-inactive-battery-type='suspend'
@@ -801,7 +793,7 @@ stamp="/var/lib/update-notifier/updates-available"
 fi
 /dev/camera
 # information is printed). To change the default behavior, uncomment
-#   https://bugs.debian.org/863801
+}
 
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 exit 0
@@ -823,7 +815,7 @@ exit 0
 	devtypes_cols_verbose="devtype_name,devtype_max_partitions,devtype_description"
 // Some countries have import limits on crypto strength, but may allow for
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
-# orbit2 permissions
+  network inet stream,
 $x-display-manager gdm3
 is_enabled() {
   dbus bus=accessibility,
@@ -854,7 +846,6 @@ APT::Periodic::Update-Package-Lists "1";
 printf "
 "
  </selectfont>
-# Protect the zero page of memory from userspace mmap to prevent kernel
 auto
 # Compose sequences for KOI8-U
 
@@ -892,7 +883,6 @@ CATALOG /usr/share/xml/docbook/schema/dtd/4.2/catalog
 # ------------------------------------------------------------------
 +D4CFmCnW8cc+Jb6jrJ2ZcjUqWE/c+uwZhwsUHNdk6ummPPKfMhRSbduk1ngdQe5
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
-###                   read requests. All values are given in milliseconds,
 # Defaults can be restored by simply deleting this file.
 ##
 # Scripts in this directory are executed as root when a user log out from
@@ -902,7 +892,6 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 eval $(/usr/bin/locale-check C.UTF-8)
 Ubuntu 20.04.5 LTS \n \l
 .
-8EDz9oR8HBPbxbd4i2dBfziY7TW4o/VgZKTGWA39JfwWNc5RxaYzBhBmg5nRcVFs
     enabled: false
 OK		ATD*99#
 # text following a '#' is ignored to the end of the line.
@@ -921,7 +910,6 @@ APT::Archives::MinAge "2";
 compose '>' 'A' to '¬'
       bus=session
 #!/bin/sh
-115200
 #
   @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
 -client IGNORE
@@ -938,7 +926,7 @@ KP_0 = s;0
 <delegateSystem systemIdStartString="/usr/share/sgml/dtd/qaml-xml.dtd" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 		<default><family>fantasy</family></default>
 # This file will be sourced by both shell scripts and python code,
-#   https://bugs.debian.org/863801
+# We read /etc/environment, but warn about locale information in
 
 # mdadm module configuration file
 # model override switch, mostly for cosmetic changes, if the autodetection
@@ -960,7 +948,6 @@ XClipboard.baseTranslations: #augment\n\
 scsi ACROSS * Scanner * * * 0
 
 
-DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
 # Sets the loginuid process attribute
@@ -972,7 +959,6 @@ encryption=luks1
 & stop
 user-db:user
 #!/bin/sh
-  owner @{HOME}/.gnupg/pubring.kbx r,
 /var/log/dpkg.log {
 # /etc/default/bridge-utils
 CATALOG /usr/share/xml/docutils/catalog
@@ -1004,7 +990,7 @@ ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 		;;
 
 Name=GNOME Settings Daemon's Wwan plugin
-#
+directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 
 
 # This file is sourced by Xsession(5), not executed.
@@ -1022,7 +1008,6 @@ if [ -f /run/console-setup/keymap_loaded ]; then
 fi
 ## extensively as that contained in the main release, although it includes
 "\e[7~": beginning-of-line
-OnlyShowIn=GNOME;
 
   owner /run/user/*/dconf/user rw,
 	  <family>Nasim</family>
@@ -1074,7 +1059,6 @@ allocation {
 Name=GNOME Settings Daemon's keyboard plugin
 #
 # Multiple Volume Groups can be specified with spaces
-Options=nodev,ro,x-gdu.hide
 exit 0
 set -e
     <allow send_interface="org.freedesktop.DBus.Properties"/>
@@ -1193,4 +1177,12 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 
 #
 # routes, unset IP addresses etc. you should create script(s) there.
-	compact_output=0
+kernel.printk = 4 4 1 7
+## security team.
+compose '<' '<' to '´'
+PNhdoCNVDQLQpGaKZUI5hjMfR90U8Cm/6e0ondwjV4J6f4CS4wkQ5zzITGWptagE
+[ -n "$image_path" ] || exit 0
+# Valid options are 'luks1' or 'luks2'
+#[device]
+      <ppdname match="(foomatic(-db-compressed-ppds)?|ijsgutenprint.*):.*-gutenprint"/>
+     <xs:element ref="xs:annotation" minOccurs="0"/>
