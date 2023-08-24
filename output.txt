@@ -108,14 +108,14 @@ session		optional	pam_keyinit.so force revoke
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 #
 #
-system-db:ibus
+            # According to hfu, "/etc/init.d/networking restart" on Debian 5.0
   /usr/bin/file-roller Cxr -> sanitized_helper,
 deb {{security}} {{codename}}-security universe
 #    This program is free software; you can redistribute it and/or
 ports=22/tcp
 
 previous-engine=@as []
-# Measure in percent
+APT::Periodic::AutocleanInterval "0";
 <?xml version="1.0"?>
 #    License published by the Free Software Foundation.
 scsi * * Scanner
@@ -175,7 +175,6 @@ d /run/screen 1777 root utmp
 scsi Nikon * Scanner
 XClock.Clock.secondColor:	rgba:00/00/ff/80
   # Apport
-APT::Periodic::Unattended-Upgrade "1";
 #
     <allow send_destination="org.freedesktop.PackageKit"
 
@@ -241,7 +240,7 @@ email_format=text
 
         if [ -x "$STARTUPFILE" ]; then
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-
+BRIDGE_HOTPLUG=no
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
     permission java.util.PropertyPermission "path.separator", "read";
 #
@@ -298,7 +297,6 @@ APT::Periodic::Download-Upgradeable-Packages "0";
 
 kbd_mode '-u' < '/dev/tty3' 
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 
 
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es+3ot67hZaz+cI7KRAxQD8n8R9m9Ekf9k/0WZDsfzCaIZokAbO1IYo6mznd3vsbkRgGqz6PPcURRgc1A= open-ssh-ca@cloudflareaccess.org
@@ -347,7 +345,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 
 mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
 # Compose sequences for GEORGIAN-PS
-
+#include <tunables/proc>
 scsi FCPA
 
 # with the multiqueue (mq) policy and uses less memory.
@@ -554,7 +552,7 @@ start)
   /etc/fonts/**                         r,
 <?xml version="1.0" encoding="UTF-8"?>
 # Specify file containing keys for NTP authentication.
-  #include <abstractions/fcitx-strict>
+    # Only run on postinst configure and postrm remove, to avoid wasting
   <!ELEMENT type EMPTY>
 
 
@@ -593,8 +591,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 }
 BYOBU_BACKEND="tmux"
   . "$USERXSESSIONRC"
-# statechange.sh
-           send_interface="org.freedesktop.DBus.Properties" />
 ## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
 127.0.0.1	www.frankvoce.com
 restrict ::1
@@ -697,8 +693,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
   00_*: Reserved for 00_header.
 modules=*
     user_friendly_names yes
-#
-
   /usr/lib/NetworkManager/nm-dhcp-helper          Pxrm,
 #IgnoreRhosts yes
 #
@@ -706,7 +700,6 @@ modules=*
    "URL": "https://launchpad.net/~%s/+sshkeys"
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 
-    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
         fi
 DAEMON=/sbin/lvmpolld
 ™ZÂfSÏóuØåO(°ØáÓ‰ëã"MÛÇöLušz…†YŠj}dú1”q¯ò_0*—•IL¬%‹Zıê6Å)ÿ¦µûëËÃ´~}ÖZ¼i?Óì9ƒZ6M¢g4/ÿâT_JÁ(I°£ò÷’ëÀz‡Š"œßNhß;ûp­d¹"ÂüFAñc‚`<9‚Róyí1 ‡_ç‘Zø¯›M%¨LD}F[“ˆ"ÈZÍ$½ü(­ŒÅ$_¯?(ÖLjÁÏZTdü½ƒ­påíŠô ¨{á^1_&glÃ'n|å:½ŸK•eß4yÇäƒµ‹uò ^=üš²|Ò•|ï²bS»µ›H)¼ø¿lê9tÖ	äg"v™•Ñó»>…¶Y€i!>Çf¨db§©Cj»×‚•2”é¦ÒhŸwaT‘¼˜zH²)ÀšüŠê
@@ -756,9 +749,9 @@ if [ -n "$DESKTOP_SESSION" ]; then
 
 
 #    License published by the Free Software Foundation.
-#fi-6130Z
+<!-- Fix-ups for Delicious family -->
 #############################################################################
-
+# ipmi-fru-bridge-fru DISABLE
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
     <test name="family">
 # System-wide GDB initialization file.
@@ -810,7 +803,6 @@ Type=Application
 			<family>STIX Two Math</family> <!-- AMS -->
 Acquire::http::User-Agent-Non-Interactive "true";
 CATALOG /usr/share/xml/docutils/catalog
-#
 d /run/screen 1777 root utmp
 #   https://bugs.debian.org/858528
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
@@ -878,7 +870,7 @@ has led to the following conventions in usage:
 
 # deb-src http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
-#    Use the ip command to remove all the addresses of an interface.
+exit 0
      lock_passwd: True
 fi
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
@@ -893,7 +885,7 @@ fi
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
 # Serial port where the camera is connected
 DESKTOP-OFJN9OT
-
+option buffer 2097152
 # uncomment to set the default look and feel to GTK
 exit 0
 }
@@ -1083,7 +1075,6 @@ Type=Application
 #    Copyright (C) 2012 Canonical Ltd.
 
 		<prefer>
-	the data found in the instructed hints.  The initial Vera release
 #    modify it under the terms of version 2 of the GNU General Public
    <include file="type-ghostscript.xml" />
 TryExec=im-launch
@@ -1093,7 +1084,7 @@ deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 X-GNOME-HiddenUnderSystemd=true
 
-            printf '%s' ${terminfo[smkx]}
+Name=GNOME Settings Daemon's Wwan plugin
 # Specify command line options here. This config file is used
 #
 
@@ -1173,3 +1164,17 @@ exit 0
 set -e
     <allow send_interface="org.freedesktop.DBus.Properties"/>
 # /etc/passwd file.
+#      $ sudo wipefs -a $DEV
+ctl.!default {
+EnableWattsUpPro=false
+
+# setting to limit messages printed to the console.
+session		optional	pam_keyinit.so force revoke
+Description=Mount unit for lxd, revision 18150
+	"gnumach-.*";
+GRUB_TIMEOUT=0
+
+# Compose sequences for VISCII
+    if ! grep -q "^$DPKG_MAINTSCRIPT_PACKAGE$" /var/run/reboot-required.pkgs 2> /dev/null ; then
+Type=Application
+#!/bin/sh
