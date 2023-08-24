@@ -74,7 +74,7 @@ scsi * * Scanner
 Before=snapd.service
 # vim:syntax=apparmor
 # Compose sequences for ISO-8859-11
-#    License published by the Free Software Foundation.
+#local stratum 10
 #    Copyright (C) 2012 Canonical Ltd.
 scsi "KINPO   " "Vividscan S120  "
 # Compose sequences for IBM1133
@@ -201,7 +201,7 @@ compose '"' 'O' to '÷'
 
 # usb vendor product
 }
--session	optional	pam_systemd.so
+  <!-- Generic name assignment -->
 # ------------------------------------------------------------------
 #
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -290,7 +290,6 @@ PICTURES=Pictures
 
 {% for server in servers -%}# servers
   /usr/bin/apport-bug Cx -> sanitized_helper,
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
   <description>Load local customization file</description>
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
 usb 0x08f0 0x0002
@@ -341,7 +340,7 @@ type=file
 
 deb {{mirror}} {{codename}}-updates main
 
-B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
+# The options are only meaningful if the backend was
     STARTUP=x-window-manager
 # Note: This policy has been deprecated in favor of the smq policy
 # If an executable path appears on any line in any file in
@@ -363,16 +362,13 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
       We shouldn't overwrite it with "assign" unconditionally.
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 # with cloud-init during boot causing issues with host key generation.  This
-        <Key>space:     next-page()
 
   /usr/bin/mailody Cx -> sanitized_helper,
--client IGNORE
 # Compose sequences for CP1255
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache.$
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
 # ------------------------------------------------------------------
-# for the user or something like that.  $HOME, $LOGIN and such will all be
 ; rlimit-locks = -1
 #DefaultLimitMSGQUEUE=
 #@{XDG_VIDEOS_DIR}+=""
@@ -397,7 +393,6 @@ fi
   <!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
 [apt]
 
-# xserver-xorg-legacy package using values from the debconf database.
 /usr/local/lib/x86_64-linux-gnu
 WantedBy=multi-user.target
 #
@@ -446,7 +441,6 @@ if [ -n "$DESKTOP_SESSION" ]; then
 #############################################################################
 # ipmi-fru-bridge-fru DISABLE
 # System-wide GDB initialization file.
-compose '-' 'E' to '™'
 # orbit2 permissions
     </event>
 alias.url += ("/javascript" => "/usr/share/javascript")
@@ -512,7 +506,6 @@ auth		sufficient	pam_rootok.so
 # sleep-inactive-battery-type='suspend'
 [Desktop Entry]
       This configuration is available on the major desktop environments.
-# netboot - Add the base modules, network modules, but skip block devices.
        path="/com/canonical/indicator/messages/*",
 }
  - disk_setup
@@ -532,7 +525,6 @@ option buffer 2097152
 $x-display-manager gdm3
 # sending commands.
 /usr/bin/zsh
-		log_end_msg $?
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 
 
@@ -540,7 +532,7 @@ $x-display-manager gdm3
   audit deny @{HOME}/.mozilla/{,**} mrwkl,
 if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 APT::Periodic::Update-Package-Lists "1";
-# The hook script for dbus-launch is in 75 which changes $STARTUP string.
+#    This program is free software; you can redistribute it and/or
 # This file is sourced only for login shells (i.e. shells
 
 # REMOVE_HOME or REMOVE_ALL_FILES is set.
@@ -681,7 +673,7 @@ allocation {
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
 # X12xx series
 GRUB_DEFAULT=0
-Name=GNOME Settings Daemon's keyboard plugin
+   # Find out all the non-loopback up interfaces. Use ip if available
 #
 # Multiple Volume Groups can be specified with spaces
     <allow send_interface="org.freedesktop.DBus.Properties"/>
@@ -694,7 +686,7 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 GRUB_TIMEOUT=0
 #2	inr.ruhep
 -server KNOWN
-#
+
 smproxy
 session       required   pam_env.so envfile=/etc/default/locale
   /etc/drirc                      r,
@@ -748,7 +740,6 @@ datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltClo
 # Copyright (c) 1996, 2000, Oracle and/or its affiliates. All rights reserved.
   <type name="Bookman-DemiItalic" fullname="Bookman DemiBold Italic" family="Bookman" foundry="URW" weight="600" style="italic" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/b018035l.afm" glyphs="/usr/share/fonts/type1/gsfonts/b018035l.pfb"/>
 letter
-
 	        # currently no settings for "smq" policy
 !%),/aspartial-match-conditionidconf-preserve-name-prefixes/desktop/ibus/engine/pinyin/desktop/ibus/engine/bopomofo/desktop/ibus/engine/hangul:Vasdisable-unconditionalasdesktop/triggerControl+spaceZenkaku_HankakuAlt+KanjiAlt+graveHangulAlt+Release+Alt_R(29Kas/,auto-hide-timeout'iprev-engineas
   /srv/www/htdocs/ r,
@@ -756,7 +747,7 @@ letter
 # many PAM applications don't make it available by the time you need it.
 # in your $ZDOTDIR/.zshenv
 #  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
-         if [ -x "$scriptFile" ]; then
+  /usr/bin/gxmms Cxr -> sanitized_helper,
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 
 // When Apt's cache is updated (i.e. apt-cache update)
@@ -767,9 +758,7 @@ PNhdoCNVDQLQpGaKZUI5hjMfR90U8Cm/6e0ondwjV4J6f4CS4wkQ5zzITGWptagE
 #    Copyright (C) 2012 Canonical Ltd.
 # Valid options are 'luks1' or 'luks2'
       <ppdname match="(foomatic(-db-compressed-ppds)?|ijsgutenprint.*):.*-gutenprint"/>
-     <xs:element ref="xs:annotation" minOccurs="0"/>
 XLogo*foreground: rgb:d7/d7/d7
-#    This program is free software; you can redistribute it and/or
 
   owner @{HOME}/.adobe/** rw,
 fi
@@ -805,7 +794,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 
 <delegateSystem systemIdStartString="http://xml.ascc.net/xml/resource/qaml-xml" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 #
-# Select which information is logged.
     # Start best input method unless overridden below
 {% endfor %}
 
@@ -884,7 +872,7 @@ RUN_AS_USER=saned
 X-GNOME-AutoRestart=true
 if enabled in cloud-config.  Specifically, in order to enable it
 #
-#StrictModes yes
+# ~/calendar files to be checked daily.  Calendar will send them mail
   # These are needed when a new user starts firefox and firefox.sh is used
 #port=/dev/tty01
 # X-Stop-After:      umountfs
@@ -914,7 +902,6 @@ ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
     <family>Arev Sans</family>
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 # This shuld be befor this dbus-launch hook to ensure the working dbus
-brandon:x:1000:1000:,,,:/home/brandon:/usr/bin/zsh
 # The following lines are desirable for IPv4 capable hosts
 #objects-per-client-max=1024
 deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
@@ -1019,7 +1006,7 @@ XClock.Clock.majorColor:	rgba:7f/00/00/c0
 @{PROC}/@{tid}/attr/{current,exec} w,
 exit 0
 # PulseAudio is distributed in the hope that it will be useful, but
-  <!ELEMENT policy EMPTY>
+}
 D6CEAE5D9E047FAF7D797858D229AC991AD44316D1E2A37A21926D763153593A
 Exec=/usr/libexec/gsd-a11y-settings
 
@@ -1031,7 +1018,7 @@ $x-display-manager gdm3
 #   top:1		interactive	# interactive -> 1:1
 #local stratum 10
 			<Btn1Up>:popdown-pixel()
-
+iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 #
 # The values are relative pathnames from the home directory and
 *internalBorderWidth:		0
@@ -1098,7 +1085,7 @@ includefile /etc/ntp/crypto/pw
 Name=GNOME Settings Daemon's power plugin
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
         fi
-APT::Archives::MinAge "2";
+       peer=(label=unconfined),
 <!--
 #pio 0x3BC
 X-GNOME-Bugzilla-Bugzilla=GNOME
@@ -1155,7 +1142,7 @@ wifi.powersave = 3
   /usr/bin/f-spot Cxr -> sanitized_helper,
 RUN_AS_USER=saned
 application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
-ÙÙFÙUÙzÙãÙ≤ÙøÙ‚ÙÙÙı-ıTıcıàıñı∫ıœı˙ıˆ<ˆLˆrˆÇˆ®ˆ∏ˆﬁˆÓˆ˜"˜F˜S˜v˜á˜Æ˜ø˜Ê˜ˆ˜¯-¯T¯i¯î¯£¯∑¯À¯ı¯˘%˘7˘_˘v˘£˘æ˘Ô˘˙/˙@˙g˙Ä˙Ø˙¡˙È˙˚˙#˚1˚U˚i˚ì˚ß˚—˚Ê˚¸$¸M¸`¸â¸ù¸«¸⁄¸˝˝A˝W˝É˝û˝œ˝Ê˝˛&˛O˛a˛â˛ú˛≈˛ﬂ˛ˇ$ˇOˇoˇ•ˇπˇ„ˇ¯ˇ#6_y©ª„˜!0Udâï∑¬„ı2]iã°Õ›7IqÉ©∂Àÿ˚0Zjê®÷ÊHYÄô»·'TbÜí¥¡‰Ó"LXzã≤¿‰ D]åú¬‹	&	V	k	ñ	®	–	‡	
+
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
 	Dhimyotis10UCertignaÇ	˛‹„…Hˇ0Uˇ0	`ÜHÜ¯B0	*ÜHÜ˜ÇÖíqˆBØ·£aûÎÛ¿Ú•‘⁄ïÊ÷æh6=~nLäÔ—!m^•RcŒ¯Ô*⁄oÎ7˛«À;>"k⁄a.‘r=›0·L@å◊ú—É0{òY‹}∆π)L°3¢Îg:eÑ”ñ‚ÌvEpèµ+ﬁ˘#÷In<µ∆ü5P–¡èjpDbÀÆhAß™WËS™“ˆ’ëu,lrµaïöãπÁıﬂTÕﬁÊÿ÷	ócÂ¡.∞∑D&¿&¿ØU0û;’6*Ù\ˇœ,∑ˇ–˝á@’#ªH¿!©§(-˝¯∞N+Ù0[!¸ë4æAÔ{ùóuˇóï¿ñX/ÍªF◊ª‰Ÿ.)debian:global_chambersign_root_-_2008.pem8P^˛X.509M0ÇI0Ç1†	…Õ”È’}#Œ0	*ÜHÜ˜0Å¨10	UEU1C0AU:Madrid (see current address at www.camerfirma.com/address)10U	A8274328710U
 ::1 localhost.localdomain localhost
@@ -1179,7 +1166,6 @@ usb 0x04c5 0x14e3
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
 Terminal=false
   /usr/bin/prism Cx -> sanitized_helper,
-)ó…∏¶Fçû|O#e◊p"^˝Lñ@hNnW.ßüâÑ˜I∑R1„CÎØË«ßr›∫e3Z™â¥JﬁÂ|"ÙüìÓ(÷jM«q¸OW*ïÒD"a‚Ûd∑˙ªI'‘É]%+^ÖÀ‰w˙"57’‰†π¥'„fRN"“˙PIíJX'Ë_’?CõÜáá◊πùÒ˘¢eUwØ˛„A~ZX	Íª≥¶ıW€iµ_•h∆‰äï]8^U^Ôs˛˜ f¯˙˙üÔxÆVÛıQ≠’◊èå¨Ø◊¸Ù„ö¶º±±Õõ√Ú™££√√CCÉÉ’Pøˆ¸Û⁄≠ürõ«J…0æ^´U√¸ïﬁtb
 #0x37b	# /dev/lp0
 	. "/etc/default/${NAME}"
 0	default
@@ -1225,5 +1211,14 @@ allocation {
 # #include <abstractions/ubuntu-helpers>
     exit 0
 # (Replaces the use of /etc/limits in old login)
+
+
+# All the tunables definitions that should be available to every profile
+# vim:syntax=apparmor
+
+DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
+
+
+    </complexType>
 
 
