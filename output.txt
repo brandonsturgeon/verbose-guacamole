@@ -56,7 +56,6 @@ audio/x-mpegurl=rhythmbox.desktop
 
 [Desktop Entry]
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
-# deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
 mode="${1#'}"
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #    This program is free software; you can redistribute it and/or
@@ -65,7 +64,7 @@ mode="${1#'}"
 {
 # usb 0x4b8 0x14c
 ### that look up the default sink/source get the right value
-
+datasource meta-data and user-data.
 # Compose sequences for VISCII
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
@@ -299,10 +298,8 @@ fi
 *Panner.background:			gray70
 
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
-
 PasswordAuthentication no
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
-CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 
 # cloud-init. They are read in lexical order. Later files overwrite values in
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
@@ -395,7 +392,7 @@ SHELL=/bin/sh
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
 	</alias>
 # - What to do after sleep-inactive-ac-timeout
-# This sets the IM variables on Wayland.
+#Password=
 #port=/dev/term/a
 #
 NoDisplay=true
@@ -422,7 +419,6 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
 
 #
-  /etc/fonts/**                         r,
     interface=org.freedesktop.login1.Manager
 # Specify file containing keys for NTP authentication.
 APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
@@ -445,7 +441,6 @@ B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
 X-GNOME-HiddenUnderSystemd=true
 Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 ## This works for most UNIX's
-#  uid = 0
 #autodetach off
 # `dbus-1/services`, etc.
 	<UnmapNotify>:		Iconified()	
@@ -461,7 +456,6 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 restrict ::1
 ‹Fˆ¢Œπng;ÎˆãgrÍ‰íŸØ``Ö ∞⁄iË€Œd<Œ∑g∫Wå«≠H+ÀÈZ–≥‰b…ŸzmG¿E:öiè,ﬁl
       We shouldn't overwrite it with "assign" unconditionally.
-main
 # The resolution used on graphical terminal
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 # with cloud-init during boot causing issues with host key generation.  This
@@ -522,7 +516,7 @@ fi
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 max_allowed_packet	= 16M
 # Global Order: zshenv, zprofile, zshrc, zlogin
-# For more details, please see /etc/apparmor.d/local/README.
+#daemon.*			-/var/log/daemon.log
 deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://apt.releases.hashicorp.com focal main
   00_*: Reserved for 00_header.
     user_friendly_names yes
@@ -541,7 +535,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
 # to update this file, run dpkg-reconfigure cloud-init
   pwd="${pwd//[[:cntrl:]]}"
 	<alias>
-title=@REALNAME@'s media on @PRETTY_HOSTNAME@
 
 127.0.0.1	noadware.ws
   owner @{HOME}/.config/fontconfig/**   r,
@@ -591,7 +584,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 NoDisplay=true
 # restore the kernel default if the value is changed during runtime; for
 rocks_trees = {
-#    Copyright (C) 2009-2012 Canonical Ltd.
 # Description:       Debian init script for the GNOME Display Manager
 # List of modules that you want to include in your initramfs.
     permission javax.crypto.CryptoAllPermission; 
@@ -601,7 +593,7 @@ S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
 
        <!ENTITY legal-notice SYSTEM "notice.sgm"> (large boilerplate)
 #GRUB_BADRAM="0x01234567,0xfefefefe,0x89abcdef,0xefefefef"
-Description=Service for snap application lxd.activate
+# $ systemctl edit --full cron.service
 compose '\'' '\'' to '¥'
 
 # video device access
@@ -723,7 +715,6 @@ LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 quote-names
 	bootdir=$(dirname "$2")
 		grub-editenv /boot/grub/grubenv unset recordfail
-#
 	didn't include the right instructions in the 'prep' table.
   <mime type="application/x-krita" description="Krita document" data-type="string" offset="0" magic="\037\213" priority="50" />
 
@@ -744,7 +735,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 # Scripts in this directory are executed as root when a user log out from
 #    Copyright (C) 2012 Canonical Ltd.
 ¨õê<E{ˆ”;I⁄ıÚ*ªÍ8‡I∞µﬂèlÙ˝ŒùÕ2Õ/h=ôB’¢ìqñu:%1≈ìâº
-eval $(/usr/bin/locale-check C.UTF-8)
+};
 #!/bin/sh
 .
 OK		ATD*99#
@@ -782,7 +773,7 @@ deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buste
 Each file in this directory is an rt_tables configuration file. iproute2
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 
-# This is the configuration file for libaudit tunables.
+} < /dev/tty${1#vcs} > /dev/tty${1#vcs}
 fi
 rpc:            db files
     hurd)
@@ -809,7 +800,6 @@ encryption=luks1
 
   monthly
 usb 0x05da 0x30d4
-	# system IDs that the host sees in VGs, not system IDs that identify
 # in the kernel. We recommend using cgroups to do container-local accounting.
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 # If you want chronyd to ignore authentication in the source selection,
@@ -893,7 +883,7 @@ ctl.!default {
 EnableWattsUpPro=false
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # [If you don't know about libcap, the sources for it are here:
-  @{PROC}/sys/kernel/cap_last_cap r,
+#GRUB_DISABLE_LINUX_UUID=true
 GRUB_TIMEOUT=0
 
 brandon:100000:65536
@@ -970,7 +960,6 @@ RUN="yes"
   <type name="Bookman-DemiItalic" fullname="Bookman DemiBold Italic" family="Bookman" foundry="URW" weight="600" style="italic" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/b018035l.afm" glyphs="/usr/share/fonts/type1/gsfonts/b018035l.pfb"/>
 letter
 
-	  <family>Century SchoolBook URW</family>
 	        # currently no settings for "smq" policy
 !%),/aspartial-match-conditionidconf-preserve-name-prefixes/desktop/ibus/engine/pinyin/desktop/ibus/engine/bopomofo/desktop/ibus/engine/hangul:Vasdisable-unconditionalasdesktop/triggerControl+spaceZenkaku_HankakuAlt+KanjiAlt+graveHangulAlt+Release+Alt_R(29Kas/,auto-hide-timeout'iprev-engineas
   /srv/www/htdocs/ r,
@@ -991,7 +980,7 @@ kernel.printk = 4 4 1 7
 ## security team.
 compose '<' '<' to '´'
 PNhdoCNVDQLQpGaKZUI5hjMfR90U8Cm/6e0ondwjV4J6f4CS4wkQ5zzITGWptagE
-#
+#    Copyright (C) 2012 Canonical Ltd.
 # Valid options are 'luks1' or 'luks2'
 #[device]
       <ppdname match="(foomatic(-db-compressed-ppds)?|ijsgutenprint.*):.*-gutenprint"/>
@@ -1001,7 +990,7 @@ fi
   </alias>
 
 # ------------------------------------------------------------------
-
+# at boot time, one per line. Lines beginning with "#" are ignored.
 fi
 #!/bin/sh
 
@@ -1016,7 +1005,7 @@ ip.hdrlen	u8		net+0		0x0F
 #
 # This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
 
-		<default><family>sans-serif</family></default>
+makestep 1.0 3
 run-parts /etc/ppp/ipv6-down.d \
                 export MOTD_SHOWN=update-motd
   </xs:documentation>
@@ -1047,7 +1036,7 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 #include <abstractions/ubuntu-browsers.d/mailto>
 
 
-# copied to the new user's home directory when it is created.
+	# If multiple path names exist for a block device, and LVM needs to
         </policy>
 usb 0x04e8 0x340f
 
@@ -1173,7 +1162,6 @@ FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
     </levels>
     xhost +si:localuser:`id -un` > /dev/null
 #       option bw 127
-    create 0660 root utmp
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
     <family>Arev Sans</family>
@@ -1187,3 +1175,14 @@ brandon:x:1000:1000:,,,:/home/brandon:/usr/bin/zsh
 # The following lines are desirable for IPv4 capable hosts
 #
 #objects-per-client-max=1024
+deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
+if [ -f "$primeswitch" ]; then
+    %m  input image format
+fs.protected_symlinks = 1
+  while :; do
+All executable files in this directory are processed in shell expansion order.
+deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
+libXvMC.so.1
+10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
+    create 0664 root utmp
+{% endif -%}
