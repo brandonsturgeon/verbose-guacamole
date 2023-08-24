@@ -13,7 +13,6 @@ NoDisplay=true
 vrrp	112	VRRP		# Virtual Router Redundancy Protocol [RFC5798]
 /bin/sh
 # This file is a simple placeholder to keep dpkg from removing this directory
-
 xterm
 # libc default configuration
 #ftp             hard    nproc           0
@@ -36,7 +35,6 @@ OMITDIR=/run/sendsigs.omit.d
 usb "Panasonic KV-S1025C"
 checkbox=,magenta
 # invoke global X session script
-# Compose sequences for ARMSCII-8
 The files are loaded in numeric order, the structure of the configuration
 
 audio/x-mpegurl=rhythmbox.desktop
@@ -70,7 +68,7 @@ mode="${1#'}"
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #    This program is free software; you can redistribute it and/or
 #FallbackNTP=ntp.ubuntu.com
-# This file should not contain commands that produce
+  #include <abstractions/opencl-nvidia>
 {
 # usb 0x4b8 0x14c
 ### that look up the default sink/source get the right value
@@ -227,7 +225,7 @@ scsi APPLE
 #
 /usr/local/lib
 # a.) make changes to the master file in /etc/cloud/templates/hosts.redhat.tmpl
-SecurityReportURI=https://fwupd.org/lvfs/hsireports/upload
+
       <family>DejaVu LGC Sans Mono</family>
 
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
@@ -421,9 +419,8 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 
 SHELL=/bin/sh
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-  /etc/ssl/openssl.cnf r,
 			<family>Noto Serif CJK TC</family>
-  owner @{HOME}/@{XDG_DESKTOP_DIR}/       r,
+which=news
 </fontconfig>
   #include <abstractions/nameservice>
 
@@ -472,7 +469,6 @@ system-db:ibus
 
 
 type=file
-*Scrollbar.width:		14
 # e-mail destination used by e2scrub_fail when problems are found with
 #backwards compatibility include, actual abstraction moved from php5 to php
 
@@ -495,7 +491,7 @@ sysresources=/etc/X11/Xresources
 	<UnmapNotify>:		Iconified()	
 
   dbus (send)
-# symbolic names for networks, see networks(5) for more information
+#
 #!/bin/sh -e
 }
 # should contain commands that should be executed only
@@ -541,9 +537,7 @@ multi on
 SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
 Enabled=false
     <edit name="rgba" mode="append"><const>none</const></edit>
-BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
-AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 # ISSUE_FILE option from login.defs). Uncomment for use
 # /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
     STARTUP=x-terminal-emulator
@@ -559,7 +553,7 @@ esac
 fi
 		done
   <!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
-# PPP up hook script for resolvconf
+[apt]
 gtk-icon-sizes = panel-menu-bar=24,24
 
 # xserver-xorg-legacy package using values from the debconf database.
@@ -672,7 +666,6 @@ Type=Application
 #
 
 *Command.highlightThickness:	1
-      This configuration is available on the major desktop environments.
 ## invoking user was bestowed with some inheritable capabilities by a
 			<family>STIX Two Math</family> <!-- AMS -->
 Acquire::http::User-Agent-Non-Interactive "true";
@@ -763,7 +756,6 @@ is_enabled() {
   dbus bus=accessibility,
      format="ttf"
 		log_end_msg $?
-# gain for red channel, if not given, will be automatically computed
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 
@@ -856,14 +848,13 @@ compose '>' 'A' to 'Â'
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
 KP_0 = s;0
   #include <abstractions/ubuntu-console-email>
-{% if log_level %}
 <delegateSystem systemIdStartString="/usr/share/sgml/dtd/qaml-xml.dtd" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 		<default><family>fantasy</family></default>
 # This file will be sourced by both shell scripts and python code,
 10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
 
 # mdadm module configuration file
-# model override switch, mostly for cosmetic changes, if the autodetection
+# See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
 #!/bin/sh
 Each file in this directory is an rt_tables configuration file. iproute2
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
@@ -1038,7 +1029,6 @@ Name=GNOME Settings Daemon's sound plugin
 # This file is sourced by Xsession(5), not executed.
 # It uses run-parts to run scripts in /etc/ppp/ip-up.d, so to add routes,
     ;; This might result in a call to debian-ispell, so do this only if
-# CLOUD_IMG: This file was created/modified by the Cloud Image build process
 			"${BACKGROUND_CACHE}.png" "${BACKGROUND_CACHE}.tga"
   /usr/local/share/man/man?/            r,
 # perform common modifications to the behavior of the dbus daemon
@@ -1068,7 +1058,7 @@ datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltClo
 RUN="yes"
   <type name="Bookman-DemiItalic" fullname="Bookman DemiBold Italic" family="Bookman" foundry="URW" weight="600" style="italic" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/b018035l.afm" glyphs="/usr/share/fonts/type1/gsfonts/b018035l.pfb"/>
 letter
-    <allow send_destination="net.hadess.SensorProxy" send_interface="org.freedesktop.DBus.Properties" send_path="/net/hadess/SensorProxy/Compass"/>
+
 	  <family>Century SchoolBook URW</family>
 	        # currently no settings for "smq" policy
 !%),/aspartial-match-conditionidconf-preserve-name-prefixes/desktop/ibus/engine/pinyin/desktop/ibus/engine/bopomofo/desktop/ibus/engine/hangul:Vasdisable-unconditionalasdesktop/triggerControl+spaceZenkaku_HankakuAlt+KanjiAlt+graveHangulAlt+Release+Alt_R(29Kas/,auto-hide-timeout'iprev-engineas
@@ -1155,10 +1145,9 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 
 # copied to the new user's home directory when it is created.
         </policy>
-# ---
 # do something like:
 
-	"contrib/metapackages";
+
 
 $x-display-manager gdm3
 libXvMC.so.1
@@ -1174,7 +1163,6 @@ usb 0x1606 0x0070
 # <target name>	<source device>		<key file>	<options>
 		</test>
 
-
 # ROOTFS = /dev/hda
   <uri name="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd" uri="xenc-schema.xsd"/>
 expand-check=0
@@ -1186,3 +1174,18 @@ if [ -f "${APPARMOR_FUNCTIONS}" ]; then
 
 # VM656A  Relisys APOLLO Express 6
 #    Randomly generated passwords are generated by calculating the sha512sum
+hardstatus string "%h%? users: %u%?"
+    import apport_python_hook
+    <accept>
+<delegatePublic publicIdStartString="-//W3C//DTD SVG" catalog="file:///etc/xml/sgml-data.xml"/>
+# cloud-init. They are read in lexical order. Later files overwrite values in
+#    Copyright (C) 2012 Canonical Ltd.
+   "URL": "https://launchpad.net/~%s/+sshkeys"
+bullseye/sid
+#   --port=8730				(bind to specified port; default 873)
+    bind2maps emacs viins       -- Insert      overwrite-mode
+FC02FD48DB92D4DCE6F11679D38354CF750CFC7F584A520EB90BDE80E241F2BD
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
+#
+X-GNOME-Bugzilla-Bugzilla=GNOME
+<logmap>
