@@ -1,7 +1,7 @@
 #    and going unconfined as root is not desirable any way.
 
 
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
+#    License published by the Free Software Foundation.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
     // There is no restriction to any algorithms.
 /Song-Medium /GBZenKai-Medium ;
@@ -15,7 +15,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
 Alias /javascript /usr/share/javascript/
   /usr/bin/transmission{,-gtk,-qt,-cli} Cxr -> sanitized_helper,
     compress
-# ------------------------------------------------------------------
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
 Title=Vendor
 
@@ -40,14 +39,14 @@ audio/x-mpegurl=rhythmbox.desktop
 		</edit>
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # ~/.bash_logout: executed by bash(1) when login shell exits.
-#    This program is free software; you can redistribute it and/or
+kde4/ktimetracker.desktop
   #include <abstractions/opencl-nvidia>
 {
 gtk-icon-theme-name = Yaru
 datasource meta-data and user-data.
 # made if using an older kernel
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
-
+  /usr/share/aspell/ r,
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
     <test compare="less" name="pixelsize">
@@ -139,7 +138,6 @@ case "${1}" in
 
 
 # mibdirs /usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf
-
       <family>DejaVu LGC Sans Mono</family>
 
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
@@ -158,7 +156,6 @@ ApprovalRequired=false
 Name=GNOME Settings Daemon's housekeeping plugin
 	log_end_msg $?
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
                 . /lib/lsb/init-functions
 compose '"' 'O' to '÷'
   /usr/bin/evolution Cx -> sanitized_helper,
@@ -203,12 +200,12 @@ networkd_dispatcher_args="--run-startup-triggers"
 fi
 
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
-<?xml version="1.0" encoding="UTF-8"?>
+        </policy>
         done
 Name=User folders update
 # -Z Disable the power-saving function of certain Seagate drives
   /dev/xconsole                 rw,
-#                      others are considered white. Range: 0-255.
++D4CFmCnW8cc+Jb6jrJ2ZcjUqWE/c+uwZhwsUHNdk6ummPPKfMhRSbduk1ngdQe5
 	# lvmdbusd expects JSON output
   /usr/share/p11-kit/modules/  r,
 [Distro]
@@ -246,7 +243,6 @@ gtk-theme-name = Yaru
   <!ELEMENT threshold (description,levels)>
 
 {% for server in servers -%}# servers
-  /usr/bin/apport-bug Cx -> sanitized_helper,
 #   part of the cracklib-runtime package and should not be modified.
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
 usb 0x08f0 0x0002
@@ -263,7 +259,7 @@ SHELL=/bin/sh
 </fontconfig>
 
 log_cfgs:
-#   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
+# `dbus-1/services`, etc.
 	</alias>
 # - What to do after sleep-inactive-ac-timeout
 #    Copyright (C) 2010 Canonical Ltd.
@@ -290,9 +286,7 @@ type=file
 
 deb {{mirror}} {{codename}}-updates main
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-# The options are only meaningful if the backend was
 # Note: This policy has been deprecated in favor of the smq policy
-# If an executable path appears on any line in any file in
 	;;
 #
 #autodetach off
@@ -317,16 +311,15 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 # ------------------------------------------------------------------
 #DefaultLimitMSGQUEUE=
 #@{XDG_VIDEOS_DIR}+=""
-	fi
+#
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
 # 0=disable, 1=enable all, >1 bitmask of sysrq functions
-else
 # Check for interactive bash and that we haven't already been sourced.
 
 SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
 #
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
-PIDFILE=$UUIDD_DIR/uuidd.pid
+ã]“«j[AÜ·ΩØb∞Z∑Gé≥±ßAº”ÊH:â∂é#í‡“{ÔΩ˜ﬁ{ÅÃçÂˇﬁÏ≤xg`‡Y|Cn[Ÿ-{Eølª≠Ωj—ÕmI#˝≈•Ö—z≥”Ìt]s◊¶Å!∑b«πÛùÖ“ı ¢Ì
 run_im default
 #
 -session	optional	pam_systemd.so
@@ -359,7 +352,7 @@ max_allowed_packet	= 16M
 	<alias binding="same">
 	done
 /HeiseiMin-W3 /Japanese-Mincho-Regular ;
-  owner @{HOME}/.config/fontconfig/**   r,
+30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 #    powerOp       ::= One of "poweron-vm", "poweroff-vm", "suspend-vm", and
 # Instance parent directories must exist for the polyinstantiation
@@ -389,7 +382,7 @@ NoDisplay=true
 rocks_trees = {
 					6)
 exec_prefix="/usr"
-
+#!/bin/sh
 # Uncomment the following lines for Linux.  Notice that everything is
 
   /usr/lib/NetworkManager/nm-dhcp-helper mr,
@@ -479,10 +472,8 @@ quote-names
 brandon:100000:65536
 Kernel system variables configuration files
 # Compose sequences for GEORGIAN-PS
-. /usr/share/bash-completion/bash_completion
 	</alias>
 system-db:ibus
-
 scsi RICOH
 [mysql]
 #    Copyright (C) 2012 Canonical Ltd.
@@ -521,7 +512,6 @@ ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
   </match>
 encryption=luks1
-  metering_timer: 14400
 
 #!/bin/sh
   /usr/bin/audacious2 Cxr -> sanitized_helper,
@@ -601,7 +591,7 @@ DESKTOP-OFJN9OT
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 	        Shift<Btn5Down>,<Btn5Up>: Page(Line,1) \n\
 #
-HOMEHOST <system>
+eval $(/usr/bin/locale-check C.UTF-8)
 # escpecially if they contain "#" chars...
 # See bash(1) for more options
 
@@ -642,7 +632,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 kernel.printk = 4 4 1 7
 ## security team.
 compose '<' '<' to '´'
-#    Copyright (C) 2012 Canonical Ltd.
+<!DOCTYPE magicmap [
 #canon.conf
       <ppdname match="(foomatic(-db-compressed-ppds)?|ijsgutenprint.*):.*-gutenprint"/>
 XLogo*foreground: rgb:d7/d7/d7
@@ -787,7 +777,6 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 @include common-session-noninteractive 
 #
 # ------------------------------------------------------------------
-/libx32
 compose ':' '-' to '˜'
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
     validation_name: XYZ
@@ -1108,7 +1097,6 @@ compose '/' '/' to '\\'
 56f12ada18a3412ab1f9dcd69450be95
   #include <abstractions/mdns>
 
-#swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
 # Set to the user saned should run as
 3946901F46B0071E90D78279E82FABABCA177231A704BE72C5B0E8918566EA66
@@ -1157,7 +1145,7 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 !O≠éh	
 /usr/bin/wine-preloader
 # Compose sequences for ISO-8859-10
-# to the X server to any process from the same user on the local host.
+
 
 <?xml version="1.0"?>
 Ubuntu 20.04.5 LTS
@@ -1173,7 +1161,7 @@ d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD
 
 0xC0	CS6
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
-    permission javax.crypto.CryptoAllPermission; 
+^w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: [origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"] start$
 #Readonly: true
 # ------------------------------------------------------------------
 205 133  63		peru
@@ -1203,3 +1191,11 @@ session    optional   pam_motd.so motd=/run/motd.dynamic
 DAEMON=/sbin/iscsid
 {% endif %}
 
+DEVICE="/dev/urandom"
+
+
+       delaycompress
+
+# MU609 does not support getportmode (crashes modem with default firmware)
+# is reset to the secure default each time the sysctl values are loaded.
+# earlier files.
