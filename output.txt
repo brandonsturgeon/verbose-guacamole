@@ -52,13 +52,11 @@ gtk-icon-theme-name = Yaru
 datasource meta-data and user-data.
 # Compose sequences for VISCII
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
-	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-json-hook ] || /usr/lib/ubuntu-advantage/apt-esm-json-hook || true";
 
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
     <test compare="less" name="pixelsize">
 
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 €šdGh•E^q§ì5¹õ·&nÀ„àòU0tÿz,é#í=°—¤¼ªëðc×Ê¹m		<4Å®MïÜ¶ÜžšZqöÅ–ä‚š@˜µÒÆ¯3ÆòÔ¥èIÛÎŽZ`^Uy³»	åùPÞ|sîúç˜ÉîÑT‡I<‚¾eRÁ==©hLçÏ:îÃùØ¿~Žœæmbæwys€ÎYÊ
 X-GNOME-Autostart-Phase=Initialization
 
@@ -158,7 +156,6 @@ case "${1}" in
 
   *) echo "Usage: $0 {start|stop|restart|force-reload}" >&2; exit 1 ;;
 # Compose sequences for ISO-8859-8
-# Additional mounts to exclude at shutdown.
 server {{server}} iburst
 APT::Periodic::Download-Upgradeable-Packages "0";
 
@@ -166,7 +163,7 @@ APT::Periodic::Download-Upgradeable-Packages "0";
     <test name="family">
 ## This file is provided by command-not-found(1) to download
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
-
+	<alias>
 
 	start-stop-daemon --start --background $SSD_OPTIONS
 # Blacklist for apport
@@ -280,7 +277,7 @@ usb 0x08f0 0x0002
 # DO NOT EDIT OR REMOVE
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
 # which should not be used by bindresvport. bindresvport is mostly
-#
+AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
 # $ systemctl edit --full cron.service
@@ -327,7 +324,6 @@ deb {{mirror}} {{codename}}-updates main
 # Note: This policy has been deprecated in favor of the smq policy
 # If an executable path appears on any line in any file in
 	;;
-Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 ## This works for most UNIX's
 #autodetach off
 # `dbus-1/services`, etc.
@@ -443,7 +439,6 @@ compose '\'' '\'' to '´'
 @include common-session-noninteractive
 #
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
-## invoking user was bestowed with some inheritable capabilities by a
         <test qual="any" name="family">
   /usr/bin/emacs-snapshot-gtk Cxr -> sanitized_helper,
 #   https://bugs.debian.org/858528
@@ -577,7 +572,6 @@ ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-
 
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
-        End        "${terminfo[kend]}"
   </match>
 encryption=luks1
   metering_timer: 14400
@@ -604,7 +598,7 @@ Name=GNOME Settings Daemon's Wwan plugin
 
 # This file is sourced by Xsession(5), not executed.
 
-/dev/scanner
+mozilla/Buypass_Class_2_Root_CA.crt
 # Copyright (C) 2014 Canonical Ltd
 gtk-icon-sizes = panel-menu-bar=24,24
 if [ -f /run/console-setup/keymap_loaded ]; then
@@ -623,7 +617,6 @@ BACKSPACE="guess"
 
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
-/Adobe-Japan1 /Japanese-Mincho-Regular ;
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 X-Desktop-File-Install-Version=0.24
 	start)
@@ -645,14 +638,12 @@ GRUB_DEFAULT=0
 #
     <allow send_interface="org.freedesktop.DBus.Properties"/>
 # /etc/passwd file.
-ctl.!default {
 EnableWattsUpPro=false
 LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # [If you don't know about libcap, the sources for it are here:
 #GRUB_DISABLE_LINUX_UUID=true
 GRUB_TIMEOUT=0
 #2	inr.ruhep
--server KNOWN
 
 smproxy
 session       required   pam_env.so envfile=/etc/default/locale
@@ -692,7 +683,6 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
 
 scsi ULTIMA
 image/jpeg; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
-
 
     $DAEMON -D
 0xA6 'Â¦'
@@ -842,7 +832,6 @@ if enabled in cloud-config.  Specifically, in order to enable it
     ;;
     <!-- org.freedesktop.ModemManager1.Modem.Voice.xml -->
 	nocreate
-mQENBFUr0UoBCACsdOLuTJ81dICrSvUhyznBsL4WgEa2RUbEjJuaXwrEyPMikHE1
 
   <mime type="application/x-blender" description="Blender scene" priority="100" pattern="*.blend" />
 {% if servers %}# Servers
@@ -952,7 +941,6 @@ deb {{mirror}} {{codename}}-updates universe
 		</test>
 next-engine=['Alt+Shift_L']
   owner @{HOME}/.nv/ComputeCache/** rw,
-#
 # Compose sequences for KOI8-U
 XClock.Clock.majorColor:	rgba:7f/00/00/c0
 
@@ -1010,7 +998,6 @@ _§”‹¨Ï…PC„xWçyÏÏxñ<î%|«ÜK­6«o2ºnä‹Ÿ¶Â_ãöÀ—áÎäBâ¿Bèð<ÏÃð*ÜVöÂA|½æ
 letter
 #    This program is free software; you can redistribute it and/or
 XLogo*background: rgb:d2/22/32
-
 
   owner @{HOME}/.local/share/RecentDocuments/*.lock rwk,
 # delete a group even there are still users in this group
@@ -1172,11 +1159,11 @@ Name=GNOME Settings Daemon's power plugin
 
 NoDisplay=true
 libXvMC.so.1
-    XDG_CONFIG_DIRS="$DEFAULT_XDG_CONFIG_DIRS"
+ </annotation>
 	do_start
   # PDFs
 #
-  /usr/bin/transmission{,-gtk,-qt,-cli} Cxr -> sanitized_helper,
+      may simply works to avoid it.
 <!DOCTYPE busconfig PUBLIC
 /usr/bin/wine-preloader
 LANG=C.UTF-8
@@ -1208,3 +1195,18 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
     permission javax.crypto.CryptoAllPermission; 
 {% if servers %}# Servers
 [METARELEASE]
+
+c0649bt_.pfb -bitstream-bitstream charter-medium-i-normal--0-0-0-0-p-0-adobe-standard
+# 2. add the following groups to the /etc/group file:
+application/index.response
+# The maximum number of allowed consecutive characters of the same class in the
+  /usr/{share,X11R6,local,kerberos}/man/**	 r,
+GRp¢£ªmÒK>'ÀüË]‚Ø¯æç9,åç>;$¾Ý`£s“(nõ4 <ô›â3ÄÓ²Ä]Iëà$‚	¥«Ž {C‘»w ÄÄe±‰_•k]‰§ø¦_sõ6.‹bñ–†æsµ6˜´_jB^UpÈÈËâa)Ü<
+  gdmtranslate="/usr/lib/gdm3/gdmtranslate"
+# vim:syntax=apparmor
+76A45A496031E4DD2D7ED23E8F6FF97DBDEA980BAAC8B0BA94D7EDB551348645
+#
+            if /lib/console-setup/keyboard-setup.sh; then
+  # firefox-notify
+/dev/scanner
+
