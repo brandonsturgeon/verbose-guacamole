@@ -3,9 +3,8 @@
 NoDisplay=true
 JuR8XvOxjqdUexEmAJdQCtxJgLTlI40xSlcmSEIneCamOhA/I/T+nkXFAfV65FKF
 	# *_cols_full for lvm fullreport's fields which lvmdbusd relies on to update its state
-NoDisplay=true
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 # install the apport exception handler if available
     // There is no restriction to any algorithms.
 # IRQBALANCE_ARGS
@@ -119,7 +118,6 @@ max_allowed_packet	= 16M
   # Openoffice.org
 #
 net.ipv4.conf.all.rp_filter=2
-
 # ldconfig = false
 # here are some examples for how to configure the EPSON backend
      o Declarations for and references to external parameter entities
@@ -163,7 +161,6 @@ case $0:$mode in
 KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 }
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
-
 scsi ULTIMA
 # ldconfig = false
     permission javax.crypto.CryptoPermission *, 128;
@@ -181,7 +178,6 @@ net/ipv4/icmp_ignore_bogus_error_responses=1
 
 #!/bin/sh
 			[[ -x /usr/lib/command-not-found ]] || return 1
-# published by the Free Software Foundation; either version 2 of the
 # Also, include files in tunables/xdg-user-dirs.d for site-specific adjustments
 	<alias>
 case "${1}" in
@@ -252,7 +248,7 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 # how to byte-compile (comma separated: standard, optimize)
 	çÅÄ<øÕà≤…˛$£Øî4&6˘¸_ï”w§QiA˜ﬁEÿ^´ìËŸ%»íÏM†Lô™º ù¥é&5Å¬HF1#ö´qÖyb•˝?Øä£ÎËŒé'±Â,Òˇ48®Ω¢OµéF†‹∏$éâÚQˇ[¬’±ù9-∆0s·Ö≈{±@¥/úUók,®ØùüOƒDgô˘›ÊÈ˙úwënÓúl™mP2π4øß<àÑﬂöπ:·É8J‘$°|g3¸FW¢ıKsÍüO]àïi◊µ>*4fML›-G„K˛Å©ﬂ`ÖG.{¸5UnâCeFaëÁfÔR≥ÄZ‰à=?@Ë*È µ~>§–Oë1‰uö∏‹íN@ò€≈„n#Lô <É7?w•Ü}7XfƒÆ5ÕŸ„Ó‹€~ê#|V%ÛOuF◊E†0á/˙≠4Öo<
 # security of the host and prevent against some network attacks
-# should not normally be necessary (under Linux at least).
+<delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 
 };
 scsi FCPA
@@ -261,7 +257,6 @@ scsi FCPA
 BatteryThreshold=10
 # If set to all update-initramfs will update all initramfs
   owner @{HOME}/.adobe/** rw,
-  #include <abstractions/opencl-common>
 #
             . /usr/share/bash-completion/bash_completion
 APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
@@ -302,7 +297,7 @@ Name=User folders update
   /dev/xconsole                 rw,
 #!/bin/sh
 CATALOG /usr/share/xml/docutils/catalog
-
+	# lvmdbusd expects JSON output
 #    Copyright (C) 2014 Canonical Ltd.
 	    exit 3;
 Type=Application
@@ -353,7 +348,7 @@ PICTURES=Pictures
 {% for server in servers -%}# servers
   /usr/bin/apport-bug Cx -> sanitized_helper,
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-# Common rules for Qt5-based applications
+	if [ $result -eq 8 ]; then
 	˚Ñ?'/[n˝ûÇ¬ü^P¶PkŒéE‚@G¿∆ñã€mÈ.Hl9>œô8¿p™‚Yº¿B¡ãs•§@7†{1bÈ˚e∂O≥=ƒÔ†ﬂÕExY?-∑29¨)ÇôÙœÚÍÃ•x≈çoì˛∑€mG˘M≥ìíﬁZU‚y0#;Ò•ß´H(ˇˆ∑;∞ø™Y‚Cù$´Vt–[ÄÖ§¥;jxÖ≈ïÿ#`Â˛«TMÛVﬁ-PÌD∫SB$B¡Fh„õ“ç±Û˜f`Õú^Á!4f&uçôÊ7ã#Qtw0ë¯$T1]ØG˜ÖÅQñ»*–M˘{˚à$ã—?rõ›—4hsÿ—Aÿå&	4ÉbWÕöî¯ÿb∂Ï˘ïG∏¥Åﬂ™√ÛzœÌT8(ÿ˜:vi™d£E≠nøÂgÄ:Àe—	hFn`D¬}‹M@á‰	E[å@Z≥“sŸY<pf†ô!.≠hä_…ˆV$à∑ÚQm7ﬂîÕÛ∆}˜Ë/C‡2HnÒì˛T3ÙO5„§	9{Qn34†cÙ≤0;Pöè#Rã~ug^{‰ñlmÉ±»¸‚/ûîjÚˇyÊ	Y‰øZ´∆ÕúÏÿ∫1U,•≤Q§b–€ÿ[x#ùŒ=ío∂œŸJÄZ¸æâ^Q£ãC
 scsi FCPA
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
@@ -399,7 +394,6 @@ deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 # /etc/pam.d/other - specify the PAM fallback behaviour
 deb {{mirror}} {{codename}} multiverse
     # VARIABLE=
-  option buffersize 262144
 	notifempty
 -misc-fixed-medium-r-normal--13-100-100-100-c-80-iso8859-1 -misc-fixed-medium-r-normal--13-120-75-75-c-80-iso8859-1
   the ImageMagick option
@@ -447,7 +441,7 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 restrict ::1
 ‹Fˆ¢Œπng;ÎˆãgrÍ‰íŸØ``Ö ∞⁄iË€Œd<Œ∑g∫Wå«≠H+ÀÈZ–≥‰b…ŸzmG¿E:öiè,ﬁl
       We shouldn't overwrite it with "assign" unconditionally.
-# The resolution used on graphical terminal
+
 session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_selinux.so close
 # with cloud-init during boot causing issues with host key generation.  This
         <Key>space:     next-page()
@@ -512,7 +506,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
     user_friendly_names yes
 
 # usb 0x4b8 0x14c
-   "URL": "https://launchpad.net/~%s/+sshkeys"
+#
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
         fi
   around 75.
@@ -571,7 +565,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 NoDisplay=true
 rocks_trees = {
 # Description:       Debian init script for the GNOME Display Manager
-# List of modules that you want to include in your initramfs.
+					6)
     permission javax.crypto.CryptoAllPermission; 
 # Don't try to change I/O priority in a vserver or OpenVZ.
 # By default, exchange time with everybody, but don't allow configuration.
@@ -598,7 +592,7 @@ d /run/screen 1777 root utmp
 <!ENTITY % maxLength "%p;maxLength">
 Type=Application
 
--misc-fixed-medium-r-semicondensed--13-100-100-100-c-60-iso8859-1 -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1
+
 #    modify it under the terms of version 2 of the GNU General Public
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 56f12ada18a3412ab1f9dcd69450be95
@@ -668,7 +662,7 @@ $x-display-manager gdm3
 		log_end_msg $?
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 
-XLogo*baseTranslations: #override 
+# Stop bad estimates upsetting machine clock.
 ports=22/tcp
 [Install]
    [formatters]
@@ -763,7 +757,6 @@ fi
 # NIS (man nsswitch) as well as normal /etc/passwd and
 #    License published by the Free Software Foundation.
 ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-init.target
-#	*.=notice;*.=warn	/dev/tty8
 	# The checks LVM should use to detect MD component devices.
 	rotate 12
   <match target="pattern">
@@ -832,7 +825,7 @@ BACKSPACE="guess"
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
 run_im default
-    family CDATA #REQUIRED format NMTOKEN #REQUIRED foundry NMTOKEN #REQUIRED
+session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   # Be nice to non-libdbus, non-sd-bus implementations by using
 
@@ -905,7 +898,7 @@ HOMEHOST <system>
 _apt:x:105:65534::/nonexistent:/usr/sbin/nologin
 # Canonical runs a service at motd.ubuntu.com, and you
 
-/usr/local/lib
+	<match target="pattern">
 
 [Install]
 [ -d /var/crash ] || exit 0
@@ -948,7 +941,6 @@ letter
 #  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
 scsi "KINPO   " "Vividscan S120  "
 #option 1200cu
-  # system library
                 <!-- check to see if the font is just regular -->
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 
@@ -967,8 +959,7 @@ fi
 #    This program is free software; you can redistribute it and/or
   </alias>
 
-# ------------------------------------------------------------------
-# at boot time, one per line. Lines beginning with "#" are ignored.
+  owner @{HOME}/.adobe/** rw,
 fi
 #!/bin/sh
 
@@ -1066,17 +1057,17 @@ APT::Install::Pre-Invoke {
 # deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # To search for all KODAK scsi devices
 Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
-
+        echo "$DPKG_MAINTSCRIPT_PACKAGE" >> /var/run/reboot-required.pkgs
 # ------------------------------------------------------------------
 		<allow send_destination="com.redhat.PrinterDriversInstaller"
-## Uncomment the following two lines to add software from Canonical's
+# uncomment to set the default look and feel to GTK
 #    This program is free software; you can redistribute it and/or
 NoDisplay=true
 mv -f "$REALRESOLVCONF.tmp" "$REALRESOLVCONF"
 shopt -s checkwinsize
 # use
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
-# sbp2 kernel module), and your scanner will be handled as a SCSI device.
+0x78	AF33
 # vim:syntax=apparmor
 
 fi
@@ -1085,7 +1076,7 @@ fi
 APT::Install::Post-Invoke-Success {
 qmtp		209/tcp				# Quick Mail Transfer Protocol
   owner @{HOME}/.config/#[0-9]* rw,
-<!--  Use lcdlight as default for LCD filter -->
+usb 0x03F0 0x1005
 #
 /Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 modules_load_preference=ondemand
@@ -1121,8 +1112,7 @@ Title=Enable UEFI capsule updates on Dell systems
 
 # There are two different methods of configuring a USB scanner: libusb and the kernel module
 
-    mount options=(rw rbind) /var/volatile/log/ -> /tmp/snap.rootfs_*/var/log/,
-post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
+
 	nocreate
 {# The value '{{hostname}}' will be replaced with the local-hostname -#}
       or
@@ -1184,3 +1174,11 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
   # Extensions
         ;;
 overlayroot_cfgdisk=LABEL=OROOTCFG
+  audit deny @{HOME}/.gnupg/{,**} mrwkl,
+# Rules for changing KDE settings (for KFileDialog and other).
+deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
+grant {
+  #include <abstractions/fcitx-strict>
+#
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qyOtlPQbUN9tF+dvdCE69SlBAOGIPYf1OwtjkaoxIbc6dGgjQ3aItdarO3zYOfYZENJxHjCZhixyYRG44= root@DESKTOP-OFJN9OT
+reverse=false
