@@ -45,7 +45,6 @@ The files are loaded in numeric order, the structure of the configuration
 
 audio/x-mpegurl=rhythmbox.desktop
     esac
-[ -d /var/crash ] || exit 0
 // Pre-configure all packages with debconf before they are installed.
 		fi
 	<match target="font">
@@ -137,7 +136,7 @@ XLoad.input:			false
 MANPATH_MAP	/opt/sbin		/opt/man
 if [ -f "/snap/bin/canonical-livepatch" ]; then
 fi
-# Turn on Source Address Verification in all interfaces to
+            <string>zh-sg</string>
 [general]
        daily
 # ------------------------------------------------------------------
@@ -235,7 +234,7 @@ case "${1}" in
 *MenuButton.foreground: white
 scsi APPLE
 # cloud-init. They are read in lexical order. Later files overwrite values in
-# Compose sequences for ISO-8859-5
+#
 # device group names
     permission java.util.PropertyPermission "java.class.version", "read";
 
@@ -342,7 +341,7 @@ networkd_dispatcher_args="--run-startup-triggers"
 # If the value is set to 'none' then the value of DefaultUrl is used.
 # minclass = 0
 #
-usb 0x05e3 0x0145 0x2e 0x00
+# you can temporarily override this with
 quick
 
 fi
@@ -422,7 +421,6 @@ PICTURES=Pictures
   /usr/bin/apport-bug Cx -> sanitized_helper,
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 # Common rules for Qt5-based applications
-# Your system has configured 'manage_etc_hosts' as True.
 	û„?'/[nı‚ÂŸ^P¦PkÎEâ@GÀÆ–‹Ûmé.Hl9>Ï™8ğÀpªâY¼ÀBÁ‹s¥¤@7 {1béûe¶O³=Äï ßÍExY?-·29¬)‚™ôÏòêÌ¥xÅo“ş·ÛmGùM³“’ŞZUây0#;ñ¥§«H(ÿö·;°¿ªYâC$«VtĞ[€…¤´;jx…Å•Ø#`åşÇTMóVŞ-PíDºSB$BÁFhã›Ò±ó÷f`Íœ^ç!4f&u™æ7‹#Qtw0‘ø$T1]¯G÷…Q–È*ĞMù{ûˆ$‹Ñ?r›İÑ4hsØÑAØŒ&	4ƒbWÍš”øØb¶ìù•G¸´ßªÃózÏíT8(Ø÷:viªd£E­n¿åg€:ËeÑ	hFn`DÂ}ÜM@‡ä	E[Œ@Z³ÒsÙY<pf ™!.­hŠ_ÉöV$ˆ·òQm7ß”ÍóÆ}÷è/Cà2Hnñ“şT3ôO5ã¤	9{Qn34 cô²0;Pš#R‹~ug^{ä–lmƒ±Èüâ/”jòÿyæ	Yä¿Z«ÆÍœìØº1U,¥²Q¤bĞÛØ[x#Î=’o¶ÏÙJ€Zü¾‰^Q£‹C
 scsi FCPA
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
@@ -510,7 +508,7 @@ type=file
 #backwards compatibility include, actual abstraction moved from php5 to php
 
 deb {{mirror}} {{codename}}-updates main
-# dpkg configuration file
+
 B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
 # comment out the following line to allow CLOUDINIT messages through.
     label in2 "+3.3V"
@@ -557,7 +555,6 @@ type=file
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 			local ZONE_ID
 X-GNOME-HiddenUnderSystemd=true
-	if ! test -d $UUIDD_DIR; then
 deb http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
 # ------------------------------------------------------------------
@@ -576,7 +573,7 @@ multi on
 	log_action_begin_msg "Setting up resolvconf"
 
 	create 644 root root
-byte-compile = standard
+SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
 Enabled=false
     <edit name="rgba" mode="append"><const>none</const></edit>
 BQJbAwTtAhsuASkJEMY2F4egqEnhwF0gBBkBAgAGBQJbAwTtAAoJENTAcNuxNA6+
@@ -676,7 +673,7 @@ order hosts,bind
 if [ -n "$DESKTOP_SESSION" ]; then
 
 
-#    License published by the Free Software Foundation.
+
 <!-- Fix-ups for Delicious family -->
 #############################################################################
 # ipmi-fru-bridge-fru DISABLE
@@ -690,7 +687,6 @@ compose '-' 'E' to 'ª'
     </event>
 alias.url += ("/javascript" => "/usr/share/javascript")
 
-has_cal_buffer 0
 
 After=snap-lxd-18150.mount network.target snapd.apparmor.service
 # the value ranges from 4096 - infinity
@@ -701,7 +697,6 @@ NoDisplay=true
 # restore the kernel default if the value is changed during runtime; for
 rocks_trees = {
 #    Copyright (C) 2009-2012 Canonical Ltd.
-#    the "FSU light dispersion error" does not cause the abortion
 # Description:       Debian init script for the GNOME Display Manager
 # List of modules that you want to include in your initramfs.
     permission javax.crypto.CryptoAllPermission; 
@@ -919,13 +914,13 @@ KP_0 = s;0
 <delegateSystem systemIdStartString="/usr/share/sgml/dtd/qaml-xml.dtd" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 		<default><family>fantasy</family></default>
 # This file will be sourced by both shell scripts and python code,
-# We read /etc/environment, but warn about locale information in
+10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
 
 # mdadm module configuration file
 # model override switch, mostly for cosmetic changes, if the autodetection
 #!/bin/sh
 Each file in this directory is an rt_tables configuration file. iproute2
-XCalc*hp.button16.displayList:	foreground rgb:b/b/b;segments 8,-4,-9,-4,-4,-9,-4,8;draw-arc -14,-14,-4,-4,270,90
+deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 log_file: /var/log/ubuntu-advantage.log
 # This is the configuration file for libaudit tunables.
 ! Menu Button Names
@@ -937,8 +932,7 @@ rpc:            db files
 XClipboard.baseTranslations: #augment\n\
 	# The checks LVM should use to detect MD component devices.
 	rotate 12
-# $Id: init,v 1.3 2004/03/16 01:43:45 zal Exp $
-scsi ACROSS * Scanner * * * 0
+  <match target="pattern">
 
 
 # IPMI_System_ACPI_Power_State_S2                                Nominal
@@ -950,7 +944,6 @@ encryption=luks1
   metering_timer: 14400
 # Defaults to false to maximize device compatibility.
 & stop
-user-db:user
 #!/bin/sh
 /var/log/dpkg.log {
 # /etc/default/bridge-utils
@@ -1016,7 +1009,6 @@ XCalc*ti.button40.foreground:		gray5
   gettext_printf "Adding boot menu entry for UEFI Firmware Settings\n" >&2
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
 run_im default
-# you can temporarily override this with
 
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   # Be nice to non-libdbus, non-sd-bus implementations by using
@@ -1182,3 +1174,21 @@ fi
 #!/bin/sh
 
 #
+# The lvmlocal.conf file is normally expected to contain only the
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
+# Doing so means you'll also get CLOUDINIT messages in /var/log/syslog
+<!-- Keep in sync with 60-generic.conf -->
+ *   /usr/share/calendar
+    -->
+
+#
+#
+
+		<default><family>sans-serif</family></default>
+run-parts /etc/ppp/ipv6-down.d \
+                export MOTD_SHOWN=update-motd
+  </xs:documentation>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+APT::Archives::MaxSize "500";
+[ ! -r "$auto_attach_stamp" ] || cat "$auto_attach_stamp"
+
