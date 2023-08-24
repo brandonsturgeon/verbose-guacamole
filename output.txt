@@ -136,7 +136,6 @@ compose '`' 'U' to 'Ÿ'
       This configuration is available on the major desktop environments.
 
 # eliminate DISABLE
-*Command.background: purple
 <!ATTLIST %element;
 # deb-src {{mirror}} {{codename}}-updates main restricted
 
@@ -432,7 +431,7 @@ PIDFILE=$UUIDD_DIR/uuidd.pid
 run_im default
 #
 # The following is an example how to use a braille font
-v¡ﬂ√]p7|ˆ¬◊‡∏Óá‡Aÿ¡√(<è√$<œ¡ãºØ¿˚a÷¶‡ˇÎ£Px»)
+logdir /var/log/chrony
 fi
 		done
   <!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
@@ -540,7 +539,6 @@ d /run/screen 1777 root utmp
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 56f12ada18a3412ab1f9dcd69450be95
 9ED8F9B0E8E42A1656B8E1DD18F42BA42DC06FE52686173BA2FC70E756F207DC
-c0583bt_.pfb -bitstream-courier 10 pitch-bold-r-normal--0-0-0-0-m-0-iso8859-1
             break;
  FT~jO1ÒÅ~Bt8es'Ó∆|∏é◊•:◊ò°úåU”€KÏ@êÚÕnW“b|Wì±ßmÕùÉª*ÁÂ∂;qX≠˝—EºZëÓSo”E	un∫ê]œ7ﬂ®f±åÊ jÔ¸HNtòBØ)o.j«˚}—f1"ÃÜ~fÉBÙΩ4í√ÍO ~rMpå¶Hª¶°ˆ˚XDôÆ™ìi†)%J•À+›äfxWqÏıGÑÛû17z’$≠‰º˝˝ÃnÉË®∑Al›Ω<Üó/“-debian:staat_der_nederlanden_root_ca_-_g3.pem8P^˙X.509x0Çt0Çò¢90	*ÜHÜ˜0Z10	UNL10U
 
@@ -562,7 +560,7 @@ search updates ubuntu built-in
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 auth		sufficient	pam_rootok.so
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
-    start)
+-dcevm KNOWN
 scsi TAMARACK
 # i.e. for Plustek (0x07B3) U1212 (0x0001)
 serial: 20200804
@@ -615,7 +613,6 @@ APT::Periodic::Update-Package-Lists "1";
 printf "
 "
 
-auto
 # Compose sequences for KOI8-U
 
   @{HOME}/** r,
@@ -646,12 +643,10 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 };
 #!/bin/sh
 
-
       <family>DejaVu LGC Serif</family>
 /dev/scanner
 # X-Stop-After:      umountfs
 # Multiarch support
-
 # In general, PTRACE is not needed for the average running Ubuntu system.
                       cat <<EOF >>$statedir/isc-dhcp-v4-$interface.conf
 @include common-session-noninteractive
@@ -712,17 +707,15 @@ the exact distribution terms for each program are described in the
 TryExec=im-launch
 deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/updates{% else %}-security{% endif %} main
 	weekly
-ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
+# IPMI_Threshold_Sensor_Upper_Non_Recoverable_Going_Low    Critical Critical
 
 Name=GNOME Settings Daemon's Wwan plugin
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
-
 
 # This file is sourced by Xsession(5), not executed.
 
 /dev/scanner
 
-  owner /run/user/*/dconf/user rw,
 /usr/lib/firefox/plugin-container
 
 # Copyright (C) 2014 Canonical Ltd
@@ -823,7 +816,6 @@ session		include		su
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 
 scsi ULTIMA
-restrict -4 default notrap nomodify nopeer noquery
 TRILL		22F3		# TRILL [RFC6325]
 
 
@@ -887,7 +879,7 @@ run-parts /etc/ppp/ipv6-down.d \
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # /etc/modprobe.d/iwlwifi.conf
-  /srv/svn/**/db/revisions       rwl,
+# Default backends, as chosen in the configure script. This will be used
 # in the toplevel profile. Eg:
 
 #          rsync you might want to symlink /etc/rsyncd.conf to
@@ -944,7 +936,7 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 # Docker Upstart and SysVinit configuration file
       <const>lcdlegacy</const>
 # ipmiconsole-privilege-level ADMIN
-  # User files
+
         'project': get_oem_project(),
 
 APT::Install::Pre-Invoke {
@@ -971,7 +963,6 @@ qmtp		209/tcp				# Quick Mail Transfer Protocol
 #
 /Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 modules_load_preference=ondemand
-
 LP-PPA-mozillateam-firefox-next
 
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
@@ -990,7 +981,7 @@ RUN_AS_USER=saned
 }
 X-GNOME-AutoRestart=true
 Title=Enable UEFI capsule updates on Dell systems
-		mq {
+#
 #StrictModes yes
   # These are needed when a new user starts firefox and firefox.sh is used
 #port=/dev/tty01
@@ -1070,7 +1061,7 @@ BACKSPACE="guess"
 {c∏O¨	˘≥xï€vÒË}iYâÙ&|4ê˝º¯≈ÙCÀ°8q˝ vbªæ2Uó&∏Í|MO√˛ÆπDp"qeÂÅ«®ór¥Ü0gªfjÆk√wLiWo6ÂØ`…>6hV‰}6¶ı^Ê,¶∂=6~≈êÚÍ©]«/Íˇõ†(
 #!/bin/sh
 # Select which information is logged.
-#        - the wildcard %, can be also used with %group syntax,
+       Recommendation</a> for an introduction</p>
 # ------------------------------------------------------------------
 @include common-auth
 # ctrll alt keycode 36 = Incr_Console
@@ -1159,7 +1150,7 @@ $x-display-manager gdm3
 <!-- Delicious 'heavy' variant says its Medium weight -->
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 
-Vendor: Debian
+    </accept>
   /usr/include/X11/**             r,
 
 # IPMI_OS_Boot_Base_OS_Hypervisor_Installation_Started   Nominal
@@ -1195,4 +1186,22 @@ _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ
 #    This program is free software; you can redistribute it and/or
 XLogo*background: rgb:d2/22/32
 ### List of USB device IDs
+
+#parport0
+
+scsi ABATON
+    missingok
+
+deb http://archive.ubuntu.com/ubuntu/ focal multiverse
+#
+# video device access
+# libc default configuration
+#
+share-videos=true
+# Defaults can be restored by simply deleting this file.
+## This works for most UNIX's
+
+</Directory>
+#X11UseLocalhost yes
+  # OCSP stapling
 
