@@ -4,7 +4,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
   owner @{HOME}/@{XDG_DESKTOP_DIR}/*	rwl,
 /Song-Medium /GBZenKai-Medium ;
 /bin/sh
-# Compose sequences for CP1255
+# mibdirs /usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf
   # User files
 #
     local dmi_path="/sys/class/dmi/id/board_vendor" vendor=""
@@ -143,7 +143,7 @@ compose '"' 'O' to '÷'
 Exec=/usr/libexec/evolution-data-server/evolution-alarm-notify
 <!--
 BatteryThreshold=10
-# If set to all update-initramfs will update all initramfs
+			<family>Latin Modern Math</family> <!-- TeX -->
 #
             . /usr/share/bash-completion/bash_completion
 
@@ -175,7 +175,7 @@ usb 0x03f0 0x0105
 # The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
 # Plus a lot of fun stuff added
-
+X-GNOME-AutoRestart=true
 /dev/scanner
 #
     <allow own="com.ubuntu.SoftwareProperties"/>
@@ -185,7 +185,7 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
 # This file is a simple placeholder to keep dpkg from removing this directory
 
 *Command.shapeStyle:		oval
-# ------------------------------------------------------------------
+		<allow send_destination="com.redhat.PrinterDriversInstaller"
 
 
 #    modify it under the terms of version 2 of the GNU General Public
@@ -423,8 +423,8 @@ deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/upda
 mozilla/Buypass_Class_2_Root_CA.crt
 gtk-icon-sizes = panel-menu-bar=24,24
 if [ -f /run/console-setup/keymap_loaded ]; then
-		<test name="lang">
-#
+compose '`' 'i' to 'Ï'
+    if [ -e $DISABLE_TAG -a "$AVAHI_DAEMON_DETECT_LOCAL" != "0" ]; then
         log_daemon_msg "Stopping GNOME Display Manager" "gdm3"
 usb 0x055f 0x0001
 	  <family>Nasim</family>
@@ -445,8 +445,8 @@ scsi "B&H SCSI"
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
 #   Please see the documentation for "systemd drop-ins":
 GRUB_DEFAULT=0
-#
-    <allow send_interface="org.freedesktop.DBus.Properties"/>
+fi
+&!,£ VÌ l∏D® …õﬁπuA_OÕu	¬g
 # /etc/passwd file.
 # [If you don't know about libcap, the sources for it are here:
 #GRUB_DISABLE_LINUX_UUID=true
@@ -719,7 +719,6 @@ deb http://archive.ubuntu.com/ubuntu/ focal multiverse
 # Defaults can be restored by simply deleting this file.
 ## This works for most UNIX's
 
-includefile /etc/ntp/crypto/pw
 #X11UseLocalhost yes
       <fit>
         </sequence>
@@ -736,7 +735,7 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMhlY1qy
 
 {c∏O¨	˘≥xï€vÒË}iYâÙ&|4ê˝º¯≈ÙCÀ°8q˝ vbªæ2Uó&∏Í|MO√˛ÆπDp"qeÂÅ«®ór¥Ü0gªfjÆk√wLiWo6ÂØ`…>6hV‰}6¶ı^Ê,¶∂=6~≈êÚÍ©]«/Íˇõ†(
 pool {{pool}} iburst
-# Define LSB log_* functions.
+	sed -r -e '
 # Uncomment and edit /etc/security/access.conf if you need to set complex
 }
                 <allow send_destination="fi.epitest.hostap.WPASupplicant"/>
@@ -797,7 +796,6 @@ libXvMC.so.1
 # scopev4  <mask>  <value>
 #!/bin/sh
 </fontconfig>
-};
         log_action_end_msg 0
 Name=GNOME Settings Daemon's xsettings plugin
 application/vnd.sun.xml.writer							sxw
@@ -844,7 +842,6 @@ X-GNOME-HiddenUnderSystemd=true
 Name=Certificate and Key Storage
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 0:0			none
-        output=`ufw_stop` || error="$?"
 PKA6hjhodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9DZXJ0aWZpY2F0aW9u
 [Resolve]
 application/set-payment-initiation
@@ -883,13 +880,12 @@ compose '<' 'd' to 'Ô'
   #include <abstractions/mdns>
 
 3946901F46B0071E90D78279E82FABABCA177231A704BE72C5B0E8918566EA66
-Ú∆ÖZæï[§…iCÁˆ·Ãò÷:»nGI˘–◊-ø–àµÈ~÷≠…ÙtıVh◊ `Q¨œà†[Î£ˇ¥˜¯-…ªÙé°(GhˇM©ø∂kú≈"∑ﬂ\üõñ†ÿ$-€≥»#Óju˝tﬂ—ˆvƒ≤bªñ•2•⁄Ô‡µÄCsX¢¯&’÷…KV—~—ÍÚ#áQÿzΩ›G®Ø'Íømaò„ú«x–MS}·ñyqCbtY˛?›(∆Æ‘ê+Øfh‘z¢z∏˜gæÎâO≠í
 _’O R÷aBOÌîtcÙRÛ%7-—°g[ı¥AUbuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>â7
 #PICTURES=Documents/Pictures
 			fi
 constraint from "9.9.9.9"              # quad9 v4 without DNS
 
-# As the snmp packages come without MIB files due to license reasons, loading
+# the Free Software Foundation, either version 3 of the License, or
 1,43,74,6,184,113,233,204,128,0,0,0,255,255,255,255
 makestep 1.0 3
       may simply works to avoid it.
@@ -912,7 +908,6 @@ type=file
      groups: [adm, audio, cdrom, dialout, dip, floppy, lxd, netdev, plugdev, sudo, video]
 Ubuntu 20.04.5 LTS
 Exec=sh -c 'if [ "x$XDG_SESSION_TYPE" = "xwayland" ] ; then exec env IM_CONFIG_CHECK_ENV=1 im-launch true; fi'
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent \(ssh-agent emulation\)\.$
 
 
   /dev/tty     rw,
@@ -1062,7 +1057,7 @@ danish          da_DK.ISO-8859-1
 <fontconfig>
 # to update this file, run dpkg-reconfigure cloud-init
 
-scsi ULTIMA
+<fontconfig>
 compose '"' 'i' to 'Ô'
   missingok
 # directories are stored, each must have a trailing '/'. Directories added
@@ -1081,7 +1076,6 @@ scsi ABATON
 #    modify it under the terms of version 2 of the GNU General Public
   owner @{HOME}/.local/share/RecentDocuments/#[0-9]* rw,
 # Compose sequences for ISO-8859-16
-# Compose sequences for ISO-8859-6
 #
 #Enable=true
 Ubuntu 20.04.5 LTS \n \l
@@ -1173,7 +1167,7 @@ usb 0x04a9 0x1608
 
 <?xml version="1.0"?>
 usb 0x03f0 0x0101
-  <type name="Times-New-Roman" fullname="Times New Roman" family="Times New Roman" weight="400" style="normal" stretch="normal" glyphs="times.ttf"/>
+xterm
 #
         savelog -c 7 ${dbalt}.tar >/dev/null
 0x88	AF41
@@ -1185,7 +1179,6 @@ usb 0x03f0 0x0101
 CATALOG /usr/share/sgml/html/entities/catalog
 if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 -->
-,u`+¡––ì∂4F)œ<c@ò%±†>ÕÑÛ…Éh·E≥√!«6¿ï~”üæõ7RΩh+?KO?}j7“ùRêQüÅôbOè$⁄">æÒÁ—}¿Qˇ#∑ë_ßl∫?Üa¯‹÷jößı0cK˝®x≥‹Ó˛∆®ö⁄Bé¡°Œ∆µ.ı>ézˆ¿˛bí™V^>˝X“∞eùtÔ˜Ÿ>•ù8åì˛Ï®õô‚√	QÄDiòÂŒ9£0∫Mï›æ#ı$~„Ë[iD∫Âè¡£–KVËV°–L≈ºe]—•â* 3…"5/	*ÛÍ.Ô©kMê-“4“	A5¯î∆ÂÏùp'í!4ñZÆùÇÊWÈÖ˜(í¥˝Ëª…+å;_I/|≤¡E`x.Ã…P?áÇ•.ÜW«≥-Ó€PΩW
         %fixedAttr;
 # set this to 0 to disable apport, or to 1 to enable it
 # $ systemctl edit --full cron.service
@@ -1196,7 +1189,6 @@ ssh-dss AAAAB3NzaC1kc3MAAACBALClPZNQ8bzSUcn1tbZFh0kp8WkYxNfik+RsGeuzN3TouUV35MTq
 # DO NOT EDIT OR REMOVE
 
 #    Copyright (C) 2013 Canonical Ltd.
-
 ports=22/tcp
 
 
@@ -1218,3 +1210,17 @@ image/bie; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 ˛GéöÀ<q
 
 # uncomment to set the default look and feel to GTK
+@include common-password
+blacklist prism54
+  /srv/svn/**/db/ r,
+#
+   [handlers]
+		<prefer>
+#
+alias gawklibpath_default 'unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWKLIBPATH "BEGIN {print ENVIRON[x]}"`'
+multi on
+server {{server}} iburst
+     O'Reilly & Associates, Inc., ArborText, Inc., Fujitsu Software
+actlistbox=,magenta
+	</policy>
+  /usr/lib{,32,64}/perl{,5}/**.so*             mr,
