@@ -102,7 +102,6 @@ mode="${1#'}"
 X-GNOME-AutoRestart=false
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
-# javax.management.monitor.foo.Bar.
     <test compare="less" name="pixelsize">
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
@@ -147,7 +146,7 @@ XLoad.input:			false
 
 #
 MANPATH_MAP	/opt/sbin		/opt/man
-# CLOUD_IMG: This file was created/modified by the Cloud Image build process
+if [ -f "/snap/bin/canonical-livepatch" ]; then
 fi
 # Turn on Source Address Verification in all interfaces to
 [general]
@@ -214,7 +213,6 @@ echo
 #
 #
 case $0:$mode in
-    echo "Usage: /etc/init.d/atd {start|stop|restart|force-reload|status}"
     done
   gnome-session*)
     fi
@@ -253,7 +251,6 @@ BRIDGE_HOTPLUG=no
 # Also, include files in tunables/xdg-user-dirs.d for site-specific adjustments
 15	ntk
 
-# Defaults can be restored by simply deleting this file.
 case "${1}" in
 *MenuButton.foreground: white
 scsi APPLE
@@ -337,7 +334,6 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 # security of the host and prevent against some network attacks
 # should not normally be necessary (under Linux at least).
 
-# Compose sequences for GEORGIAN-PS
 #include <tunables/proc>
 scsi FCPA
 
@@ -365,7 +361,7 @@ Categories=System;Monitor;GTK;
 	rotate 4
 
   dbus (receive)
-geometry_max 200.0
+# MODEL
 networkd_dispatcher_args="--run-startup-triggers"
 
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -397,7 +393,7 @@ After=snap-lxd-18150.mount
 #!/bin/sh
 CATALOG /usr/share/xml/docutils/catalog
 
-scsi RICOH
+#    This program is free software; you can redistribute it and/or
 
 	    exit 3;
 Type=Application
@@ -493,7 +489,6 @@ usb 0x1083 0x1622
   #include <abstractions/nameservice>
 # udevd is also started in the initrd.  When this file is modified you might
 			<string>AR PL UKai HK</string>
-/Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
 			<family>FreeMono</family>
 #   Using "norealcal" will revert backend to pre-0.11.0 calibration code.
 	</alias>
@@ -526,7 +521,6 @@ deb {{mirror}} {{codename}} multiverse
   the ImageMagick option
 alias.url += ("/javascript" => "/usr/share/javascript")
 X-Ubuntu-Gettext-Domain=gnome-settings-daemon
-X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 // Notify all clients to reload the cache
 # IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
 #parport0
@@ -558,9 +552,7 @@ B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
 # comment out the following line to allow CLOUDINIT messages through.
 # 0 means default behaviour as specified in the internal tables
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
-java.util.logging.ConsoleHandler.formatter = java.util.logging.SimpleFormatter
 printf '\033%%G' 
-#
 # If an executable path appears on any line in any file in
 	;;
 X-GNOME-HiddenUnderSystemd=true
@@ -680,7 +672,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
   00_*: Reserved for 00_header.
 modules=*
     user_friendly_names yes
-  /usr/lib/NetworkManager/nm-dhcp-helper          Pxrm,
+# Compose sequences for KOI8-R
 #IgnoreRhosts yes
 #
 # usb 0x4b8 0x14c
@@ -743,7 +735,7 @@ if [ -n "$DESKTOP_SESSION" ]; then
 # System-wide GDB initialization file.
  * The search path for include files is:
 # or by launching either "byobu-screen" or "byobu-tmux" instead of "byobu".
-$x-display-manager gdm3
+compose '-' 'E' to '™'
 #
 # orbit2 permissions
     </event>
@@ -873,7 +865,7 @@ exit 0
 deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # orbit2 permissions
 $x-display-manager gdm3
-#
+is_enabled() {
   dbus bus=accessibility,
      format="ttf"
 # Insert here your local magic data. Format is described in magic(5).
@@ -922,7 +914,6 @@ quote-names
 	didn't include the right instructions in the 'prep' table.
 /dev/scanner
   <mime type="application/x-krita" description="Krita document" data-type="string" offset="0" magic="\037\213" priority="50" />
-# Default backends, as chosen in the configure script. This will be used
 
 brandon:100000:65536
 APT::Archives::MaxAge "30";
@@ -972,7 +963,7 @@ APT::Archives::MinAge "2";
        interface=org.a11y.atspi*,
 compose '>' 'A' to '¬'
       bus=session
-# ------------------------------------------------------------------
+#!/bin/sh
 115200
 #
   @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
@@ -1042,7 +1033,6 @@ brandon:100000:65536
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 # If you want chronyd to ignore authentication in the source selection,
 
-# The threshold to to require battery be at or above to allow updates
 ôZ¬fSœÛuÿÂO(∞ÿ·”âÎ„"M€«ˆLuözÖÜYäjùè}d˙1îqØÚ_0*óïIL¨%ãZ˝Í6≈)ˇ¶µ˚\ÎÀ√¥~}÷Zºi?”Ï9ÉûZ6Mé¢g4/ˇ‚T_J¡(I∞£Ú˜íÎ¿záä"úﬂNhﬂ;˚çp≠dπ"¬¸FAÒcÇ`<9ÇRÛyÌ1 á_ÁëZ¯ØéõM%®LD\}F[ìà"Å»ZÕ$Ω¸(\Ê≠å≈é$_Ø?(\Ò÷Lj¡œZTd¸ΩÉç≠pÂÌäÙ ®{·^1_&gl√'n|Â:ùΩüKïeﬂ4y«ç‰ÉµãuÚ†^=¸öçû≤|“ï|Ô≤bSªµêõH)º¯ølÍ9t÷	‰g"vôï—Ûª>Ö∂YÄÅi!>«f®dbß©Cjª◊Çï2îÈ¶“hüéwaçTëºòzH≤)¿ö¸äÍ
   dbus (send)
 font.4=Times-Roman ISOF
@@ -1103,7 +1093,6 @@ XCalc*ti.button40.foreground:		gray5
 run_im default
 # you can temporarily override this with
 
-# Legacy biarch compatibility support
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
   # Be nice to non-libdbus, non-sd-bus implementations by using
 if [[ -e /usr/lib/git-core/git-sh-prompt ]]; then
@@ -1141,12 +1130,12 @@ exit 0
 set -e
     <allow send_interface="org.freedesktop.DBus.Properties"/>
 # /etc/passwd file.
-#      $ sudo wipefs -a $DEV
+# Example to customize the SimpleFormatter output format 
 ctl.!default {
 EnableWattsUpPro=false
 
 # setting to limit messages printed to the console.
-session		optional	pam_keyinit.so force revoke
+  @{PROC}/sys/kernel/cap_last_cap r,
 Description=Mount unit for lxd, revision 18150
 	"gnumach-.*";
 GRUB_TIMEOUT=0
@@ -1177,3 +1166,18 @@ Name=Secret Storage Service
 #usb /dev/usb/scanner0
 
 DISTRIB_RELEASE=20.04
+<delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
+#    This program is free software; you can redistribute it and/or
+scsi EPSON Perfection600
+    <!--
+
+  <description>Disable hinting</description>
+lines		-1,0,0,0,0,-1
+			<Btn1Down>,<Btn1Up>: 	set() notify()
+	        Shift<Btn5Down>,<Btn5Up>: Page(Line,1) \n\
+#
+/bin/rbash
+# escpecially if they contain "#" chars...
+gtk-sound-theme-name = Yaru
+# This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
+
