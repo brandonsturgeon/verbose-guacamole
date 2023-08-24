@@ -33,19 +33,17 @@ audio/x-mpegurl=rhythmbox.desktop
 # Configuration file for the hp4200 backend
     <event name="jdk.InitialSystemProperty">
 #
-		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
+	;;
     minsize 1M
 kde4/ktimetracker.desktop
 /dev/scanner
 {
-gtk-icon-theme-name = Yaru
 datasource meta-data and user-data.
 # made if using an older kernel
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
 # $Id: 20x11-common_process-args 305 2005-07-03 18:51:43Z dnusinow $
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
     <test compare="less" name="pixelsize">
-
 €šdGh•E^q§ì5¹õ·&nÀ„àòU0tÿz,é#í=°—¤¼ªëðc×Ê¹m		<4Å®MïÜ¶ÜžšZqöÅ–ä‚š@˜µÒÆ¯3ÆòÔ¥èIÛÎŽZ`^Uy³»	åùPÞ|sîúç˜ÉîÑT‡I<‚¾eRÁ==©hLçÏ:îÃùØ¿~Žœæmbæwys€ÎYÊ
 
 
@@ -65,7 +63,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 # Autodetect the Canon CanoScan FB630u
 compose ')' '-' to '}'
 # The next option will send email to the named person when chronyd has
-/dev/mpu401data rw,
 XLoad.input:			false
 aXJtd2FyZSBTZXJ2aWNlIDxzaWduQGZ3dXBkLm9yZz6JATcEEwEIACEFAlWt/98C
 # Compose sequences for TIS-620
@@ -120,7 +117,7 @@ trusted.SGI_MAC_FILE		skip		# xfs specific
 vÁßÃ]p7|öÂ×à¸î‡àAØÁÃð(<Ãð$<ÏÁ‹ð¼¯ÀûðaÖ¦àÿë£PxÈ)
 	<alias>
 case "${1}" in
-
+#if /etc/pam.d/cron  specifies no session modules but cron calls
 *editButton.menuName:			editMenu
 
 
@@ -160,7 +157,7 @@ compose '"' 'O' to 'Ö'
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 };
   # Xlibs
-
+Exec=/usr/libexec/evolution-data-server/evolution-alarm-notify
 <!--
 BatteryThreshold=10
 # If set to all update-initramfs will update all initramfs
@@ -188,7 +185,6 @@ fi
   /usr/share/p11-kit/modules/  r,
 [Distro]
 # NETID_AUTHORITATIVE
-Please read the update-alternatives(1) man page for information on this
   <match target="pattern">
 <fontconfig>
 
@@ -327,7 +323,6 @@ max_allowed_packet	= 16M
 mozilla/SecureSign_RootCA11.crt
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
-
 <?xml version="1.0"?>
            send_member="GetAll"/>
 
@@ -339,7 +334,7 @@ mozilla/SecureSign_RootCA11.crt
 alias.url += ("/javascript" => "/usr/share/javascript")
 
 Name=Print Queue Applet
-  /usr/bin/gnome-terminal ix,
+
 NoDisplay=true
 rocks_trees = {
 					6)
@@ -454,7 +449,7 @@ ManagerResetTimeout=1800
 deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
 fi
 #       entries the days are specified by a sequence of two character
-ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-init.target
+device auto
 	# The checks LVM should use to detect MD component devices.
   <match target="pattern">
 
@@ -468,7 +463,7 @@ ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-
 *dashlist*ShapeStyle: rectangle
 usb 0x05da 0x30d4
 
-# deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
+#
 </catalog>
 
 *buttonbox.displayList:			foreground gray70;line 0,-1,-1,-1;foreground gray95;line 0,0,-1,0
@@ -538,7 +533,6 @@ eval $(/usr/bin/locale-check C.UTF-8)
 # escpecially if they contain "#" chars...
 # See bash(1) for more options
 
-# Note: the line below cannot end the file (there must be at
 [Time]
 # Canonical runs a service at motd.ubuntu.com, and you
 
@@ -579,7 +573,6 @@ XLogo*foreground: rgb:d7/d7/d7
 };
 fi
 
-#
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
     is_azure
 # which file should be used as the configuration file for rsync.
@@ -610,10 +603,10 @@ scsi AdLib * Scanner
 # <target name>	<source device>		<key file>	<options>
 		</test>
 
-# ROOTFS = /dev/hda
+# set PATH so it includes user's private bin if it exists
   <uri name="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd" uri="xenc-schema.xsd"/>
 expand-check=0
-# Compose sequences for GEORGIAN-ACADEMY
+NoDisplay=true
 # failure_action can be: log, ignore, terminate
 		</test>
 fi
@@ -787,7 +780,7 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 {
-
+	create 644 root root
 LANG=C.UTF-8
 		<allow send_destination="com.redhat.PrinterDriversInstaller"
 
@@ -843,7 +836,6 @@ pool {{pool}} iburst
 PK!		æ–°åŠ å¡UTcx6mÃÓ®Oç.äPKNþ5ãPK!	æ–°é—»UTcx6mÃËé»¹PK¤ej
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHdEy0Es+3ot67hZaz+cI7KRAxQD8n8R9m9Ekf9k/0WZDsfzCaIZokAbO1IYo6mznd3vsbkRgGqz6PPcURRgc1A= open-ssh-ca@cloudflareaccess.org
 #SpeedMeter=no
-    ;;
 
 /dev/scanner
 
@@ -929,7 +921,6 @@ URI_LTS = https://changelogs.ubuntu.com/meta-release-lts
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 
-    </complexType>
 
 #    This program is free software; you can redistribute it and/or
 Name=GNOME Settings Daemon's power plugin
@@ -969,7 +960,6 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
     case "$1" in
 #scsi MINOLTA
 # Generate our temp files, clean up when done
-# The maximum number of allowed consecutive characters of the same class in the
   /usr/{share,X11R6,local,kerberos}/man/**	 r,
 letter
   gdmtranslate="/usr/lib/gdm3/gdmtranslate"
@@ -1002,7 +992,6 @@ constraint from "9.9.9.9"              # quad9 v4 without DNS
 
 # As the snmp packages come without MIB files due to license reasons, loading
 1,43,74,6,184,113,233,204,128,0,0,0,255,255,255,255
-      . /var/lib/fwupd/uefi_capsule.conf
 makestep 1.0 3
       may simply works to avoid it.
 # Authored by Openismus GmbH, 2009.
@@ -1119,7 +1108,7 @@ $WorkDirectory /var/spool/rsyslog
 XLoad.input:			false
   # per-user settings and dictionaries
   update_status_timer: 43200
-# current user of the confined application.
+    export PATH="$PATH:${snap_bin_path}"
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
     // There is no restriction to any algorithms.
 X-GNOME-Bugzilla-Bugzilla=GNOME
@@ -1135,9 +1124,8 @@ do_bootloader = no
 <delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///etc/xml/sgml-data.xml"/>
 
 # /etc/tidy.conf
-disable_flash_pq_bg_color=1
 
-#
+
 grant {
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 Icon=printer
@@ -1157,7 +1145,7 @@ test -x $DAEMON || exit 0
 #    Copyright (C) 2014 Canonical Ltd.
 scsi TAMARACK
 # Compose sequences for VISCII
-#  0x405D, /* kodak ESP C310 */
+
 <busconfig>
 # microcode file installed on the system.  When removing iwlwifi, first
   /usr/lib/aspell/* r,
@@ -1182,7 +1170,6 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware.xml.gz
 # Do not use IPMI KCS to create an initial user account if no SMBIOS data
 # Refer to 'man lvm.conf' for further information about profiles and
   /usr/bin/qbittorrent Cxr -> sanitized_helper,
-# Compose sequences for ISO-8859-8
 $FileGroup adm
 saned:x:127:
 # /tmp and /var/tmp, whereas home directories will be polyinstantiated for all users.
@@ -1196,7 +1183,6 @@ compose '"' 'i' to 'ï'
 # directories are stored, each must have a trailing '/'. Directories added
 LP-PPA-ubuntu-mozilla-daily
 X-GNOME-HiddenUnderSystemd=true
-CATALOG /usr/share/xml/docutils/catalog
 # You must run update-initramfs(8) to effect this change.
 NoDisplay=true
 scsi DEVCOM * Scanner
@@ -1226,3 +1212,11 @@ TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
        not necessary for user PulseAudio instances. -->
 # You can also configure the backend for specific device files, but this
 # Key file containing the keys and key identifiers used when operating
+# Compose sequences for CP1256
+  <!-- <magic name="GIF" offset="0" target="GIF8"/> -->
+## Where OPTIONS is the concatenation of all options previously defined
+# As a result, if you wish for changes to this file to persist
+# ------------------------------------------------------------------
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+  <alias binding="same">
+
