@@ -20,9 +20,8 @@ scsi DEVCOM * Scanner
 Alias /javascript /usr/share/javascript/
 
 # Case-sensitive behavior is defined by the operating system.
-       search:
 
-
+scsi AdLib * Scanner
 # ------------------------------------------------------------------
 }
             echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
@@ -31,7 +30,7 @@ Title=Vendor
 OMITDIR=/run/sendsigs.omit.d
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
-checkbox=,magenta
+grant {
 #
 The files are loaded in numeric order, the structure of the configuration
 
@@ -114,7 +113,6 @@ aXJtd2FyZSBTZXJ2aWNlIDxzaWduQGZ3dXBkLm9yZz6JATcEEwEIACEFAlWt/98C
 MANPATH_MAP	/opt/sbin		/opt/man
 if [ -f "/snap/bin/canonical-livepatch" ]; then
 fi
-            <string>zh-sg</string>
 [general]
        daily
 # ------------------------------------------------------------------
@@ -158,7 +156,6 @@ compose '`' 'U' to 'Ÿ'
 
 # eliminate DISABLE
 	</alias>
-echo
 <!ATTLIST %element;
 
 
@@ -248,7 +245,7 @@ blacklist rivafb
 
 # inclusion by distributed profiles to aid in packaging AppArmor for
 [METARELEASE]
-###############################################################################
+
 
 compose '"' 'O' to '÷'
   </match>
@@ -295,7 +292,7 @@ DAEMON="/lib/systemd/systemd-udevd"
 	The Bistream Vera fonts have GASP entries suggesting that hinting be
 Categories=System;Monitor;GTK;
 
-# MODEL
+# For explanations see
 networkd_dispatcher_args="--run-startup-triggers"
 /usr/local/lib
 deb http://security.ubuntu.com/ubuntu/ focal-security universe
@@ -333,7 +330,7 @@ Type=Application
 # (you may need to remove these refusals if the server is not using MPPE)
 
 LP-PPA-ubuntu-mozilla-daily
-# Required-Start:    $local_fs $remote_fs
+
 #fudge 127.127.22.1 flag3 1            # enable PPS API
 ôSMã≈¥∑?˜i¸«Yõ˚Q`P$ˇZ∂Aıß_Ëïò#XÁTã»¡ûAê(Fì\Z˘—ﬁoéYJ±üÂgcPâ?DG	¸⁄ÑBá*ÒUQ8˝‘Ù`[T≥"F±mÍ3é˝ê∆8l¸Òw#h˙F)yQó∂‹‚aa∂;%Ä=3’X9’EΩŸ—_d>Fv	eﬂnhd6D¨a5√çò{P5Æ&˛t}ÈÈÏkV`Å˚î1Òæ"6K&!z£˙Lh˛I|Ñ?[8ÀfpãÄ8È'–‹Ÿ(ˇæq§èµ Ñ9ûO¢5ùZ⁄œ:m˛≥∑FHKƒÿÆ™^s[yï’9:Ü6Â[œóπQˇò∆÷)oïPÂwRR≠É‚˜∂ÍYcMÆCì^ÍˆÛºÒ≤◊¶…âÿò^ÃJù2ûÌ'˚àõ«Ö‡IãŸﬂpÚ÷o’gc{≤ÜÓ_Pjc^bm:’ÛM0¬‚±)ËöPZΩV27ÿ/Ã€n–vZ^≈¿0èÿd)hE~&ÂC¿—Æ†u´ckﬁ0√¸:5 ˝º*[\p“'<.#c—)ÏÎm1À]±ÂÔ1≤@Èeôµeˆ25Ì©7À\R¯aﬁTäb“-…‰Lt&GPéôKŸYÿÌ<IFƒˇ)ÙYª”˚éFqÏ'CÚ¨I3çñ)Ñ3∑[Ó< !w9¥Launchpad PPA for Raelâ8"SMã		
 usb 0x03f0 0x0105
@@ -462,7 +459,7 @@ X-GNOME-HiddenUnderSystemd=true
 Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 ## This works for most UNIX's
 #  uid = 0
-sysresources=/etc/X11/Xresources
+#autodetach off
 # `dbus-1/services`, etc.
 	<UnmapNotify>:		Iconified()	
 
@@ -487,7 +484,7 @@ session [success=ok ignore=ignore module_unknown=ignore default=bad]        pam_
   /usr/bin/mailody Cx -> sanitized_helper,
 -client IGNORE
 *directoryFontNormal:		-*-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*
-XCalc*ti.button48.fromVert:		button43
+# Compose sequences for CP1255
 type=file
 ^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Listening on GnuPG cryptographic agent and passphrase cache.$
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
@@ -513,7 +510,6 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 # /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
     STARTUP=x-terminal-emulator
    case "$reason" in
-# Compose sequences for IBM1133
 
 run_im default
 [Desktop Entry]
@@ -595,14 +591,12 @@ if [ -n "$DESKTOP_SESSION" ]; then
 
 
 nameserver 1.1.1.1
-<!-- Fix-ups for Delicious family -->
 #############################################################################
 # ipmi-fru-bridge-fru DISABLE
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
 # System-wide GDB initialization file.
 # or by launching either "byobu-screen" or "byobu-tmux" instead of "byobu".
 compose '-' 'E' to '™'
-#
 # orbit2 permissions
     </event>
 alias.url += ("/javascript" => "/usr/share/javascript")
@@ -665,7 +659,6 @@ auto
 		exit 1
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
-#
 [Desktop Entry]
 # can attach to any other dumpable process owned by the same user.  In the
 DISTRIB_ID=Ubuntu
@@ -714,16 +707,15 @@ exit 0
   network inet stream,
 $x-display-manager gdm3
 # sending commands.
-  dbus bus=accessibility,
+/usr/bin/zsh
      format="ttf"
 		log_end_msg $?
-
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 
 XLogo*baseTranslations: #override 
 ports=22/tcp
 [Install]
-modules_load_preference=ondemand
+	Options FollowSymLinks MultiViews
    [formatters]
 if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 APT::Periodic::Update-Package-Lists "1";
@@ -773,7 +765,6 @@ CATALOG /usr/share/xml/docbook/schema/dtd/4.2/catalog
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # Defaults can be restored by simply deleting this file.
 # Scripts in this directory are executed as root when a user log out from
-# Compose sequences for ISO-8859-8
 #    Copyright (C) 2012 Canonical Ltd.
 @{tid}=@{pid}
 eval $(/usr/bin/locale-check C.UTF-8)
@@ -891,8 +882,8 @@ CATALOG /usr/share/xml/svg/catalog
 BACKSPACE="guess"
 };
 
-XCalc*ti.button40.foreground:		gray5
-# Script fragment to make dhclient supply nameserver information to resolvconf
+<fontconfig>
+*planemask*ShapeStyle: rectangle
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
 run_im default
@@ -1083,7 +1074,6 @@ else:
 
 <delegateSystem systemIdStartString="http://xml.ascc.net/xml/resource/qaml-xml" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
-[msr]
 #
 # Select which information is logged.
 # This is useful for keyfiles on removable media. Default is unset.
@@ -1177,7 +1167,7 @@ qmtp		209/tcp				# Quick Mail Transfer Protocol
 modules_load_preference=ondemand
 
 LP-PPA-mozillateam-firefox-next
-exit 0
+net.ipv6.conf.all.use_tempaddr = 0
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 #    License published by the Free Software Foundation.
 ; term.h
@@ -1202,3 +1192,14 @@ Title=Enable UEFI capsule updates on Dell systems
   # These are needed when a new user starts firefox and firefox.sh is used
 #port=/dev/tty01
 # X-Stop-After:      umountfs
+   "_comment_": "This file is JSON syntax and will be loaded by ssh-import-id to obtain the URL string, which defaults to launchpad.net.  The following URL *must* be an https address with a valid, signed certificate!!!  %s is the variable that will be filled by the ssh-import-id utility.",
+/dev/scanner
+
+# There are two different methods of configuring a USB scanner: libusb and the kernel module
+
+    mount options=(rw rbind) /var/volatile/log/ -> /tmp/snap.rootfs_*/var/log/,
+post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
+	nocreate
+{# The value '{{hostname}}' will be replaced with the local-hostname -#}
+      or
+
