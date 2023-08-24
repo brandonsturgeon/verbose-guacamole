@@ -63,16 +63,13 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 # Autodetect the Canon CanoScan FB630u
 
 # The next option will send email to the named person when chronyd has
-XLoad.input:			false
 Local  - Applications should save enough information to
 
 # Compose sequences for TIS-620
-
 fi
        daily
 # Refer to 'man lvm.conf' for further information including the file layout.
 #user_allow_other
-// Whenever dpkg is called we might have different updates
 max_allowed_packet	= 16M
 			<Btn1Down>:popup-pixel()
 
@@ -82,7 +79,6 @@ net.ipv4.conf.all.rp_filter=2
 fi
      o Declarations for and references to external parameter entities
         <double>0.8</double>
-  # Apport
     pass
 mibs :
 #   You can use this file to change the default behavior of screen system wide
@@ -105,14 +101,13 @@ uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
 # deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 # LEO S3
   # User files
-KP_2 = a;b;c;2;√§;√†;√°;√£;√¢;√•;√¶;√ß
 trusted.SGI_MAC_FILE		skip		# xfs specific
 ##
         if [ -x "$STARTUPFILE" ]; then
 # Gracefully exit if the package has been removed.
     permission java.util.PropertyPermission "path.separator", "read";
 #
-# Cloud Image specific Grub settings for Generic Cloud Images
+# run "systemd-resolve --status" to see details about the actual nameservers.
 
 #!/bin/sh
 v¡ﬂ√]p7|ˆ¬◊‡∏Óá‡Aÿ¡√(<è√$<œ¡ãºØ¿˚a÷¶‡ˇÎ£Px»)
@@ -266,7 +261,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 /URWPalladioL-Roma (/usr/share/fonts/type1/gsfonts/p052003l.pfb) ;
            send_interface="org.freedesktop.DBus.Properties"/>
 # with cloud-init during boot causing issues with host key generation.  This
-
+# Note that you must configure the path used by dconf to store the 
         case "$cur" in
 // Notify all clients to reload the cache
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
@@ -336,7 +331,7 @@ rocks_trees = {
 exec_prefix="/usr"
 # Uncomment the following lines for Linux.  Notice that everything is
 
-deb http://packages.azlux.fr/debian/ buster main
+##############################################################3
 compose '\'' '\'' to '¥'
 auth	required	pam_nologin.so
 @include common-session-noninteractive
@@ -430,7 +425,7 @@ APT::Archives::MinAge "2";
 ManagerResetTimeout=1800
       bus=session
     /usr/lib/llvm-[0-9]*.[0-9]*/bin/clang mr,
-#
+  <match target="pattern">
   @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
 #!/bin/sh -e
 
@@ -445,7 +440,6 @@ fi
 #       entries the days are specified by a sequence of two character
 device auto
 	# The checks LVM should use to detect MD component devices.
-  <match target="pattern">
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
   </match>
@@ -481,7 +475,7 @@ usb 0x055f 0x0001
   </its:rules>
 BACKSPACE="guess"
   notifempty
-# e2fsck_opts="-vtt"
+		<prefer>
 
 #!/bin/sh
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
@@ -508,7 +502,6 @@ Interaction styles
 
 
 enabled=1
-  /etc/drirc                      r,
 DESKTOP-OFJN9OT
 
             return
@@ -586,7 +579,7 @@ run-parts /etc/ppp/ipv6-down.d \
 <delegateSystem systemIdStartString="http://xml.ascc.net/xml/resource/qaml-xml" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 #
 
-
+## Description: Watchdog options - modinfo ipmi_watchdog for details
 
       path=/org/freedesktop/DBus
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
@@ -675,7 +668,6 @@ All executable files in this directory are processed in shell expansion order.
     create 0664 root utmp
   # Text editors (It's All Text [https://addons.mozilla.org/en-US/firefox/addon/4125])
 <fontconfig>
-<!NOTATION XMLSchemaStructures PUBLIC
 ÿÊ†ˇb/ç‰ÀÜ‰¥(€ØUmáUöhg:6FYŒπ˝Ïˇj∫ﬁˇ
     <allow send_interface="org.bluez.LEAdvertisement1"/>
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
@@ -690,7 +682,6 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 // THIS FILE IS USED TO INFORM PACKAGEKIT
 grant {
     xhost +si:localuser:`id -un` > /dev/null
-#    TOOLS_CONFDIR ::= Depends on platform and installation settings.  Likely
 ; auto-connect-localhost = no
     /run/netns/ w,
 X-GNOME-Autostart-Phase=Initialization
@@ -706,7 +697,6 @@ X-GNOME-Autostart-Phase=Initialization
 *topform.Form.testpercent.100.justify:right
 )ó…∏¶Fçû|O#e◊p"^˝Lñ@hNnW.ßüâÑ˜I∑R1„CÎØË«ßr›∫e3Z™â¥JﬁÂ|"ÙüìÓ(÷jM«q¸OW*ïÒD"a‚Ûd∑˙ªI'‘É]%+^ÖÀ‰w˙"57’‰†π¥'„fRN"“˙PIíJX'Ë_’?CõÜáá◊πùÒ˘¢eUwØ˛„A~ZX	Íª≥¶ıW€iµ_•h∆‰äï]8^U^Ôs˛˜ f¯˙˙üÔxÆVÛıQ≠’◊èå¨Ø◊¸Ù„ö¶º±±Õõ√Ú™££√√CCÉÉ’Pøˆ¸Û⁄≠ürõ«J…0æ^´U√¸ïﬁtb
 S2	-*-symbol-medium-r-normal--*-*-*-*-*-*-adobe-fontspecific\n
-p+([0-9])p+([0-9])?(_+([0-9]))*
       may simply works to avoid it.
 #!/bin/sh
 #exec_delay=
@@ -716,7 +706,7 @@ compose '\'' 'U' to '⁄'
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 kana14       -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0
 # This script can be used to override the .d files supplied by other packages.
-rsvp	46	RSVP		# Reservation Protocol
+check_power || exit 0
 # Uncomment following line to disable "clever precalibration" routines...
 avahi:x:117:123:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
 APT::Periodic::Update-Package-Lists "1";
@@ -928,7 +918,6 @@ Name=Certificate and Key Storage
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 0:0			none
 0,170,0,170,0,170,0,170,85,255,85,255,85,255,85,255
-fi
 #
 [Resolve]
 application/set-payment-initiation
@@ -953,10 +942,8 @@ letter
 # vim:syntax=apparmor
 76A45A496031E4DD2D7ED23E8F6FF97DBDEA980BAAC8B0BA94D7EDB551348645
 
-            if /lib/console-setup/keyboard-setup.sh; then
   # firefox-notify
 /dev/scanner
-
   <type name="DejaVu-LGC-Serif-Book" fullname="DejaVu LGC Serif Book" family="DejaVuGC Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuLGCSerif.ttf"/>
 #!/bin/sh
 # Outputs an issue file prior to each login prompt (Replaces the
@@ -1184,7 +1171,6 @@ scsi ABATON
   owner @{HOME}/.local/share/RecentDocuments/#[0-9]* rw,
 # Compose sequences for ISO-8859-16
 net.ipv6.conf.default.use_tempaddr = 2
-
 # ------------------------------------------------------------------
 #
 #Enable=true
@@ -1225,3 +1211,17 @@ NoPollBatteries=false
 # ------------------------------------------------------------------
 #
 PUBLICSHARE=Public
+#net.ipv4.ip_forward=1
+# User "root" should get access from network 192.168.201.
+# This file is sourced by Xsession(5), not executed.
+127.0.0.1	grusskartencenter.com
+{
+KP_8 = t;u;v;8;√º;√π;√∫;√ª
+WAIT=5
+
+/NanumBarunGothic-Bold << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
+# Compose sequences for CP1256
+deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+# You do need to talk to an NTP server or two (or three).
+# The following is a space-separated list of where additional user home
+AUFS_SUPER_MAGIC=1635083891
