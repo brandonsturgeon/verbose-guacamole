@@ -56,7 +56,6 @@ audio/x-mpegurl=rhythmbox.desktop
 #
 
 [Desktop Entry]
-post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK_ACTION" = remove-architecture; } && test -x /usr/share/pkg-config-dpkghook; then /usr/share/pkg-config-dpkghook update; fi
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
 mode="${1#'}"
@@ -124,7 +123,6 @@ max_allowed_packet	= 16M
   # Openoffice.org
 #
 net.ipv4.conf.all.rp_filter=2
-^w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd[[[:digit:]]+]: Closed GnuPG cryptographic agent and passphrase cache (restricted).$
 
 # ldconfig = false
 eval $(/usr/bin/locale-check C.UTF-8)
@@ -138,7 +136,7 @@ generateResolvConf = false
 
 #   You can use this file to change the default behavior of screen system wide
 ## template:jinja
-
+/dev/smpte*     rw,
 fi
 # IPMI_Processor_IERR                                          Critical
 <?xml version="1.0"?>
@@ -178,7 +176,6 @@ scsi ULTIMA
 email_format=text
         zle -N zle-line-finish
 	# sequences and ordinary character sequences. Ordinary character
-
         if [ -x "$STARTUPFILE" ]; then
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 BRIDGE_HOTPLUG=no
@@ -246,7 +243,7 @@ blacklist rivafb
 
 
 compose '"' 'O' to 'Ö'
-  </match>
+  /usr/bin/evolution Cx -> sanitized_helper,
 # /etc/xdg/user-dirs.defaults)
 # SELinux needs to intervene at login time to ensure that the process
 # The src directory. This is the directory where the historical
@@ -275,7 +272,7 @@ scsi FCPA
 BatteryThreshold=10
 # If set to all update-initramfs will update all initramfs
   owner @{HOME}/.adobe/** rw,
-# This file is sourced only for login shells. It
+  #include <abstractions/opencl-common>
 #
             . /usr/share/bash-completion/bash_completion
 APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
@@ -302,7 +299,7 @@ quick
 fi
 	<alias>
 *Panner.background:			gray70
-@{XDG_DOCUMENTS_DIR}="Documents"
+
 connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 
 PasswordAuthentication no
@@ -432,7 +429,7 @@ awmqxinuaElnMIAkejEWOVt+8Rwu3WwJrfIxwYJOubv5vr8qhT/AQKM6WfxZSzwo
   /etc/fonts/**                         r,
     interface=org.freedesktop.login1.Manager
 # Specify file containing keys for NTP authentication.
-    # Only run on postinst configure and postrm remove, to avoid wasting
+APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
   <!ELEMENT type EMPTY>
 
 
@@ -464,7 +461,7 @@ Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
 # should contain commands that should be executed only
   . "$USERXSESSIONRC"
 # particular interface
-127.0.0.1	www.frankvoce.com
+/usr/lib/x86_64-linux-gnu/libfakeroot
 restrict ::1
 ÜFö¢Î¹ng;ëö‹grêä’Ù¯``…Ê°ÚièÛÎd<Î·gºWŒÇ­H+ËéZÐ³äbÉÙzmGÀE:ši,Þl
       We shouldn't overwrite it with "assign" unconditionally.
@@ -487,7 +484,6 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
 ; rlimit-locks = -1
 #DefaultLimitMSGQUEUE=
-<Directory "/usr/share/javascript/">
 #@{XDG_VIDEOS_DIR}+=""
 
 s+1kieEZvsUzH4wun2Hlz7R5FRc/7BijgIQAA9TTrJnwbJmEBzEvHv7FKQLiBN3a
@@ -535,7 +531,6 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
   00_*: Reserved for 00_header.
     user_friendly_names yes
 
-#
 # usb 0x4b8 0x14c
    "URL": "https://launchpad.net/~%s/+sshkeys"
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
@@ -616,7 +611,7 @@ compose '\'' '\'' to '´'
 
 # video device access
 #
-
+        </test>
 *Command.highlightThickness:	1
 ## invoking user was bestowed with some inheritable capabilities by a
 Acquire::http::User-Agent-Non-Interactive "true";
@@ -739,7 +734,6 @@ quote-names
   <mime type="application/x-krita" description="Krita document" data-type="string" offset="0" magic="\037\213" priority="50" />
 
 brandon:100000:65536
-APT::Archives::MaxAge "30";
 Kernel system variables configuration files
 # X-Start-Before:    $network
 
@@ -840,7 +834,6 @@ deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 <?xml version="1.0" encoding="UTF-8"?>
 	weekly
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
-		;;
 
 Name=GNOME Settings Daemon's Wwan plugin
 directory), then /lib/terminfo, and last not least /usr/share/terminfo.
@@ -853,7 +846,7 @@ directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 
   owner /run/user/*/dconf/user rw,
   If we *are* going to scale, go ahead and do it.
-LANG=C.UTF-8
+
 # Copyright (C) 2014 Canonical Ltd
 gtk-icon-sizes = panel-menu-bar=24,24
 if [ -f /run/console-setup/keymap_loaded ]; then
@@ -870,7 +863,6 @@ XClock.Clock.minorColor:	rgba:00/7f/7f/c0
 #lookahead = on
 CATALOG /usr/share/xml/svg/catalog
 BACKSPACE="guess"
-};
 
 <fontconfig>
 *planemask*ShapeStyle: rectangle
@@ -963,7 +955,6 @@ _apt:x:105:65534::/nonexistent:/usr/sbin/nologin
     ;; This might result in a call to debian-ispell, so do this only if
 			"${BACKGROUND_CACHE}.png" "${BACKGROUND_CACHE}.tga"
   /usr/local/share/man/man?/            r,
-# perform common modifications to the behavior of the dbus daemon
 twm
 ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 session		include		su
@@ -1040,7 +1031,7 @@ ip.hdrlen	u8		net+0		0x0F
 run-parts /etc/ppp/ipv6-down.d \
                 export MOTD_SHOWN=update-motd
   </xs:documentation>
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+# colored GCC warnings and errors
 # Load the VERBOSE setting and other rcS variables
   /usr/lib*/samba/lowcase.dat r,
 
@@ -1058,13 +1049,11 @@ else:
 
 }
 #
-    <edit name="hinting">
 
 <delegateSystem systemIdStartString="http://xml.ascc.net/xml/resource/qaml-xml" catalog="file:///usr/share/xml/qaml/catalog.xml"/>
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 #
 # Select which information is logged.
-# This is useful for keyfiles on removable media. Default is unset.
     # Start best input method unless overridden below
 #include <abstractions/ubuntu-browsers.d/mailto>
 
@@ -1077,7 +1066,6 @@ token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 
 
 $x-display-manager gdm3
-libXvMC.so.1
 scsi "K.M.E.  " "KV-S2065L       "
 
 	segs_cols_full="seg_pe_ranges,segtype,lv_uuid"
@@ -1111,7 +1099,6 @@ bullseye/sid
     bind2maps emacs viins       -- Insert      overwrite-mode
 FC02FD48DB92D4DCE6F11679D38354CF750CFC7F584A520EB90BDE80E241F2BD
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
-#
 X-GNOME-Bugzilla-Bugzilla=GNOME
 <logmap>
 # Docker Upstart and SysVinit configuration file
@@ -1197,3 +1184,16 @@ FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
 
 #
 #RUN_DAILY=true
+    </levels>
+    xhost +si:localuser:`id -un` > /dev/null
+#       option bw 127
+    create 0660 root utmp
+deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
+ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
+    <family>Arev Sans</family>
+segments	0,1,0,-2,-1,1,-1,-2
+  @{sys}/bus/pci/devices/ r, # libpocl.so -> libhwlock.so, libnvidia-opencl.so, beignet/libcl.so -> libdrm_intel.so
+  <alias binding="same">
+
+  </policy>
+[Unit]
