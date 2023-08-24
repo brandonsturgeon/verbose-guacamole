@@ -10,7 +10,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
     local dmi_path="/sys/class/dmi/id/board_vendor" vendor=""
 XClock.input: false
     compress
-            echo 'Usage: /etc/init.d/console-setup {start|reload|restart|force-reload|stop|status}'
+		<family>Cooper Std</family>
 # by dpkg on upgrades).  We all love dpkg prompts.
   /{,var/}run/dbus/system_bus_socket rw,
 			<family>Courier</family>
@@ -32,7 +32,6 @@ audio/x-mpegurl=rhythmbox.desktop
 kde4/ktimetracker.desktop
 /dev/scanner
 {
-datasource meta-data and user-data.
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
 # $Id: 20x11-common_process-args 305 2005-07-03 18:51:43Z dnusinow $
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
@@ -70,7 +69,6 @@ fi
 mibs :
 #   You can use this file to change the default behavior of screen system wide
 # Compose sequences for TIS-620
-fi
 <?xml version="1.0"?>
 esac
 	fi
@@ -109,7 +107,7 @@ case "${1}" in
 { :
 # however the tradeoff is increased power consumptions. This feature
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
-	log_end_msg $?
+{% endif %}
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
                 . /lib/lsb/init-functions
 compose '"' 'O' to '÷'
@@ -141,7 +139,6 @@ set -e
 
 
 fi
-# can easily run one too
 # Compose sequences for ISO-8859-10
   /dev/xconsole                 rw,
 [Desktop Entry]
@@ -169,7 +166,7 @@ X-GNOME-AutoRestart=true
 
 system:
 #   part of the cracklib-runtime package and should not be modified.
-	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
+#ReadEtcHosts=yes
 usb 0x08f0 0x0002
 # DO NOT EDIT OR REMOVE
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
@@ -350,8 +347,7 @@ ManagerResetTimeout=1800
   #include <abstractions/ubuntu-console-email>
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
 fi
-#       entries the days are specified by a sequence of two character
-	# The checks LVM should use to detect MD component devices.
+# Defaults to false (HIDP handled in HIDP kernel module)
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
   </match>
@@ -368,7 +364,6 @@ usb 0x05da 0x30d4
 #
 #    modify it under the terms of version 2 of the GNU General Public
 TryExec=im-launch
-deb-src {{security}} {{codename}}{% if codename in ('buster', 'stretch') %}/updates{% else %}-security{% endif %} main
 
 # This file is sourced by Xsession(5), not executed.
        <!ENTITY % all-titles PUBLIC "-//DocTools//ELEMENTS Book Titles//EN"
@@ -437,7 +432,6 @@ letter
         Ctrl<Key>B:     previous-page()
 
 # in your $ZDOTDIR/.zshenv
-  /usr/bin/gxmms Cxr -> sanitized_helper,
 
 ## security team.
 compose '<' '<' to '´'
@@ -542,7 +536,6 @@ XKBLAYOUT="us"
 	;;
 @include common-session-noninteractive 
 #
-# ------------------------------------------------------------------
 compose ':' '-' to '˜'
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
     validation_name: XYZ
@@ -598,7 +591,6 @@ exit 0
   owner @{HOME}/.config/QtProject/qtlogging.ini r,
 # Compose sequences for ISO-8859-8
 
-
 if [ -d "$HOME/.local/bin" ] ; then
 XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
 		<edit name="hinting">
@@ -616,7 +608,7 @@ noauth
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 {
-	create 644 root root
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
 LANG=C.UTF-8
 		<allow send_destination="com.redhat.PrinterDriversInstaller"
 
@@ -727,7 +719,6 @@ Description=Mount unit for snapd, revision 8542
 # in the toplevel profile. Eg:
 #!/bin/sh
 URI_LTS = https://changelogs.ubuntu.com/meta-release-lts
-    exit 0
 #InhibitDelayMaxSec=5
 
 # All the tunables definitions that should be available to every profile
@@ -774,7 +765,6 @@ letter
   <type name="DejaVu-LGC-Serif-Book" fullname="DejaVu LGC Serif Book" family="DejaVuGC Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuLGCSerif.ttf"/>
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
-  ;;
 compose '<' 'd' to 'Ô'
 
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
@@ -819,7 +809,6 @@ compose 'A' 'O' to '≈'
 # Compose sequences for ISO-8859-10
 
     [ -n "$ZSH_VERSION"  ] && precmd_functions+=(__vte_osc7)
-overlayroot_cfgdisk=LABEL=OROOTCFG
 What=/var/lib/snapd/snaps/snapd_8542.snap
 [mysql]
 # kFreeBSD do not accept scripts as interpreters, using #!/bin/sh and sourcing.
@@ -844,7 +833,7 @@ main
 #  e.g. the empty string or 0 or whatever. To disable it should not
 ”Z∏,„∞Àº*m66{ˇl⁄5°
 # vi: syntax=sh ts=4 noexpandtab
-DAEMON=/sbin/iscsid
+
   <policy context="default">
 
 DEVICE="/dev/urandom"
@@ -880,13 +869,12 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 $WorkDirectory /var/spool/rsyslog
               md5sum $statedir/isc-dhcp-v4-$interface.conf $statedir/isc-dhcp-v6-$interface.conf > $oldstate 2> /dev/null
               <Filename>gconf-editor.desktop</Filename>
-};
+/usr/local/lib/i686-linux-gnu
 XLoad.input:			false
   # per-user settings and dictionaries
   update_status_timer: 43200
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 X-GNOME-Bugzilla-Bugzilla=GNOME
-enabled=1
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 Ü√2Œ…yÀf˜R·Cdˇµ!£j[~=‡g·%1¯Å_á¸T0tÀ`(˛Üè+∏ú$‹ Òô <˚`CF’∂¸z¿œ¬Kbø˘©`8*_†àHÌÕ+ÿ:ø'‰Ÿè6‘0¡˛:gÒ#1¸}’˛‘`Ù ¡∏NW,«p“ Òo`ÒÏ_6dTm¡Ø¸,º$?Îêü
@@ -894,7 +882,6 @@ enabled=1
 #
 
 vm.mmap_min_addr = 65536
-
 
 
 grant {
@@ -946,7 +933,7 @@ danish          da_DK.ISO-8859-1
   missingok
 # directories are stored, each must have a trailing '/'. Directories added
 LP-PPA-ubuntu-mozilla-daily
-X-GNOME-HiddenUnderSystemd=true
+eval $(/usr/bin/locale-check C.UTF-8)
 # For more details, please see /etc/apparmor.d/local/README.
 NoDisplay=true
 scsi DEVCOM * Scanner
@@ -965,7 +952,6 @@ Ubuntu 20.04.5 LTS \n \l
 TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 
 #net/ipv6/conf/default/forwarding=1
-# You can also configure the backend for specific device files, but this
 # Compose sequences for CP1256
   <!-- <magic name="GIF" offset="0" target="GIF8"/> -->
 ## Where OPTIONS is the concatenation of all options previously defined
@@ -1052,8 +1038,7 @@ if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 -->
         %fixedAttr;
 # set this to 0 to disable apport, or to 1 to enable it
-# $ systemctl edit --full cron.service
-#include <tunables/securityfs>
+  audit deny @{HOME}/.init/{,**} wl,
 #scsi FCPA
 # This file is a simple placeholder to keep dpkg from removing this directory
 # DO NOT EDIT OR REMOVE
@@ -1106,7 +1091,7 @@ NoDisplay=true
 # This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
 
 #backwards compatibility include, actual abstraction moved from php5 to php
-### END INIT INFO
+ff02::2 ip6-allrouters
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
 
 eval $(/usr/bin/locale-check C.UTF-8)
@@ -1159,7 +1144,6 @@ EODMFj+BpdoDwAWhJcvyijoMV6N+gbCG+UedMNnpe25tlCRjouBSEF5KWJabejdh
 APT::Archives::MaxAge "30";
 ip6.tc		u16		net+0		0xFF0		4
   owner @{HOME}/.config/klanguageoverridesrc rw,
-request-timeout 5000
 
 Please read the update-alternatives(1) man page for information on this
 <Key>c: Select(children) \n\
@@ -1220,3 +1204,12 @@ D151962D954970501C60079258EBCFA38502E0A9F03CD640322B08C0A3117FE5
 #Optimize=compress-fast
 # Compose sequences for IBM1133
 		<family>monospace</family>
+*index.right:			ChainLeft
+    ;;
+# Global Order: zshenv, zprofile, zshrc, zlogin
+#
+# The ReconnectUUIDs defines the set of remote services that should try
+APT::Periodic::Update-Package-Lists "1";
+deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
+[Sources]
+# Last Modified: Sun Sep 25 08:58:35 2011
