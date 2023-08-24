@@ -64,7 +64,6 @@ Before=snapd.service
 # Compose sequences for ISO-8859-11
 #local stratum 10
 #    Copyright (C) 2012 Canonical Ltd.
-scsi "KINPO   " "Vividscan S120  "
 # Compose sequences for IBM1133
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
 # Rules for changing KDE settings (for KFileDialog and other).
@@ -160,7 +159,7 @@ compose '"' 'O' to 'Ö'
   /usr/bin/evolution Cx -> sanitized_helper,
 # /etc/xdg/user-dirs.defaults)
 # video device access
-
+# See https://bugs.launchpad.net/ubuntu/+source/procps/+bug/1068756
 /usr/local/lib/i386-linux-gnu
        bus=session
       may simply works to avoid it.
@@ -181,7 +180,6 @@ BatteryThreshold=10
 #
             . /usr/share/bash-completion/bash_completion
 
-    </default>
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 # Default-Start:     2 3 4 5
 			<family>STIX Two Math</family> <!-- AMS -->
@@ -233,7 +231,7 @@ PostInstallScripts=./xorg_fix_proprietary.py, /usr/lib/ubuntu-advantage/upgrade_
 # Defaults to true to maximize device compatibility.
 #    modify it under the terms of version 2 of the GNU General Public
 #
-# the shim loader is required to chainload the fwupd EFI binary unless
+    if [ $? -ne 0 ]; then
 
 
 {% for server in servers -%}# servers
@@ -342,7 +340,7 @@ max_allowed_packet	= 16M
 # HP Scanjet G2710
 # to update this file, run dpkg-reconfigure cloud-init
 	<alias binding="same">
-	done
+try:
 /HeiseiMin-W3 /Japanese-Mincho-Regular ;
 30 3 * * 0 root test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron
   <type name="Symbol" fullname="Symbol" family="Symbol" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/s050000l.afm" glyphs="/usr/share/fonts/type1/gsfonts/s050000l.pfb" version="0.1" encoding="AdobeCustom"/>
@@ -366,7 +364,7 @@ glibc-ld.so.cache1.1vÊñ@kMkpk„k®k»kŞkêkll:lDldlnll–l´lÁl
 # X12xx series
 alias.url += ("/javascript" => "/usr/share/javascript")
 
-
+Name=Print Queue Applet
 After=snap-lxd-18150.mount network.target snapd.apparmor.service
   /usr/bin/gnome-terminal ix,
 /Ryumin-Light /Japanese-Mincho-Regular ;
@@ -383,7 +381,7 @@ compose '\'' '\'' to '´'
 auth	required	pam_nologin.so
 @include common-session-noninteractive
 #
-        <test qual="any" name="family">
+
   /usr/bin/emacs-snapshot-gtk Cxr -> sanitized_helper,
 #   https://bugs.debian.org/858528
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
@@ -395,7 +393,6 @@ auth	required	pam_nologin.so
 #    modify it under the terms of version 2 of the GNU General Public
 BQJbAwPCAhsuASkJEAptzva0bz2/wF0gBBkBAgAGBQJbAwPCAAoJEL4e3StH4Ita
             break;
- FT~jO1ñ~Bt8es'îÆ|¸×¥:×˜¡œŒUÓÛKì@òÍnWÒb|W“±§mÍƒ»*çå¶;qX­ıÑE¼Z‘îSoÓE	unº]Ï7ß¨f±Œæ jïüHNt˜B¯)o.jÇû}Ñf1"Ì†~fƒBô½4’ÃêOÊ~rMpŒ¦H»¦¡öûXD™®ª“i )%J¥Ë+İŠfxWqìõG„ó17zÕ$­ä¼ııÌnƒè¨·Alİ½<†—/Ò-debian:staat_der_nederlanden_root_ca_-_g3.pem8P^úX.509x0‚t0‚˜¢90	*†H†÷0Z10	UNL10U
 
 .  el {
 auto
@@ -433,7 +430,6 @@ $x-display-manager gdm3
 # sending commands.
 /usr/bin/zsh
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
-
 
 [Install]
 </catalog>
@@ -485,7 +481,7 @@ ManagerResetTimeout=1800
 <!ATTLIST type version CDATA #IMPLIED>
   # Support the new executable helper from NetworkManager.
 #
-#    License published by the Free Software Foundation.
+# PAM service modules. This file is used only if that directory does not exist.
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
   #include <abstractions/ubuntu-console-email>
 		<default><family>fantasy</family></default>
@@ -504,7 +500,7 @@ ConditionPathExists=!/run/systemd/generator.early/multi-user.target.wants/cloud-
 
 #!/bin/sh
   /usr/bin/audacious2 Cxr -> sanitized_helper,
-
+*dashlist*ShapeStyle: rectangle
 usb 0x05da 0x30d4
 
 # deb-src http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
@@ -594,7 +590,6 @@ Name=Secret Storage Service
 twm
 		wpa_cli_do "$IF_WPA_SSID" ascii 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-# exit if non-interactive, csh, no terminal or old VTE versions
 image/jpeg; /usr/bin/display-im6.q16 -nostdin %s; test=test -n "$DISPLAY"
 CATALOG /usr/share/xml/docutils/catalog
     $DAEMON -D
@@ -645,7 +640,6 @@ run-parts /etc/ppp/ipv6-down.d \
 # Default backends, as chosen in the configure script. This will be used
 €
 
-XLoad.input:			false
 # usb <vendor-id> <device-id> <model-nr> <has-slide-transport>
 
 [Desktop Entry]
@@ -676,7 +670,6 @@ expand-check=0
 @include common-session-noninteractive
 0%äHØÕ™§‘ÆİÊöbòøÅ5vu÷—÷}ÍĞÈĞüĞ†ƒJmUFûQI@7gò½ÜÂëYò¿<dEå‹‹Ô‘Êc±/„É_2tÌBâèQ­¶šñ½ñ#L‡KßÕ'µ½K¨âüY²ì›1+çòE¦…é#	qŸëµäÛnÔ/D,óÙ¯—·"u3_€8Ñ-[º,­€ëˆÃˆ£ë9M°gpg´Nate Smith <vilmibm@github.com>°gpg‰Ô
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
-X-GNOME-Bugzilla-Bugzilla=GNOME
 
 # Docker Upstart and SysVinit configuration file
 # top-level (fixed) folder directory in camera.  Backend assumes
@@ -832,7 +825,7 @@ next-engine=['Alt+Shift_L']
 exit 0
 # PulseAudio is distributed in the hope that it will be useful, but
 kodak
-D6CEAE5D9E047FAF7D797858D229AC991AD44316D1E2A37A21926D763153593A
+# if ip.ihl > 5
 # Compose sequences for ISO-8859-8
 
 
@@ -891,7 +884,7 @@ includefile /etc/ntp/crypto/pw
 #X11UseLocalhost yes
       <fit>
 [Desktop Entry]
-# Compose sequences for GEORGIAN-PS
+        </sequence>
 ## The two single-column characters used to display the first characters
 # is not set. DLNA wants something between 5 and 15 seconds.
 Name=GNOME Settings Daemon's power plugin
@@ -947,7 +940,7 @@ application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
 # DO NOT EDIT OR REMOVE
 ::1 localhost.localdomain localhost
-# Legacy biarch compatibility support
+fi
 
        value is a keyword indicating what whitespace processing
 
@@ -999,7 +992,7 @@ Description=Mount unit for snapd, revision 8542
 <?xml version="1.0"?>
 #!/bin/sh
 allocation {
-
+URI_LTS = https://changelogs.ubuntu.com/meta-release-lts
     exit 0
 # (Replaces the use of /etc/limits in old login)
 
@@ -1056,7 +1049,7 @@ letter
   gdmtranslate="/usr/lib/gdm3/gdmtranslate"
 # vim:syntax=apparmor
 76A45A496031E4DD2D7ED23E8F6FF97DBDEA980BAAC8B0BA94D7EDB551348645
-#
+
             if /lib/console-setup/keyboard-setup.sh; then
   # firefox-notify
 /dev/scanner
@@ -1085,7 +1078,7 @@ constraint from "9.9.9.9"              # quad9 v4 without DNS
 1,43,74,6,184,113,233,204,128,0,0,0,255,255,255,255
       . /var/lib/fwupd/uefi_capsule.conf
 0x83 'Âƒ'
-#
+      may simply works to avoid it.
 # Authored by Openismus GmbH, 2009.
 # package *only* if it has not been modified since the last upgrade of that
 # installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
@@ -1128,7 +1121,7 @@ Ubuntu 20.04.5 LTS
 overlayroot_cfgdisk=LABEL=OROOTCFG
 alias gawkpath_append 'if (! $?AWKPATH) setenv AWKPATH ""; if ($AWKPATH == "") then; unsetenv AWKPATH; setenv AWKPATH `gawk -v x=AWKPATH "BEGIN {print ENVIRON[x]}"`; endif; setenv AWKPATH "$AWKPATH"":!*"'
 What=/var/lib/snapd/snaps/snapd_8542.snap
-DESKTOP-OFJN9OT
+#
 # kFreeBSD do not accept scripts as interpreters, using #!/bin/sh and sourcing.
 
 /usr/lib/i686-linux-gnu
@@ -1197,7 +1190,6 @@ LazyUnmount=yes
 	if set_background_image "${background}"; then
 # The PAM configuration file for the at daemon
 
-# vim:syntax=apparmor
   #
 trusted.SGI_DMI_*		skip		# xfs specific
 
@@ -1220,3 +1212,16 @@ enabled=1
 #
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
 †Ã2ÎÉyËf÷RáCdÿµ!£j[~=àgá%1ø_‡üT0tË`(ş†+¸œ$Ü ñ™Ê<û`CFÕ¶üzÀÏÂKbğ¿ù©`8*_ ˆHíÍ+Ø:¿'äÙ6Ô0Áş:ğgñ#1ü}ÕşÔ`ôÊÁ¸NW,ÇpÒ ño`ñì_6dTmÁ¯ü,¼$?ğëŸ
+do_bootloader = no
+# ---
+#!/bin/sh
+#
+
+<delegateSystem systemIdStartString="http://www.w3.org/Graphics/SVG/1.1/" catalog="file:///etc/xml/sgml-data.xml"/>
+
+# /etc/tidy.conf
+  # see LP: #1422521
+  <threshold map="threshold" alias="1x1">
+disable_flash_pq_bg_color=1
+
+usb 0x041e 0x4007
