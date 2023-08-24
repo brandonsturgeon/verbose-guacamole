@@ -34,7 +34,6 @@ audio/x-mpegurl=rhythmbox.desktop
 # by the included systemd service file.
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+disk [[:digit:]]+,( wo:[[:digit:]]+,)? o:[[:digit:]]+, dev:[[:alnum:]]+$
 /dev/scanner
-# to update this file, run dpkg-reconfigure cloud-init
   *)          exit 0 ;;
                 . /lib/lsb/init-functions
 
@@ -67,7 +66,7 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 #
-# deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
+X-GNOME-Autostart-Phase=Initialization
 
 
 previous-engine=@as []
@@ -117,7 +116,7 @@ scsi Nikon * Scanner
 # Compose sequences for TIS-620
 /dev/smpte*     rw,
 fi
-# IPMI_Processor_IERR                                          Critical
+  /usr/lib/NetworkManager/nm-dhcp-client.action mr,
 <?xml version="1.0"?>
 esac
 #
@@ -182,7 +181,7 @@ APT::Periodic::Download-Upgradeable-Packages "0";
 # FIRST_SYSTEM_[GU]ID to LAST_SYSTEM_[GU]ID inclusive is the range for UIDs
 
 
-^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel: imklog [0-9.]+, log source = /proc/kmsg started.$
+	start-stop-daemon --start --background $SSD_OPTIONS
 # Blacklist for apport
 # We can add new OIDs in here for use by 'ca', 'req' and 'ts'.
   /usr/share/enchant/enchant.ordering              r,
@@ -191,7 +190,7 @@ Name=GNOME Settings Daemon's housekeeping plugin
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 blacklist rivafb
 # inclusion by distributed profiles to aid in packaging AppArmor for
-[METARELEASE]
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 
 
 compose '"' 'O' to '÷'
@@ -237,7 +236,6 @@ Categories=System;Monitor;GTK;
 # For explanations see
 networkd_dispatcher_args="--run-startup-triggers"
 /usr/local/lib
-deb http://security.ubuntu.com/ubuntu/ focal-security universe
 # minclass = 0
 #
 # you can temporarily override this with
@@ -311,7 +309,7 @@ APT::Install::Post-Invoke-Success {
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 
 # $ systemctl edit --full cron.service
-#    Copyright (C) 2016 Canonical Ltd.
+# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
 
 SHELL=/bin/sh
 #hpsj5s.conf
@@ -355,7 +353,7 @@ deb {{mirror}} {{codename}}-updates main
 B8686723E415534BC0DBD16326F9486F85B0B0799BF6639334E61DAAE67F36CD
 # comment out the following line to allow CLOUDINIT messages through.
     STARTUP=x-window-manager
-#
+# Note: This policy has been deprecated in favor of the smq policy
 # If an executable path appears on any line in any file in
 	;;
 Exec=/usr/bin/gnome-keyring-daemon --start --components=pkcs11
@@ -453,7 +451,7 @@ order hosts,bind
 
 <?xml version="1.0"?>
 #/dev/scanner
-# If Hibernate isn't available, PowerOff will be used
+           send_member="GetAll"/>
 if [ -n "$DESKTOP_SESSION" ]; then
 
 #############################################################################
@@ -710,7 +708,6 @@ LP-PPA-ubuntu-mozilla-daily-firefox-aurora
 # [If you don't know about libcap, the sources for it are here:
 #GRUB_DISABLE_LINUX_UUID=true
 GRUB_TIMEOUT=0
-brandon:100000:65536
 #2	inr.ruhep
 -server KNOWN
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -720,7 +717,6 @@ smproxy
 session       required   pam_env.so envfile=/etc/default/locale
   /etc/drirc                      r,
 DESKTOP-OFJN9OT
-# /etc/modprobe.d/iwlwifi.conf
 
 993	# imaps
 			set_network altsubject_match2 wpa-altsubject-match2
@@ -731,7 +727,6 @@ DESKTOP-OFJN9OT
 [Desktop Entry]
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 #    This program is free software; you can redistribute it and/or
-scsi EPSON Perfection600
 	small = {
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 	        Shift<Btn5Down>,<Btn5Up>: Page(Line,1) \n\
@@ -758,7 +753,7 @@ ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 
 scsi ULTIMA
-TRILL		22F3		# TRILL [RFC6325]
+image/miff; display-im6.q16 'miff:%s'; test=test -n "$DISPLAY"
 
 
     $DAEMON -D
@@ -779,7 +774,7 @@ letter
 # many PAM applications don't make it available by the time you need it.
 # in your $ZDOTDIR/.zshenv
 #  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
-                <!-- check to see if the font is just regular -->
+         if [ -x "$scriptFile" ]; then
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 
 // When Apt's cache is updated (i.e. apt-cache update)
@@ -932,7 +927,7 @@ FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
 #
 #RUN_DAILY=true
     </levels>
-    xhost +si:localuser:`id -un` > /dev/null
+#    modify it under the terms of version 2 of the GNU General Public
   /usr/bin/libreoffice Cxr -> sanitized_helper,
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 ENABLE_UPDATES_FLAGFILE="${RUN_DIR}/enable-updates"
@@ -950,7 +945,6 @@ fs.protected_symlinks = 1
 All executable files in this directory are processed in shell expansion order.
 10 3 * * * root test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r
     create 0664 root utmp
-{% endif -%}
       We shouldn't overwrite it with "assign" unconditionally.
   # Text editors (It's All Text [https://addons.mozilla.org/en-US/firefox/addon/4125])
 #
@@ -1046,12 +1040,10 @@ XClock.Clock.majorColor:	rgba:7f/00/00/c0
 
 @{PROC}/@{tid}/attr/{current,exec} w,
 exit 0
-\340\346\347\353\356\360\361\363\371\375\
 # PulseAudio is distributed in the hope that it will be useful, but
   <!ELEMENT policy EMPTY>
 D6CEAE5D9E047FAF7D797858D229AC991AD44316D1E2A37A21926D763153593A
 Exec=/usr/libexec/gsd-a11y-settings
-    apport_python_hook.install()
 
 
 # world order where the prompt function is requested separately.
@@ -1094,7 +1086,7 @@ commands scan this directory processing all files that end in '.conf'.
   xhost +si:localuser:$(id -un) || :
 <?xml version="1.0" encoding="UTF-8"?>
 # Compose sequences for TIS-620
-
+S· éÛ:]C+º›ò∑MÃ÷G˛pÇÙ£„◊?é“«ùMî±‡„@á“¸≥w>Ç≠ü¬œçèM?€ÉXèìYäÆKe>(pÎ9lÇå√nœŒå,<ÕôzV@q-N˙„”ó˛‘x‘ì÷`î~ju©‰—]bz1z¸'”N} ∆a?t®Q}‹ÕÔ”P[ƒˇÑ!çøˆÿà=∫›
 _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ¬}|·Aÿè¡~xûÑß‡yx^”®¡ÀÑ^ÅW·5q0o^∆…õ»ﬂÇo√w‡{ºﬂáw‡á3¯¸|ÑˇÉN òΩ∞ŒÉÛa∂¬u–ÑgÈëw!G+Ê¿\»√<ËÑU–wCb⁄Î‘/9Ì¸6Úi8⁄a&‰`éZÉ‡HX˝p"îa™p‘‡d®√∞ŒÇ≥a3ú¿E1¯8\◊¿µ0ÆæG›Á¿ëºo√;ê"~:ÃÄC Û‘ö]P	G¡Ò∞ŒÖK·£p9\•Ê,s7	3‡ËÑ˘PÅMp&å¿V∏˛˛>	ÔÉ†åiêÖ√`6X=∞éÖ%∞V¬	PÇ50k·Tÿg¬6∏vÄP=§·PòG@Ê¿ëp,Ü£·8ñ¿RX«¡JËÉU–'@	NÑ’p2úk·TXß¡zÜ”·8∂¿πpúª‡&¯$≥ÁSp¸%|˛
 .\" Put any local modifications to doc.tmac here.
 # @{PROC} is the location where procfs is mounted.
@@ -1104,7 +1096,7 @@ _ßîã®œÖPCÑxWÁyœœxÒ<Ó%|´‹K≠6´o2∫n‰ãüÅ∂¬_„ˆ¿ó·Œ‰B‚øBË<œ√*‹ÅVˆ¬A|ΩÊ
     <edit name="hintstyle" mode="append"><const>hintnone</const></edit>
 #    This program is free software; you can redistribute it and/or
 XLogo*background: rgb:d2/22/32
-### List of USB device IDs
+
 
   owner @{HOME}/.local/share/RecentDocuments/*.lock rwk,
 
@@ -1187,7 +1179,7 @@ X-GNOME-AutoRestart=true
 wifi.powersave = 3
 fi
 # the value to YES
-  ##include <abstractions/openssl>
+
   /usr/bin/f-spot Cxr -> sanitized_helper,
 RUN_AS_USER=saned
 application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
@@ -1198,7 +1190,6 @@ application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
 # Legacy biarch compatibility support
 
        value is a keyword indicating what whitespace processing
-ô
 
 esac
 .  \" command-line options.  Uncomment this if you want to make sure that
@@ -1217,3 +1208,15 @@ usb 0x04c5 0x14e3
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
 Terminal=false
   /usr/bin/prism Cx -> sanitized_helper,
+)ó…∏¶Fçû|O#e◊p"^˝Lñ@hNnW.ßüâÑ˜I∑R1„CÎØË«ßr›∫e3Z™â¥JﬁÂ|"ÙüìÓ(÷jM«q¸OW*ïÒD"a‚Ûd∑˙ªI'‘É]%+^ÖÀ‰w˙"57’‰†π¥'„fRN"“˙PIíJX'Ë_’?CõÜáá◊πùÒ˘¢eUwØ˛„A~ZX	Íª≥¶ıW€iµ_•h∆‰äï]8^U^Ôs˛˜ f¯˙˙üÔxÆVÛıQ≠’◊èå¨Ø◊¸Ù„ö¶º±±Õõ√Ú™££√√CCÉÉ’Pøˆ¸Û⁄≠ürõ«J…0æ^´U√¸ïﬁtb
+  owner @{HOME}/.cache/qt_compose_cache_{little,big}_endian_* r, # for "platforminputcontexts" plugins
+	. "/etc/default/${NAME}"
+0	default
+# /etc/modules: kernel modules to load at boot time.
+        *:up) exec cloud-init dhclient-hook up "$1";;
+
+56f12ada18a3412ab1f9dcd69450be95
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
+# Compose sequences for TIS-620
+logdir /var/log/chrony
+libXvMC.so.1
