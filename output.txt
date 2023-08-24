@@ -5,7 +5,7 @@ NoDisplay=true
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
     // There is no restriction to any algorithms.
-# IRQBALANCE_ARGS
+/Song-Medium /GBZenKai-Medium ;
 #DUIDType=vendor
 /bin/sh
 # Compose sequences for CP1255
@@ -40,7 +40,7 @@ audio/x-mpegurl=rhythmbox.desktop
 # one second, but only in the first three clock updates.
 [ ! -r "$stamp" ] || cat "$stamp"
 # Configuration file for the hp4200 backend
-# Example to customize the SimpleFormatter output format 
+# In this case, you should also set the "nodefgroup" option.
 ; default-dbus-server =
 #
 		</edit>
@@ -52,7 +52,6 @@ mode="${1#'}"
 #FallbackNTP=ntp.ubuntu.com
   #include <abstractions/opencl-nvidia>
 {
-# usb 0x4b8 0x14c
 ### that look up the default sink/source get the right value
 datasource meta-data and user-data.
 # Compose sequences for VISCII
@@ -206,7 +205,6 @@ compose '"' 'O' to 'Ö'
 # ------------------------------------------------------------------
 #
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
-# Compose sequences for CP1256
 <!-- Accept bitmap fonts -->
 # security of the host and prevent against some network attacks
 <delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
@@ -256,14 +254,14 @@ CATALOG /usr/share/xml/docutils/catalog
 # Compose sequences for GEORGIAN-PS
 [Distro]
 
-CHARMAP="UTF-8"
+## skip cached policy
 # (you may need to remove these refusals if the server is not using MPPE)
 
 # List of modules that you want to include in your initramfs.
 
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 usb 0x03f0 0x0105
-       path="/com/canonical/hud",
+# here are appended to @{HOMEDIRS}.  See tunables/home for details. Eg:
 # The default is 900 (15 minutes).
 # ctrll shiftl alt keycode 36 = Incr_Console
            "booktitles.ent">
@@ -284,7 +282,7 @@ usb 0x03f0 0x0105
 # Defaults to true to maximize device compatibility.
 #    modify it under the terms of version 2 of the GNU General Public
 #
-IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
+# the shim loader is required to chainload the fwupd EFI binary unless
 gtk-theme-name = Yaru
 PICTURES=Pictures
 
@@ -294,7 +292,6 @@ PICTURES=Pictures
   /usr/bin/apport-bug Cx -> sanitized_helper,
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
   <description>Load local customization file</description>
-	û„?'/[nı‚ÂŸ^P¦PkÎEâ@GÀÆ–‹Ûmé.Hl9>Ï™8ğÀpªâY¼ÀBÁ‹s¥¤@7 {1béûe¶O³=Äï ßÍExY?-·29¬)‚™ôÏòêÌ¥xÅo“ş·ÛmGùM³“’ŞZUây0#;ñ¥§«H(ÿö·;°¿ªYâC$«VtĞ[€…¤´;jx…Å•Ø#`åşÇTMóVŞ-PíDºSB$BÁFhã›Ò±ó÷f`Íœ^ç!4f&u™æ7‹#Qtw0‘ø$T1]¯G÷…Q–È*ĞMù{ûˆ$‹Ñ?r›İÑ4hsØÑAØŒ&	4ƒbWÍš”øØb¶ìù•G¸´ßªÃózÏíT8(Ø÷:viªd£E­n¿åg€:ËeÑ	hFn`DÂ}ÜM@‡ä	E[Œ@Z³ÒsÙY<pf ™!.­hŠ_ÉöV$ˆ·òQm7ß”ÍóÆ}÷è/Cà2Hnñ“şT3ôO5ã¤	9{Qn34 cô²0;Pš#R‹~ug^{ä–lmƒ±Èüâ/”jòÿyæ	Yä¿Z«ÆÍœìØº1U,¥²Q¤bĞÛØ[x#Î=’o¶ÏÙJ€Zü¾‰^Q£‹C
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
 usb 0x08f0 0x0002
 # DO NOT EDIT OR REMOVE
@@ -327,7 +324,7 @@ NoDisplay=true
 			<family>padmaa</family> <!-- gujarati -->
 deb {{mirror}} {{codename}} multiverse
 ## serial port or special bus peripheral. The particular  
-	notifempty
+
 # Rules for writing KDE icon cache
   the ImageMagick option
 # IPMI_Drive_Slot_Transition_Severity_Transition_To_OK                                 Nominal
@@ -437,7 +434,7 @@ deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg]     https://ap
    "URL": "https://launchpad.net/~%s/+sshkeys"
 
 
-			for N in $new_dhcp6_name_servers ; do
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 order hosts,bind
   # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
@@ -478,7 +475,7 @@ compose '\'' '\'' to '´'
 #
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 ## invoking user was bestowed with some inheritable capabilities by a
-Acquire::http::User-Agent-Non-Interactive "true";
+        <test qual="any" name="family">
 d /run/screen 1777 root utmp
 #   https://bugs.debian.org/858528
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
@@ -503,7 +500,6 @@ auto
 <delegatePublic publicIdStartString="ISO 8879:1986//ENTITIES" catalog="file:///usr/share/xml/entities/xml-iso-entities-8879.1986/catalog.xml"/>
 		exit 1
 CATALOG /usr/share/sgml/dtd/xml-core/catalog
-
 [Desktop Entry]
 # can attach to any other dumpable process owned by the same user.  In the
 #
@@ -512,7 +508,6 @@ search updates ubuntu built-in
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 auth		sufficient	pam_rootok.so
 -dcevm KNOWN
-scsi TAMARACK
 # i.e. for Plustek (0x07B3) U1212 (0x0001)
 
     <edit name="hinting">
@@ -522,7 +517,6 @@ scsi TAMARACK
 # netboot - Add the base modules, network modules, but skip block devices.
        path="/com/canonical/indicator/messages/*",
      o General entity declarations of any kind.  For example:
-# information is printed). To change the default behavior, uncomment
 }
  - disk_setup
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
@@ -641,7 +635,7 @@ usb 0x05da 0x30d4
      <patelt name="scalable"><bool>false</bool></patelt>
 the exact distribution terms for each program are described in the
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( [ *[[:digit:]]+.[[:digit:]]+])?[[:space:]]+Operation continuing on [[:digit:]]+ devices?$
-
+    PYTHON=python
 #
 #    modify it under the terms of version 2 of the GNU General Public
 TryExec=im-launch
@@ -680,7 +674,7 @@ commands scan this directory processing all files that end in '.conf'.
 # /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
 CRYPTDISKS_ENABLE=Yes
        peer=(addr="@/tmp/dbus-*"),
-# will be used
+<!DOCTYPE busconfig PUBLIC
 scsi "B&H SCSI"
 			<family>Noto Serif CJK KR</family>
 #publish-domain=yes
@@ -866,7 +860,7 @@ Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-se
 # uncomment to set the default look and feel to GTK
 #    This program is free software; you can redistribute it and/or
 NoDisplay=true
-mv -f "$REALRESOLVCONF.tmp" "$REALRESOLVCONF"
+fi
 geoclue:x:115:122::/var/lib/geoclue:/usr/sbin/nologin
 # vim:syntax=apparmor
 
@@ -904,7 +898,7 @@ if enabled in cloud-config.  Specifically, in order to enable it
 
 # There are two different methods of configuring a USB scanner: libusb and the kernel module
     ;;
-
+    <!-- org.freedesktop.ModemManager1.Modem.Voice.xml -->
 	nocreate
 {# The value '{{hostname}}' will be replaced with the local-hostname -#}
 mQENBFUr0UoBCACsdOLuTJ81dICrSvUhyznBsL4WgEa2RUbEjJuaXwrEyPMikHE1
@@ -1009,7 +1003,7 @@ else
 #hwtimestamp *
 case "$1" in
 /Japanese-Mincho-Regular-JaH << /FileType /TrueType /Path (/usr/share/fonts/truetype/ttf-japanese-mincho.ttf) /SubfontID 0 /CSI [(Japan2) 4] >> ;
-scsi "K.M.E.  " "KV-SS25A        "
+ZV3nXxswKPrcsqQ+KP9iUwq3V2oio46bvHiMMoZSGCaTv4yiKOliFOMYr9NAOSTZ
 			<string>AR PL ZenKai Uni</string>
 #disable = rpm, selinux, dovecot
 # ------------------------------------------------------------------
@@ -1026,7 +1020,7 @@ next-engine=['Alt+Shift_L']
 XClock.Clock.majorColor:	rgba:7f/00/00/c0
 
   /sys/devices/pci*/**/{,subsystem_}device r,
-
+*quit.top: 			ChainTop
 @{PROC}/@{tid}/attr/{current,exec} w,
 exit 0
 # PulseAudio is distributed in the hope that it will be useful, but
@@ -1035,7 +1029,6 @@ D6CEAE5D9E047FAF7D797858D229AC991AD44316D1E2A37A21926D763153593A
 Exec=/usr/libexec/gsd-a11y-settings
 
 
-# world order where the prompt function is requested separately.
 if [ -d "$HOME/.local/bin" ] ; then
 source_with_error_check () {
 		<edit name="hinting">
@@ -1166,7 +1159,6 @@ grant {
 X-GNOME-HiddenUnderSystemd=true
 X-GNOME-AutoRestart=true
 wifi.powersave = 3
-fi
 # the value to YES
 
   /usr/bin/f-spot Cxr -> sanitized_helper,
@@ -1183,7 +1175,6 @@ application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
 esac
 .  \" command-line options.  Uncomment this if you want to make sure that
 security.overridePropertiesFile=true
-
 
 #
 			<bool>true</bool>
@@ -1222,3 +1213,15 @@ Name=GNOME Settings Daemon's xsettings plugin
 application/vnd.sun.xml.writer							sxw
 if [ "$IM_CONFIG_PHASE" = 1 ]; then
 
+#
+# mibdirs /usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf
+		<test name="family" compare="contains" >
+/dev/scanner
+#
+#
+
+#
+
+# real-time clock. Note that it canâ€™t be used along with the 'rtcfile' directive.
+
+  <match target="pattern">
