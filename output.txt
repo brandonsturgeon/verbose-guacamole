@@ -38,7 +38,7 @@ audio/x-mpegurl=rhythmbox.desktop
 # In this case, you should also set the "nodefgroup" option.
 #
 		</edit>
-[Desktop Entry]
+#Samsung CLX-3170 Series: Samsung CLX-3170fn & CLX-3175FW
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #    This program is free software; you can redistribute it and/or
@@ -158,14 +158,14 @@ case "${1}" in
 	<alias>
 
 	start-stop-daemon --start --background $SSD_OPTIONS
-# Blacklist for apport
+#scsi hp
 ApprovalRequired=false
   /usr/share/enchant/enchant.ordering              r,
 Name=GNOME Settings Daemon's housekeeping plugin
 	log_end_msg $?
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-
+                . /lib/lsb/init-functions
 compose '"' 'O' to 'Ö'
   /usr/bin/evolution Cx -> sanitized_helper,
 # /etc/xdg/user-dirs.defaults)
@@ -186,17 +186,17 @@ brandon:100000:65536
 };
   # Xlibs
 
-
+<!--
 BatteryThreshold=10
 # If set to all update-initramfs will update all initramfs
 #
             . /usr/share/bash-completion/bash_completion
-APT::Update::Post-Invoke-Success { "[ ! -f /var/run/dbus/system_bus_socket ] || /usr/bin/dbus-send --system --dest=org.debian.apt --type=signal /org/debian/apt org.debian.apt.CacheChanged || true"; };
+
     </default>
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 # Default-Start:     2 3 4 5
 <!-- You can edit this file to add the following:
-			<string>serif</string>
+			<family>STIX Two Math</family> <!-- AMS -->
 #
 set -e
 Categories=System;Monitor;GTK;
@@ -208,7 +208,6 @@ networkd_dispatcher_args="--run-startup-triggers"
 # you can temporarily override this with
 
 fi
-
 
 |y+ÃÉ?4O›¶Ş¦°òãÿ*-¸Š·ÙJ-º7ªå¸Îí0KO›Ñ„=ûºëÈHÑ`.‹íZ"MAM„s¶ÌS®¼y£6ÄÎÁÅWm"ÀÔ‘‘ÅßİÍç]²{ÄÙ {§¦;Ö[AçŒm»Hºun¯‰³CÍoào*gƒOÍºÖU¡BĞñ	û×t ãhHZš%’½›½{¢¿KGC!3E´,Launchpad PPA for Roberto Mier EscandÃ³n îƒ¿‰8"ZÂfS		
 <?xml version="1.0" encoding="UTF-8"?>
@@ -279,8 +278,7 @@ log_cfgs:
 #    Copyright (C) 2010 Canonical Ltd.
 #    License published by the Free Software Foundation.
 p|ªÒš)sõg£áöËÈó[znpêDKÔä6z¤VX’ÛõñÛnå[Çm·õa2ëy~·”Rì›z,‡Åv×'ğ&’jÏåÔvâä`s½ÿÖ˜ÇõBoÒRòú¸:òíŞ¯åk£¬nXA¢¸Æ¢Îv©Ø¨Yš™ ~êrje‡K:’|¦¹X­Ú*çx¿Rön/…MÛ•¤cUE2'¶ÿ©8ÜK)o~WPN‘ÚOœFc|<ºNûûE3bH$ÀøJ'Ê¹-ñrOJµ‘‚¹ñ¦s‹AŞ^ï%B«,>QNCbÛ|½f`>;qCàÓOV°k@V:	Ñ¡EHÇ]ÃVÌcÿ=®Á`Kœ0¸Áwt6EˆìC…:™îÃ§Zíf¤Yş†qyÃX5Z |éŠ ¥úäÛW©
-NoDisplay=true
-#pam_deny.so as appropriate.
+
   file. For example, the PNG coder module not only supports the PNG image
 .  " signs in manual pages, so map it to plain "-" for HTML/XHTML output
 #   distributed under the License is distributed on an "AS IS" BASIS,
@@ -302,7 +300,6 @@ type=file
 deb {{mirror}} {{codename}}-updates main
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 # The options are only meaningful if the backend was
-    STARTUP=x-window-manager
 # Note: This policy has been deprecated in favor of the smq policy
 # If an executable path appears on any line in any file in
 	;;
@@ -381,7 +378,6 @@ max_allowed_packet	= 16M
 APT::Update::Post-Invoke-Success {
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 mozilla/SecureSign_RootCA11.crt
-  # for libOpenCL.so -> beignet/libcl.so -> libpciaccess.so
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 glibc-ld.so.cache1.1vÊñ@kMkpk„k®k»kŞkêkll:lDldlnll–l´lÁlälólm'mLm[m€m‘m¸mÉmğmım n+nLn^n†n“n¶nÁnânòno0o^okoo›o¾oĞoøop.p@phpzp p¶pâpîpqq<qKqpq€q¦q¹qâq÷q"r5r^ror–r§rÎrŞrss>sNsts‡s°sÈsöst0tDtnt‚t¬t¾tætøt u0uVuguuŸuÆuØuvv6vOv~v—vÆvävw4wfw~w¬wÊwşwxHx`xx¨xØxñx y9yhyy°yÉyøyz8zEzhzuz–z«zÖzëz{.{{p{š{ª{Ğ{İ{||8|U|ˆ|¨|Ş|î|}&}N}[}~}–}Ä}Õ}ü}~@~T~~~’~º~Ñ~ş~@W„›ÆÖü
 
@@ -428,7 +424,6 @@ BQJbAwPCAhsuASkJEAptzva0bz2/wF0gBBkBAgAGBQJbAwPCAAoJEL4e3StH4Ita
             break;
  FT~jO1ñ~Bt8es'îÆ|¸×¥:×˜¡œŒUÓÛKì@òÍnWÒb|W“±§mÍƒ»*çå¶;qX­ıÑE¼Z‘îSoÓE	unº]Ï7ß¨f±Œæ jïüHNt˜B¯)o.jÇû}Ñf1"Ì†~fƒBô½4’ÃêOÊ~rMpŒ¦H»¦¡öûXD™®ª“i )%J¥Ë+İŠfxWqìõG„ó17zÕ$­ä¼ııÌnƒè¨·Alİ½<†—/Ò-debian:staat_der_nederlanden_root_ca_-_g3.pem8P^úX.509x0‚t0‚˜¢90	*†H†÷0Z10	UNL10U
 
-# Uncomment the following line if you'd like all of your users'
 .  el {
 auto
 
@@ -492,14 +487,14 @@ LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
 quote-names
 	bootdir=$(dirname "$2")
 		grub-editenv /boot/grub/grubenv unset recordfail
-	didn't include the right instructions in the 'prep' table.
+#
 # in login shells. It should be used to set the terminal
 #canon.conf
 brandon:100000:65536
 Kernel system variables configuration files
 # Compose sequences for GEORGIAN-PS
 . /usr/share/bash-completion/bash_completion
-		</test>
+	</alias>
 system-db:ibus
 
 scsi RICOH
@@ -578,7 +573,7 @@ BACKSPACE="guess"
   notifempty
 # e2fsck_opts="-vtt"
 
-
+#!/bin/sh
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 X-Desktop-File-Install-Version=0.24
@@ -596,7 +591,6 @@ allocation {
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
 #   Please see the documentation for "systemd drop-ins":
 GRUB_DEFAULT=0
-   # Find out all the non-loopback up interfaces. Use ip if available
 #
     <allow send_interface="org.freedesktop.DBus.Properties"/>
 # /etc/passwd file.
@@ -646,7 +640,6 @@ CATALOG /usr/share/xml/docutils/catalog
     $DAEMON -D
 0xA6 'Â¦'
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
 # Ensure base distro defaults xdg path are set if nothing filed up some
 datasource_list: [ NoCloud, ConfigDrive, OpenNebula, DigitalOcean, Azure, AltCloud, OVF, MAAS, GCE, OpenStack, CloudSigma, SmartOS, Bigstep, Scaleway, AliYun, Ec2, CloudStack, Hetzner, IBMCloud, Oracle, Exoscale, RbxCloud, None ]
 # Copyright (c) 1996, 2000, Oracle and/or its affiliates. All rights reserved.
@@ -672,7 +665,7 @@ compose '<' '<' to '«'
       <ppdname match="(foomatic(-db-compressed-ppds)?|ijsgutenprint.*):.*-gutenprint"/>
 XLogo*foreground: rgb:d7/d7/d7
 
-  owner @{HOME}/.adobe/** rw,
+};
 fi
 
 #
@@ -725,7 +718,7 @@ expand-check=0
 
 		</test>
 #    Randomly generated passwords are generated by calculating the sha512sum
-/ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
+
 <fontconfig>
 @include common-session-noninteractive
 0%äHØÕ™§‘ÆİÊöbòøÅ5vu÷—÷}ÍĞÈĞüĞ†ƒJmUFûQI@7gò½ÜÂëYò¿<dEå‹‹Ô‘Êc±/„É_2tÌBâèQ­¶šñ½ñ#L‡KßÕ'µ½K¨âüY²ì›1+çòE¦…é#	qŸëµäÛnÔ/D,óÙ¯—·"u3_€8Ñ-[º,­€ëˆÃˆ£ë9M°gpg´Nate Smith <vilmibm@github.com>°gpg‰Ô
@@ -889,7 +882,6 @@ deb {{mirror}} {{codename}}-updates universe
 next-engine=['Alt+Shift_L']
   owner @{HOME}/.nv/ComputeCache/** rw,
 # Compose sequences for KOI8-U
-XClock.Clock.majorColor:	rgba:7f/00/00/c0
 
   /sys/devices/pci*/**/{,subsystem_}device r,
 *quit.top: 			ChainTop
@@ -912,7 +904,6 @@ iqYzQybe1JF0McO4C0dmjdKQz2qm0XrQyNhVABEBAAG0LkxpbnV4IFZlbmRvciBG
 #
 # The values are relative pathnames from the home directory and
 <!-- Delicious 'heavy' variant says its Medium weight -->
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
   /usr/include/X11/**             r,
            send_member="GetAll"/>
 # IPMI_OS_Boot_Base_OS_Hypervisor_Installation_Started   Nominal
@@ -938,7 +929,7 @@ _§”‹¨Ï…PC„xWçyÏÏxñ<î%|«ÜK­6«o2ºnä‹Ÿ¶Â_ãöÀ—áÎäBâ¿Bèğ<ÏÃğ*ÜVöÂA|½æ
 # @{PROC} is the location where procfs is mounted.
       . $i
 
-# time-of-check-time-of-use cross-privilege attacks using guessable
+# javax.sound.sampled.Clip
 letter
 #    This program is free software; you can redistribute it and/or
 XLogo*background: rgb:d2/22/32
@@ -1013,7 +1004,7 @@ Type=Application
 # the value to YES
 
   /usr/bin/f-spot Cxr -> sanitized_helper,
-RUN_AS_USER=saned
+
 application/x-spkac; /usr/bin/gcr-viewer %s; test=test -n "$DISPLAY"
 
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
@@ -1034,7 +1025,6 @@ security.overridePropertiesFile=true
     <test name="family">
 # vmtoolsd.level = none
 # file to <gdmconfdir>/PostLogin/Default for this script to be run.  This
-Terminal=false
   /usr/bin/prism Cx -> sanitized_helper,
 #0x37b	# /dev/lp0
 	. "/etc/default/${NAME}"
@@ -1046,7 +1036,7 @@ Terminal=false
 # Compose sequences for TIS-620
 libXvMC.so.1
 # Site-specific additions and overrides for usr.bin.firefox.
-NoDisplay=true
+# Specify the key identifier to use with the ntpdc utility.
 # See Xsession.options(5) for an explanation of the available options.
 # scopev4  <mask>  <value>
 #!/bin/sh
@@ -1057,7 +1047,7 @@ Name=GNOME Settings Daemon's xsettings plugin
 application/vnd.sun.xml.writer							sxw
 if [ "$IM_CONFIG_PHASE" = 1 ]; then
 
-#
+esac
 		<test name="family" compare="contains" >
 Description=Mount unit for snapd, revision 8542
 #
@@ -1171,7 +1161,6 @@ constraint from "9.9.9.9"              # quad9 v4 without DNS
 #
 # Authored by Openismus GmbH, 2009.
 # package *only* if it has not been modified since the last upgrade of that
-	  <default>
 # installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
 # Provides:          uuidd
     is_azure
@@ -1209,3 +1198,11 @@ DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 <?xml version="1.0"?>
 Ubuntu 20.04.5 LTS
     [ -n "$ZSH_VERSION"  ] && precmd_functions+=(__vte_osc7)
+#    License published by the Free Software Foundation.
+compose '|' 'c' to '¢'
+
+What=/var/lib/snapd/snaps/snapd_8542.snap
+DESKTOP-OFJN9OT
+# kFreeBSD do not accept scripts as interpreters, using #!/bin/sh and sourcing.
+
+/usr/lib/i686-linux-gnu
