@@ -15,7 +15,6 @@ vrrp	112	VRRP		# Virtual Router Redundancy Protocol [RFC5798]
 # This file is a simple placeholder to keep dpkg from removing this directory
 xterm
 # libc default configuration
-#ftp             hard    nproc           0
 scsi DEVCOM * Scanner
 
 Alias /javascript /usr/share/javascript/
@@ -62,7 +61,6 @@ post-invoke=if { test "$DPKG_HOOK_ACTION" = add-architecture || test "$DPKG_HOOK
 		invoke-rc.d rsyslog rotate >/dev/null 2>&1 || true
 # deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
 mode="${1#'}"
-    fi
 # ~/.bash_logout: executed by bash(1) when login shell exits.
 #    This program is free software; you can redistribute it and/or
 #FallbackNTP=ntp.ubuntu.com
@@ -83,7 +81,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 #
             # According to hfu, "/etc/init.d/networking restart" on Debian 5.0
 # deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
-ports=22/tcp
+
 
 previous-engine=@as []
 APT::Periodic::AutocleanInterval "0";
@@ -95,7 +93,7 @@ Before=snapd.service
 # Compose sequences for ISO-8859-11
 #    License published by the Free Software Foundation.
 #    Copyright (C) 2012 Canonical Ltd.
-
+scsi "KINPO   " "Vividscan S120  "
 # Compose sequences for IBM1133
 # vim:noet
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
@@ -113,7 +111,6 @@ deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.
 XLoad.input:			false
 aXJtd2FyZSBTZXJ2aWNlIDxzaWduQGZ3dXBkLm9yZz6JATcEEwEIACEFAlWt/98C
 # Compose sequences for TIS-620
-#
 MANPATH_MAP	/opt/sbin		/opt/man
 if [ -f "/snap/bin/canonical-livepatch" ]; then
 fi
@@ -212,7 +209,6 @@ scsi APPLE
 # device group names
     permission java.util.PropertyPermission "java.class.version", "read";
 
-	# Configuration option local/system_id.
 # For more details, please see /etc/apparmor.d/local/README.
 
 #
@@ -263,7 +259,6 @@ compose '"' 'O' to '÷'
        bus=session
       may simply works to avoid it.
 # matches), NONE (matches no tty on non-networked logins) or
-      We shouldn't overwrite it with "assign" unconditionally.
 #     then changes to /home will go through to the original device.
 # Read man sane-mustek_usb for documentation
 # usb vendor product
@@ -299,7 +294,6 @@ DAEMON="/lib/systemd/systemd-udevd"
 #
 	The Bistream Vera fonts have GASP entries suggesting that hinting be
 Categories=System;Monitor;GTK;
-	rotate 4
 
 # MODEL
 networkd_dispatcher_args="--run-startup-triggers"
@@ -319,7 +313,7 @@ connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 PasswordAuthentication no
 token: QsX1B74cDa88lywIYe3e10B62DaNW6uOF1C8Kh8EAWjnOIBb4zaJsn8dpib453bE
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
-    <allow own="org.freedesktop.Avahi"/>
+
 # cloud-init. They are read in lexical order. Later files overwrite values in
 |y+√…?4Oõç∂ﬁ¶∞Ú„ˇ*-∏ä∑ŸJ-∫7™Â∏ŒÌ0KOÅõ—Ñ=˚∫Î»H—`.ãÌZ"MAMÑs∂ÃSÆºy£6ƒŒ¡≈Wm"é¿‘ëë≈ﬂ›ÕÁ]≤{ƒŸ†{ß¶;÷[AÁåmªH∫unØâ≥CÕço‡o*gÉOÕ∫÷U°B–Ò	˚◊t†„hHZö%íΩõΩè{¢øKGC!3E¥,Launchpad PPA for Roberto Mier Escand√≥n ÓÉøâ8"Z¬fS		
         This is a copy of the Bistream Vera fonts fonts rule, as DejaVu is
@@ -374,7 +368,6 @@ IFJlc2VhcmNoIEluc3RpdHV0aW9ucyBDZXJ0LiBBdXRob3JpdHkxQDA+BgNVBAMT
 gtk-theme-name = Yaru
 PICTURES=Pictures
 /dev/scanner
-  missingok
 
   <!ELEMENT threshold (description,levels)>
 /MKai-Medium /ZenKai-Medium ;
@@ -387,7 +380,6 @@ PICTURES=Pictures
 scsi FCPA
 	    linux_entry "${OS}" "${version}" "${xen_version}" simple 
        path=/org/freedesktop/Notifications
-/usr/lib/firefox/firefox
 # DO NOT EDIT OR REMOVE
 # This is the chat script used to dial out to your default service provider.
 <delegatePublic publicIdStartString="-//Norman Walsh//ENTITIES DocBook XML Additional General Entities V4.0//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.0/catalog.xml"/>
@@ -406,7 +398,6 @@ deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/no
 MetadataURI=https://cdn.fwupd.org/downloads/firmware-testing.xml.gz
 
 SHELL=/bin/sh
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 			<family>Noto Serif CJK TC</family>
 which=news
 </fontconfig>
@@ -478,7 +469,7 @@ sysresources=/etc/X11/Xresources
   dbus (send)
 #
 #!/bin/sh -e
-}
+
 # should contain commands that should be executed only
   . "$USERXSESSIONRC"
 # particular interface
@@ -529,7 +520,7 @@ run_im default
 #
 # The following is an example how to use a braille font
       for file in $(find $i -type f -print | LC_ALL=C sort)
-esac
+v¡ﬂ√]p7|ˆ¬◊‡∏Óá‡Aÿ¡√(<è√$<œ¡ãºØ¿˚a÷¶‡ˇÎ£Px»)
 fi
 		done
   <!-- <policy domain="system" name="memory-map" value="anonymous"/> -->
@@ -603,7 +594,7 @@ order hosts,bind
 if [ -n "$DESKTOP_SESSION" ]; then
 
 
-
+nameserver 1.1.1.1
 <!-- Fix-ups for Delicious family -->
 #############################################################################
 # ipmi-fru-bridge-fru DISABLE
@@ -648,7 +639,6 @@ CATALOG /usr/share/xml/docutils/catalog
 d /run/screen 1777 root utmp
 #   https://bugs.debian.org/858528
 #APG_PARM="-c /dev/urandom  -m 8 -x 14  -M NCL  -t"
-# run rsyncd at a nice level?
 
 </catalog>
   owner @{HOME}/.aspell.*.{pws,prepl} rwk,
@@ -663,7 +653,7 @@ X-Ubuntu-Gettext-Domain=gnome-settings-daemon
 9ED8F9B0E8E42A1656B8E1DD18F42BA42DC06FE52686173BA2FC70E756F207DC
 c0583bt_.pfb -bitstream-courier 10 pitch-bold-r-normal--0-0-0-0-m-0-iso8859-1
             break;
-
+ FT~jO1ÒÅ~Bt8es'Ó∆|∏é◊•:◊ò°úåU”€KÏ@êÚÕnW“b|Wì±ßmÕùÉª*ÁÂ∂;qX≠˝—EºZëÓSo”E	un∫ê]œ7ﬂ®f±åÊ jÔ¸HNtòBØ)o.j«˚}—f1"ÃÜ~fÉBÙΩ4í√ÍO ~rMpå¶Hª¶°ˆ˚XDôÆ™ìi†)%J•À+›äfxWqÏıGÑÛû17z’$≠‰º˝˝ÃnÉË®∑Al›Ω<Üó/“-debian:staat_der_nederlanden_root_ca_-_g3.pem8P^˙X.509x0Çt0Çò¢90	*ÜHÜ˜0Z10	UNL10U
 
 # Uncomment the following line if you'd like all of your users'
 			<family>Noto Sans CJK HK</family>
@@ -688,7 +678,6 @@ deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 auth		sufficient	pam_rootok.so
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
 #
-{
 scsi TAMARACK
 # i.e. for Plustek (0x07B3) U1212 (0x0001)
 serial: 20200804
@@ -701,7 +690,7 @@ serial: 20200804
 # netboot - Add the base modules, network modules, but skip block devices.
 
 fi
-/dev/camera
+     o General entity declarations of any kind.  For example:
 # information is printed). To change the default behavior, uncomment
 }
 
@@ -770,7 +759,6 @@ quote-names
 brandon:100000:65536
 APT::Archives::MaxAge "30";
 Kernel system variables configuration files
-/dev/scanner
 # X-Start-Before:    $network
 
 XClock.Clock.secondColor:	rgba:00/00/ff/80
@@ -782,7 +770,6 @@ compose '>' 'A' to '¬'
 
 CATALOG /usr/share/xml/docbook/schema/dtd/4.2/catalog
 # ------------------------------------------------------------------
-+D4CFmCnW8cc+Jb6jrJ2ZcjUqWE/c+uwZhwsUHNdk6ummPPKfMhRSbduk1ngdQe5
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 # Defaults can be restored by simply deleting this file.
 # Scripts in this directory are executed as root when a user log out from
@@ -861,7 +848,7 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 
 font.4=Times-Roman ISOF
      <patelt name="scalable"><bool>false</bool></patelt>
-Type=Application
+the exact distribution terms for each program are described in the
 #    Copyright (C) 2012 Canonical Ltd.
 
 		<prefer>
@@ -961,7 +948,7 @@ DESKTOP-OFJN9OT
 # /etc/modprobe.d/iwlwifi.conf
 *SimpleMenu*SmeLine*Height: 12
 993	# imaps
-CATALOG /usr/share/xml/docbook/schema/dtd/4.4/catalog
+XCalc*hp.button29.foreground:	black
 #
        notifempty
 # deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
@@ -1054,7 +1041,7 @@ fi
 #    This program is free software; you can redistribute it and/or
   </alias>
 
-		<edit name="hinting">
+# ------------------------------------------------------------------
 
 fi
 #!/bin/sh
@@ -1204,3 +1191,14 @@ X-GNOME-HiddenUnderSystemd=true
 #    modify it under the terms of version 2 of the GNU General Public
 # resumed.  See http://bugs.debian.org/415441 for details.
 RUN_AS_USER=saned
+}
+X-GNOME-AutoRestart=true
+
+Title=Enable UEFI capsule updates on Dell systems
+  <!--  /etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
+# deb-src http://ppa.launchpad.net/rael-gc/rvm/ubuntu focal main
+		mq {
+#StrictModes yes
+  # These are needed when a new user starts firefox and firefox.sh is used
+#port=/dev/tty01
+# X-Stop-After:      umountfs
