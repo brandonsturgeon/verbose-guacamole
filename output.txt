@@ -20,7 +20,7 @@ usb "Panasonic KV-S1025C"
 # by the included systemd service file.
   /usr/bin/leafpad Cxr -> sanitized_helper,
                 . /lib/lsb/init-functions
-
+  /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 		mkdir -p /boot/grub
 
     <event name="jdk.InitialSystemProperty">
@@ -69,7 +69,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 	fi
 
 
-# eliminate DISABLE
+
 uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
 #   2:1			test_class	# test_class -> 2:1
 #
@@ -107,7 +107,7 @@ compose '"' 'O' to 'Ö'
 
 }
 # This will not allow a user to change their shell unless
-APT::Periodic::Unattended-Upgrade "1";
+<fontconfig>
 };
   # Xlibs
 Exec=/usr/libexec/evolution-data-server/evolution-alarm-notify
@@ -210,7 +210,6 @@ fi
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
 max_allowed_packet	= 16M
 *interactStyleErrors.label:	Errors
-#
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 # local
 /usr/bin/wine-preloader
@@ -245,7 +244,6 @@ compose '\'' '\'' to '´'
 
 
 <!ENTITY % maxLength "%p;maxLength">
-
 #parport0
             break;
 # caution, as it will reduce security and isolation achieved by
@@ -315,7 +313,7 @@ APT::Archives::MinAge "2";
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
   </match>
 grant {
-#!/bin/sh
+APT::Periodic::Update-Package-Lists "1";
   /usr/bin/audacious2 Cxr -> sanitized_helper,
 # (Note: in the daemon an option is enabled even if its set to
 usb 0x05da 0x30d4
@@ -368,7 +366,7 @@ DESKTOP-OFJN9OT
 # where dovecot is allowed to store and read mails
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 #
-eval $(/usr/bin/locale-check C.UTF-8)
+1	redirect
 # See bash(1) for more options
 [Time]
 
@@ -426,7 +424,6 @@ X-GNOME-Autostart-Notify=true
 # /etc/profile.d/desktop_session_xdg_dirs.sh - Prepend a $DESKTOP_SESSION-named directory to $XDG_CONFIG_DIRS and $XDG_DATA_DIRS
 # set PATH so it includes user's private bin if it exists
 expand-check=0
-NoDisplay=true
 		</test>
 fi
 
@@ -442,7 +439,7 @@ AI	-*-charter-medium-i-normal--*-*-*-*-*-*-iso8859-1
 APT::Install::Pre-Invoke {
 
 # Required-Stop:     $local_fs
-Pockets=security,updates,proposed,backports,infra-security,infra-updates,apps-security,apps-updates
+#
 F5B6F88F75D391A4B1EB336F9E201239FB6B1377DB8CFA7B84736216E5AFFFD7
 
 # uncomment to set the default look and feel to GTK
@@ -545,7 +542,6 @@ exit 0
   owner @{HOME}/.config/QtProject/qtlogging.ini r,
 # Compose sequences for ISO-8859-8
 
-if [ -d "$HOME/.local/bin" ] ; then
 XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
 		<edit name="hinting">
 #   top:1		interactive	# interactive -> 1:1
@@ -635,7 +631,6 @@ security.overridePropertiesFile=true
 20190427140321 2 6 100 2047 5 CC95B326545FBD4D1FB7F94FF6FAB4F18A24F90BB106535592E25F9AA5453A4077D4BC59388DBC2DACB4E19BB39974160F7BA6BF3F5F3F3464BE09FBE3E52676B1F63C260C55B827A2987ECD5BD7405DEF87B6BB23B8A6AF7C73C99E338DF0F906B7813398F1BFFC489C5C8007E370CFD82CB53B5BCBAA85781944B123AE3BF4DB294BF5C8E3F915B3523EB2546052EA02ADC5008F9D339F3F9FFD87325BCAE65C6B6C8DEBD12ECD3B23E0FF02913BEBC8A4245CDA50F2C0D67B6144C28E1C770EA15D566C5F4126025E5BA6C8C0AD259D8E35B5BD81CFAED74F65A007EC7CCD56362B20FDC9E0A38C7149D18166E9DAA5AA8F02833528D3F1FA9BFA74E0E027
 ‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*\Ç‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ\ä¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ı\i¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù\Ş™¹<Ëº-\›çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-\›Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀ\ÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷Šˆ\ièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
 do_start_prepare() {
-/Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
 ## the host is an O2, OCTANE, Origin2000/200, Onyx2, Origin3000/300, Onyx3 or
     exit 1
 # Device filename to use for scanner access
@@ -686,7 +681,7 @@ LANG=C.UTF-8
 X-GNOME-HiddenUnderSystemd=true
         *:down) exec cloud-init dhclient-hook down "$1";;
 # The check is disabled if the value is 0.
-		<family>Arshia</family>
+# `info libc "Name Service Switch"' for information about this file.
 0:0			none
 PKA6hjhodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9DZXJ0aWZpY2F0aW9u
 [Resolve]
@@ -728,10 +723,10 @@ makestep 1.0 3
       may simply works to avoid it.
 # Authored by Openismus GmbH, 2009.
 # package *only* if it has not been modified since the last upgrade of that
-# installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
+0,0,0,0,170,170,170,170,85,85,85,85,255,255,255,255
 # Provides:          uuidd
     is_azure
-	chainloader ${EFI_PATH}
+@{sys}/module/apparmor/parameters/available r,
 	bootopt="-b ${bootdir}"
 /usr/local/lib/i686-linux-gnu
 #option 1200cu
@@ -796,7 +791,7 @@ fs.protected_symlinks = 1
 speed=115200
 FZ„–¾Ñú ( B r  ¦ ¼ è ù !!*!5!H!S!t!!!©!»!Ä!Õ!Ş!ı!"")"R"i"–"³"æ"#8#W#Œ#¯#è#$<$]$”$´$ê$%,%<%b%p%”%£%È%Ş%
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
-# vim:set ai et sts=2 sw=2 tw=80:
+	</alias>
 case "$CRYPTDISKS_ENABLE" in
 LazyUnmount=yes
 
@@ -975,7 +970,6 @@ PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/u
             <family>Sazanami Gothic</family>
 
 
-if [ -r "$USERXSESSIONRC" ]; then
 şGšË<q
 
 # uncomment to set the default look and feel to GTK
@@ -1033,7 +1027,6 @@ promptinit
        missingok
 	time_hosts => [ qw {} ],
 <busconfig>
-Name=GNOME Settings Daemon's sound plugin
   <type name="DejaVu-Sans-Mono-Book" fullname="DejaVu Sans Mono Book" family="DejaVu Sans Mono" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuSansMono.ttf"/>
 Exec=/usr/libexec/gsd-rfkill
 	devtypes_cols="devtype_name,devtype_max_partitions,devtype_description"
@@ -1054,7 +1047,6 @@ EODMFj+BpdoDwAWhJcvyijoMV6N+gbCG+UedMNnpe25tlCRjouBSEF5KWJabejdh
   # Capabilities
 </busconfig>
 # startup without editing the init script (and thus getting prompted
-#blacklist firewire-ohci
 # The PAM configuration file for the Shadow `passwd' service
   /usr/lib/thunderbird*/thunderbird{,.sh,-bin} Cx -> sanitized_helper,
 #   https://bugs.debian.org/863801
@@ -1204,3 +1196,19 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 # Compose sequences for CP1255
 sgx:x:108:
 # large policy changes, rather than trying to make those adjustments here.
+#%PAM-1.0
+
+#    License published by the Free Software Foundation.
+isis	124	ISIS		# IS-IS over IPv4
+  # Include additions to the abstraction
+# pool ntp.ubuntu.com
+# Should-Start:      $network $named slapd autofs ypbind nscd nslcd winbind sssd
+253	link
+#*.=info;*.=notice;*.=warn;\
+
+search updates ubuntu built-in
+  NeverAutoRemove
+R`&­uà(°tƒAô€8	”ÁÉ NëÀFp›ÀÙ`8\.W€+Á(}uŸ	O×Àëàà ~
+#    License published by the Free Software Foundation.
+
+LazyUnmount=yes
