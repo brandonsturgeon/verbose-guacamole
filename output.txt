@@ -22,7 +22,6 @@ usb "Panasonic KV-S1025C"
 		mkdir -p /boot/grub
 
     <event name="jdk.InitialSystemProperty">
-#
     minsize 1M
 kde4/ktimetracker.desktop
 {
@@ -211,7 +210,7 @@ fi
 #    modify it under the terms of version 2 of the GNU General Public
 	zenity --warning --no-wrap --text="$TEXT"
 mozilla/SecureSign_RootCA11.crt
-
+BgEB/wIBATAwBgNVHREEKTAnhhVodHRwOi8vd3d3LmZ3dXBkLm9yZy+BDnNpZ25A
 
 #    License published by the Free Software Foundation.
 
@@ -254,7 +253,7 @@ BACKUP_TO = "."
 # that defines the configuration.
 }
 # for allowing access to xterm
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
+#   skip - do not copy.
 # This file is a simple placeholder to keep dpkg from removing this directory
     return 0
 # This file is sourced only for login shells (i.e. shells
@@ -262,7 +261,6 @@ BACKUP_TO = "."
 /lib/i386-linux-gnu
 # The possible arguments are:
 sonames=libbd_swap.so.2
-"
 
   @{sys}/bus/pci/devices/ r, # libpocl.so -> libhwlock.so, libnvidia-opencl.so, beignet/libcl.so -> libdrm_intel.so
         </test>
@@ -303,7 +301,6 @@ APT::Periodic::Update-Package-Lists "1";
 
 *buttonbox.displayList:			foreground gray70;line 0,-1,-1,-1;foreground gray95;line 0,0,-1,0
 # DO NOT EDIT OR REMOVE
-#
 #    modify it under the terms of version 2 of the GNU General Public
 TryExec=im-launch
 
@@ -397,7 +394,7 @@ X-GNOME-Autostart-Notify=true
 # <target name>	<source device>		<key file>	<options>
 # /etc/profile.d/desktop_session_xdg_dirs.sh - Prepend a $DESKTOP_SESSION-named directory to $XDG_CONFIG_DIRS and $XDG_DATA_DIRS
 # set PATH so it includes user's private bin if it exists
-expand-check=0
+system.nfs4acl			permissions
 		</test>
 fi
 
@@ -411,7 +408,6 @@ AI	-*-charter-medium-i-normal--*-*-*-*-*-*-iso8859-1
 APT::Install::Pre-Invoke {
 
 # Required-Stop:     $local_fs
-#
 F5B6F88F75D391A4B1EB336F9E201239FB6B1377DB8CFA7B84736216E5AFFFD7
 session       required   pam_env.so readenv=1 user_readenv=0
 # uncomment to set the default look and feel to GTK
@@ -434,7 +430,7 @@ K¥!NÁÁ¡%#bHÂï
 RUN_AS_USER=saned
 
 #
-contract_status_stamp="/var/lib/ubuntu-advantage/messages/motd-contract-status"
+After=snap-lxd-22923.mount
     permission java.security.SecurityPermission "clearProviderProperties.*";
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+([[0-9]+])?: DIGEST-MD5 common mech free
     ;;
@@ -487,7 +483,6 @@ check_power || exit 0
 APT::Periodic::Update-Package-Lists "1";
 # Default is no
 gtk-sound-theme-name = Yaru
-			<family>Comic Sans MS</family>
 
 # reserved values
 
@@ -601,7 +596,7 @@ LAPTOP-5TIN5O4V
 
         log_action_end_msg 0
 # deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
-ABORT        "NO CARRIER"
+
 esac
 		<test name="family" compare="contains" >
 Description=Mount unit for snapd, revision 8542
@@ -651,7 +646,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 letter
 
 
-  # firefox-notify
+fi
     <family>Hunky Sans</family>
   <type name="DejaVu-LGC-Serif-Book" fullname="DejaVu LGC Serif Book" family="DejaVuGC Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuLGCSerif.ttf"/>
 #!/bin/sh
@@ -707,7 +702,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 #    Copyright (C) 2013 Christian Boltz
   # require the santized_helper (ie, LD_PRELOAD will only use standard system
 /var/log/apport.log {
-# <library name>	<version/soname>	<dependencies>
     </test>
 
 
@@ -1063,7 +1057,6 @@ eval $(/usr/bin/locale-check C.UTF-8)
 # have any effect at all.
   <uri name="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd" uri="xenc-schema.xsd"/>
 # Shut down the daemon after this many seconds idle. 0 means don't shutdown.
-
 #
 video/x-msvideo=org.gnome.Totem.desktop
 ‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*\Ç‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ\ä¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ı\i¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù\Ş™¹<Ëº-\›çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-\›Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀ\ÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷Šˆ\ièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
@@ -1145,7 +1138,6 @@ OrderBefore=fwupd
 		<Key>Prior: Page(Back) \n\
 compose '\'' 'e' to 'é'
 alias.url += ("/javascript" => "/usr/share/javascript")
-    su root root
 # This file is sourced only for login shells (i.e. shells
   # EGL
 # vim:syntax=apparmor
@@ -1176,7 +1168,6 @@ dCBSb290IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzIwHhcNMDkwNzA3MTcy
 #
 /usr/lib/@{multiarch}/kde3/lib*so* mr,
 #    License published by the Free Software Foundation.
-QT_ACCESSIBILITY=1
 
 # in the toplevel profile. Eg:
 <?xml version="1.0"?>
@@ -1244,3 +1235,23 @@ Files ending with .conf and located in the /etc/needrestart/conf.d
 AdminIdentities=unix-group:sudo;unix-group:admin
 bookworm/sid
       for s in `seq $max -1 1`; do
+  include <abstractions/python>
+# This is the ssh client system-wide configuration file.  See
+
+
+}
+# Compose sequences for GEORGIAN-ACADEMY
+# /etc/pam.d/common-auth - authentication settings common to all services
+find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
+#             ALL EXCEPT in.fingerd: other.host.name, .other.domain
+
+#
+
+
+#
+</fontconfig>
+
+# and should contain a list of modules that define the services to be
+#    Copyright (C) 2009 Canonical Ltd.
+
+systemd=false
