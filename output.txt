@@ -51,7 +51,6 @@ fi
 #!/bin/sh
 fi
 # NB. For these items the simple wildcard '*' may be used only once.
-    fi
 mibs :
 [ -z "$SETTINGS" ] || $ETHTOOL --change "$IFACE" $SETTINGS
 # Compose sequences for TIS-620
@@ -84,7 +83,7 @@ case "${1}" in
 	start-stop-daemon --start --background $SSD_OPTIONS
 #scsi hp
 { :
-# however the tradeoff is increased power consumptions. This feature
+MIIFsDCCA5igAwIBAgIQFci9ZUdcr7iXAF7kBtK8nTANBgkqhkiG9w0BAQUFADBe
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
 Ü„Úœ¥Å∏}T∞l∂mê¯Í+ûΩ≥!£j[~=‡g·%1¯Å_á¸T0îÿÛ™”+5~ƒ˘*ıÉ5…’é`¨Ä<Ñ˚Ù|‡<¡<¡Û+„©Ç©¸–òØÛü.$„ØÕ∑;≤PÔåQB™Qo˝dúúúúúúúõoÚ‹®õ∂BÍ=…wilœdÎMÉÙ¿’gÑ‡Ó‡Ó‡^U∞g+¿D1r‰»˚óó¡`TÆÄöà]Lºaóølê¯gíxˆ¬Üå™m!¯ıÄüÖóƒ‡~ÚS¡P≠Äâ∑º£
 compose '"' 'O' to '÷'
@@ -100,7 +99,7 @@ compose '"' 'O' to '÷'
 <!--
 			<family>Latin Modern Math</family> <!-- TeX -->
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
-#
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPgz4pnxGhnRPbzreFbZerylDneftGZKsHIMpC8KatK7pqmHPjs4EKWjSn8XoIk/uA5NccoESmo/ao5YVw= root@LAPTOP-5TIN5O4V
 set -e
 # For explanations see
 #	        for nal in $nalinfo; do
@@ -108,7 +107,6 @@ set -e
 
 fi
 # Compose sequences for ISO-8859-10
-  /dev/xconsole                 rw,
 [Desktop Entry]
 dashes		2,1;
 quiet
@@ -122,7 +120,7 @@ X-GNOME-AutoRestart=true
     <allow own="com.ubuntu.SoftwareProperties"/>
 
 # This file is a simple placeholder to keep dpkg from removing this directory
-@{run}=/run/ /var/run/
+#    Copyright (C) 2006-2009 Novell/SUSE
 server {{server}}
 {
 #
@@ -162,7 +160,7 @@ MPLS_MULTI	8848		# MPLS with upstream-assigned label [RFC5332]
 #
 #
 APT::Archives::MinAge "2";
-           send_interface="org.freedesktop.DBus.Properties"/>
+  owner @{HOME}/.cache/mesa_shader_cache/[a-f0-9][a-f0-9]/ rw,
 # with cloud-init during boot causing issues with host key generation.  This
 # Note that you must configure the path used by dconf to store the 
         case "$cur" in
@@ -183,7 +181,7 @@ fi
     # Run the right scripts
         add_etc_modules=
 #
-
+*next.right:			ChainLeft
 # or the other. (Ubuntu: #315056, #323830)
 @include common-account
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
@@ -385,7 +383,7 @@ fi
 # Docker Upstart and SysVinit configuration file
 AI	-*-charter-medium-i-normal--*-*-*-*-*-*-iso8859-1
 
-APT::Install::Pre-Invoke {
+  </match>
 
 # Required-Stop:     $local_fs
 F5B6F88F75D391A4B1EB336F9E201239FB6B1377DB8CFA7B84736216E5AFFFD7
@@ -549,7 +547,7 @@ DOCUMENTS=Documents
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
 ::1 localhost.localdomain localhost
 fi
-
+compose '.' '^' to '∑'
 /usr/lib32
   <mime type="image/x-kodak-dcr" acronym="DCR" description="Digital Camera Raw" priority="100" pattern="*.dcr" />
 security.overridePropertiesFile=true
@@ -611,10 +609,9 @@ application/set-payment-initiation
 #  Sets real-time priority for the mixing thread. Not all drivers may use this
 fi
 overlayroot_cfgdisk=LABEL=OROOTCFG
-# VM3575  Mustek ScanMagic 4830S
+# This file is a simple placeholder to keep dpkg from removing this directory
 # called by RPC services. This mostly solves the problem, that a
     permission javax.crypto.CryptoAllPermission; 
-#
 [METARELEASE]
 # You can use a different file by specifying a filename
 letter
@@ -663,7 +660,7 @@ compose 'A' 'O' to '≈'
 What=/var/lib/snapd/snaps/snapd_8542.snap
 [mysql]
 
-#DefaultOOMPolicy=stop
+</catalog>
 # vulnerabilities.  (Added in kernel 2.6.23.)
 
 0xC0	CS6
@@ -771,7 +768,7 @@ brandon:100000:65536
 
 scsi ABATON
 # Compose sequences for ISO-8859-16
-#
+  #include <abstractions/base>
 Ubuntu 20.04.5 LTS \n \l
 TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 
@@ -870,7 +867,7 @@ blacklist prism54
 #
 alias gawklibpath_default 'unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWKLIBPATH "BEGIN {print ENVIRON[x]}"`'
 multi on
-server {{server}} iburst
+# do not try to refresh this more than once per day
      O'Reilly & Associates, Inc., ArborText, Inc., Fujitsu Software
         } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 	</policy>
@@ -910,7 +907,6 @@ promptinit
 
        missingok
 #!/bin/sh -e
-<busconfig>
   <type name="DejaVu-Sans-Mono-Book" fullname="DejaVu Sans Mono Book" family="DejaVu Sans Mono" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuSansMono.ttf"/>
 Exec=/usr/libexec/gsd-rfkill
 	devtypes_cols="devtype_name,devtype_max_partitions,devtype_description"
@@ -991,7 +987,6 @@ D151962D954970501C60079258EBCFA38502E0A9F03CD640322B08C0A3117FE5
     ;;
 # Global Order: zshenv, zprofile, zshrc, zlogin
 # The ReconnectUUIDs defines the set of remote services that should try
-APT::Periodic::Update-Package-Lists "1";
 deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_14.x focal main
 [Sources]
 # To enable the settings / commands in this file for login shells as well,
@@ -1025,13 +1020,11 @@ DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/upda
 #  OS-dependent data paths will be used. They will also be used if the list
 # In some cloud-init enabled images the sshd-keygen template service may race
   /var/lib/NetworkManager/*lease r,
-# modify these in /etc/default/$BASE (/etc/default/docker)
 #
 default_driver=pulse
 # from the distro configuration specified below
   # dhclient wants to update its threads with functional names
 *JumpScroll:			1
-  /usr/lib{,32,64}/ruby/gems/1.[89]{.[0-9],}/ r,
 	do_stop "$@"
 fi
 ff02::3 ipv6-allhosts
@@ -1046,7 +1039,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 # ldconfig = false
 # here can prevent the package manager of the distribution from interfering
 
-#
+  /usr/bin/w3m Cx -> sanitized_helper,
 	N=/etc/init.d/multipath-tools
 
 	;;
@@ -1090,7 +1083,6 @@ OrderBefore=fwupd
 compose '\'' 'e' to 'È'
 alias.url += ("/javascript" => "/usr/share/javascript")
 # This file is sourced only for login shells (i.e. shells
-  # EGL
 # in the centralized mechanism.
   /dev/ptmx rw,
 
@@ -1103,7 +1095,6 @@ alias.url += ("/javascript" => "/usr/share/javascript")
 DEFAULT_LOUD="yes"
 [boot]
 # the file system.
-    <family>VerajjaPDA</family>
 # Default-Stop:
 do_bootloader = no
 		 "/site-lisp/dictionaries-common/debian-ispell.el"))
@@ -1172,7 +1163,7 @@ syspath=/sys/block
 ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="00B7", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_X22X_PORT_TYPE_VOICE}="1"
 # from pseudo terminals at the weekend and on mondays.
 }
-}
+# Default settings for openssh-server. This file is sourced by /bin/sh from
         <Key>J:         scroll-one-line-up()
 
 -----BEGIN CERTIFICATE-----
@@ -1194,7 +1185,7 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
 
 #
 </fontconfig>
-
+#
 # and should contain a list of modules that define the services to be
 #    Copyright (C) 2009 Canonical Ltd.
 
@@ -1211,7 +1202,7 @@ alias.url += ("/javascript" => "/usr/share/javascript")
 	ŸJ£Ô‚íH@âçñW∏õ2∞∏ıûv,f*IÇÖyπÛ"ÿ¥2LÜ)T¸N¯ïH‹p…õCàÙ“(S`Ö˛-Ω⁄ºôÂJï†õœ;ÜÊ;Ë°HóBeG_](3\7˘èpI…ûQç»Ö;pàVÅ&æìg¥o98?•¥4¸Ò6Y°ª™&t€yúóf;:F5=ò1à∂ü§qÿÔ‡rT≥Üè)8£];”iƒÒÅ>v,HÄ0Î¥ÒÜÆbt‹lZõù*ØI’Ú‡úL˚ã–	PÁı⁄»=_∂o•vwBÛÊ#Ø,Dª˝årœΩ©Ê§KÎ≥|•ÓÃ·uD»o˚M#Aﬂø´xäù>Ãî{qW%ö/XÃë/Î^Ú(òºÛp04o≠≤¢'Çùﬁ-?9™œë¡Lî.{7'2Méò
 # ------------------------------------------------------------------
 # be tightened as well, but to do so would effect some of
-REMOVE_HOME = 0
+XLogo*iconMask:      xlogo32
        bus=system
 # ------------------------------------------------------------------
 countryName		= match
@@ -1240,7 +1231,6 @@ FONTSIZE="8x16"
 #}
 skip	57	SKIP		# SKIP
 	notifempty
-applicable law.
 	compress
 
 #
@@ -1262,3 +1252,12 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
       Most clients may picks up the first value only. so using "append"
 
 #   include <abstractions/gvfs-open>
+  <test name="scalingnotneeded" compare="eq">
+    </test>
+WRITE_TEST=$(mktemp)
+
+# (with a single space before and after the equals sign).
+PUBLICSHARE=Public
+
+@{apparmorfs}=@{securityfs}/apparmor/
+
