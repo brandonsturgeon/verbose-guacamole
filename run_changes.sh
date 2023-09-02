@@ -8,7 +8,7 @@ random_text() {
 for ((i=0; i<$random_number; i++)); do
     ./change.sh
     git add .
-    git commit -m "Change $i $(date) - $(random_text)"
+    git commit -m "Change #$i - $(random_text)"
 done
 
 git push origin main
