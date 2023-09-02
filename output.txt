@@ -17,7 +17,7 @@ usb "Panasonic KV-S1025C"
 *Indicator.horizontalSpacing:	2
 #
 // Pre-configure all packages with debconf before they are installed.
-# Another alternative is:
+#!/bin/sh -e
                 . /lib/lsb/init-functions
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 		mkdir -p /boot/grub
@@ -34,7 +34,6 @@ CATALOG /usr/share/sgml/dtd/xml-core/catalog
 €šdGh•E^q§ì5¹õ·&nÀ„àòU0tÿz,é#í=°—¤¼ªëğc×Ê¹m		<4Å®MïÜ¶ÜšZqöÅ–ä‚š@˜µÒÆ¯3ÆòÔ¥èIÛÎZ`^Uy³»	åùPŞ|sîúç˜ÉîÑT‡I<‚¾eRÁ==©hLçÏ:îÃùØ¿~œæmbæwys€ÎYÊ
 
   /usr/share/hspell/                               r,
-previous-engine=@as []
 
 
 # vim:syntax=apparmor
@@ -107,7 +106,6 @@ compose '"' 'O' to 'Ö'
 <fontconfig>
 };
         MetaKey "$(COMPONENT)/cnf/Commands-$(NATIVE_ARCHITECTURE)";
-Exec=/usr/libexec/evolution-data-server/evolution-alarm-notify
 <!--
 			<family>Latin Modern Math</family> <!-- TeX -->
             . /usr/share/bash-completion/bash_completion
@@ -227,10 +225,10 @@ mozilla/SecureSign_RootCA11.crt
 scsi "KINPO   " "Vividscan S120  "
 alias.url += ("/javascript" => "/usr/share/javascript")
 Name=Print Queue Applet
-rocks_trees = {
+#
 					6)
 # Uncomment the following lines for Linux.  Notice that everything is
-
+# invoked with "-" as the first character of argv[0], and
 ##############################################################3
 compose '\'' '\'' to '´'
 @include common-session-noninteractive
@@ -242,7 +240,6 @@ compose '\'' '\'' to '´'
 <!ENTITY % maxLength "%p;maxLength">
 #parport0
             break;
-# caution, as it will reduce security and isolation achieved by
 printf " * Support:        https://ubuntu.com/advantage
 Name=SSH Key Agent
 Terminal=false
@@ -286,7 +283,7 @@ search updates ubuntu built-in
 	</alias>
 # This directive specify the location of the file containing ID/key pairs for
 	  (let ((coding-system-for-read 'raw-text)) ;; Read these as data streams
-
+{% endfor %}
 #    Copyright (C) 2012 Canonical Ltd.
 # This file contains shlibs entries that are used as a last resort when
 
@@ -357,7 +354,6 @@ DESKTOP-OFJN9OT
 # where dovecot is allowed to store and read mails
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 1	redirect
-# See bash(1) for more options
 [Time]
 
 # DAEMON_OPTIONS:
@@ -421,7 +417,6 @@ fi
 # Docker Upstart and SysVinit configuration file
 AI	-*-charter-medium-i-normal--*-*-*-*-*-*-iso8859-1
 
-# ipmiconsole-privilege-level ADMIN
 APT::Install::Pre-Invoke {
 
 # Required-Stop:     $local_fs
@@ -547,7 +542,6 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 # We're probably bringing the interface down.
 SáÊó:]C+¼İ˜·MÌÖGşp‚ô£ã×?ÒÇM”±àã@‡Òü³w>‚­ŸÂÏM?ÛƒX“YŠ®Ke>(pë9l‚ŒÃnÏÎŒ,<Í™zV@q-NúãÓ—şÔxÔ“Ö`”~ju©äÑ]bz1zü'ÓN}ÊÆa?t¨Q}ÜÍïÓP[Äÿ„!¿öØˆ=ºİ
 _§”‹¨Ï…PC„xWçyÏÏxñ<î%|«ÜK­6«o2ºnä‹Ÿ¶Â_ãöÀ—áÎäBâ¿Bèğ<ÏÃğ*ÜVöÂA|½æÂ}|áAØÁ~x„§àyx^Ó¨ÁË„^Wá5q0o^ÆÉ›Èß‚oÃwà{ğ¼ß‡wà‡ğ3øü|„ÿƒNÊ˜½°Îƒóa¶ÂuĞ„gé‘w!G+æÀ\ÈÃ<è„UĞwCbÚëÔ/9íü6òi8Úa&ä`ZƒàHXıp"”aªpÔàd¨Ã°Î‚³a3œÀEğ1ø8\×Àµ0®¾GİçÀ‘ğ¼oÃ;"~:Ì€C óÔš]P	GÁñ°Î…Ká£p9\¥æ,s7	3àè„ùPMp&ŒÀV¸şş>	ïƒ Œi…Ã`6X=°…%°VÂ	P‚50káTØgÂ6¸v€P=¤áP˜G@æÀ‘p,†£á8–ÀRXÇÁJèƒUĞ'@	N„Õp2œkáTX§Áz†Óá8¶À¹pœ»à&ø$³çSğpü%|ş
-# @{PROC} is the location where procfs is mounted.
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDyhjkbia6ZyFuBuU6rmz1CpUp3m15jVI7zwD0nKzpW2GmbSYwm0/PsaLjrGluXj01I1ZNWwjd0EjHV0JB3fI9OxfntnWpo/5i+RVK70ywGmESKYfDO2ehUAm6jaaVipW+ZlR3488lMTMGzXc7f1VqtArxonSbQAesKkQbhbdgP8Cpa4zLHDEbx9i1x4FDsCbZfQ1QI7gbo6SYTmsYyw6K+1idcQ+b1ZZkZqWVyeZpqegCTngqJ+2Az4QduO6kK6VWEXiy8iudkXjORp2m9Z0P88nZqu45D3DZvNahVagSrKeiJoxAO1EP4fNGP1u67cLkEYCGHY+1L2H7KMEufoWyanxu5OThxFBIDGwirSM1i0bxLdkUeS69ZUyhBlWW73Ah7zG+Ud1CznkGxDvVrlWd/fGwlQhfQE8dIE8gucXE/kl8/+gGk38SeDnBbmneGHKGBPttPM3SUhxVxAuIP6TxiH93PRy2BLtFKheyB1hVdd4+qZwGh7dd6NODNzY5NVts= root@DESKTOP-OFJN9OT
 # javax.sound.sampled.Clip
 /dev/scanner
@@ -580,7 +574,7 @@ pool {{pool}} iburst
 KP_5 = j;k;l;5;Â£
 
 # Compose sequences for ARMSCII-8
-EOF
+APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 OMsq7sXDmFff4hQjgQoDezMkA1EgzFokRY7pToLG3X1KdDXKR0edQ3+1mlJTf9XN
 #
 # backup the old configuration and install the new one
@@ -643,7 +637,6 @@ URI_LTS = https://changelogs.ubuntu.com/meta-release-lts
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 
-Name=GNOME Settings Daemon's power plugin
 libXvMC.so.1
  </annotation>
       may simply works to avoid it.
@@ -672,7 +665,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 [METARELEASE]
 # You can use a different file by specifying a filename
 letter
-76A45A496031E4DD2D7ED23E8F6FF97DBDEA980BAAC8B0BA94D7EDB551348645
+
 
   # firefox-notify
     <family>Hunky Sans</family>
@@ -722,7 +715,7 @@ compose 'A' 'O' to 'Å'
 What=/var/lib/snapd/snaps/snapd_8542.snap
 [mysql]
 # kFreeBSD do not accept scripts as interpreters, using #!/bin/sh and sourcing.
-
+#DefaultOOMPolicy=stop
 # vulnerabilities.  (Added in kernel 2.6.23.)
 
 0xC0	CS6
@@ -739,7 +732,7 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 
 
 #  e.g. the empty string or 0 or whatever. To disable it should not
-ÓZ¸,ã°Ë¼*m66{ÿlÚ5¡
+# perform common modifications to the behavior of the dbus daemon
 # vi: syntax=sh ts=4 noexpandtab
 
   <policy context="default">
@@ -816,7 +809,6 @@ cdrom:x:24:brandon
 # snmp-timeout controls auto-detection timeout in ms (1500=1.5s).
 			<string>Noto Sans CJK JP</string>
 
-
 # Do not use IPMI KCS to create an initial user account if no SMBIOS data
   /usr/bin/qbittorrent Cxr -> sanitized_helper,
 saned:x:127:
@@ -856,7 +848,7 @@ TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 "
   @{PROC}/[0-9]*/net/arp r,
     start-stop-daemon --start --pidfile /dev/null \
-2(=íh†|ãP2PZ8ÅÈœ÷®k¼›ç6e‘HÕLUÕ(›wnÍ‚}o…ğŠ1“káWÏ¡‹ç‰À]îè7à8oÏiÊö1/”I]Ó`‚]Ûø:OÒ'™dô„¥êşt™ó6#B‘¹ı)µû'úŠÔ†Ñó.zÓ$fÅ>5Ğ…MnğcA[Õõ‰ûò“°.
+behavior.
   /usr/bin/bangarang Cxr -> sanitized_helper,
 
 }
@@ -929,7 +921,6 @@ ports=22/tcp
     </test>
 /usr/local/lib
 # Compose sequences for IBM1133
-  # to put a minimal subset of the Xsession's environment in activated
 #    License published by the Free Software Foundation.
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 # invoked with "-" as the first character of argv[0], and
@@ -957,7 +948,7 @@ server {{server}} iburst
 # Compose sequences for CP1251
 # Specify the key identifiers which are trusted.
 	notifempty
-# For example, the lines below are for one device, but if you have several devices to use, you can duplicate the lines below as many times as you have devices.
+/var/log/alternatives.log {
 #
 				fi
 Öbo6'Ì‰§a#á?ÕŒFaôFÕE;áí˜'¬éXÃFÂ=4V3…ÑSUí”_´°¦	÷ĞXÍH`FOaT]´3~Ñ¾X.eÆš¿6Êöe‡Ö‡7xëµ75øæ|ğyÂÌ5l$|x7V3…ÑS-/ÚÙ€_´.OXSWÃFÂ=4V3…ÑSU­x£=â	k:Ò°‘pÕŒFaôFÕE+ŞhxÂš4l$ÜCc5#Q=…QuÑŠ7Úïø—Ã—^&I~|³GZ!¡§BH%6cáÜÏòK±à3õc4ßÜŸŸìräKMó4‰.¯ü`Í¿YY~Ë×TTKŒ/ƒ?øšï•o
@@ -1043,7 +1034,6 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 #*               soft    core            0
 # starts in the proper default security context. Only sessions which are
     </test>
-## respective vendors as a service to Ubuntu users.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
   /usr/bin/nautilus Cxr -> sanitized_helper,
  </selectfont>
@@ -1222,4 +1212,19 @@ QT_ACCESSIBILITY=1
 # Compose sequences for KOI8-U
 brandon:100000:65536
 14	xorp
+
+    <test compare="less" name="pixelsize">
+  /dev/nvidia-modeset rw,
+
+        <Key>Y:         scroll-one-line-down()\n\
+  include if exists <abstractions/openssl.d>
+X-GNOME-Autostart-Notify=true
+    eval $(apt-config shell RandomSleep APT::Periodic::RandomSleep)
+brandon:100000:65536
+#
+# DO NOT EDIT OR REMOVE
+# Insert here your local magic data. Format is described in magic(5).
+  # likewise
+    <accept>
+
 
