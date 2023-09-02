@@ -57,7 +57,7 @@ max_allowed_packet	= 16M
 #!/bin/sh
 fi
      o Declarations for and references to external parameter entities
-    /etc/java-*/ r,
+    fi
 mibs :
 [ -z "$SETTINGS" ] || $ETHTOOL --change "$IFACE" $SETTINGS
 # Compose sequences for TIS-620
@@ -174,7 +174,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 # particular interface
 #
 #
-/URWPalladioL-Roma (/usr/share/fonts/type1/gsfonts/p052003l.pfb) ;
+APT::Archives::MinAge "2";
            send_interface="org.freedesktop.DBus.Properties"/>
 # with cloud-init during boot causing issues with host key generation.  This
 # Note that you must configure the path used by dconf to store the 
@@ -184,7 +184,6 @@ CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 #DefaultLimitMSGQUEUE=
 #@{XDG_VIDEOS_DIR}+=""
 [udisks2]
--->
 		<default><family>sans-serif</family></default>
 # Check for interactive bash and that we haven't already been sourced.
 
@@ -202,11 +201,9 @@ fi
 # or the other. (Ubuntu: #315056, #323830)
 @include common-account
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
-max_allowed_packet	= 16M
 *interactStyleErrors.label:	Errors
     } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
 # local
-/usr/bin/wine-preloader
   Associate an image format with a unique identifier. 
 # to update this file, run dpkg-reconfigure cloud-init
 	<alias binding="same">
@@ -261,7 +258,6 @@ BACKUP_TO = "."
 # that defines the configuration.
 }
 # for allowing access to xterm
-$x-display-manager gdm3
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ cracklib: updated dictionary \(read/written words: ([0-9]+) \1\)\.$
 # This file is a simple placeholder to keep dpkg from removing this directory
     return 0
@@ -476,7 +472,7 @@ deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
     xhost +si:localuser:`id -un` > /dev/null
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: [origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"] exiting on signal [0-9]+.$
     /run/netns/ w,
-X-GNOME-Autostart-Phase=Initialization
+	  <family>New Century Schoolbook</family>
 	<alias>
 #    Copyright (C) 2009-2013 Canonical Ltd.
 {c∏O¨	˘≥xï€vÒË}iYâÙ&|4ê˝º¯≈ÙCÀ°8q˝ vbªæ2Uó&∏Í|MO√˛ÆπDp"qeÂÅ«®ór¥Ü0gªfjÆk√wLiWo6ÂØ`…>6hV‰}6¶ı^Ê,¶∂=6~≈êÚÍ©]«/Íˇõ†(
@@ -551,7 +547,6 @@ XLogo*background: rgb:d2/22/32
   owner @{HOME}/.local/share/RecentDocuments/*.lock rwk,
 # delete a group even there are still users in this group
     missingok
-deb http://archive.ubuntu.com/ubuntu/ focal multiverse
 # if ip.ihl > 5
 
 ## This works for most UNIX's
@@ -585,7 +580,6 @@ letter
 
 SHELL=/bin/sh
 /dev/scanner
-<delegatePublic publicIdStartString="-//OASIS//ELEMENTS DocBook XML HTML Tables V4.4//EN" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
 # javax.sound.midi.Receiver
 
     create 0660 root utmp
@@ -629,12 +623,11 @@ Description=Mount unit for snapd, revision 8542
 # The following lines are desirable for IPv4 capable hosts
 [ -n "$version" ] || exit 0
 # in the toplevel profile. Eg:
-#!/bin/sh
+    [ -e /run/cloud-init/enabled ] || return 1
 URI_LTS = https://changelogs.ubuntu.com/meta-release-lts
 #InhibitDelayMaxSec=5
 
 # All the tunables definitions that should be available to every profile
-
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 
 libXvMC.so.1
@@ -671,7 +664,6 @@ letter
     <family>Hunky Sans</family>
   <type name="DejaVu-LGC-Serif-Book" fullname="DejaVu LGC Serif Book" family="DejaVuGC Serif" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuLGCSerif.ttf"/>
 #!/bin/sh
-X-GNOME-Autostart-Phase=Initialization
 compose '<' 'd' to 'Ô'
 # Compose sequences for ISIRI-3342
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
@@ -679,7 +671,7 @@ compose '<' 'd' to 'Ô'
 56f12ada18a3412ab1f9dcd69450be95
 
 3946901F46B0071E90D78279E82FABABCA177231A704BE72C5B0E8918566EA66
-#PICTURES=Documents/Pictures
+ff02::1 ip6-allnodes
 			fi
 constraint from "9.9.9.9"              # quad9 v4 without DNS
 
@@ -747,7 +739,7 @@ fi
 
 fs.protected_symlinks = 1
   *)
-      <more>
+
 # Default-Stop:
     <allow own="net.hadess.SwitcherooControl"/>
 # 2001::81:1 test.local
@@ -794,11 +786,10 @@ test -x $DAEMON || exit 0
 			fi
 	"[ ! -f /usr/lib/ubuntu-advantage/apt-esm-hook ] || /usr/lib/ubuntu-advantage/apt-esm-hook post-invoke-success || true";
 #    Copyright (C) 2014 Canonical Ltd.
-scsi TAMARACK
+  /usr/share/gvfs/remote-volume-monitors/* r,
 # Compose sequences for VISCII
 # scanners discovered later in this file
 <busconfig>
-# Doing this will stop logging kernel generated UFW log messages to the file
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 {% if pools %}# pools
   owner /tmp/**         rwkl,
@@ -852,7 +843,6 @@ behavior.
   /usr/bin/bangarang Cxr -> sanitized_helper,
 
 }
-    pass
   # dbus-accessibility-strict abstraction for fine-grained bus mediation.
 #
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
@@ -960,7 +950,7 @@ NoDisplay=true
 # This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
 ff02::2 ip6-allrouters
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
-
+#
 eval $(/usr/bin/locale-check C.UTF-8)
 #& stop
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
@@ -988,7 +978,6 @@ Exec=/usr/libexec/gsd-rfkill
 	devtypes_cols="devtype_name,devtype_max_partitions,devtype_description"
 /NanumGothic-Regular << /FileType /TrueType /Path (/usr/share/fonts/truetype/nanum/NanumGothic.ttf) /SubfontID 0 /CSI [(Korea1) 2] >> ;
 # Compose sequences for ISO-8859-5
-# with versions prior to introduction of all_video.mod
 }
   "file:///usr/share/xml/schema/xml-core/catalog.dtd">
 REALRESOLVCONF=$(readlink --canonicalize /etc/resolv.conf)
@@ -1060,7 +1049,7 @@ application/vnd.openxmlformats-officedocument.spreadsheetml.sheet		xlsx
 
 lines_per_block 1
 Acquire::Changelogs::AlwaysOnline "true";
-  owner @{HOME}/tmp/    rw,
+#    License published by the Free Software Foundation.
 ## more information. Default values are commented out.  Use either ; or # for
 # usb 0x05e3 0x0142 0x3a 0x01
 D151962D954970501C60079258EBCFA38502E0A9F03CD640322B08C0A3117FE5
@@ -1087,7 +1076,6 @@ eval $(/usr/bin/locale-check C.UTF-8)
 # For use with Plustek parallel-port scanners
 	compress
 # have any effect at all.
-# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
   <uri name="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd" uri="xenc-schema.xsd"/>
 # Shut down the daemon after this many seconds idle. 0 means don't shutdown.
 
@@ -1228,3 +1216,17 @@ brandon:100000:65536
     <accept>
 
 
+# as possible
+eYM/GI+Cr9sPwxs8ZWtN0IRoQp/d7MRxe43zFT4IH2N4RVaBTgWCoRerPn09k4K/
+	cache_mode = "writethrough"
+directory and its contents.
+compose 'v' 'b' to '¶'
+#  Allowed values are 0 - 19 inclusive; 10 is a reasonable value.
+
+# in the proper default security context.  Only sessions which are intended
+  owner @{HOME}/.adobe/ w,
+
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
+	;;
+# ------------------------------------------------------------------
+# madwifi from loading by default. Use Jockey to select one driver
