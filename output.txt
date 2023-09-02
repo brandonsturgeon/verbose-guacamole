@@ -12,10 +12,9 @@ XClock.input: false
 # by dpkg on upgrades).  We all love dpkg prompts.
 # This will not allow a user to change their shell unless
 }
-# Compose sequences for ISO-8859-16
+
 usb "Panasonic KV-S1025C"
 # create new (empty) log files after rotating old ones
-audio/x-mpegurl=rhythmbox.desktop
 #
 // Pre-configure all packages with debconf before they are installed.
 # by the included systemd service file.
@@ -47,7 +46,7 @@ APT::Periodic::AutocleanInterval "0";
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
 # Rules for changing KDE settings (for KFileDialog and other).
 
-deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu   focal stable
+#
 # Autodetect the Canon CanoScan FB630u
 # The next option will send email to the named person when chronyd has
 Local  - Applications should save enough information to
@@ -86,7 +85,7 @@ case "${1}" in
 #if /etc/pam.d/cron  specifies no session modules but cron calls
 *editButton.menuName:			editMenu
 
-
+#AllowHybridSleep=yes
       <family>DejaVu LGC Sans Mono</family>
 # Compose sequences for ISO-8859-8
 
@@ -129,7 +128,6 @@ fi
 [Desktop Entry]
   /usr/share/p11-kit/modules/  r,
 [Distro]
-# NETID_AUTHORITATIVE
   <match target="pattern">
 <fontconfig>
 
@@ -204,7 +202,7 @@ fi
 		done
     # Run the right scripts
 
-WantedBy=multi-user.target
+ {{flag-}}
 #
 
 # or the other. (Ubuntu: #315056, #323830)
@@ -234,7 +232,6 @@ mozilla/SecureSign_RootCA11.crt
 scsi "KINPO   " "Vividscan S120  "
 alias.url += ("/javascript" => "/usr/share/javascript")
 Name=Print Queue Applet
-
 rocks_trees = {
 					6)
 # Uncomment the following lines for Linux.  Notice that everything is
@@ -260,7 +257,6 @@ Terminal=false
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 
 -dcevm KNOWN
-
 # sleep-inactive-battery-type='suspend'
       This configuration is available on the major desktop environments.
        path="/com/canonical/indicator/messages/*",
@@ -453,7 +449,6 @@ F5B6F88F75D391A4B1EB336F9E201239FB6B1377DB8CFA7B84736216E5AFFFD7
 #    This program is free software; you can redistribute it and/or
 NoDisplay=true
         <Key>F:         next-page()
-
     $_local ufile="$HOME/.cloud-warnings.skip" sfile="$warndir/.skip"
 
 	;;
@@ -522,7 +517,6 @@ X-GNOME-Autostart-Phase=Initialization
 #exec_delay=
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 compose '\'' 'U' to '⁄'
-connect "/usr/sbin/chat -v -f /etc/chatscripts/pap -T ********"
 # This script can be used to override the .d files supplied by other packages.
 check_power || exit 0
 # Uncomment following line to disable "clever precalibration" routines...
@@ -593,7 +587,6 @@ deb http://archive.ubuntu.com/ubuntu/ focal multiverse
 ## This works for most UNIX's
 
       <fit>
-        </sequence>
 !ïîhƒ¬«®(/‰< @Ä·	Í«h ◊¨·ãXÛ•jCBüb õøå‚[±÷£÷‹˝˝c=Î÷∂óë	zéo’c”…-AK–¥-yÆñ®˛π«9Y∏⁄∫⁄'ùÈCŒ’Êá=⁄Êõén¿=jª∫µàã∏à{pô≈g~h5Ì„^
 # is not set. DLNA wants something between 5 and 15 seconds.
 Name=GNOME Settings Daemon's power plugin
@@ -611,7 +604,7 @@ pool {{pool}} iburst
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
 KP_5 = j;k;l;5;¬£
 
-# IPMI_Physical_Security_Drive_Bay_Intrusion       Critical
+# Compose sequences for ARMSCII-8
 EOF
 OMsq7sXDmFff4hQjgQoDezMkA1EgzFokRY7pToLG3X1KdDXKR0edQ3+1mlJTf9XN
 #
@@ -653,8 +646,8 @@ LAPTOP-5TIN5O4V
 <!DOCTYPE logmap [
 # device group names
 # scopev4  <mask>  <value>
-# non-ufw managed firewall rules
-</fontconfig>
+#!/usr/bin/perl
+
         log_action_end_msg 0
 # deb-src http://ppa.launchpad.net/jonathonf/ffmpeg-4/ubuntu focal main
 ABORT        "NO CARRIER"
@@ -667,7 +660,7 @@ Description=Mount unit for snapd, revision 8542
 #
 
   <match target="pattern">
-  --arg="$1" --arg="$2" --arg="$3" --arg="$4" --arg="$5" --arg="$6"
+# The following lines are desirable for IPv4 capable hosts
 [ -n "$version" ] || exit 0
 # in the toplevel profile. Eg:
 #!/bin/sh
@@ -825,7 +818,6 @@ $WorkDirectory /var/spool/rsyslog
 X-GNOME-Bugzilla-Bugzilla=GNOME
 		<test name="slant">
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? md: kicking non-fresh [[:alnum:]]+ from array!$
-Ü√2Œ…yÀf˜R·Cdˇµ!£j[~=‡g·%1¯Å_á¸T0tÀ`(˛Üè+∏ú$‹ Òô <˚`CF’∂¸z¿œ¬Kbø˘©`8*_†àHÌÕ+ÿ:ø'‰Ÿè6‘0¡˛:gÒ#1¸}’˛‘`Ù ¡∏NW,«p“ Òo`ÒÏ_6dTm¡Ø¸,º$?Îêü
 # ---
 #
 
@@ -852,13 +844,12 @@ scsi TAMARACK
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 {% if pools %}# pools
   owner /tmp/**         rwkl,
-# Consult the keyboard(5) manual page.
+
 #option lampOff   -1
 # installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
 cdrom:x:24:brandon
 MetadataURI=https://cdn.fwupd.org/downloads/firmware.xml.gz
 # snmp-timeout controls auto-detection timeout in ms (1500=1.5s).
-	<match target="font">
 			<string>Noto Sans CJK JP</string>
 
 
@@ -918,7 +909,6 @@ NoPollBatteries=false
 PUBLICSHARE=Public
 #net.ipv4.ip_forward=1
 # This file is sourced by Xsession(5), not executed.
-{
 KP_8 = t;u;v;8;√º;√π;√∫;√ª
 WAIT=5
 			<string>sans-serif</string>
@@ -1041,7 +1031,7 @@ promptinit
 
   <type name="Bookman-DemiItalic" fullname="Bookman DemiBold Italic" family="Bookman" foundry="URW" weight="600" style="italic" stretch="normal" format="type1" metrics="URWBookman-DemiItalic.afm" glyphs="URWBookman-DemiItalic.t1"/>
        missingok
-# Parameters to pass to dbus.
+	time_hosts => [ qw {} ],
 <busconfig>
 Name=GNOME Settings Daemon's sound plugin
   <type name="DejaVu-Sans-Mono-Book" fullname="DejaVu Sans Mono Book" family="DejaVu Sans Mono" style="Normal" stretch="Normal" weight="400" glyphs="DejaVuSansMono.ttf"/>
@@ -1066,7 +1056,7 @@ EODMFj+BpdoDwAWhJcvyijoMV6N+gbCG+UedMNnpe25tlCRjouBSEF5KWJabejdh
 # startup without editing the init script (and thus getting prompted
 #blacklist firewire-ohci
 # The PAM configuration file for the Shadow `passwd' service
-
+  /usr/lib/thunderbird*/thunderbird{,.sh,-bin} Cx -> sanitized_helper,
 #   https://bugs.debian.org/863801
 ip6.tc		u16		net+0		0xFF0		4
   owner @{HOME}/.config/klanguageoverridesrc rw,
@@ -1118,7 +1108,7 @@ Keyring=none
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
 }
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet		xlsx
-  <policy context="default">
+       peer=(name=org.freedesktop.NetworkManager),
 # Magic local data for file(1) command.
 
 lines_per_block 1
@@ -1191,7 +1181,7 @@ APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-
         echo "$DPKG_MAINTSCRIPT_PACKAGE" >> /var/run/reboot-required.pkgs
 {
 find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/update-notifier/notify-updates-outdated
-mozilla/certSIGN_Root_CA_G2.crt
+
 # ldconfig = false
 # here can prevent the package manager of the distribution from interfering
 
@@ -1203,3 +1193,14 @@ mozilla/certSIGN_Root_CA_G2.crt
 	"[ ! -e /run/systemd/system ] || [ $(id -u) -ne 0 ] || systemctl start --no-block apt-news.service esm-cache.service || true";
 # work, and conversely restores the same services before the user's scripts
     PATH="$HOME/bin:$PATH"
+{%- if servers %}# servers
+  /usr/man/**				r,
+# Specify file containing keys for NTP authentication.
+# Read environment variables from /etc/environment and
+# to prevent metadata writes.  This is needed in order to allow
+			<family>Hapax Berb√®re</family> <!-- tifinagh -->
+# here are the per-package modules (the "Primary" block)
+
+# Compose sequences for CP1255
+sgx:x:108:
+# large policy changes, rather than trying to make those adjustments here.
