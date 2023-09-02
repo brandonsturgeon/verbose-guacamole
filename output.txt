@@ -1,17 +1,16 @@
 
 #
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY root@DESKTOP-OFJN9OT
-  owner @{HOME}/@{XDG_DESKTOP_DIR}/*	rwl,
   # System files
 /bin/sh
-  # User files
+[fwupd Remote]
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
     local dmi_path="/sys/class/dmi/id/board_vendor" vendor=""
 XClock.input: false
     compress
 		<family>Cooper Std</family>
 # by dpkg on upgrades).  We all love dpkg prompts.
-  /{,var/}run/dbus/system_bus_socket rw,
+# This will not allow a user to change their shell unless
 }
 # Compose sequences for ISO-8859-16
 usb "Panasonic KV-S1025C"
@@ -44,7 +43,6 @@ APT::Periodic::AutocleanInterval "0";
 # vim:syntax=apparmor
 # Compose sequences for ISO-8859-11
 # This script can be used to override the .d files supplied by other packages.
-#    Copyright (C) 2012 Canonical Ltd.
 # Compose sequences for IBM1133
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
 # Rules for changing KDE settings (for KFileDialog and other).
@@ -71,7 +69,6 @@ mibs :
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
 	fi
 
-compose '`' 'U' to 'Ù'
 
 # eliminate DISABLE
 uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
@@ -90,7 +87,6 @@ case "${1}" in
 *editButton.menuName:			editMenu
 
 
-
       <family>DejaVu LGC Sans Mono</family>
 # Compose sequences for ISO-8859-8
 
@@ -104,7 +100,6 @@ case "${1}" in
 # however the tradeoff is increased power consumptions. This feature
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
-                . /lib/lsb/init-functions
 compose '"' 'O' to 'Ö'
 # /etc/xdg/user-dirs.defaults)
 # video device access
@@ -154,7 +149,6 @@ X-GNOME-AutoRestart=true
 #
 ## or updates from the Ubuntu security team.
 
-system:
 #   part of the cracklib-runtime package and should not be modified.
 #ReadEtcHosts=yes
 usb 0x08f0 0x0002
@@ -259,7 +253,6 @@ compose '\'' '\'' to '´'
 
 <!ENTITY % maxLength "%p;maxLength">
 
-#    modify it under the terms of version 2 of the GNU General Public
 #parport0
             break;
 # caution, as it will reduce security and isolation achieved by
@@ -315,7 +308,6 @@ system-db:ibus
 };
 
 /dev/scanner
-#
 @include common-session-noninteractive
 APT::Archives::MinAge "2";
 ManagerResetTimeout=1800
@@ -329,7 +321,6 @@ ManagerResetTimeout=1800
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
   #include <abstractions/ubuntu-console-email>
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
-fi
 # Defaults to false (HIDP handled in HIDP kernel module)
 # IPMI_System_ACPI_Power_State_S2                                Nominal
   <!-- <color name="white" color="rgb(255,255,255)" compliance="SVG, X11"/> -->
@@ -398,7 +389,7 @@ eval $(/usr/bin/locale-check C.UTF-8)
 # pool.ntp.org maps to about 1000 low-stratum NTP servers.  Your server will
     ;; This might result in a call to debian-ispell, so do this only if
 Name=Secret Storage Service
-twm
+
 		wpa_cli_do "$IF_WPA_SSID" ascii 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 CATALOG /usr/share/xml/docutils/catalog
@@ -488,7 +479,7 @@ This file is part of PulseAudio.
 RUN_AS_USER=saned
 			<string>AR PL UMing HK</string>
 #
-  # These are needed when a new user starts firefox and firefox.sh is used
+contract_status_stamp="/var/lib/ubuntu-advantage/messages/motd-contract-status"
     permission java.security.SecurityPermission "clearProviderProperties.*";
 # The following is a space-separated list of where additional user home
     ;;
@@ -606,7 +597,6 @@ XLogo*background: rgb:d2/22/32
     missingok
 deb http://archive.ubuntu.com/ubuntu/ focal multiverse
 # video device access
-#
 
 ## This works for most UNIX's
 
@@ -628,9 +618,7 @@ pool {{pool}} iburst
 }
 /Adobe-Korea1-Bold /NanumBarunGothic-Bold ;
 KP_5 = j;k;l;5;Â£
-#SpeedMeter=no
 
-/dev/scanner
 # IPMI_Physical_Security_Drive_Bay_Intrusion       Critical
 EOF
 OMsq7sXDmFff4hQjgQoDezMkA1EgzFokRY7pToLG3X1KdDXKR0edQ3+1mlJTf9XN
@@ -714,7 +702,7 @@ LANG=C.UTF-8
 X-GNOME-HiddenUnderSystemd=true
         *:down) exec cloud-init dhclient-hook down "$1";;
 # The check is disabled if the value is 0.
-ncurses will search ${HOME}/.terminfo first, then /etc/terminfo (this
+		<family>Arshia</family>
 0:0			none
 PKA6hjhodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9DZXJ0aWZpY2F0aW9u
 [Resolve]
@@ -773,7 +761,6 @@ type=file
 Ubuntu 20.04.5 LTS
 
 
-  /dev/tty     rw,
 type=file
 The `cloud-init clean` operation is typically performed by image creators
 # through the PPP network interface.
@@ -790,7 +777,7 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 
 0xC0	CS6
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: [origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"] start$
-    </complexType>
+# /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
 # You can use this script unmodified to connect to sites which allow
 ‚
 byte-compile = standard
@@ -872,13 +859,11 @@ scsi TAMARACK
 <busconfig>
 # Doing this will stop logging kernel generated UFW log messages to the file
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
-# Legacy biarch compatibility support
 {% if pools %}# pools
   owner /tmp/**         rwkl,
 # Consult the keyboard(5) manual page.
 #option lampOff   -1
 # installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
-#    This program is free software; you can redistribute it and/or
 cdrom:x:24:brandon
 MetadataURI=https://cdn.fwupd.org/downloads/firmware.xml.gz
 # snmp-timeout controls auto-detection timeout in ms (1500=1.5s).
@@ -888,7 +873,6 @@ MetadataURI=https://cdn.fwupd.org/downloads/firmware.xml.gz
 
 # Do not use IPMI KCS to create an initial user account if no SMBIOS data
   /usr/bin/qbittorrent Cxr -> sanitized_helper,
-$FileGroup adm
 saned:x:127:
 danish          da_DK.ISO-8859-1
 <fontconfig>
@@ -911,7 +895,6 @@ brandon:100000:65536
 scsi ABATON
 # Compose sequences for ISO-8859-16
 #
-#Enable=true
 Ubuntu 20.04.5 LTS \n \l
 0,0,170,85,0,0,170,170,85,85,255,255,85,85,255,255
 TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
@@ -940,11 +923,10 @@ TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 # Compose sequences for KOI8-R
 # Network (not yet supported!)
 NoPollBatteries=false
-# ------------------------------------------------------------------
+blacklist tdfxfb
 #
 PUBLICSHARE=Public
 #net.ipv4.ip_forward=1
-# User "root" should get access from network 192.168.201.
 # This file is sourced by Xsession(5), not executed.
 127.0.0.1	grusskartencenter.com
 {
@@ -1046,7 +1028,6 @@ NoDisplay=true
 #include "Xditview"
 #                 - bw <value>:
 # This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
-
 #backwards compatibility include, actual abstraction moved from php5 to php
 ff02::2 ip6-allrouters
 Bugs: https://bugs.launchpad.net/ubuntu/+filebug
@@ -1059,7 +1040,7 @@ deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buste
 /dev/scanner
 noauth
 nameserver 1.1.1.1
-# This program is free software: you can redistribute it and/or modify
+
 # P-215
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
 #u0x378	# /dev/lp1 forced in unidir mode
@@ -1102,7 +1083,7 @@ ip6.tc		u16		net+0		0xFF0		4
   owner @{HOME}/.config/klanguageoverridesrc rw,
 
 session optional pam_systemd.so
-<Key>c: Select(children) \n\
+# Use public servers from the pool.ntp.org project.
 
 #
 
@@ -1188,7 +1169,6 @@ directory and its contents.
 # Shut down the daemon after this many seconds idle. 0 means don't shutdown.
 
 #
-# real-time clock. Note that it canâ€™t be used along with the 'rtcfile' directive.
 video/x-msvideo=org.gnome.Totem.desktop
 ‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*\Ç‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ\ä¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ı\i¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù\Ş™¹<Ëº-\›çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-\›Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀ\ÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷Šˆ\ièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
 /usr/lib/firefox/plugin-container
@@ -1215,3 +1195,9 @@ default_driver=pulse
 	do_stop "$@"
 fi
 ff02::3 ipv6-allhosts
+##
+APT::Update::Post-Invoke-Success {"/usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
+#OverrideESPMountPoint=
+# DO NOT EDIT OR REMOVE
+  /etc/ldap.conf            r,
+        echo "$DPKG_MAINTSCRIPT_PACKAGE" >> /var/run/reboot-required.pkgs
