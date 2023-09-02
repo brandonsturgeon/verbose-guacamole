@@ -16,7 +16,6 @@ XClock.input: false
 usb "Panasonic KV-S1025C"
 *Indicator.horizontalSpacing:	2
 // Pre-configure all packages with debconf before they are installed.
-#!/bin/sh -e
                 . /lib/lsb/init-functions
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 		mkdir -p /boot/grub
@@ -34,14 +33,13 @@ kde4/ktimetracker.desktop
 
 
 # vim:syntax=apparmor
-# Compose sequences for ISO-8859-11
+America/Los_Angeles
 # This script can be used to override the .d files supplied by other packages.
 
 	export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
 # Rules for changing KDE settings (for KFileDialog and other).
 
 #
-# Autodetect the Canon CanoScan FB630u
 # The next option will send email to the named person when chronyd has
 Local  - Applications should save enough information to
 	fWÛàÌ†»dØÿV‹rªŞªøìÂødú•Ö1ÑZ6Uµÿ4ğnJäÕKHİôûcÓNö{$…/ŠÑ×båÑE${]¦'p“í½•¬¯«>²Ÿ2Ëœ‘­s¥ş¶IpåzåXGã…Í—ÄUªıØïµ†õ¨ı·Şé]m‰¹æEÏw#%Ã§Ò#2î9õ,ÒE4~²`Š*š7))¾@¹©îhŒM&3ç÷¦…($N@Ÿš'%½¯ğÛã"æ­yô,7í2•©¸Mí¼‹”¼‚1”ñ¢iˆïªƒ•İqƒÅ• «Í®üEÃùÓÀ35I±±¦÷óâ—âHê^¬>üL†Öaşä‚ÿÍt@òU‘ãÈ(Â)x¦Q‡†$—eøÀE/uÇbuP ÖÎ¾İcÊi2+_ĞØ¡[?qëÔè‰O)…û²èÂ
@@ -93,7 +91,7 @@ case "${1}" in
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
 †ãòÏ´¸}T°l¶møê+½³!£j[~=àgá%1ø_‡üT0”ØóªÓ+5~Äù*õƒ5ÉÕ`¬€<„ûô|à<Á<Áó+ã©‚©üĞ˜¯óŸ.$ã¯ğÍ·;²PïŒQBªQoıdœœœœœœœ›oòÜ¨›¶Bê=ÉwilÏdëMƒôÀÕg„àîàîà^U°g+ÀD1räÈû——Á`T®€šˆ]L¼a—¿løg’xöÂ†Œªm!øõ€Ÿ…—Äà~òSÁP­€‰·¼£
 compose '"' 'O' to 'Ö'
-# Compose sequences for IBM1133
+
 # video device access
   /etc/samba/dhcp.conf        r,
 /usr/local/lib/i386-linux-gnu
@@ -117,7 +115,6 @@ fi
 # Compose sequences for ISO-8859-10
   /dev/xconsole                 rw,
 [Desktop Entry]
-  /usr/share/p11-kit/modules/  r,
 dashes		2,1;
 quiet
 # enable xtrace if we should be verbose
@@ -158,7 +155,7 @@ MPLS_MULTI	8848		# MPLS with upstream-assigned label [RFC5332]
 
 ## number in the range 0-3. 
 # Specify file containing keys for NTP authentication.
-deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
+
 [ -x /usr/sbin/sendmail ] || exit 0
 #autodetach off
 # `dbus-1/services`, etc.
@@ -206,7 +203,6 @@ fi
 # Instance parent directories must exist for the polyinstantiation
 #    modify it under the terms of version 2 of the GNU General Public
 	zenity --warning --no-wrap --text="$TEXT"
-mozilla/SecureSign_RootCA11.crt
 BgEB/wIBATAwBgNVHREEKTAnhhVodHRwOi8vd3d3LmZ3dXBkLm9yZy+BDnNpZ25A
 
 #    License published by the Free Software Foundation.
@@ -238,7 +234,6 @@ deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 
 -dcevm KNOWN
 # sleep-inactive-battery-type='suspend'
-       path="/com/canonical/indicator/messages/*",
 }
  - disk_setup
 scsi FCPA
@@ -292,7 +287,6 @@ APT::Archives::MinAge "2";
 grant {
 APT::Periodic::Update-Package-Lists "1";
   /usr/bin/audacious2 Cxr -> sanitized_helper,
-# (Note: in the daemon an option is enabled even if its set to
 </catalog>
 
 *buttonbox.displayList:			foreground gray70;line 0,-1,-1,-1;foreground gray95;line 0,0,-1,0
@@ -414,7 +408,6 @@ NoDisplay=true
 
 
 exec $STARTUP
-K¥!NÁÁ¡%#bHÂï
 ### BEGIN INIT INFO
 # in /etc/passwd and ignore centralized (AD, IdM, LDAP, etc.) users.
 ¿W¸	Ú1­ÌGtf˜nëjõ'mJy°ÂJ€“Mé(1®V´åRäq–êg,Ã©‡nı£ÀJ°å¼lrâ’‰°ymC>¦ªS²Ö¨XBo‘ 2Qæ£V,Ò£ö¢Öæœ7É7°vn¨Ù8LÃ©V?i/ÀÈx‚íŠ£'ù'ËKB©€È1ª
@@ -428,7 +421,6 @@ After=snap-lxd-22923.mount
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ [._[:alnum:]-]+([[0-9]+])?: DIGEST-MD5 common mech free
     ;;
     <!-- org.freedesktop.ModemManager1.Modem.Voice.xml -->
-  <mime type="application/x-blender" description="Blender scene" priority="100" pattern="*.blend" />
 {% if servers %}# Servers
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
 	  <default>
@@ -492,7 +484,7 @@ deb {{mirror}} {{codename}}-updates universe
 exit 0
 # PulseAudio is distributed in the hope that it will be useful, but
 
-# Compose sequences for ISO-8859-8
+#
 
 XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
 		<edit name="hinting">
@@ -690,12 +682,11 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 #    tunnels special.
 
   # require the santized_helper (ie, LD_PRELOAD will only use standard system
-/var/log/apport.log {
+#		Mo Tu We Th Fr Sa Su Wk Wd Al
     </test>
 
 
 #  e.g. the empty string or 0 or whatever. To disable it should not
-# perform common modifications to the behavior of the dbus daemon
 
   <policy context="default">
 WAIT=10
@@ -880,7 +871,7 @@ if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 # invoked with "-" as the first character of argv[0], and
       <Filename>emacs.desktop</Filename>
-            <family>Sazanami Gothic</family>
+
 
 
 şGšË<q
@@ -926,7 +917,7 @@ nameserver 1.1.1.1
 
 # P-215
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
-#u0x378	# /dev/lp1 forced in unidir mode
+    echo -n "$MESSAGE" | fold -s -w ${COLUMNS:-80} | xmessage -center -file -
 
 promptinit
 
@@ -996,11 +987,10 @@ auth    requisite       pam_nologin.so
 keyfile /etc/chrony/chrony.keys
 ## team, and may not be under a free licence. Please satisfy yourself as to
 
-  owner @{HOME}/                          r,
+XClock.Clock.hourColor:		rgba:7f/00/00/c0
 server {{server}} iburst
 # Clients from this (example!) subnet have unlimited access, but only if
 # details.  The web page <http://support.ntp.org/bin/view/Support/AccessRestrictions>
-# create a directory in /tmp.
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
 
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet		xlsx
@@ -1074,7 +1064,6 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 # ldconfig = false
 # here can prevent the package manager of the distribution from interfering
 
-
 #
 	N=/etc/init.d/multipath-tools
 
@@ -1093,7 +1082,7 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 sgx:x:108:
 # large policy changes, rather than trying to make those adjustments here.
 #%PAM-1.0
-
+# Compose sequences for ISO-8859-8
 #    License published by the Free Software Foundation.
 isis	124	ISIS		# IS-IS over IPv4
   # Include additions to the abstraction
@@ -1183,7 +1172,7 @@ compose 'v' 'b' to '¦'
 	;;
 # ------------------------------------------------------------------
 overlayroot_cfgdisk=LABEL=OROOTCFG
-  owner @{HOME}/.gnupg/so/*.x86_64 mr,
+# This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:
 #   include <abstractions/ubuntu-helpers>
 #
 
@@ -1249,5 +1238,18 @@ REMOVE_HOME = 0
 # ------------------------------------------------------------------
 countryName		= match
 
-
+# IRQBALANCE_ARGS
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+
+<fontconfig>
+
+    [ $n -eq 0 ] && return 0
+# Do not wait on grub prompt
+CRYPTDISKS_ENABLE=Yes
+// Pre-configure all packages with debconf before they are installed.
+
+  abi <abi/3.0>,
+QT_ACCESSIBILITY=1
+  # Allow exec of texlive font build scripts (LP: #1010909)
+
+
