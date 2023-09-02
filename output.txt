@@ -54,7 +54,7 @@ fi
 
 #!/bin/sh
 fi
-     o Declarations for and references to external parameter entities
+# NB. For these items the simple wildcard '*' may be used only once.
     fi
 mibs :
 [ -z "$SETTINGS" ] || $ETHTOOL --change "$IFACE" $SETTINGS
@@ -86,7 +86,7 @@ case "${1}" in
 // grant codeBase "jrt:/com.greetings" {
 ## This file is provided by command-not-found(1) to download
 	<alias>
-      </more>
+<fontconfig>
 	start-stop-daemon --start --background $SSD_OPTIONS
 #scsi hp
 { :
@@ -152,7 +152,7 @@ scsi "K.M.E.  " "KV-SS25A        "
 #    License published by the Free Software Foundation.
   file. For example, the PNG coder module not only supports the PNG image
 			<family>padmaa</family> <!-- gujarati -->
-
+# Make sure the locale variables are set to valid values.
 order hosts,bind
 DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
 
@@ -192,7 +192,6 @@ fi
 		done
     # Run the right scripts
 
- {{flag-}}
 #
 
 # or the other. (Ubuntu: #315056, #323830)
@@ -257,7 +256,7 @@ BACKUP_TO = "."
 # This file is a simple placeholder to keep dpkg from removing this directory
     return 0
 # This file is sourced only for login shells (i.e. shells
-    $_local warning="" idir="/var/lib/cloud/instance" n=0
+# do not try to refresh this more than once per day
 /lib/i386-linux-gnu
 # The possible arguments are:
 sonames=libbd_swap.so.2
@@ -283,7 +282,6 @@ APT::Archives::MinAge "2";
   <match target="pattern">
   @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
 
-  # Support the new executable helper from NetworkManager.
 #
 # Compose sequences for ISO-8859-10
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
@@ -344,7 +342,6 @@ DESKTOP-OFJN9OT
 DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 1	redirect
 [Time]
-
 # DAEMON_OPTIONS:
 # This file is sourced by Xsession(5), not executed.
 # pool.ntp.org maps to about 1000 low-stratum NTP servers.  Your server will
@@ -354,7 +351,6 @@ Name=Secret Storage Service
 		wpa_cli_do "$IF_WPA_SSID" ascii 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 CATALOG /usr/share/xml/docutils/catalog
-<delegatePublic publicIdStartString="+//IDN docutils.sourceforge.net/" catalog="file:///usr/share/xml/docutils/catalog.xml"/>
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 # Copyright (c) 1996, 2000, Oracle and/or its affiliates. All rights reserved.
 XClock.input: false
@@ -498,7 +494,7 @@ deb {{mirror}} {{codename}}-updates universe
 *quit.top: 			ChainTop
 exit 0
 # PulseAudio is distributed in the hope that it will be useful, but
-  owner @{HOME}/.config/QtProject/qtlogging.ini r,
+
 # Compose sequences for ISO-8859-8
 
 XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
@@ -654,7 +650,6 @@ compose '<' 'd' to 'Ô'
 # Compose sequences for ISIRI-3342
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
 # Disables core dumps on fatal errors; they're enabled by default.
-56f12ada18a3412ab1f9dcd69450be95
 
 ff02::1 ip6-allnodes
 			fi
@@ -689,7 +684,7 @@ compose 'A' 'O' to '≈'
     [ -n "$ZSH_VERSION"  ] && precmd_functions+=(__vte_osc7)
 What=/var/lib/snapd/snaps/snapd_8542.snap
 [mysql]
-# kFreeBSD do not accept scripts as interpreters, using #!/bin/sh and sourcing.
+
 #DefaultOOMPolicy=stop
 # vulnerabilities.  (Added in kernel 2.6.23.)
 
@@ -707,7 +702,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 
 #  e.g. the empty string or 0 or whatever. To disable it should not
 # perform common modifications to the behavior of the dbus daemon
-# vi: syntax=sh ts=4 noexpandtab
 
   <policy context="default">
 WAIT=10
@@ -729,7 +723,6 @@ fs.protected_symlinks = 1
 speed=115200
 FZÑñæ—˙ ( B r Å ¶ º Ë ˘ !!*!5!H!S!t!!û!©!ª!ƒ!’!ﬁ!˝!"")"R"i"ñ"≥"Ê"#8#W#å#Ø#Ë#$<$]$î$¥$Í$%,%<%b%p%î%£%»%ﬁ%
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
-	</alias>
 case "$CRYPTDISKS_ENABLE" in
 LazyUnmount=yes
 
@@ -750,7 +743,6 @@ $WorkDirectory /var/spool/rsyslog
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 X-GNOME-Bugzilla-Bugzilla=GNOME
 		<test name="slant">
-
 
 vm.mmap_min_addr = 65536
 
@@ -774,6 +766,7 @@ test -x $DAEMON || exit 0
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 {% if pools %}# pools
   owner /tmp/**         rwkl,
+        <Key>B:         previous-page()
 
 #option lampOff   -1
 # installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
@@ -784,7 +777,7 @@ cdrom:x:24:brandon
 # Do not use IPMI KCS to create an initial user account if no SMBIOS data
   /usr/bin/qbittorrent Cxr -> sanitized_helper,
 saned:x:127:
-danish          da_DK.ISO-8859-1
+## skip reading cache but allow updating
 <fontconfig>
 # to update this file, run dpkg-reconfigure cloud-init
 
@@ -841,7 +834,6 @@ WAIT=5
      <Key>Next:	    NextPage()
 
 deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main
-X-GNOME-Autostart-Phase=PreDisplayServer
 # The following is a space-separated list of where additional user home
 # This file is sourced by Xsession(5), not executed.
 compose '/' '<' to '\\'
@@ -870,7 +862,7 @@ session required        pam_loginuid.so
     missingok
     -->
 
-# This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:
+QUIET=0
 usb 0x03f0 0x0101
 #%PAM-1.0
 0x88	AF41
@@ -967,7 +959,7 @@ compose ',' ',' to '∏'
 EODMFj+BpdoDwAWhJcvyijoMV6N+gbCG+UedMNnpe25tlCRjouBSEF5KWJabejdh
 ## or updates from the Ubuntu security team.
 #
-	</match>
+
        peer=(name=org.freedesktop.DBus),
   # Capabilities
 </busconfig>
@@ -990,7 +982,6 @@ session optional pam_systemd.so
 # Tell grub that resume was successful
 #input(type="imtcp" port="514")
 
-
 # This includes a dynamically generated part from /run/motd.dynamic
 X-GNOME-AutoRestart=false
 #EnclosureKind=
@@ -998,7 +989,6 @@ AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --
 
 
 overlayroot_cfgdisk=LABEL=OROOTCFG
-#
 # Compose sequences for ISO-8859-11
 #*               soft    core            0
 # starts in the proper default security context. Only sessions which are
@@ -1140,7 +1130,6 @@ compose '\'' 'e' to 'È'
 alias.url += ("/javascript" => "/usr/share/javascript")
 # This file is sourced only for login shells (i.e. shells
   # EGL
-# vim:syntax=apparmor
 # in the centralized mechanism.
   /dev/ptmx rw,
 
@@ -1183,7 +1172,6 @@ brandon:100000:65536
   include if exists <abstractions/openssl.d>
 X-GNOME-Autostart-Notify=true
     eval $(apt-config shell RandomSleep APT::Periodic::RandomSleep)
-brandon:100000:65536
 #
 # DO NOT EDIT OR REMOVE
 # Insert here your local magic data. Format is described in magic(5).
@@ -1204,7 +1192,7 @@ compose 'v' 'b' to '¶'
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 	;;
 # ------------------------------------------------------------------
-# madwifi from loading by default. Use Jockey to select one driver
+overlayroot_cfgdisk=LABEL=OROOTCFG
   owner @{HOME}/.gnupg/so/*.x86_64 mr,
 #   include <abstractions/ubuntu-helpers>
 #
@@ -1255,3 +1243,14 @@ find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/
 #    Copyright (C) 2009 Canonical Ltd.
 
 systemd=false
+
+0	default
+BRIDGE_HOTPLUG=no
+# directives may be given for clarity, and will be concatenated together in
+
+#  Software Foundation; either version 2.1 of the License, or (at your option)
+  owner @{HOME}/[mM]ail/      r,
+#
+alias.url += ("/javascript" => "/usr/share/javascript")
+	ŸJ£Ô‚íH@âçñW∏õ2∞∏ıûv,f*IÇÖyπÛ"ÿ¥2LÜ)T¸N¯ïH‹p…õCàÙ“(S`Ö˛-Ω⁄ºôÂJï†õœ;ÜÊ;Ë°HóBeG_](3\7˘èpI…ûQç»Ö;pàVÅ&æìg¥o98?•¥4¸Ò6Y°ª™&t€yúóf;:F5=ò1à∂ü§qÿÔ‡rT≥Üè)8£];”iƒÒÅ>v,HÄ0Î¥ÒÜÆbt‹lZõù*ØI’Ú‡úL˚ã–	PÁı⁄»=_∂o•vwBÛÊ#Ø,Dª˝årœΩ©Ê§KÎ≥|•ÓÃ·uD»o˚M#Aﬂø´xäù>Ãî{qW%ö/XÃë/Î^Ú(òºÛp04o≠≤¢'Çùﬁ-?9™œë¡Lî.{7'2Méò
+# ------------------------------------------------------------------
