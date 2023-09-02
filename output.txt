@@ -4,7 +4,6 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOaTavyg2aduJr/r5co/BVjN5gPknT6Sngg1Fhg3UihY
   owner @{HOME}/@{XDG_DESKTOP_DIR}/*	rwl,
   # System files
 /bin/sh
-# mibdirs /usr/share/snmp/mibs:/usr/share/snmp/mibs/iana:/usr/share/snmp/mibs/ietf
   # User files
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
     local dmi_path="/sys/class/dmi/id/board_vendor" vendor=""
@@ -18,7 +17,7 @@ XClock.input: false
 usb "Panasonic KV-S1025C"
 # create new (empty) log files after rotating old ones
 audio/x-mpegurl=rhythmbox.desktop
-
+#
 // Pre-configure all packages with debconf before they are installed.
 # by the included systemd service file.
   /usr/bin/leafpad Cxr -> sanitized_helper,
@@ -65,7 +64,7 @@ max_allowed_packet	= 16M
 #!/bin/sh
 fi
      o Declarations for and references to external parameter entities
-        <double>0.8</double>
+    /etc/java-*/ r,
 mibs :
 #   You can use this file to change the default behavior of screen system wide
 # Compose sequences for TIS-620
@@ -104,7 +103,6 @@ case "${1}" in
 { :
 # however the tradeoff is increased power consumptions. This feature
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
-{% endif %}
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
                 . /lib/lsb/init-functions
 compose '"' 'O' to 'Ö'
@@ -197,7 +195,6 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 # with cloud-init during boot causing issues with host key generation.  This
 # Note that you must configure the path used by dconf to store the 
         case "$cur" in
-// Notify all clients to reload the cache
 CURL_OPTS="--cacert /etc/pollinate/entropy.ubuntu.com.pem --capath /dev/null"
 # do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
 #DefaultLimitMSGQUEUE=
@@ -271,7 +268,7 @@ Name=SSH Key Agent
 		exit 1
 Terminal=false
     <accept>
-search updates ubuntu built-in
+  /usr/bin/bitstormlite Cxr -> sanitized_helper,
 deb [trusted=yes] https://wsl-translinux.arkane-systems.net/apt/ /
 
 -dcevm KNOWN
@@ -514,7 +511,6 @@ fi
   /usr/share/{pyshared,pycentral,python-support}/**      r,
   # Text editors (It's All Text [https://addons.mozilla.org/en-US/firefox/addon/4125])
 <fontconfig>
-1T4H/jsWVrANLKElBwZJpPOVy4Haw7UG+zk7lfwck0H8J9ShDtwhNTg03BiOONP/
 XKBLAYOUT="us"
 	;;
 @include common-session-noninteractive 
@@ -559,7 +555,6 @@ case "$1" in
 
 #disable = rpm, selinux, dovecot
   /usr/share/p11-kit/modules/  r,
-# profile using this mechanism.
 # Compose sequences for CP1255
 deb {{mirror}} {{codename}}-updates universe
 		</test>
@@ -613,7 +608,6 @@ deb http://archive.ubuntu.com/ubuntu/ focal multiverse
 # video device access
 #
 
-# Defaults can be restored by simply deleting this file.
 ## This works for most UNIX's
 
       <fit>
@@ -701,11 +695,11 @@ URI_LTS = https://changelogs.ubuntu.com/meta-release-lts
 #InhibitDelayMaxSec=5
 
 # All the tunables definitions that should be available to every profile
-# vim:syntax=apparmor
+	</match>
 
 DPkg::Tools::Options::/usr/bin/apt-listchanges::Version "2";
 
-#    This program is free software; you can redistribute it and/or
+directory), then /lib/terminfo, and last not least /usr/share/terminfo.
 Name=GNOME Settings Daemon's power plugin
   # per-user configurations
 libXvMC.so.1
@@ -733,7 +727,7 @@ overlayroot_cfgdisk=LABEL=OROOTCFG
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 # called by RPC services. This mostly solves the problem, that a
     permission javax.crypto.CryptoAllPermission; 
-{% if servers %}# Servers
+#
 [METARELEASE]
 # You can use a different file by specifying a filename
 letter
@@ -745,7 +739,7 @@ letter
 #!/bin/sh
 X-GNOME-Autostart-Phase=Initialization
 compose '<' 'd' to 'ï'
-#FallbackNTP=ntp.ubuntu.com
+# Compose sequences for ISIRI-3342
 	Œö:ÓğoÆY$ÿwº>hÇpW:ÿ‰¿ØÛ6ä_£ V2FÚO“Çùfxá0}
 # Disables core dumps on fatal errors; they're enabled by default.
 56f12ada18a3412ab1f9dcd69450be95
@@ -812,7 +806,7 @@ byte-compile = standard
 # vi: syntax=sh ts=4 noexpandtab
 
   <policy context="default">
-
+WAIT=10
 DEVICE="/dev/urandom"
 
     <xs:attribute name="namespace" type="xs:namespaceList" use="optional" default="##any"/>
@@ -847,7 +841,6 @@ $WorkDirectory /var/spool/rsyslog
               md5sum $statedir/isc-dhcp-v4-$interface.conf $statedir/isc-dhcp-v6-$interface.conf > $oldstate 2> /dev/null
               <Filename>gconf-editor.desktop</Filename>
 /usr/local/lib/i686-linux-gnu
-XLoad.input:			false
   # per-user settings and dictionaries
   update_status_timer: 43200
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
@@ -885,7 +878,7 @@ scsi TAMARACK
 # Consult the keyboard(5) manual page.
 #option lampOff   -1
 # installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
-set -e
+#    This program is free software; you can redistribute it and/or
 cdrom:x:24:brandon
 MetadataURI=https://cdn.fwupd.org/downloads/firmware.xml.gz
 # snmp-timeout controls auto-detection timeout in ms (1500=1.5s).
@@ -986,7 +979,6 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
   unix (connect, receive, send) type=stream peer=(addr="@tmp/.mozc.*"),
 #scsi MITSBISH MCA-S600C
 #
-Ubuntu 20.04.1 LTS (Focal Fossa)
 
     missingok
     -->
@@ -1011,7 +1003,7 @@ if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 
 #    Copyright (C) 2013 Canonical Ltd.
 ports=22/tcp
-"set autowrite		" Automatically save before commands like :next and :make
+
 /usr/local/lib
 # Compose sequences for IBM1133
   # to put a minimal subset of the Xsession's environment in activated
@@ -1192,14 +1184,13 @@ directory and its contents.
 	compress
 # have any effect at all.
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-127.0.0.1 localhost.localdomain localhost
+  <uri name="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd" uri="xenc-schema.xsd"/>
 # Shut down the daemon after this many seconds idle. 0 means don't shutdown.
 
 #
 # real-time clock. Note that it canâ€™t be used along with the 'rtcfile' directive.
 video/x-msvideo=org.gnome.Totem.desktop
 ‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*\Ç‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ\ä¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ı\i¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù\Ş™¹<Ëº-\›çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-\›Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀ\ÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷Šˆ\ièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
-  /srv/www/rails/*/public/ r,
 /usr/lib/firefox/plugin-container
 # only deny service to users whose accounts are expired in /etc/shadow.
 
@@ -1210,3 +1201,17 @@ video/x-msvideo=org.gnome.Totem.desktop
 DPkg::Post-Invoke {"if [ -d /var/lib/update-notifier ]; then touch /var/lib/update-notifier/dpkg-run-stamp; fi; /usr/lib/update-notifier/update-motd-updates-available 2>/dev/null || true";};
 # Default is yes
 # Xsession.d script to set the env variables to enable accessibility for Qt
+#%PAM-1.0
+#  OS-dependent data paths will be used. They will also be used if the list
+# In some cloud-init enabled images the sshd-keygen template service may race
+APT::Periodic::Download-Upgradeable-Packages "0";
+# modify these in /etc/default/$BASE (/etc/default/docker)
+# ctrll shiftr shiftl alt keycode 36 = Incr_Console
+default_driver=pulse
+# from the distro configuration specified below
+  # dhclient wants to update its threads with functional names
+*JumpScroll:			1
+  /usr/lib{,32,64}/ruby/gems/1.[89]{.[0-9],}/ r,
+	do_stop "$@"
+fi
+ff02::3 ipv6-allhosts
