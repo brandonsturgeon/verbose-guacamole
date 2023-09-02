@@ -17,7 +17,7 @@ usb "Panasonic KV-S1025C"
 *Indicator.horizontalSpacing:	2
 #
 // Pre-configure all packages with debconf before they are installed.
-  /usr/bin/leafpad Cxr -> sanitized_helper,
+# Another alternative is:
                 . /lib/lsb/init-functions
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 		mkdir -p /boot/grub
@@ -52,7 +52,6 @@ Local  - Applications should save enough information to
 	fWÛàÌ†»dØÿV‹rªŞªøìÂødú•Ö1ÑZ6Uµÿ4ğnJäÕKHİôûcÓNö{$…/ŠÑ×båÑE${]¦'p“í½•¬¯«>²Ÿ2Ëœ‘­s¥ş¶IpåzåXGã…Í—ÄUªıØïµ†õ¨ı·Şé]m‰¹æEÏw#%Ã§Ò#2î9õ,ÒE4~²`Š*š7))¾@¹©îhŒM&3ç÷¦…($N@Ÿš'%½¯ğÛã"æ­yô,7í2•©¸Mí¼‹”¼‚1”ñ¢iˆïªƒ•İqƒÅ• «Í®üEÃùÓÀ35I±±¦÷óâ—âHê^¬>üL†Öaşä‚ÿÍt@òU‘ãÈ(Â)x¦Q‡†$—eøÀE/uÇbuP ÖÎ¾İcÊi2+_ĞØ¡[?qëÔè‰O)…û²èÂ
 fi
        daily
-Comment[af]=Begin die PulseAudio-klankstelsel
 #user_allow_other
 max_allowed_packet	= 16M
 			<Btn1Down>:popup-pixel()
@@ -97,7 +96,7 @@ case "${1}" in
 { :
 # however the tradeoff is increased power consumptions. This feature
 ! $Xorg: system.xsm,v 1.3 2000/08/17 19:55:06 cpqbld Exp $
- "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
+†ãòÏ´¸}T°l¶møê+½³!£j[~=àgá%1ø_‡üT0”ØóªÓ+5~Äù*õƒ5ÉÕ`¬€<„ûô|à<Á<Áó+ã©‚©üĞ˜¯óŸ.$ã¯ğÍ·;²PïŒQBªQoıdœœœœœœœ›oòÜ¨›¶Bê=ÉwilÏdëMƒôÀÕg„àîàîà^U°g+ÀD1räÈû——Á`T®€šˆ]L¼a—¿løg’xöÂ†Œªm!øõ€Ÿ…—Äà~òSÁP­€‰·¼£
 compose '"' 'O' to 'Ö'
 # /etc/xdg/user-dirs.defaults)
 # video device access
@@ -129,7 +128,7 @@ fi
 [Distro]
   <match target="pattern">
 <fontconfig>
-
+# enable xtrace if we should be verbose
 ™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
 #    modify it under the terms of version 2 of the GNU General Public
 # ctrll shiftl alt keycode 36 = Incr_Console
@@ -222,11 +221,11 @@ max_allowed_packet	= 16M
 	zenity --warning --no-wrap --text="$TEXT"
 mozilla/SecureSign_RootCA11.crt
 
-<?xml version="1.0"?>
+
 #    License published by the Free Software Foundation.
 
 # ipmi-fru-bridge-fru DISABLE
-  owner @{HOME}/.cache/#[0-9]*[0-9] rw, # QSaveFile (anonymous shared memory)
++# Your system has configured 'manage_etc_hosts' as True.
 scsi "KINPO   " "Vividscan S120  "
 alias.url += ("/javascript" => "/usr/share/javascript")
 Name=Print Queue Applet
@@ -283,7 +282,6 @@ sonames=libbd_swap.so.2
         </test>
     stop)
 search updates ubuntu built-in
-	bootdir=$(dirname "$2")
 		grub-editenv /boot/grub/grubenv unset recordfail
 #canon.conf
 # Compose sequences for KOI8-R
@@ -366,7 +364,7 @@ DEFAULT_XDG_DATA_DIRS='/usr/local/share/:/usr/share/'
 # See bash(1) for more options
 [Time]
 
-[ -d /var/crash ] || exit 0
+# DAEMON_OPTIONS:
 # This file is sourced by Xsession(5), not executed.
 # pool.ntp.org maps to about 1000 low-stratum NTP servers.  Your server will
     ;; This might result in a call to debian-ispell, so do this only if
@@ -428,7 +426,6 @@ fi
 AI	-*-charter-medium-i-normal--*-*-*-*-*-*-iso8859-1
 
 # ipmiconsole-privilege-level ADMIN
-
 APT::Install::Pre-Invoke {
 
 # Required-Stop:     $local_fs
@@ -448,7 +445,6 @@ NoDisplay=true
 exec $STARTUP
 K¥!NÁÁ¡%#bHÂï
 ### BEGIN INIT INFO
-This file is part of PulseAudio.
 # in /etc/passwd and ignore centralized (AD, IdM, LDAP, etc.) users.
 ¿W¸	Ú1­ÌGtf˜nëjõ'mJy°ÂJ€“Mé(1®V´åRäq–êg,Ã©‡nı£ÀJ°å¼lrâ’‰°ymC>¦ªS²Ö¨XBo‘ 2Qæ£V,Ò£ö¢Öæœ7É7°vn¨Ù8LÃ©V?i/ÀÈx‚íŠ£'ù'ËKB©€È1ª
 #    modify it under the terms of version 2 of the GNU General Public
@@ -466,14 +462,14 @@ contract_status_stamp="/var/lib/ubuntu-advantage/messages/motd-contract-status"
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
 	  <default>
 
-#RUN_DAILY=true
+printf '%%G' 
 #    modify it under the terms of version 2 of the GNU General Public
 #
 #objects-per-client-max=1024
 statmon		100023
 20190427180239 2 6 100 3071 5 E7A9F2E16494A110F823F0C90DFE9CC40005B24122176C6C6525F90F736433F094527C6DB9032736C471474E93E7DAB28D9CC80DC6C93EF27473EFE0F4A3A3AFBC07C0BA0DEFA0C73C075700D69F950499B634B197AD2B4E32712E80AEC3D463DAD26397FEB80B1DE1DBF96C7BF1CAEF1A47E39D135A5D941BF1ECE9186CF23C785E2B368B8AFC24E120EA6956EB97206AD0C80DE87D092190A049E0E12F340E41C6EFE13F1C19A63763B90C4E9099D0011FA62913194E4671998FAE8847EA077F506D394ACBCF139DF20A9C36BDC1B82F905BF1975C9D4322EF2E9165EC2C0FAAEEABED7EF759F4D4BD764A5BA4043085CE3D679B0CE5C79340CF92E35D7A931A0B4A52B3447EBF7E2E2633EE221989B8A9E2C598A058CFBFCA4800BAFFBD8F9B9B3068AC18A0A030EC0CDE39439DFFFA8C42EDF7D4FC1D4E6D455A7387BCBE7EF973B3452E026707189CE35086A3B7B82BE0DF2824972794435DC8A76AC110CE46FADCF5C0BC070A61F14CEFB6B8EFCEA85B0F320D441B7DC1CBA2150B283F
 X-GNOME-Autostart-Phase=PreDisplayServer
-<fontconfig>
+  dbus bus=fcitx,
 All executable files in this directory are processed in shell expansion order.
   /usr/share/{pyshared,pycentral,python-support}/**      r,
   # Text editors (It's All Text [https://addons.mozilla.org/en-US/firefox/addon/4125])
@@ -524,7 +520,6 @@ deb {{mirror}} {{codename}}-updates universe
 		</test>
 # 3. Sanitizing ruby and java
 </fontconfig>
-fi
   /sys/devices/pci*/**/{,subsystem_}device r,
 *quit.top: 			ChainTop
 exit 0
@@ -606,7 +601,7 @@ SHELL=/bin/sh
 # javax.sound.midi.Receiver
 
     create 0660 root utmp
-# ONLY use this if your saned server is sitting behind a firewall. If your
+	<alias>
 DOCUMENTS=Documents
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
 ::1 localhost.localdomain localhost
@@ -746,7 +741,7 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 # /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
 # You can use this script unmodified to connect to sites which allow
 ‚
-byte-compile = standard
+
 #    Copyright (C) 2013 Christian Boltz
   # require the santized_helper (ie, LD_PRELOAD will only use standard system
 /var/log/apport.log {
@@ -800,7 +795,6 @@ $WorkDirectory /var/spool/rsyslog
 X-GNOME-Bugzilla-Bugzilla=GNOME
 		<test name="slant">
 
-# ---
 #
 
 vm.mmap_min_addr = 65536
@@ -830,7 +824,6 @@ scsi TAMARACK
 #option lampOff   -1
 # installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
 cdrom:x:24:brandon
-MetadataURI=https://cdn.fwupd.org/downloads/firmware.xml.gz
 # snmp-timeout controls auto-detection timeout in ms (1500=1.5s).
 			<string>Noto Sans CJK JP</string>
 
@@ -924,7 +917,7 @@ deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal main
     missingok
     -->
 
-<?xml version="1.0"?>
+# This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:
 usb 0x03f0 0x0101
 #%PAM-1.0
 0x88	AF41
@@ -944,7 +937,7 @@ if [ -x /usr/share/unattended-upgrades/update-motd-unattended-upgrades ]; then
 
 #    Copyright (C) 2013 Canonical Ltd.
 ports=22/tcp
-
+    </test>
 /usr/local/lib
 # Compose sequences for IBM1133
   # to put a minimal subset of the Xsession's environment in activated
@@ -983,7 +976,6 @@ NoDisplay=true
 		<!-- check to see if the pattern requests bold -->
 
   owner @{HOME}/[dD]ownload{,s}/**	rwl,
-#include "Xditview"
 #                 - bw <value>:
 # This file is generated by /var/lib/dpkg/info/screen.postinst upon package configuration
 ff02::2 ip6-allrouters
@@ -1174,7 +1166,6 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 # to prevent metadata writes.  This is needed in order to allow
 			<family>Hapax BerbÃ¨re</family> <!-- tifinagh -->
 # here are the per-package modules (the "Primary" block)
-
 # Compose sequences for CP1255
 sgx:x:108:
 # large policy changes, rather than trying to make those adjustments here.
@@ -1218,3 +1209,16 @@ alias.url += ("/javascript" => "/usr/share/javascript")
 ## more information. Default values are commented out.  Use either ; or # for
            send_interface="org.freedesktop.PackageKit"/>
 DEFAULT_LOUD="yes"
+[boot]
+# the file system.
+    <family>VerajjaPDA</family>
+# Default-Stop:
+APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
+</Directory>
+do_bootloader = no
+		 "/site-lisp/dictionaries-common/debian-ispell.el"))
+
+dCBSb290IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzIwHhcNMDkwNzA3MTcy
+
+; extra-arguments = --log-target=syslog
+      <family>DejaVu LGC Sans</family>
