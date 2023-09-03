@@ -7,14 +7,13 @@
 # im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
     local dmi_path="/sys/class/dmi/id/board_vendor" vendor=""
     compress
-		<family>Cooper Std</family>
+# Please consider joining the pool (http://www.pool.ntp.org/join.html).
 # by dpkg on upgrades).  We all love dpkg prompts.
 # This will not allow a user to change their shell unless
 }
 
 usb "Panasonic KV-S1025C"
 +# a.) make changes to the master file in /etc/cloud/templates/hosts.mariner.tmpl
-// Pre-configure all packages with debconf before they are installed.
                 . /lib/lsb/init-functions
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 		mkdir -p /boot/grub
@@ -46,7 +45,6 @@ fi
 			<Btn1Down>:popup-pixel()
 
 #!/bin/sh
-fi
   </alias>
 [ -z "$SETTINGS" ] || $ETHTOOL --change "$IFACE" $SETTINGS
 11  connector
@@ -90,7 +88,7 @@ compose '"' 'O' to '÷'
 # This will not allow a user to change their shell unless
 };
 <!--
-			<family>Latin Modern Math</family> <!-- TeX -->
+X-GNOME-AutoRestart=false
 /ZenKai-Medium << /FileType /TrueType /Path (/usr/share/fonts/truetype/arphic/ukai.ttc) /SubfontID 0 /CSI [(CNS1) 4] >> ;
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAr+6GPgz4pnxGhnRPbzreFbZerylDneftGZKsHIMpC8KatK7pqmHPjs4EKWjSn8XoIk/uA5NccoESmo/ao5YVw= root@LAPTOP-5TIN5O4V
 set -e
@@ -108,7 +106,6 @@ quiet
 #    modify it under the terms of version 2 of the GNU General Public
 # ctrll shiftl alt keycode 36 = Incr_Console
 # Plus a lot of fun stuff added
-X-GNOME-AutoRestart=true
 /dev/scanner
 
 
@@ -164,7 +161,7 @@ if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 ã]“«j[AÜ·ΩØb∞Z∑Gé≥±ßAº”ÊH:â∂é#í‡“{ÔΩ˜ﬁ{ÅÃçÂˇﬁÏ≤xg`‡Y|Cn[Ÿ-{Eølª≠Ωj—ÕmI#˝≈•Ö—z≥”Ìt]s◊¶Å!∑b«πÛùÖ“ı ¢Ì
 run_im default
   owner @{HOME}/.local/share/RecentDocuments/*.desktop rwl -> @{HOME}/.local/share/RecentDocuments/#[0-9]*,
-		done
+" When Vim is invoked differently ("vim", "view", "evim", ...) this file is
     # Run the right scripts
         add_etc_modules=
 #
@@ -222,7 +219,7 @@ scsi FCPA
 /dev/camera
 #	        done
 BACKUP_TO = "."
-# that defines the configuration.
+# /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
 }
 # for allowing access to xterm
 #   skip - do not copy.
@@ -268,7 +265,7 @@ abi <abi/3.0>,
 #    modify it under the terms of version 2 of the GNU General Public
 TryExec=im-launch
   abi <abi/3.0>,
-mozilla/Buypass_Class_2_Root_CA.crt
+# Default is yes
 gtk-icon-sizes = panel-menu-bar=24,24
 compose '`' 'i' to 'Ï'
   upload_limit: 100
@@ -398,7 +395,6 @@ printf '%%G'
 XKBLAYOUT="us"
 	;;
 @include common-session-noninteractive 
-#
 compose ':' '-' to '˜'
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 " options, so any other options should be set AFTER setting 'compatible'.
@@ -518,7 +514,6 @@ do_start_prepare() {
   /usr/bin/prism Cx -> sanitized_helper,
 #0x37b	# /dev/lp0
 LAPTOP-5TIN5O4V
-0	default
 KP_5 = j;k;l;5;¬£
 # scopev4  <mask>  <value>
 
@@ -529,7 +524,7 @@ esac
 		<test name="family" compare="contains" >
 Description=Mount unit for snapd, revision 8542
 #
-#
+directory and its contents.
   # modifications here, please consider including them in the ldd
 #
 
@@ -592,7 +587,7 @@ makestep 1.0 3
 #option 1200cu
 type=file
 /ZapfDingbats /Dingbats ;
-# Select which information is logged.
+       peer=(name=org.freedesktop.NetworkManager),
 
    manage_etc_hosts: True
 Ubuntu 20.04.5 LTS
@@ -631,11 +626,10 @@ WAIT=10
 fi
 # $ systemctl edit cron.service
   *)
-
 	</alias>
     <allow own="net.hadess.SwitcherooControl"/>
 # 2001::81:1 test.local
-#           currently-running release.
+# es_BO.UTF-8 UTF-8
 speed=115200
 FZÑñæ—˙ ( B r Å ¶ º Ë ˘ !!*!5!H!S!t!!û!©!ª!ƒ!’!ﬁ!˝!"")"R"i"ñ"≥"Ê"#8#W#å#Ø#Ë#$<$]$î$¥$Í$%,%<%b%p%î%£%»%ﬁ%
 LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
@@ -787,7 +781,7 @@ blacklist prism54
 #     /etc/cloud/cloud.cfg or cloud-config from user-data
 #
 alias gawklibpath_default 'unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWKLIBPATH "BEGIN {print ENVIRON[x]}"`'
-multi on
+      member="Update",
 # do not try to refresh this more than once per day
      O'Reilly & Associates, Inc., ArborText, Inc., Fujitsu Software
         } < /dev/tty${i#/dev/vcs} > /dev/tty${i#/dev/vcs}
@@ -797,7 +791,7 @@ multi on
 # Specify the key identifiers which are trusted.
 # netrom
 /var/log/alternatives.log {
-#
+DESKTOP=Desktop
 				fi
 ÷bo6è'Ãâßa#·?ç’åFaÙF’E;·Ìò'¨ÈX√F¬=4V3Ö—SUÌî_¥û∞¶	˜–XÕH`FOaT]¥3~—æX.e∆öø6 ˆeá÷á7xÎµ75¯Ê|y¬Ã5l$|x7V3Ö—S-/⁄ŸÄ_¥.OXSW√F¬=4V3Ö—SU≠x£=‚	k:“∞ëpç’åFaÙF’E+ﬁhx¬ö4l$‹Cc5#ÅQ=ÖQu—ä7⁄Ô¯ó√ó^&I~|≥GZ!°ßBH%6c·‹œÚK±‡3ıc4ﬂ‹üüÏùr‰KMÛ4â.Ø¸`ÕøYY~À◊TTKå/É?¯öÔïo
 NoDisplay=true
@@ -843,7 +837,7 @@ compose ',' ',' to '∏'
   # Capabilities
 </busconfig>
 # startup without editing the init script (and thus getting prompted
-  /usr/lib/thunderbird*/thunderbird{,.sh,-bin} Cx -> sanitized_helper,
+# cryptographically authenticated.
 #   https://bugs.debian.org/863801
 ip6.tc		u16		net+0		0xFF0		4
   owner @{HOME}/.config/klanguageoverridesrc rw,
@@ -853,7 +847,7 @@ session optional pam_systemd.so
 #
 [daemon]
 # Tell grub that resume was successful
-#input(type="imtcp" port="514")
+	missingok
 
 # This includes a dynamically generated part from /run/motd.dynamic
 #EnclosureKind=
@@ -904,7 +898,6 @@ eval $(/usr/bin/locale-check C.UTF-8)
 	if [ -e /boot/grub/grub.cfg ]; then
 #disable = rpm, selinux, dovecot
 56f12ada18a3412ab1f9dcd69450be95
-}
   #include <abstractions/ubuntu-gnome-terminal>
 
 # For use with Plustek parallel-port scanners
@@ -1007,7 +1000,7 @@ do_bootloader = no
 	vdo_hash_zone_threads=1
 brandon:100000:65536
 14	xorp
-    <test compare="less" name="pixelsize">
+# This sets the filename encoding to use. You can specify an explicit
   /dev/nvidia-modeset rw,
 
         <Key>Y:         scroll-one-line-down()\n\
@@ -1061,7 +1054,6 @@ AdminIdentities=unix-group:sudo;unix-group:admin
 bookworm/sid
       for s in `seq $max -1 1`; do
   include <abstractions/python>
-# This is the ssh client system-wide configuration file.  See
 
 
 }
@@ -1092,7 +1084,7 @@ alias.url += ("/javascript" => "/usr/share/javascript")
 exit 0
 
 
-# IRQBALANCE_ARGS
+
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 
 <fontconfig>
@@ -1109,7 +1101,7 @@ QT_ACCESSIBILITY=1
 FONTSIZE="8x16"
 
        member={GetDevices,ListConnections}
-
+fi
 [fwupd Remote]
 	Ä
 		;;
@@ -1158,7 +1150,6 @@ system_info:
 #    Write a formatted error message to stderr and exit.
 do_symlinks = yes
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
-
 #
 This directory is for system-local terminfo descriptions. By default,
 contract_status_stamp="/var/lib/ubuntu-advantage/messages/motd-contract-status"
@@ -1174,12 +1165,11 @@ alias.url += ("/javascript" => "/usr/share/javascript")
 # $Id: 20x11-common_process-args 305 2005-07-03 18:51:43Z dnusinow $
   /usr/bin/xfmedia Cxr -> sanitized_helper,
 <!-- Keep in sync with 45-generic.conf -->
-<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 
 # comment out the following line to allow CLOUDINIT messages through.
 contract_status_stamp="/var/lib/ubuntu-advantage/messages/motd-contract-status"
 RSYNC_OPTS=''
-compose '`' 'u' to '˘'
+#
 # allow the client/server to save the NTS keys and cookies in order to reduce
 ports=22/tcp
 *form.flipHoriz.vertDistance:		10
@@ -1189,7 +1179,7 @@ ports=22/tcp
 
 #
 
-  <uri name="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd" uri="xenc-schema.xsd"/>
+
 	            else
 #domains = mydomain.com
   include if exists <abstractions/xdg-open.d>
@@ -1217,7 +1207,6 @@ blacklist lxfb
 };
 # If SETGID_HOME is "yes" home directories for users with their own
 
-		</test>
   /usr/bin/kmail Cx -> sanitized_helper,
 directory and its contents.
 restrict ::1
@@ -1228,10 +1217,10 @@ restrict ::1
 "set showcmd		" Show (partial) command in status line.
 </fontconfig>
 XKBMODEL="pc105"
-compose '>' 'U' to '€'
+
 Title=Linux Vendor Firmware Service (testing)
   owner @{HOME}/@{XDG_DESKTOP_DIR}/**     rwl,
-# a display manager using /etc/X11/Xreset.
+    create 0660 root utmp
 # Compose sequences for ISO-8859-5
 Name=Snap user application autostart helper
   <uri name="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd" uri="xmldsig-core-schema.xsd"/>
@@ -1250,3 +1239,8 @@ ENABLED=1
 # instead of the user's primary group-ID.  By default, I/O log files
 
 031293952cbc4020bd12b3af8daf1382
+#    This program is free software; you can redistribute it and/or
+  /usr/{local/,}lib{,32,64}/python{2.[4-7],3,3.[0-9],3.1[0-9]}/{site,dist}-packages/**/ r,
+  owner @{HOME}/.config/ibus/bus/* rw,
+    <edit name="rgba" mode="append"><const>bgr</const></edit>
+# This file is sourced by Xsession(5), not executed.
