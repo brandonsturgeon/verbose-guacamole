@@ -39,11 +39,10 @@ America/Los_Angeles
 #
 # The next option will send email to the named person when chronyd has
 Local  - Applications should save enough information to
-	fWÛàÌ†»dØÿV‹rªŞªøìÂødú•Ö1ÑZ6Uµÿ4ğnJäÕKHİôûcÓNö{$…/ŠÑ×båÑE${]¦'p“í½•¬¯«>²Ÿ2Ëœ‘­s¥ş¶IpåzåXGã…Í—ÄUªıØïµ†õ¨ı·Şé]m‰¹æEÏw#%Ã§Ò#2î9õ,ÒE4~²`Š*š7))¾@¹©îhŒM&3ç÷¦…($N@Ÿš'%½¯ğÛã"æ­yô,7í2•©¸Mí¼‹”¼‚1”ñ¢iˆïªƒ•İqƒÅ• «Í®üEÃùÓÀ35I±±¦÷óâ—âHê^¬>üL†Öaşä‚ÿÍt@òU‘ãÈ(Â)x¦Q‡†$—eøÀE/uÇbuP ÖÎ¾İcÊi2+_ĞØ¡[?qëÔè‰O)…û²èÂ
+MinimumSmeKernelVersion=5.18.0
 fi
        daily
 #user_allow_other
-# Tune HTTPS security (auto, SSLv2, SSLv3, TLSv1, PFS)
 			<Btn1Down>:popup-pixel()
 
 #!/bin/sh
@@ -89,7 +88,6 @@ compose '"' 'O' to 'Ö'
 
 }
 # This will not allow a user to change their shell unless
-<fontconfig>
 };
 <!--
 			<family>Latin Modern Math</family> <!-- TeX -->
@@ -106,7 +104,7 @@ fi
 dashes		2,1;
 quiet
 # enable xtrace if we should be verbose
-™SM‹Å´·?÷iüÇY›ûQ`P$ÿZ¶Aõ§_è•˜#XçT‹ÈÁA(F“\ZùÑŞoYJ±ğŸågcP‰?DG	üÚ„B‡*ñUQ8ıÔô`[ğT³"F±mê3ıÆ8lüñw#húF)yQ—¶Üâaa¶;%€=3ÕX9ÕE½ÙÑ_d>Fv	eßnhd6D¬a5Ã˜{P5®&şt}ééìkV`û”1ñ¾"6K&!z£úLhşI|„?[8Ëfp‹€8é'ĞÜÙ(ÿ¾q¤µğÊ„9O¢5ZÚÏ:mş³·FHKÄØ®ª^s[y•Õ9:†6å[Ï—¹Qÿ˜ÆÖ)o•PåwRR­ƒâ÷¶êYcM®C“^êöó¼ñ²×¦É‰Ø˜^ÌJ2í'ûˆ›Ç…àI‹ÙßpòÖoÕgc{²†î_Pjc^bm:ÕóM0Ââ±)èšPZ½V27Ø/ÌÛnĞvZ^ÅÀ0Ød)hE~&åCÀÑ® u«ckŞ0Ãü:5Êı¼ğ*[\pÒ'<.#cÑ)ìëm1Ë]±åï1²@ée™µeö25í©7Ë\RøaŞTŠbÒ-ÉäLt&GP™KÙYØí<IFÄÿ)ôY»ÓûFqì'Cò¬I3ğ–)„3·[î< !w9´Launchpad PPA for Rael‰8"SM‹		
+
 #    modify it under the terms of version 2 of the GNU General Public
 # ctrll shiftl alt keycode 36 = Incr_Console
 # Plus a lot of fun stuff added
@@ -119,7 +117,6 @@ X-GNOME-AutoRestart=true
 server {{server}}
 {
 #
-## or updates from the Ubuntu security team.
 
 #   part of the cracklib-runtime package and should not be modified.
 #ReadEtcHosts=yes
@@ -236,11 +233,10 @@ modules_load_preference=ondemand
 #    modify it under the terms of version 2 of the GNU General Public
 # The possible arguments are:
 20210525062421 2 6 100 6143 2 CAED937BA3084DFE7B4C1B59AC23C7EA9F28E677B8AFA536E9079DECED93EDAAEFB2C757F9E7AE4E90C4C68C8C937CAA8A0FB92A36FBBD24F777D579E264E8750B365A59AF83C5925262981B301C94CA57CE2A4825438EE089B2E0A5A8D90B51B7DB6044383542685F2D543030403741A6337C0280866A08D15BBFF32D9326073E6F8BAE510E66CF5A5DC6C7D96EFA13984EA383224CD59C7F8A49BA170EBD0BCF896FAD0FD67AB88D4D25CC81D29FFB7062328C9BA3BCD7EB107B74FAC05412D7677C058604F544B2EE8548E9372064C0CEB79BADEF8755F86E8DC894BD043DE697ECE323D624156B731D99C12FD1F42BB2FCADF8CFFEAB8DB59F9CB5843C1A01018DB3E415B4BF00D7F3F20FAAD86938C6B3061BC2A4ED0D18FAD01B1E53D0C8D41D208189D6E341E167B4B975236701B76C72097A34AAC46F4781185A7A63E4FB4A3CDDAB793EE4DFBA3D57481AF41ACD06A45F8D59D33FEBABCD3B98675A9C3F54B0AB42CFCABCA47021C709867AB12F830C4E93AE48AE5EBDD109E3F672AAE6A2EFFEAF07648D3110EE52627D44C8EA35482502C1CDC7B655F4D4A5E7DA1A064E138D00A9CC85DA5E833221AC5FF62F7871B53A8CE279AD441A5795D092F257C9BD2A871D098B3583ED9876342351C063BC2EA9FF111D245FE68A6A087B9E0B7AB0C47F2C6BD98A5CB4DFC57B71A1CF13A83308DA1E3BEB572AFDA9B88F05CCE1DBE359A44E849CAE4AB6196262877B119EDF241326C0F523ACF04DDF90601DC0D4107B935444D5C9E019B340227A386996D071BAA64D62FA049F285F12366ACDD439FCD3D0BAF9C37519177AAC6CF3B6986BAB5F68BDC9FB6E3B82FA157BE36D452FC0EDC4CDB95F9677F97C0F98725F275EAE0FF15C53957D1EFA9CABCE7B68FC186F117C40C5D24BD982A7F21AD6FE4A9CAC6C763FB68DD0B1C725E5DBC4522B86A42B02E3F5E704595977829607FDEB0922C497A9A93F327FA921D8BFBCD9C18272506A1A9F23171787FCBA72E4670C857D089DB5A22AE801EEBD567D48D697EBF25E6183374FC4C47C1747C3F69E650333F6F7ABEB3081E7DAEAA3
-
+	</edit>
         </test>
     stop)
 		grub-editenv /boot/grub/grubenv unset recordfail
-#canon.conf
 # skip in favour of systemd timer
 # Compose sequences for GEORGIAN-PS
 	</alias>
@@ -283,7 +279,6 @@ compose '`' 'i' to 'ì'
 deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
 X-Desktop-File-Install-Version=0.24
   owner @{HOME}/.config/user-dirs.dirs  r,
-       peer=(addr="@/tmp/dbus-*"),
 scsi "B&H SCSI"
 			<family>Noto Serif CJK KR</family>
 #publish-domain=yes
@@ -298,7 +293,7 @@ GRUB_DEFAULT=0
 # SELinux in order to transition to the user context with the next execve()
 enabled=1
 DESKTOP-OFJN9OT
-<!-- End of DocBook XML additional general entities V4.1.2 .................. -->
+    <allow send_destination="com.ubuntu.SoftwareProperties"
 # Example 3:
 #usb /dev/usb/scanner0
 <delegateSystem systemIdStartString="http://docbook.org/xml/4.4/docbookx.dtd" catalog="file:///usr/share/xml/docbook/schema/dtd/4.4/catalog.xml"/>
@@ -364,7 +359,6 @@ AI	-*-charter-medium-i-normal--*-*-*-*-*-*-iso8859-1
 
   </match>
 
-# Required-Stop:     $local_fs
 F5B6F88F75D391A4B1EB336F9E201239FB6B1377DB8CFA7B84736216E5AFFFD7
 session       required   pam_env.so readenv=1 user_readenv=0
 # uncomment to set the default look and feel to GTK
@@ -445,7 +439,6 @@ deb {{mirror}} {{codename}}-updates universe
 
 #
 
-XClock.Clock.minuteColor:	rgba:00/7f/7f/c0
 		<edit name="hinting">
 #   top:1		interactive	# interactive -> 1:1
 			<Btn1Up>:popdown-pixel()
@@ -476,7 +469,6 @@ XLogo*background: rgb:d2/22/32
 # delete a group even there are still users in this group
     missingok
 # if ip.ihl > 5
-[METARELEASE]
 ## This works for most UNIX's
 .  ie '*[.T]'html' 
 !•”hÄÂÇ¨(/ä< @€á	êÇhÊ×¬á‹Xó¥jCBŸbÊ›¿Œâ[±Ö£ÖÜııc=ëÖ¶—‘	zoÕcÓÉ-AKĞ´-y®–¨ş¹Ç9Y¸ÚºÚ'éCÎÕæ‡=Úæ›nÀ=j»ºµˆ‹¸ˆ{p™Åg~h5íã^
@@ -538,7 +530,7 @@ esac
 Description=Mount unit for snapd, revision 8542
 #
 #
-xBGFaymvX7doxZyITC66JNTzT4Eixp8FNRloKWkEo6gPwA6qshlhc0HpmiqNmC+k
+  # modifications here, please consider including them in the ldd
 #
 
   <match target="pattern">
@@ -565,7 +557,6 @@ X-GNOME-HiddenUnderSystemd=true
 PKA6hjhodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9DZXJ0aWZpY2F0aW9u
 [Resolve]
 application/set-payment-initiation
-#
 #  Sets real-time priority for the mixing thread. Not all drivers may use this
 fi
 overlayroot_cfgdisk=LABEL=OROOTCFG
@@ -584,7 +575,7 @@ tss:x:112:
 # Compose sequences for ISIRI-3342
 	Œö:ÓğoÆY$ÿwº>hÇpW:ÿ‰¿ØÛ6ä_£ V2FÚO“Çùfxá0}
   # Bittorrent clients
-
+# Required-Start:    mountdevsubfs
 			fi
 constraint from "9.9.9.9"              # quad9 v4 without DNS
 #
@@ -624,7 +615,6 @@ What=/var/lib/snapd/snaps/snapd_8542.snap
 # /etc/zsh/zshenv: system-wide .zshenv file for zsh(1).
 # You can use this script unmodified to connect to sites which allow
 #    tunnels special.
-
   # require the santized_helper (ie, LD_PRELOAD will only use standard system
 #		Mo Tu We Th Fr Sa Su Wk Wd Al
     </test>
@@ -730,13 +720,12 @@ TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 "
 
     start-stop-daemon --start --pidfile /dev/null \
-behavior.
 }
   # dbus-accessibility-strict abstraction for fine-grained bus mediation.
 #swing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 # Compose sequences for KOI8-R
 NoPollBatteries=false
-}
+			<family>Latin Modern Math</family> <!-- TeX -->
 #
 PUBLICSHARE=Public
 #net.ipv4.ip_forward=1
@@ -753,7 +742,6 @@ vm.mmap_min_addr = 65536
   # User files
  "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
 F	-*-charter-bold-i-normal--*-*-*-*-*-*-iso8859-1
-
 # Don't try to change I/O priority in a vserver or OpenVZ.
 deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buster main
 #    with this program; if not, write to the Free Software Foundation, Inc.,
@@ -923,7 +911,6 @@ eval $(/usr/bin/locale-check C.UTF-8)
 	compress
   <uri name="http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/xenc-schema.xsd" uri="xenc-schema.xsd"/>
 # Shut down the daemon after this many seconds idle. 0 means don't shutdown.
-#
 ‹í]]w›:}ï¯Èû¬YË|ûaÒ¦vÚŞé4sï|¼d¬$L°q§ÉıõÃ‘*X8&Ím¼×*Ò>œÃ9[Ğ-{XE›âdògÇ_İ²‡8[²çä/'o‹8Ú°ı«O¬Œ.ƒxxYp“ËÜ*—Mî=§*\Ç‚øñÙZ:b÷q­İ‰ØˆØO»éëèënUø­·ikãÇ–ß2¢²gGcÚ	‘^|¤¦où¢oyÔ‹=nrÆj?«K–Éõz|88S¥jrU r•O|â>®²m.Ğ2KÓ(a/â#>â?[ü&LE.(Z`AÂSr'3Ë†å1[—ãìp‡?$‡&W„"WL«"`z“­Ë<K/¢"N’8Éãíê }<x‘ÜË?Ä†kz£@ÛÑv´mGÛÑöÚöæ·~&~ëCº»˜Z`Ìî˜|ú­ª;‡"Z/GÖ€ø€ÏÑğirÑ\ä¢E,H¼÷L®oÊ:–,OŠÛ1à.àò¢¸¨±‘læzfAâKR·ØD9[§ìªS.à./Š‹J6H64LÅ[÷ñ;Ë3Í[®2Ùhğğ9>*‰¡à.ı\i¨~L´]/«?Ìâ,gßÅƒ¯’õ¶pUŸ·ö£Õh5ZV£ÕhõOÕjõã-çvPÃİKA¾n#9}“ÖÌ¿±±Ÿ4¶êì4ÙäŒ¥¬dİÕë(¾=ßD±q×ò˜ÁØ8|¨¾à¾àûBøªdL³işÉŒOà;AßÅ{€êœ4½åO“ûĞ¡2pZ¸şsê«q¯²úG—d˜Á¼À¼,¢Jf¡Lf!'¶pmşÍ‚¸oYı«K2L‡Šà^à^Q%³™HfÓ€J?háÚœYxJ&¿kÖ%¦CEğ/ğ/‹¨’Ù\Ş™¹<Ëº-\›çÄ}ËêK—d˜Á¼À¼,¢ú"ìD&3Ÿó[¸6/-H|…J>ë’Ó¡"xx—ETÉÌ‘ÉlÎ‰Í[¸6° î[Vÿé’Ó¡"xx—ETÉÌ•ÉŒÿı-Üµ 1BUT¿vI†éP¼À¼ÀË"ªdæÉ<Ëúóî’ˆê}—d‚8ˆóã¨ÎäËÎtÅ]µpİ÷2k‡ˆêï]’a:T/ğ/ğ²ˆ*™òÏœ	¿e™´pm¾± 1kFTŸ»$Ãt¨^à^àeU2,470¼ÔuñÇË<ŠoY©¾$D;X[Ü¥ßcaHğ?ğ¿'â§’¡XA" 9ÒáRCuŞ”1Å'‹Ü©7ÂØÃö²è÷>šçççççççäYÏ‰ºY¡*_X¹Í×İU}ôÊ‚Z¡~ îàîàî½¢Jö4ƒGîFõñÕM2ğä˜)ÿ„ï´p³hš‰åEDuÚ%¦CEğ/ğ/‹¨’Y=ÆãoF½®Ík´‰ê¼K2L‡Šà^à^Q%39fÊçú~×æKâ¾euÖ%¦CEğ/ğ/‹¨’Y=fÊ‰M[¸6¿² î[V‹.É0*‚xxYD•ÌêHüCƒ~ØÂµùµqß²úk—d˜Á¼À¼,¢JfrÒtÆ‰ÍZx¯Å(nDõ®KzäBà^à^C¨ñäSş®ÂZøc²fWŒ-wî÷¢ú[—Ô¶$ø€ÏÑğQÉH®a1åßÈğ/[¸¾»µ îZVº$Ãt¨^à^àeU2«×°ˆ9±¸…kóÔ‚¸oY}ì’Ó¡"xx—ETÉl.Vç‹XG$Fv°Ugi¶¢GÓ€ø€ÏÑği’‘?áÉÈ©p-HŒ™İdE•Ñ67ò9Ø×mV²åeú„Zğ?ğ¿'Òªdèğd8Ğü|¦¡õVİ FEœ$q’ÇÛUï~ñ¢4îd$®+“tÉ¬*rÙ``úİiö`ö`öÙ«äO3Îo’«%Êã,UgğÄ÷cêÍ±†šùDñm‘FÅÍ#÷ˆo™b¾{›Cw£h'Ú‰v¢hçˆíT?¦rÆFÈÇQ×‡ınA<†¬şÛ%¦CEğ/ğ/‹¨’Y½f}ÌZ¸6¿· î[Vÿî’Ó¡"xx—ETÉ¬±Á?¿â{-\›Ç$ŞªË]’a:T/ğ/ğ²ˆ*™É!ÿbA0máÚüÎ‚¸oYıÖ%¦CEğ/ğ/‹¨’Y=ãÃåYÖmáæQ›‰§|rºn—d˜Á¼À¼,¢Jfs™Ìø7|ÖÂµùÚ‚ÄHQıÒ%¦CEğ/ğ/‹Ø$³ ^³ûÀ_¶ğ®j¸?9"ïS—ôÈ…fÀ\ÀåEqQÉFÌÈpi”ˆ[œŞ¶ZÉit)+ŠCw"6b#ö“ÆVİæxLCo²Õ&+úkîjÃò$[Ö³XT²¼_aó`?•<ÄŒ÷Šˆ\ièŒ¥¬dİ•˜¯Æp~İ²¢Lš‰ó}
 /usr/lib/firefox/plugin-container
 # only deny service to users whose accounts are expired in /etc/shadow.
@@ -971,12 +958,11 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 			<family>Hapax BerbÃ¨re</family> <!-- tifinagh -->
 # here are the per-package modules (the "Primary" block)
 
-sgx:x:108:
 # large policy changes, rather than trying to make those adjustments here.
 #%PAM-1.0
 
 isis	124	ISIS		# IS-IS over IPv4
-  # Include additions to the abstraction
+disable_flash_pq_bg_color=1
 # Should-Start:      $network $named slapd autofs ypbind nscd nslcd winbind sssd
 253	link
 #*.=info;*.=notice;*.=warn;\
@@ -1083,7 +1069,6 @@ bookworm/sid
 # /etc/pam.d/common-auth - authentication settings common to all services
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 
-#
 
 #
 </fontconfig>
@@ -1255,3 +1240,13 @@ Name=Snap user application autostart helper
 /bin/rbash
 Enabled=true
 #
+ENABLED=1
+[fwupd Remote]
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kernel:( \[ *[[:digit:]]+\.[[:digit:]]+\])? raid[[:digit:]]+: Disk failure on [[:alnum:]]+, disabling device\.$
+  owner @{HOME}/.config/fcitx/dbus/* r,
+    [ -S "$XDG_RUNTIME_DIR/bus" ]; then
+
+
+# instead of the user's primary group-ID.  By default, I/O log files
+
+031293952cbc4020bd12b3af8daf1382
