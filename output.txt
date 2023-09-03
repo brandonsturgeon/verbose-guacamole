@@ -9,7 +9,7 @@ fi
     compress
 # Please consider joining the pool (http://www.pool.ntp.org/join.html).
 # by dpkg on upgrades).  We all love dpkg prompts.
-}
+root=,magenta
 
 usb "Panasonic KV-S1025C"
 alias.url += ("/javascript" => "/usr/share/javascript")
@@ -19,7 +19,7 @@ Clock*minute:	yellow
 kde4/ktimetracker.desktop
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
 else:
-  abi <abi/3.0>,
+smtp		25/tcp		mail
     <test compare="less" name="pixelsize">
 
 
@@ -56,7 +56,7 @@ trusted.SGI_MAC_FILE		skip		# xfs specific
 		~Shift ~Ctrl<Btn5Down>,<Btn5Up>: Page(Line,5) 
 
         if [ -x "$STARTUPFILE" ]; then
-# Gracefully exit if the package has been removed.
+      <family>DejaVu Sans Mono</family>
 nogroup:x:65534:
 	<alias>
 #if /etc/pam.d/cron  specifies no session modules but cron calls
@@ -146,7 +146,7 @@ SUBSYSTEMS=="usb", GOTO="mm_mbm_check"
 if [ -n "$DBUS_SESSION_BUS_ADDRESS" ] && \
 ‹]ÒÇj[A†á½¯b°Z·GŽ³±§A¼ÓæH:‰¶Ž#’àÒ{ï½÷Þ{ÌåÿÞì²xg`àY|Cn[Ù-{E¿l»­½jÑÍmI#ýÅ¥…Ñz³Óít]s×¦!·bÇ¹ó…ÒõÊ¢í
 run_im default
-  owner @{HOME}/.local/share/RecentDocuments/*.desktop rwl -> @{HOME}/.local/share/RecentDocuments/#[0-9]*,
+    reload_it
 " When Vim is invoked differently ("vim", "view", "evim", ...) this file is
     # Run the right scripts
         add_etc_modules=
@@ -206,7 +206,6 @@ KP_3 = d;e;f;3;Ã¨;Ã©;Ã«;Ãª;Ã°
 # do not try to refresh this more than once per day
 #    modify it under the terms of version 2 of the GNU General Public
 Enabled=false
-20210525062421 2 6 100 6143 2 CAED937BA3084DFE7B4C1B59AC23C7EA9F28E677B8AFA536E9079DECED93EDAAEFB2C757F9E7AE4E90C4C68C8C937CAA8A0FB92A36FBBD24F777D579E264E8750B365A59AF83C5925262981B301C94CA57CE2A4825438EE089B2E0A5A8D90B51B7DB6044383542685F2D543030403741A6337C0280866A08D15BBFF32D9326073E6F8BAE510E66CF5A5DC6C7D96EFA13984EA383224CD59C7F8A49BA170EBD0BCF896FAD0FD67AB88D4D25CC81D29FFB7062328C9BA3BCD7EB107B74FAC05412D7677C058604F544B2EE8548E9372064C0CEB79BADEF8755F86E8DC894BD043DE697ECE323D624156B731D99C12FD1F42BB2FCADF8CFFEAB8DB59F9CB5843C1A01018DB3E415B4BF00D7F3F20FAAD86938C6B3061BC2A4ED0D18FAD01B1E53D0C8D41D208189D6E341E167B4B975236701B76C72097A34AAC46F4781185A7A63E4FB4A3CDDAB793EE4DFBA3D57481AF41ACD06A45F8D59D33FEBABCD3B98675A9C3F54B0AB42CFCABCA47021C709867AB12F830C4E93AE48AE5EBDD109E3F672AAE6A2EFFEAF07648D3110EE52627D44C8EA35482502C1CDC7B655F4D4A5E7DA1A064E138D00A9CC85DA5E833221AC5FF62F7871B53A8CE279AD441A5795D092F257C9BD2A871D098B3583ED9876342351C063BC2EA9FF111D245FE68A6A087B9E0B7AB0C47F2C6BD98A5CB4DFC57B71A1CF13A83308DA1E3BEB572AFDA9B88F05CCE1DBE359A44E849CAE4AB6196262877B119EDF241326C0F523ACF04DDF90601DC0D4107B935444D5C9E019B340227A386996D071BAA64D62FA049F285F12366ACDD439FCD3D0BAF9C37519177AAC6CF3B6986BAB5F68BDC9FB6E3B82FA157BE36D452FC0EDC4CDB95F9677F97C0F98725F275EAE0FF15C53957D1EFA9CABCE7B68FC186F117C40C5D24BD982A7F21AD6FE4A9CAC6C763FB68DD0B1C725E5DBC4522B86A42B02E3F5E704595977829607FDEB0922C497A9A93F327FA921D8BFBCD9C18272506A1A9F23171787FCBA72E4670C857D089DB5A22AE801EEBD567D48D697EBF25E6183374FC4C47C1747C3F69E650333F6F7ABEB3081E7DAEAA3
 	</edit>
         </test>
     stop)
@@ -257,11 +256,10 @@ X-Desktop-File-Install-Version=0.24
 nameserver 1.1.1.1
 GRUB_DEFAULT=0
 # /etc/passwd file.
-# [If you don't know about libcap, the sources for it are here:
+#
 #GRUB_DISABLE_LINUX_UUID=true
 
 # SELinux in order to transition to the user context with the next execve()
-enabled=1
 DESKTOP-OFJN9OT
     <allow send_destination="com.ubuntu.SoftwareProperties"
 # Example 3:
@@ -323,7 +321,7 @@ system.nfs4acl			permissions
 # Docker Upstart and SysVinit configuration file
 AI	-*-charter-medium-i-normal--*-*-*-*-*-*-iso8859-1
 
-  </match>
+      This configuration is available on the major desktop environments.
 F5B6F88F75D391A4B1EB336F9E201239FB6B1377DB8CFA7B84736216E5AFFFD7
 session       required   pam_env.so readenv=1 user_readenv=0
 # uncomment to set the default look and feel to GTK
@@ -437,11 +435,10 @@ KP_5 = j;k;l;5;Â£
 
 APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-stamp 2>/dev/null || true";};
 OMsq7sXDmFff4hQjgQoDezMkA1EgzFokRY7pToLG3X1KdDXKR0edQ3+1mlJTf9XN
-#
 # Read environment variables from pam_env's default files, /etc/environment
       may simply works to avoid it.
 
-OK		ATD*99#
++# As a result, if you wish for changes to this file to persist
 letter
 # This file contains a list of port numbers between 600 and 1024,
   audit deny @{HOME}/.{,mozilla-}thunderbird/{,**} mrwkl,
@@ -649,7 +646,7 @@ TIMESYNCD_CONF=/run/systemd/timesyncd.conf.d/01-dhclient.conf
 # Compose sequences for CP1256
 # As a result, if you wish for changes to this file to persist
 # ------------------------------------------------------------------
-
+{% endfor %}
 "
 
     start-stop-daemon --start --pidfile /dev/null \
@@ -684,7 +681,6 @@ deb [arch=amd64,arm64,armhf] https://packages.microsoft.com/debian/10/prod buste
 
     missingok
             fi
-
 QUIET=0
 # the sound and play group) after work hours.
 #%PAM-1.0
@@ -697,7 +693,6 @@ compose 'o' 'c' to '©'
 # This file is a simple placeholder to keep dpkg from removing this directory
 # DO NOT EDIT OR REMOVE
 #    Copyright (C) 2013 Canonical Ltd.
-    </test>
 # You should have received a copy of the GNU Lesser General Public License
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 
@@ -736,7 +731,6 @@ NoDisplay=true
 eval $(/usr/bin/locale-check C.UTF-8)
 #& stop
 	delaycompress
-
 noauth
 nameserver 1.1.1.1
 
@@ -875,7 +869,6 @@ LANG=en_US.UTF-8
 
 disable_flash_pq_bg_color=1
 # Should-Start:      $network $named slapd autofs ypbind nscd nslcd winbind sssd
-253	link
 #*.=info;*.=notice;*.=warn;\
 
 # cloud-init. They are read in lexical order. Later files overwrite values in
@@ -927,7 +920,7 @@ do_bootloader = no
   # likewise
     <accept>
 # as possible
-fe00::0 ipv6-localnet
+<!-- restriction should use the branch defined above, not the simple
 	cache_mode = "writethrough"
 directory and its contents.
 compose 'v' 'b' to '¦'
@@ -938,7 +931,7 @@ compose 'v' 'b' to '¦'
     <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
 	;;
 overlayroot_cfgdisk=LABEL=OROOTCFG
-# This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:
+compose '-' 'd' to 'ð'
 #   include <abstractions/ubuntu-helpers>
 
 #    modify it under the terms of version 2 of the GNU General Public
@@ -1019,7 +1012,7 @@ skip	57	SKIP		# SKIP
 deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ focal main
 [Time]
 # See /usr/share/doc/pam-*/txts/README.pam_namespace for more information.
-
+S-TAG		88A8		# QinQ Service VLAN tag identifier [802.1q]
 *topform.Form.testpercent.Scrollbar.Background:	rgb:b/c/a
 # $Id:$
  "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
@@ -1066,7 +1059,7 @@ contract_status_stamp="/var/lib/ubuntu-advantage/messages/motd-contract-status"
 
 #
 # allow the client/server to save the NTS keys and cookies in order to reduce
-ports=22/tcp
+
 *form.flipHoriz.vertDistance:		10
 #%PAM-1.0
 # needrestart - Restart daemons after library updates.
@@ -1099,7 +1092,6 @@ is_azure() {
 restrict ::1
 #default-reverb =
 # Use public servers from the pool.ntp.org project.
-  /{,usr/}bin/dash ixr,
 "set showcmd		" Show (partial) command in status line.
 </fontconfig>
 XKBMODEL="pc105"
@@ -1161,7 +1153,6 @@ log_level: debug
 # NULL-dereference attacks against potential future kernel security
 compose '~' 'A' to 'Ã'
 	elif [ "$LC_BYOBU" = "1" ]; then
-[Unit]
 
   @{PROC}/sys/kernel/core_pattern r,
 # do not bell on tab-completion
@@ -1179,7 +1170,6 @@ search updates ubuntu built-in
     /usr/bin/logger -t logrotate "ALERT exited abnormally with [$EXITVALUE]"
 
 # interpreted by the kernel to help with debugging. The kernel will respond
-# irqbalance init script
 
 # should be created by either modifying this file, or by creating "drop-ins" in
 default_driver=pulse
@@ -1193,10 +1183,8 @@ BINARY=1
 
   /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
 #
-      <family>DejaVu Serif</family>
 # changes below.
 X-KDE-autostart-phase=1
-  /usr/share/sounds/freedesktop/** r, # for message box alert sound
 # ------------------------------------------------------------------
 mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt
 			exit 1
@@ -1217,7 +1205,7 @@ quiet
 # Compose sequences for CP1256
 else
 KP_9 = w;x;y;z;9;Ã½;Ã¾
-activation {
+
 # pam-auth-update(8) for details.
 #     if set to 1, then all filesystems will be mounted read-only.
   /usr/lib{,32,64}/pkcs11/*.so mr,
@@ -1239,3 +1227,12 @@ Ubuntu 22.04.2 LTS
 
 		echo "$DOCKER_SOCKET is up"
     [ ! -f "$ufile" ] || return 0
+# remove the iwl?vm module and then iwlwifi.
+
+# Run cryptdisks initscripts at startup? Default is Yes.
+  abi <abi/3.0>,
+
+$FileGroup adm
+
+APT::Periodic::Update-Package-Lists "1";
+
