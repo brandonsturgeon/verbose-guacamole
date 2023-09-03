@@ -19,7 +19,6 @@ usb "Panasonic KV-S1025C"
   /usr/bin/deluge{,-gtk,-console} Cxr -> sanitized_helper,
 		mkdir -p /boot/grub
 Clock*minute:	yellow
-    <event name="jdk.InitialSystemProperty">
 kde4/ktimetracker.desktop
 {
 # also their product ID: 0x1000 (LM9831) 0x1001 (LM9832)
@@ -49,7 +48,7 @@ fi
 
 #!/bin/sh
 fi
-mibs :
+  </alias>
 [ -z "$SETTINGS" ] || $ETHTOOL --change "$IFACE" $SETTINGS
 11  connector
 mQENBFWt/98BCADZ4+lUHSp4OMlzVf4HlJNLJ7Ks5QxGwL/hy2wChoNLuA/j4GNM
@@ -144,7 +143,6 @@ MPLS_MULTI	8848		# MPLS with upstream-assigned label [RFC5332]
 
 ## number in the range 0-3. 
 # Specify file containing keys for NTP authentication.
-#
 [ -x /usr/sbin/sendmail ] || exit 0
 #autodetach off
 
@@ -258,7 +256,6 @@ $PrivDropToGroup syslog
   @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
 
 #
-# Compose sequences for ISO-8859-10
   /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
   #include <abstractions/ubuntu-console-email>
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
@@ -278,7 +275,6 @@ TryExec=im-launch
 mozilla/Buypass_Class_2_Root_CA.crt
 gtk-icon-sizes = panel-menu-bar=24,24
 compose '`' 'i' to 'Ï'
-        log_daemon_msg "Stopping GNOME Display Manager" "gdm3"
   upload_limit: 100
   </its:rules>
   notifempty
@@ -385,7 +381,7 @@ exec $STARTUP
 # in /etc/passwd and ignore centralized (AD, IdM, LDAP, etc.) users.
 øW∏	⁄1≠ÃGtfònÎjı'mJêy∞¬JÄìMÈ(1ÆV¥ÂR‰qñÍg,√©án˝£¿J∞Âºlrù‚íâ∞ymC>¶™S≤÷®XBoë†2QÊ£V,“£ˆ¢÷Êú7…7∞vn®Ÿ8L√©V?i/¿»xÇÌä£'˘'ÀKB©Ä»1™
 
-RUN_AS_USER=saned
+# Compose sequences for ISO-8859-8
 
 #
 After=snap-lxd-22923.mount
@@ -437,7 +433,7 @@ deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] htt
 # reserved values
 
 case "$1" in
-
+#
 #disable = rpm, selinux, dovecot
 *text.width:			400
 deb {{mirror}} {{codename}}-updates universe
@@ -510,7 +506,7 @@ letter
 /dev/scanner
   # Include additions to the abstraction
 
-#    This program is free software; you can redistribute it and/or
+    label in2 "+3.3V"
 	<alias>
 DOCUMENTS=Documents
   /usr/bin/bitstormlite Cxr -> sanitized_helper,
@@ -587,7 +583,7 @@ fi
 tss:x:112:
 # Compose sequences for ISIRI-3342
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
-# Disables core dumps on fatal errors; they're enabled by default.
+  # Bittorrent clients
 
 			fi
 constraint from "9.9.9.9"              # quad9 v4 without DNS
@@ -694,7 +690,6 @@ test -x $DAEMON || exit 0
 # deb-src http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 {% if pools %}# pools
   owner /tmp/**         rwkl,
-        fi
 
 #option lampOff   -1
 # installkernel script calls postinst.d without any DEB_MAINT_PARAMS set
@@ -709,7 +704,7 @@ saned:x:127:
 URI_LTS = https://changelogs.ubuntu.com/meta-release-lts
 
 /dev/scanner
-  missingok
+	exit 1
 # Provides:          dbus
 		</edit>
 # For more details, please see /etc/apparmor.d/local/README.
@@ -781,7 +776,6 @@ usb 0x03f0 0x0101
 	# Fall back to using the very slow lsb_release utility
 compose 'o' 'c' to '©'
 CATALOG /usr/share/sgml/html/entities/catalog
--->
         %fixedAttr;
   audit deny @{HOME}/.init/{,**} wl,
 # This file is a simple placeholder to keep dpkg from removing this directory
@@ -874,9 +868,7 @@ session optional pam_systemd.so
 #input(type="imtcp" port="514")
 
 # This includes a dynamically generated part from /run/motd.dynamic
-X-GNOME-AutoRestart=false
 #EnclosureKind=
-AptCli::Hooks::Install { "[ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true"; };
 
 overlayroot_cfgdisk=LABEL=OROOTCFG
 # Compose sequences for ISO-8859-11
@@ -899,7 +891,6 @@ XClock.Clock.hourColor:		rgba:7f/00/00/c0
 server {{server}} iburst
 # Clients from this (example!) subnet have unlimited access, but only if
 # details.  The web page <http://support.ntp.org/bin/view/Support/AccessRestrictions>
-# im-config(8) generated on Sun, 30 Mar 2014 02:45:02 +0900
 
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet		xlsx
        peer=(name=org.freedesktop.NetworkManager),
@@ -958,7 +949,7 @@ ff02::3 ipv6-allhosts
 #OverrideESPMountPoint=
 # DO NOT EDIT OR REMOVE
   @{PROC}/sys/vm/mmap_min_addr r,
-}
+    exit 0
 {
 find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/update-notifier/notify-updates-outdated
 
@@ -1002,7 +993,6 @@ OrderBefore=fwupd
 # /etc/shadow entries.
 <!-- Reject bitmap fonts -->
 #  * the variable name is SOCKETDIR
-		<Key>Prior: Page(Back) \n\
 alias.url += ("/javascript" => "/usr/share/javascript")
 # in the centralized mechanism.
   /dev/ptmx rw,
@@ -1070,7 +1060,6 @@ bb“zπz“zôz“z{z“zÀzU’?’â…s…Ú∆‹∆Ú∆º∆~≠h≠~≠B≠ofYf√Æ≠
 	thin_pool_chunk_size_policy = "performance"
    [logger_root]
 tcpdump:x:108:114::/nonexistent:/usr/sbin/nologin
-
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 syspath=/sys/block
 ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="00B7", ENV{.MM_USBIFNUM}=="02", ENV{ID_MM_X22X_PORT_TYPE_VOICE}="1"
@@ -1078,7 +1067,7 @@ ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="00B7", ENV{.MM_USBIFNUM}=="02", ENV{
 }
 # Default settings for openssh-server. This file is sourced by /bin/sh from
         <Key>J:         scroll-one-line-up()
-
+#   limitations under the License.
 -----BEGIN CERTIFICATE-----
 
 # Compose sequences for CP1256
@@ -1189,9 +1178,8 @@ APT::Update::Post-Invoke-Success {"touch /var/lib/apt/periodic/update-success-st
 This directory is for system-local terminfo descriptions. By default,
 contract_status_stamp="/var/lib/ubuntu-advantage/messages/motd-contract-status"
   # User files
-    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
+set compatible
   /media/** r,
-compose '-' 'l' to '£'
 Ä
 try:
 	<include ignore_missing="yes" prefix="xdg">fontconfig/fonts.conf</include>
@@ -1241,7 +1229,7 @@ blacklist lxfb
 # Compose sequences for ISO-8859-8
 	report_command_log=1
 # iwlwifi will dyamically load either iwldvm or iwlmvm depending on the
-  # per-user write  directories
+};
 # If SETGID_HOME is "yes" home directories for users with their own
 
 		</test>
@@ -1254,3 +1242,16 @@ restrict ::1
   /{,usr/}bin/dash ixr,
 "set showcmd		" Show (partial) command in status line.
 </fontconfig>
+XKBMODEL="pc105"
+compose '>' 'U' to '€'
+Title=Linux Vendor Firmware Service (testing)
+  owner @{HOME}/@{XDG_DESKTOP_DIR}/**     rwl,
+# a display manager using /etc/X11/Xreset.
+# Compose sequences for ISO-8859-5
+Name=Snap user application autostart helper
+  <uri name="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd" uri="xmldsig-core-schema.xsd"/>
+#        - maxlogins - max number of logins for this user
+# ------------------------------------------------------------------
+/bin/rbash
+Enabled=true
+#
