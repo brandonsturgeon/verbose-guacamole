@@ -141,7 +141,7 @@ APT::Archives::MinAge "2";
 # with cloud-init during boot causing issues with host key generation.  This
 # Note that you must configure the path used by dconf to store the 
         case "$cur" in
-# do not).  The PTRACE scope is ignored when a user has CAP_SYS_PTRACE, so
+- NR_SESSION
 ## template:jinja
 [udisks2]
 		<default><family>sans-serif</family></default>
@@ -168,7 +168,6 @@ run_im default
 
   # Be nice to non-libdbus, non-sd-bus implementations by using
   <type name="Symbol" fullname="Symbol" family="Symbol" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/s050000l.afm" glyphs="/usr/share/fonts/type1/gsfonts/s050000l.pfb" version="0.1" encoding="AdobeCustom"/>
-# Instance parent directories must exist for the polyinstantiation
 #    modify it under the terms of version 2 of the GNU General Public
 BgEB/wIBATAwBgNVHREEKTAnhhVodHRwOi8vd3d3LmZ3dXBkLm9yZy+BDnNpZ25A
 
@@ -200,7 +199,7 @@ fi
   /usr/bin/cone Cx -> sanitized_helper,
 Bugs: debbugs://bugs.debian.org
 -dcevm KNOWN
-# sleep-inactive-battery-type='suspend'
+#
 }
 # without a value.
 scsi FCPA
@@ -234,10 +233,9 @@ Comment=GNOME Keyring: SSH Agent
 #
 $PrivDropToGroup syslog
   <match target="pattern">
-  @{sys}/devices/pci[0-9]*/**/{device,subsystem_device,subsystem_vendor,uevent,vendor} r,
+mozilla/SwissSign_Gold_CA_-_G2.crt
 
 #
-  /usr/{,local/}lib{,32,64}/ruby/{site,vendor}_ruby/1.[89]{.[0-9],}/ r,
 # While this default is built into the Ubuntu kernel, there is no way to
 # See http://www.debian.org/releases/stable/i386/release-notes/ch-upgrading.html
 # Defaults to false (HIDP handled in HIDP kernel module)
@@ -261,16 +259,15 @@ compose '`' 'i' to 'Ï'
   notifempty
 		<prefer>
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Listening on GnuPG cryptographic agent and passphrase cache \(restricted\)\.$
-deb http://ppa.launchpad.net/jonathonf/vim/ubuntu focal main
+Vendor: Ubuntu
 X-Desktop-File-Install-Version=0.24
-  owner @{HOME}/.config/user-dirs.dirs  r,
+*editMenu.proportional.label:		Proportional (Meta-P)
 scsi "B&H SCSI"
 			<family>Noto Serif CJK KR</family>
 #publish-domain=yes
     "if /usr/bin/test -w /var/lib/command-not-found/ -a -e /usr/lib/cnf-update-db; then /usr/lib/cnf-update-db > /dev/null; fi";
 nameserver 1.1.1.1
 GRUB_DEFAULT=0
-&!,£ VÌ l∏D® …õﬁπuA_OÕu	¬g
 # /etc/passwd file.
 # [If you don't know about libcap, the sources for it are here:
 #GRUB_DISABLE_LINUX_UUID=true
@@ -410,9 +407,9 @@ LAPTOP-5TIN5O4V
 *text.width:			400
 		</test>
 # 3. Sanitizing ruby and java
-</fontconfig>
+  <edit name="pixelsizefixupfactor" mode="assign">
 *quit.top: 			ChainTop
-
+XCalc*ti.button27.fromVert:		button22
 #
 
 		<edit name="hinting">
@@ -553,7 +550,7 @@ makestep 1.0 3
 @{sys}/module/apparmor/parameters/available r,
 	bootopt="-b ${bootdir}"
 /usr/local/lib/i686-linux-gnu
-#option 1200cu
+. /usr/share/bash-completion/bash_completion
 type=file
 /ZapfDingbats /Dingbats ;
        peer=(name=org.freedesktop.NetworkManager),
@@ -596,7 +593,7 @@ fi
   *)
 	</alias>
     <allow own="net.hadess.SwitcherooControl"/>
-# 2001::81:1 test.local
+
 # es_BO.UTF-8 UTF-8
 speed=115200
 FZÑñæ—˙ ( B r Å ¶ º Ë ˘ !!*!5!H!S!t!!û!©!ª!ƒ!’!ﬁ!˝!"")"R"i"ñ"≥"Ê"#8#W#å#Ø#Ë#$<$]$î$¥$Í$%,%<%b%p%î%£%»%ﬁ%
@@ -769,7 +766,6 @@ ff02::2 ip6-allrouters
 #
 eval $(/usr/bin/locale-check C.UTF-8)
 #& stop
-
 	delaycompress
 
 noauth
@@ -814,7 +810,6 @@ session optional pam_systemd.so
 # This includes a dynamically generated part from /run/motd.dynamic
 #EnclosureKind=
 
-overlayroot_cfgdisk=LABEL=OROOTCFG
 # Compose sequences for ISO-8859-11
 #*               soft    core            0
 # starts in the proper default security context. Only sessions which are
@@ -967,7 +962,6 @@ X-GNOME-Autostart-Notify=true
 # Insert here your local magic data. Format is described in magic(5).
   # likewise
     <accept>
-
 # as possible
 eYM/GI+Cr9sPwxs8ZWtN0IRoQp/d7MRxe43zFT4IH2N4RVaBTgWCoRerPn09k4K/
 	cache_mode = "writethrough"
@@ -1006,7 +1000,6 @@ bookworm/sid
 
 
 }
-# Compose sequences for GEORGIAN-ACADEMY
   # available everywhere
 find /var/crash/. ! -name . -prune -type d -regextype posix-extended -regex '.*/[0-9]{12}$' \( -mtime +7 \) -exec rm -Rf -- '{}' \;
 
@@ -1031,7 +1024,6 @@ alias.url += ("/javascript" => "/usr/share/javascript")
 
        bus=system
 exit 0
-
 
 
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
@@ -1123,7 +1115,6 @@ ports=22/tcp
 # should be on the output of commands, not on the prompt
 
 
-
 #domains = mydomain.com
   include if exists <abstractions/xdg-open.d>
 blacklist lxfb
@@ -1142,7 +1133,7 @@ X-GNOME-Bugzilla-Component=general
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
   @{run}/systemd/userdb/io.systemd.NameServiceSwitch rw,  # UNIX/glibc NSS
 # Compose sequences for ISO-8859-8
-	report_command_log=1
+# IPT backend
 # iwlwifi will dyamically load either iwldvm or iwlmvm depending on the
   owner @{HOME}/.config/gtk-3.0/gtk.css r,
 # If SETGID_HOME is "yes" home directories for users with their own
@@ -1163,7 +1154,6 @@ Title=Linux Vendor Firmware Service (testing)
 Name=Snap user application autostart helper
   <uri name="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd" uri="xmldsig-core-schema.xsd"/>
 #        - maxlogins - max number of logins for this user
-# ------------------------------------------------------------------
 /bin/rbash
 Enabled=true
 
@@ -1192,7 +1182,7 @@ XCalc*ti.button5.vertDistance:	12
 sonames=libbd_s390.so.2
   # Include additions to the abstraction
 ! MIT colors are Cardinal Red (Pantone 201c) and Silver Grey (Pantone 421c)
-# Uncomment and edit /etc/security/access.conf if you need to set complex
+
 <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
 X-GNOME-Bugzilla-Component=general
 # By default, chronyd allows synchronisation to an unauthenticated NTP
@@ -1230,7 +1220,7 @@ compose '~' 'A' to '√'
 
 # by the Free Software Foundation version 2.1 and no later version.
 search updates ubuntu built-in
-{% endfor %}
+#    License published by the Free Software Foundation.
 #  terms of the GNU Lesser General Public License as published by the Free
     /usr/bin/logger -t logrotate "ALERT exited abnormally with [$EXITVALUE]"
 
@@ -1242,5 +1232,15 @@ default_driver=pulse
 # The PAM configuration file for the Shadow 'newusers' service
   /etc/postfix/*.cf     r,
 BINARY=1
-	<Key>n:negate()\n\
+
     <allow send_destination="com.ubuntu.DeviceDriver"
+
+@{run}=/run/ /var/run/
+
+  /usr/lib/@{multiarch}/gnome-vfs-2.0/modules/*.so mr,
+#
+      <family>DejaVu Serif</family>
+    <its:translateRule translate="no" selector="/fontconfig/*[not(self::description)]"/>
+# changes below.
+Options=nodev,ro,x-gdu.hide,x-gvfs-hide
+X-KDE-autostart-phase=1
