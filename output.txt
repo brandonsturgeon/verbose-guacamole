@@ -1,5 +1,5 @@
 
-#
+	exit 1
 
   # System files
 
@@ -130,7 +130,6 @@ MPLS_MULTI	8848		# MPLS with upstream-assigned label [RFC5332]
 ## number in the range 0-3. 
 # Specify file containing keys for NTP authentication.
   abi <abi/3.0>,
-#autodetach off
 
 #
 # particular interface
@@ -142,7 +141,6 @@ APT::Archives::MinAge "2";
 # Note that you must configure the path used by dconf to store the 
         case "$cur" in
 - NR_SESSION
-## template:jinja
 [udisks2]
 		<default><family>sans-serif</family></default>
 # Check for interactive bash and that we haven't already been sourced.
@@ -156,7 +154,6 @@ run_im default
     # Run the right scripts
         add_etc_modules=
 #
-*next.right:			ChainLeft
 # or the other. (Ubuntu: #315056, #323830)
 # encoding, or "locale" which means the encoding of the users locale
 # needs to enumerate graphic devices (as with drmParsePciDeviceInfo() from
@@ -165,7 +162,7 @@ run_im default
 # local
   Associate an image format with a unique identifier. 
 # to update this file, run dpkg-reconfigure cloud-init
-
+*yResolutionFuzz:		20/in
   # Be nice to non-libdbus, non-sd-bus implementations by using
   <type name="Symbol" fullname="Symbol" family="Symbol" foundry="URW" weight="400" style="normal" stretch="normal" format="type1" metrics="/usr/share/fonts/type1/gsfonts/s050000l.afm" glyphs="/usr/share/fonts/type1/gsfonts/s050000l.pfb" version="0.1" encoding="AdobeCustom"/>
 #    modify it under the terms of version 2 of the GNU General Public
@@ -207,7 +204,6 @@ scsi FCPA
 #	        done
 BACKUP_TO = "."
 # /etc/zsh/zlogout: system-wide .zlogout file for zsh(1).
-}
 # for allowing access to xterm
 #   skip - do not copy.
 modules_load_preference=ondemand
@@ -362,7 +358,7 @@ After=snap-lxd-22923.mount
 {% if servers %}# Servers
 FDEDB5BDFCB67411513A61AEE5CB5B5D7C52AF06028EFC996CC1B05B1D6CEA2B
 
-printf '%%G' 
+/usr/lib/x86_64-linux-gnu/libfakeroot
 #    modify it under the terms of version 2 of the GNU General Public
 #objects-per-client-max=1024
 # NIS (man nsswitch) as well as normal /etc/passwd and
@@ -377,7 +373,6 @@ printf '%%G'
 compose ':' '-' to '˜'
 deb http://ppa.launchpad.net/rmescandon/yq/ubuntu focal main
 " options, so any other options should be set AFTER setting 'compatible'.
-  audit deny @{HOME}/.gnupg/{,**} mrwkl,
 ^w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: [origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https://www.rsyslog.com"] exiting on signal [0-9]+.$
     /run/netns/ w,
 	  <family>New Century Schoolbook</family>
@@ -407,7 +402,6 @@ LAPTOP-5TIN5O4V
 *text.width:			400
 		</test>
 # 3. Sanitizing ruby and java
-  <edit name="pixelsizefixupfactor" mode="assign">
 *quit.top: 			ChainTop
 XCalc*ti.button27.fromVert:		button22
 #
@@ -518,7 +512,7 @@ WAIT=10
 # `info libc "Name Service Switch"' for information about this file.
 0:0			none
 PKA6hjhodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9DZXJ0aWZpY2F0aW9u
-[Resolve]
+	weekly
 application/set-payment-initiation
 #  Sets real-time priority for the mixing thread. Not all drivers may use this
 fi
@@ -537,7 +531,7 @@ tss:x:112:
 	åˆ:”o∆Y$ˇw∫>h«pW:ˇâøÅÿ€6‰_£ V2F⁄Oì«˘fx·0}
   # Bittorrent clients
 {% for pool in pools -%}
-			fi
+#SIZELIMIT	12
 constraint from "9.9.9.9"              # quad9 v4 without DNS
 #
 
@@ -550,7 +544,7 @@ makestep 1.0 3
 @{sys}/module/apparmor/parameters/available r,
 	bootopt="-b ${bootdir}"
 /usr/local/lib/i686-linux-gnu
-. /usr/share/bash-completion/bash_completion
+  /usr/include/X11/**             r,
 type=file
 /ZapfDingbats /Dingbats ;
        peer=(name=org.freedesktop.NetworkManager),
@@ -559,7 +553,7 @@ type=file
 Ubuntu 20.04.5 LTS
 
 /usr/local/lib
-type=file
+mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt
 The `cloud-init clean` operation is typically performed by image creators
 # through the PPP network interface.
 compose 'A' 'O' to '≈'
@@ -727,7 +721,6 @@ CATALOG /usr/share/sgml/html/entities/catalog
 #    Copyright (C) 2013 Canonical Ltd.
     </test>
 # You should have received a copy of the GNU Lesser General Public License
-# Compose sequences for IBM1133
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 # invoked with "-" as the first character of argv[0], and
       <Filename>emacs.desktop</Filename>
@@ -753,7 +746,7 @@ alias gawklibpath_default 'unsetenv AWKLIBPATH; setenv AWKLIBPATH `gawk -v x=AWK
 # Specify the key identifiers which are trusted.
 # netrom
 /var/log/alternatives.log {
-DESKTOP=Desktop
+#
 				fi
 ÷bo6è'Ãâßa#·?ç’åFaÙF’E;·Ìò'¨ÈX√F¬=4V3Ö—SUÌî_¥û∞¶	˜–XÕH`FOaT]¥3~—æX.e∆öø6 ˆeá÷á7xÎµ75¯Ê|y¬Ã5l$|x7V3Ö—S-/⁄ŸÄ_¥.OXSW√F¬=4V3Ö—SU≠x£=‚	k:“∞ëpç’åFaÙF’E+ﬁhx¬ö4l$‹Cc5#ÅQ=ÖQu—ä7⁄Ô¯ó√ó^&I~|≥GZ!°ßBH%6c·‹œÚK±‡3ıc4ﬂ‹üüÏùr‰KMÛ4â.Ø¸`ÕøYY~À◊TTKå/É?¯öÔïo
 NoDisplay=true
@@ -890,14 +883,13 @@ find $stamp -newermt 'now-7 days' 2> /dev/null | grep -q -m 1 '.' || /usr/share/
 # here can prevent the package manager of the distribution from interfering
   /usr/bin/w3m Cx -> sanitized_helper,
 	N=/etc/init.d/multipath-tools
-
+#%PAM-1.0
 	;;
 	"[ ! -e /run/systemd/system ] || [ $(id -u) -ne 0 ] || systemctl start --no-block apt-news.service esm-cache.service || true";
 # work, and conversely restores the same services before the user's scripts
     PATH="$HOME/bin:$PATH"
 {%- if servers %}# servers
   /usr/man/**				r,
-# Specify file containing keys for NTP authentication.
 # You do need to talk to an NTP server or two (or three).
 # to prevent metadata writes.  This is needed in order to allow
 			<family>Hapax Berb√®re</family> <!-- tifinagh -->
@@ -925,7 +917,7 @@ OrderBefore=fwupd
 #  * the variable name is SOCKETDIR
 alias.url += ("/javascript" => "/usr/share/javascript")
 # in the centralized mechanism.
-  /dev/ptmx rw,
+
 }
 /dev/sequencer2 rw,
 
@@ -1064,7 +1056,6 @@ deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.c
 # a single time (PER_ONCE).
 
 # Use public servers from the pool.ntp.org project.
-# The PAM configuration file for the Shadow `chsh' service
       Most clients may picks up the first value only. so using "append"
 
 #   include <abstractions/gvfs-open>
@@ -1099,7 +1090,6 @@ try:
 	<include ignore_missing="yes" prefix="xdg">fontconfig/fonts.conf</include>
 alias.url += ("/javascript" => "/usr/share/javascript")
 
-
 # $Id: 20x11-common_process-args 305 2005-07-03 18:51:43Z dnusinow $
   /usr/bin/xfmedia Cxr -> sanitized_helper,
 <!-- Keep in sync with 45-generic.conf -->
@@ -1127,7 +1117,7 @@ X-GNOME-Bugzilla-Component=general
 #    modify it under the terms of version 2 of the GNU General Public
 #    This program is free software; you can redistribute it and/or
 @{PROC}/@{tid}/attr/{apparmor/,}{current,prev,exec} r,
-# The PAM configuration file for the Shadow `passwd' service
+" defaults.vim from being loaded.
 # to be used in conjunction with dhclient-exit-hooks.d/resolved
   # files required by LDAP clients (e.g. nss_ldap/pam_ldap)
 <!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
@@ -1244,3 +1234,17 @@ BINARY=1
 # changes below.
 Options=nodev,ro,x-gdu.hide,x-gvfs-hide
 X-KDE-autostart-phase=1
+  /usr/share/sounds/freedesktop/** r, # for message box alert sound
+# ------------------------------------------------------------------
+mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt
+			exit 1
+			       dhcp6_domain_search dhcp6_name_servers ; do
+	    echo
+◊úvÌ ÒÓ\ŸöØ‹HÈÜ◊®5\Î’ƒdgx•94∑fui˚†€Ì⁄≠Fm˙ﬂüv’-´nsªËc≠™ª\-î˝^—]˚_100æ≥>Ójˆ‘TV{©µV˚®uV˚©ıV®V©I´C‘F´√T›Í5euîö±:FÕZßº’	*Xù§¢’)*YùVM…wÜíÔ,%ﬂ9JæÛî|(˘.RÚ]¢‰ªL…wÖíÔ*%ﬂ5JæÎî|7(˘nRÚ›¢‰ª≠öëÔ%ﬂ]Jæ{î|˜)˘PÚ=§‰{D…˜òíÔ	%ﬂSJægî|œ)˘^PÚΩ§‰{E…˜Z5+ﬂJæ∑î|Ô(˘ﬁSÚ}†‰˚H…˜âíÔ3%ﬂJæØî|ﬂ(˘æSÚ˝†‰˚I…˜ãíÔ∑ õ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏœõ/≥?oæÃ˛º˘2˚ÛÊÀÏ/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/»«˛Ç|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/ «˛¢|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|Ï/…«˛í|∂øøÑ§˘>©
+
+# Compose sequences for CP1255
+
+# DO NOT EDIT OR REMOVE
+# nf_conntrack_netbios_ns: NetBIOS (samba) client support
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+# for it. Matches are exact only at the moment (no globbing etc.).
